@@ -18,7 +18,7 @@ When added the recipe index behaves like a regular conan remote. However note
 that the index doesn't provide any prebuilt packages, thus anything installed
 from it would require a `--build=missing` or a similar flag (see
 https://docs.conan.io/2/reference/commands/install.html[`conan install`
-documentation].
+documentation]).
 
 == Contributing
 
