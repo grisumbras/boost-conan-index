@@ -1,0 +1,29 @@
+= Boost Conan Index
+
+Conan package recipe index for Boost libraries. The project can be cloned and
+used as a
+https://docs.conan.io/2/tutorial/conan_repositories/setup_local_recipes_index.html[
+local recipe index].
+
+== Install
+
+```sh
+git clone https://github.com/grisumbras/boost-conan-index -b conan -d 1
+conan remote add boost-conan-index ./boost-conan-index
+```
+
+== Usage
+
+When added the recipe index behaves like a regular conan remote. However note
+that the index doesn't provide any prebuilt packages, thus anything installed
+from it would require a `--build=missing` or a similar flag (see
+https://docs.conan.io/2/reference/commands/install.html[`conan install`
+documentation].
+
+== Contributing
+
+Contributions are welcome.
+
+== License
+
+link:LICENSE_1_0.txt[BSL-1.0] (C) 2025 Dmitry Arkhipov <grisumbras@yandex.ru>.
