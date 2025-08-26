@@ -1,0 +1,9 @@
+require-b2 {{ project.b2_version }} ;
+
+import testing ;
+
+project package_test ;
+
+exe test : test.cpp /boost/json//boost_json ;
+run test : target-name run ;
+explicit run ;

@@ -24,8 +24,10 @@ import yaml
 
 default_superproject_url = 'https://github.com/boostorg/boost/'
 default_superproject_ref = 'develop'
+index_url = 'https://github.com/grisumbras/boost/'
 
 future_boost_version = '1.90.0'
+b2_tools_version = '0.0.1-a'
 b2_version = '5.3.0'
 
 
@@ -36,11 +38,13 @@ def main(argv):
     fs = FileSystem(args.cleanup)
     git = Git(runner, fs, args.allow_reuse)
 
-    module_registry = dict()
+    tools = RecipeToolsProject()
+    module_registry = {tools.name: tools}
+
     with git.clone_ref(args.url, args.ref, bare=True) as root:
         boost = SuperProject(root, args.url, args.ref, git)
         module_registry['boost'] = boost
-        for submodule in boost.submodules(git):
+        for submodule in boost.submodules(tools, git):
             module_registry[submodule.name] = submodule
 
     template_env = jinja2.Environment(
@@ -52,48 +56,45 @@ def main(argv):
         undefined=jinja2.StrictUndefined,
         extensions=['jinja2.ext.do', 'jinja2.ext.loopcontrols'],
     )
-    template_env.filters['slugify'] = slugify
 
     for module in module_registry.values():
         module.collect_data(git, fs, module_registry)
 
     for module in module_registry.values():
-        module.generate_recipe(args.target, module_registry, template_env, fs)
-
-
-def collect_dependencies(lib_dir, registry, fs):
-    try:
-        deps = collect_deps_from_build_jam(lib_dir, fs)
-    except FileNotFoundError:
-        deps = []
-    if not deps:
-        try:
-            deps = collect_deps_from_cml(lib_dir, fs)
-        except FileNotFoundError:
-            print(f"failed to determine dependencies of '{lib_dir}'...")
-    return [registry[dep] for dep in sorted(set(deps))]
+        module.generate_recipe(args.target, template_env, fs)
 
 
 def collect_deps_from_build_jam(lib_dir, fs):
     with fs.open(os.path.join(lib_dir, 'build.jam'), 'r') as f:
-       lines = f.readlines()
-       while lines:
-           if lines[0].lstrip().startswith('constant boost_dependencies'):
-               break
-           lines = lines[1:]
-       deps = ''
-       while lines:
-           deps += ' ' + lines[0].rstrip()
-           if lines[0].rstrip().endswith(';'):
-               break
-           lines = lines[1:]
-       if not deps:
-           return []
-       return [
-           dep.split('/')[2]
-           for dep in deps.split(': ')[1].split(' ;')[0].split(' ')
-           if dep
-       ]
+        lines = f.readlines()
+        while lines:
+            if lines[0].lstrip().startswith('constant boost_dependencies'):
+                break
+            lines = lines[1:]
+        deps = ''
+        while lines:
+            deps += ' ' + lines[0].rstrip()
+            if lines[0].rstrip().endswith(';'):
+                break
+            lines = lines[1:]
+        if not deps:
+            return []
+        return [
+            dep.split('/')[2]
+            for dep in deps.split(': ')[1].split(' ;')[0].split(' ')
+            if dep
+        ]
+
+
+def collect_module_deps_from_jam_file(path, fs):
+    with fs.open(path, 'r') as f:
+        for line in f.readlines():
+            stripped = line.lstrip()
+            if stripped.startswith('import-search'):
+                module = stripped.split(' ')[1]
+                module = module.split('/')
+                if module[:2] == ['', 'boost']:
+                    yield module[2]
 
 
 def collect_deps_from_cml(lib_dir, fs):
@@ -167,9 +168,8 @@ class Project():
     def conan_ref(self):
         return f'{self.conan_name}/{self.conan_version}'
 
-    def __init__(self, name, relative_path):
+    def __init__(self, name):
         self.name = name
-        self.relative_path = relative_path
 
     def __str__(self):
         return self.name
@@ -181,17 +181,17 @@ class Project():
 class SuperProject(Project):
     @property
     def conan_name(self):
-        return slugify(self.name)
+        return self.name
 
     def __init__(self, path, url, git_ref, git):
-        super().__init__('boost', '.')
+        super().__init__('boost')
         self.git_ref = git_ref
         self.path = path
         self.url = url
         self.commit = git.get_commit(path)
         self.datetime = git.get_datetime(path)
 
-    def submodules(self, git):
+    def submodules(self, tools, git):
         submodules = git.submodule_config(
             self.path, '--name-only', '--get-regexp', 'path')
         for m in submodules:
@@ -214,12 +214,12 @@ class SuperProject(Project):
                 elif path.startswith('libs/'):
                     cls = LibraryProject
 
-                yield cls(name, path, url, self, git)
+                yield cls(name, path, url, self, tools, git)
 
-    def collect_data(self, git, fs, module_registry):
+    def collect_data(self, *_):
         pass
 
-    def generate_recipe(self, base_dir, registry, template_env, fs):
+    def generate_recipe(self, *_):
         print(f'skipping superproject')
 
     def __repr__(self):
@@ -229,17 +229,19 @@ class SuperProject(Project):
 class LibraryProject(Project):
     @property
     def conan_name(self):
-        return f'boost-{slugify(self.name)}'
+        return f'boost-{self.name}'
 
     @property
     def git_ref(self):
         return self.superproject.git_ref
 
-    def __init__(self, name, path, url, superproject, git):
-        super().__init__(name, path)
+    def __init__(self, name, path, url, superproject, tools, git):
+        super().__init__(name)
         self.superproject = superproject
+        self.recipe_tools = tools
         self.url = urllib.parse.urljoin(superproject.url, url)
         self.commit = git.submodule_commit(superproject.path, path)
+        self.dependencies = []
 
     def collect_data(self, git, fs, registry):
         with git.clone_commit(self.url, self.commit, target=self.name) as lib:
@@ -256,16 +258,16 @@ class LibraryProject(Project):
                     setattr(self, k, v)
 
             includedir = os.path.join(lib, 'include')
-            for root, dirs, files in fs.walk(includedir):
+            for root, _, files in fs.walk(includedir):
                 if files:
                     offset = len(includedir) + 1
                     self.header = os.path.join(root, files[0])[offset:]
                     break
 
             self.headeronly = not fs.exists(os.path.join(lib, 'build'))
-            self.dependencies = collect_dependencies(lib, registry, fs)
+            self.dependencies = self._collect_dependencies(lib, registry, fs)
 
-    def generate_recipe(self, base_dir, registry, template_env, fs):
+    def generate_recipe(self, base_dir, template_env, fs):
         pkg_base_dir = os.path.join(base_dir, 'recipes', self.conan_name)
         pkg_dir = os.path.join(pkg_base_dir, 'all')
         pkg_test_dir = os.path.join(pkg_dir, 'test_package')
@@ -312,22 +314,102 @@ class LibraryProject(Project):
     def __repr__(self):
         return f'LibraryProject("{self.name}", "{self.git_ref}")'
 
+    def _collect_dependencies(self, lib_dir, registry, fs):
+        deps = []
+        try:
+            deps = collect_deps_from_build_jam(lib_dir, fs)
+        except FileNotFoundError:
+            pass
+        if not deps:
+            try:
+                deps = collect_deps_from_cml(lib_dir, fs)
+            except FileNotFoundError:
+                pass
 
-class IgnoredProject(Project):
-    def __init__(self, name, path, *args):
-        super().__init__(name, path)
+        try:
+            path = os.path.join(lib_dir, 'build.jam')
+            deps.extend(collect_module_deps_from_jam_file(path, fs))
+        except FileNotFoundError:
+            pass
+        for root, _, files in fs.walk(os.path.join(lib_dir, 'build')):
+            for file in files:
+                path = os.path.join(root, file)
+                try:
+                    deps.extend(collect_module_deps_from_jam_file(path, fs))
+                except FileNotFoundError:
+                    pass
+        return [registry[dep] for dep in sorted(set(deps)) if dep != self.name]
 
-    def update_params(self, *args):
+
+class RecipeToolsProject(Project):
+    @property
+    def conan_version(self):
+        return self.version
+
+    @property
+    def conan_name(self):
+        return self.name
+
+    def __init__(self):
+        super().__init__('b2-tools')
+        self.url = 'https://grisumbras/boost-conan-index'
+        self.version = b2_tools_version
+        self.b2_version = b2_version
+
+    def collect_data(self, *_):
         pass
 
-    def collect_data(self, *args):
-        pass
+    def generate_recipe(self, base_dir, template_env, fs):
+        pkg_base_dir = os.path.join(base_dir, 'recipes', 'b2-tools')
+        pkg_dir = os.path.join(pkg_base_dir, 'all')
+        pkg_test_dir = os.path.join(pkg_dir, 'test_package')
 
-    def generate_recipe(self, base_dir, registry, template_env, fs):
-        print(f"skipping submodule '{self.relative_path}'")
+        fs.create_path(pkg_test_dir)
+
+        versions = dict()
+        versions['versions'] = dict()
+        versions['versions'][self.version] = {'folder': 'all'}
+
+        with fs.open(os.path.join(pkg_base_dir, 'config.yml'), 'w') as f:
+            yaml.dump(versions, f)
+
+        template = template_env.get_template('tools.py.jinja')
+        with fs.open(os.path.join(pkg_dir, 'conanfile.py'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+        fs.copy(
+            os.path.join(os.path.dirname(__file__), 'LICENSE_1_0.txt'),
+            pkg_dir,
+        )
+
+        template = template_env.get_template('tools_test_conanfile.py.jinja')
+        with fs.open(os.path.join(pkg_test_dir, 'conanfile.py'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+        template = template_env.get_template('test_jamroot.jam.jinja')
+        with fs.open(os.path.join(pkg_test_dir, 'jamroot.jam'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+        template = template_env.get_template('tools_test.cpp.jinja')
+        with fs.open(os.path.join(pkg_test_dir, 'test.cpp'), 'w') as f:
+            template.stream({}).dump(f)
 
     def __repr__(self):
-        return f'IgnoredProject("{self.name}", "{self.git_ref}")'
+        return f'RecipeToolsProject()'
+
+
+class IgnoredProject(Project):
+    def __init__(self, name, *_):
+        super().__init__(name)
+
+    def collect_data(self, *_):
+        pass
+
+    def generate_recipe(self, *_):
+        print(f"skipping submodule '{self.name}'")
+
+    def __repr__(self):
+        return f'IgnoredProject("{self.name}")'
 
 
 class Git():
@@ -432,20 +514,9 @@ class FileSystem():
             if self.cleanup:
                 shutil.rmtree(path)
 
-
-def slugify(text):
-    result = ''
-    for c in text:
-        if not c.isalnum():
-            if result and result[-1] != '-':
-                result += '-'
-        elif c.isupper():
-            if result and result[-1] != '-':
-                result + '-'
-            result += c.lower()
-        else:
-            result += c
-    return result
+    @staticmethod
+    def copy(src, dst):
+        shutil.copy(src, dst)
 
 
 if __name__ == '__main__':

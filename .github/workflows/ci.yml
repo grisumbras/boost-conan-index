@@ -33,25 +33,6 @@ jobs:
       - name: Generate index
         run: ./generate.py --ref  ${{ matrix.boost-ref }} --target index
 
-      - name: Setup Conan
-        run: conan profile detect
-
-      - name: Test selected packages
-        run: |
-          set -ex
-
-          conan remote add boost-conan-index ./index
-
-          ANY_VERSION=`python <<EOF
-          import yaml
-          with open("index/recipes/boost-any/config.yml", "r") as f:
-            cfg = yaml.load(f, yaml.Loader)
-            version = next(iter(cfg["versions"]))
-            print(version)
-          EOF`
-          conan test --build=missing \
-            index/recipes/boost-any/all/test_package boost-any/$ANY_VERSION
-
       - name: Save index
         uses: actions/upload-artifact@v4
         with:
@@ -63,13 +44,99 @@ jobs:
           retention-days: 1
           compression-level: 9
 
-  Merge:
+  test-linux:
+    name: Test on Linux
     runs-on: ubuntu-latest
     needs: Generate
+    strategy:
+      matrix:
+        boost-ref:
+          - develop
+          - master
+          - boost-1.89.0
+        toolset:
+          - gcc
+          - clang
+
+    steps:
+      - name: Fetch head
+        uses: actions/checkout@v5
+
+      - name: Download new indices
+        uses: actions/download-artifact@v5
+        with:
+          name: index-${{ matrix.boost-ref }}
+          path: index
+
+      - name: Setup Conan
+        run: |
+          set -ex
+
+          pip install conan
+          conan remote add boost-conan-index ./index
+
+      - name: Test selected packages
+        run: |
+          set -ex
+
+          for proj in boost-json b2-tools; do
+            conan test --build=missing \
+                -pr:a ./test/linux-${{ matrix.toolset }}.profile \
+                "index/recipes/$proj/all/test_package" \
+                "$proj/[>0-a,include_prerelease]"
+          done
+
+  test-windows:
+    name: Test on Windows
+    runs-on: windows-latest
+    needs: Generate
+    strategy:
+      matrix:
+        boost-ref:
+          - develop
+          - master
+          - boost-1.89.0
+        toolset:
+          - msvc
+
+    steps:
+      - name: Fetch head
+        uses: actions/checkout@v5
+
+      - name: Download new indices
+        uses: actions/download-artifact@v5
+        with:
+          name: index-${{ matrix.boost-ref }}
+          path: index
+
+      - name: Setup Conan
+        run: |
+          set -ex
+
+          pip install conan
+          conan remote add boost-conan-index ./index
+
+      - name: Test selected packages
+        run: |
+          set -ex
+
+          for proj in boost-json b2-tools; do
+            conan test --build=missing \
+                -pr:a ./test/windows-${{ matrix.toolset }}.profile \
+                "index/recipes/$proj/all/test_package" \
+                "$proj/[>0-a,include_prerelease]"
+          done
+
+  Merge:
+    runs-on: ubuntu-latest
+    needs:
+        - Generate
+        - test-linux
+        - test-windows
     permissions:
       contents: write
-    steps:
 
+    steps:
       - name: Fetch head
         uses: actions/checkout@v5
         with:
