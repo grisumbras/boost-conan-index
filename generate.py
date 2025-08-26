@@ -24,8 +24,10 @@ import yaml
 
 default_superproject_url = 'https://github.com/boostorg/boost/'
 default_superproject_ref = 'develop'
+index_url = 'https://github.com/grisumbras/boost/'
 
 future_boost_version = '1.90.0'
+b2_generators_version = '0.0.1-a'
 b2_version = '5.3.0'
 
 
@@ -36,11 +38,13 @@ def main(argv):
     fs = FileSystem(args.cleanup)
     git = Git(runner, fs, args.allow_reuse)
 
-    module_registry = dict()
+    generators = GeneratorsProject()
+    module_registry = {generators.name: generators}
+
     with git.clone_ref(args.url, args.ref, bare=True) as root:
         boost = SuperProject(root, args.url, args.ref, git)
         module_registry['boost'] = boost
-        for submodule in boost.submodules(git):
+        for submodule in boost.submodules(generators, git):
             module_registry[submodule.name] = submodule
 
     template_env = jinja2.Environment(
@@ -58,7 +62,7 @@ def main(argv):
         module.collect_data(git, fs, module_registry)
 
     for module in module_registry.values():
-        module.generate_recipe(args.target, module_registry, template_env, fs)
+        module.generate_recipe(args.target, template_env, fs)
 
 
 def collect_dependencies(lib_dir, registry, fs):
@@ -167,9 +171,8 @@ class Project():
     def conan_ref(self):
         return f'{self.conan_name}/{self.conan_version}'
 
-    def __init__(self, name, relative_path):
+    def __init__(self, name):
         self.name = name
-        self.relative_path = relative_path
 
     def __str__(self):
         return self.name
@@ -184,14 +187,14 @@ class SuperProject(Project):
         return slugify(self.name)
 
     def __init__(self, path, url, git_ref, git):
-        super().__init__('boost', '.')
+        super().__init__('boost')
         self.git_ref = git_ref
         self.path = path
         self.url = url
         self.commit = git.get_commit(path)
         self.datetime = git.get_datetime(path)
 
-    def submodules(self, git):
+    def submodules(self, generators, git):
         submodules = git.submodule_config(
             self.path, '--name-only', '--get-regexp', 'path')
         for m in submodules:
@@ -214,12 +217,12 @@ class SuperProject(Project):
                 elif path.startswith('libs/'):
                     cls = LibraryProject
 
-                yield cls(name, path, url, self, git)
+                yield cls(name, path, url, self, generators, git)
 
-    def collect_data(self, git, fs, module_registry):
+    def collect_data(self, *_):
         pass
 
-    def generate_recipe(self, base_dir, registry, template_env, fs):
+    def generate_recipe(self, *_):
         print(f'skipping superproject')
 
     def __repr__(self):
@@ -235,9 +238,10 @@ class LibraryProject(Project):
     def git_ref(self):
         return self.superproject.git_ref
 
-    def __init__(self, name, path, url, superproject, git):
-        super().__init__(name, path)
+    def __init__(self, name, path, url, superproject, generators, git):
+        super().__init__(name)
         self.superproject = superproject
+        self.generators = generators
         self.url = urllib.parse.urljoin(superproject.url, url)
         self.commit = git.submodule_commit(superproject.path, path)
 
@@ -265,7 +269,7 @@ class LibraryProject(Project):
             self.headeronly = not fs.exists(os.path.join(lib, 'build'))
             self.dependencies = collect_dependencies(lib, registry, fs)
 
-    def generate_recipe(self, base_dir, registry, template_env, fs):
+    def generate_recipe(self, base_dir, template_env, fs):
         pkg_base_dir = os.path.join(base_dir, 'recipes', self.conan_name)
         pkg_dir = os.path.join(pkg_base_dir, 'all')
         pkg_test_dir = os.path.join(pkg_dir, 'test_package')
@@ -313,21 +317,70 @@ class LibraryProject(Project):
         return f'LibraryProject("{self.name}", "{self.git_ref}")'
 
 
-class IgnoredProject(Project):
-    def __init__(self, name, path, *args):
-        super().__init__(name, path)
+class GeneratorsProject(Project):
+    @property
+    def conan_version(self):
+        return self.version
 
-    def update_params(self, *args):
+    @property
+    def conan_name(self):
+        return self.name
+
+    def __init__(self):
+        super().__init__('b2-generators')
+        self.url = index_url
+        self.version = b2_generators_version
+        self.b2_version = b2_version
+
+    def collect_data(self, *_):
         pass
 
-    def collect_data(self, *args):
-        pass
+    def generate_recipe(self, base_dir, template_env, fs):
+        pkg_base_dir = os.path.join(base_dir, 'recipes', 'b2-generators')
+        pkg_dir = os.path.join(pkg_base_dir, 'all')
+        pkg_test_dir = os.path.join(pkg_dir, 'test_package')
 
-    def generate_recipe(self, base_dir, registry, template_env, fs):
-        print(f"skipping submodule '{self.relative_path}'")
+        fs.create_path(pkg_test_dir)
+
+        versions = dict()
+        versions['versions'] = dict()
+        versions['versions'][self.version] = {'folder': 'all'}
+
+        with fs.open(os.path.join(pkg_base_dir, 'config.yml'), 'w') as f:
+            yaml.dump(versions, f)
+
+        template = template_env.get_template('generators.py.jinja')
+        with fs.open(os.path.join(pkg_dir, 'conanfile.py'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+        template = template_env.get_template('test_conanfile.py.jinja')
+        with fs.open(os.path.join(pkg_test_dir, 'conanfile.py'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+        template = template_env.get_template('test_jamroot.jam.jinja')
+        with fs.open(os.path.join(pkg_test_dir, 'jamroot.jam'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+        template = template_env.get_template('generator_test.cpp.jinja')
+        with fs.open(os.path.join(pkg_test_dir, 'test.cpp'), 'w') as f:
+            template.stream({}).dump(f)
 
     def __repr__(self):
-        return f'IgnoredProject("{self.name}", "{self.git_ref}")'
+        return f'GeneratorsProject()'
+
+
+class IgnoredProject(Project):
+    def __init__(self, name, *_):
+        super().__init__(name)
+
+    def collect_data(self, *_):
+        pass
+
+    def generate_recipe(self, *_):
+        print(f"skipping submodule '{self.name}'")
+
+    def __repr__(self):
+        return f'IgnoredProject("{self.name}")'
 
 
 class Git():
@@ -431,7 +484,6 @@ class FileSystem():
         finally:
             if self.cleanup:
                 shutil.rmtree(path)
-
 
 def slugify(text):
     result = ''
