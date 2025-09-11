@@ -498,7 +498,15 @@ class Boost{{ project.name.title() }}Recipe(ConanFile):
 
     def requirements(self):
         for dep in self.conan_data['sources'][self.version]['dependencies']:
-            self.requires(dep)
+            self.requires(
+                dep,
+                headers=True,
+                transitive_headers=True,
+            {%- if not project.headeronly %}
+                libs=True,
+                transitive_libs=True,
+            {% endif -%}
+            )
 
     def source(self):
         git = Git(self)
@@ -522,7 +530,6 @@ class Boost{{ project.name.title() }}Recipe(ConanFile):
         {% if project.headeronly -%}
         self.cpp_info.bindirs = []
         self.cpp_info.libdirs = []
-        self.cpp_info.components['boost_{{project.name}}'].libs = []
         {%- endif %}
         self.cpp_info.set_property('cmake_target_name', 'Boost::{{project.name.title()}}')
         self.cpp_info.set_property('b2_project_name', '/boost/{{project.name|slugify}}')

@@ -8,7 +8,7 @@ local recipe index].
 == Install
 
 ```sh
-git clone https://github.com/grisumbras/boost-conan-index -b conan -d 1
+git clone https://github.com/grisumbras/boost-conan-index -b index -d 1
 conan remote add boost-conan-index ./boost-conan-index
 ```
 
