@@ -38,7 +38,7 @@ def main(argv):
 
     module_registry = dict()
     with git.clone_ref(args.url, args.ref, bare=True) as root:
-        boost = Project('boost')
+        boost = Project('boost', args.ref)
         boost.path = '.'
         boost.url = args.url
         boost.commit = git.get_commit(root)
@@ -49,7 +49,7 @@ def main(argv):
             root, '--name-only', '--get-regexp', 'path')
         for m in modules:
             name = m.split('.')[1]
-            module = Project(name, is_submodule=True)
+            module = Project(name, args.ref, is_submodule=True)
             params = git.submodule_config(
                 root, '--get-regexp', f'submodule\\.{name}\\.')
             for p in params:
@@ -151,11 +151,9 @@ def collect_deps_from_cml(lib_dir, fs):
        deps = []
        for line in f.readlines():
            if line.lstrip().startswith('Boost::'):
-               deps.append(line.strip())
-       return [
-           fix_dep_name_for_cml(dep.split(':')[2])
-           for dep in deps
-       ]
+               dep = line.strip().split(':')[2]
+               deps.append(fix_dep_name_for_cml(dep))
+       return [dep for dep in deps if dep != 'headers']
 
 
 def fix_dep_name_for_cml(name):
@@ -204,13 +202,6 @@ def parse_args(argv):
 
 
 def update_recipe(base_dir, project, ref, registry, template_env, fs):
-    if ref in ('develop', 'master'):
-        version = (f'{future_boost_version}+{ref}-'
-                   f'{project.datetime.strftime('%y.%m.%d')}')
-    elif version.startswith('boost-'):
-        version = ref[7:]
-    else:
-        version = ref
     pkg_name = f'boost-{slugify(project.name)}'
     pkg_base_dir = os.path.join(base_dir, 'recipes', pkg_name)
     pkg_dir = os.path.join(pkg_base_dir, 'all')
@@ -220,20 +211,18 @@ def update_recipe(base_dir, project, ref, registry, template_env, fs):
 
     versions = dict()
     versions['versions'] = dict()
-    versions['versions'][version] = dict()
-    versions['versions'][version]['folder'] = 'all'
+    versions['versions'][project.conan_version] = {'folder': 'all'}
+
     with fs.open(os.path.join(pkg_base_dir, 'config.yml'), 'w') as f:
         yaml.dump(versions, f)
 
     conandata = dict()
     conandata['sources'] = dict()
-    conandata['sources'][version] = dict()
-    conandata['sources'][version]['url'] = project.url
-    conandata['sources'][version]['commit'] = project.commit
-    conandata['sources'][version]['dependencies'] = [
-        f'boost-{slugify(dep.name)}/{version}'
-        for dep in project.dependencies
-    ]
+    conandata['sources'][project.conan_version] = {
+        'url': project.url,
+        'commit': project.commit,
+        'dependencies': [ dep.conan_ref for dep in project.dependencies ],
+    }
 
     with fs.open(os.path.join(pkg_dir, 'conandata.yml'), 'w') as f:
         yaml.dump(conandata, f)
@@ -259,9 +248,25 @@ def update_recipe(base_dir, project, ref, registry, template_env, fs):
 
 
 class Project():
-    def __init__(self, name, is_submodule=False):
+    def __init__(self, name, git_ref, is_submodule=False):
         self.name = name
         self.is_submodule = is_submodule
+        self.git_ref = git_ref
+
+    @property
+    def conan_version(self):
+        if self.git_ref in ('develop', 'master'):
+            return (
+                f'{future_boost_version}-{self.git_ref}'
+                f'+{self.datetime.strftime("%y.%m.%d")}')
+        elif self.git_ref.startswith('boost-'):
+            return self.git_ref[6:]
+        else:
+            return self.git_ref
+
+    @property
+    def conan_ref(self):
+        return f'boost-{slugify(self.name)}/{self.conan_version}'
 
     def __str__(self):
         return self.name
@@ -293,12 +298,16 @@ class Git():
 
         if not self.allow_reuse or not self.fs.exists(target):
             self.fs.create_path(target)
-            self.runner.run('git', '-C', target, 'init')
-            self.runner.run('git', '-C', target, 'remote', 'add', 'origin', repo)
+            self.runner.run('git', '-C', target, 'init', '-b', 'master')
+            self.runner.run(
+                'git', '-C', target, 'remote', 'add', 'origin', repo,
+            )
             self.runner.run(
                 'git', '-C', target, 'fetch', 'origin', commit, '--depth', '1',
             )
-            self.runner.run('git', '-C', target, 'reset', '--hard', 'FETCH_HEAD')
+            self.runner.run(
+                'git', '-C', target, 'reset', '--hard', 'FETCH_HEAD',
+            )
         return self.fs.claim_directory(target)
 
     def get_commit(self, tree):
