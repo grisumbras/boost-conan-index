@@ -25,7 +25,7 @@ import yaml
 default_superproject_url = 'https://github.com/boostorg/boost/'
 default_superproject_ref = 'develop'
 
-future_boost_version = '1.89.0'
+future_boost_version = '1.90.0'
 b2_version = '5.3.0'
 
 
