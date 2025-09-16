@@ -259,8 +259,8 @@ class LibraryProject(Project):
                     self.header = os.path.join(root, files[0])[offset:]
                     break
 
-        self.headeronly = not fs.exists(os.path.join(lib, 'build'))
-        self.dependencies = collect_dependencies(lib, registry, fs)
+            self.headeronly = not fs.exists(os.path.join(lib, 'build'))
+            self.dependencies = collect_dependencies(lib, registry, fs)
 
     def generate_recipe(self, base_dir, registry, template_env, fs):
         pkg_base_dir = os.path.join(base_dir, 'recipes', self.conan_name)
