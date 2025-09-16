@@ -1,0 +1,64 @@
+sources:
+  1.89.0:
+    commit: 5597aa0055b81017f6ea24cb652f07a014b12771
+    dependencies:
+    - boost-algorithm/1.89.0
+    - boost-asio/1.89.0
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-fusion/1.89.0
+    - boost-io/1.89.0
+    - boost-iterator/1.89.0
+    - boost-move/1.89.0
+    - boost-optional/1.89.0
+    - boost-system/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-tokenizer/1.89.0
+    - boost-type-index/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-utility/1.89.0
+    - boost-winapi/1.89.0
+    url: https://github.com/boostorg/process.git
+  1.90.0-develop+25.09.07:
+    commit: 1bfe21baa32acc64f865c65ef5924b167de33439
+    dependencies:
+    - boost-algorithm/1.90.0-develop+25.08.25
+    - boost-asio/1.90.0-develop+25.08.06
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-fusion/1.90.0-develop+24.08.21
+    - boost-io/1.90.0-develop+25.06.26
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-move/1.90.0-develop+25.08.23
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-tokenizer/1.90.0-develop+25.07.02
+    - boost-type-index/1.90.0-develop+25.09.07
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-utility/1.90.0-develop+25.08.25
+    - boost-winapi/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/process.git
+  1.90.0-master+25.07.01:
+    commit: 5597aa0055b81017f6ea24cb652f07a014b12771
+    dependencies:
+    - boost-algorithm/1.90.0-master+23.08.02
+    - boost-asio/1.90.0-master+25.08.06
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-fusion/1.90.0-master+24.05.15
+    - boost-io/1.90.0-master+23.10.03
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-move/1.90.0-master+25.05.20
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-system/1.90.0-master+25.07.02
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-tokenizer/1.90.0-master+25.01.01
+    - boost-type-index/1.90.0-master+25.09.07
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    - boost-winapi/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/process.git

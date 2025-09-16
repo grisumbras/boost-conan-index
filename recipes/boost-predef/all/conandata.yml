@@ -1,0 +1,13 @@
+sources:
+  1.89.0:
+    commit: e1211a4ca467bb6512e99025772ca25afa8d6159
+    dependencies: []
+    url: https://github.com/boostorg/predef.git
+  1.90.0-develop+25.02.03:
+    commit: a2a5010e2824b7740890a3bf463b8c4b8927aaa7
+    dependencies: []
+    url: https://github.com/boostorg/predef.git
+  1.90.0-master+25.01.12:
+    commit: e1211a4ca467bb6512e99025772ca25afa8d6159
+    dependencies: []
+    url: https://github.com/boostorg/predef.git

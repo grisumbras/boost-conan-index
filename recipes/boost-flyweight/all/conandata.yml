@@ -1,0 +1,52 @@
+sources:
+  1.89.0:
+    commit: 76c84ce5b3f38abf774f36269ff3978301f06241
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-container-hash/1.89.0
+    - boost-core/1.89.0
+    - boost-detail/1.89.0
+    - boost-interprocess/1.89.0
+    - boost-mpl/1.89.0
+    - boost-multi-index/1.89.0
+    - boost-parameter/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/flyweight.git
+  1.90.0-develop+25.06.22:
+    commit: 76c84ce5b3f38abf774f36269ff3978301f06241
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-container-hash/1.90.0-develop+25.08.21
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-detail/1.90.0-develop+25.06.13
+    - boost-interprocess/1.90.0-develop+25.09.05
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-multi-index/1.90.0-develop+25.09.08
+    - boost-parameter/1.90.0-develop+25.08.25
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/flyweight.git
+  1.90.0-master+25.06.22:
+    commit: 76c84ce5b3f38abf774f36269ff3978301f06241
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-detail/1.90.0-master+25.06.13
+    - boost-interprocess/1.90.0-master+25.05.20
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-multi-index/1.90.0-master+25.09.11
+    - boost-parameter/1.90.0-master+25.08.25
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/flyweight.git

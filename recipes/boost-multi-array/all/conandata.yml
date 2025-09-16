@@ -1,0 +1,43 @@
+sources:
+  1.89.0:
+    commit: 0c5348bef71b890c4bd06eff1ee5ebda69e7b27a
+    dependencies:
+    - boost-array/1.89.0
+    - boost-assert/1.89.0
+    - boost-concept-check/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-functional/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mpl/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/multi_array.git
+  1.90.0-develop+25.06.25:
+    commit: 333c304d84aaadf5b42aa344e4b87f5fbfd489ba
+    dependencies:
+    - boost-array/1.90.0-develop+25.04.03
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-concept-check/1.90.0-develop+25.07.02
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-functional/1.90.0-develop+25.06.26
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/multi_array.git
+  1.90.0-master+21.05.28:
+    commit: 0c5348bef71b890c4bd06eff1ee5ebda69e7b27a
+    dependencies:
+    - boost-array/1.90.0-master+25.04.03
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-concept-check/1.90.0-master+24.12.28
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-functional/1.90.0-master+23.04.17
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/multi_array.git

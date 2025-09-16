@@ -1,0 +1,28 @@
+sources:
+  1.89.0:
+    commit: 60baaae454b2da887a31cf939e22015b6263c9e4
+    dependencies:
+    - boost-config/1.89.0
+    - boost-function/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    url: https://github.com/boostorg/scope_exit.git
+  1.90.0-develop+25.05.02:
+    commit: 5450074da7f1d338eb5774b245bd7a255f92680e
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-function/1.90.0-develop+24.12.14
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    url: https://github.com/boostorg/scope_exit.git
+  1.90.0-master+21.05.28:
+    commit: 60baaae454b2da887a31cf939e22015b6263c9e4
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    - boost-function/1.90.0-master+24.12.14
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    url: https://github.com/boostorg/scope_exit.git

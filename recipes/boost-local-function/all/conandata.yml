@@ -1,0 +1,34 @@
+sources:
+  1.89.0:
+    commit: 258aeaa6c1a9618c02ca4e4af2890e70833035f0
+    dependencies:
+    - boost-config/1.89.0
+    - boost-mpl/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-scope-exit/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/local_function.git
+  1.90.0-develop+25.06.26:
+    commit: ff0934f6a397ec8949c52386d9b2fe0b29715e9f
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-scope-exit/1.90.0-develop+25.05.02
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/local_function.git
+  1.90.0-master+24.01.23:
+    commit: 258aeaa6c1a9618c02ca4e4af2890e70833035f0
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-scope-exit/1.90.0-master+21.05.28
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/local_function.git

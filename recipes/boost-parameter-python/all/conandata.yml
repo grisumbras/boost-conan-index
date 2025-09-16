@@ -1,0 +1,25 @@
+sources:
+  1.89.0:
+    commit: 1f7f9ce9930119f0dda7dcd5e1ec3b5ed7c6b091
+    dependencies:
+    - boost-mpl/1.89.0
+    - boost-parameter/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-python/1.89.0
+    url: https://github.com/boostorg/parameter_python.git
+  1.90.0-develop+25.05.02:
+    commit: 800edc0398c0cabad1efb51da195df9cd294b783
+    dependencies:
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-parameter/1.90.0-develop+25.08.25
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-python/1.90.0-develop+25.03.31
+    url: https://github.com/boostorg/parameter_python.git
+  1.90.0-master+21.11.12:
+    commit: 1f7f9ce9930119f0dda7dcd5e1ec3b5ed7c6b091
+    dependencies:
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-parameter/1.90.0-master+25.08.25
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-python/1.90.0-master+25.03.10
+    url: https://github.com/boostorg/parameter_python.git

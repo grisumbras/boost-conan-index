@@ -1,0 +1,34 @@
+sources:
+  1.89.0:
+    commit: 66075102416bc5d0f8e0bd151a19013dadbf94ce
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-optional/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/format.git
+  1.90.0-develop+25.06.26:
+    commit: 3fb39d7deeb2a1b13765fe19358518a010ba66b7
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/format.git
+  1.90.0-master+25.01.02:
+    commit: 66075102416bc5d0f8e0bd151a19013dadbf94ce
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/format.git

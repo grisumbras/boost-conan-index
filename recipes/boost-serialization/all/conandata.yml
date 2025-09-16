@@ -1,0 +1,77 @@
+sources:
+  1.89.0:
+    commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
+    dependencies:
+    - boost-array/1.89.0
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-detail/1.89.0
+    - boost-function/1.89.0
+    - boost-integer/1.89.0
+    - boost-io/1.89.0
+    - boost-iterator/1.89.0
+    - boost-move/1.89.0
+    - boost-mpl/1.89.0
+    - boost-optional/1.89.0
+    - boost-predef/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-spirit/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-unordered/1.89.0
+    - boost-utility/1.89.0
+    - boost-variant/1.89.0
+    url: https://github.com/boostorg/serialization.git
+  1.90.0-develop+24.08.18:
+    commit: 8a8c62864f05732131bf6785d54466d8ac6cd477
+    dependencies:
+    - boost-array/1.90.0-develop+25.04.03
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-detail/1.90.0-develop+25.06.13
+    - boost-integer/1.90.0-develop+25.08.25
+    - boost-io/1.90.0-develop+25.06.26
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-move/1.90.0-develop+25.08.23
+    - boost-mp11/1.90.0-develop+25.09.09
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-predef/1.90.0-develop+25.02.03
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-spirit/1.90.0-develop+25.09.13
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-utility/1.90.0-develop+25.08.25
+    - boost-variant/1.90.0-develop+25.09.13
+    - boost-variant2/1.90.0-develop+25.01.15
+    url: https://github.com/boostorg/serialization.git
+  1.90.0-master+23.11.12:
+    commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
+    dependencies:
+    - boost-array/1.90.0-master+25.04.03
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-detail/1.90.0-master+25.06.13
+    - boost-function/1.90.0-master+24.12.14
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-io/1.90.0-master+23.10.03
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-move/1.90.0-master+25.05.20
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-predef/1.90.0-master+25.01.12
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-spirit/1.90.0-master+25.03.01
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-unordered/1.90.0-master+25.06.02
+    - boost-utility/1.90.0-master+25.08.25
+    - boost-variant/1.90.0-master+25.01.08
+    url: https://github.com/boostorg/serialization.git

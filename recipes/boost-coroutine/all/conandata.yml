@@ -1,0 +1,43 @@
+sources:
+  1.89.0:
+    commit: 8b09bf7d0e8a13d1ef59aaff02a84d42acb034f3
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-context/1.89.0
+    - boost-core/1.89.0
+    - boost-exception/1.89.0
+    - boost-move/1.89.0
+    - boost-system/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/coroutine.git
+  1.90.0-develop+24.08.28:
+    commit: 8b09bf7d0e8a13d1ef59aaff02a84d42acb034f3
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-context/1.90.0-develop+25.08.26
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-exception/1.90.0-develop+25.05.03
+    - boost-move/1.90.0-develop+25.08.23
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/coroutine.git
+  1.90.0-master+24.08.28:
+    commit: 8b09bf7d0e8a13d1ef59aaff02a84d42acb034f3
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-context/1.90.0-master+25.05.25
+    - boost-core/1.90.0-master+25.08.25
+    - boost-exception/1.90.0-master+25.03.02
+    - boost-move/1.90.0-master+25.05.20
+    - boost-system/1.90.0-master+25.07.02
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/coroutine.git

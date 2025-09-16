@@ -1,0 +1,37 @@
+sources:
+  1.89.0:
+    commit: f529dbbd6156b57f079f1387768b585a37d0f621
+    dependencies:
+    - boost-align/1.89.0
+    - boost-asio/1.89.0
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-context/1.89.0
+    - boost-date-time/1.89.0
+    - boost-system/1.89.0
+    - boost-throw-exception/1.89.0
+    url: https://github.com/boostorg/asio.git
+  1.90.0-develop+25.08.06:
+    commit: 44722ea0246e001e5fbac6a8b3b8ee153882c83e
+    dependencies:
+    - boost-align/1.90.0-develop+25.06.26
+    - boost-asio/1.90.0-develop+25.08.06
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-context/1.90.0-develop+25.08.26
+    - boost-date-time/1.90.0-develop+25.07.07
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    url: https://github.com/boostorg/asio.git
+  1.90.0-master+25.08.06:
+    commit: f529dbbd6156b57f079f1387768b585a37d0f621
+    dependencies:
+    - boost-align/1.90.0-master+22.11.11
+    - boost-asio/1.90.0-master+25.08.06
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-context/1.90.0-master+25.05.25
+    - boost-date-time/1.90.0-master+22.10.31
+    - boost-system/1.90.0-master+25.07.02
+    - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/asio.git

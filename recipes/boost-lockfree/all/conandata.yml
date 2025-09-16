@@ -1,0 +1,40 @@
+sources:
+  1.89.0:
+    commit: 4a69f38b3d1d20ac56e60095a550ffb2ce4ccbd7
+    dependencies:
+    - boost-align/1.89.0
+    - boost-assert/1.89.0
+    - boost-atomic/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-parameter/1.89.0
+    - boost-predef/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/lockfree.git
+  1.90.0-develop+25.09.06:
+    commit: 1a5af261286a102848d090b1b84b51b1d231dc29
+    dependencies:
+    - boost-align/1.90.0-develop+25.06.26
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-atomic/1.90.0-develop+25.08.26
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-parameter/1.90.0-develop+25.08.25
+    - boost-predef/1.90.0-develop+25.02.03
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/lockfree.git
+  1.90.0-master+25.04.05:
+    commit: 4a69f38b3d1d20ac56e60095a550ffb2ce4ccbd7
+    dependencies:
+    - boost-align/1.90.0-master+22.11.11
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-atomic/1.90.0-master+25.08.26
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-parameter/1.90.0-master+25.08.25
+    - boost-predef/1.90.0-master+25.01.12
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/lockfree.git

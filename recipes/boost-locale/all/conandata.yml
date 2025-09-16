@@ -1,0 +1,25 @@
+sources:
+  1.89.0:
+    commit: 9b7775715a50e62c5bc0ed99d65e0f56c06361f4
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-iterator/1.89.0
+    url: https://github.com/boostorg/locale.git
+  1.90.0-develop+25.09.04:
+    commit: 3c2726b2f984caf9a73cf172e0a8b74df78efd44
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-iterator/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/locale.git
+  1.90.0-master+25.09.04:
+    commit: da39dbaf86b2f994e2ae1577d98e4be39cc683bc
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-iterator/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/locale.git

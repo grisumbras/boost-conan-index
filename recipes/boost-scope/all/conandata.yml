@@ -1,0 +1,25 @@
+sources:
+  1.89.0:
+    commit: e286819b43744aa589e6b1937ae0e6f78f038cc7
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/scope.git
+  1.90.0-develop+25.08.25:
+    commit: edb755c829ba65e89f9d97ec3bb85c374f3a3451
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/scope.git
+  1.90.0-master+25.08.25:
+    commit: edb755c829ba65e89f9d97ec3bb85c374f3a3451
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/scope.git

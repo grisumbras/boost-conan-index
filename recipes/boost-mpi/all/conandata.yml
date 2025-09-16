@@ -1,0 +1,61 @@
+sources:
+  1.89.0:
+    commit: c548d5e72617b57b762105dac9f21be3ca00725a
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-foreach/1.89.0
+    - boost-function/1.89.0
+    - boost-graph/1.89.0
+    - boost-integer/1.89.0
+    - boost-iterator/1.89.0
+    - boost-lexical-cast/1.89.0
+    - boost-mpl/1.89.0
+    - boost-optional/1.89.0
+    - boost-serialization/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/mpi.git
+  1.90.0-develop+25.05.06:
+    commit: 2fe4c4e9e9aa8c0703bb01c389b48171d0a67ad4
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-foreach/1.90.0-develop+25.05.02
+    - boost-function/1.90.0-develop+24.12.14
+    - boost-graph/1.90.0-develop+25.08.25
+    - boost-integer/1.90.0-develop+25.08.25
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-lexical-cast/1.90.0-develop+25.09.08
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-serialization/1.90.0-develop+24.08.18
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/mpi.git
+  1.90.0-master+25.02.26:
+    commit: c548d5e72617b57b762105dac9f21be3ca00725a
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-foreach/1.90.0-master+25.01.26
+    - boost-function/1.90.0-master+24.12.14
+    - boost-graph/1.90.0-master+25.02.15
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-lexical-cast/1.90.0-master+25.09.08
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-serialization/1.90.0-master+23.11.12
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/mpi.git

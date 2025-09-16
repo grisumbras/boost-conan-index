@@ -1,0 +1,31 @@
+sources:
+  1.89.0:
+    commit: 0fefe9831abf014d3a7da7172755aae0f54e85f0
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/integer.git
+  1.90.0-develop+25.08.25:
+    commit: 4d702c79a45c1b204de864a5d11efa711e8713cf
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/integer.git
+  1.90.0-master+25.08.25:
+    commit: 4d702c79a45c1b204de864a5d11efa711e8713cf
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/integer.git

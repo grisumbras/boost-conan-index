@@ -1,0 +1,76 @@
+sources:
+  1.89.0:
+    commit: bd1db9341abd303dacc2979422d8809a9a1e0558
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-conversion/1.89.0
+    - boost-core/1.89.0
+    - boost-exception/1.89.0
+    - boost-fusion/1.89.0
+    - boost-integer/1.89.0
+    - boost-iterator/1.89.0
+    - boost-lexical-cast/1.89.0
+    - boost-mpl/1.89.0
+    - boost-numeric-conversion/1.89.0
+    - boost-optional/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-proto/1.89.0
+    - boost-range/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/xpressive.git
+  1.90.0-develop+25.05.02:
+    commit: 3950d7958ce22b68a53072cafa9cb57975f4195a
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-conversion/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-exception/1.90.0-develop+25.05.03
+    - boost-fusion/1.90.0-develop+24.08.21
+    - boost-integer/1.90.0-develop+25.08.25
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-lexical-cast/1.90.0-develop+25.09.08
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-numeric-conversion/1.90.0-develop+25.06.26
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-proto/1.90.0-develop+25.05.02
+    - boost-range/1.90.0-develop+25.05.02
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/xpressive.git
+  1.90.0-master+24.09.27:
+    commit: bd1db9341abd303dacc2979422d8809a9a1e0558
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-conversion/1.90.0-master+25.06.27
+    - boost-core/1.90.0-master+25.08.25
+    - boost-exception/1.90.0-master+25.03.02
+    - boost-fusion/1.90.0-master+24.05.15
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-lexical-cast/1.90.0-master+25.09.08
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-numeric-conversion/1.90.0-master+25.06.26
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-proto/1.90.0-master+21.03.18
+    - boost-range/1.90.0-master+25.02.08
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/xpressive.git

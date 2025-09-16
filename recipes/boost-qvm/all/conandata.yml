@@ -1,0 +1,13 @@
+sources:
+  1.89.0:
+    commit: daabde8f20ef751d078c220e230f81f7aee0db05
+    dependencies: []
+    url: https://github.com/boostorg/qvm.git
+  1.90.0-develop+25.08.17:
+    commit: 237d4274e7294534ede6a67232bd96defe90b870
+    dependencies: []
+    url: https://github.com/boostorg/qvm.git
+  1.90.0-master+25.01.18:
+    commit: daabde8f20ef751d078c220e230f81f7aee0db05
+    dependencies: []
+    url: https://github.com/boostorg/qvm.git

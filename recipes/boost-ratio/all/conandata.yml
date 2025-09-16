@@ -1,0 +1,13 @@
+sources:
+  1.89.0:
+    commit: 6eceadad2eb04f00b8cae5e400f7bee34c2d501f
+    dependencies: []
+    url: https://github.com/boostorg/ratio.git
+  1.90.0-develop+24.12.14:
+    commit: 6eceadad2eb04f00b8cae5e400f7bee34c2d501f
+    dependencies: []
+    url: https://github.com/boostorg/ratio.git
+  1.90.0-master+24.12.14:
+    commit: 6eceadad2eb04f00b8cae5e400f7bee34c2d501f
+    dependencies: []
+    url: https://github.com/boostorg/ratio.git

@@ -1,0 +1,52 @@
+sources:
+  1.89.0:
+    commit: 620df1f9934925ac6044e4619c701d6dcf9dc8b6
+    dependencies:
+    - boost-asio/1.89.0
+    - boost-assert/1.89.0
+    - boost-container/1.89.0
+    - boost-core/1.89.0
+    - boost-endian/1.89.0
+    - boost-fusion/1.89.0
+    - boost-optional/1.89.0
+    - boost-random/1.89.0
+    - boost-range/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-spirit/1.89.0
+    - boost-system/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/mqtt5.git
+  1.90.0-develop+25.07.28:
+    commit: 620df1f9934925ac6044e4619c701d6dcf9dc8b6
+    dependencies:
+    - boost-asio/1.90.0-develop+25.08.06
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-container/1.90.0-develop+25.09.07
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-endian/1.90.0-develop+24.12.14
+    - boost-fusion/1.90.0-develop+24.08.21
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-random/1.90.0-develop+25.07.02
+    - boost-range/1.90.0-develop+25.05.02
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-spirit/1.90.0-develop+25.09.13
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/mqtt5.git
+  1.90.0-master+25.07.28:
+    commit: 620df1f9934925ac6044e4619c701d6dcf9dc8b6
+    dependencies:
+    - boost-asio/1.90.0-master+25.08.06
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-container/1.90.0-master+25.05.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-endian/1.90.0-master+24.12.14
+    - boost-fusion/1.90.0-master+24.05.15
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-random/1.90.0-master+25.07.03
+    - boost-range/1.90.0-master+25.02.08
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-spirit/1.90.0-master+25.03.01
+    - boost-system/1.90.0-master+25.07.02
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/mqtt5.git

@@ -1,0 +1,55 @@
+sources:
+  1.89.0:
+    commit: 2669458cebee100bc1f9f4a9d2f0cd95d07740bc
+    dependencies:
+    - boost-any/1.89.0
+    - boost-assert/1.89.0
+    - boost-bind/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mpl/1.89.0
+    - boost-multi-index/1.89.0
+    - boost-optional/1.89.0
+    - boost-range/1.89.0
+    - boost-serialization/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/property_tree.git
+  1.90.0-develop+25.06.30:
+    commit: 2669458cebee100bc1f9f4a9d2f0cd95d07740bc
+    dependencies:
+    - boost-any/1.90.0-develop+25.06.18
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-bind/1.90.0-develop+24.12.13
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-multi-index/1.90.0-develop+25.09.08
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-range/1.90.0-develop+25.05.02
+    - boost-serialization/1.90.0-develop+24.08.18
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/property_tree.git
+  1.90.0-master+25.06.30:
+    commit: 2669458cebee100bc1f9f4a9d2f0cd95d07740bc
+    dependencies:
+    - boost-any/1.90.0-master+25.06.18
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-bind/1.90.0-master+24.12.13
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-multi-index/1.90.0-master+25.09.11
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-range/1.90.0-master+25.02.08
+    - boost-serialization/1.90.0-master+23.11.12
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/property_tree.git

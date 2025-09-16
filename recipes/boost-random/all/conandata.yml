@@ -1,0 +1,46 @@
+sources:
+  1.89.0:
+    commit: ce34d1e3685861bca0e5c08f6f0cbe5701aa1266
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-dynamic-bitset/1.89.0
+    - boost-integer/1.89.0
+    - boost-io/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-system/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/random.git
+  1.90.0-develop+25.07.02:
+    commit: 4f9e990e6824d4f7b6e00eee0abac78cc9ee3441
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-dynamic-bitset/1.90.0-develop+25.09.16
+    - boost-integer/1.90.0-develop+25.08.25
+    - boost-io/1.90.0-develop+25.06.26
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/random.git
+  1.90.0-master+25.07.03:
+    commit: ce34d1e3685861bca0e5c08f6f0cbe5701aa1266
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-dynamic-bitset/1.90.0-master+22.07.05
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-io/1.90.0-master+23.10.03
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-system/1.90.0-master+25.07.02
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/random.git

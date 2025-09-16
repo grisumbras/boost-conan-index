@@ -1,0 +1,61 @@
+sources:
+  1.89.0:
+    commit: 57181cacc5b8d5079d95a33b7aa078d0f5f16147
+    dependencies:
+    - boost-asio/1.89.0
+    - boost-callable-traits/1.89.0
+    - boost-circular-buffer/1.89.0
+    - boost-config/1.89.0
+    - boost-container/1.89.0
+    - boost-context/1.89.0
+    - boost-core/1.89.0
+    - boost-endian/1.89.0
+    - boost-intrusive/1.89.0
+    - boost-mp11/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-static-string/1.89.0
+    - boost-system/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-variant2/1.89.0
+    url: https://github.com/boostorg/cobalt.git
+  1.90.0-develop+25.09.11:
+    commit: 694d9c46114b2cf63a578d16046a5808b5bdd9ea
+    dependencies:
+    - boost-asio/1.90.0-develop+25.08.06
+    - boost-callable-traits/1.90.0-develop+25.06.25
+    - boost-circular-buffer/1.90.0-develop+25.05.02
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-container/1.90.0-develop+25.09.07
+    - boost-context/1.90.0-develop+25.08.26
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-endian/1.90.0-develop+24.12.14
+    - boost-intrusive/1.90.0-develop+25.08.25
+    - boost-mp11/1.90.0-develop+25.09.09
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-static-string/1.90.0-develop+25.04.17
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-variant2/1.90.0-develop+25.01.15
+    url: https://github.com/boostorg/cobalt.git
+  1.90.0-master+25.07.18:
+    commit: 57181cacc5b8d5079d95a33b7aa078d0f5f16147
+    dependencies:
+    - boost-asio/1.90.0-master+25.08.06
+    - boost-callable-traits/1.90.0-master+21.09.14
+    - boost-circular-buffer/1.90.0-master+22.09.12
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container/1.90.0-master+25.05.21
+    - boost-context/1.90.0-master+25.05.25
+    - boost-core/1.90.0-master+25.08.25
+    - boost-endian/1.90.0-master+24.12.14
+    - boost-intrusive/1.90.0-master+25.05.20
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-string/1.90.0-master+23.12.22
+    - boost-system/1.90.0-master+25.07.02
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-variant2/1.90.0-master+25.01.15
+    url: https://github.com/boostorg/cobalt.git

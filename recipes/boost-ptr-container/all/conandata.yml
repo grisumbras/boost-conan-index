@@ -1,0 +1,52 @@
+sources:
+  1.89.0:
+    commit: fa5071af867bfd2480e3b004a4bee27127b951b6
+    dependencies:
+    - boost-array/1.89.0
+    - boost-assert/1.89.0
+    - boost-circular-buffer/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mpl/1.89.0
+    - boost-range/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-unordered/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/ptr_container.git
+  1.90.0-develop+25.06.28:
+    commit: ea15c57680927e915e93b14af2eef244baef6bce
+    dependencies:
+    - boost-array/1.90.0-develop+25.04.03
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-circular-buffer/1.90.0-develop+25.05.02
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-range/1.90.0-develop+25.05.02
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-unordered/1.90.0-develop+25.08.26
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/ptr_container.git
+  1.90.0-master+24.12.28:
+    commit: fa5071af867bfd2480e3b004a4bee27127b951b6
+    dependencies:
+    - boost-array/1.90.0-master+25.04.03
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-circular-buffer/1.90.0-master+22.09.12
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-range/1.90.0-master+25.02.08
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-unordered/1.90.0-master+25.06.02
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/ptr_container.git

@@ -1,0 +1,28 @@
+sources:
+  1.89.0:
+    commit: 6eaea7fead85b5e00c9a4c4d51d7b8fe335a8782
+    dependencies:
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-mp11/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-variant2/1.89.0
+    url: https://github.com/boostorg/histogram.git
+  1.90.0-develop+25.06.12:
+    commit: 3afe76f91f93af237764242d56fa6ebaad7c81e6
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-mp11/1.90.0-develop+25.09.09
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-variant2/1.90.0-develop+25.01.15
+    url: https://github.com/boostorg/histogram.git
+  1.90.0-master+25.06.12:
+    commit: 6eaea7fead85b5e00c9a4c4d51d7b8fe335a8782
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-variant2/1.90.0-master+25.01.15
+    url: https://github.com/boostorg/histogram.git

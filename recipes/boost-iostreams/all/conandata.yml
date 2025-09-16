@@ -1,0 +1,67 @@
+sources:
+  1.89.0:
+    commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-detail/1.89.0
+    - boost-function/1.89.0
+    - boost-integer/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mpl/1.89.0
+    - boost-numeric-conversion/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-random/1.89.0
+    - boost-range/1.89.0
+    - boost-regex/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/iostreams.git
+  1.90.0-develop+24.12.15:
+    commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-detail/1.90.0-develop+25.06.13
+    - boost-function/1.90.0-develop+24.12.14
+    - boost-integer/1.90.0-develop+25.08.25
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-numeric-conversion/1.90.0-develop+25.06.26
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-random/1.90.0-develop+25.07.02
+    - boost-range/1.90.0-develop+25.05.02
+    - boost-regex/1.90.0-develop+25.07.04
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/iostreams.git
+  1.90.0-master+24.12.15:
+    commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-detail/1.90.0-master+25.06.13
+    - boost-function/1.90.0-master+24.12.14
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-numeric-conversion/1.90.0-master+25.06.26
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-random/1.90.0-master+25.07.03
+    - boost-range/1.90.0-master+25.02.08
+    - boost-regex/1.90.0-master+25.07.04
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/iostreams.git

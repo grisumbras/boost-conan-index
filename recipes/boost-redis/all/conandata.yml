@@ -1,0 +1,31 @@
+sources:
+  1.89.0:
+    commit: 76129bbcb8373f23d37877fccededb288690eed0
+    dependencies:
+    - boost-asio/1.89.0
+    - boost-assert/1.89.0
+    - boost-core/1.89.0
+    - boost-mp11/1.89.0
+    - boost-system/1.89.0
+    - boost-throw-exception/1.89.0
+    url: https://github.com/boostorg/redis.git
+  1.90.0-develop+25.09.16:
+    commit: 40417a13b2c140dd5e15ffa31bf2a80cbe72b018
+    dependencies:
+    - boost-asio/1.90.0-develop+25.08.06
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-mp11/1.90.0-develop+25.09.09
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    url: https://github.com/boostorg/redis.git
+  1.90.0-master+25.07.08:
+    commit: 76129bbcb8373f23d37877fccededb288690eed0
+    dependencies:
+    - boost-asio/1.90.0-master+25.08.06
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-system/1.90.0-master+25.07.02
+    - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/redis.git

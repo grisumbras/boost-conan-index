@@ -1,0 +1,7 @@
+versions:
+  1.89.0:
+    folder: all
+  1.90.0-develop+25.08.21:
+    folder: all
+  1.90.0-master+25.08.21:
+    folder: all

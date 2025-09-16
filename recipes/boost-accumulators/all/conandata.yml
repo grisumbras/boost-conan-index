@@ -1,0 +1,73 @@
+sources:
+  1.89.0:
+    commit: eb7ff254b81b6a4d3fd0012a9691e91c8591d312
+    dependencies:
+    - boost-array/1.89.0
+    - boost-assert/1.89.0
+    - boost-circular-buffer/1.89.0
+    - boost-concept-check/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-fusion/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mpl/1.89.0
+    - boost-numeric-conversion/1.89.0
+    - boost-parameter/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-range/1.89.0
+    - boost-serialization/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-tuple/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    - boost-ublas/1.89.0
+    url: https://github.com/boostorg/accumulators.git
+  1.90.0-develop+25.06.26:
+    commit: eb7ff254b81b6a4d3fd0012a9691e91c8591d312
+    dependencies:
+    - boost-array/1.90.0-develop+25.04.03
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-circular-buffer/1.90.0-develop+25.05.02
+    - boost-concept-check/1.90.0-develop+25.07.02
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-fusion/1.90.0-develop+24.08.21
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-numeric-conversion/1.90.0-develop+25.06.26
+    - boost-parameter/1.90.0-develop+25.08.25
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-range/1.90.0-develop+25.05.02
+    - boost-serialization/1.90.0-develop+24.08.18
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-tuple/1.90.0-develop+25.06.09
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    - boost-ublas/1.90.0-develop+23.11.22
+    url: https://github.com/boostorg/accumulators.git
+  1.90.0-master+25.06.26:
+    commit: eb7ff254b81b6a4d3fd0012a9691e91c8591d312
+    dependencies:
+    - boost-array/1.90.0-master+25.04.03
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-circular-buffer/1.90.0-master+22.09.12
+    - boost-concept-check/1.90.0-master+24.12.28
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-fusion/1.90.0-master+24.05.15
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-numeric-conversion/1.90.0-master+25.06.26
+    - boost-parameter/1.90.0-master+25.08.25
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-range/1.90.0-master+25.02.08
+    - boost-serialization/1.90.0-master+23.11.12
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-tuple/1.90.0-master+25.06.09
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    - boost-ublas/1.90.0-master+24.05.07
+    url: https://github.com/boostorg/accumulators.git

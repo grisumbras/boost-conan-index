@@ -1,0 +1,54 @@
+sources:
+  1.89.0:
+    commit: a2f90e9660e4e7e012c0b54a1338d8e69fb71906
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-bind/1.89.0
+    - boost-concept-check/1.89.0
+    - boost-config/1.89.0
+    - boost-function/1.89.0
+    - boost-mpi/1.89.0
+    - boost-mpl/1.89.0
+    - boost-multi-index/1.89.0
+    - boost-optional/1.89.0
+    - boost-property-map/1.89.0
+    - boost-serialization/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/property_map_parallel.git
+  1.90.0-develop+25.05.02:
+    commit: d04a8f0103c5f0531c2c470d85def0e85a103e8e
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-concept-check/1.90.0-develop+25.07.02
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-function/1.90.0-develop+24.12.14
+    - boost-mpi/1.90.0-develop+25.05.06
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-multi-index/1.90.0-develop+25.09.08
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-property-map/1.90.0-develop+25.07.02
+    - boost-serialization/1.90.0-develop+24.08.18
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/property_map_parallel.git
+  1.90.0-master+22.01.29:
+    commit: a2f90e9660e4e7e012c0b54a1338d8e69fb71906
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-bind/1.90.0-master+24.12.13
+    - boost-concept-check/1.90.0-master+24.12.28
+    - boost-config/1.90.0-master+25.07.04
+    - boost-function/1.90.0-master+24.12.14
+    - boost-mpi/1.90.0-master+25.02.26
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-multi-index/1.90.0-master+25.09.11
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-property-map/1.90.0-master+24.12.28
+    - boost-serialization/1.90.0-master+23.11.12
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/property_map_parallel.git

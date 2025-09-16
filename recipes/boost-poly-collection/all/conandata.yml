@@ -1,0 +1,37 @@
+sources:
+  1.89.0:
+    commit: 1ae6a823b9118e403e501adb17ee7d562dcc75a7
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mp11/1.89.0
+    - boost-mpl/1.89.0
+    - boost-type-erasure/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/poly_collection.git
+  1.90.0-develop+25.06.21:
+    commit: 1ae6a823b9118e403e501adb17ee7d562dcc75a7
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mp11/1.90.0-develop+25.09.09
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-type-erasure/1.90.0-develop+25.05.04
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/poly_collection.git
+  1.90.0-master+25.06.21:
+    commit: 1ae6a823b9118e403e501adb17ee7d562dcc75a7
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-type-erasure/1.90.0-master+25.05.04
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/poly_collection.git

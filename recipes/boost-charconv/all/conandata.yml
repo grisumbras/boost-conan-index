@@ -1,0 +1,22 @@
+sources:
+  1.89.0:
+    commit: 728f7c4a85d7893c91c5fd85220367bb17cd06b5
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    url: https://github.com/boostorg/charconv.git
+  1.90.0-develop+25.08.14:
+    commit: 4a6e906388ed84a8f36af24c6d8e751d286c0fa2
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/charconv.git
+  1.90.0-master+25.08.06:
+    commit: 728f7c4a85d7893c91c5fd85220367bb17cd06b5
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/charconv.git

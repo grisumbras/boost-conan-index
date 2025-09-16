@@ -1,0 +1,37 @@
+sources:
+  1.89.0:
+    commit: 3c6dfc84c90d4dbcfa81d7dc685bcab702f3473d
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-integer/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/rational.git
+  1.90.0-develop+20.02.12:
+    commit: 894bd14cba4a48bbd8cb422ebcd1ac2af78795d1
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-integer/1.90.0-develop+25.08.25
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/rational.git
+  1.90.0-master+25.01.01:
+    commit: 3c6dfc84c90d4dbcfa81d7dc685bcab702f3473d
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/rational.git

@@ -1,0 +1,43 @@
+sources:
+  1.89.0:
+    commit: 7f924934689b940f3a72212ab0f714ec6fd6e34b
+    dependencies:
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-fusion/1.89.0
+    - boost-mpl/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-range/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/proto.git
+  1.90.0-develop+25.05.02:
+    commit: 497a0c37587c63d9abc12bcabdc3a674c21c0a44
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-fusion/1.90.0-develop+24.08.21
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-range/1.90.0-develop+25.05.02
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/proto.git
+  1.90.0-master+21.03.18:
+    commit: 7f924934689b940f3a72212ab0f714ec6fd6e34b
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-fusion/1.90.0-master+24.05.15
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-range/1.90.0-master+25.02.08
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/proto.git

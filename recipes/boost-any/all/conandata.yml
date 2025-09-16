@@ -1,0 +1,25 @@
+sources:
+  1.89.0:
+    commit: 9b1941c787f2769fcb6afdb0cef621db80f953a6
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-index/1.89.0
+    url: https://github.com/boostorg/any.git
+  1.90.0-develop+25.06.18:
+    commit: 9b1941c787f2769fcb6afdb0cef621db80f953a6
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-index/1.90.0-develop+25.09.07
+    url: https://github.com/boostorg/any.git
+  1.90.0-master+25.06.18:
+    commit: 9b1941c787f2769fcb6afdb0cef621db80f953a6
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-index/1.90.0-master+25.09.07
+    url: https://github.com/boostorg/any.git

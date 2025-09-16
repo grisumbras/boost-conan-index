@@ -1,0 +1,49 @@
+sources:
+  1.89.0:
+    commit: 3c80c097d2fe2266d3d41f4121d7af24e122e996
+    dependencies:
+    - boost-align/1.89.0
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-container/1.89.0
+    - boost-container-hash/1.89.0
+    - boost-core/1.89.0
+    - boost-describe/1.89.0
+    - boost-endian/1.89.0
+    - boost-mp11/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-system/1.89.0
+    - boost-throw-exception/1.89.0
+    url: https://github.com/boostorg/json.git
+  1.90.0-develop+25.09.11:
+    commit: a6fbf10e1f5c28bf11b0061f19fe99f6f54a1a9d
+    dependencies:
+    - boost-align/1.90.0-develop+25.06.26
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-container/1.90.0-develop+25.09.07
+    - boost-container-hash/1.90.0-develop+25.08.21
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-describe/1.90.0-develop+25.08.17
+    - boost-endian/1.90.0-develop+24.12.14
+    - boost-mp11/1.90.0-develop+25.09.09
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    url: https://github.com/boostorg/json.git
+  1.90.0-master+25.07.02:
+    commit: 3c80c097d2fe2266d3d41f4121d7af24e122e996
+    dependencies:
+    - boost-align/1.90.0-master+22.11.11
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container/1.90.0-master+25.05.21
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-describe/1.90.0-master+25.08.17
+    - boost-endian/1.90.0-master+24.12.14
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-system/1.90.0-master+25.07.02
+    - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/json.git

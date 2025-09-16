@@ -1,0 +1,69 @@
+sources:
+  1.89.0:
+    commit: cfd3a7e8749752f5a9d20266c1fc7afdb9b1e173
+    dependencies:
+    - boost-algorithm/1.89.0
+    - boost-assert/1.89.0
+    - boost-bind/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-describe/1.89.0
+    - boost-detail/1.89.0
+    - boost-exception/1.89.0
+    - boost-function/1.89.0
+    - boost-io/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mpl/1.89.0
+    - boost-numeric-conversion/1.89.0
+    - boost-optional/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/test.git
+  1.90.0-develop+25.08.25:
+    commit: a401792a2db951201d30de02b66e670b4db7996d
+    dependencies:
+    - boost-algorithm/1.90.0-develop+25.08.25
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-bind/1.90.0-develop+24.12.13
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-detail/1.90.0-develop+25.06.13
+    - boost-exception/1.90.0-develop+25.05.03
+    - boost-function/1.90.0-develop+24.12.14
+    - boost-io/1.90.0-develop+25.06.26
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-numeric-conversion/1.90.0-develop+25.06.26
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/test.git
+  1.90.0-master+25.02.24:
+    commit: cfd3a7e8749752f5a9d20266c1fc7afdb9b1e173
+    dependencies:
+    - boost-algorithm/1.90.0-master+23.08.02
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-bind/1.90.0-master+24.12.13
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-describe/1.90.0-master+25.08.17
+    - boost-detail/1.90.0-master+25.06.13
+    - boost-exception/1.90.0-master+25.03.02
+    - boost-function/1.90.0-master+24.12.14
+    - boost-io/1.90.0-master+23.10.03
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-numeric-conversion/1.90.0-master+25.06.26
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/test.git

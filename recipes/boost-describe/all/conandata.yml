@@ -1,0 +1,16 @@
+sources:
+  1.89.0:
+    commit: b64177c39f929998e3a145992d0328712e095c29
+    dependencies:
+    - boost-mp11/1.89.0
+    url: https://github.com/boostorg/describe.git
+  1.90.0-develop+25.08.17:
+    commit: 5858ccb775d415283dfd77ab5aeb7035faeaab91
+    dependencies:
+    - boost-mp11/1.90.0-develop+25.09.09
+    url: https://github.com/boostorg/describe.git
+  1.90.0-master+25.08.17:
+    commit: 5858ccb775d415283dfd77ab5aeb7035faeaab91
+    dependencies:
+    - boost-mp11/1.90.0-master+25.09.09
+    url: https://github.com/boostorg/describe.git

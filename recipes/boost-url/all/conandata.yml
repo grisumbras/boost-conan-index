@@ -1,0 +1,43 @@
+sources:
+  1.89.0:
+    commit: 8d5cc6e34884b4f3a8a43c8f9706c0f5800238a0
+    dependencies:
+    - boost-align/1.89.0
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-mp11/1.89.0
+    - boost-optional/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-system/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-variant2/1.89.0
+    url: https://github.com/boostorg/url.git
+  1.90.0-develop+25.09.02:
+    commit: 669123178bc12f509a0fb3d107059091355db16a
+    dependencies:
+    - boost-align/1.90.0-develop+25.06.26
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-mp11/1.90.0-develop+25.09.09
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-variant2/1.90.0-develop+25.01.15
+    url: https://github.com/boostorg/url.git
+  1.90.0-master+25.08.05:
+    commit: 8d5cc6e34884b4f3a8a43c8f9706c0f5800238a0
+    dependencies:
+    - boost-align/1.90.0-master+22.11.11
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-system/1.90.0-master+25.07.02
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-variant2/1.90.0-master+25.01.15
+    url: https://github.com/boostorg/url.git

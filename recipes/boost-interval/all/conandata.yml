@@ -1,0 +1,22 @@
+sources:
+  1.89.0:
+    commit: 565d0d754f851eb9447745b359ca5be6a033918c
+    dependencies:
+    - boost-config/1.89.0
+    - boost-detail/1.89.0
+    - boost-logic/1.89.0
+    url: https://github.com/boostorg/interval.git
+  1.90.0-develop+25.07.02:
+    commit: 26800d3a7fb53945b03341681537295992e24019
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-detail/1.90.0-develop+25.06.13
+    - boost-logic/1.90.0-develop+25.07.02
+    url: https://github.com/boostorg/interval.git
+  1.90.0-master+25.01.01:
+    commit: 565d0d754f851eb9447745b359ca5be6a033918c
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    - boost-detail/1.90.0-master+25.06.13
+    - boost-logic/1.90.0-master+25.01.01
+    url: https://github.com/boostorg/interval.git

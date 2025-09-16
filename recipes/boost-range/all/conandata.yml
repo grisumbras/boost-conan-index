@@ -1,0 +1,64 @@
+sources:
+  1.89.0:
+    commit: 24b7c98ca12708549513adc4770a2cf5586168f9
+    dependencies:
+    - boost-array/1.89.0
+    - boost-assert/1.89.0
+    - boost-concept-check/1.89.0
+    - boost-config/1.89.0
+    - boost-container-hash/1.89.0
+    - boost-conversion/1.89.0
+    - boost-core/1.89.0
+    - boost-detail/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mpl/1.89.0
+    - boost-optional/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-regex/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-tuple/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/range.git
+  1.90.0-develop+25.05.02:
+    commit: cf7d2d2d3bceccdbd0d7af08cdf4042a2a6e9ea8
+    dependencies:
+    - boost-array/1.90.0-develop+25.04.03
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-concept-check/1.90.0-develop+25.07.02
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-container-hash/1.90.0-develop+25.08.21
+    - boost-conversion/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-detail/1.90.0-develop+25.06.13
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-regex/1.90.0-develop+25.07.04
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-tuple/1.90.0-develop+25.06.09
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/range.git
+  1.90.0-master+25.02.08:
+    commit: 24b7c98ca12708549513adc4770a2cf5586168f9
+    dependencies:
+    - boost-array/1.90.0-master+25.04.03
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-concept-check/1.90.0-master+24.12.28
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-conversion/1.90.0-master+25.06.27
+    - boost-core/1.90.0-master+25.08.25
+    - boost-detail/1.90.0-master+25.06.13
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-regex/1.90.0-master+25.07.04
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-tuple/1.90.0-master+25.06.09
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/range.git

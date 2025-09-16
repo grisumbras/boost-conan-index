@@ -1,0 +1,31 @@
+sources:
+  1.89.0:
+    commit: 777e0be5ec763d0333a717c5e421a4f7c5e5bdc9
+    dependencies:
+    - boost-concept-check/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-integer/1.89.0
+    - boost-logic/1.89.0
+    - boost-mp11/1.89.0
+    url: https://github.com/boostorg/safe_numerics.git
+  1.90.0-develop+24.08.18:
+    commit: c46d7a33fa6efc10e3d35526e9fcf6673936ed41
+    dependencies:
+    - boost-concept-check/1.90.0-develop+25.07.02
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-integer/1.90.0-develop+25.08.25
+    - boost-logic/1.90.0-develop+25.07.02
+    - boost-mp11/1.90.0-develop+25.09.09
+    url: https://github.com/boostorg/safe_numerics.git
+  1.90.0-master+21.06.04:
+    commit: 777e0be5ec763d0333a717c5e421a4f7c5e5bdc9
+    dependencies:
+    - boost-concept-check/1.90.0-master+24.12.28
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-logic/1.90.0-master+25.01.01
+    - boost-mp11/1.90.0-master+25.09.09
+    url: https://github.com/boostorg/safe_numerics.git

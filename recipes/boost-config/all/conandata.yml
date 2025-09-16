@@ -1,0 +1,13 @@
+sources:
+  1.89.0:
+    commit: bf8c8bd7960cd8505210838f86bd28fb4fb71071
+    dependencies: []
+    url: https://github.com/boostorg/config.git
+  1.90.0-develop+25.06.27:
+    commit: 238e997ecce992e6342218bc580f8e30326ebb53
+    dependencies: []
+    url: https://github.com/boostorg/config.git
+  1.90.0-master+25.07.04:
+    commit: bf8c8bd7960cd8505210838f86bd28fb4fb71071
+    dependencies: []
+    url: https://github.com/boostorg/config.git

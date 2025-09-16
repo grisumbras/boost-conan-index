@@ -1,0 +1,34 @@
+sources:
+  1.89.0:
+    commit: 3af0091efa65892e030add013417840f80b13e08
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-mp11/1.89.0
+    - boost-pool/1.89.0
+    - boost-predef/1.89.0
+    - boost-smart-ptr/1.89.0
+    url: https://github.com/boostorg/context.git
+  1.90.0-develop+25.08.26:
+    commit: e9a7b968ecce1b3f1eb2ccdc650a960d598c92dd
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-mp11/1.90.0-develop+25.09.09
+    - boost-pool/1.90.0-develop+19.09.06
+    - boost-predef/1.90.0-develop+25.02.03
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    url: https://github.com/boostorg/context.git
+  1.90.0-master+25.05.25:
+    commit: 3af0091efa65892e030add013417840f80b13e08
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-pool/1.90.0-master+25.02.25
+    - boost-predef/1.90.0-master+25.01.12
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    url: https://github.com/boostorg/context.git

@@ -1,0 +1,52 @@
+sources:
+  1.89.0:
+    commit: 5281f14d3cb59f978c8cb6cbb90ce92dde4e3e13
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-fusion/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mp11/1.89.0
+    - boost-mpl/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    - boost-vmd/1.89.0
+    url: https://github.com/boostorg/type_erasure.git
+  1.90.0-develop+25.05.04:
+    commit: 5281f14d3cb59f978c8cb6cbb90ce92dde4e3e13
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-fusion/1.90.0-develop+24.08.21
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mp11/1.90.0-develop+25.09.09
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    - boost-vmd/1.90.0-develop+25.05.02
+    url: https://github.com/boostorg/type_erasure.git
+  1.90.0-master+25.05.04:
+    commit: 5281f14d3cb59f978c8cb6cbb90ce92dde4e3e13
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-fusion/1.90.0-master+24.05.15
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    - boost-vmd/1.90.0-master+21.06.10
+    url: https://github.com/boostorg/type_erasure.git

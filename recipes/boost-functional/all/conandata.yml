@@ -1,0 +1,40 @@
+sources:
+  1.89.0:
+    commit: 6a573e4b8333ee63ee62ce95558c3667348db233
+    dependencies:
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-function/1.89.0
+    - boost-function-types/1.89.0
+    - boost-mpl/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/functional.git
+  1.90.0-develop+25.06.26:
+    commit: 3c468dd0246577c20c3d6f88b2d42be92adaafa6
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-function/1.90.0-develop+24.12.14
+    - boost-function-types/1.90.0-develop+24.09.18
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/functional.git
+  1.90.0-master+23.04.17:
+    commit: 6a573e4b8333ee63ee62ce95558c3667348db233
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-function/1.90.0-master+24.12.14
+    - boost-function-types/1.90.0-master+24.09.18
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/functional.git

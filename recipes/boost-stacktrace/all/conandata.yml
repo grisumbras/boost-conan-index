@@ -1,0 +1,28 @@
+sources:
+  1.89.0:
+    commit: d6499f26d471158b6e6f65eea7425200f842b547
+    dependencies:
+    - boost-config/1.89.0
+    - boost-container-hash/1.89.0
+    - boost-core/1.89.0
+    - boost-predef/1.89.0
+    - boost-winapi/1.89.0
+    url: https://github.com/boostorg/stacktrace.git
+  1.90.0-develop+25.09.09:
+    commit: cf5992230b9077ec1d8758824cdb8acf58b71407
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-container-hash/1.90.0-develop+25.08.21
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-predef/1.90.0-develop+25.02.03
+    - boost-winapi/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/stacktrace.git
+  1.90.0-master+25.09.09:
+    commit: cf5992230b9077ec1d8758824cdb8acf58b71407
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-predef/1.90.0-master+25.01.12
+    - boost-winapi/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/stacktrace.git

@@ -1,0 +1,50 @@
+sources:
+  1.89.0:
+    commit: 45787015dd8c11653eb988260acf05c4af9d42e5
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-integer/1.89.0
+    - boost-io/1.89.0
+    - boost-lambda/1.89.0
+    - boost-math/1.89.0
+    - boost-mpl/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    url: https://github.com/boostorg/units.git
+  1.90.0-develop+25.05.02:
+    commit: 605ebf7143be8861f9cf80e54427a8bbffb55212
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-integer/1.90.0-develop+25.08.25
+    - boost-io/1.90.0-develop+25.06.26
+    - boost-lambda/1.90.0-develop+25.05.03
+    - boost-math/1.90.0-develop+25.09.10
+    - boost-move/1.90.0-develop+25.08.23
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    url: https://github.com/boostorg/units.git
+  1.90.0-master+21.06.08:
+    commit: 45787015dd8c11653eb988260acf05c4af9d42e5
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-io/1.90.0-master+23.10.03
+    - boost-lambda/1.90.0-master+25.05.03
+    - boost-math/1.90.0-master+25.07.07
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    url: https://github.com/boostorg/units.git

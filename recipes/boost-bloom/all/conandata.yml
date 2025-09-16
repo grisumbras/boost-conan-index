@@ -1,0 +1,31 @@
+sources:
+  1.89.0:
+    commit: 42ac5003f8742981a9731ae443a99be6b8fa23bc
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-container-hash/1.89.0
+    - boost-core/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/bloom.git
+  1.90.0-develop+25.09.13:
+    commit: d4b5eb6eefc7545b056b34cb7225ea46a1c2f045
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-container-hash/1.90.0-develop+25.08.21
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/bloom.git
+  1.90.0-master+25.07.01:
+    commit: 42ac5003f8742981a9731ae443a99be6b8fa23bc
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/bloom.git

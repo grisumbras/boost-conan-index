@@ -1,0 +1,55 @@
+sources:
+  1.89.0:
+    commit: 8913607a3788cb82d48ed461ea59c919b7bad3df
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-bind/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-function/1.89.0
+    - boost-fusion/1.89.0
+    - boost-mpl/1.89.0
+    - boost-predef/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-proto/1.89.0
+    - boost-range/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/phoenix.git
+  1.90.0-develop+24.09.12:
+    commit: c4f2535d54c3f31a5c7fcc92a837f9476ea6f3f1
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-bind/1.90.0-develop+24.12.13
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-function/1.90.0-develop+24.12.14
+    - boost-fusion/1.90.0-develop+24.08.21
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-predef/1.90.0-develop+25.02.03
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-proto/1.90.0-develop+25.05.02
+    - boost-range/1.90.0-develop+25.05.02
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/phoenix.git
+  1.90.0-master+23.08.29:
+    commit: 8913607a3788cb82d48ed461ea59c919b7bad3df
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-bind/1.90.0-master+24.12.13
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-function/1.90.0-master+24.12.14
+    - boost-fusion/1.90.0-master+24.05.15
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-predef/1.90.0-master+25.01.12
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-proto/1.90.0-master+21.03.18
+    - boost-range/1.90.0-master+25.02.08
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/phoenix.git

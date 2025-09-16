@@ -1,0 +1,43 @@
+sources:
+  1.89.0:
+    commit: 0068b4d90d7843ecec3e43da0ed4229b7acc27c6
+    dependencies:
+    - boost-bind/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-detail/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mpl/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-tuple/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/lambda.git
+  1.90.0-develop+25.05.03:
+    commit: 0068b4d90d7843ecec3e43da0ed4229b7acc27c6
+    dependencies:
+    - boost-bind/1.90.0-develop+24.12.13
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-detail/1.90.0-develop+25.06.13
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-tuple/1.90.0-develop+25.06.09
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/lambda.git
+  1.90.0-master+25.05.03:
+    commit: 0068b4d90d7843ecec3e43da0ed4229b7acc27c6
+    dependencies:
+    - boost-bind/1.90.0-master+24.12.13
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-detail/1.90.0-master+25.06.13
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-tuple/1.90.0-master+25.06.09
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/lambda.git

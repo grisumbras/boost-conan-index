@@ -1,0 +1,22 @@
+sources:
+  1.89.0:
+    commit: dbbf042e0a9081b4119d491b788ae0fe7c03192a
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-context/1.89.0
+    url: https://github.com/boostorg/coroutine2.git
+  1.90.0-develop+25.09.08:
+    commit: f405b3c5c2434daac6cc90c279f9e50b05c5c11c
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-context/1.90.0-develop+25.08.26
+    url: https://github.com/boostorg/coroutine2.git
+  1.90.0-master+24.08.28:
+    commit: dbbf042e0a9081b4119d491b788ae0fe7c03192a
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-context/1.90.0-master+25.05.25
+    url: https://github.com/boostorg/coroutine2.git

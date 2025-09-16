@@ -1,0 +1,28 @@
+sources:
+  1.89.0:
+    commit: 5326b49475f27d04e07fda8759211b5d65d07f64
+    dependencies:
+    - boost-config/1.89.0
+    - boost-container/1.89.0
+    - boost-core/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/lexical_cast.git
+  1.90.0-develop+25.09.08:
+    commit: 4862e296d0418a1155a69c158270c560f01f54ae
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-container/1.90.0-develop+25.09.07
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/lexical_cast.git
+  1.90.0-master+25.09.08:
+    commit: 4862e296d0418a1155a69c158270c560f01f54ae
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container/1.90.0-master+25.05.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/lexical_cast.git

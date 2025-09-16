@@ -1,0 +1,16 @@
+sources:
+  1.89.0:
+    commit: b2f5f57fdb38ca42bc33b55d5e9cd7024e355399
+    dependencies:
+    - boost-config/1.89.0
+    url: https://github.com/boostorg/nowide.git
+  1.90.0-develop+25.09.06:
+    commit: c05f07fedf95cadbb8402f0af62c6333313758cf
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    url: https://github.com/boostorg/nowide.git
+  1.90.0-master+25.07.08:
+    commit: b2f5f57fdb38ca42bc33b55d5e9cd7024e355399
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/nowide.git

@@ -1,0 +1,13 @@
+sources:
+  1.89.0:
+    commit: 63ac019fca325038bfb4f56db17fbb281d2b5f49
+    dependencies: []
+    url: https://github.com/boostorg/hof.git
+  1.90.0-develop+24.08.18:
+    commit: 1fa2229b700f6f8f87c0f12b127eb2034eefa1af
+    dependencies: []
+    url: https://github.com/boostorg/hof.git
+  1.90.0-master+23.01.11:
+    commit: 63ac019fca325038bfb4f56db17fbb281d2b5f49
+    dependencies: []
+    url: https://github.com/boostorg/hof.git

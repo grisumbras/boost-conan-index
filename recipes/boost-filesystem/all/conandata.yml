@@ -1,0 +1,40 @@
+sources:
+  1.89.0:
+    commit: d316a9d3aa09bb3d200646cc587a16e3b9be5f39
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-container-hash/1.89.0
+    - boost-detail/1.89.0
+    - boost-io/1.89.0
+    - boost-iterator/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-system/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/filesystem.git
+  1.90.0-develop+25.08.29:
+    commit: ce7a835436f5de0cca2966420068a2596f50a75d
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-container-hash/1.90.0-develop+25.08.21
+    - boost-detail/1.90.0-develop+25.06.13
+    - boost-io/1.90.0-develop+25.06.26
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/filesystem.git
+  1.90.0-master+25.08.29:
+    commit: ce7a835436f5de0cca2966420068a2596f50a75d
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-detail/1.90.0-master+25.06.13
+    - boost-io/1.90.0-master+23.10.03
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-system/1.90.0-master+25.07.02
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/filesystem.git

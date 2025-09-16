@@ -1,0 +1,53 @@
+sources:
+  1.89.0:
+    commit: 53da4e0b2c8cd4969b09fa646d314ac0c414c1ff
+    dependencies:
+    - boost-config/1.89.0
+    - boost-container-hash/1.89.0
+    - boost-core/1.89.0
+    - boost-describe/1.89.0
+    - boost-function-types/1.89.0
+    - boost-functional/1.89.0
+    - boost-mp11/1.89.0
+    - boost-mpl/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-tuple/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/fusion.git
+  1.90.0-develop+24.08.21:
+    commit: 495539ce4404bde4af187ccc072235a6a7446e2c
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-container-hash/1.90.0-develop+25.08.21
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-function-types/1.90.0-develop+24.09.18
+    - boost-functional/1.90.0-develop+25.06.26
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-tuple/1.90.0-develop+25.06.09
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/fusion.git
+  1.90.0-master+24.05.15:
+    commit: 53da4e0b2c8cd4969b09fa646d314ac0c414c1ff
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-describe/1.90.0-master+25.08.17
+    - boost-function-types/1.90.0-master+24.09.18
+    - boost-functional/1.90.0-master+23.04.17
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-tuple/1.90.0-master+25.06.09
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/fusion.git

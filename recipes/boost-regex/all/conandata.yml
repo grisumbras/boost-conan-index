@@ -1,0 +1,34 @@
+sources:
+  1.89.0:
+    commit: f439e22ae41fa647bd7de16c2d92deb232593985
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-concept-check/1.89.0
+    - boost-config/1.89.0
+    - boost-predef/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-throw-exception/1.89.0
+    - boost-type-traits/1.89.0
+    url: https://github.com/boostorg/regex.git
+  1.90.0-develop+25.07.04:
+    commit: ed6ebbd5a52b566e454e0cc34494dd2912c6c66c
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-concept-check/1.90.0-develop+25.07.02
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-predef/1.90.0-develop+25.02.03
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/regex.git
+  1.90.0-master+25.07.04:
+    commit: f439e22ae41fa647bd7de16c2d92deb232593985
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-concept-check/1.90.0-master+24.12.28
+    - boost-config/1.90.0-master+25.07.04
+    - boost-predef/1.90.0-master+25.01.12
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/regex.git

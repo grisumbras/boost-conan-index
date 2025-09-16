@@ -1,0 +1,40 @@
+sources:
+  1.89.0:
+    commit: e0c112538ff1e903594d039f2eb97e0057737e5d
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-integer/1.89.0
+    - boost-lexical-cast/1.89.0
+    - boost-math/1.89.0
+    - boost-predef/1.89.0
+    - boost-random/1.89.0
+    - boost-throw-exception/1.89.0
+    url: https://github.com/boostorg/multiprecision.git
+  1.90.0-develop+25.09.08:
+    commit: 007b2739fd3c8dcc81eb74ada68ffd1e7fba4c16
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-integer/1.90.0-develop+25.08.25
+    - boost-lexical-cast/1.90.0-develop+25.09.08
+    - boost-math/1.90.0-develop+25.09.10
+    - boost-predef/1.90.0-develop+25.02.03
+    - boost-random/1.90.0-develop+25.07.02
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    url: https://github.com/boostorg/multiprecision.git
+  1.90.0-master+25.07.02:
+    commit: e0c112538ff1e903594d039f2eb97e0057737e5d
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-lexical-cast/1.90.0-master+25.09.08
+    - boost-math/1.90.0-master+25.07.07
+    - boost-predef/1.90.0-master+25.01.12
+    - boost-random/1.90.0-master+25.07.03
+    - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/multiprecision.git

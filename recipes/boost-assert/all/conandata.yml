@@ -1,0 +1,16 @@
+sources:
+  1.89.0:
+    commit: 5dcb2af5213ae132b7531e45e7f93258cc33ffd8
+    dependencies:
+    - boost-config/1.89.0
+    url: https://github.com/boostorg/assert.git
+  1.90.0-develop+25.03.21:
+    commit: 5dcb2af5213ae132b7531e45e7f93258cc33ffd8
+    dependencies:
+    - boost-config/1.90.0-develop+25.06.27
+    url: https://github.com/boostorg/assert.git
+  1.90.0-master+25.03.21:
+    commit: 5dcb2af5213ae132b7531e45e7f93258cc33ffd8
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/assert.git

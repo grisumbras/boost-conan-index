@@ -1,0 +1,22 @@
+sources:
+  1.89.0:
+    commit: e3746402659838fbd5efd91f4110ad0e0c63c957
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-throw-exception/1.89.0
+    url: https://github.com/boostorg/compat.git
+  1.90.0-develop+25.09.05:
+    commit: a5a56ee5c0ed2c3b981374c17d76933bedefff71
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    url: https://github.com/boostorg/compat.git
+  1.90.0-master+25.09.05:
+    commit: a5a56ee5c0ed2c3b981374c17d76933bedefff71
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/compat.git

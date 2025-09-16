@@ -1,0 +1,52 @@
+sources:
+  1.89.0:
+    commit: 15d871b410ff92592c6f3e0a53550035e7817046
+    dependencies:
+    - boost-compute/1.89.0
+    - boost-concept-check/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-interval/1.89.0
+    - boost-iterator/1.89.0
+    - boost-mpl/1.89.0
+    - boost-range/1.89.0
+    - boost-serialization/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    url: https://github.com/boostorg/ublas.git
+  1.90.0-develop+23.11.22:
+    commit: 8934b49ebe5327964b42faefbb22334ba89f4574
+    dependencies:
+    - boost-compute/1.90.0-develop+25.05.02
+    - boost-concept-check/1.90.0-develop+25.07.02
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-interval/1.90.0-develop+25.07.02
+    - boost-iterator/1.90.0-develop+25.08.25
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-range/1.90.0-develop+25.05.02
+    - boost-serialization/1.90.0-develop+24.08.18
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    url: https://github.com/boostorg/ublas.git
+  1.90.0-master+24.05.07:
+    commit: 15d871b410ff92592c6f3e0a53550035e7817046
+    dependencies:
+    - boost-compute/1.90.0-master+24.08.22
+    - boost-concept-check/1.90.0-master+24.12.28
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-interval/1.90.0-master+25.01.01
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-range/1.90.0-master+25.02.08
+    - boost-serialization/1.90.0-master+23.11.12
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    url: https://github.com/boostorg/ublas.git

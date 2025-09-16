@@ -1,0 +1,25 @@
+sources:
+  1.89.0:
+    commit: 5ad7df63cd792fbdb801d600b93cad1a432f0151
+    dependencies:
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-static-assert/1.89.0
+    url: https://github.com/boostorg/align.git
+  1.90.0-develop+25.06.26:
+    commit: bd7f7f5f11645397313d3b584e4c521142327ed7
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-static-assert/1.90.0-develop+25.04.15
+    url: https://github.com/boostorg/align.git
+  1.90.0-master+22.11.11:
+    commit: 5ad7df63cd792fbdb801d600b93cad1a432f0151
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-static-assert/1.90.0-master+25.04.15
+    url: https://github.com/boostorg/align.git

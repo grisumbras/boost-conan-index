@@ -1,0 +1,68 @@
+sources:
+  1.89.0:
+    commit: 33e77cbfc70956d4b99f3dfc9c1e83848fe2550b
+    dependencies:
+    - boost-any/1.89.0
+    - boost-assert/1.89.0
+    - boost-bind/1.89.0
+    - boost-circular-buffer/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-function/1.89.0
+    - boost-fusion/1.89.0
+    - boost-mpl/1.89.0
+    - boost-parameter/1.89.0
+    - boost-phoenix/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-proto/1.89.0
+    - boost-serialization/1.89.0
+    - boost-tuple/1.89.0
+    - boost-type-index/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    url: https://github.com/boostorg/msm.git
+  1.90.0-develop+25.09.16:
+    commit: 94d0800e7f20c40794cff505331113f2702222d1
+    dependencies:
+    - boost-any/1.90.0-develop+25.06.18
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-bind/1.90.0-develop+24.12.13
+    - boost-circular-buffer/1.90.0-develop+25.05.02
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-function/1.90.0-develop+24.12.14
+    - boost-fusion/1.90.0-develop+24.08.21
+    - boost-mp11/1.90.0-develop+25.09.09
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-parameter/1.90.0-develop+25.08.25
+    - boost-phoenix/1.90.0-develop+24.09.12
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-proto/1.90.0-develop+25.05.02
+    - boost-serialization/1.90.0-develop+24.08.18
+    - boost-tuple/1.90.0-develop+25.06.09
+    - boost-type-index/1.90.0-develop+25.09.07
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    url: https://github.com/boostorg/msm.git
+  1.90.0-master+24.09.02:
+    commit: 33e77cbfc70956d4b99f3dfc9c1e83848fe2550b
+    dependencies:
+    - boost-any/1.90.0-master+25.06.18
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-bind/1.90.0-master+24.12.13
+    - boost-circular-buffer/1.90.0-master+22.09.12
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-function/1.90.0-master+24.12.14
+    - boost-fusion/1.90.0-master+24.05.15
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-parameter/1.90.0-master+25.08.25
+    - boost-phoenix/1.90.0-master+23.08.29
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-proto/1.90.0-master+21.03.18
+    - boost-serialization/1.90.0-master+23.11.12
+    - boost-tuple/1.90.0-master+25.06.09
+    - boost-type-index/1.90.0-master+25.09.07
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    url: https://github.com/boostorg/msm.git

@@ -1,0 +1,61 @@
+sources:
+  1.89.0:
+    commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
+    dependencies:
+    - boost-any/1.89.0
+    - boost-assert/1.89.0
+    - boost-config/1.89.0
+    - boost-core/1.89.0
+    - boost-exception/1.89.0
+    - boost-function/1.89.0
+    - boost-function-types/1.89.0
+    - boost-mpl/1.89.0
+    - boost-optional/1.89.0
+    - boost-preprocessor/1.89.0
+    - boost-smart-ptr/1.89.0
+    - boost-static-assert/1.89.0
+    - boost-thread/1.89.0
+    - boost-type-traits/1.89.0
+    - boost-typeof/1.89.0
+    - boost-utility/1.89.0
+    url: https://github.com/boostorg/contract.git
+  1.90.0-develop+20.05.22:
+    commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
+    dependencies:
+    - boost-any/1.90.0-develop+25.06.18
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-exception/1.90.0-develop+25.05.03
+    - boost-function/1.90.0-develop+24.12.14
+    - boost-function-types/1.90.0-develop+24.09.18
+    - boost-mpl/1.90.0-develop+25.07.03
+    - boost-optional/1.90.0-develop+24.12.08
+    - boost-preprocessor/1.90.0-develop+25.06.09
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-static-assert/1.90.0-develop+25.04.15
+    - boost-thread/1.90.0-develop+25.05.02
+    - boost-type-traits/1.90.0-develop+25.04.21
+    - boost-typeof/1.90.0-develop+25.06.09
+    - boost-utility/1.90.0-develop+25.08.25
+    url: https://github.com/boostorg/contract.git
+  1.90.0-master+20.05.22:
+    commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
+    dependencies:
+    - boost-any/1.90.0-master+25.06.18
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-exception/1.90.0-master+25.03.02
+    - boost-function/1.90.0-master+24.12.14
+    - boost-function-types/1.90.0-master+24.09.18
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-thread/1.90.0-master+25.05.02
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-typeof/1.90.0-master+25.06.09
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/contract.git
