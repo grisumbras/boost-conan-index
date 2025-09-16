@@ -38,27 +38,10 @@ def main(argv):
 
     module_registry = dict()
     with git.clone_ref(args.url, args.ref, bare=True) as root:
-        boost = Project('boost', args.ref)
-        boost.path = '.'
-        boost.url = args.url
-        boost.commit = git.get_commit(root)
-        boost.datetime = git.get_datetime(root)
+        boost = SuperProject(root, args.url, args.ref, git)
         module_registry['boost'] = boost
-
-        modules = git.submodule_config(
-            root, '--name-only', '--get-regexp', 'path')
-        for m in modules:
-            name = m.split('.')[1]
-            module = Project(name, args.ref, is_submodule=True)
-            params = git.submodule_config(
-                root, '--get-regexp', f'submodule\\.{name}\\.')
-            for p in params:
-                k, v = p.split(' ')
-                k = k.split('.')[2]
-                setattr(module, k, v)
-            module.commit = git.submodule_commit(root, module.path)
-            module.url = urllib.parse.urljoin(args.url, module.url)
-            module_registry[module.name] = module
+        for submodule in boost.submodules(git):
+            module_registry[submodule.name] = submodule
 
     template_env = jinja2.Environment(
         loader=jinja2.FunctionLoader(get_template),
@@ -69,46 +52,10 @@ def main(argv):
     template_env.filters['slugify'] = slugify
 
     for module in module_registry.values():
-        path = module.path
-        if not path.startswith('libs/') or path == 'libs/headers':
-            continue
-
-        with git.clone_commit(
-            module.url, module.commit, target=module.name,
-        ) as lib:
-            module.datetime = git.get_datetime(module.name)
-            for k, v in collect_data(module.name, module_registry, fs).items():
-                setattr(module, k, v)
+        module.collect_data(git, fs, module_registry)
 
     for module in module_registry.values():
-        path = module.path
-        if not path.startswith('libs/') or path == 'libs/headers':
-            print(f"skipping module '{path}'...")
-            continue
-
-        update_recipe(
-            args.target, module, args.ref, module_registry, template_env, fs,
-        )
-
-
-def collect_data(tree, registry, fs):
-    with fs.open(os.path.join(tree, 'meta', 'libraries.json'), 'r') as meta:
-        data = json.load(meta)
-        if type(data) == list:
-            data = data[0]
-    del data['name']
-
-    data['headeronly'] = not fs.exists(os.path.join(tree, 'build'))
-    data['dependencies'] = collect_dependencies(tree, registry, fs)
-
-    includedir = os.path.join(tree, 'include')
-    for root, dirs, files in fs.walk(includedir):
-        if files:
-            offset = len(includedir) + 1
-            data['header'] = os.path.join(root, files[0])[offset:]
-            break;
-
-    return data
+        module.generate_recipe(args.target, module_registry, template_env, fs)
 
 
 def collect_dependencies(lib_dir, registry, fs):
@@ -201,58 +148,7 @@ def parse_args(argv):
     return parser.parse_args(argv[1:])
 
 
-def update_recipe(base_dir, project, ref, registry, template_env, fs):
-    pkg_name = f'boost-{slugify(project.name)}'
-    pkg_base_dir = os.path.join(base_dir, 'recipes', pkg_name)
-    pkg_dir = os.path.join(pkg_base_dir, 'all')
-    pkg_test_dir = os.path.join(pkg_dir, 'test_package')
-
-    fs.create_path(pkg_test_dir)
-
-    versions = dict()
-    versions['versions'] = dict()
-    versions['versions'][project.conan_version] = {'folder': 'all'}
-
-    with fs.open(os.path.join(pkg_base_dir, 'config.yml'), 'w') as f:
-        yaml.dump(versions, f)
-
-    conandata = dict()
-    conandata['sources'] = dict()
-    conandata['sources'][project.conan_version] = {
-        'url': project.url,
-        'commit': project.commit,
-        'dependencies': [ dep.conan_ref for dep in project.dependencies ],
-    }
-
-    with fs.open(os.path.join(pkg_dir, 'conandata.yml'), 'w') as f:
-        yaml.dump(conandata, f)
-
-    template = template_env.get_template('conanfile')
-    with fs.open(os.path.join(pkg_dir, 'conanfile.py'), 'w') as f:
-        template.stream({
-            'project': project,
-            'b2_version': b2_version,
-        }).dump(f)
-
-    template = template_env.get_template('test_conanfile')
-    with fs.open(os.path.join(pkg_test_dir, 'conanfile.py'), 'w') as f:
-        template.stream({ 'project': project }).dump(f)
-
-    template = template_env.get_template('test_cml')
-    with fs.open(os.path.join(pkg_test_dir, 'CMakeLists.txt'), 'w') as f:
-        template.stream({ 'project': project }).dump(f)
-
-    template = template_env.get_template('test_cpp')
-    with fs.open(os.path.join(pkg_test_dir, 'test.cpp'), 'w') as f:
-        template.stream({ 'project': project }).dump(f)
-
-
 class Project():
-    def __init__(self, name, git_ref, is_submodule=False):
-        self.name = name
-        self.is_submodule = is_submodule
-        self.git_ref = git_ref
-
     @property
     def conan_version(self):
         if self.git_ref in ('develop', 'master'):
@@ -266,13 +162,169 @@ class Project():
 
     @property
     def conan_ref(self):
-        return f'boost-{slugify(self.name)}/{self.conan_version}'
+        return f'{self.conan_name}/{self.conan_version}'
+
+    def __init__(self, name, relative_path):
+        self.name = name
+        self.relative_path = relative_path
 
     def __str__(self):
         return self.name
 
     def __repr__(self):
-        return str(self)
+        return f'Project("{self.name}", "{self.git_ref}")'
+
+
+class SuperProject(Project):
+    @property
+    def conan_name(self):
+        return slugify(self.name)
+
+    def __init__(self, path, url, git_ref, git):
+        super().__init__('boost', '.')
+        self.git_ref = git_ref
+        self.path = path
+        self.url = url
+        self.commit = git.get_commit(path)
+        self.datetime = git.get_datetime(path)
+
+    def submodules(self, git):
+        submodules = git.submodule_config(
+            self.path, '--name-only', '--get-regexp', 'path')
+        for m in submodules:
+            name = m.split('.')[1]
+            raw_params = git.submodule_config(
+                self.path, '--get-regexp', f'submodule\\.{name}\\.')
+            path = None
+            url = None
+            for p in raw_params:
+                k, v = p.split(' ')
+                k = k.split('.')[2]
+                if k == 'path':
+                    path = v
+                elif k == 'url':
+                    url = v
+
+                cls = IgnoredProject
+                if path == 'libs/headers':
+                    cls = IgnoredProject
+                elif path.startswith('libs/'):
+                    cls = LibraryProject
+
+                yield cls(name, path, url, self, git)
+
+    def collect_data(self, git, fs, module_registry):
+        pass
+
+    def generate_recipe(self, base_dir, registry, template_env, fs):
+        print(f'skipping superproject')
+
+    def __repr__(self):
+        return f'SuperProject("{self.name}", "{self.git_ref}")'
+
+
+class LibraryProject(Project):
+    @property
+    def conan_name(self):
+        return f'boost-{slugify(self.name)}'
+
+    @property
+    def git_ref(self):
+        return self.superproject.git_ref
+
+    def __init__(self, name, path, url, superproject, git):
+        super().__init__(name, path)
+        self.superproject = superproject
+        self.url = urllib.parse.urljoin(superproject.url, url)
+        self.commit = git.submodule_commit(superproject.path, path)
+
+    def collect_data(self, git, fs, registry):
+        with git.clone_commit(self.url, self.commit, target=self.name) as lib:
+            self.datetime = git.get_datetime(lib)
+
+            meta_path = os.path.join(lib, 'meta', 'libraries.json')
+            with fs.open(meta_path, 'r') as meta:
+                metadata = json.load(meta)
+                if type(metadata) == list:
+                    metadata = metadata[0]
+                for k, v in metadata.items():
+                    if k == 'name':
+                        continue
+                    setattr(self, k, v)
+
+            includedir = os.path.join(lib, 'include')
+            for root, dirs, files in fs.walk(includedir):
+                if files:
+                    offset = len(includedir) + 1
+                    self.header = os.path.join(root, files[0])[offset:]
+                    break
+
+        self.headeronly = not fs.exists(os.path.join(lib, 'build'))
+        self.dependencies = collect_dependencies(lib, registry, fs)
+
+    def generate_recipe(self, base_dir, registry, template_env, fs):
+        pkg_base_dir = os.path.join(base_dir, 'recipes', self.conan_name)
+        pkg_dir = os.path.join(pkg_base_dir, 'all')
+        pkg_test_dir = os.path.join(pkg_dir, 'test_package')
+
+        fs.create_path(pkg_test_dir)
+
+        versions = dict()
+        versions['versions'] = dict()
+        versions['versions'][self.conan_version] = {'folder': 'all'}
+
+        with fs.open(os.path.join(pkg_base_dir, 'config.yml'), 'w') as f:
+            yaml.dump(versions, f)
+
+        conandata = dict()
+        conandata['sources'] = dict()
+        conandata['sources'][self.conan_version] = {
+            'url': self.url,
+            'commit': self.commit,
+            'dependencies': [dep.conan_ref for dep in self.dependencies],
+        }
+
+        with fs.open(os.path.join(pkg_dir, 'conandata.yml'), 'w') as f:
+            yaml.dump(conandata, f)
+
+        template = template_env.get_template('conanfile')
+        with fs.open(os.path.join(pkg_dir, 'conanfile.py'), 'w') as f:
+            template.stream({
+                'project': self,
+                'b2_version': b2_version,
+            }).dump(f)
+
+        template = template_env.get_template('test_conanfile')
+        with fs.open(os.path.join(pkg_test_dir, 'conanfile.py'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+        template = template_env.get_template('test_cml')
+        with fs.open(os.path.join(pkg_test_dir, 'CMakeLists.txt'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+        template = template_env.get_template('test_cpp')
+        with fs.open(os.path.join(pkg_test_dir, 'test.cpp'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+    def __repr__(self):
+        return f'LibraryProject("{self.name}", "{self.git_ref}")'
+
+
+class IgnoredProject(Project):
+    def __init__(self, name, path, *args):
+        super().__init__(name, path)
+
+    def update_params(self, *args):
+        pass
+
+    def collect_data(self, *args):
+        pass
+
+    def generate_recipe(self, base_dir, registry, template_env, fs):
+        print(f"skipping submodule '{self.relative_path}'")
+
+    def __repr__(self):
+        return f'IgnoredProject("{self.name}", "{self.git_ref}")'
 
 
 class Git():
