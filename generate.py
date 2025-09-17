@@ -44,7 +44,10 @@ def main(argv):
             module_registry[submodule.name] = submodule
 
     template_env = jinja2.Environment(
-        loader=jinja2.FunctionLoader(get_template),
+        loader=jinja2.FileSystemLoader(
+            os.path.join(os.path.dirname(__file__), 'templates'),
+            'utf-8',
+        ),
         autoescape=False,
         undefined=jinja2.StrictUndefined,
         extensions=['jinja2.ext.do', 'jinja2.ext.loopcontrols'],
@@ -287,22 +290,22 @@ class LibraryProject(Project):
         with fs.open(os.path.join(pkg_dir, 'conandata.yml'), 'w') as f:
             yaml.dump(conandata, f)
 
-        template = template_env.get_template('conanfile')
+        template = template_env.get_template('conanfile.py.jinja')
         with fs.open(os.path.join(pkg_dir, 'conanfile.py'), 'w') as f:
             template.stream({
                 'project': self,
                 'b2_version': b2_version,
             }).dump(f)
 
-        template = template_env.get_template('test_conanfile')
+        template = template_env.get_template('test_conanfile.py.jinja')
         with fs.open(os.path.join(pkg_test_dir, 'conanfile.py'), 'w') as f:
             template.stream({ 'project': self }).dump(f)
 
-        template = template_env.get_template('test_cml')
+        template = template_env.get_template('test_cmakelists.txt.jinja')
         with fs.open(os.path.join(pkg_test_dir, 'CMakeLists.txt'), 'w') as f:
             template.stream({ 'project': self }).dump(f)
 
-        template = template_env.get_template('test_cpp')
+        template = template_env.get_template('test.cpp.jinja')
         with fs.open(os.path.join(pkg_test_dir, 'test.cpp'), 'w') as f:
             template.stream({ 'project': self }).dump(f)
 
@@ -444,146 +447,6 @@ def slugify(text):
             result += c
     return result
 
-
-def get_template(name):
-    if name == 'conanfile':
-        return conanfile_template
-    if name == 'test_conanfile':
-        return test_conanfile_template
-    if name == 'test_cml':
-        return test_cml_template
-    if name == 'test_cpp':
-        return test_cpp_template
-
-conanfile_template = '''\
-import os.path
-from conan import ConanFile
-from conan.tools.build import check_min_cppstd
-from conan.tools.files import copy
-from conan.tools.scm import Git
-
-class Boost{{ project.name.title() }}Recipe(ConanFile):
-    name = 'boost-{{project.name|slugify}}'
-
-    license = 'BSL-1.0'
-    description = '{{project.description}}'
-    {% set sep = joiner(', ') -%}
-    author = '{% for a in project.authors %}{{sep()}}{{a}}{% endfor %}'
-    url = '{{project.url}}'
-    topics = {{project.category}}
-
-    {% if not project.headeronly -%}
-    settings = 'os', 'compiler', 'build_type', 'arch'
-    options = {'shared': [True, False]}
-    default_options = {'shared': False}
-    {%- elif project.cxxstd is defined -%}
-    settings = 'compiler'
-    {%- endif %}
-
-    package_type = {% if project.headeronly -%}
-        'header-library'
-    {%- else -%}
-        'library'
-    {%- endif %}
-
-    {% if project.cxxstd is defined -%}
-    def validate(self):
-        check_min_cppstd(self, '{{project.cxxstd}}')
-    {%- endif %}
-
-    {% if not project.headeronly -%}
-    def build_requirements(self):
-       self.tool_requires('b2/[>={{ b2_version }}]')
-    {%- endif %}
-
-    def requirements(self):
-        for dep in self.conan_data['sources'][self.version]['dependencies']:
-            self.requires(
-                dep,
-                headers=True,
-                transitive_headers=True,
-            {%- if not project.headeronly %}
-                libs=True,
-                transitive_libs=True,
-            {% endif -%}
-            )
-
-    def source(self):
-        git = Git(self)
-        data = self.conan_data['sources'][self.version]
-        git.fetch_commit(data['url'], data['commit'])
-
-    {% if project.headeronly -%}
-    def build(self):
-        pass
-
-    def package(self):
-        copy(self, '*',
-            os.path.join(self.source_folder, 'include'),
-            os.path.join(self.package_folder, 'include'))
-
-    def package_id(self):
-        self.info.clear()
-    {%- endif %}
-
-    def package_info(self):
-        {% if project.headeronly -%}
-        self.cpp_info.bindirs = []
-        self.cpp_info.libdirs = []
-        {%- endif %}
-        self.cpp_info.set_property('cmake_target_name', 'Boost::{{project.name.title()}}')
-        self.cpp_info.set_property('b2_project_name', '/boost/{{project.name|slugify}}')
-
-'''
-
-test_conanfile_template = '''\
-import os
-
-from conan import ConanFile
-from conan.tools.cmake import CMake, cmake_layout
-from conan.tools.build import can_run
-
-
-class Boost{{ project.name.title() }}TestConan(ConanFile):
-    settings = 'os', 'compiler', 'build_type', 'arch'
-    generators = 'CMakeDeps', 'CMakeToolchain'
-
-    def requirements(self):
-        self.requires(self.tested_reference_str)
-
-    def build(self):
-        cmake = CMake(self)
-        cmake.configure()
-        cmake.build()
-
-    def layout(self):
-        cmake_layout(self)
-
-    def test(self):
-        if not can_run(self):
-            return
-        cmd = os.path.join(self.cpp.build.bindir, 'test')
-        self.run(cmd, env="conanrun")
-'''
-
-test_cml_template = '''\
-cmake_minimum_required(VERSION 3.15)
-project(PackageTest CXX)
-
-find_package(boost-{{ project.name | slugify }} CONFIG REQUIRED)
-
-add_executable(test test.cpp)
-target_link_libraries(test Boost::{{ project.name.title() }})
-'''
-
-test_cpp_template = '''\
-#include <{{ project.header }}>
-
-int main()
-{
-    return 0;
-}
-'''
 
 if __name__ == '__main__':
     main(sys.argv)

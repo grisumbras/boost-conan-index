@@ -1,0 +1,77 @@
+import os.path
+from conan import ConanFile
+from conan.tools.build import check_min_cppstd
+from conan.tools.files import copy
+from conan.tools.scm import Git
+
+class Boost{{ project.name.title() }}Recipe(ConanFile):
+    name = 'boost-{{project.name|slugify}}'
+
+    license = 'BSL-1.0'
+    description = '{{project.description}}'
+    {% set sep = joiner(', ') -%}
+    author = '{% for a in project.authors %}{{sep()}}{{a}}{% endfor %}'
+    url = '{{project.url}}'
+    topics = {{project.category}}
+
+    {% if not project.headeronly -%}
+    settings = 'os', 'compiler', 'build_type', 'arch'
+    options = {'shared': [True, False]}
+    default_options = {'shared': False}
+    {%- elif project.cxxstd is defined -%}
+    settings = 'compiler'
+    {%- endif %}
+
+    package_type = {% if project.headeronly -%}
+        'header-library'
+    {%- else -%}
+        'library'
+    {%- endif %}
+
+    {% if project.cxxstd is defined -%}
+    def validate(self):
+        check_min_cppstd(self, '{{project.cxxstd}}')
+    {%- endif %}
+
+    {% if not project.headeronly -%}
+    def build_requirements(self):
+       self.tool_requires('b2/[>={{ b2_version }}]')
+    {%- endif %}
+
+    def requirements(self):
+        for dep in self.conan_data['sources'][self.version]['dependencies']:
+            self.requires(
+                dep,
+                headers=True,
+                transitive_headers=True,
+            {%- if not project.headeronly %}
+                libs=True,
+                transitive_libs=True,
+            {% endif -%}
+            )
+
+    def source(self):
+        git = Git(self)
+        data = self.conan_data['sources'][self.version]
+        git.fetch_commit(data['url'], data['commit'])
+
+    {% if project.headeronly -%}
+    def build(self):
+        pass
+
+    def package(self):
+        copy(self, '*',
+            os.path.join(self.source_folder, 'include'),
+            os.path.join(self.package_folder, 'include'))
+
+    def package_id(self):
+        self.info.clear()
+    {%- endif %}
+
+    def package_info(self):
+        {% if project.headeronly -%}
+        self.cpp_info.bindirs = []
+        self.cpp_info.libdirs = []
+        {%- endif %}
+        self.cpp_info.set_property('cmake_target_name', 'Boost::{{project.name.title()}}')
+        self.cpp_info.set_property('b2_project_name', '/boost/{{project.name|slugify}}')
