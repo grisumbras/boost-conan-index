@@ -38,7 +38,7 @@ sources:
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-detail/1.90.0-develop+25.06.13
-    - boost-dynamic-bitset/1.90.0-develop+25.09.16
+    - boost-dynamic-bitset/1.90.0-develop+25.09.17
     - boost-filesystem/1.90.0-develop+25.08.29
     - boost-foreach/1.90.0-develop+25.05.02
     - boost-function/1.90.0-develop+24.12.14
