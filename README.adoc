@@ -5,6 +5,23 @@ used as a
 https://docs.conan.io/2/tutorial/conan_repositories/setup_local_recipes_index.html[
 local recipe index].
 
+The index contains packages for Boost libraries separately and not as
+a monolith. There are versions of packages that correspond to Boost releases
+and nightly versions creates from the state of Boost superproject each day
+based on develop and master branches. Release package have Conan refs like
+`boost-LIBRARY/MAJOR.MINOR.PATCH` (e.g. `boost-range/1.89.0`). Nightly packages
+have Conan refs like `boost-LIBRARY/MAJOR.MINOR.0-BRANCH+YY.MM.DD` (e.g.
+`boost-config/1.90.0-master+25.07.04`). In this latter case, `MAJOR.MINOR.0` is
+the Boost version that was planned to be the next at the time of the package
+creation. `BRANCH` is the branch of the Boost superproject that was used to
+create the packages. `YY.MM.DD` is the date the specific commit referred to by
+the package was authored (year is used without the century digits).
+
+NOTE: Nightly packages' version structure makes them prereleases (which they in
+fact are). Conan doesn't find prerelease versions unless it is
+https://docs.conan.io/2/devops/versioning/resolve_prereleases.html[allowed to
+do so].
+
 == Install
 
 ```sh
