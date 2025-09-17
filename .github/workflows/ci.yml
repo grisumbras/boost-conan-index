@@ -101,7 +101,7 @@ jobs:
           GIT_AUTHOR_EMAIL: ${{ github.triggering_actor }}@users.noreply.github.com
           GIT_COMMITTER_NAME: ${{ github.triggering_actor }}
           GIT_COMMITTER_EMAIL: ${{ github.triggering_actor }}@users.noreply.github.com
-          COMMIT_MESSAGE: ${{ (github.event_name == 'schedule' && 'Automaitc update') || 'Manual update due to a push to master' }}
+          COMMIT_MESSAGE: ${{ (github.event_name == 'schedule' && 'Scheduled update') || 'Automatic update due to a push to master' }}
         run: |
             set -ex
             git -C current-index add .
