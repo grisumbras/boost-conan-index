@@ -95,7 +95,7 @@ jobs:
           done
 
       - name: Uploading updated index
-        if: (github.event_name == 'push' && github.ref == 'master') || github.event_name == 'schedule'
+        if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule'
         env:
           GIT_AUTHOR_NAME: ${{ github.triggering_actor }}
           GIT_AUTHOR_EMAIL: ${{ github.triggering_actor }}@users.noreply.github.com
