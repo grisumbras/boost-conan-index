@@ -93,6 +93,7 @@ jobs:
           for dir in index-*; do
             head/merge-index.py $dir current-index
           done
+          cp head/README.adoc current-index
 
       - name: Uploading updated index
         if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule'
