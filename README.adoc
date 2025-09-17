@@ -25,8 +25,13 @@ do so].
 == Install
 
 ```sh
-git clone https://github.com/grisumbras/boost-conan-index -b index -d 1
+git clone https://github.com/grisumbras/boost-conan-index -b index --depth 1
 conan remote add boost-conan-index ./boost-conan-index
+```
+
+To update the index
+```sh
+git -C boost-conan-index pull
 ```
 
 == Usage
@@ -36,6 +41,40 @@ that the index doesn't provide any prebuilt packages, thus anything installed
 from it would require a `--build=missing` or a similar flag (see
 https://docs.conan.io/2/reference/commands/install.html[`conan install`
 documentation]).
+
+Prereleases are sorted as tuples of `(version, prerelease, build)`.
+Alphanumeric components are sorted lexicographically. Hence, given packages
+`boost-config/1.90.0-develop+25.1.2` and `boost-config/1.90.0-master+25.1.1`,
+the latter is consider more recent (`master` is greater than `develop`
+lexicographically).
+
+Don't forget to use `-u` or `--update` in Conan commands to get the more recent
+packages from the index rather than using the versions you already have in
+local cache.
+
+=== Example Version Requests
+
+Boost.Any from the Boost release 1.89.0:: `boost-any/1.89.0`
+
+Most recent released version of Boost.Any:: `boost-any/[*]`
+
+Most recent version of Boost.Any, including prereleases::
+`boost-any/[>0-a, include_prerelease]`
+
+Most recent nightly version of Boost.Any before release 1.90.0::
+`boost-any/[<1.90.0-z, include_prerelease]`
+
+Most recent version of Boost.Any from master before release 1.90.0::
+`boost-any/[>=1.90.0-master <1.90.0-z, include_prerelease]`
+
+Most recent version of Boost.Any from develop before release 1.90.0::
+`boost-any/[>=1.90.0-develop <1.90.0-master, include_prerelease]`
+
+Most recent version of Boost.Any from develop before release 1.90.0, authored before July 2025::
+`boost-any/[<1.90.0-develop+2025.07, include_prerelease]`
+
+Most recent version of Boost.Any from master before release 1.90.0, authored in July 2025::
+`boost-any/[>=1.90.0-master+2025.07 <1.90.0-master+2025.08, include_prerelease]`
 
 == Contributing
 
