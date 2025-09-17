@@ -106,6 +106,9 @@ jobs:
         run: |
             set -ex
 
-            git -C current-index add .
-            git -C current-index commit -m "$COMMIT_MESSAGE"
-            git -C current-index push
+            popd current-index
+            git add .
+            if [ -n "$(git status --porcelain=v1)" ]; then
+              git commit -m "$COMMIT_MESSAGE"
+              git push
+            fi
