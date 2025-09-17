@@ -104,6 +104,7 @@ jobs:
           COMMIT_MESSAGE: ${{ (github.event_name == 'schedule' && 'Scheduled update') || 'Automatic update due to a push to master' }}
         run: |
             set -ex
+
             git -C current-index add .
             git -C current-index commit -m "$COMMIT_MESSAGE"
             git -C current-index push
