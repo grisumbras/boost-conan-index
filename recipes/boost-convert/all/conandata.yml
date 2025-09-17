@@ -41,6 +41,6 @@ sources:
     - boost-optional/1.90.0-master+24.12.04
     - boost-parameter/1.90.0-master+25.08.25
     - boost-range/1.90.0-master+25.02.08
-    - boost-spirit/1.90.0-master+25.03.01
+    - boost-spirit/1.90.0-master+25.09.17
     - boost-type-traits/1.90.0-master+25.07.04
     url: https://github.com/boostorg/convert.git

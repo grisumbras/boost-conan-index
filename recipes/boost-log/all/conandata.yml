@@ -115,7 +115,7 @@ sources:
     - boost-range/1.90.0-master+25.02.08
     - boost-regex/1.90.0-master+25.07.04
     - boost-smart-ptr/1.90.0-master+25.08.16
-    - boost-spirit/1.90.0-master+25.03.01
+    - boost-spirit/1.90.0-master+25.09.17
     - boost-system/1.90.0-master+25.07.02
     - boost-thread/1.90.0-master+25.05.02
     - boost-throw-exception/1.90.0-master+24.12.12

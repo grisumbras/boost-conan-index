@@ -68,7 +68,7 @@ sources:
     - boost-predef/1.90.0-master+25.01.12
     - boost-preprocessor/1.90.0-master+25.06.09
     - boost-smart-ptr/1.90.0-master+25.08.16
-    - boost-spirit/1.90.0-master+25.03.01
+    - boost-spirit/1.90.0-master+25.09.17
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-unordered/1.90.0-master+25.06.02
