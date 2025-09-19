@@ -30,7 +30,7 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/dynamic_bitset.git
   1.90.0-develop+25.09.18:
-    commit: daa3df40cba1424adda4a2e7bcd2dacebf36b8a7
+    commit: 11be69a45ef078c43c9c0bf51ab6c7300158bc0f
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-config/1.90.0-develop+25.06.27
