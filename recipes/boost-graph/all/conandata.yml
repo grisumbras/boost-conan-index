@@ -64,10 +64,10 @@ sources:
     - boost-integer/1.90.0-develop+25.08.25
     - boost-iterator/1.90.0-develop+25.08.25
     - boost-lexical-cast/1.90.0-develop+25.09.08
-    - boost-math/1.90.0-develop+25.09.10
+    - boost-math/1.90.0-develop+25.09.18
     - boost-move/1.90.0-develop+25.08.23
     - boost-mpl/1.90.0-develop+25.07.03
-    - boost-multi-index/1.90.0-develop+25.09.08
+    - boost-multi-index/1.90.0-develop+25.09.19
     - boost-optional/1.90.0-develop+24.12.08
     - boost-parameter/1.90.0-develop+25.08.25
     - boost-preprocessor/1.90.0-develop+25.06.09
@@ -84,7 +84,7 @@ sources:
     - boost-tuple/1.90.0-develop+25.06.09
     - boost-type-traits/1.90.0-develop+25.04.21
     - boost-typeof/1.90.0-develop+25.06.09
-    - boost-unordered/1.90.0-develop+25.08.26
+    - boost-unordered/1.90.0-develop+25.09.19
     - boost-utility/1.90.0-develop+25.08.25
     - boost-xpressive/1.90.0-develop+25.05.02
     url: https://github.com/boostorg/graph.git

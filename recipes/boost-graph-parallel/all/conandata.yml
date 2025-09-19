@@ -38,7 +38,7 @@ sources:
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-detail/1.90.0-develop+25.06.13
-    - boost-dynamic-bitset/1.90.0-develop+25.09.17
+    - boost-dynamic-bitset/1.90.0-develop+25.09.18
     - boost-filesystem/1.90.0-develop+25.08.29
     - boost-foreach/1.90.0-develop+25.05.02
     - boost-function/1.90.0-develop+24.12.14
@@ -74,7 +74,7 @@ sources:
     - boost-graph/1.90.0-master+25.02.15
     - boost-iterator/1.90.0-master+25.08.25
     - boost-lexical-cast/1.90.0-master+25.09.08
-    - boost-mpi/1.90.0-master+25.02.26
+    - boost-mpi/1.90.0-master+25.04.17
     - boost-mpl/1.90.0-master+25.06.27
     - boost-optional/1.90.0-master+24.12.04
     - boost-property-map/1.90.0-master+24.12.28

@@ -39,7 +39,7 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-tuple/1.90.0-develop+25.06.09
     - boost-type-traits/1.90.0-develop+25.04.21
-    - boost-unordered/1.90.0-develop+25.08.26
+    - boost-unordered/1.90.0-develop+25.09.19
     url: https://github.com/boostorg/algorithm.git
   1.90.0-master+23.08.02:
     commit: 32c5a6327cfdca5d41ce0f1d8849b811886daa2f

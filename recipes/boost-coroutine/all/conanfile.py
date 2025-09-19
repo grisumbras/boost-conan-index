@@ -1,7 +1,10 @@
 import os.path
 from conan import ConanFile
 from conan.tools.build import check_min_cppstd
-from conan.tools.files import copy
+from conan.tools.files import (
+    copy,
+    rmdir,
+)
 from conan.tools.scm import Git
 
 class BoostCoroutineRecipe(ConanFile):
@@ -38,6 +41,7 @@ class BoostCoroutineRecipe(ConanFile):
         git = Git(self)
         data = self.conan_data['sources'][self.version]
         git.fetch_commit(data['url'], data['commit'])
+        rmdir(self, '.git')
 
     
 

@@ -14,7 +14,7 @@ sources:
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-config/1.90.0-develop+25.06.27
-    - boost-container/1.90.0-develop+25.09.07
+    - boost-container/1.90.0-develop+25.09.18
     - boost-intrusive/1.90.0-develop+25.08.25
     - boost-move/1.90.0-develop+25.08.23
     - boost-winapi/1.90.0-develop+25.08.25

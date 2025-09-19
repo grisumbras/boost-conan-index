@@ -30,7 +30,7 @@ sources:
     - boost-core/1.90.0-develop+25.08.25
     - boost-fusion/1.90.0-develop+24.08.21
     - boost-iterator/1.90.0-develop+25.08.25
-    - boost-math/1.90.0-develop+25.09.10
+    - boost-math/1.90.0-develop+25.09.18
     - boost-mpi/1.90.0-develop+25.05.06
     - boost-mpl/1.90.0-develop+25.07.03
     - boost-multi-array/1.90.0-develop+25.06.25
@@ -53,7 +53,7 @@ sources:
     - boost-fusion/1.90.0-master+24.05.15
     - boost-iterator/1.90.0-master+25.08.25
     - boost-math/1.90.0-master+25.07.07
-    - boost-mpi/1.90.0-master+25.02.26
+    - boost-mpi/1.90.0-master+25.04.17
     - boost-mpl/1.90.0-master+25.06.27
     - boost-multi-array/1.90.0-master+21.05.28
     - boost-preprocessor/1.90.0-master+25.06.09

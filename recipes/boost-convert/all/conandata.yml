@@ -21,7 +21,7 @@ sources:
     - boost-core/1.90.0-develop+25.08.25
     - boost-function-types/1.90.0-develop+24.09.18
     - boost-lexical-cast/1.90.0-develop+25.09.08
-    - boost-math/1.90.0-develop+25.09.10
+    - boost-math/1.90.0-develop+25.09.18
     - boost-mpl/1.90.0-develop+25.07.03
     - boost-optional/1.90.0-develop+24.12.08
     - boost-parameter/1.90.0-develop+25.08.25

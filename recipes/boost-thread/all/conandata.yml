@@ -37,7 +37,7 @@ sources:
     - boost-chrono/1.90.0-develop+24.12.13
     - boost-concept-check/1.90.0-develop+25.07.02
     - boost-config/1.90.0-develop+25.06.27
-    - boost-container/1.90.0-develop+25.09.07
+    - boost-container/1.90.0-develop+25.09.18
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-date-time/1.90.0-develop+25.07.07

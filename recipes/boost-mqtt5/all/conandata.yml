@@ -33,6 +33,20 @@ sources:
     - boost-system/1.90.0-develop+25.07.02
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/mqtt5.git
+  1.90.0-develop+25.09.18:
+    commit: 150ba94d14d89d1187e010464a63eaddf10e2225
+    dependencies:
+    - boost-asio/1.90.0-develop+25.08.06
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-container/1.90.0-develop+25.09.18
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-endian/1.90.0-develop+24.12.14
+    - boost-random/1.90.0-develop+25.07.02
+    - boost-range/1.90.0-develop+25.05.02
+    - boost-smart-ptr/1.90.0-develop+25.08.16
+    - boost-system/1.90.0-develop+25.07.02
+    - boost-type-traits/1.90.0-develop+25.04.21
+    url: https://github.com/boostorg/mqtt5.git
   1.90.0-master+25.07.28:
     commit: 620df1f9934925ac6044e4619c701d6dcf9dc8b6
     dependencies:

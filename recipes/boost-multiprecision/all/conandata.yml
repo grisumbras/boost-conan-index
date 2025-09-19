@@ -25,6 +25,19 @@ sources:
     - boost-random/1.90.0-develop+25.07.02
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/multiprecision.git
+  1.90.0-develop+25.09.18:
+    commit: 6ec5a7dd9da9c5151192b5cc87b01ce28d6a2545
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-core/1.90.0-develop+25.08.25
+    - boost-integer/1.90.0-develop+25.08.25
+    - boost-lexical-cast/1.90.0-develop+25.09.08
+    - boost-math/1.90.0-develop+25.09.18
+    - boost-predef/1.90.0-develop+25.02.03
+    - boost-random/1.90.0-develop+25.07.02
+    - boost-throw-exception/1.90.0-develop+24.12.12
+    url: https://github.com/boostorg/multiprecision.git
   1.90.0-master+25.07.02:
     commit: e0c112538ff1e903594d039f2eb97e0057737e5d
     dependencies:

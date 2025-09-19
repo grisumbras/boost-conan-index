@@ -26,7 +26,7 @@ sources:
     - boost-iterator/1.90.0-develop+25.08.25
     - boost-lambda/1.90.0-develop+25.05.03
     - boost-mpl/1.90.0-develop+25.07.03
-    - boost-multi-index/1.90.0-develop+25.09.08
+    - boost-multi-index/1.90.0-develop+25.09.19
     - boost-preprocessor/1.90.0-develop+25.06.09
     - boost-static-assert/1.90.0-develop+25.04.15
     - boost-throw-exception/1.90.0-develop+24.12.12

@@ -30,7 +30,7 @@ sources:
     - boost-smart-ptr/1.90.0-develop+25.08.16
     - boost-static-assert/1.90.0-develop+25.04.15
     - boost-type-traits/1.90.0-develop+25.04.21
-    - boost-unordered/1.90.0-develop+25.08.26
+    - boost-unordered/1.90.0-develop+25.09.19
     - boost-utility/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/ptr_container.git
   1.90.0-master+24.12.28:

@@ -26,7 +26,7 @@ sources:
     - boost-callable-traits/1.90.0-develop+25.06.25
     - boost-circular-buffer/1.90.0-develop+25.05.02
     - boost-config/1.90.0-develop+25.06.27
-    - boost-container/1.90.0-develop+25.09.07
+    - boost-container/1.90.0-develop+25.09.18
     - boost-context/1.90.0-develop+25.08.26
     - boost-core/1.90.0-develop+25.08.25
     - boost-endian/1.90.0-develop+24.12.14

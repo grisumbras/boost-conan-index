@@ -31,7 +31,7 @@ sources:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-bind/1.90.0-develop+24.12.13
     - boost-config/1.90.0-develop+25.06.27
-    - boost-container/1.90.0-develop+25.09.07
+    - boost-container/1.90.0-develop+25.09.18
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-endian/1.90.0-develop+24.12.14

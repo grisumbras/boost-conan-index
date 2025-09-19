@@ -61,7 +61,7 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21
     - boost-typeof/1.90.0-develop+25.06.09
-    - boost-unordered/1.90.0-develop+25.08.26
+    - boost-unordered/1.90.0-develop+25.09.19
     - boost-utility/1.90.0-develop+25.08.25
     - boost-variant/1.90.0-develop+25.09.13
     url: https://github.com/boostorg/spirit.git

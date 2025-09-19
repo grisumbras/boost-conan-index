@@ -59,3 +59,23 @@ sources:
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-traits/1.90.0-master+25.07.04
     url: https://github.com/boostorg/mpi.git
+  1.90.0-master+25.04.17:
+    commit: b5733ba6f93671c696be707e13e8b2662c1e45e2
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-foreach/1.90.0-master+25.01.26
+    - boost-function/1.90.0-master+24.12.14
+    - boost-graph/1.90.0-master+25.02.15
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-lexical-cast/1.90.0-master+25.09.08
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-serialization/1.90.0-master+23.11.12
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/mpi.git
