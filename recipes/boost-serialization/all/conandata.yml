@@ -73,5 +73,5 @@ sources:
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-unordered/1.90.0-master+25.06.02
     - boost-utility/1.90.0-master+25.08.25
-    - boost-variant/1.90.0-master+25.01.08
+    - boost-variant/1.90.0-master+25.09.13
     url: https://github.com/boostorg/serialization.git

@@ -27,7 +27,7 @@ sources:
     - boost-charconv/1.90.0-develop+25.08.14
     - boost-compat/1.90.0-develop+25.09.05
     - boost-config/1.90.0-develop+25.06.27
-    - boost-container/1.90.0-develop+25.09.18
+    - boost-container/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-describe/1.90.0-develop+25.08.17
     - boost-endian/1.90.0-develop+24.12.14

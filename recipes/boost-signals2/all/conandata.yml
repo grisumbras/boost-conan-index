@@ -54,5 +54,5 @@ sources:
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-tuple/1.90.0-master+25.06.09
     - boost-type-traits/1.90.0-master+25.07.04
-    - boost-variant/1.90.0-master+25.01.08
+    - boost-variant/1.90.0-master+25.09.13
     url: https://github.com/boostorg/signals2.git

@@ -50,3 +50,20 @@ sources:
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-utility/1.90.0-master+25.08.25
     url: https://github.com/boostorg/variant.git
+  1.90.0-master+25.09.13:
+    commit: 9738f5733b3a9863be0cc2ab23cd9ba1ae5b74ff
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-detail/1.90.0-master+25.06.13
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-index/1.90.0-master+25.09.07
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/variant.git

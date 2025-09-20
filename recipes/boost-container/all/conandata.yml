@@ -23,6 +23,14 @@ sources:
     - boost-intrusive/1.90.0-develop+25.08.25
     - boost-move/1.90.0-develop+25.08.23
     url: https://github.com/boostorg/container.git
+  1.90.0-develop+25.09.20:
+    commit: c006897da0c051a245bc37e28f9b033996c9b17b
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21
+    - boost-config/1.90.0-develop+25.06.27
+    - boost-intrusive/1.90.0-develop+25.08.25
+    - boost-move/1.90.0-develop+25.08.23
+    url: https://github.com/boostorg/container.git
   1.90.0-master+25.05.21:
     commit: e8baf848bc426022dffbc814db8e1261d6033d4b
     dependencies:
