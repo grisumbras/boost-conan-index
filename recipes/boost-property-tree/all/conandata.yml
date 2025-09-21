@@ -23,7 +23,7 @@ sources:
     - boost-any/1.90.0-develop+25.06.18
     - boost-assert/1.90.0-develop+25.03.21
     - boost-bind/1.90.0-develop+24.12.13
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-iterator/1.90.0-develop+25.08.25
     - boost-mpl/1.90.0-develop+25.07.03
@@ -45,7 +45,7 @@ sources:
     - boost-core/1.90.0-master+25.08.25
     - boost-iterator/1.90.0-master+25.08.25
     - boost-mpl/1.90.0-master+25.06.27
-    - boost-multi-index/1.90.0-master+25.09.11
+    - boost-multi-index/1.90.0-master+25.09.20
     - boost-optional/1.90.0-master+24.12.04
     - boost-range/1.90.0-master+25.02.08
     - boost-serialization/1.90.0-master+23.11.12

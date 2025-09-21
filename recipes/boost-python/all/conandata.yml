@@ -25,7 +25,7 @@ sources:
     dependencies:
     - boost-align/1.90.0-develop+25.06.26
     - boost-bind/1.90.0-develop+24.12.13
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-conversion/1.90.0-develop+25.06.27
     - boost-core/1.90.0-develop+25.08.25
     - boost-detail/1.90.0-develop+25.06.13

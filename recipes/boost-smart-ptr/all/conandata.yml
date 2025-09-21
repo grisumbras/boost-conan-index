@@ -11,7 +11,7 @@ sources:
     commit: 1dcc441ca1e286ec8fa0f6cf7cf0f3c1a94abd4e
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/smart_ptr.git

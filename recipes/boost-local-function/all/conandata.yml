@@ -13,7 +13,7 @@ sources:
   1.90.0-develop+25.06.26:
     commit: ff0934f6a397ec8949c52386d9b2fe0b29715e9f
     dependencies:
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-mpl/1.90.0-develop+25.07.03
     - boost-preprocessor/1.90.0-develop+25.06.09
     - boost-scope-exit/1.90.0-develop+25.05.02

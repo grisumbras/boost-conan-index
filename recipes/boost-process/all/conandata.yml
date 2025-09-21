@@ -26,7 +26,7 @@ sources:
     - boost-algorithm/1.90.0-develop+25.08.25
     - boost-asio/1.90.0-develop+25.08.06
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-fusion/1.90.0-develop+24.08.21
     - boost-io/1.90.0-develop+25.06.26

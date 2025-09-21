@@ -19,7 +19,7 @@ sources:
     - boost-array/1.90.0-develop+25.04.03
     - boost-assert/1.90.0-develop+25.03.21
     - boost-concept-check/1.90.0-develop+25.07.02
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-functional/1.90.0-develop+25.06.26
     - boost-iterator/1.90.0-develop+25.08.25

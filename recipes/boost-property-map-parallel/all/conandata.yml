@@ -22,7 +22,7 @@ sources:
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-concept-check/1.90.0-develop+25.07.02
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-function/1.90.0-develop+24.12.14
     - boost-mpi/1.90.0-develop+25.05.06
     - boost-mpl/1.90.0-develop+25.07.03
@@ -44,7 +44,7 @@ sources:
     - boost-function/1.90.0-master+24.12.14
     - boost-mpi/1.90.0-master+25.04.17
     - boost-mpl/1.90.0-master+25.06.27
-    - boost-multi-index/1.90.0-master+25.09.11
+    - boost-multi-index/1.90.0-master+25.09.20
     - boost-optional/1.90.0-master+24.12.04
     - boost-property-map/1.90.0-master+24.12.28
     - boost-serialization/1.90.0-master+23.11.12

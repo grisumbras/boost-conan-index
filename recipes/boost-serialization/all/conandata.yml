@@ -29,7 +29,7 @@ sources:
     dependencies:
     - boost-array/1.90.0-develop+25.04.03
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-detail/1.90.0-develop+25.06.13
     - boost-integer/1.90.0-develop+25.08.25
@@ -71,7 +71,7 @@ sources:
     - boost-spirit/1.90.0-master+25.09.17
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-type-traits/1.90.0-master+25.07.04
-    - boost-unordered/1.90.0-master+25.06.02
+    - boost-unordered/1.90.0-master+25.09.19
     - boost-utility/1.90.0-master+25.08.25
     - boost-variant/1.90.0-master+25.09.13
     url: https://github.com/boostorg/serialization.git

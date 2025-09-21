@@ -28,7 +28,7 @@ sources:
     commit: 3950d7958ce22b68a53072cafa9cb57975f4195a
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-conversion/1.90.0-develop+25.06.27
     - boost-core/1.90.0-develop+25.08.25
     - boost-exception/1.90.0-develop+25.05.03

@@ -27,7 +27,7 @@ sources:
     commit: 3466ac7525b1607477fb4585d4ead8cb1e37d124
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-iterator/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/locale.git

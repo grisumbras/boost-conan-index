@@ -49,7 +49,7 @@ sources:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-atomic/1.90.0-develop+25.08.26
     - boost-bind/1.90.0-develop+24.12.13
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-date-time/1.90.0-develop+25.07.07
     - boost-exception/1.90.0-develop+25.05.03

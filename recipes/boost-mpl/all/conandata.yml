@@ -13,7 +13,7 @@ sources:
   1.90.0-develop+25.07.03:
     commit: 02ec362f5ca4907290e1516adcc53bf7673a4806
     dependencies:
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-predef/1.90.0-develop+25.02.03
     - boost-preprocessor/1.90.0-develop+25.06.09

@@ -27,7 +27,7 @@ sources:
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-concept-check/1.90.0-develop+25.07.02
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-filesystem/1.90.0-develop+25.08.29
     - boost-format/1.90.0-develop+25.06.26
@@ -57,7 +57,7 @@ sources:
     - boost-iterator/1.90.0-master+25.08.25
     - boost-lexical-cast/1.90.0-master+25.09.08
     - boost-mpl/1.90.0-master+25.06.27
-    - boost-multi-index/1.90.0-master+25.09.11
+    - boost-multi-index/1.90.0-master+25.09.20
     - boost-optional/1.90.0-master+24.12.04
     - boost-pool/1.90.0-master+25.02.25
     - boost-preprocessor/1.90.0-master+25.06.09

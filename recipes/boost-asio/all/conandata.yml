@@ -17,7 +17,7 @@ sources:
     - boost-align/1.90.0-develop+25.06.26
     - boost-asio/1.90.0-develop+25.08.06
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-context/1.90.0-develop+25.08.26
     - boost-date-time/1.90.0-develop+25.07.07
     - boost-system/1.90.0-develop+25.07.02

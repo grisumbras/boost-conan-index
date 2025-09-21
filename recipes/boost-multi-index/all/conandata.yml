@@ -44,7 +44,7 @@ sources:
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-bind/1.90.0-develop+24.12.13
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-integer/1.90.0-develop+25.08.25
@@ -61,6 +61,26 @@ sources:
     url: https://github.com/boostorg/multi_index.git
   1.90.0-master+25.09.11:
     commit: 505284d06b8bdcc08f4cd4345f737dd73317e554
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-bind/1.90.0-master+24.12.13
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-integer/1.90.0-master+25.08.25
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-move/1.90.0-master+25.05.20
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-static-assert/1.90.0-master+25.04.15
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-tuple/1.90.0-master+25.06.09
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/multi_index.git
+  1.90.0-master+25.09.20:
+    commit: 90697ee83e4a1c144dc54da891a0a4be61c4f8b9
     dependencies:
     - boost-assert/1.90.0-master+25.03.21
     - boost-bind/1.90.0-master+24.12.13

@@ -7,7 +7,7 @@ sources:
   1.90.0-develop+25.06.09:
     commit: 26e22b8b370617a6181f3ae4bd1f584b3b4767e1
     dependencies:
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     url: https://github.com/boostorg/typeof.git
   1.90.0-master+25.06.09:
     commit: 26e22b8b370617a6181f3ae4bd1f584b3b4767e1

@@ -12,7 +12,7 @@ sources:
     commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-variant2/1.90.0-develop+25.01.15
     - boost-winapi/1.90.0-develop+25.08.25

@@ -11,7 +11,7 @@ sources:
     commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-static-assert/1.90.0-develop+25.04.15
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/array.git

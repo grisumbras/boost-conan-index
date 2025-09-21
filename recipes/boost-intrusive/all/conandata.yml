@@ -10,7 +10,7 @@ sources:
     commit: fd765b6cba60aa635671d596e5cd2797d047c020
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-move/1.90.0-develop+25.08.23
     url: https://github.com/boostorg/intrusive.git
   1.90.0-master+25.05.20:

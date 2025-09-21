@@ -11,7 +11,7 @@ sources:
   1.90.0-develop+25.06.12:
     commit: 3afe76f91f93af237764242d56fa6ebaad7c81e6
     dependencies:
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-mp11/1.90.0-develop+25.09.09
     - boost-throw-exception/1.90.0-develop+24.12.12

@@ -20,7 +20,7 @@ sources:
     commit: f64de6d045bf6aa3f39a672604bcccbc97291525
     dependencies:
     - boost-concept-check/1.90.0-develop+25.07.02
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-iterator/1.90.0-develop+25.08.25
@@ -43,7 +43,7 @@ sources:
     - boost-iterator/1.90.0-master+25.08.25
     - boost-lambda/1.90.0-master+25.05.03
     - boost-mpl/1.90.0-master+25.06.27
-    - boost-multi-index/1.90.0-master+25.09.11
+    - boost-multi-index/1.90.0-master+25.09.20
     - boost-preprocessor/1.90.0-master+25.06.09
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-throw-exception/1.90.0-master+24.12.12

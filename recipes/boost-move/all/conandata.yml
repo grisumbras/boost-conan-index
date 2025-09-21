@@ -7,7 +7,7 @@ sources:
   1.90.0-develop+25.08.23:
     commit: 23f9356314fde7544fb2de7f91ddd070011c72e5
     dependencies:
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     url: https://github.com/boostorg/move.git
   1.90.0-master+25.05.20:
     commit: 40d2be68bae9acfb4f165cdaab0a4246c5af5485

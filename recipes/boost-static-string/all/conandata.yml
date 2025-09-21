@@ -13,7 +13,7 @@ sources:
     commit: 7a53b7ff2082c5c2b2ab38085936ced852bb77a3
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-static-assert/1.90.0-develop+25.04.15

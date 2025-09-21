@@ -10,7 +10,7 @@ sources:
     commit: f405b3c5c2434daac6cc90c279f9e50b05c5c11c
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-context/1.90.0-develop+25.08.26
     url: https://github.com/boostorg/coroutine2.git
   1.90.0-master+24.08.28:

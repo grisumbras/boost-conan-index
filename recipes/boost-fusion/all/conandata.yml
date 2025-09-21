@@ -20,7 +20,7 @@ sources:
   1.90.0-develop+24.08.21:
     commit: 495539ce4404bde4af187ccc072235a6a7446e2c
     dependencies:
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-function-types/1.90.0-develop+24.09.18

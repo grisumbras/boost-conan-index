@@ -17,7 +17,7 @@ sources:
     commit: 0068b4d90d7843ecec3e43da0ed4229b7acc27c6
     dependencies:
     - boost-bind/1.90.0-develop+24.12.13
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-detail/1.90.0-develop+25.06.13
     - boost-iterator/1.90.0-develop+25.08.25

@@ -25,7 +25,7 @@ sources:
     commit: dcc485bcb51d6d4ae18007e1de47230bc26e50a6
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-mp11/1.90.0-develop+25.09.09
@@ -34,6 +34,17 @@ sources:
     url: https://github.com/boostorg/unordered.git
   1.90.0-master+25.06.02:
     commit: 59e2a562edf0759e0ac52f659d25e0907ed7bec6
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-predef/1.90.0-master+25.01.12
+    - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/unordered.git
+  1.90.0-master+25.09.19:
+    commit: dcc485bcb51d6d4ae18007e1de47230bc26e50a6
     dependencies:
     - boost-assert/1.90.0-master+25.03.21
     - boost-config/1.90.0-master+25.07.04

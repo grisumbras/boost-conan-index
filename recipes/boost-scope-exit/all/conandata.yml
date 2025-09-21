@@ -11,7 +11,7 @@ sources:
   1.90.0-develop+25.05.02:
     commit: 5450074da7f1d338eb5774b245bd7a255f92680e
     dependencies:
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-function/1.90.0-develop+24.12.14
     - boost-preprocessor/1.90.0-develop+25.06.09
     - boost-type-traits/1.90.0-develop+25.04.21

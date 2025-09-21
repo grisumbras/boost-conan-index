@@ -15,7 +15,7 @@ sources:
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-concept-check/1.90.0-develop+25.07.02
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-predef/1.90.0-develop+25.02.03
     - boost-static-assert/1.90.0-develop+25.04.15
     - boost-throw-exception/1.90.0-develop+24.12.12

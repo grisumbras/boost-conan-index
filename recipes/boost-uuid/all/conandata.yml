@@ -19,7 +19,7 @@ sources:
     commit: bbbb20427c708c8b3528e6c6e483c0c484db20d0
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/uuid.git

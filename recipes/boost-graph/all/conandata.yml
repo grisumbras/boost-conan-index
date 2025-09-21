@@ -54,7 +54,7 @@ sources:
     - boost-bimap/1.90.0-develop+25.01.27
     - boost-bind/1.90.0-develop+24.12.13
     - boost-concept-check/1.90.0-develop+25.07.02
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-conversion/1.90.0-develop+25.06.27
     - boost-core/1.90.0-develop+25.08.25
@@ -111,7 +111,7 @@ sources:
     - boost-math/1.90.0-master+25.07.07
     - boost-move/1.90.0-master+25.05.20
     - boost-mpl/1.90.0-master+25.06.27
-    - boost-multi-index/1.90.0-master+25.09.11
+    - boost-multi-index/1.90.0-master+25.09.20
     - boost-optional/1.90.0-master+24.12.04
     - boost-parameter/1.90.0-master+25.08.25
     - boost-preprocessor/1.90.0-master+25.06.09
@@ -129,7 +129,7 @@ sources:
     - boost-tuple/1.90.0-master+25.06.09
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-typeof/1.90.0-master+25.06.09
-    - boost-unordered/1.90.0-master+25.06.02
+    - boost-unordered/1.90.0-master+25.09.19
     - boost-utility/1.90.0-master+25.08.25
     - boost-xpressive/1.90.0-master+24.09.27
     url: https://github.com/boostorg/graph.git

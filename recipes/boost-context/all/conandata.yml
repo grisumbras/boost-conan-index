@@ -14,7 +14,7 @@ sources:
     commit: e9a7b968ecce1b3f1eb2ccdc650a960d598c92dd
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-mp11/1.90.0-develop+25.09.09
     - boost-pool/1.90.0-develop+19.09.06

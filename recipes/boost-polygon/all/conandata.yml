@@ -7,7 +7,7 @@ sources:
   1.90.0-develop+25.05.02:
     commit: ddb9c8adadbbb539fe52cb7f8ee0a446ba5ead04
     dependencies:
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     url: https://github.com/boostorg/polygon.git
   1.90.0-master+21.06.10:
     commit: 8ba35b57c1436c4b36f7544aadd78c2b24acc7db

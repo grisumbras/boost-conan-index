@@ -13,7 +13,7 @@ sources:
     commit: c46d7a33fa6efc10e3d35526e9fcf6673936ed41
     dependencies:
     - boost-concept-check/1.90.0-develop+25.07.02
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-integer/1.90.0-develop+25.08.25
     - boost-logic/1.90.0-develop+25.07.02

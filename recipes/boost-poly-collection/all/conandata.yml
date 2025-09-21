@@ -27,7 +27,7 @@ sources:
     commit: 3175ae3c91203556f86561f574830aa38d5bc80c
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     - boost-iterator/1.90.0-develop+25.08.25
     - boost-mp11/1.90.0-develop+25.09.09
@@ -37,6 +37,18 @@ sources:
     url: https://github.com/boostorg/poly_collection.git
   1.90.0-master+25.06.21:
     commit: 1ae6a823b9118e403e501adb17ee7d562dcc75a7
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mp11/1.90.0-master+25.09.09
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-type-erasure/1.90.0-master+25.05.04
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/poly_collection.git
+  1.90.0-master+25.09.18:
+    commit: 3175ae3c91203556f86561f574830aa38d5bc80c
     dependencies:
     - boost-assert/1.90.0-master+25.03.21
     - boost-config/1.90.0-master+25.07.04

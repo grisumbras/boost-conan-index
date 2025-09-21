@@ -54,7 +54,7 @@ sources:
     commit: 575a6852b994b1d3f3fac6b613ea7246778f8369
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
-    - boost-config/1.90.0-develop+25.06.27
+    - boost-config/1.90.0-develop+25.09.20
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-detail/1.90.0-develop+25.06.13
@@ -78,6 +78,23 @@ sources:
     - boost-interprocess/1.90.0-master+25.05.20
     - boost-mpl/1.90.0-master+25.06.27
     - boost-multi-index/1.90.0-master+25.09.11
+    - boost-parameter/1.90.0-master+25.08.25
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/flyweight.git
+  1.90.0-master+25.09.20:
+    commit: 575a6852b994b1d3f3fac6b613ea7246778f8369
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-config/1.90.0-master+25.07.04
+    - boost-container-hash/1.90.0-master+25.08.21
+    - boost-core/1.90.0-master+25.08.25
+    - boost-detail/1.90.0-master+25.06.13
+    - boost-interprocess/1.90.0-master+25.05.20
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-multi-index/1.90.0-master+25.09.20
     - boost-parameter/1.90.0-master+25.08.25
     - boost-preprocessor/1.90.0-master+25.06.09
     - boost-smart-ptr/1.90.0-master+25.08.16
