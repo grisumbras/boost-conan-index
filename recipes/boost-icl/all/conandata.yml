@@ -24,7 +24,7 @@ sources:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-concept-check/1.90.0-develop+25.07.02
     - boost-config/1.90.0-develop+25.09.20
-    - boost-container/1.90.0-develop+25.09.20
+    - boost-container/1.90.0-develop+25.09.22
     - boost-core/1.90.0-develop+25.08.25
     - boost-date-time/1.90.0-develop+25.07.07
     - boost-detail/1.90.0-develop+25.06.13

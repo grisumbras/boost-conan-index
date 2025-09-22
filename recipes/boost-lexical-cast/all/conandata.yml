@@ -12,7 +12,7 @@ sources:
     commit: 4862e296d0418a1155a69c158270c560f01f54ae
     dependencies:
     - boost-config/1.90.0-develop+25.09.20
-    - boost-container/1.90.0-develop+25.09.20
+    - boost-container/1.90.0-develop+25.09.22
     - boost-core/1.90.0-develop+25.08.25
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21

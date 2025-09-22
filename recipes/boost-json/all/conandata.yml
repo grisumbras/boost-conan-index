@@ -21,7 +21,7 @@ sources:
     - boost-align/1.90.0-develop+25.06.26
     - boost-assert/1.90.0-develop+25.03.21
     - boost-config/1.90.0-develop+25.09.20
-    - boost-container/1.90.0-develop+25.09.20
+    - boost-container/1.90.0-develop+25.09.22
     - boost-container-hash/1.90.0-develop+25.08.21
     - boost-core/1.90.0-develop+25.08.25
     - boost-describe/1.90.0-develop+25.08.17

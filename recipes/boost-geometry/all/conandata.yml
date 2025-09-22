@@ -44,7 +44,7 @@ sources:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-concept-check/1.90.0-develop+25.07.02
     - boost-config/1.90.0-develop+25.09.20
-    - boost-container/1.90.0-develop+25.09.20
+    - boost-container/1.90.0-develop+25.09.22
     - boost-core/1.90.0-develop+25.08.25
     - boost-endian/1.90.0-develop+24.12.14
     - boost-function-types/1.90.0-develop+24.09.18
@@ -54,7 +54,7 @@ sources:
     - boost-lexical-cast/1.90.0-develop+25.09.08
     - boost-math/1.90.0-develop+25.09.18
     - boost-mpl/1.90.0-develop+25.07.03
-    - boost-multiprecision/1.90.0-develop+25.09.20
+    - boost-multiprecision/1.90.0-develop+25.09.22
     - boost-numeric-conversion/1.90.0-develop+25.06.26
     - boost-polygon/1.90.0-develop+25.05.02
     - boost-predef/1.90.0-develop+25.02.03
