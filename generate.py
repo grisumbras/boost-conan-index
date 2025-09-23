@@ -157,7 +157,7 @@ class Project():
         if self.git_ref in ('develop', 'master'):
             return (
                 f'{future_boost_version}-{self.git_ref}'
-                f'+{self.datetime.strftime("%y.%m.%d")}')
+                f'+{self.datetime.strftime("%y.%m.%d.%H.%M")}')
         elif self.git_ref.startswith('boost-'):
             return self.git_ref[6:]
         else:
