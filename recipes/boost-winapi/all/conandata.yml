@@ -14,7 +14,7 @@ sources:
   1.90.0-develop+25.08.25.19.08:
     commit: 094612ee33a8dce960cd075537266fdb4788d059
     dependencies:
-    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-config/1.90.0-develop+25.09.23.09.33
     - boost-predef/1.90.0-develop+25.02.03.08.30
     url: https://github.com/boostorg/winapi.git
   1.90.0-master+25.08.25:

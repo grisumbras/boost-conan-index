@@ -32,7 +32,7 @@ sources:
     dependencies:
     - boost-align/1.90.0-develop+25.06.26.11.43
     - boost-assert/1.90.0-develop+25.03.21.17.00
-    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-config/1.90.0-develop+25.09.23.09.33
     - boost-core/1.90.0-develop+25.08.25.19.05
     - boost-mp11/1.90.0-develop+25.09.09.16.43
     - boost-optional/1.90.0-develop+24.12.08.17.21
