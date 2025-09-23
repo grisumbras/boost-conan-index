@@ -48,5 +48,6 @@ class BoostWaveRecipe(ConanFile):
 
     def package_info(self):
         
+        self.cpp_info.resdirs = ['share']
         self.cpp_info.set_property('cmake_target_name', 'Boost::Wave')
         self.cpp_info.set_property('b2_project_name', '/boost/wave')

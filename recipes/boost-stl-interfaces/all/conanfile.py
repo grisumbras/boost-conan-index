@@ -43,9 +43,20 @@ class BoostStl_InterfacesRecipe(ConanFile):
         pass
 
     def package(self):
-        copy(self, '*',
+        copy(
+            self,
+            '*',
             os.path.join(self.source_folder, 'include'),
-            os.path.join(self.package_folder, 'include'))
+            os.path.join(self.package_folder, 'include'),
+        )
+        copy(
+            self,
+            'LICENSE*',
+            self.source_folder,
+            os.path.join(
+                self.package_folder, 'share', 'boost', 'stl_interfaces',
+            ),
+        )
 
     def package_id(self):
         self.info.clear()
@@ -53,5 +64,6 @@ class BoostStl_InterfacesRecipe(ConanFile):
     def package_info(self):
         self.cpp_info.bindirs = []
         self.cpp_info.libdirs = []
+        self.cpp_info.resdirs = ['share']
         self.cpp_info.set_property('cmake_target_name', 'Boost::Stl_Interfaces')
         self.cpp_info.set_property('b2_project_name', '/boost/stl-interfaces')

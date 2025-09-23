@@ -56,3 +56,22 @@ sources:
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-variant/1.90.0-master+25.09.13
     url: https://github.com/boostorg/signals2.git
+  1.90.0-master+25.09.11:
+    commit: 3e7413b9d6084a160db9a2a90bb74d55415c5226
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21
+    - boost-bind/1.90.0-master+24.12.13
+    - boost-config/1.90.0-master+25.07.04
+    - boost-core/1.90.0-master+25.08.25
+    - boost-function/1.90.0-master+24.12.14
+    - boost-iterator/1.90.0-master+25.08.25
+    - boost-mpl/1.90.0-master+25.06.27
+    - boost-optional/1.90.0-master+24.12.04
+    - boost-parameter/1.90.0-master+25.08.25
+    - boost-preprocessor/1.90.0-master+25.06.09
+    - boost-smart-ptr/1.90.0-master+25.08.16
+    - boost-throw-exception/1.90.0-master+24.12.12
+    - boost-tuple/1.90.0-master+25.06.09
+    - boost-type-traits/1.90.0-master+25.07.04
+    - boost-variant/1.90.0-master+25.09.13
+    url: https://github.com/boostorg/signals2.git

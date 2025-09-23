@@ -52,7 +52,7 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/multiprecision.git
   1.90.0-develop+25.09.22:
-    commit: f40742cc3cb08c1849430dae44bf564bca799666
+    commit: 9aae2f822f2335cff11ca9761dfaefa7989db6f8
     dependencies:
     - boost-assert/1.90.0-develop+25.03.21
     - boost-config/1.90.0-develop+25.09.20
