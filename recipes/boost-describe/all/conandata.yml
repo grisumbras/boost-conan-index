@@ -9,8 +9,18 @@ sources:
     dependencies:
     - boost-mp11/1.90.0-develop+25.09.09
     url: https://github.com/boostorg/describe.git
+  1.90.0-develop+25.08.17.10.18:
+    commit: 5858ccb775d415283dfd77ab5aeb7035faeaab91
+    dependencies:
+    - boost-mp11/1.90.0-develop+25.09.09.16.43
+    url: https://github.com/boostorg/describe.git
   1.90.0-master+25.08.17:
     commit: 5858ccb775d415283dfd77ab5aeb7035faeaab91
     dependencies:
     - boost-mp11/1.90.0-master+25.09.09
+    url: https://github.com/boostorg/describe.git
+  1.90.0-master+25.08.17.10.18:
+    commit: 5858ccb775d415283dfd77ab5aeb7035faeaab91
+    dependencies:
+    - boost-mp11/1.90.0-master+25.09.09.16.43
     url: https://github.com/boostorg/describe.git

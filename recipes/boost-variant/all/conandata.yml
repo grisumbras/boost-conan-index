@@ -33,6 +33,23 @@ sources:
     - boost-type-traits/1.90.0-develop+25.04.21
     - boost-utility/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/variant.git
+  1.90.0-develop+25.09.13.13.52:
+    commit: 9738f5733b3a9863be0cc2ab23cd9ba1ae5b74ff
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-container-hash/1.90.0-develop+25.08.21.19.31
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-detail/1.90.0-develop+25.06.13.00.44
+    - boost-integer/1.90.0-develop+25.08.25.19.05
+    - boost-mpl/1.90.0-develop+25.07.03.00.11
+    - boost-preprocessor/1.90.0-develop+25.06.09.02.52
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-index/1.90.0-develop+25.09.07.19.23
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    - boost-utility/1.90.0-develop+25.08.25.19.07
+    url: https://github.com/boostorg/variant.git
   1.90.0-master+25.01.08:
     commit: 1fd7271d2e34a36f010f8882fdde703ad9a4ffeb
     dependencies:
@@ -66,4 +83,21 @@ sources:
     - boost-type-index/1.90.0-master+25.09.07
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/variant.git
+  1.90.0-master+25.09.13.13.52:
+    commit: 9738f5733b3a9863be0cc2ab23cd9ba1ae5b74ff
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-container-hash/1.90.0-master+25.08.21.19.31
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-detail/1.90.0-master+25.06.13.00.44
+    - boost-integer/1.90.0-master+25.08.25.19.05
+    - boost-mpl/1.90.0-master+25.06.27.02.18
+    - boost-preprocessor/1.90.0-master+25.06.09.02.52
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-index/1.90.0-master+25.09.07.19.23
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
+    - boost-utility/1.90.0-master+25.08.25.19.07
     url: https://github.com/boostorg/variant.git

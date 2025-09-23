@@ -11,9 +11,21 @@ sources:
     - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/logic.git
+  1.90.0-develop+25.07.02.08.14:
+    commit: ebff10a43bf6512548eae231a1b9c81260dd98dc
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    url: https://github.com/boostorg/logic.git
   1.90.0-master+25.01.01:
     commit: 9b8703a2d6623405323b892f1d126a6b17ca1651
     dependencies:
     - boost-config/1.90.0-master+25.07.04
     - boost-core/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/logic.git
+  1.90.0-master+25.01.01.20.44:
+    commit: 9b8703a2d6623405323b892f1d126a6b17ca1651
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
     url: https://github.com/boostorg/logic.git

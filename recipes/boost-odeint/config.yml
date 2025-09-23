@@ -3,5 +3,9 @@ versions:
     folder: all
   1.90.0-develop+24.11.05:
     folder: all
+  1.90.0-develop+24.11.05.14.58:
+    folder: all
   1.90.0-master+24.11.05:
+    folder: all
+  1.90.0-master+24.11.05.14.59:
     folder: all

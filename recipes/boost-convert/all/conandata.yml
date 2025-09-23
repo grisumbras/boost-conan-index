@@ -29,6 +29,21 @@ sources:
     - boost-spirit/1.90.0-develop+25.09.13
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/convert.git
+  1.90.0-develop+24.08.19.02.48:
+    commit: 6e2419c007b998c087d703e41931141ea555a8e1
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-function-types/1.90.0-develop+24.09.18.18.18
+    - boost-lexical-cast/1.90.0-develop+25.09.08.09.02
+    - boost-math/1.90.0-develop+25.09.18.09.30
+    - boost-mpl/1.90.0-develop+25.07.03.00.11
+    - boost-optional/1.90.0-develop+24.12.08.17.21
+    - boost-parameter/1.90.0-develop+25.08.25.19.06
+    - boost-range/1.90.0-develop+25.05.02.19.18
+    - boost-spirit/1.90.0-develop+25.09.13.09.36
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/convert.git
   1.90.0-master+24.04.17:
     commit: 0dd7a76b1c051c048b4991b7aa9c8b5aeb5776ee
     dependencies:
@@ -43,4 +58,19 @@ sources:
     - boost-range/1.90.0-master+25.02.08
     - boost-spirit/1.90.0-master+25.09.17
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/convert.git
+  1.90.0-master+24.04.17.07.49:
+    commit: 0dd7a76b1c051c048b4991b7aa9c8b5aeb5776ee
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-function-types/1.90.0-master+24.09.18.18.18
+    - boost-lexical-cast/1.90.0-master+25.09.08.09.02
+    - boost-math/1.90.0-master+25.07.07.15.39
+    - boost-mpl/1.90.0-master+25.06.27.02.18
+    - boost-optional/1.90.0-master+24.12.04.00.23
+    - boost-parameter/1.90.0-master+25.08.25.19.06
+    - boost-range/1.90.0-master+25.02.08.16.31
+    - boost-spirit/1.90.0-master+25.09.17.08.31
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/convert.git

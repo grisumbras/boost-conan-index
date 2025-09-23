@@ -37,6 +37,25 @@ sources:
     - boost-type-traits/1.90.0-develop+25.04.21
     - boost-utility/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/icl.git
+  1.90.0-develop+25.07.10.18.52:
+    commit: 3147816012cce0d374f67d3e5a1b4398d3d2b117
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-concept-check/1.90.0-develop+25.07.02.07.32
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-container/1.90.0-develop+25.09.22.00.35
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-date-time/1.90.0-develop+25.07.07.06.39
+    - boost-detail/1.90.0-develop+25.06.13.00.44
+    - boost-iterator/1.90.0-develop+25.08.25.19.05
+    - boost-move/1.90.0-develop+25.08.23.23.03
+    - boost-mpl/1.90.0-develop+25.07.03.00.11
+    - boost-range/1.90.0-develop+25.05.02.19.18
+    - boost-rational/1.90.0-develop+20.02.12.21.10
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    - boost-utility/1.90.0-develop+25.08.25.19.07
+    url: https://github.com/boostorg/icl.git
   1.90.0-master+23.09.23:
     commit: 2741c3a1b7b79f7326360c26c3e1588b385c9e53
     dependencies:
@@ -55,4 +74,23 @@ sources:
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/icl.git
+  1.90.0-master+23.09.23.20.05:
+    commit: 2741c3a1b7b79f7326360c26c3e1588b385c9e53
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-concept-check/1.90.0-master+24.12.28.18.10
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-container/1.90.0-master+25.05.21.12.05
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-date-time/1.90.0-master+22.10.31.09.22
+    - boost-detail/1.90.0-master+25.06.13.00.44
+    - boost-iterator/1.90.0-master+25.08.25.19.05
+    - boost-move/1.90.0-master+25.05.20.08.55
+    - boost-mpl/1.90.0-master+25.06.27.02.18
+    - boost-range/1.90.0-master+25.02.08.16.31
+    - boost-rational/1.90.0-master+25.01.01.15.17
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
+    - boost-utility/1.90.0-master+25.08.25.19.07
     url: https://github.com/boostorg/icl.git

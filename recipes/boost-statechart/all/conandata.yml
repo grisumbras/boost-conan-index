@@ -31,6 +31,22 @@ sources:
     - boost-thread/1.90.0-develop+25.05.02
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/statechart.git
+  1.90.0-develop+25.05.02.11.20:
+    commit: 2b1270f7ab9027320a6b7e187ea1d37d329b3624
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-bind/1.90.0-develop+24.12.13.03.05
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-conversion/1.90.0-develop+25.06.27.20.42
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-detail/1.90.0-develop+25.06.13.00.44
+    - boost-function/1.90.0-develop+24.12.14.04.39
+    - boost-mpl/1.90.0-develop+25.07.03.00.11
+    - boost-smart-ptr/1.90.0-develop+25.08.16.11.30
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-thread/1.90.0-develop+25.05.02.19.21
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/statechart.git
   1.90.0-master+24.09.28:
     commit: ae93e58e44f722626fe462a854b92d9b4f11449a
     dependencies:
@@ -46,4 +62,20 @@ sources:
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-thread/1.90.0-master+25.05.02
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/statechart.git
+  1.90.0-master+24.09.28.11.17:
+    commit: ae93e58e44f722626fe462a854b92d9b4f11449a
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-bind/1.90.0-master+24.12.13.03.05
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-conversion/1.90.0-master+25.06.27.20.42
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-detail/1.90.0-master+25.06.13.00.44
+    - boost-function/1.90.0-master+24.12.14.04.39
+    - boost-mpl/1.90.0-master+25.06.27.02.18
+    - boost-smart-ptr/1.90.0-master+25.08.16.11.30
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-thread/1.90.0-master+25.05.02.19.21
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/statechart.git

@@ -9,8 +9,18 @@ sources:
     dependencies:
     - boost-config/1.90.0-develop+25.09.20
     url: https://github.com/boostorg/timer.git
+  1.90.0-develop+24.12.14.16.31:
+    commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    url: https://github.com/boostorg/timer.git
   1.90.0-master+24.12.14:
     commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
     dependencies:
     - boost-config/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/timer.git
+  1.90.0-master+24.12.14.16.31:
+    commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
     url: https://github.com/boostorg/timer.git

@@ -19,6 +19,16 @@ sources:
     - boost-range/1.90.0-develop+25.05.02
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/foreach.git
+  1.90.0-develop+25.05.02.19.11:
+    commit: a5ae97ef513548ed44fca6d69f8c69f79e215088
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-iterator/1.90.0-develop+25.08.25.19.05
+    - boost-mpl/1.90.0-develop+25.07.03.00.11
+    - boost-range/1.90.0-develop+25.05.02.19.18
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/foreach.git
   1.90.0-master+25.01.26:
     commit: 904451bb8b094b426a69fbf33825c06677f2835f
     dependencies:
@@ -28,4 +38,14 @@ sources:
     - boost-mpl/1.90.0-master+25.06.27
     - boost-range/1.90.0-master+25.02.08
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/foreach.git
+  1.90.0-master+25.01.26.17.47:
+    commit: 904451bb8b094b426a69fbf33825c06677f2835f
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-iterator/1.90.0-master+25.08.25.19.05
+    - boost-mpl/1.90.0-master+25.06.27.02.18
+    - boost-range/1.90.0-master+25.02.08.16.31
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/foreach.git

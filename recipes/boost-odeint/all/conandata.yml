@@ -43,6 +43,28 @@ sources:
     - boost-units/1.90.0-develop+25.05.02
     - boost-utility/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/odeint.git
+  1.90.0-develop+24.11.05.14.58:
+    commit: 91a4a916fa193b02bda2ffc3920953387acae962
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-compute/1.90.0-develop+25.05.02.19.06
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-fusion/1.90.0-develop+24.08.21.20.51
+    - boost-iterator/1.90.0-develop+25.08.25.19.05
+    - boost-math/1.90.0-develop+25.09.18.09.30
+    - boost-mpi/1.90.0-develop+25.05.06.14.59
+    - boost-mpl/1.90.0-develop+25.07.03.00.11
+    - boost-multi-array/1.90.0-develop+25.06.25.18.51
+    - boost-preprocessor/1.90.0-develop+25.06.09.02.52
+    - boost-range/1.90.0-develop+25.05.02.19.18
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    - boost-ublas/1.90.0-develop+23.11.22.02.19
+    - boost-units/1.90.0-develop+25.05.02.11.24
+    - boost-utility/1.90.0-develop+25.08.25.19.07
+    url: https://github.com/boostorg/odeint.git
   1.90.0-master+24.11.05:
     commit: 9e75be5d9e435739b086aee928736fc241e77a4a
     dependencies:
@@ -64,4 +86,26 @@ sources:
     - boost-ublas/1.90.0-master+24.05.07
     - boost-units/1.90.0-master+21.06.08
     - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/odeint.git
+  1.90.0-master+24.11.05.14.59:
+    commit: 9e75be5d9e435739b086aee928736fc241e77a4a
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-compute/1.90.0-master+24.08.22.10.16
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-fusion/1.90.0-master+24.05.15.10.13
+    - boost-iterator/1.90.0-master+25.08.25.19.05
+    - boost-math/1.90.0-master+25.07.07.15.39
+    - boost-mpi/1.90.0-master+25.04.17.17.55
+    - boost-mpl/1.90.0-master+25.06.27.02.18
+    - boost-multi-array/1.90.0-master+21.05.28.00.46
+    - boost-preprocessor/1.90.0-master+25.06.09.02.52
+    - boost-range/1.90.0-master+25.02.08.16.31
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
+    - boost-ublas/1.90.0-master+24.05.07.22.32
+    - boost-units/1.90.0-master+21.06.08.00.11
+    - boost-utility/1.90.0-master+25.08.25.19.07
     url: https://github.com/boostorg/odeint.git

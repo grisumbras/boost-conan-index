@@ -17,6 +17,15 @@ sources:
     - boost-core/1.90.0-develop+25.08.25
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/function.git
+  1.90.0-develop+24.12.14.04.39:
+    commit: f6b538dbed2e3047dcbd09eb3f5c7f1ffa90d0a9
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-bind/1.90.0-develop+24.12.13.03.05
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    url: https://github.com/boostorg/function.git
   1.90.0-master+24.12.14:
     commit: f6b538dbed2e3047dcbd09eb3f5c7f1ffa90d0a9
     dependencies:
@@ -25,4 +34,13 @@ sources:
     - boost-config/1.90.0-master+25.07.04
     - boost-core/1.90.0-master+25.08.25
     - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/function.git
+  1.90.0-master+24.12.14.04.39:
+    commit: f6b538dbed2e3047dcbd09eb3f5c7f1ffa90d0a9
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-bind/1.90.0-master+24.12.13.03.05
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
     url: https://github.com/boostorg/function.git

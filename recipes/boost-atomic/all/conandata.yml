@@ -17,6 +17,15 @@ sources:
     - boost-type-traits/1.90.0-develop+25.04.21
     - boost-winapi/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/atomic.git
+  1.90.0-develop+25.08.26.15.44:
+    commit: 11537e688cdb5fbaf0d3e554528bb751c2059053
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-predef/1.90.0-develop+25.02.03.08.30
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    - boost-winapi/1.90.0-develop+25.08.25.19.08
+    url: https://github.com/boostorg/atomic.git
   1.90.0-master+25.08.26:
     commit: 11537e688cdb5fbaf0d3e554528bb751c2059053
     dependencies:
@@ -25,4 +34,13 @@ sources:
     - boost-predef/1.90.0-master+25.01.12
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-winapi/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/atomic.git
+  1.90.0-master+25.08.26.15.44:
+    commit: 11537e688cdb5fbaf0d3e554528bb751c2059053
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-predef/1.90.0-master+25.01.12.12.53
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
+    - boost-winapi/1.90.0-master+25.08.25.19.08
     url: https://github.com/boostorg/atomic.git

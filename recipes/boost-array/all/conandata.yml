@@ -15,6 +15,14 @@ sources:
     - boost-static-assert/1.90.0-develop+25.04.15
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/array.git
+  1.90.0-develop+25.04.03.14.10:
+    commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    url: https://github.com/boostorg/array.git
   1.90.0-master+25.04.03:
     commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
     dependencies:
@@ -22,4 +30,12 @@ sources:
     - boost-config/1.90.0-master+25.07.04
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/array.git
+  1.90.0-master+25.04.03.14.10:
+    commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
     url: https://github.com/boostorg/array.git

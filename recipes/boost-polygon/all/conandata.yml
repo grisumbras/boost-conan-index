@@ -9,8 +9,18 @@ sources:
     dependencies:
     - boost-config/1.90.0-develop+25.09.20
     url: https://github.com/boostorg/polygon.git
+  1.90.0-develop+25.05.02.19.15:
+    commit: ddb9c8adadbbb539fe52cb7f8ee0a446ba5ead04
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    url: https://github.com/boostorg/polygon.git
   1.90.0-master+21.06.10:
     commit: 8ba35b57c1436c4b36f7544aadd78c2b24acc7db
     dependencies:
     - boost-config/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/polygon.git
+  1.90.0-master+21.06.10.00.52:
+    commit: 8ba35b57c1436c4b36f7544aadd78c2b24acc7db
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
     url: https://github.com/boostorg/polygon.git

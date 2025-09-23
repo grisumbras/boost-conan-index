@@ -19,6 +19,16 @@ sources:
     - boost-type-traits/1.90.0-develop+25.04.21
     - boost-winapi/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/pool.git
+  1.90.0-develop+19.09.06.01.34:
+    commit: 571909a59e29c7fa1f3cae8225f77f9d9d17ecef
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-integer/1.90.0-develop+25.08.25.19.05
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    - boost-winapi/1.90.0-develop+25.08.25.19.08
+    url: https://github.com/boostorg/pool.git
   1.90.0-master+25.02.25:
     commit: 740c8076f9d02f0216e8f3dbb15d2fd80f67d7f4
     dependencies:
@@ -28,4 +38,14 @@ sources:
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-winapi/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/pool.git
+  1.90.0-master+25.02.25.18.47:
+    commit: 740c8076f9d02f0216e8f3dbb15d2fd80f67d7f4
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-integer/1.90.0-master+25.08.25.19.05
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
+    - boost-winapi/1.90.0-master+25.08.25.19.08
     url: https://github.com/boostorg/pool.git

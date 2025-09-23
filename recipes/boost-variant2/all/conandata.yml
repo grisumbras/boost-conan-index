@@ -13,10 +13,24 @@ sources:
     - boost-config/1.90.0-develop+25.09.20
     - boost-mp11/1.90.0-develop+25.09.09
     url: https://github.com/boostorg/variant2.git
+  1.90.0-develop+25.01.15.19.44:
+    commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-mp11/1.90.0-develop+25.09.09.16.43
+    url: https://github.com/boostorg/variant2.git
   1.90.0-master+25.01.15:
     commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
     dependencies:
     - boost-assert/1.90.0-master+25.03.21
     - boost-config/1.90.0-master+25.07.04
     - boost-mp11/1.90.0-master+25.09.09
+    url: https://github.com/boostorg/variant2.git
+  1.90.0-master+25.01.15.19.44:
+    commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-mp11/1.90.0-master+25.09.09.16.43
     url: https://github.com/boostorg/variant2.git

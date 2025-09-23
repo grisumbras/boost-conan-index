@@ -7,7 +7,15 @@ sources:
     commit: d547322aa734b37901fa79e7b5e71040d698ce69
     dependencies: []
     url: https://github.com/boostorg/crc.git
+  1.90.0-develop+25.08.22.19.51:
+    commit: d547322aa734b37901fa79e7b5e71040d698ce69
+    dependencies: []
+    url: https://github.com/boostorg/crc.git
   1.90.0-master+25.08.22:
+    commit: d547322aa734b37901fa79e7b5e71040d698ce69
+    dependencies: []
+    url: https://github.com/boostorg/crc.git
+  1.90.0-master+25.08.22.19.51:
     commit: d547322aa734b37901fa79e7b5e71040d698ce69
     dependencies: []
     url: https://github.com/boostorg/crc.git

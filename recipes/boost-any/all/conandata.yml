@@ -15,6 +15,14 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-index/1.90.0-develop+25.09.07
     url: https://github.com/boostorg/any.git
+  1.90.0-develop+25.06.18.17.56:
+    commit: 9b1941c787f2769fcb6afdb0cef621db80f953a6
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-index/1.90.0-develop+25.09.07.19.23
+    url: https://github.com/boostorg/any.git
   1.90.0-master+25.06.18:
     commit: 9b1941c787f2769fcb6afdb0cef621db80f953a6
     dependencies:
@@ -22,4 +30,12 @@ sources:
     - boost-config/1.90.0-master+25.07.04
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-index/1.90.0-master+25.09.07
+    url: https://github.com/boostorg/any.git
+  1.90.0-master+25.06.18.17.56:
+    commit: 9b1941c787f2769fcb6afdb0cef621db80f953a6
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-index/1.90.0-master+25.09.07.19.23
     url: https://github.com/boostorg/any.git

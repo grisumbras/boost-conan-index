@@ -23,6 +23,14 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/uuid.git
+  1.90.0-develop+25.09.19.14.40:
+    commit: bbbb20427c708c8b3528e6c6e483c0c484db20d0
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/uuid.git
   1.90.0-master+25.09.09:
     commit: 2b160eb689ca3775b9522ce9437655e905967b78
     dependencies:
@@ -38,4 +46,12 @@ sources:
     - boost-config/1.90.0-master+25.07.04
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/uuid.git
+  1.90.0-master+25.09.19.14.40:
+    commit: bbbb20427c708c8b3528e6c6e483c0c484db20d0
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/uuid.git

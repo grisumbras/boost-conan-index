@@ -11,9 +11,21 @@ sources:
     - boost-config/1.90.0-develop+25.09.20
     - boost-core/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/bind.git
+  1.90.0-develop+24.12.13.03.05:
+    commit: a541a8d5c16920e1836d09299915890d687efe36
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    url: https://github.com/boostorg/bind.git
   1.90.0-master+24.12.13:
     commit: a541a8d5c16920e1836d09299915890d687efe36
     dependencies:
     - boost-config/1.90.0-master+25.07.04
     - boost-core/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/bind.git
+  1.90.0-master+24.12.13.03.05:
+    commit: a541a8d5c16920e1836d09299915890d687efe36
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
     url: https://github.com/boostorg/bind.git

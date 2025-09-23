@@ -15,6 +15,14 @@ sources:
     - boost-hana/1.90.0-develop+25.07.03
     - boost-type-index/1.90.0-develop+25.09.07
     url: https://github.com/boostorg/parser.git
+  1.90.0-develop+25.07.27.17.50:
+    commit: c674e94c3d409b6ab0ee05429361e8b50fe30320
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-charconv/1.90.0-develop+25.08.14.13.57
+    - boost-hana/1.90.0-develop+25.07.03.23.00
+    - boost-type-index/1.90.0-develop+25.09.07.19.23
+    url: https://github.com/boostorg/parser.git
   1.90.0-master+25.07.27:
     commit: c674e94c3d409b6ab0ee05429361e8b50fe30320
     dependencies:
@@ -22,4 +30,12 @@ sources:
     - boost-charconv/1.90.0-master+25.08.06
     - boost-hana/1.90.0-master+25.07.03
     - boost-type-index/1.90.0-master+25.09.07
+    url: https://github.com/boostorg/parser.git
+  1.90.0-master+25.07.27.17.50:
+    commit: c674e94c3d409b6ab0ee05429361e8b50fe30320
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-charconv/1.90.0-master+25.08.06.14.08
+    - boost-hana/1.90.0-master+25.07.03.23.00
+    - boost-type-index/1.90.0-master+25.09.07.19.23
     url: https://github.com/boostorg/parser.git

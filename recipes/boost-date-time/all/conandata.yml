@@ -37,6 +37,25 @@ sources:
     - boost-utility/1.90.0-develop+25.08.25
     - boost-winapi/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/date_time.git
+  1.90.0-develop+25.07.07.06.39:
+    commit: 69c45b7a2b98102d428fddf50d68fa9494f0beba
+    dependencies:
+    - boost-algorithm/1.90.0-develop+25.08.25.08.42
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-io/1.90.0-develop+25.06.26.11.42
+    - boost-lexical-cast/1.90.0-develop+25.09.08.09.02
+    - boost-numeric-conversion/1.90.0-develop+25.06.26.07.40
+    - boost-range/1.90.0-develop+25.05.02.19.18
+    - boost-smart-ptr/1.90.0-develop+25.08.16.11.30
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-tokenizer/1.90.0-develop+25.07.02.17.31
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    - boost-utility/1.90.0-develop+25.08.25.19.07
+    - boost-winapi/1.90.0-develop+25.08.25.19.08
+    url: https://github.com/boostorg/date_time.git
   1.90.0-master+22.10.31:
     commit: 85e637cb325208c2af9af791c3a1948b4888c6cd
     dependencies:
@@ -55,4 +74,23 @@ sources:
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-utility/1.90.0-master+25.08.25
     - boost-winapi/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/date_time.git
+  1.90.0-master+22.10.31.09.22:
+    commit: 85e637cb325208c2af9af791c3a1948b4888c6cd
+    dependencies:
+    - boost-algorithm/1.90.0-master+23.08.02.20.42
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-io/1.90.0-master+23.10.03.00.15
+    - boost-lexical-cast/1.90.0-master+25.09.08.09.02
+    - boost-numeric-conversion/1.90.0-master+25.06.26.07.40
+    - boost-range/1.90.0-master+25.02.08.16.31
+    - boost-smart-ptr/1.90.0-master+25.08.16.11.30
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-tokenizer/1.90.0-master+25.01.01.15.10
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
+    - boost-utility/1.90.0-master+25.08.25.19.07
+    - boost-winapi/1.90.0-master+25.08.25.19.08
     url: https://github.com/boostorg/date_time.git

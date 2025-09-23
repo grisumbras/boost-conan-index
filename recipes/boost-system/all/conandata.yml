@@ -17,6 +17,15 @@ sources:
     - boost-variant2/1.90.0-develop+25.01.15
     - boost-winapi/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/system.git
+  1.90.0-develop+25.07.02.19.12:
+    commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-variant2/1.90.0-develop+25.01.15.19.44
+    - boost-winapi/1.90.0-develop+25.08.25.19.08
+    url: https://github.com/boostorg/system.git
   1.90.0-master+25.07.02:
     commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
     dependencies:
@@ -25,4 +34,13 @@ sources:
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-variant2/1.90.0-master+25.01.15
     - boost-winapi/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/system.git
+  1.90.0-master+25.07.02.19.12:
+    commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-variant2/1.90.0-master+25.01.15.19.44
+    - boost-winapi/1.90.0-master+25.08.25.19.08
     url: https://github.com/boostorg/system.git

@@ -21,6 +21,17 @@ sources:
     - boost-predef/1.90.0-develop+25.02.03
     - boost-smart-ptr/1.90.0-develop+25.08.16
     url: https://github.com/boostorg/fiber.git
+  1.90.0-develop+25.02.21.15.28:
+    commit: 238487b543e8863c647d31a82ccfc3fa11a960d9
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-context/1.90.0-develop+25.08.26.13.22
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-intrusive/1.90.0-develop+25.08.25.23.15
+    - boost-predef/1.90.0-develop+25.02.03.08.30
+    - boost-smart-ptr/1.90.0-develop+25.08.16.11.30
+    url: https://github.com/boostorg/fiber.git
   1.90.0-master+25.02.21:
     commit: 238487b543e8863c647d31a82ccfc3fa11a960d9
     dependencies:
@@ -31,4 +42,15 @@ sources:
     - boost-intrusive/1.90.0-master+25.05.20
     - boost-predef/1.90.0-master+25.01.12
     - boost-smart-ptr/1.90.0-master+25.08.16
+    url: https://github.com/boostorg/fiber.git
+  1.90.0-master+25.02.21.15.28:
+    commit: 238487b543e8863c647d31a82ccfc3fa11a960d9
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-context/1.90.0-master+25.05.25.16.34
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-intrusive/1.90.0-master+25.05.20.09.17
+    - boost-predef/1.90.0-master+25.01.12.12.53
+    - boost-smart-ptr/1.90.0-master+25.08.16.11.30
     url: https://github.com/boostorg/fiber.git

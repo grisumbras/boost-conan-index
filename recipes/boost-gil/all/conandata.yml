@@ -31,6 +31,22 @@ sources:
     - boost-type-traits/1.90.0-develop+25.04.21
     - boost-variant2/1.90.0-develop+25.01.15
     url: https://github.com/boostorg/gil.git
+  1.90.0-develop+25.08.27.11.08:
+    commit: d8c56358fae6302dd2f2e8cc496bcd4535c16183
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-concept-check/1.90.0-develop+25.07.02.07.32
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-container-hash/1.90.0-develop+25.08.21.19.31
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-filesystem/1.90.0-develop+25.08.29.01.14
+    - boost-integer/1.90.0-develop+25.08.25.19.05
+    - boost-iterator/1.90.0-develop+25.08.25.19.05
+    - boost-mp11/1.90.0-develop+25.09.09.16.43
+    - boost-preprocessor/1.90.0-develop+25.06.09.02.52
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    - boost-variant2/1.90.0-develop+25.01.15.19.44
+    url: https://github.com/boostorg/gil.git
   1.90.0-master+24.07.07:
     commit: 201f31c76eed54b304f8d89e44da08a5e8825094
     dependencies:
@@ -46,4 +62,20 @@ sources:
     - boost-preprocessor/1.90.0-master+25.06.09
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-variant2/1.90.0-master+25.01.15
+    url: https://github.com/boostorg/gil.git
+  1.90.0-master+24.07.07.14.32:
+    commit: 201f31c76eed54b304f8d89e44da08a5e8825094
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-concept-check/1.90.0-master+24.12.28.18.10
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-container-hash/1.90.0-master+25.08.21.19.31
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-filesystem/1.90.0-master+25.08.29.01.14
+    - boost-integer/1.90.0-master+25.08.25.19.05
+    - boost-iterator/1.90.0-master+25.08.25.19.05
+    - boost-mp11/1.90.0-master+25.09.09.16.43
+    - boost-preprocessor/1.90.0-master+25.06.09.02.52
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
+    - boost-variant2/1.90.0-master+25.01.15.19.44
     url: https://github.com/boostorg/gil.git

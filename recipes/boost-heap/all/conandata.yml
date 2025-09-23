@@ -25,6 +25,19 @@ sources:
     - boost-static-assert/1.90.0-develop+25.04.15
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/heap.git
+  1.90.0-develop+25.09.06.12.17:
+    commit: 3b22808536e43f501fce7af81e83a18958d50ce5
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-concept-check/1.90.0-develop+25.07.02.07.32
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-intrusive/1.90.0-develop+25.08.25.23.15
+    - boost-iterator/1.90.0-develop+25.08.25.19.05
+    - boost-parameter/1.90.0-develop+25.08.25.19.06
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    url: https://github.com/boostorg/heap.git
   1.90.0-master+24.12.20:
     commit: 7db5d9db6615b40239a8bb9383a12bd56924bd07
     dependencies:
@@ -37,4 +50,17 @@ sources:
     - boost-parameter/1.90.0-master+25.08.25
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/heap.git
+  1.90.0-master+24.12.20.14.29:
+    commit: 7db5d9db6615b40239a8bb9383a12bd56924bd07
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-concept-check/1.90.0-master+24.12.28.18.10
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-intrusive/1.90.0-master+25.05.20.09.17
+    - boost-iterator/1.90.0-master+25.08.25.19.05
+    - boost-parameter/1.90.0-master+25.08.25.19.06
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
     url: https://github.com/boostorg/heap.git

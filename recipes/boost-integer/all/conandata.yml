@@ -19,6 +19,16 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/integer.git
+  1.90.0-develop+25.08.25.19.05:
+    commit: 4d702c79a45c1b204de864a5d11efa711e8713cf
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/integer.git
   1.90.0-master+25.08.25:
     commit: 4d702c79a45c1b204de864a5d11efa711e8713cf
     dependencies:
@@ -28,4 +38,14 @@ sources:
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/integer.git
+  1.90.0-master+25.08.25.19.05:
+    commit: 4d702c79a45c1b204de864a5d11efa711e8713cf
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/integer.git

@@ -11,7 +11,15 @@ sources:
     commit: ecd1d07360734b1af76582118b002ca0c4448e07
     dependencies: []
     url: https://github.com/boostorg/config.git
+  1.90.0-develop+25.09.20.12.43:
+    commit: ecd1d07360734b1af76582118b002ca0c4448e07
+    dependencies: []
+    url: https://github.com/boostorg/config.git
   1.90.0-master+25.07.04:
+    commit: bf8c8bd7960cd8505210838f86bd28fb4fb71071
+    dependencies: []
+    url: https://github.com/boostorg/config.git
+  1.90.0-master+25.07.04.20.36:
     commit: bf8c8bd7960cd8505210838f86bd28fb4fb71071
     dependencies: []
     url: https://github.com/boostorg/config.git

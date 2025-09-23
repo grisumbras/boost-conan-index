@@ -20,6 +20,17 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-utility/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/static_string.git
+  1.90.0-develop+25.04.17.09.16:
+    commit: 7a53b7ff2082c5c2b2ab38085936ced852bb77a3
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-container-hash/1.90.0-develop+25.08.21.19.31
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-utility/1.90.0-develop+25.08.25.19.07
+    url: https://github.com/boostorg/static_string.git
   1.90.0-master+23.12.22:
     commit: bff5cb65a5cb9151aacaf56abe80125e0128f43a
     dependencies:
@@ -29,4 +40,14 @@ sources:
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/static_string.git
+  1.90.0-master+23.12.22.17.12:
+    commit: bff5cb65a5cb9151aacaf56abe80125e0128f43a
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-container-hash/1.90.0-master+25.08.21.19.31
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-utility/1.90.0-master+25.08.25.19.07
     url: https://github.com/boostorg/static_string.git

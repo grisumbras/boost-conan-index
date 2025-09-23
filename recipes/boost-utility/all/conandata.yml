@@ -21,6 +21,17 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/utility.git
+  1.90.0-develop+25.08.25.19.07:
+    commit: dda83c5b60bfaa77d4d777a047197ae5e5922c49
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-io/1.90.0-develop+25.06.26.11.42
+    - boost-preprocessor/1.90.0-develop+25.06.09.02.52
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/utility.git
   1.90.0-master+25.08.25:
     commit: dda83c5b60bfaa77d4d777a047197ae5e5922c49
     dependencies:
@@ -31,4 +42,15 @@ sources:
     - boost-preprocessor/1.90.0-master+25.06.09
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/utility.git
+  1.90.0-master+25.08.25.19.07:
+    commit: dda83c5b60bfaa77d4d777a047197ae5e5922c49
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-io/1.90.0-master+23.10.03.00.15
+    - boost-preprocessor/1.90.0-master+25.06.09.02.52
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/utility.git

@@ -17,6 +17,15 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/optional.git
+  1.90.0-develop+24.12.08.17.21:
+    commit: bfdf0c73f98efba4c2458c806b1af9458e4bf79d
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/optional.git
   1.90.0-master+24.12.04:
     commit: 121f3efde91de78ca018019904732f55d33b5788
     dependencies:
@@ -25,4 +34,13 @@ sources:
     - boost-core/1.90.0-master+25.08.25
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/optional.git
+  1.90.0-master+24.12.04.00.23:
+    commit: 121f3efde91de78ca018019904732f55d33b5788
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/optional.git

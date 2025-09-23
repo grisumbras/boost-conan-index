@@ -27,6 +27,20 @@ sources:
     - boost-type-traits/1.90.0-develop+25.04.21
     - boost-utility/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/iterator.git
+  1.90.0-develop+25.08.25.19.05:
+    commit: 248494330d2d82a0264d2f93b88a92687ef7bb7e
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-concept-check/1.90.0-develop+25.07.02.07.32
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-detail/1.90.0-develop+25.06.13.00.44
+    - boost-fusion/1.90.0-develop+24.08.21.20.51
+    - boost-mpl/1.90.0-develop+25.07.03.00.11
+    - boost-optional/1.90.0-develop+24.12.08.17.21
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    - boost-utility/1.90.0-develop+25.08.25.19.07
+    url: https://github.com/boostorg/iterator.git
   1.90.0-master+25.08.25:
     commit: 248494330d2d82a0264d2f93b88a92687ef7bb7e
     dependencies:
@@ -40,4 +54,18 @@ sources:
     - boost-optional/1.90.0-master+24.12.04
     - boost-type-traits/1.90.0-master+25.07.04
     - boost-utility/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/iterator.git
+  1.90.0-master+25.08.25.19.05:
+    commit: 248494330d2d82a0264d2f93b88a92687ef7bb7e
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-concept-check/1.90.0-master+24.12.28.18.10
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-detail/1.90.0-master+25.06.13.00.44
+    - boost-fusion/1.90.0-master+24.05.15.10.13
+    - boost-mpl/1.90.0-master+25.06.27.02.18
+    - boost-optional/1.90.0-master+24.12.04.00.23
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
+    - boost-utility/1.90.0-master+25.08.25.19.07
     url: https://github.com/boostorg/iterator.git

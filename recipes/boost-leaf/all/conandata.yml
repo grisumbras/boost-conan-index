@@ -7,7 +7,15 @@ sources:
     commit: 61e4b0db4e1934f91a06d6f0cbbe8d5f91f96383
     dependencies: []
     url: https://github.com/boostorg/leaf.git
+  1.90.0-develop+25.06.01.19.52:
+    commit: 61e4b0db4e1934f91a06d6f0cbbe8d5f91f96383
+    dependencies: []
+    url: https://github.com/boostorg/leaf.git
   1.90.0-master+25.02.23:
+    commit: aff38b5be343ac6f1588e3258d126224e5347934
+    dependencies: []
+    url: https://github.com/boostorg/leaf.git
+  1.90.0-master+25.02.23.15.32:
     commit: aff38b5be343ac6f1588e3258d126224e5347934
     dependencies: []
     url: https://github.com/boostorg/leaf.git

@@ -15,6 +15,14 @@ sources:
     - boost-core/1.90.0-develop+25.08.25
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/smart_ptr.git
+  1.90.0-develop+25.08.16.11.30:
+    commit: 1dcc441ca1e286ec8fa0f6cf7cf0f3c1a94abd4e
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    url: https://github.com/boostorg/smart_ptr.git
   1.90.0-master+25.08.16:
     commit: 1dcc441ca1e286ec8fa0f6cf7cf0f3c1a94abd4e
     dependencies:
@@ -22,4 +30,12 @@ sources:
     - boost-config/1.90.0-master+25.07.04
     - boost-core/1.90.0-master+25.08.25
     - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/smart_ptr.git
+  1.90.0-master+25.08.16.11.30:
+    commit: 1dcc441ca1e286ec8fa0f6cf7cf0f3c1a94abd4e
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
     url: https://github.com/boostorg/smart_ptr.git

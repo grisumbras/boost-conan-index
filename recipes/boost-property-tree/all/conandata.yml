@@ -35,6 +35,24 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/property_tree.git
+  1.90.0-develop+25.06.30.13.56:
+    commit: 2669458cebee100bc1f9f4a9d2f0cd95d07740bc
+    dependencies:
+    - boost-any/1.90.0-develop+25.06.18.17.56
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-bind/1.90.0-develop+24.12.13.03.05
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-iterator/1.90.0-develop+25.08.25.19.05
+    - boost-mpl/1.90.0-develop+25.07.03.00.11
+    - boost-multi-index/1.90.0-develop+25.09.19.09.06
+    - boost-optional/1.90.0-develop+24.12.08.17.21
+    - boost-range/1.90.0-develop+25.05.02.19.18
+    - boost-serialization/1.90.0-develop+24.08.18.11.53
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/property_tree.git
   1.90.0-master+25.06.30:
     commit: 2669458cebee100bc1f9f4a9d2f0cd95d07740bc
     dependencies:
@@ -52,4 +70,22 @@ sources:
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/property_tree.git
+  1.90.0-master+25.06.30.13.56:
+    commit: 2669458cebee100bc1f9f4a9d2f0cd95d07740bc
+    dependencies:
+    - boost-any/1.90.0-master+25.06.18.17.56
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-bind/1.90.0-master+24.12.13.03.05
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-iterator/1.90.0-master+25.08.25.19.05
+    - boost-mpl/1.90.0-master+25.06.27.02.18
+    - boost-multi-index/1.90.0-master+25.09.20.17.53
+    - boost-optional/1.90.0-master+24.12.04.00.23
+    - boost-range/1.90.0-master+25.02.08.16.31
+    - boost-serialization/1.90.0-master+23.11.12.21.05
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/property_tree.git

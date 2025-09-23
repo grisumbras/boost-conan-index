@@ -23,6 +23,18 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/circular_buffer.git
+  1.90.0-develop+25.05.02.19.05:
+    commit: 0320ba365cf959d3f9c982eb05b78452571b35e5
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-concept-check/1.90.0-develop+25.07.02.07.32
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-move/1.90.0-develop+25.08.23.23.03
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/circular_buffer.git
   1.90.0-master+22.09.12:
     commit: a08a5b55ee82e0c2487523471379ac53a23935dc
     dependencies:
@@ -34,4 +46,16 @@ sources:
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/circular_buffer.git
+  1.90.0-master+22.09.12.08.08:
+    commit: a08a5b55ee82e0c2487523471379ac53a23935dc
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-concept-check/1.90.0-master+24.12.28.18.10
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-move/1.90.0-master+25.05.20.08.55
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/circular_buffer.git

@@ -39,6 +39,26 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-variant2/1.90.0-develop+25.01.15
     url: https://github.com/boostorg/mysql.git
+  1.90.0-develop+25.09.01.16.06:
+    commit: 45687ea21603dc17399aa4c3f6d19ea09a5cb03c
+    dependencies:
+    - boost-asio/1.90.0-develop+25.08.06.22.32
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-charconv/1.90.0-develop+25.08.14.13.57
+    - boost-compat/1.90.0-develop+25.09.05.18.48
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-container/1.90.0-develop+25.09.22.00.35
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-describe/1.90.0-develop+25.08.17.10.18
+    - boost-endian/1.90.0-develop+24.12.14.03.43
+    - boost-intrusive/1.90.0-develop+25.08.25.23.15
+    - boost-mp11/1.90.0-develop+25.09.09.16.43
+    - boost-optional/1.90.0-develop+24.12.08.17.21
+    - boost-pfr/1.90.0-develop+25.09.14.14.59
+    - boost-system/1.90.0-develop+25.07.02.19.12
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-variant2/1.90.0-develop+25.01.15.19.44
+    url: https://github.com/boostorg/mysql.git
   1.90.0-master+25.06.07:
     commit: 6a82609638e88bcea2985069dfc356f32a575a55
     dependencies:
@@ -58,4 +78,24 @@ sources:
     - boost-system/1.90.0-master+25.07.02
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-variant2/1.90.0-master+25.01.15
+    url: https://github.com/boostorg/mysql.git
+  1.90.0-master+25.06.07.13.20:
+    commit: 6a82609638e88bcea2985069dfc356f32a575a55
+    dependencies:
+    - boost-asio/1.90.0-master+25.08.06.22.37
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-charconv/1.90.0-master+25.08.06.14.08
+    - boost-compat/1.90.0-master+25.09.05.18.48
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-container/1.90.0-master+25.05.21.12.05
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-describe/1.90.0-master+25.08.17.10.18
+    - boost-endian/1.90.0-master+24.12.14.03.43
+    - boost-intrusive/1.90.0-master+25.05.20.09.17
+    - boost-mp11/1.90.0-master+25.09.09.16.43
+    - boost-optional/1.90.0-master+24.12.04.00.23
+    - boost-pfr/1.90.0-master+25.09.14.14.59
+    - boost-system/1.90.0-master+25.07.02.19.12
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-variant2/1.90.0-master+25.01.15.19.44
     url: https://github.com/boostorg/mysql.git

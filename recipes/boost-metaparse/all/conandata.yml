@@ -19,6 +19,16 @@ sources:
     - boost-static-assert/1.90.0-develop+25.04.15
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/metaparse.git
+  1.90.0-develop+25.04.14.20.30:
+    commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-mpl/1.90.0-develop+25.07.03.00.11
+    - boost-predef/1.90.0-develop+25.02.03.08.30
+    - boost-preprocessor/1.90.0-develop+25.06.09.02.52
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/metaparse.git
   1.90.0-master+25.04.14:
     commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
     dependencies:
@@ -28,4 +38,14 @@ sources:
     - boost-preprocessor/1.90.0-master+25.06.09
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/metaparse.git
+  1.90.0-master+25.04.14.20.30:
+    commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-mpl/1.90.0-master+25.06.27.02.18
+    - boost-predef/1.90.0-master+25.01.12.12.53
+    - boost-preprocessor/1.90.0-master+25.06.09.02.52
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/metaparse.git

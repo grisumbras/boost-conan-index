@@ -9,8 +9,18 @@ sources:
     dependencies:
     - boost-config/1.90.0-develop+25.09.20
     url: https://github.com/boostorg/static_assert.git
+  1.90.0-develop+25.04.15.18.33:
+    commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    url: https://github.com/boostorg/static_assert.git
   1.90.0-master+25.04.15:
     commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
     dependencies:
     - boost-config/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/static_assert.git
+  1.90.0-master+25.04.15.18.33:
+    commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
     url: https://github.com/boostorg/static_assert.git

@@ -13,10 +13,24 @@ sources:
     - boost-config/1.90.0-develop+25.09.20
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/compat.git
+  1.90.0-develop+25.09.05.18.48:
+    commit: a5a56ee5c0ed2c3b981374c17d76933bedefff71
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    url: https://github.com/boostorg/compat.git
   1.90.0-master+25.09.05:
     commit: a5a56ee5c0ed2c3b981374c17d76933bedefff71
     dependencies:
     - boost-assert/1.90.0-master+25.03.21
     - boost-config/1.90.0-master+25.07.04
     - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/compat.git
+  1.90.0-master+25.09.05.18.48:
+    commit: a5a56ee5c0ed2c3b981374c17d76933bedefff71
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
     url: https://github.com/boostorg/compat.git

@@ -17,6 +17,15 @@ sources:
     - boost-preprocessor/1.90.0-develop+25.06.09
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/tti.git
+  1.90.0-develop+25.05.02.19.22:
+    commit: da15e744519fd54fb0641e23042dd69bee75d12c
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-function-types/1.90.0-develop+24.09.18.18.18
+    - boost-mpl/1.90.0-develop+25.07.03.00.11
+    - boost-preprocessor/1.90.0-develop+25.06.09.02.52
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/tti.git
   1.90.0-master+21.05.28:
     commit: 03734c54a51b6372ac3296d2fe5103b7360bcd3f
     dependencies:
@@ -25,4 +34,13 @@ sources:
     - boost-mpl/1.90.0-master+25.06.27
     - boost-preprocessor/1.90.0-master+25.06.09
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/tti.git
+  1.90.0-master+21.05.28.00.26:
+    commit: 03734c54a51b6372ac3296d2fe5103b7360bcd3f
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-function-types/1.90.0-master+24.09.18.18.18
+    - boost-mpl/1.90.0-master+25.06.27.02.18
+    - boost-preprocessor/1.90.0-master+25.06.09.02.52
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/tti.git

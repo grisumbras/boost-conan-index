@@ -17,6 +17,15 @@ sources:
     - boost-static-assert/1.90.0-develop+25.04.15
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/detail.git
+  1.90.0-develop+25.06.13.00.44:
+    commit: 43238b75cee1a010d6ef6dc48dfc21c365d3796f
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-preprocessor/1.90.0-develop+25.06.09.02.52
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/detail.git
   1.90.0-master+25.06.13:
     commit: 43238b75cee1a010d6ef6dc48dfc21c365d3796f
     dependencies:
@@ -25,4 +34,13 @@ sources:
     - boost-preprocessor/1.90.0-master+25.06.09
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/detail.git
+  1.90.0-master+25.06.13.00.44:
+    commit: 43238b75cee1a010d6ef6dc48dfc21c365d3796f
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-preprocessor/1.90.0-master+25.06.09.02.52
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/detail.git

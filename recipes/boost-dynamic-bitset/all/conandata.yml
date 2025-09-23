@@ -38,6 +38,15 @@ sources:
     - boost-core/1.90.0-develop+25.08.25
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/dynamic_bitset.git
+  1.90.0-develop+25.09.18.18.46:
+    commit: 11be69a45ef078c43c9c0bf51ab6c7300158bc0f
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-container-hash/1.90.0-develop+25.08.21.19.31
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    url: https://github.com/boostorg/dynamic_bitset.git
   1.90.0-master+22.07.05:
     commit: b96250c3c66d310b51555fbf532245c47d71c1b9
     dependencies:
@@ -49,4 +58,16 @@ sources:
     - boost-move/1.90.0-master+25.05.20
     - boost-static-assert/1.90.0-master+25.04.15
     - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/dynamic_bitset.git
+  1.90.0-master+22.07.05.17.53:
+    commit: b96250c3c66d310b51555fbf532245c47d71c1b9
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-container-hash/1.90.0-master+25.08.21.19.31
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-integer/1.90.0-master+25.08.25.19.05
+    - boost-move/1.90.0-master+25.05.20.08.55
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
     url: https://github.com/boostorg/dynamic_bitset.git

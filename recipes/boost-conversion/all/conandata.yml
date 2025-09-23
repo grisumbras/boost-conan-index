@@ -15,6 +15,14 @@ sources:
     - boost-smart-ptr/1.90.0-develop+25.08.16
     - boost-throw-exception/1.90.0-develop+24.12.12
     url: https://github.com/boostorg/conversion.git
+  1.90.0-develop+25.06.27.20.42:
+    commit: b74a4c34cb181a8a26d35d05fab608426449626a
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-smart-ptr/1.90.0-develop+25.08.16.11.30
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    url: https://github.com/boostorg/conversion.git
   1.90.0-master+25.06.27:
     commit: b74a4c34cb181a8a26d35d05fab608426449626a
     dependencies:
@@ -22,4 +30,12 @@ sources:
     - boost-config/1.90.0-master+25.07.04
     - boost-smart-ptr/1.90.0-master+25.08.16
     - boost-throw-exception/1.90.0-master+24.12.12
+    url: https://github.com/boostorg/conversion.git
+  1.90.0-master+25.06.27.20.42:
+    commit: b74a4c34cb181a8a26d35d05fab608426449626a
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-smart-ptr/1.90.0-master+25.08.16.11.30
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
     url: https://github.com/boostorg/conversion.git

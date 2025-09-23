@@ -25,6 +25,19 @@ sources:
     - boost-type-index/1.90.0-develop+25.09.07
     - boost-winapi/1.90.0-develop+25.08.25
     url: https://github.com/boostorg/dll.git
+  1.90.0-develop+25.08.26.12.02:
+    commit: c6d1c7f977c9952a3e895de15622d263eea38e9c
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-filesystem/1.90.0-develop+25.08.29.01.14
+    - boost-predef/1.90.0-develop+25.02.03.08.30
+    - boost-system/1.90.0-develop+25.07.02.19.12
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-index/1.90.0-develop+25.09.07.19.23
+    - boost-winapi/1.90.0-develop+25.08.25.19.08
+    url: https://github.com/boostorg/dll.git
   1.90.0-master+25.08.26:
     commit: c6d1c7f977c9952a3e895de15622d263eea38e9c
     dependencies:
@@ -37,4 +50,17 @@ sources:
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-index/1.90.0-master+25.09.07
     - boost-winapi/1.90.0-master+25.08.25
+    url: https://github.com/boostorg/dll.git
+  1.90.0-master+25.08.26.12.02:
+    commit: c6d1c7f977c9952a3e895de15622d263eea38e9c
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-filesystem/1.90.0-master+25.08.29.01.14
+    - boost-predef/1.90.0-master+25.01.12.12.53
+    - boost-system/1.90.0-master+25.07.02.19.12
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-index/1.90.0-master+25.09.07.19.23
+    - boost-winapi/1.90.0-master+25.08.25.19.08
     url: https://github.com/boostorg/dll.git

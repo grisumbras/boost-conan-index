@@ -31,6 +31,21 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/program_options.git
+  1.90.0-develop+25.09.13.10.38:
+    commit: 902aaedaaa157a92e649c3b1324c92f5a264a805
+    dependencies:
+    - boost-any/1.90.0-develop+25.06.18.17.56
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-core/1.90.0-develop+25.08.25.19.05
+    - boost-detail/1.90.0-develop+25.06.13.00.44
+    - boost-function/1.90.0-develop+24.12.14.04.39
+    - boost-iterator/1.90.0-develop+25.08.25.19.05
+    - boost-lexical-cast/1.90.0-develop+25.09.08.09.02
+    - boost-smart-ptr/1.90.0-develop+25.08.16.11.30
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/program_options.git
   1.90.0-master+24.04.07:
     commit: 27f927694547277f845ae855e80b96be252f826c
     dependencies:
@@ -47,4 +62,21 @@ sources:
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-tokenizer/1.90.0-master+25.01.01
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/program_options.git
+  1.90.0-master+24.04.07.13.32:
+    commit: 27f927694547277f845ae855e80b96be252f826c
+    dependencies:
+    - boost-any/1.90.0-master+25.06.18.17.56
+    - boost-bind/1.90.0-master+24.12.13.03.05
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-core/1.90.0-master+25.08.25.19.05
+    - boost-detail/1.90.0-master+25.06.13.00.44
+    - boost-function/1.90.0-master+24.12.14.04.39
+    - boost-iterator/1.90.0-master+25.08.25.19.05
+    - boost-lexical-cast/1.90.0-master+25.09.08.09.02
+    - boost-smart-ptr/1.90.0-master+25.08.16.11.30
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-tokenizer/1.90.0-master+25.01.01.15.10
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/program_options.git

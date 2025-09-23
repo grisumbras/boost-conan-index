@@ -11,9 +11,21 @@ sources:
     - boost-config/1.90.0-develop+25.09.20
     - boost-static-assert/1.90.0-develop+25.04.15
     url: https://github.com/boostorg/type_traits.git
+  1.90.0-develop+25.04.21.15.19:
+    commit: 085c27f785b647c217db59af7cef8806af578012
+    dependencies:
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-static-assert/1.90.0-develop+25.04.15.18.33
+    url: https://github.com/boostorg/type_traits.git
   1.90.0-master+25.07.04:
     commit: 67a6c32499866ea4485e249e8e406fb1348eb5d2
     dependencies:
     - boost-config/1.90.0-master+25.07.04
     - boost-static-assert/1.90.0-master+25.04.15
+    url: https://github.com/boostorg/type_traits.git
+  1.90.0-master+25.07.04.20.38:
+    commit: 67a6c32499866ea4485e249e8e406fb1348eb5d2
+    dependencies:
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-static-assert/1.90.0-master+25.04.15.18.33
     url: https://github.com/boostorg/type_traits.git

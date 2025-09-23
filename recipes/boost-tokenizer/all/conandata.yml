@@ -17,6 +17,15 @@ sources:
     - boost-throw-exception/1.90.0-develop+24.12.12
     - boost-type-traits/1.90.0-develop+25.04.21
     url: https://github.com/boostorg/tokenizer.git
+  1.90.0-develop+25.07.02.17.31:
+    commit: 8f6316a8c937656aeeb2f48e469363eeac72837b
+    dependencies:
+    - boost-assert/1.90.0-develop+25.03.21.17.00
+    - boost-config/1.90.0-develop+25.09.20.12.43
+    - boost-iterator/1.90.0-develop+25.08.25.19.05
+    - boost-throw-exception/1.90.0-develop+24.12.12.19.39
+    - boost-type-traits/1.90.0-develop+25.04.21.15.19
+    url: https://github.com/boostorg/tokenizer.git
   1.90.0-master+25.01.01:
     commit: a1207c1a424ee565344fe5ef00605cb93f5210c2
     dependencies:
@@ -25,4 +34,13 @@ sources:
     - boost-iterator/1.90.0-master+25.08.25
     - boost-throw-exception/1.90.0-master+24.12.12
     - boost-type-traits/1.90.0-master+25.07.04
+    url: https://github.com/boostorg/tokenizer.git
+  1.90.0-master+25.01.01.15.10:
+    commit: a1207c1a424ee565344fe5ef00605cb93f5210c2
+    dependencies:
+    - boost-assert/1.90.0-master+25.03.21.17.00
+    - boost-config/1.90.0-master+25.07.04.20.36
+    - boost-iterator/1.90.0-master+25.08.25.19.05
+    - boost-throw-exception/1.90.0-master+24.12.12.19.39
+    - boost-type-traits/1.90.0-master+25.07.04.20.38
     url: https://github.com/boostorg/tokenizer.git
