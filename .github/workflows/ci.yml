@@ -42,15 +42,15 @@ jobs:
 
           conan remote add boost-conan-index ./index
 
-          ANY_VERSION=`python <<EOF
+          JSON_VERSION=`python <<EOF
           import yaml
-          with open("index/recipes/boost-any/config.yml", "r") as f:
+          with open("index/recipes/boost-json/config.yml", "r") as f:
             cfg = yaml.load(f, yaml.Loader)
             version = next(iter(cfg["versions"]))
             print(version)
           EOF`
           conan test --build=missing \
-            index/recipes/boost-any/all/test_package boost-any/$ANY_VERSION
+            index/recipes/boost-json/all/test_package boost-json/$JSON_VERSION
 
       - name: Save index
         uses: actions/upload-artifact@v4
