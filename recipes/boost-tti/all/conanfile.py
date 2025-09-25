@@ -11,7 +11,7 @@ class BoostTtiRecipe(ConanFile):
     name = 'boost-tti'
 
     license = 'BSL-1.0'
-    description = 'Type Traits Introspection library.'
+    description = '''Type Traits Introspection library.'''
     author = 'Edward Diener'
     url = 'https://github.com/boostorg/tti.git'
     topics = ['Generic', 'Metaprogramming']

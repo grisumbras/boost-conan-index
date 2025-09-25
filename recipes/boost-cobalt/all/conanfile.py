@@ -11,7 +11,7 @@ class BoostCobaltRecipe(ConanFile):
     name = 'boost-cobalt'
 
     license = 'BSL-1.0'
-    description = 'Coroutines. Basic Algorithms & Types'
+    description = '''Coroutines. Basic Algorithms & Types'''
     author = 'Klemens Morgenstern'
     url = 'https://github.com/boostorg/cobalt.git'
     topics = ['Concurrent', 'Coroutines', 'Awaitables', 'Asynchronous']

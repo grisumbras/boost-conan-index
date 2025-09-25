@@ -11,7 +11,7 @@ class BoostStatechartRecipe(ConanFile):
     name = 'boost-statechart'
 
     license = 'BSL-1.0'
-    description = 'Boost.Statechart - Arbitrarily complex finite state machines can be implemented in easily readable and maintainable C++ code.'
+    description = '''Boost.Statechart - Arbitrarily complex finite state machines can be implemented in easily readable and maintainable C++ code.'''
     author = 'Andreas Huber Dönni'
     url = 'https://github.com/boostorg/statechart.git'
     topics = ['State']

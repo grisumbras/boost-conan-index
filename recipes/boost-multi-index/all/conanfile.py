@@ -11,7 +11,7 @@ class BoostMulti_IndexRecipe(ConanFile):
     name = 'boost-multi-index'
 
     license = 'BSL-1.0'
-    description = 'The Boost Multi-index Containers Library provides a class template named multi_index_container which enables the construction of containers maintaining one or more indices with different sorting and access semantics.'
+    description = '''The Boost Multi-index Containers Library provides a class template named multi_index_container which enables the construction of containers maintaining one or more indices with different sorting and access semantics.'''
     author = 'Joaquín M López Muñoz'
     url = 'https://github.com/boostorg/multi_index.git'
     topics = ['Containers', 'Data']

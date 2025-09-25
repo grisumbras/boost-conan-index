@@ -11,7 +11,7 @@ class BoostUnorderedRecipe(ConanFile):
     name = 'boost-unordered'
 
     license = 'BSL-1.0'
-    description = 'Unordered associative containers.'
+    description = '''Unordered associative containers.'''
     author = 'Daniel James'
     url = 'https://github.com/boostorg/unordered.git'
     topics = ['Containers']

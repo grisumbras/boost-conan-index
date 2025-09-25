@@ -11,7 +11,7 @@ class BoostTokenizerRecipe(ConanFile):
     name = 'boost-tokenizer'
 
     license = 'BSL-1.0'
-    description = 'Break of a string or other character sequence into a series of tokens.'
+    description = '''Break of a string or other character sequence into a series of tokens.'''
     author = 'John Bandela'
     url = 'https://github.com/boostorg/tokenizer.git'
     topics = ['Iterators', 'String']

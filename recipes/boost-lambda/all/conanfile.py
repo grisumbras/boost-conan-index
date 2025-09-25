@@ -11,7 +11,7 @@ class BoostLambdaRecipe(ConanFile):
     name = 'boost-lambda'
 
     license = 'BSL-1.0'
-    description = 'Define small unnamed function objects at the actual call site, and more.'
+    description = '''Define small unnamed function objects at the actual call site, and more.'''
     author = 'Jaakko Järvi, Gary Powell'
     url = 'https://github.com/boostorg/lambda.git'
     topics = ['Function-objects']

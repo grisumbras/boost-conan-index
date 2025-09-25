@@ -11,7 +11,7 @@ class BoostCallable_TraitsRecipe(ConanFile):
     name = 'boost-callable-traits'
 
     license = 'BSL-1.0'
-    description = 'A spiritual successor to Boost.FunctionTypes, Boost.CallableTraits is a header-only C++11 library for the compile-time inspection and manipulation of all 'callable' types. Additional support for C++17 features.'
+    description = '''A spiritual successor to Boost.FunctionTypes, Boost.CallableTraits is a header-only C++11 library for the compile-time inspection and manipulation of all 'callable' types. Additional support for C++17 features.'''
     author = 'Barrett Adair'
     url = 'https://github.com/boostorg/callable_traits.git'
     topics = ['Metaprogramming']

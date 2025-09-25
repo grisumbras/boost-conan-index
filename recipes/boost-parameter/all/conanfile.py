@@ -11,7 +11,7 @@ class BoostParameterRecipe(ConanFile):
     name = 'boost-parameter'
 
     license = 'BSL-1.0'
-    description = 'Boost.Parameter Library - Write functions that accept arguments by name.'
+    description = '''Boost.Parameter Library - Write functions that accept arguments by name.'''
     author = 'David Abrahams, Daniel Wallin'
     url = 'https://github.com/boostorg/parameter.git'
     topics = ['Emulation', 'Programming']

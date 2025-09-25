@@ -11,7 +11,7 @@ class BoostMqtt5Recipe(ConanFile):
     name = 'boost-mqtt5'
 
     license = 'BSL-1.0'
-    description = 'MQTT5 client library built on top of Boost.Asio.'
+    description = '''MQTT5 client library built on top of Boost.Asio.'''
     author = 'Ivica Siladić, Bruno Iljazović, Korina Šimičević'
     url = 'https://github.com/boostorg/mqtt5.git'
     topics = ['Concurrent', 'IO']

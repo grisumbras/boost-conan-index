@@ -11,7 +11,7 @@ class BoostStl_InterfacesRecipe(ConanFile):
     name = 'boost-stl-interfaces'
 
     license = 'BSL-1.0'
-    description = 'C++14 and later CRTP templates for defining iterators, views, and containers.'
+    description = '''C++14 and later CRTP templates for defining iterators, views, and containers.'''
     author = 'T. Zachary Laine'
     url = 'https://github.com/boostorg/stl_interfaces.git'
     topics = ['Generic']

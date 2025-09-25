@@ -11,7 +11,7 @@ class BoostProperty_MapRecipe(ConanFile):
     name = 'boost-property-map'
 
     license = 'BSL-1.0'
-    description = 'Concepts defining interfaces which map key objects to value objects.'
+    description = '''Concepts defining interfaces which map key objects to value objects.'''
     author = 'Jeremy Siek'
     url = 'https://github.com/boostorg/property_map.git'
     topics = ['Containers', 'Generic']

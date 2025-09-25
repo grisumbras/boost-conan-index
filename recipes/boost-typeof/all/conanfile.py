@@ -11,7 +11,7 @@ class BoostTypeofRecipe(ConanFile):
     name = 'boost-typeof'
 
     license = 'BSL-1.0'
-    description = 'Typeof operator emulation.'
+    description = '''Typeof operator emulation.'''
     author = 'Arkadiy Vertleyb, Peder Holt'
     url = 'https://github.com/boostorg/typeof.git'
     topics = ['Emulation']

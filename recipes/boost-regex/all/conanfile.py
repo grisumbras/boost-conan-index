@@ -11,7 +11,7 @@ class BoostRegexRecipe(ConanFile):
     name = 'boost-regex'
 
     license = 'BSL-1.0'
-    description = 'Regular expression library.'
+    description = '''Regular expression library.'''
     author = 'John Maddock'
     url = 'https://github.com/boostorg/regex.git'
     topics = ['String']

@@ -11,7 +11,7 @@ class BoostCompatRecipe(ConanFile):
     name = 'boost-compat'
 
     license = 'BSL-1.0'
-    description = 'C++11 implementations of standard components added in later C++ standards.'
+    description = '''C++11 implementations of standard components added in later C++ standards.'''
     author = 'Peter Dimov, Christian Mazakas'
     url = 'https://github.com/boostorg/compat.git'
     topics = ['Emulation', 'Programming']

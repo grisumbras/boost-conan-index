@@ -11,7 +11,7 @@ class BoostBimapRecipe(ConanFile):
     name = 'boost-bimap'
 
     license = 'BSL-1.0'
-    description = 'Bidirectional maps library for C++. With Boost.Bimap you can create associative containers in which both types can be used as key.'
+    description = '''Bidirectional maps library for C++. With Boost.Bimap you can create associative containers in which both types can be used as key.'''
     author = 'Matias Capeletto'
     url = 'https://github.com/boostorg/bimap.git'
     topics = ['Containers', 'Data']

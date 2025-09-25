@@ -11,7 +11,7 @@ class BoostStatic_AssertRecipe(ConanFile):
     name = 'boost-static-assert'
 
     license = 'BSL-1.0'
-    description = 'Static assertions (compile time assertions).'
+    description = '''Static assertions (compile time assertions).'''
     author = 'John Maddock'
     url = 'https://github.com/boostorg/static_assert.git'
     topics = ['Correctness', 'Generic', 'Metaprogramming']

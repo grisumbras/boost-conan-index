@@ -11,7 +11,7 @@ class BoostUrlRecipe(ConanFile):
     name = 'boost-url'
 
     license = 'BSL-1.0'
-    description = 'URL parsing in C++11'
+    description = '''URL parsing in C++11'''
     author = 'Vinnie Falco, Alan de Freitas'
     url = 'https://github.com/boostorg/url.git'
     topics = ['Containers', 'Data', 'IO']

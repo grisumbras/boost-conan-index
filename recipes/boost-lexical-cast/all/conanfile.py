@@ -11,7 +11,7 @@ class BoostLexical_CastRecipe(ConanFile):
     name = 'boost-lexical-cast'
 
     license = 'BSL-1.0'
-    description = 'General literal text conversions, such as an int represented a string, or vice-versa.'
+    description = '''General literal text conversions, such as an int represented a string, or vice-versa.'''
     author = 'Kevlin Henney'
     url = 'https://github.com/boostorg/lexical_cast.git'
     topics = ['Miscellaneous', 'String']

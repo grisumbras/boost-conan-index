@@ -11,7 +11,7 @@ class BoostFiberRecipe(ConanFile):
     name = 'boost-fiber'
 
     license = 'BSL-1.0'
-    description = '(C++11) Userland threads library.'
+    description = '''(C++11) Userland threads library.'''
     author = 'Oliver Kowalke'
     url = 'https://github.com/boostorg/fiber.git'
     topics = ['Concurrent', 'System']

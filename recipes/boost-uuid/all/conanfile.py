@@ -11,7 +11,7 @@ class BoostUuidRecipe(ConanFile):
     name = 'boost-uuid'
 
     license = 'BSL-1.0'
-    description = 'A universally unique identifier.'
+    description = '''A universally unique identifier.'''
     author = 'Andy Tompkins'
     url = 'https://github.com/boostorg/uuid.git'
     topics = ['Data', 'Domain']

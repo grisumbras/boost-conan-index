@@ -11,7 +11,7 @@ class BoostPoly_CollectionRecipe(ConanFile):
     name = 'boost-poly-collection'
 
     license = 'BSL-1.0'
-    description = 'Fast containers of polymorphic objects.'
+    description = '''Fast containers of polymorphic objects.'''
     author = 'Joaquín M López Muñoz'
     url = 'https://github.com/boostorg/poly_collection.git'
     topics = ['Containers']

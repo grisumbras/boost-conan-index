@@ -11,7 +11,7 @@ class BoostProtoRecipe(ConanFile):
     name = 'boost-proto'
 
     license = 'BSL-1.0'
-    description = 'Expression template library and compiler construction toolkit for domain-specific embedded languages.'
+    description = '''Expression template library and compiler construction toolkit for domain-specific embedded languages.'''
     author = 'Eric Niebler'
     url = 'https://github.com/boostorg/proto.git'
     topics = ['Metaprogramming']

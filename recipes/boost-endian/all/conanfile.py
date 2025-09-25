@@ -11,7 +11,7 @@ class BoostEndianRecipe(ConanFile):
     name = 'boost-endian'
 
     license = 'BSL-1.0'
-    description = 'Types and conversion functions for correct byte ordering and more regardless of processor endianness.'
+    description = '''Types and conversion functions for correct byte ordering and more regardless of processor endianness.'''
     author = 'Beman Dawes'
     url = 'https://github.com/boostorg/endian.git'
     topics = ['IO', 'Math', 'Miscellaneous']

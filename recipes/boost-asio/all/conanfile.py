@@ -11,7 +11,7 @@ class BoostAsioRecipe(ConanFile):
     name = 'boost-asio'
 
     license = 'BSL-1.0'
-    description = 'Portable networking and other low-level I/O, including sockets, timers, hostname resolution, socket iostreams, serial ports, file descriptors and Windows HANDLEs.'
+    description = '''Portable networking and other low-level I/O, including sockets, timers, hostname resolution, socket iostreams, serial ports, file descriptors and Windows HANDLEs.'''
     author = 'Chris Kohlhoff'
     url = 'https://github.com/boostorg/asio.git'
     topics = ['Concurrent', 'IO']

@@ -11,7 +11,7 @@ class BoostAssignRecipe(ConanFile):
     name = 'boost-assign'
 
     license = 'BSL-1.0'
-    description = 'Filling containers with constant or generated data has never been easier.'
+    description = '''Filling containers with constant or generated data has never been easier.'''
     author = 'Thorsten Ottosen'
     url = 'https://github.com/boostorg/assign.git'
     topics = ['IO']

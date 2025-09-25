@@ -11,7 +11,7 @@ class BoostStatic_StringRecipe(ConanFile):
     name = 'boost-static-string'
 
     license = 'BSL-1.0'
-    description = 'A fixed capacity dynamically sized string.'
+    description = '''A fixed capacity dynamically sized string.'''
     author = 'Krystian Stasiowski, Vinnie Falco'
     url = 'https://github.com/boostorg/static_string.git'
     topics = ['Container', 'String']

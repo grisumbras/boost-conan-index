@@ -11,7 +11,7 @@ class BoostDate_TimeRecipe(ConanFile):
     name = 'boost-date-time'
 
     license = 'BSL-1.0'
-    description = 'A set of date-time libraries based on generic programming concepts.'
+    description = '''A set of date-time libraries based on generic programming concepts.'''
     author = 'Jeff Garland'
     url = 'https://github.com/boostorg/date_time.git'
     topics = ['Domain', 'System']

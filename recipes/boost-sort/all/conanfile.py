@@ -11,7 +11,7 @@ class BoostSortRecipe(ConanFile):
     name = 'boost-sort'
 
     license = 'BSL-1.0'
-    description = 'High-performance templated sort functions.'
+    description = '''High-performance templated sort functions.'''
     author = 'Steven Ross'
     url = 'https://github.com/boostorg/sort.git'
     topics = ['Algorithms']

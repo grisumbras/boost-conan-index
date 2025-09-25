@@ -11,7 +11,7 @@ class BoostRedisRecipe(ConanFile):
     name = 'boost-redis'
 
     license = 'BSL-1.0'
-    description = 'Redis async client library built on top of Boost.Asio.'
+    description = '''Redis async client library built on top of Boost.Asio.'''
     author = 'Marcelo Zimbres Silva'
     url = 'https://github.com/boostorg/redis.git'
     topics = ['Concurrent', 'IO']

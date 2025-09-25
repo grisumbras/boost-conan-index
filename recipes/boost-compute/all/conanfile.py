@@ -11,7 +11,7 @@ class BoostComputeRecipe(ConanFile):
     name = 'boost-compute'
 
     license = 'BSL-1.0'
-    description = 'Parallel/GPU-computing library'
+    description = '''Parallel/GPU-computing library'''
     author = 'Kyle Lutz'
     url = 'https://github.com/boostorg/compute.git'
     topics = ['Concurrent']

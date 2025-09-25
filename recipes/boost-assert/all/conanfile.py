@@ -11,7 +11,7 @@ class BoostAssertRecipe(ConanFile):
     name = 'boost-assert'
 
     license = 'BSL-1.0'
-    description = 'Customizable assert macros.'
+    description = '''Customizable assert macros.'''
     author = 'Peter Dimov'
     url = 'https://github.com/boostorg/assert.git'
     topics = ['Correctness', 'Error-handling']

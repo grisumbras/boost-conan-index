@@ -11,7 +11,7 @@ class BoostAlgorithmRecipe(ConanFile):
     name = 'boost-algorithm'
 
     license = 'BSL-1.0'
-    description = 'A collection of useful generic algorithms.'
+    description = '''A collection of useful generic algorithms.'''
     author = 'Marshall Clow'
     url = 'https://github.com/boostorg/algorithm.git'
     topics = ['Algorithms']

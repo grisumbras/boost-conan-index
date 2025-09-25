@@ -11,7 +11,7 @@ class BoostPfrRecipe(ConanFile):
     name = 'boost-pfr'
 
     license = 'BSL-1.0'
-    description = 'Basic reflection  for user defined types.'
+    description = '''Basic reflection  for user defined types.'''
     author = 'Antony Polukhin'
     url = 'https://github.com/boostorg/pfr.git'
     topics = ['Data', 'Metaprogramming']

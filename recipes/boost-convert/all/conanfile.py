@@ -11,7 +11,7 @@ class BoostConvertRecipe(ConanFile):
     name = 'boost-convert'
 
     license = 'BSL-1.0'
-    description = 'An extendible and configurable type-conversion framework.'
+    description = '''An extendible and configurable type-conversion framework.'''
     author = 'Vladimir Batov'
     url = 'https://github.com/boostorg/convert.git'
     topics = ['Miscellaneous', 'String']

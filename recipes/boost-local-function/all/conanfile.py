@@ -11,7 +11,7 @@ class BoostLocal_FunctionRecipe(ConanFile):
     name = 'boost-local-function'
 
     license = 'BSL-1.0'
-    description = 'Program functions locally, within other functions, directly within the scope where they are needed.'
+    description = '''Program functions locally, within other functions, directly within the scope where they are needed.'''
     author = 'Lorenzo Caminiti'
     url = 'https://github.com/boostorg/local_function.git'
     topics = ['Function-objects']

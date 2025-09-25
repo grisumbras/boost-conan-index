@@ -11,7 +11,7 @@ class BoostLocaleRecipe(ConanFile):
     name = 'boost-locale'
 
     license = 'BSL-1.0'
-    description = 'Provide localization and Unicode handling tools for C++.'
+    description = '''Provide localization and Unicode handling tools for C++.'''
     author = 'Artyom Beilis'
     url = 'https://github.com/boostorg/locale.git'
     topics = ['String']

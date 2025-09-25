@@ -11,7 +11,7 @@ class BoostDllRecipe(ConanFile):
     name = 'boost-dll'
 
     license = 'BSL-1.0'
-    description = 'Library for comfortable work with DLL and DSO.'
+    description = '''Library for comfortable work with DLL and DSO.'''
     author = 'Antony Polukhin, Renato Tegon Forti'
     url = 'https://github.com/boostorg/dll.git'
     topics = ['System']

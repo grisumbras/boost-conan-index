@@ -11,7 +11,7 @@ class BoostCoroutineRecipe(ConanFile):
     name = 'boost-coroutine'
 
     license = 'BSL-1.0'
-    description = 'Coroutine library.'
+    description = '''Coroutine library.'''
     author = 'Oliver Kowalke'
     url = 'https://github.com/boostorg/coroutine.git'
     topics = ['Concurrent']

@@ -11,7 +11,7 @@ class BoostContainerRecipe(ConanFile):
     name = 'boost-container'
 
     license = 'BSL-1.0'
-    description = 'Standard library containers and extensions.'
+    description = '''Standard library containers and extensions.'''
     author = 'Ion Gaztañaga'
     url = 'https://github.com/boostorg/container.git'
     topics = ['Containers', 'Data']

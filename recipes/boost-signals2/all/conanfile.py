@@ -11,7 +11,7 @@ class BoostSignals2Recipe(ConanFile):
     name = 'boost-signals2'
 
     license = 'BSL-1.0'
-    description = 'Managed signals & slots callback implementation (thread-safe version 2).'
+    description = '''Managed signals & slots callback implementation (thread-safe version 2).'''
     author = 'Frank Mori Hess'
     url = 'https://github.com/boostorg/signals2.git'
     topics = ['Function-objects', 'Patterns']

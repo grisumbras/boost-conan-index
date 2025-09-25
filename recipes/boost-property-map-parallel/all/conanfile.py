@@ -11,7 +11,7 @@ class BoostProperty_Map_ParallelRecipe(ConanFile):
     name = 'boost-property-map-parallel'
 
     license = 'BSL-1.0'
-    description = 'Parallel extensions to Property Map for use with Parallel Graph.'
+    description = '''Parallel extensions to Property Map for use with Parallel Graph.'''
     author = 'Jeremy Siek'
     url = 'https://github.com/boostorg/property_map_parallel.git'
     topics = ['Containers', 'Generic']

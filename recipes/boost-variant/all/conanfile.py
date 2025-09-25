@@ -11,7 +11,7 @@ class BoostVariantRecipe(ConanFile):
     name = 'boost-variant'
 
     license = 'BSL-1.0'
-    description = 'Safe, generic, stack-based discriminated union container.'
+    description = '''Safe, generic, stack-based discriminated union container.'''
     author = 'Eric Friedman, Itay Maman'
     url = 'https://github.com/boostorg/variant.git'
     topics = ['Containers', 'Data']

@@ -11,7 +11,7 @@ class BoostVmdRecipe(ConanFile):
     name = 'boost-vmd'
 
     license = 'BSL-1.0'
-    description = 'Variadic Macro Data library.'
+    description = '''Variadic Macro Data library.'''
     author = 'Edward Diener'
     url = 'https://github.com/boostorg/vmd.git'
     topics = ['Preprocessor']

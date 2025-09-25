@@ -11,7 +11,7 @@ class BoostHistogramRecipe(ConanFile):
     name = 'boost-histogram'
 
     license = 'BSL-1.0'
-    description = 'Fast multi-dimensional histogram with convenient interface for C++14'
+    description = '''Fast multi-dimensional histogram with convenient interface for C++14'''
     author = 'Hans Dembinski'
     url = 'https://github.com/boostorg/histogram.git'
     topics = ['Algorithms', 'Data', 'Math']

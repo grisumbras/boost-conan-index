@@ -11,7 +11,7 @@ class BoostProgram_OptionsRecipe(ConanFile):
     name = 'boost-program-options'
 
     license = 'BSL-1.0'
-    description = 'The program_options library allows program developers to obtain program options, that is (name, value) pairs from the user, via conventional methods such as command line and config file.'
+    description = '''The program_options library allows program developers to obtain program options, that is (name, value) pairs from the user, via conventional methods such as command line and config file.'''
     author = 'Vladimir Prus'
     url = 'https://github.com/boostorg/program_options.git'
     topics = ['IO', 'Miscellaneous']

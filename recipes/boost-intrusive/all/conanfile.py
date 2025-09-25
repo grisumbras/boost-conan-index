@@ -11,7 +11,7 @@ class BoostIntrusiveRecipe(ConanFile):
     name = 'boost-intrusive'
 
     license = 'BSL-1.0'
-    description = 'Intrusive containers and algorithms.'
+    description = '''Intrusive containers and algorithms.'''
     author = 'Ion Gaztañaga'
     url = 'https://github.com/boostorg/intrusive.git'
     topics = ['Containers']

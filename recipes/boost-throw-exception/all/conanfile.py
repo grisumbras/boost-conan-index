@@ -11,7 +11,7 @@ class BoostThrow_ExceptionRecipe(ConanFile):
     name = 'boost-throw-exception'
 
     license = 'BSL-1.0'
-    description = 'A common infrastructure for throwing exceptions from Boost libraries.'
+    description = '''A common infrastructure for throwing exceptions from Boost libraries.'''
     author = 'Emil Dotchevski, Peter Dimov'
     url = 'https://github.com/boostorg/throw_exception.git'
     topics = ['Emulation', 'Error-handling']

@@ -11,7 +11,7 @@ class BoostScope_ExitRecipe(ConanFile):
     name = 'boost-scope-exit'
 
     license = 'BSL-1.0'
-    description = 'Execute arbitrary code at scope exit.'
+    description = '''Execute arbitrary code at scope exit.'''
     author = 'Alexander Nasonov'
     url = 'https://github.com/boostorg/scope_exit.git'
     topics = ['Emulation']

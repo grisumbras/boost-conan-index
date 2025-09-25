@@ -11,7 +11,7 @@ class BoostThreadRecipe(ConanFile):
     name = 'boost-thread'
 
     license = 'BSL-1.0'
-    description = 'Portable C++ multi-threading. C++11, C++14, C++17.'
+    description = '''Portable C++ multi-threading. C++11, C++14, C++17.'''
     author = 'Anthony Williams, Vicente J. Botet Escriba'
     url = 'https://github.com/boostorg/thread.git'
     topics = ['Concurrent', 'System']

@@ -11,7 +11,7 @@ class BoostTimerRecipe(ConanFile):
     name = 'boost-timer'
 
     license = 'BSL-1.0'
-    description = 'Event timer, progress timer, and progress display classes.'
+    description = '''Event timer, progress timer, and progress display classes.'''
     author = 'Beman Dawes'
     url = 'https://github.com/boostorg/timer.git'
     topics = ['Miscellaneous']

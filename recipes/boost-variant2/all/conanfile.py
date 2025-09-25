@@ -11,7 +11,7 @@ class BoostVariant2Recipe(ConanFile):
     name = 'boost-variant2'
 
     license = 'BSL-1.0'
-    description = 'A never-valueless, strong guarantee implementation of std::variant.'
+    description = '''A never-valueless, strong guarantee implementation of std::variant.'''
     author = 'Peter Dimov'
     url = 'https://github.com/boostorg/variant2.git'
     topics = ['Containers', 'Data']

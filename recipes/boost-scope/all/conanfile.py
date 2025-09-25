@@ -11,7 +11,7 @@ class BoostScopeRecipe(ConanFile):
     name = 'boost-scope'
 
     license = 'BSL-1.0'
-    description = 'A collection of scope guards and a unique_resource wrapper.'
+    description = '''A collection of scope guards and a unique_resource wrapper.'''
     author = 'Andrey Semashev'
     url = 'https://github.com/boostorg/scope.git'
     topics = ['Emulation', 'Patterns']

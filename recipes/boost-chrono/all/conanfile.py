@@ -11,7 +11,7 @@ class BoostChronoRecipe(ConanFile):
     name = 'boost-chrono'
 
     license = 'BSL-1.0'
-    description = 'Useful time utilities. C++11.'
+    description = '''Useful time utilities. C++11.'''
     author = 'Howard Hinnant, Beman Dawes, Vicente J. Botet Escriba'
     url = 'https://github.com/boostorg/chrono.git'
     topics = ['Domain', 'System']

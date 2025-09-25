@@ -11,7 +11,7 @@ class BoostGilRecipe(ConanFile):
     name = 'boost-gil'
 
     license = 'BSL-1.0'
-    description = '(C++14) Generic Image Library'
+    description = '''(C++14) Generic Image Library'''
     author = 'Lubomir Bourdev, Hailin Jin, Christian Henning'
     url = 'https://github.com/boostorg/gil.git'
     topics = ['Algorithms', 'Containers', 'Generic', 'Image-processing', 'Iterators']

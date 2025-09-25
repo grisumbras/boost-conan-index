@@ -11,7 +11,7 @@ class BoostAnyRecipe(ConanFile):
     name = 'boost-any'
 
     license = 'BSL-1.0'
-    description = 'Safe, generic container for single values of different value types.'
+    description = '''Safe, generic container for single values of different value types.'''
     author = 'Kevlin Henney'
     url = 'https://github.com/boostorg/any.git'
     topics = ['Data']

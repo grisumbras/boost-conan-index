@@ -11,7 +11,7 @@ class BoostFunction_TypesRecipe(ConanFile):
     name = 'boost-function-types'
 
     license = 'BSL-1.0'
-    description = 'Boost.FunctionTypes provides functionality to classify, decompose and synthesize function, function pointer, function reference and pointer to member types.'
+    description = '''Boost.FunctionTypes provides functionality to classify, decompose and synthesize function, function pointer, function reference and pointer to member types.'''
     author = 'Tobias Schwinger'
     url = 'https://github.com/boostorg/function_types.git'
     topics = ['Generic', 'Metaprogramming']

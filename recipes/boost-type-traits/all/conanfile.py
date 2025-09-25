@@ -11,7 +11,7 @@ class BoostType_TraitsRecipe(ConanFile):
     name = 'boost-type-traits'
 
     license = 'BSL-1.0'
-    description = 'Templates for fundamental properties of types.'
+    description = '''Templates for fundamental properties of types.'''
     author = 'John Maddock, Steve Cleary, et al'
     url = 'https://github.com/boostorg/type_traits.git'
     topics = ['Generic', 'Metaprogramming']

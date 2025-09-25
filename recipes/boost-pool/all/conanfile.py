@@ -11,7 +11,7 @@ class BoostPoolRecipe(ConanFile):
     name = 'boost-pool'
 
     license = 'BSL-1.0'
-    description = 'Memory pool management.'
+    description = '''Memory pool management.'''
     author = 'Steve Cleary'
     url = 'https://github.com/boostorg/pool.git'
     topics = ['Memory']

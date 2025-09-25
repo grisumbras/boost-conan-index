@@ -11,7 +11,7 @@ class BoostContainer_HashRecipe(ConanFile):
     name = 'boost-container-hash'
 
     license = 'BSL-1.0'
-    description = 'An STL-compatible hash function object that can be extended to hash user defined types.'
+    description = '''An STL-compatible hash function object that can be extended to hash user defined types.'''
     author = 'Daniel James'
     url = 'https://github.com/boostorg/container_hash.git'
     topics = ['Function-objects']

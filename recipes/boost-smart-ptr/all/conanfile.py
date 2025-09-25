@@ -11,7 +11,7 @@ class BoostSmart_PtrRecipe(ConanFile):
     name = 'boost-smart-ptr'
 
     license = 'BSL-1.0'
-    description = 'Smart pointer class templates.'
+    description = '''Smart pointer class templates.'''
     author = 'Greg Colvin, Beman Dawes, Peter Dimov, Darin Adler, Glen Fernandes'
     url = 'https://github.com/boostorg/smart_ptr.git'
     topics = ['Memory']

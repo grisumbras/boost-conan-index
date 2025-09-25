@@ -11,7 +11,7 @@ class BoostConfigRecipe(ConanFile):
     name = 'boost-config'
 
     license = 'BSL-1.0'
-    description = 'Helps Boost library developers adapt to compiler idiosyncrasies; not intended for library users.'
+    description = '''Helps Boost library developers adapt to compiler idiosyncrasies; not intended for library users.'''
     author = ''
     url = 'https://github.com/boostorg/config.git'
     topics = ['Workarounds']

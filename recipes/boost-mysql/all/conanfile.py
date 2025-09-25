@@ -11,7 +11,7 @@ class BoostMysqlRecipe(ConanFile):
     name = 'boost-mysql'
 
     license = 'BSL-1.0'
-    description = 'MySQL client library built on top of Boost.Asio.'
+    description = '''MySQL client library built on top of Boost.Asio.'''
     author = 'Rubén Pérez'
     url = 'https://github.com/boostorg/mysql.git'
     topics = ['Concurrent', 'IO']

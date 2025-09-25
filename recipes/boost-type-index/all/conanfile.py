@@ -11,7 +11,7 @@ class BoostType_IndexRecipe(ConanFile):
     name = 'boost-type-index'
 
     license = 'BSL-1.0'
-    description = 'Runtime/Compile time copyable type info.'
+    description = '''Runtime/Compile time copyable type info.'''
     author = 'Antony Polukhin'
     url = 'https://github.com/boostorg/type_index.git'
     topics = ['Emulation']

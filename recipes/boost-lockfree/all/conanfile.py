@@ -11,7 +11,7 @@ class BoostLockfreeRecipe(ConanFile):
     name = 'boost-lockfree'
 
     license = 'BSL-1.0'
-    description = 'Lockfree data structures.'
+    description = '''Lockfree data structures.'''
     author = 'Tim Blechmann'
     url = 'https://github.com/boostorg/lockfree.git'
     topics = ['Concurrent']

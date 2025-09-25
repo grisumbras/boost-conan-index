@@ -11,7 +11,7 @@ class BoostHanaRecipe(ConanFile):
     name = 'boost-hana'
 
     license = 'BSL-1.0'
-    description = 'A modern C++ metaprogramming library. It provides high level algorithms to manipulate heterogeneous sequences, allows writing type-level computations with a natural syntax, provides tools to introspect user-defined types and much more.'
+    description = '''A modern C++ metaprogramming library. It provides high level algorithms to manipulate heterogeneous sequences, allows writing type-level computations with a natural syntax, provides tools to introspect user-defined types and much more.'''
     author = 'Louis Dionne'
     url = 'https://github.com/boostorg/hana.git'
     topics = ['Metaprogramming']

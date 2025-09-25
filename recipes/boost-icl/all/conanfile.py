@@ -11,7 +11,7 @@ class BoostIclRecipe(ConanFile):
     name = 'boost-icl'
 
     license = 'BSL-1.0'
-    description = 'Interval Container Library, interval sets and maps and aggregation of associated values'
+    description = '''Interval Container Library, interval sets and maps and aggregation of associated values'''
     author = 'Joachim Faulhaber'
     url = 'https://github.com/boostorg/icl.git'
     topics = ['Containers', 'Data']

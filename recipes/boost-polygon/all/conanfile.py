@@ -11,7 +11,7 @@ class BoostPolygonRecipe(ConanFile):
     name = 'boost-polygon'
 
     license = 'BSL-1.0'
-    description = 'Voronoi diagram construction and booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.'
+    description = '''Voronoi diagram construction and booleans/clipping, resizing/offsetting and more for planar polygons with integral coordinates.'''
     author = 'Lucanus Simonson, Andrii Sydorchuk'
     url = 'https://github.com/boostorg/polygon.git'
     topics = ['Algorithms', 'Data', 'Math']

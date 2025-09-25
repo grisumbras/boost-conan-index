@@ -11,7 +11,7 @@ class BoostCharconvRecipe(ConanFile):
     name = 'boost-charconv'
 
     license = 'BSL-1.0'
-    description = 'An implementation of <charconv> in C++11.'
+    description = '''An implementation of <charconv> in C++11.'''
     author = 'Matt Borland'
     url = 'https://github.com/boostorg/charconv.git'
     topics = ['Miscellaneous', 'String']

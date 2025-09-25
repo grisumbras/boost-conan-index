@@ -11,7 +11,7 @@ class BoostQvmRecipe(ConanFile):
     name = 'boost-qvm'
 
     license = 'BSL-1.0'
-    description = 'Generic C++ library for working with Quaternions Vectors and Matrices.'
+    description = '''Generic C++ library for working with Quaternions Vectors and Matrices.'''
     author = 'Emil Dotchevski'
     url = 'https://github.com/boostorg/qvm.git'
     topics = ['Generic', 'Math', 'Algorithms']

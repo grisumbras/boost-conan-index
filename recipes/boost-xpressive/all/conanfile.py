@@ -11,7 +11,7 @@ class BoostXpressiveRecipe(ConanFile):
     name = 'boost-xpressive'
 
     license = 'BSL-1.0'
-    description = 'Regular expressions that can be written as strings or as expression templates, and which can refer to each other and themselves recursively with the power of context-free grammars.'
+    description = '''Regular expressions that can be written as strings or as expression templates, and which can refer to each other and themselves recursively with the power of context-free grammars.'''
     author = 'Eric Niebler'
     url = 'https://github.com/boostorg/xpressive.git'
     topics = ['String']

@@ -11,7 +11,7 @@ class BoostStacktraceRecipe(ConanFile):
     name = 'boost-stacktrace'
 
     license = 'BSL-1.0'
-    description = 'Gather, store, copy and print backtraces.'
+    description = '''Gather, store, copy and print backtraces.'''
     author = 'Antony Polukhin'
     url = 'https://github.com/boostorg/stacktrace.git'
     topics = ['System', 'Correctness']

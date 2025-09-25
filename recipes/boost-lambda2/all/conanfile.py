@@ -11,7 +11,7 @@ class BoostLambda2Recipe(ConanFile):
     name = 'boost-lambda2'
 
     license = 'BSL-1.0'
-    description = 'A C++14 lambda library.'
+    description = '''A C++14 lambda library.'''
     author = 'Peter Dimov'
     url = 'https://github.com/boostorg/lambda2.git'
     topics = ['Function-objects']

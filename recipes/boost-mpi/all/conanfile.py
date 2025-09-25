@@ -11,7 +11,7 @@ class BoostMpiRecipe(ConanFile):
     name = 'boost-mpi'
 
     license = 'BSL-1.0'
-    description = 'Message Passing Interface library, for use in distributed-memory parallel application programming.'
+    description = '''Message Passing Interface library, for use in distributed-memory parallel application programming.'''
     author = 'Douglas Gregor, Matthias Troyer'
     url = 'https://github.com/boostorg/mpi.git'
     topics = ['Concurrent']

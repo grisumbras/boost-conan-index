@@ -11,7 +11,7 @@ class BoostSafe_NumericsRecipe(ConanFile):
     name = 'boost-safe-numerics'
 
     license = 'BSL-1.0'
-    description = 'Guaranteed Correct Integer Arithmetic'
+    description = '''Guaranteed Correct Integer Arithmetic'''
     author = 'Robert Ramey'
     url = 'https://github.com/boostorg/safe_numerics.git'
     topics = ['Math', 'Correctness']

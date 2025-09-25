@@ -11,7 +11,7 @@ class BoostCircular_BufferRecipe(ConanFile):
     name = 'boost-circular-buffer'
 
     license = 'BSL-1.0'
-    description = 'A STL compliant container also known as ring or cyclic buffer.'
+    description = '''A STL compliant container also known as ring or cyclic buffer.'''
     author = 'Jan Gaspar'
     url = 'https://github.com/boostorg/circular_buffer.git'
     topics = ['Containers']

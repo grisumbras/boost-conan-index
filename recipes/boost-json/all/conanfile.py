@@ -11,7 +11,7 @@ class BoostJsonRecipe(ConanFile):
     name = 'boost-json'
 
     license = 'BSL-1.0'
-    description = 'JSON parsing, serialization, and DOM in C++11'
+    description = '''JSON parsing, serialization, and DOM in C++11'''
     author = 'Vinnie Falco, Krystian Stasiowski'
     url = 'https://github.com/boostorg/json.git'
     topics = ['Containers', 'Data', 'IO']

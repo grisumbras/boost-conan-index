@@ -11,7 +11,7 @@ class BoostLogicRecipe(ConanFile):
     name = 'boost-logic'
 
     license = 'BSL-1.0'
-    description = '3-state boolean type library.'
+    description = '''3-state boolean type library.'''
     author = 'Doug Gregor'
     url = 'https://github.com/boostorg/logic.git'
     topics = ['Miscellaneous']

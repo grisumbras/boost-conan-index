@@ -11,7 +11,7 @@ class BoostGeometryRecipe(ConanFile):
     name = 'boost-geometry'
 
     license = 'BSL-1.0'
-    description = 'The Boost.Geometry library provides geometric algorithms, primitives and spatial index.'
+    description = '''The Boost.Geometry library provides geometric algorithms, primitives and spatial index.'''
     author = 'Barend Gehrels, Bruno Lalande, Mateusz Loskot, Adam Wulkiewicz, Menelaos Karavelas, Vissarion Fisikopoulos'
     url = 'https://github.com/boostorg/geometry.git'
     topics = ['Algorithms', 'Data', 'Math']

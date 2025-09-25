@@ -11,7 +11,7 @@ class BoostGraphRecipe(ConanFile):
     name = 'boost-graph'
 
     license = 'BSL-1.0'
-    description = 'The BGL graph interface and graph components are generic, in the same sense as the Standard Template Library (STL).'
+    description = '''The BGL graph interface and graph components are generic, in the same sense as the Standard Template Library (STL).'''
     author = 'Jeremy Siek and a University of Notre Dame team.'
     url = 'https://github.com/boostorg/graph.git'
     topics = ['Algorithms', 'Containers', 'Iterators']

@@ -11,7 +11,7 @@ class BoostFormatRecipe(ConanFile):
     name = 'boost-format'
 
     license = 'BSL-1.0'
-    description = 'The format library provides a type-safe mechanism for formatting arguments according to a printf-like format-string.'
+    description = '''The format library provides a type-safe mechanism for formatting arguments according to a printf-like format-string.'''
     author = 'Samuel Krempp'
     url = 'https://github.com/boostorg/format.git'
     topics = ['IO', 'String']

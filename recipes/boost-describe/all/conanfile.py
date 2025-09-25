@@ -11,7 +11,7 @@ class BoostDescribeRecipe(ConanFile):
     name = 'boost-describe'
 
     license = 'BSL-1.0'
-    description = 'A C++14 reflection library.'
+    description = '''A C++14 reflection library.'''
     author = 'Peter Dimov'
     url = 'https://github.com/boostorg/describe.git'
     topics = ['Emulation', 'Metaprogramming']

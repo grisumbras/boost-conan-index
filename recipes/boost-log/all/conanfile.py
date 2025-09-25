@@ -11,7 +11,7 @@ class BoostLogRecipe(ConanFile):
     name = 'boost-log'
 
     license = 'BSL-1.0'
-    description = 'Logging library.'
+    description = '''Logging library.'''
     author = 'Andrey Semashev'
     url = 'https://github.com/boostorg/log.git'
     topics = ['Miscellaneous']

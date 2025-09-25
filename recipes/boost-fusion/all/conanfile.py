@@ -11,7 +11,7 @@ class BoostFusionRecipe(ConanFile):
     name = 'boost-fusion'
 
     license = 'BSL-1.0'
-    description = 'Library for working with tuples, including various containers, algorithms, etc.'
+    description = '''Library for working with tuples, including various containers, algorithms, etc.'''
     author = 'Joel de Guzman, Dan Marsden, Tobias Schwinger'
     url = 'https://github.com/boostorg/fusion.git'
     topics = ['Data', 'Metaprogramming']

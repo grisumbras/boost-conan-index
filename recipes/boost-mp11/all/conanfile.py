@@ -11,7 +11,7 @@ class BoostMp11Recipe(ConanFile):
     name = 'boost-mp11'
 
     license = 'BSL-1.0'
-    description = 'A C++11 metaprogramming library.'
+    description = '''A C++11 metaprogramming library.'''
     author = 'Peter Dimov'
     url = 'https://github.com/boostorg/mp11.git'
     topics = ['Metaprogramming']

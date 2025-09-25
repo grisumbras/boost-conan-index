@@ -11,7 +11,7 @@ class BoostRandomRecipe(ConanFile):
     name = 'boost-random'
 
     license = 'BSL-1.0'
-    description = 'A complete system for random number generation.'
+    description = '''A complete system for random number generation.'''
     author = 'Jens Maurer'
     url = 'https://github.com/boostorg/random.git'
     topics = ['Math']

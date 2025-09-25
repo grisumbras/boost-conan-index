@@ -11,7 +11,7 @@ class BoostFlyweightRecipe(ConanFile):
     name = 'boost-flyweight'
 
     license = 'BSL-1.0'
-    description = 'Design pattern to manage large quantities of highly redundant objects.'
+    description = '''Design pattern to manage large quantities of highly redundant objects.'''
     author = 'Joaquín M López Muñoz'
     url = 'https://github.com/boostorg/flyweight.git'
     topics = ['Patterns']

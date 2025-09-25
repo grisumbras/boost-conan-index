@@ -11,7 +11,7 @@ class BoostBloomRecipe(ConanFile):
     name = 'boost-bloom'
 
     license = 'BSL-1.0'
-    description = 'Bloom filters.'
+    description = '''Bloom filters.'''
     author = 'Joaquín M López Muñoz'
     url = 'https://github.com/boostorg/bloom.git'
     topics = ['Containers']

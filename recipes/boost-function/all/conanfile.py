@@ -11,7 +11,7 @@ class BoostFunctionRecipe(ConanFile):
     name = 'boost-function'
 
     license = 'BSL-1.0'
-    description = 'Function object wrappers for deferred calls or callbacks.'
+    description = '''Function object wrappers for deferred calls or callbacks.'''
     author = 'Doug Gregor'
     url = 'https://github.com/boostorg/function.git'
     topics = ['Function-objects', 'Programming']

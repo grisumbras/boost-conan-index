@@ -11,7 +11,7 @@ class BoostContextRecipe(ConanFile):
     name = 'boost-context'
 
     license = 'BSL-1.0'
-    description = '(C++11) Context switching library.'
+    description = '''(C++11) Context switching library.'''
     author = 'Oliver Kowalke'
     url = 'https://github.com/boostorg/context.git'
     topics = ['Concurrent', 'System']

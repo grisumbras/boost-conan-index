@@ -11,7 +11,7 @@ class BoostTestRecipe(ConanFile):
     name = 'boost-test'
 
     license = 'BSL-1.0'
-    description = 'Support for simple program testing, full unit testing, and for program execution monitoring.'
+    description = '''Support for simple program testing, full unit testing, and for program execution monitoring.'''
     author = 'Gennadiy Rozental, Raffi Enficiaud'
     url = 'https://github.com/boostorg/test.git'
     topics = ['Correctness']

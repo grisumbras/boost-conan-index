@@ -11,7 +11,7 @@ class BoostIostreamsRecipe(ConanFile):
     name = 'boost-iostreams'
 
     license = 'BSL-1.0'
-    description = 'Boost.IOStreams provides a framework for defining streams, stream buffers and i/o filters.'
+    description = '''Boost.IOStreams provides a framework for defining streams, stream buffers and i/o filters.'''
     author = 'Jonathan Turkanis'
     url = 'https://github.com/boostorg/iostreams.git'
     topics = ['IO', 'String']

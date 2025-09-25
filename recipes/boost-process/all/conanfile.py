@@ -11,7 +11,7 @@ class BoostProcessRecipe(ConanFile):
     name = 'boost-process'
 
     license = 'BSL-1.0'
-    description = 'Library to create processes in a portable way.'
+    description = '''Library to create processes in a portable way.'''
     author = 'Merino Vidal, Ilya Sokolov, Felipe Tanus, Jeff Flinn, Thomas Jarosch, Boris Schaeling, Klemens D. Morgenstern'
     url = 'https://github.com/boostorg/process.git'
     topics = ['System']

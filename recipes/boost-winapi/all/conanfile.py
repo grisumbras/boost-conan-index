@@ -11,7 +11,7 @@ class BoostWinapiRecipe(ConanFile):
     name = 'boost-winapi'
 
     license = 'BSL-1.0'
-    description = 'Windows API abstraction layer.'
+    description = '''Windows API abstraction layer.'''
     author = 'Peter Dimov, Vicente J. Botet Escriba, Andrey Semashev'
     url = 'https://github.com/boostorg/winapi.git'
     topics = ['Miscellaneous']

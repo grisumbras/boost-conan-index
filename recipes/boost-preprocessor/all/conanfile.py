@@ -11,7 +11,7 @@ class BoostPreprocessorRecipe(ConanFile):
     name = 'boost-preprocessor'
 
     license = 'BSL-1.0'
-    description = 'Preprocessor metaprogramming tools including repetition and recursion.'
+    description = '''Preprocessor metaprogramming tools including repetition and recursion.'''
     author = 'Vesa Karvonen, Paul Mensonides'
     url = 'https://github.com/boostorg/preprocessor.git'
     topics = ['Preprocessor']

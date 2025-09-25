@@ -11,7 +11,7 @@ class BoostLeafRecipe(ConanFile):
     name = 'boost-leaf'
 
     license = 'BSL-1.0'
-    description = 'A lightweight error handling library for C++11.'
+    description = '''A lightweight error handling library for C++11.'''
     author = 'Emil Dotchevski'
     url = 'https://github.com/boostorg/leaf.git'
     topics = ['Error-handling']

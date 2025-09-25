@@ -11,7 +11,7 @@ class BoostSerializationRecipe(ConanFile):
     name = 'boost-serialization'
 
     license = 'BSL-1.0'
-    description = 'Serialization for persistence and marshalling.'
+    description = '''Serialization for persistence and marshalling.'''
     author = 'Robert Ramey'
     url = 'https://github.com/boostorg/serialization.git'
     topics = ['IO']

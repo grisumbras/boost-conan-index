@@ -11,7 +11,7 @@ class BoostIntervalRecipe(ConanFile):
     name = 'boost-interval'
 
     license = 'BSL-1.0'
-    description = 'Extends the usual arithmetic functions to mathematical intervals.'
+    description = '''Extends the usual arithmetic functions to mathematical intervals.'''
     author = 'Guillaume Melquiond, Hervé Brönnimann, Sylvain Pion'
     url = 'https://github.com/boostorg/interval.git'
     topics = ['Math']

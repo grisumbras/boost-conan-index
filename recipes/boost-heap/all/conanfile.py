@@ -11,7 +11,7 @@ class BoostHeapRecipe(ConanFile):
     name = 'boost-heap'
 
     license = 'BSL-1.0'
-    description = 'Priority queue data structures.'
+    description = '''Priority queue data structures.'''
     author = 'Tim Blechmann'
     url = 'https://github.com/boostorg/heap.git'
     topics = ['Data']

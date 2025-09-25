@@ -11,7 +11,7 @@ class BoostUtilityRecipe(ConanFile):
     name = 'boost-utility'
 
     license = 'BSL-1.0'
-    description = 'Various utilities, such as base-from-member idiom and binary literals in C++03.'
+    description = '''Various utilities, such as base-from-member idiom and binary literals in C++03.'''
     author = 'Dave Abrahams and others'
     url = 'https://github.com/boostorg/utility.git'
     topics = ['Miscellaneous', 'Patterns']

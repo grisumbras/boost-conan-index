@@ -11,7 +11,7 @@ class BoostOdeintRecipe(ConanFile):
     name = 'boost-odeint'
 
     license = 'BSL-1.0'
-    description = 'Solving ordinary differential equations.'
+    description = '''Solving ordinary differential equations.'''
     author = 'Karsten Ahnert, Mario Mulansky'
     url = 'https://github.com/boostorg/odeint.git'
     topics = ['Math']

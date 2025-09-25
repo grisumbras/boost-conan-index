@@ -11,7 +11,7 @@ class BoostOutcomeRecipe(ConanFile):
     name = 'boost-outcome'
 
     license = 'BSL-1.0'
-    description = 'A deterministic failure handling library partially simulating lightweight exceptions.'
+    description = '''A deterministic failure handling library partially simulating lightweight exceptions.'''
     author = 'Niall Douglas'
     url = 'https://github.com/boostorg/outcome.git'
     topics = ['Patterns', 'Emulation', 'Programming']

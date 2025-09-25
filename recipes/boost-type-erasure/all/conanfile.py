@@ -11,7 +11,7 @@ class BoostType_ErasureRecipe(ConanFile):
     name = 'boost-type-erasure'
 
     license = 'BSL-1.0'
-    description = 'Runtime polymorphism based on concepts.'
+    description = '''Runtime polymorphism based on concepts.'''
     author = 'Steven Watanabe'
     url = 'https://github.com/boostorg/type_erasure.git'
     topics = ['Data']

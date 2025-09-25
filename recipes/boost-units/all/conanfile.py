@@ -11,7 +11,7 @@ class BoostUnitsRecipe(ConanFile):
     name = 'boost-units'
 
     license = 'BSL-1.0'
-    description = 'Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.'
+    description = '''Zero-overhead dimensional analysis and unit/quantity manipulation and conversion.'''
     author = 'Matthias Schabel, Steven Watanabe'
     url = 'https://github.com/boostorg/units.git'
     topics = ['Domain']

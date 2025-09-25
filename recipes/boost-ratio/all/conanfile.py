@@ -11,7 +11,7 @@ class BoostRatioRecipe(ConanFile):
     name = 'boost-ratio'
 
     license = 'BSL-1.0'
-    description = 'Compile time rational arithmetic. C++11.'
+    description = '''Compile time rational arithmetic. C++11.'''
     author = 'Howard Hinnant, Beman Dawes, Vicente J. Botet Escriba'
     url = 'https://github.com/boostorg/ratio.git'
     topics = ['Math']

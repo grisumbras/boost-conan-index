@@ -11,7 +11,7 @@ class BoostParserRecipe(ConanFile):
     name = 'boost-parser'
 
     license = 'BSL-1.0'
-    description = 'A parser combinator library.'
+    description = '''A parser combinator library.'''
     author = 'T. Zachary Laine'
     url = 'https://github.com/boostorg/parser.git'
     topics = ['Parsing']

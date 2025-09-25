@@ -11,7 +11,7 @@ class BoostMultiprecisionRecipe(ConanFile):
     name = 'boost-multiprecision'
 
     license = 'BSL-1.0'
-    description = 'Extended precision arithmetic types for floating point, integer, and rational arithmetic.'
+    description = '''Extended precision arithmetic types for floating point, integer, and rational arithmetic.'''
     author = 'John Maddock, Christopher Kormanyos'
     url = 'https://github.com/boostorg/multiprecision.git'
     topics = ['Math']

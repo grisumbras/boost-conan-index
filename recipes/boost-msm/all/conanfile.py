@@ -11,7 +11,7 @@ class BoostMsmRecipe(ConanFile):
     name = 'boost-msm'
 
     license = 'BSL-1.0'
-    description = 'A very high-performance library for expressive UML2 finite state machines.'
+    description = '''A very high-performance library for expressive UML2 finite state machines.'''
     author = 'Christophe Henry'
     url = 'https://github.com/boostorg/msm.git'
     topics = ['State']

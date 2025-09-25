@@ -11,7 +11,7 @@ class BoostBeastRecipe(ConanFile):
     name = 'boost-beast'
 
     license = 'BSL-1.0'
-    description = 'Portable HTTP, WebSocket, and network operations using only C++11 and Boost.Asio'
+    description = '''Portable HTTP, WebSocket, and network operations using only C++11 and Boost.Asio'''
     author = 'Vinnie Falco'
     url = 'https://github.com/boostorg/beast.git'
     topics = ['Concurrent', 'IO']

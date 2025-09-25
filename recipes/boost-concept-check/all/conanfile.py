@@ -11,7 +11,7 @@ class BoostConcept_CheckRecipe(ConanFile):
     name = 'boost-concept-check'
 
     license = 'BSL-1.0'
-    description = 'Tools for generic programming.'
+    description = '''Tools for generic programming.'''
     author = 'Jeremy Siek'
     url = 'https://github.com/boostorg/concept_check.git'
     topics = ['Correctness', 'Generic']

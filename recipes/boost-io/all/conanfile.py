@@ -11,7 +11,7 @@ class BoostIoRecipe(ConanFile):
     name = 'boost-io'
 
     license = 'BSL-1.0'
-    description = 'Utilities for the standard I/O library.'
+    description = '''Utilities for the standard I/O library.'''
     author = 'Daryle Walker, Beman Dawes, Glen Fernandes'
     url = 'https://github.com/boostorg/io.git'
     topics = ['IO']

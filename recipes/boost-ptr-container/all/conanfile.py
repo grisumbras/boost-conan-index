@@ -11,7 +11,7 @@ class BoostPtr_ContainerRecipe(ConanFile):
     name = 'boost-ptr-container'
 
     license = 'BSL-1.0'
-    description = 'Containers for storing heap-allocated polymorphic objects to ease OO-programming.'
+    description = '''Containers for storing heap-allocated polymorphic objects to ease OO-programming.'''
     author = 'Thorsten Ottosen'
     url = 'https://github.com/boostorg/ptr_container.git'
     topics = ['Containers', 'Data']

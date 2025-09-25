@@ -11,7 +11,7 @@ class BoostRangeRecipe(ConanFile):
     name = 'boost-range'
 
     license = 'BSL-1.0'
-    description = 'A new infrastructure for generic algorithms that builds on top of the new iterator concepts.'
+    description = '''A new infrastructure for generic algorithms that builds on top of the new iterator concepts.'''
     author = 'Niel Groves, Thorsten Ottosen'
     url = 'https://github.com/boostorg/range.git'
     topics = ['Algorithms']

@@ -11,7 +11,7 @@ class BoostParameter_PythonRecipe(ConanFile):
     name = 'boost-parameter-python'
 
     license = 'BSL-1.0'
-    description = 'Boost.Parameter Library Python bindings.'
+    description = '''Boost.Parameter Library Python bindings.'''
     author = 'David Abrahams, Daniel Wallin'
     url = 'https://github.com/boostorg/parameter_python.git'
     topics = ['Emulation', 'Programming']

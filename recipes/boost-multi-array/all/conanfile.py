@@ -11,7 +11,7 @@ class BoostMulti_ArrayRecipe(ConanFile):
     name = 'boost-multi-array'
 
     license = 'BSL-1.0'
-    description = 'Boost.MultiArray provides a generic N-dimensional array concept definition and common implementations of that interface.'
+    description = '''Boost.MultiArray provides a generic N-dimensional array concept definition and common implementations of that interface.'''
     author = 'Ron Garcia'
     url = 'https://github.com/boostorg/multi_array.git'
     topics = ['Containers', 'Math']

@@ -11,7 +11,7 @@ class BoostArrayRecipe(ConanFile):
     name = 'boost-array'
 
     license = 'BSL-1.0'
-    description = 'STL compliant container wrapper for arrays of constant size.'
+    description = '''STL compliant container wrapper for arrays of constant size.'''
     author = 'Nicolai Josuttis'
     url = 'https://github.com/boostorg/array.git'
     topics = ['Containers']

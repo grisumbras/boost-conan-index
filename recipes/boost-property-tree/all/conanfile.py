@@ -11,7 +11,7 @@ class BoostProperty_TreeRecipe(ConanFile):
     name = 'boost-property-tree'
 
     license = 'BSL-1.0'
-    description = 'A tree data structure especially suited to storing configuration data.'
+    description = '''A tree data structure especially suited to storing configuration data.'''
     author = 'Marcin Kalicinski, Sebastian Redl'
     url = 'https://github.com/boostorg/property_tree.git'
     topics = ['Containers', 'Data']

@@ -11,7 +11,7 @@ class BoostConversionRecipe(ConanFile):
     name = 'boost-conversion'
 
     license = 'BSL-1.0'
-    description = 'Polymorphic casts.'
+    description = '''Polymorphic casts.'''
     author = 'Dave Abrahams, Kevlin Henney'
     url = 'https://github.com/boostorg/conversion.git'
     topics = ['Miscellaneous']

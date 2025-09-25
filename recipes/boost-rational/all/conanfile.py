@@ -11,7 +11,7 @@ class BoostRationalRecipe(ConanFile):
     name = 'boost-rational'
 
     license = 'BSL-1.0'
-    description = 'A rational number class.'
+    description = '''A rational number class.'''
     author = 'Paul Moore'
     url = 'https://github.com/boostorg/rational.git'
     topics = ['Math']

@@ -11,7 +11,7 @@ class BoostSystemRecipe(ConanFile):
     name = 'boost-system'
 
     license = 'BSL-1.0'
-    description = 'Extensible error reporting.'
+    description = '''Extensible error reporting.'''
     author = 'Beman Dawes'
     url = 'https://github.com/boostorg/system.git'
     topics = ['System', 'Error-handling', 'Programming']

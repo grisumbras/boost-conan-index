@@ -11,7 +11,7 @@ class BoostHash2Recipe(ConanFile):
     name = 'boost-hash2'
 
     license = 'BSL-1.0'
-    description = 'An extensible hashing framework.'
+    description = '''An extensible hashing framework.'''
     author = 'Peter Dimov, Christian Mazakas'
     url = 'https://github.com/boostorg/hash2.git'
     topics = ['Function-objects']

@@ -11,7 +11,7 @@ class BoostAlignRecipe(ConanFile):
     name = 'boost-align'
 
     license = 'BSL-1.0'
-    description = 'Memory alignment functions, allocators, traits.'
+    description = '''Memory alignment functions, allocators, traits.'''
     author = 'Glen Fernandes'
     url = 'https://github.com/boostorg/align.git'
     topics = ['Memory']

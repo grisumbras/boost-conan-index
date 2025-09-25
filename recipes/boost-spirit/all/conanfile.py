@@ -11,7 +11,7 @@ class BoostSpiritRecipe(ConanFile):
     name = 'boost-spirit'
 
     license = 'BSL-1.0'
-    description = 'LL parser framework represents parsers directly as EBNF grammars in inlined C++.'
+    description = '''LL parser framework represents parsers directly as EBNF grammars in inlined C++.'''
     author = 'Joel de Guzman, Hartmut Kaiser, Dan Nuffer'
     url = 'https://github.com/boostorg/spirit.git'
     topics = ['Parsing', 'String']

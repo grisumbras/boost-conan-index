@@ -11,7 +11,7 @@ class BoostCrcRecipe(ConanFile):
     name = 'boost-crc'
 
     license = 'BSL-1.0'
-    description = 'The Boost CRC Library provides two implementations of CRC (cyclic redundancy code) computation objects and two implementations of CRC computation functions. The implementations are template-based.'
+    description = '''The Boost CRC Library provides two implementations of CRC (cyclic redundancy code) computation objects and two implementations of CRC computation functions. The implementations are template-based.'''
     author = 'Daryle Walker'
     url = 'https://github.com/boostorg/crc.git'
     topics = ['Domain']

@@ -11,7 +11,7 @@ class BoostNowideRecipe(ConanFile):
     name = 'boost-nowide'
 
     license = 'BSL-1.0'
-    description = 'Standard library functions with UTF-8 API on Windows.'
+    description = '''Standard library functions with UTF-8 API on Windows.'''
     author = 'Artyom Beilis'
     url = 'https://github.com/boostorg/nowide.git'
     topics = ['System']

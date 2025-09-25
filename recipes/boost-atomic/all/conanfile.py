@@ -11,7 +11,7 @@ class BoostAtomicRecipe(ConanFile):
     name = 'boost-atomic'
 
     license = 'BSL-1.0'
-    description = 'C++11-style atomic types.'
+    description = '''C++11-style atomic types.'''
     author = 'Helge Bahmann, Tim Blechmann, Andrey Semashev'
     url = 'https://github.com/boostorg/atomic.git'
     topics = ['Concurrent']

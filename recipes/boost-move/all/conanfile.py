@@ -11,7 +11,7 @@ class BoostMoveRecipe(ConanFile):
     name = 'boost-move'
 
     license = 'BSL-1.0'
-    description = 'Portable move semantics for C++03 and C++11 compilers.'
+    description = '''Portable move semantics for C++03 and C++11 compilers.'''
     author = 'Ion Gaztañaga'
     url = 'https://github.com/boostorg/move.git'
     topics = ['Emulation']

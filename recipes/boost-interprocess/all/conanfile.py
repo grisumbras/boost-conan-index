@@ -11,7 +11,7 @@ class BoostInterprocessRecipe(ConanFile):
     name = 'boost-interprocess'
 
     license = 'BSL-1.0'
-    description = 'Shared memory, memory mapped files, process-shared mutexes, condition variables, containers and allocators.'
+    description = '''Shared memory, memory mapped files, process-shared mutexes, condition variables, containers and allocators.'''
     author = 'Ion Gaztañaga'
     url = 'https://github.com/boostorg/interprocess.git'
     topics = ['Concurrent']

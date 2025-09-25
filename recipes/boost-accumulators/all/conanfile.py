@@ -11,7 +11,7 @@ class BoostAccumulatorsRecipe(ConanFile):
     name = 'boost-accumulators'
 
     license = 'BSL-1.0'
-    description = 'Framework for incremental calculation, and collection of statistical accumulators.'
+    description = '''Framework for incremental calculation, and collection of statistical accumulators.'''
     author = 'Eric Niebler'
     url = 'https://github.com/boostorg/accumulators.git'
     topics = ['Math']

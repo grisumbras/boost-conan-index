@@ -11,7 +11,7 @@ class BoostNumeric_ConversionRecipe(ConanFile):
     name = 'boost-numeric-conversion'
 
     license = 'BSL-1.0'
-    description = 'Optimized Policy-based Numeric Conversions.'
+    description = '''Optimized Policy-based Numeric Conversions.'''
     author = 'Fernando Cacciola'
     url = 'https://github.com/boostorg/numeric_conversion.git'
     topics = ['Math', 'Miscellaneous']

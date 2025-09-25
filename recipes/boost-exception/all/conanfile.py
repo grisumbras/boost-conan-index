@@ -11,7 +11,7 @@ class BoostExceptionRecipe(ConanFile):
     name = 'boost-exception'
 
     license = 'BSL-1.0'
-    description = 'The Boost Exception library supports transporting of arbitrary data in exception objects, and transporting of exceptions between threads.'
+    description = '''The Boost Exception library supports transporting of arbitrary data in exception objects, and transporting of exceptions between threads.'''
     author = 'Emil Dotchevski'
     url = 'https://github.com/boostorg/exception.git'
     topics = ['Error-handling', 'Emulation']
