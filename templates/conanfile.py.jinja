@@ -84,6 +84,10 @@ class Boost{{ project.name.title() }}Recipe(ConanFile):
         )
 
     def build(self):
+        if not glob.glob('build.jam', root_dir=self.source_folder):
+            with open(os.path.join(self.source_folder, 'build.jam'), 'w') as f:
+                f.write(_build_jam.format('{{project.name}}'))
+
         b2 = self.python_requires['{{ project.generators.conan_name }}'].module.B2(self)
         b2.build('boost_{{project.name}}')
 
@@ -105,10 +109,9 @@ class Boost{{ project.name.title() }}Recipe(ConanFile):
     {%- if project.headeronly %}
     def package_id(self):
         self.info.clear()
-    {%- endif -%}
+    {%- endif %}
 
 
-{% raw %}
 _boost_install = '''\
 # Conan automatically generated config file
 # DO NOT EDIT MANUALLY, it will be overwritten
@@ -215,4 +218,13 @@ class check-files-target-class : make-target-class
 }
 
 '''
-{% endraw %}
+
+_build_jam = '''\
+require-b2 {{ project.generators.b2_version }} ;
+
+project /boost/{{project.name}} ;
+
+alias boost_{{project.name}} : : : <include>include ;
+
+call-if : boost-library {{project.name}} ;
+'''
