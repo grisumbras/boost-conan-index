@@ -1,4 +1,4 @@
-#include <boost/algorithm/minmax_element.hpp>
+#include <boost/algorithm/algorithm.hpp>
 
 int main()
 {

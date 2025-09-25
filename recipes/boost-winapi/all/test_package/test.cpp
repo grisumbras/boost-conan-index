@@ -1,4 +1,4 @@
-#include <boost/winapi/waitable_timer.hpp>
+#include <boost/detail/interlocked.hpp>
 
 int main()
 {

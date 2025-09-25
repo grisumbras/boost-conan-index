@@ -63,7 +63,7 @@ sources:
     - boost-preprocessor/1.90.0-develop+25.06.09.02.52
     - boost-serialization/1.90.0-develop+24.08.18.11.53
     - boost-smart-ptr/1.90.0-develop+25.08.16.11.30
-    - boost-spirit/1.90.0-develop+25.09.13.09.36
+    - boost-spirit/1.90.0-develop+25.09.25.09.11
     - boost-static-assert/1.90.0-develop+25.04.15.18.33
     - boost-throw-exception/1.90.0-develop+24.12.12.19.39
     - boost-type-traits/1.90.0-develop+25.04.21.15.19

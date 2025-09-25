@@ -1,4 +1,4 @@
-#include <boost/intrusive/list_hook.hpp>
+#include <boost/intrusive/avl_set_hook.hpp>
 
 int main()
 {

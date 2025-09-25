@@ -1,4 +1,4 @@
-#include <boost/archive/text_iarchive.hpp>
+#include <boost/archive/text_woarchive.hpp>
 
 int main()
 {

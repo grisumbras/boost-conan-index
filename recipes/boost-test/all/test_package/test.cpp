@@ -1,4 +1,4 @@
-#include <boost/test/unit_test_parameters.hpp>
+#include <boost/test/framework.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/context/pooled_fixedsize_stack.hpp>
+#include <boost/context/fiber_ucontext.hpp>
 
 int main()
 {

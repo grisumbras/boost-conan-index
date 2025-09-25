@@ -1,4 +1,4 @@
-#include <boost/mpl/push_back_fwd.hpp>
+#include <boost/mpl/integral_c_tag.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/type_erasure/is_placeholder.hpp>
+#include <boost/type_erasure/is_empty.hpp>
 
 int main()
 {

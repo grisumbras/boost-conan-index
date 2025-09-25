@@ -1,4 +1,4 @@
-#include <boost/function_types/function_reference.hpp>
+#include <boost/function_types/is_function.hpp>
 
 int main()
 {

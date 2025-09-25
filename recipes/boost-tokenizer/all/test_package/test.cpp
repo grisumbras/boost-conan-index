@@ -1,4 +1,4 @@
-#include <boost/tokenizer.hpp>
+#include <boost/token_functions.hpp>
 
 int main()
 {

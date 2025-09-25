@@ -1,4 +1,4 @@
-#include <boost/coroutine/protected_stack_allocator.hpp>
+#include <boost/coroutine/attributes.hpp>
 
 int main()
 {

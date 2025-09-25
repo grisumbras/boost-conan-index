@@ -1,4 +1,4 @@
-#include <boost/typeof/typeof.hpp>
+#include <boost/typeof/constant.hpp>
 
 int main()
 {

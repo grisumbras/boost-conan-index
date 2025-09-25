@@ -1,4 +1,4 @@
-#include <boost/proto/tags.hpp>
+#include <boost/proto/args.hpp>
 
 int main()
 {

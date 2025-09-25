@@ -1,4 +1,4 @@
-#include <boost/accumulators/statistics_fwd.hpp>
+#include <boost/accumulators/statistics.hpp>
 
 int main()
 {

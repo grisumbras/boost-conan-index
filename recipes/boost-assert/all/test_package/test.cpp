@@ -1,4 +1,4 @@
-#include <boost/current_function.hpp>
+#include <boost/assert.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/dynamic_bitset.hpp>
+#include <boost/dynamic_bitset_fwd.hpp>
 
 int main()
 {

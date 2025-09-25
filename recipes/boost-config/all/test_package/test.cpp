@@ -1,4 +1,4 @@
-#include <boost/config.hpp>
+#include <boost/cxx11_char_types.hpp>
 
 int main()
 {

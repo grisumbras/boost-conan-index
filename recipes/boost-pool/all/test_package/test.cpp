@@ -1,4 +1,4 @@
-#include <boost/pool/simple_segregated_storage.hpp>
+#include <boost/pool/poolfwd.hpp>
 
 int main()
 {

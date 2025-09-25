@@ -1,4 +1,4 @@
-#include <boost/icl/associative_element_container.hpp>
+#include <boost/icl/set.hpp>
 
 int main()
 {

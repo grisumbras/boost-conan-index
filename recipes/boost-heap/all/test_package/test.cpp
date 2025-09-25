@@ -1,4 +1,4 @@
-#include <boost/heap/heap_merge.hpp>
+#include <boost/heap/binomial_heap.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/hash2/xxh3.hpp>
+#include <boost/hash2/sha2.hpp>
 
 int main()
 {

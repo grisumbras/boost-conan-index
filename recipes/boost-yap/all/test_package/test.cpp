@@ -1,4 +1,4 @@
-#include <boost/yap/user_macros.hpp>
+#include <boost/yap/expression.hpp>
 
 int main()
 {

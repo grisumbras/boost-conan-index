@@ -1,4 +1,4 @@
-#include <boost/is_placeholder.hpp>
+#include <boost/mem_fn.hpp>
 
 int main()
 {

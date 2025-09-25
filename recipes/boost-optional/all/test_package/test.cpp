@@ -1,4 +1,4 @@
-#include <boost/none_t.hpp>
+#include <boost/optional.hpp>
 
 int main()
 {

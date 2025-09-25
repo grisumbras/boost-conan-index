@@ -1,4 +1,4 @@
-#include <boost/qvm_lite.hpp>
+#include <boost/qvm.hpp>
 
 int main()
 {

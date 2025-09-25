@@ -52,7 +52,7 @@ sources:
     dependencies:
     - boost-asio/1.90.0-develop+25.08.06.22.32
     - boost-assert/1.90.0-develop+25.03.21.17.00
-    - boost-container/1.90.0-develop+25.09.22.00.35
+    - boost-container/1.90.0-develop+25.09.24.23.19
     - boost-core/1.90.0-develop+25.08.25.19.05
     - boost-endian/1.90.0-develop+24.12.14.03.43
     - boost-random/1.90.0-develop+25.07.02.19.50
