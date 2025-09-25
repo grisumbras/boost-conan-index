@@ -11,7 +11,7 @@ class Boost{{ project.name.title() }}Recipe(ConanFile):
     name = 'boost-{{project.name|slugify}}'
 
     license = 'BSL-1.0'
-    description = '{{project.description}}'
+    description = '''{{project.description}}'''
     {% set sep = joiner(', ') -%}
     author = '{% for a in project.authors %}{{sep()}}{{a}}{% endfor %}'
     url = '{{project.url}}'
