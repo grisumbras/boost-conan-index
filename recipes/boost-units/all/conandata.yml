@@ -41,7 +41,7 @@ sources:
     - boost-integer/1.90.0-develop+25.08.25.19.05
     - boost-io/1.90.0-develop+25.06.26.11.42
     - boost-lambda/1.90.0-develop+25.05.03.03.20
-    - boost-math/1.90.0-develop+25.09.26.08.10
+    - boost-math/1.90.0-develop+25.09.26.15.11
     - boost-move/1.90.0-develop+25.08.23.23.03
     - boost-mpl/1.90.0-develop+25.07.03.00.11
     - boost-preprocessor/1.90.0-develop+25.06.09.02.52
