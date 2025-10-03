@@ -155,14 +155,27 @@ def parse_args(argv):
 class Project():
     @property
     def conan_version(self):
-        if self.git_ref in ('develop', 'master'):
-            return (
-                f'{future_boost_version}-{self.git_ref}'
-                f'+{self.datetime.strftime("%y.%m.%d.%H.%M")}')
-        elif self.git_ref.startswith('boost-'):
-            return self.git_ref[6:]
-        else:
-            return self.git_ref
+        result = getattr(self, '_conan_version', None)
+        if result is None:
+            if self.git_ref in ('develop', 'master'):
+                result = (
+                    f'{future_boost_version}-a.{self.git_ref[0]}'
+                    f'+{self.datetime.strftime("%y.%m.%d.%H.%M")}')
+            elif self.git_ref.startswith('boost-'):
+                result = self.git_ref[6:]
+                parts = result.split('.')
+                if len(parts) > 3:
+                    pre = '.'.join(parts[3:])
+                    if pre.startswith('beta'):
+                        result = '.'.join(parts[:3]) + '-b.' + pre[4:]
+                    else:
+                        raise RuntimeError(
+                            'unknown version pattern ' + self.git_ref,
+                        )
+            else:
+                result = self.git_ref
+            setattr(self, '_conan_version', result)
+        return result
 
     @property
     def conan_ref(self):
@@ -175,7 +188,7 @@ class Project():
         return self.name
 
     def __repr__(self):
-        return f'Project("{self.name}", "{self.git_ref}")'
+        return f'Project("{self.name}")'
 
 
 class SuperProject(Project):

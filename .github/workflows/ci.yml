@@ -18,10 +18,11 @@ jobs:
 
     strategy:
       matrix:
-        boost-ref:
+        boost-ref: &boost-refs
           - develop
           - master
           - boost-1.89.0
+          - boost-1.89.0.beta1
 
     steps:
       - name: Fetch head
@@ -50,10 +51,7 @@ jobs:
     needs: Generate
     strategy:
       matrix:
-        boost-ref:
-          - develop
-          - master
-          - boost-1.89.0
+        boost-ref: *boost-refs
         toolset:
           - gcc
           - clang
@@ -92,10 +90,7 @@ jobs:
     needs: Generate
     strategy:
       matrix:
-        boost-ref:
-          - develop
-          - master
-          - boost-1.89.0
+        boost-ref: *boost-refs
         toolset:
           - msvc
 
