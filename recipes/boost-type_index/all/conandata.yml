@@ -1,0 +1,33 @@
+sources:
+  1.89.0:
+    commit: 32dcf01725eb07d17e0bc2d55248b9609280896c
+    dependencies:
+    - boost-config/1.89.0
+    - boost-container_hash/1.89.0
+    - boost-core/1.89.0
+    - boost-throw_exception/1.89.0
+    url: https://github.com/boostorg/type_index.git
+  1.89.0-b.1:
+    commit: 32dcf01725eb07d17e0bc2d55248b9609280896c
+    dependencies:
+    - boost-config/1.89.0-b.1
+    - boost-container_hash/1.89.0-b.1
+    - boost-core/1.89.0-b.1
+    - boost-throw_exception/1.89.0-b.1
+    url: https://github.com/boostorg/type_index.git
+  1.90.0-a.d+25.09.07.19.23:
+    commit: d13ba26c03e8fc612e14f2128d740ce70c51c9b9
+    dependencies:
+    - boost-config/1.90.0-a.d+25.09.23.09.33
+    - boost-container_hash/1.90.0-a.d+25.08.21.19.31
+    - boost-core/1.90.0-a.d+25.08.25.19.05
+    - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    url: https://github.com/boostorg/type_index.git
+  1.90.0-a.m+25.09.07.19.23:
+    commit: d13ba26c03e8fc612e14f2128d740ce70c51c9b9
+    dependencies:
+    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-container_hash/1.90.0-a.m+25.08.21.19.31
+    - boost-core/1.90.0-a.m+25.08.25.19.05
+    - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    url: https://github.com/boostorg/type_index.git

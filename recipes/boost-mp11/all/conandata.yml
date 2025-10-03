@@ -1,0 +1,17 @@
+sources:
+  1.89.0:
+    commit: 2fb81c24534663a99f9570b99a3c748393a23dba
+    dependencies: []
+    url: https://github.com/boostorg/mp11.git
+  1.89.0-b.1:
+    commit: 2fb81c24534663a99f9570b99a3c748393a23dba
+    dependencies: []
+    url: https://github.com/boostorg/mp11.git
+  1.90.0-a.d+25.09.09.16.43:
+    commit: 1f3d0bbe0c994f8672c369294e3e6690ba3fd145
+    dependencies: []
+    url: https://github.com/boostorg/mp11.git
+  1.90.0-a.m+25.09.09.16.43:
+    commit: 1f3d0bbe0c994f8672c369294e3e6690ba3fd145
+    dependencies: []
+    url: https://github.com/boostorg/mp11.git
