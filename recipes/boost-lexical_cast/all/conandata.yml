@@ -30,7 +30,7 @@ sources:
     commit: 4862e296d0418a1155a69c158270c560f01f54ae
     dependencies:
     - boost-config/1.90.0-a.m+25.07.04.20.36
-    - boost-container/1.90.0-a.m+25.05.21.12.05
+    - boost-container/1.90.0-a.m+25.10.01.22.19
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     - boost-type_traits/1.90.0-a.m+25.07.04.20.38

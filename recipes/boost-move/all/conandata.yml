@@ -19,3 +19,8 @@ sources:
     dependencies:
     - boost-config/1.90.0-a.m+25.07.04.20.36
     url: https://github.com/boostorg/move.git
+  1.90.0-a.m+25.08.23.23.03:
+    commit: 23f9356314fde7544fb2de7f91ddd070011c72e5
+    dependencies:
+    - boost-config/1.90.0-a.m+25.07.04.20.36
+    url: https://github.com/boostorg/move.git

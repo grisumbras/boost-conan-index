@@ -45,7 +45,7 @@ sources:
     - boost-concept_check/1.90.0-a.m+24.12.28.18.10
     - boost-config/1.90.0-a.m+25.07.04.20.36
     - boost-core/1.90.0-a.m+25.08.25.19.05
-    - boost-intrusive/1.90.0-a.m+25.05.20.09.17
+    - boost-intrusive/1.90.0-a.m+25.08.25.23.15
     - boost-iterator/1.90.0-a.m+25.08.25.19.05
     - boost-parameter/1.90.0-a.m+25.08.25.19.06
     - boost-static_assert/1.90.0-a.m+25.04.15.18.33

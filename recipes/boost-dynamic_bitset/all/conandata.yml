@@ -40,7 +40,7 @@ sources:
     - boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-integer/1.90.0-a.m+25.08.25.19.05
-    - boost-move/1.90.0-a.m+25.05.20.08.55
+    - boost-move/1.90.0-a.m+25.08.23.23.03
     - boost-static_assert/1.90.0-a.m+25.04.15.18.33
     - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     url: https://github.com/boostorg/dynamic_bitset.git

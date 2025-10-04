@@ -39,7 +39,7 @@ sources:
     - boost-config/1.90.0-a.m+25.07.04.20.36
     - boost-context/1.90.0-a.m+25.05.25.16.34
     - boost-core/1.90.0-a.m+25.08.25.19.05
-    - boost-intrusive/1.90.0-a.m+25.05.20.09.17
+    - boost-intrusive/1.90.0-a.m+25.08.25.23.15
     - boost-predef/1.90.0-a.m+25.01.12.12.53
     - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
     url: https://github.com/boostorg/fiber.git

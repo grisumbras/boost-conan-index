@@ -62,12 +62,12 @@ sources:
     - boost-assert/1.90.0-a.m+25.03.21.17.00
     - boost-concept_check/1.90.0-a.m+24.12.28.18.10
     - boost-config/1.90.0-a.m+25.07.04.20.36
-    - boost-container/1.90.0-a.m+25.05.21.12.05
+    - boost-container/1.90.0-a.m+25.10.01.22.19
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-date_time/1.90.0-a.m+22.10.31.09.22
     - boost-detail/1.90.0-a.m+25.06.13.00.44
     - boost-iterator/1.90.0-a.m+25.08.25.19.05
-    - boost-move/1.90.0-a.m+25.05.20.08.55
+    - boost-move/1.90.0-a.m+25.08.23.23.03
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-range/1.90.0-a.m+25.02.08.16.31
     - boost-rational/1.90.0-a.m+25.01.01.15.17

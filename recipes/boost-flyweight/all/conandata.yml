@@ -58,7 +58,7 @@ sources:
     - boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-detail/1.90.0-a.m+25.06.13.00.44
-    - boost-interprocess/1.90.0-a.m+25.05.20.09.18
+    - boost-interprocess/1.90.0-a.m+25.09.05.00.08
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-multi_index/1.90.0-a.m+25.09.20.17.53
     - boost-parameter/1.90.0-a.m+25.08.25.19.06

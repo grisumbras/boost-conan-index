@@ -39,3 +39,13 @@ sources:
     - boost-move/1.90.0-a.m+25.05.20.08.55
     - boost-winapi/1.90.0-a.m+25.08.25.19.08
     url: https://github.com/boostorg/interprocess.git
+  1.90.0-a.m+25.09.05.00.08:
+    commit: d5bb1904edf658a6501df281716b0c57a02023e8
+    dependencies:
+    - boost-assert/1.90.0-a.m+25.03.21.17.00
+    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-container/1.90.0-a.m+25.10.01.22.19
+    - boost-intrusive/1.90.0-a.m+25.08.25.23.15
+    - boost-move/1.90.0-a.m+25.08.23.23.03
+    - boost-winapi/1.90.0-a.m+25.08.25.19.08
+    url: https://github.com/boostorg/interprocess.git

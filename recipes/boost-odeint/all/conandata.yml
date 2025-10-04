@@ -52,7 +52,7 @@ sources:
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-fusion/1.90.0-a.d+24.08.21.20.51
     - boost-iterator/1.90.0-a.d+25.08.25.19.05
-    - boost-math/1.90.0-a.d+25.10.01.10.26
+    - boost-math/1.90.0-a.d+25.10.03.18.32
     - boost-mpi/1.90.0-a.d+25.05.06.14.59
     - boost-mpl/1.90.0-a.d+25.07.03.00.11
     - boost-multi_array/1.90.0-a.d+25.06.25.18.51

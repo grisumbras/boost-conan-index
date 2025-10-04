@@ -27,3 +27,10 @@ sources:
     - boost-config/1.90.0-a.m+25.07.04.20.36
     - boost-move/1.90.0-a.m+25.05.20.08.55
     url: https://github.com/boostorg/intrusive.git
+  1.90.0-a.m+25.08.25.23.15:
+    commit: fd765b6cba60aa635671d596e5cd2797d047c020
+    dependencies:
+    - boost-assert/1.90.0-a.m+25.03.21.17.00
+    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-move/1.90.0-a.m+25.08.23.23.03
+    url: https://github.com/boostorg/intrusive.git

@@ -69,7 +69,7 @@ sources:
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-integer/1.90.0-a.m+25.08.25.19.05
     - boost-iterator/1.90.0-a.m+25.08.25.19.05
-    - boost-move/1.90.0-a.m+25.05.20.08.55
+    - boost-move/1.90.0-a.m+25.08.23.23.03
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30

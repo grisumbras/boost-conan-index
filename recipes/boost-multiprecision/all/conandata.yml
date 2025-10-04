@@ -33,7 +33,7 @@ sources:
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-integer/1.90.0-a.d+25.08.25.19.05
     - boost-lexical_cast/1.90.0-a.d+25.09.08.09.02
-    - boost-math/1.90.0-a.d+25.10.01.10.26
+    - boost-math/1.90.0-a.d+25.10.03.18.32
     - boost-predef/1.90.0-a.d+25.02.03.08.30
     - boost-random/1.90.0-a.d+25.10.01.07.50
     - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
