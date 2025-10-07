@@ -78,7 +78,7 @@ sources:
     - boost-system/1.90.0-a.d+25.07.02.19.12
     - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     - boost-tokenizer/1.90.0-a.d+25.07.02.17.31
-    - boost-type_index/1.90.0-a.d+25.09.07.19.23
+    - boost-type_index/1.90.0-a.d+25.10.07.20.25
     - boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - boost-utility/1.90.0-a.d+25.08.25.19.07
     - boost-winapi/1.90.0-a.d+25.08.25.19.08

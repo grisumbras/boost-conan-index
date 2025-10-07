@@ -50,7 +50,7 @@ sources:
     - boost-graph/1.90.0-a.d+25.10.01.18.14
     - boost-integer/1.90.0-a.d+25.08.25.19.05
     - boost-iterator/1.90.0-a.d+25.08.25.19.05
-    - boost-lexical_cast/1.90.0-a.d+25.10.05.11.14
+    - boost-lexical_cast/1.90.0-a.d+25.10.07.20.25
     - boost-mpl/1.90.0-a.d+25.07.03.00.11
     - boost-optional/1.90.0-a.d+24.12.08.17.21
     - boost-serialization/1.90.0-a.d+24.08.18.11.53

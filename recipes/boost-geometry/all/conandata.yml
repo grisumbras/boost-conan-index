@@ -75,7 +75,7 @@ sources:
     commit: 5ad341e1bde9bb73d5473710e80844d2cbb2ddb0
     dependencies:
     - boost-algorithm/1.90.0-a.d+25.08.25.08.42
-    - boost-any/1.90.0-a.d+25.06.18.17.56
+    - boost-any/1.90.0-a.d+25.10.07.20.26
     - boost-array/1.90.0-a.d+25.04.03.14.10
     - boost-assert/1.90.0-a.d+25.03.21.17.00
     - boost-concept_check/1.90.0-a.d+25.07.02.07.32
@@ -87,7 +87,7 @@ sources:
     - boost-fusion/1.90.0-a.d+24.08.21.20.51
     - boost-integer/1.90.0-a.d+25.08.25.19.05
     - boost-iterator/1.90.0-a.d+25.08.25.19.05
-    - boost-lexical_cast/1.90.0-a.d+25.10.05.11.14
+    - boost-lexical_cast/1.90.0-a.d+25.10.07.20.25
     - boost-math/1.90.0-a.d+25.10.03.18.32
     - boost-mpl/1.90.0-a.d+25.07.03.00.11
     - boost-multiprecision/1.90.0-a.d+25.09.22.22.37
