@@ -79,6 +79,11 @@ class B2Toolchain(object):
         self._toolsets[name] = args
 
     def _init_toolset(self):
+        if self._conanfile.conf.get(
+            'user.b2:toolset', default=None, check_type=str,
+        ):
+            return
+
         toolset = self.variation.get('toolset')
         if not toolset:
             return
@@ -291,7 +296,7 @@ class B2Deps(object):
             return main_target
 
         project, target_name = _b2_target(dep)
-        var = variation(dep)
+        var = variation(dep, self._conanfile)
 
         libs = [
             _lib_target(project, lib, dep, var)
@@ -376,9 +381,9 @@ class B2(object):
         self.build('install')
 
 
-def variation(conanfile):
+def variation(conanfile, consumer_conanfile):
     result = {
-        'toolset': _toolset(conanfile)
+        'toolset': _toolset(conanfile, consumer_conanfile)
     }
 
     arch = conanfile.settings.get_safe('arch')
@@ -513,7 +518,8 @@ def _collect_variations(conanfile):
     ] + [conanfile]
     for pkg in packages:
         result.update((
-            (k, v) for k, v in variation(pkg).items() if v is not None
+            (k, v) for k, v in variation(pkg, conanfile).items()
+            if v is not None
         ))
     return result
 
@@ -541,7 +547,13 @@ def _nonempty_items(variation):
     return (i for i in sorted(variation.items()) if i[1])
 
 
-def _toolset(conanfile):
+def _toolset(conanfile, consumer_conanfile):
+    toolset = consumer_conanfile.conf.get(
+        'user.b2:toolset', default=None, check_type=str,
+    )
+    if toolset:
+        return toolset
+
     compiler = conanfile.settings.get_safe('compiler')
     toolset = {
         'sun-cc': 'sun',
@@ -551,26 +563,21 @@ def _toolset(conanfile):
         'clang': 'clang',
         'apple-clang': 'clang'
     }.get(compiler)
-
     if not toolset:
         return
 
-    version = conanfile.settings.compiler.version
-    if not version:
-        return toolset
+    version = conanfile.settings.get_safe('compiler.version')
+    if version:
+        if toolset == 'msvc':
+            visual_studio_version = msvc_version_to_vs_ide_version(version)
+            version = {
+                '15': '14.1',
+                '16': '14.2',
+                '17': '14.3',
+            }.get(visual_studio_version) or (visual_studio_version + '.0')
+        return toolset + '-' + version
 
-    if toolset == 'msvc':
-        visual_studio_version = str(conanfile.settings.compiler.version)
-        if compiler == 'msvc':
-            visual_studio_version = msvc_version_to_vs_ide_version(visual_studio_version)
-        version = {
-            '15': '14.1',
-            '16': '14.2',
-            '17': '14.3',
-        }.get(visual_studio_version) or (visual_studio_version + '.0')
-    else:
-        version = str(conanfile.settings.get_safe('compiler.version'))
-    return toolset + '-' + version
+    return toolset
 
 
 def _b2_target(dep):
