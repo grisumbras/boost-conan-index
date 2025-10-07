@@ -44,3 +44,12 @@ sources:
     - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     - boost-type_traits/1.90.0-a.m+25.07.04.20.38
     url: https://github.com/boostorg/lexical_cast.git
+  1.90.0-a.m+25.10.05.11.14:
+    commit: 8fc8a19931c8cb452400af907959fdacbbdd8ec1
+    dependencies:
+    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-container/1.90.0-a.m+25.10.01.22.19
+    - boost-core/1.90.0-a.m+25.08.25.19.05
+    - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    url: https://github.com/boostorg/lexical_cast.git

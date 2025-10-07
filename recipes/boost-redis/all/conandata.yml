@@ -49,6 +49,16 @@ sources:
     - boost-system/1.90.0-a.d+25.07.02.19.12
     - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     url: https://github.com/boostorg/redis.git
+  1.90.0-a.d+25.10.06.18.11:
+    commit: d3e335942f7260a006dc17e254b73b7243ea0f82
+    dependencies:
+    - boost-asio/1.90.0-a.d+25.08.06.22.32
+    - boost-assert/1.90.0-a.d+25.03.21.17.00
+    - boost-core/1.90.0-a.d+25.08.25.19.05
+    - boost-mp11/1.90.0-a.d+25.09.09.16.43
+    - boost-system/1.90.0-a.d+25.07.02.19.12
+    - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    url: https://github.com/boostorg/redis.git
   1.90.0-a.m+25.07.08.21.07:
     commit: 76129bbcb8373f23d37877fccededb288690eed0
     dependencies:

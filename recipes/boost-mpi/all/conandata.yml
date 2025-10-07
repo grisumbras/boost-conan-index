@@ -70,7 +70,7 @@ sources:
     - boost-graph/1.90.0-a.m+25.02.15.20.07
     - boost-integer/1.90.0-a.m+25.08.25.19.05
     - boost-iterator/1.90.0-a.m+25.08.25.19.05
-    - boost-lexical_cast/1.90.0-a.m+25.09.08.09.02
+    - boost-lexical_cast/1.90.0-a.m+25.10.05.11.14
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-optional/1.90.0-a.m+24.12.04.00.23
     - boost-serialization/1.90.0-a.m+23.11.12.21.05

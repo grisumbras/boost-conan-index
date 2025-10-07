@@ -45,7 +45,7 @@ sources:
     - boost-config/1.90.0-a.m+25.07.04.20.36
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-integer/1.90.0-a.m+25.08.25.19.05
-    - boost-lexical_cast/1.90.0-a.m+25.09.08.09.02
+    - boost-lexical_cast/1.90.0-a.m+25.10.05.11.14
     - boost-math/1.90.0-a.m+25.07.07.15.39
     - boost-predef/1.90.0-a.m+25.01.12.12.53
     - boost-random/1.90.0-a.m+25.07.03.08.55

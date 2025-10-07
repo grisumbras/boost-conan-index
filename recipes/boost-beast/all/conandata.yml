@@ -92,7 +92,7 @@ sources:
     - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
     - boost-static_assert/1.90.0-a.d+25.04.15.18.33
-    - boost-static_string/1.90.0-a.d+24.03.20.16.42
+    - boost-static_string/1.90.0-a.d+25.10.04.12.08
     - boost-system/1.90.0-a.d+25.07.02.19.12
     - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     - boost-type_index/1.90.0-a.d+25.09.07.19.23

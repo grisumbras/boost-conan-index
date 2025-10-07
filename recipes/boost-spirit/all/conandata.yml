@@ -98,6 +98,39 @@ sources:
     - boost-utility/1.90.0-a.d+25.08.25.19.07
     - boost-variant/1.90.0-a.d+25.09.13.13.52
     url: https://github.com/boostorg/spirit.git
+  1.90.0-a.d+25.10.06.20.36:
+    commit: cadecf42fab9fed221605285cce9e40c36e68381
+    dependencies:
+    - boost-array/1.90.0-a.d+25.04.03.14.10
+    - boost-assert/1.90.0-a.d+25.03.21.17.00
+    - boost-config/1.90.0-a.d+25.09.23.09.33
+    - boost-core/1.90.0-a.d+25.08.25.19.05
+    - boost-endian/1.90.0-a.d+24.12.14.03.43
+    - boost-function/1.90.0-a.d+24.12.14.04.39
+    - boost-function_types/1.90.0-a.d+24.09.18.18.18
+    - boost-fusion/1.90.0-a.d+24.08.21.20.51
+    - boost-integer/1.90.0-a.d+25.08.25.19.05
+    - boost-io/1.90.0-a.d+25.06.26.11.42
+    - boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - boost-move/1.90.0-a.d+25.08.23.23.03
+    - boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - boost-optional/1.90.0-a.d+24.12.08.17.21
+    - boost-phoenix/1.90.0-a.d+24.09.12.00.15
+    - boost-pool/1.90.0-a.d+19.09.06.01.34
+    - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - boost-proto/1.90.0-a.d+25.05.02.19.17
+    - boost-range/1.90.0-a.d+25.05.02.19.18
+    - boost-regex/1.90.0-a.d+25.07.04.20.20
+    - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - boost-thread/1.90.0-a.d+25.05.02.19.21
+    - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - boost-typeof/1.90.0-a.d+25.06.09.02.44
+    - boost-unordered/1.90.0-a.d+25.09.19.09.07
+    - boost-utility/1.90.0-a.d+25.08.25.19.07
+    - boost-variant/1.90.0-a.d+25.09.13.13.52
+    url: https://github.com/boostorg/spirit.git
   1.90.0-a.m+25.09.17.08.31:
     commit: 82184fecd6e6979e44a539bb5ff0918724948c40
     dependencies:

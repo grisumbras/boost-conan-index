@@ -112,7 +112,7 @@ sources:
     - boost-range/1.90.0-a.d+25.05.02.19.18
     - boost-regex/1.90.0-a.d+25.07.04.20.20
     - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
-    - boost-spirit/1.90.0-a.d+25.09.25.09.11
+    - boost-spirit/1.90.0-a.d+25.10.06.20.36
     - boost-system/1.90.0-a.d+25.07.02.19.12
     - boost-thread/1.90.0-a.d+25.05.02.19.21
     - boost-throw_exception/1.90.0-a.d+24.12.12.19.39

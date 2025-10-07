@@ -11,6 +11,10 @@ sources:
     commit: 4f9e6457b0e79df1e705e79911078d51647f88c4
     dependencies: []
     url: https://github.com/boostorg/pfr.git
+  1.90.0-a.d+25.10.06.18.38:
+    commit: 7509049f2c271aa22d74a446411c593be5ee0019
+    dependencies: []
+    url: https://github.com/boostorg/pfr.git
   1.90.0-a.m+25.09.14.14.59:
     commit: 4f9e6457b0e79df1e705e79911078d51647f88c4
     dependencies: []
