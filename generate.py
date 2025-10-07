@@ -11,10 +11,12 @@
 import argparse
 import contextlib
 import datetime
+import importlib.util
 import jinja2
 import json
 import os
 import os.path
+import re
 import shutil
 import subprocess
 import sys
@@ -57,64 +59,14 @@ def main(argv):
         extensions=['jinja2.ext.do', 'jinja2.ext.loopcontrols'],
     )
 
+    with module_registry['boostdep'].materialize(git) as depinst_dir:
+        depinst = Depinst(depinst_dir)
+
     for module in module_registry.values():
-        module.collect_data(git, fs, module_registry)
+        module.collect_data(git, fs, module_registry, depinst)
 
     for module in module_registry.values():
         module.generate_recipe(args.target, template_env, fs)
-
-
-def collect_deps_from_build_jam(lib_dir, fs):
-    with fs.open(os.path.join(lib_dir, 'build.jam'), 'r') as f:
-        lines = f.readlines()
-        while lines:
-            if lines[0].lstrip().startswith('constant boost_dependencies'):
-                break
-            lines = lines[1:]
-        deps = ''
-        while lines:
-            deps += ' ' + lines[0].rstrip()
-            if lines[0].rstrip().endswith(';'):
-                break
-            lines = lines[1:]
-        if not deps:
-            return []
-        return [
-            dep.split('/')[2]
-            for dep in deps.split(': ')[1].split(' ;')[0].split(' ')
-            if dep
-        ]
-
-
-def collect_module_deps_from_jam_file(path, fs):
-    with fs.open(path, 'r') as f:
-        for line in f.readlines():
-            stripped = line.lstrip()
-            if stripped.startswith('import-search'):
-                module = stripped.split(' ')[1]
-                module = module.split('/')
-                if module[:2] == ['', 'boost']:
-                    yield module[2]
-
-
-def collect_deps_from_cml(lib_dir, fs):
-    with fs.open(os.path.join(lib_dir, 'CMakeLists.txt'), 'r') as f:
-       deps = []
-       for line in f.readlines():
-           if line.lstrip().startswith('Boost::'):
-               dep = line.strip().split(':')[2]
-               deps.append(fix_dep_name_for_cml(dep))
-       return [dep for dep in deps if dep != 'headers']
-
-
-def fix_dep_name_for_cml(name):
-    if name == 'numeric_ublas':
-        return 'ublas'
-    if name == 'numeric_interval':
-        return 'interval'
-    if name.startswith('asio'):
-        return 'asio'
-    return name
 
 
 def parse_args(argv):
@@ -150,6 +102,17 @@ def parse_args(argv):
         help='allow reuse of temporary files',
     )
     return parser.parse_args(argv[1:])
+
+
+def collect_module_deps_from_jam_file(path, fs):
+    with fs.open(path, 'r') as f:
+        for line in f.readlines():
+            stripped = line.lstrip()
+            if stripped.startswith('import-search'):
+                module = stripped.split(' ')[1]
+                module = module.split('/')
+                if module[:2] == ['', 'boost']:
+                    yield module[2]
 
 
 class Project():
@@ -221,13 +184,16 @@ class SuperProject(Project):
                 elif k == 'url':
                     url = v
 
+            if path == 'libs/headers':
                 cls = IgnoredProject
-                if path == 'libs/headers':
-                    cls = IgnoredProject
-                elif path.startswith('libs/'):
-                    cls = LibraryProject
+            elif path.startswith('libs/'):
+                cls = LibraryProject
+            elif path.startswith('tools/'):
+                cls = ToolProject
+            else:
+                cls = IgnoredProject
 
-                yield cls(name, path, url, self, tools, git)
+            yield cls(name, path, url, self, tools, git)
 
     def collect_data(self, *_):
         pass
@@ -256,7 +222,7 @@ class LibraryProject(Project):
         self.commit = git.submodule_commit(superproject.path, path)
         self.dependencies = []
 
-    def collect_data(self, git, fs, registry):
+    def collect_data(self, git, fs, registry, depinst):
         with git.clone_commit(self.url, self.commit, target=self.name) as lib:
             self.datetime = git.get_datetime(lib)
 
@@ -278,7 +244,7 @@ class LibraryProject(Project):
                     break
 
             self.headeronly = not fs.exists(os.path.join(lib, 'build'))
-            self.dependencies = self._collect_dependencies(lib, registry, fs)
+            self.dependencies = depinst(self, lib, registry)
 
     def generate_recipe(self, base_dir, template_env, fs):
         pkg_base_dir = os.path.join(base_dir, 'recipes', self.conan_name)
@@ -327,31 +293,30 @@ class LibraryProject(Project):
     def __repr__(self):
         return f'LibraryProject("{self.name}", "{self.git_ref}")'
 
-    def _collect_dependencies(self, lib_dir, registry, fs):
-        deps = []
-        try:
-            deps = collect_deps_from_build_jam(lib_dir, fs)
-        except FileNotFoundError:
-            pass
-        if not deps:
+
+class ToolProject(Project):
+    def __init__(self, name, path, url, superproject, tools, git):
+        super().__init__(name)
+        self.superproject = superproject
+        self.url = urllib.parse.urljoin(superproject.url, url)
+        self.commit = git.submodule_commit(superproject.path, path)
+
+    def collect_data(self, *_):
+        pass
+
+    def generate_recipe(self, *_):
+        print(f"skipping tool submodule '{self.name}'")
+
+    @contextlib.contextmanager
+    def materialize(self, git):
+        with git.clone_commit(self.url, self.commit, target=self.name) as lib:
             try:
-                deps = collect_deps_from_cml(lib_dir, fs)
-            except FileNotFoundError:
+                yield lib
+            finally:
                 pass
 
-        try:
-            path = os.path.join(lib_dir, 'build.jam')
-            deps.extend(collect_module_deps_from_jam_file(path, fs))
-        except FileNotFoundError:
-            pass
-        for root, _, files in fs.walk(os.path.join(lib_dir, 'build')):
-            for file in files:
-                path = os.path.join(root, file)
-                try:
-                    deps.extend(collect_module_deps_from_jam_file(path, fs))
-                except FileNotFoundError:
-                    pass
-        return [registry[dep] for dep in sorted(set(deps)) if dep != self.name]
+    def __repr__(self):
+        return f'ToolProject("{self.name}")'
 
 
 class RecipeToolsProject(Project):
@@ -530,6 +495,64 @@ class FileSystem():
     @staticmethod
     def copy(src, dst):
         shutil.copy(src, dst)
+
+
+class Depinst():
+    def __init__(self, location):
+        mod_name = 'boostdep.depinst'
+        depinst_dir = os.path.join(location, 'depinst')
+
+        spec = importlib.util.spec_from_file_location(
+            mod_name, os.path.join(depinst_dir, 'depinst.py'),
+        )
+        mod = importlib.util.module_from_spec(spec)
+        sys.modules[mod_name] = mod
+        spec.loader.exec_module(mod)
+        self._module = mod
+
+        # mod.verbose = -1
+        mod.is_module = self._is_module
+
+        exceptions = {}
+        with open(os.path.join(depinst_dir, 'exceptions.txt'), 'r') as f:
+            lib = None
+            for line in f:
+                line = line.rstrip()
+                match = re.match('(.*):$', line)
+                if match:
+                    lib = match.group(1).replace('~', '/')
+                else:
+                    file = line.lstrip()
+                    exceptions[file] = lib
+        self._exceptions = exceptions
+
+    def __call__(self, lib, lib_dir, registry):
+        deps = {lib.name : 1}
+        for subdir in ['include', 'src', 'build']:
+            self._module.scan_directory(
+                os.path.join(lib_dir, subdir),
+                self._exceptions,
+                registry,
+                deps,
+            )
+        deps = (self._fix(dep) for dep in deps if dep != lib.name)
+        return [registry[dep] for dep in sorted(set(deps)) if dep != lib.name]
+
+    @staticmethod
+    def _fix(dep):
+        if dep == 'numeric/conversion':
+            return 'numeric_conversion'
+        if dep == 'numeric/odeint':
+            return 'odeint'
+        if dep == 'numeric/ublas':
+            return 'ublas'
+        if dep == 'numeric/interval':
+            return 'interval'
+        return dep
+
+    @staticmethod
+    def _is_module(name, registry):
+        return Depinst._fix(name) in registry
 
 
 if __name__ == '__main__':
