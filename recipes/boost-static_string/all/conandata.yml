@@ -3,6 +3,7 @@ sources:
     commit: bff5cb65a5cb9151aacaf56abe80125e0128f43a
     dependencies:
     - boost-assert/1.89.0
+    - boost-config/1.89.0
     - boost-container_hash/1.89.0
     - boost-core/1.89.0
     - boost-static_assert/1.89.0
@@ -13,6 +14,7 @@ sources:
     commit: bff5cb65a5cb9151aacaf56abe80125e0128f43a
     dependencies:
     - boost-assert/1.89.0-b.1
+    - boost-config/1.89.0-b.1
     - boost-container_hash/1.89.0-b.1
     - boost-core/1.89.0-b.1
     - boost-static_assert/1.89.0-b.1
@@ -56,6 +58,7 @@ sources:
     commit: bff5cb65a5cb9151aacaf56abe80125e0128f43a
     dependencies:
     - boost-assert/1.90.0-a.m+25.03.21.17.00
+    - boost-config/1.90.0-a.m+25.07.04.20.36
     - boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-static_assert/1.90.0-a.m+25.04.15.18.33

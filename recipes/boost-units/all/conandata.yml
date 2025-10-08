@@ -41,7 +41,6 @@ sources:
     - boost-io/1.90.0-a.d+25.06.26.11.42
     - boost-lambda/1.90.0-a.d+25.05.03.03.20
     - boost-math/1.90.0-a.d+25.10.03.18.32
-    - boost-move/1.90.0-a.d+25.08.23.23.03
     - boost-mpl/1.90.0-a.d+25.07.03.00.11
     - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - boost-static_assert/1.90.0-a.d+25.04.15.18.33

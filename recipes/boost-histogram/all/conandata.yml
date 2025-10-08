@@ -4,7 +4,9 @@ sources:
     dependencies:
     - boost-config/1.89.0
     - boost-core/1.89.0
+    - boost-math/1.89.0
     - boost-mp11/1.89.0
+    - boost-serialization/1.89.0
     - boost-throw_exception/1.89.0
     - boost-variant2/1.89.0
     url: https://github.com/boostorg/histogram.git
@@ -13,7 +15,9 @@ sources:
     dependencies:
     - boost-config/1.89.0-b.1
     - boost-core/1.89.0-b.1
+    - boost-math/1.89.0-b.1
     - boost-mp11/1.89.0-b.1
+    - boost-serialization/1.89.0-b.1
     - boost-throw_exception/1.89.0-b.1
     - boost-variant2/1.89.0-b.1
     url: https://github.com/boostorg/histogram.git
@@ -22,7 +26,9 @@ sources:
     dependencies:
     - boost-config/1.90.0-a.d+25.09.23.09.33
     - boost-core/1.90.0-a.d+25.08.25.19.05
+    - boost-math/1.90.0-a.d+25.10.03.18.32
     - boost-mp11/1.90.0-a.d+25.09.09.16.43
+    - boost-serialization/1.90.0-a.d+24.08.18.11.53
     - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     - boost-variant2/1.90.0-a.d+25.01.15.19.44
     url: https://github.com/boostorg/histogram.git
@@ -31,7 +37,9 @@ sources:
     dependencies:
     - boost-config/1.90.0-a.m+25.07.04.20.36
     - boost-core/1.90.0-a.m+25.08.25.19.05
+    - boost-math/1.90.0-a.m+25.07.07.15.39
     - boost-mp11/1.90.0-a.m+25.09.09.16.43
+    - boost-serialization/1.90.0-a.m+23.11.12.21.05
     - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     - boost-variant2/1.90.0-a.m+25.01.15.19.44
     url: https://github.com/boostorg/histogram.git

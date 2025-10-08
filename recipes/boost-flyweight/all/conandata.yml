@@ -15,6 +15,7 @@ sources:
     - boost-smart_ptr/1.89.0
     - boost-throw_exception/1.89.0
     - boost-type_traits/1.89.0
+    - boost-unordered/1.89.0
     url: https://github.com/boostorg/flyweight.git
   1.89.0-b.1:
     commit: 76c84ce5b3f38abf774f36269ff3978301f06241
@@ -32,6 +33,7 @@ sources:
     - boost-smart_ptr/1.89.0-b.1
     - boost-throw_exception/1.89.0-b.1
     - boost-type_traits/1.89.0-b.1
+    - boost-unordered/1.89.0-b.1
     url: https://github.com/boostorg/flyweight.git
   1.90.0-a.d+25.09.20.12.39:
     commit: 575a6852b994b1d3f3fac6b613ea7246778f8369
@@ -49,6 +51,7 @@ sources:
     - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
     - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - boost-unordered/1.90.0-a.d+25.09.19.09.07
     url: https://github.com/boostorg/flyweight.git
   1.90.0-a.m+25.09.20.12.39:
     commit: 575a6852b994b1d3f3fac6b613ea7246778f8369
@@ -66,4 +69,5 @@ sources:
     - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
     - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - boost-unordered/1.90.0-a.m+25.09.19.09.07
     url: https://github.com/boostorg/flyweight.git

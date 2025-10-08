@@ -11,6 +11,7 @@ sources:
     commit: 6414f99e04d362182fa5d3ba87750c993db7e969
     dependencies:
     - boost-assert/1.89.0-b.1
+    - boost-charconv/1.89.0-b.1
     - boost-hana/1.89.0-b.1
     - boost-type_index/1.89.0-b.1
     url: https://github.com/boostorg/parser.git

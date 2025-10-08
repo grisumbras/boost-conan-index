@@ -4,6 +4,7 @@ sources:
     dependencies:
     - boost-asio/1.89.0
     - boost-assert/1.89.0
+    - boost-beast/1.89.0
     - boost-container/1.89.0
     - boost-core/1.89.0
     - boost-endian/1.89.0
@@ -21,6 +22,7 @@ sources:
     dependencies:
     - boost-asio/1.89.0-b.1
     - boost-assert/1.89.0-b.1
+    - boost-beast/1.89.0-b.1
     - boost-container/1.89.0-b.1
     - boost-core/1.89.0-b.1
     - boost-endian/1.89.0-b.1
@@ -38,6 +40,7 @@ sources:
     dependencies:
     - boost-asio/1.90.0-a.d+25.08.06.22.32
     - boost-assert/1.90.0-a.d+25.03.21.17.00
+    - boost-beast/1.90.0-a.d+25.10.03.11.24
     - boost-container/1.90.0-a.d+25.10.08.00.43
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-endian/1.90.0-a.d+24.12.14.03.43
@@ -52,6 +55,7 @@ sources:
     dependencies:
     - boost-asio/1.90.0-a.m+25.08.06.22.37
     - boost-assert/1.90.0-a.m+25.03.21.17.00
+    - boost-beast/1.90.0-a.m+25.07.29.12.30
     - boost-container/1.90.0-a.m+25.10.01.22.19
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-endian/1.90.0-a.m+24.12.14.03.43

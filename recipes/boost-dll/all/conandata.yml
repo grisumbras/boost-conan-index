@@ -7,6 +7,7 @@ sources:
     - boost-core/1.89.0
     - boost-filesystem/1.89.0
     - boost-predef/1.89.0
+    - boost-smart_ptr/1.89.0
     - boost-system/1.89.0
     - boost-throw_exception/1.89.0
     - boost-type_index/1.89.0
@@ -20,6 +21,7 @@ sources:
     - boost-core/1.89.0-b.1
     - boost-filesystem/1.89.0-b.1
     - boost-predef/1.89.0-b.1
+    - boost-smart_ptr/1.89.0-b.1
     - boost-system/1.89.0-b.1
     - boost-throw_exception/1.89.0-b.1
     - boost-type_index/1.89.0-b.1
@@ -33,6 +35,7 @@ sources:
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-filesystem/1.90.0-a.d+25.10.01.17.38
     - boost-predef/1.90.0-a.d+25.02.03.08.30
+    - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
     - boost-system/1.90.0-a.d+25.07.02.19.12
     - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     - boost-type_index/1.90.0-a.d+25.10.07.20.25
@@ -46,6 +49,7 @@ sources:
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-filesystem/1.90.0-a.m+25.10.01.17.38
     - boost-predef/1.90.0-a.m+25.01.12.12.53
+    - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
     - boost-system/1.90.0-a.m+25.07.02.19.12
     - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     - boost-type_index/1.90.0-a.m+25.09.07.19.23

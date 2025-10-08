@@ -11,6 +11,7 @@ sources:
     - boost-mpl/1.89.0
     - boost-preprocessor/1.89.0
     - boost-smart_ptr/1.89.0
+    - boost-thread/1.89.0
     - boost-throw_exception/1.89.0
     - boost-type_traits/1.89.0
     - boost-typeof/1.89.0
@@ -28,6 +29,7 @@ sources:
     - boost-mpl/1.89.0-b.1
     - boost-preprocessor/1.89.0-b.1
     - boost-smart_ptr/1.89.0-b.1
+    - boost-thread/1.89.0-b.1
     - boost-throw_exception/1.89.0-b.1
     - boost-type_traits/1.89.0-b.1
     - boost-typeof/1.89.0-b.1
@@ -45,6 +47,7 @@ sources:
     - boost-mpl/1.90.0-a.d+25.07.03.00.11
     - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    - boost-thread/1.90.0-a.d+25.05.02.19.21
     - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     - boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - boost-typeof/1.90.0-a.d+25.06.09.02.44
@@ -62,6 +65,7 @@ sources:
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+    - boost-thread/1.90.0-a.m+25.05.02.19.21
     - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     - boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - boost-typeof/1.90.0-a.m+25.06.09.02.44

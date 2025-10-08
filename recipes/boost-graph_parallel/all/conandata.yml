@@ -2,6 +2,7 @@ sources:
   1.89.0:
     commit: 5520a5617d2763c48a06a4ff277ad76e665c7cf3
     dependencies:
+    - boost-algorithm/1.89.0
     - boost-assert/1.89.0
     - boost-concept_check/1.89.0
     - boost-config/1.89.0
@@ -31,6 +32,7 @@ sources:
   1.89.0-b.1:
     commit: 5520a5617d2763c48a06a4ff277ad76e665c7cf3
     dependencies:
+    - boost-algorithm/1.89.0-b.1
     - boost-assert/1.89.0-b.1
     - boost-concept_check/1.89.0-b.1
     - boost-config/1.89.0-b.1
@@ -90,6 +92,7 @@ sources:
   1.90.0-a.m+22.01.29.06.44:
     commit: 5520a5617d2763c48a06a4ff277ad76e665c7cf3
     dependencies:
+    - boost-algorithm/1.90.0-a.m+23.08.02.20.42
     - boost-assert/1.90.0-a.m+25.03.21.17.00
     - boost-concept_check/1.90.0-a.m+24.12.28.18.10
     - boost-config/1.90.0-a.m+25.07.04.20.36

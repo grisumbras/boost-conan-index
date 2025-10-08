@@ -3,7 +3,6 @@ sources:
     commit: a2f90e9660e4e7e012c0b54a1338d8e69fb71906
     dependencies:
     - boost-assert/1.89.0
-    - boost-bind/1.89.0
     - boost-concept_check/1.89.0
     - boost-config/1.89.0
     - boost-function/1.89.0
@@ -21,7 +20,6 @@ sources:
     commit: a2f90e9660e4e7e012c0b54a1338d8e69fb71906
     dependencies:
     - boost-assert/1.89.0-b.1
-    - boost-bind/1.89.0-b.1
     - boost-concept_check/1.89.0-b.1
     - boost-config/1.89.0-b.1
     - boost-function/1.89.0-b.1
@@ -56,7 +54,6 @@ sources:
     commit: a2f90e9660e4e7e012c0b54a1338d8e69fb71906
     dependencies:
     - boost-assert/1.90.0-a.m+25.03.21.17.00
-    - boost-bind/1.90.0-a.m+24.12.13.03.05
     - boost-concept_check/1.90.0-a.m+24.12.28.18.10
     - boost-config/1.90.0-a.m+25.07.04.20.36
     - boost-function/1.90.0-a.m+24.12.14.04.39

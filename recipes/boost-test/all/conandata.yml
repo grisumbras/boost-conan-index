@@ -7,7 +7,6 @@ sources:
     - boost-bind/1.89.0
     - boost-config/1.89.0
     - boost-core/1.89.0
-    - boost-describe/1.89.0
     - boost-detail/1.89.0
     - boost-exception/1.89.0
     - boost-function/1.89.0
@@ -30,7 +29,6 @@ sources:
     - boost-bind/1.89.0-b.1
     - boost-config/1.89.0-b.1
     - boost-core/1.89.0-b.1
-    - boost-describe/1.89.0-b.1
     - boost-detail/1.89.0-b.1
     - boost-exception/1.89.0-b.1
     - boost-function/1.89.0-b.1
@@ -61,7 +59,6 @@ sources:
     - boost-mpl/1.90.0-a.d+25.07.03.00.11
     - boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40
     - boost-optional/1.90.0-a.d+24.12.08.17.21
-    - boost-predef/1.90.0-a.d+25.02.03.08.30
     - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
     - boost-static_assert/1.90.0-a.d+25.04.15.18.33
@@ -76,7 +73,6 @@ sources:
     - boost-bind/1.90.0-a.m+24.12.13.03.05
     - boost-config/1.90.0-a.m+25.07.04.20.36
     - boost-core/1.90.0-a.m+25.08.25.19.05
-    - boost-describe/1.90.0-a.m+25.08.17.10.18
     - boost-detail/1.90.0-a.m+25.06.13.00.44
     - boost-exception/1.90.0-a.m+25.03.02.03.25
     - boost-function/1.90.0-a.m+24.12.14.04.39
