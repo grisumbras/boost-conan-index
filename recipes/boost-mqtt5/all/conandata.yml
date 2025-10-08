@@ -38,7 +38,7 @@ sources:
     dependencies:
     - boost-asio/1.90.0-a.d+25.08.06.22.32
     - boost-assert/1.90.0-a.d+25.03.21.17.00
-    - boost-container/1.90.0-a.d+25.10.01.22.19
+    - boost-container/1.90.0-a.d+25.10.08.00.43
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-endian/1.90.0-a.d+24.12.14.03.43
     - boost-random/1.90.0-a.d+25.10.01.07.50
