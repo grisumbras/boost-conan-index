@@ -139,7 +139,6 @@ rule conan-install ( libraries * )
         install conan-install-libraries-unchecked
             : $(libraries)
             : <location>(libdir)
-              <install-dependencies>on
               <install-type>STATIC_LIB
               <install-type>SHARED_LIB
               <install-type>PDB
