@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-static_assert CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::StaticAssert)
+target_link_libraries(test Boost::static_assert)

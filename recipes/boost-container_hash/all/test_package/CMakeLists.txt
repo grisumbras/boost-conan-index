@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-container_hash CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::ContainerHash)
+target_link_libraries(test Boost::container_hash)

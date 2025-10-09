@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-tuple CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::Tuple)
+target_link_libraries(test Boost::tuple)

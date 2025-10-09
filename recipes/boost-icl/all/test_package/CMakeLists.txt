@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-icl CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::Icl)
+target_link_libraries(test Boost::icl)

@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-scope_exit CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::ScopeExit)
+target_link_libraries(test Boost::scope_exit)

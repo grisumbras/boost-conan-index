@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-odeint CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::Odeint)
+target_link_libraries(test Boost::odeint)

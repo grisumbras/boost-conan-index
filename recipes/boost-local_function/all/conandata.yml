@@ -24,7 +24,7 @@ sources:
   1.90.0-a.d+25.06.26.09.08:
     commit: ff0934f6a397ec8949c52386d9b2fe0b29715e9f
     dependencies:
-    - boost-config/1.90.0-a.d+25.09.23.09.33
+    - boost-config/1.90.0-a.d+25.10.09.16.01
     - boost-mpl/1.90.0-a.d+25.07.03.00.11
     - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - boost-scope_exit/1.90.0-a.d+25.05.02.19.19
@@ -35,7 +35,7 @@ sources:
   1.90.0-a.m+24.01.23.04.57:
     commit: 258aeaa6c1a9618c02ca4e4af2890e70833035f0
     dependencies:
-    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-config/1.90.0-a.m+25.10.09.16.06
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - boost-scope_exit/1.90.0-a.m+21.05.28.00.21

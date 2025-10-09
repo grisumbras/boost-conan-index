@@ -25,7 +25,7 @@ sources:
     commit: 18aae90bf49e697cc49b70a483bc8a5668c334d2
     dependencies:
     - boost-assert/1.90.0-a.d+25.03.21.17.00
-    - boost-config/1.90.0-a.d+25.09.23.09.33
+    - boost-config/1.90.0-a.d+25.10.09.16.01
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-mp11/1.90.0-a.d+25.09.09.16.43
     - boost-pool/1.90.0-a.d+19.09.06.01.34
@@ -36,7 +36,7 @@ sources:
     commit: 3af0091efa65892e030add013417840f80b13e08
     dependencies:
     - boost-assert/1.90.0-a.m+25.03.21.17.00
-    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-config/1.90.0-a.m+25.10.09.16.06
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-mp11/1.90.0-a.m+25.09.09.16.43
     - boost-pool/1.90.0-a.m+25.02.25.18.47

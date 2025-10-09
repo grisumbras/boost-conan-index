@@ -80,7 +80,7 @@ class BoostForeachRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Foreach')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::foreach')
         self.cpp_info.set_property('b2_target_name', '/boost/foreach//boost_foreach')
 
         self.cpp_info.bindirs = []

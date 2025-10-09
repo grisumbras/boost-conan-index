@@ -82,7 +82,7 @@ class BoostUnorderedRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Unordered')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::unordered')
         self.cpp_info.set_property('b2_target_name', '/boost/unordered//boost_unordered')
 
         self.cpp_info.bindirs = []

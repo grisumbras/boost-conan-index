@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-numeric_conversion CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::NumericConversion)
+target_link_libraries(test Boost::numeric_conversion)

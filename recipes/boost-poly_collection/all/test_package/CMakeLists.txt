@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-poly_collection CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::PolyCollection)
+target_link_libraries(test Boost::poly_collection)

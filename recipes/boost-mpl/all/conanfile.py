@@ -82,7 +82,7 @@ class BoostMplRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Mpl')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::mpl')
         self.cpp_info.set_property('b2_target_name', '/boost/mpl//boost_mpl')
 
         self.cpp_info.bindirs = []

@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-ptr_container CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::PtrContainer)
+target_link_libraries(test Boost::ptr_container)

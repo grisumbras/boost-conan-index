@@ -88,7 +88,7 @@ class BoostMathRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Math')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::math')
         self.cpp_info.set_property('b2_target_name', '/boost/math//boost_math')
 
         self.cpp_info.libs = ['boost_math']

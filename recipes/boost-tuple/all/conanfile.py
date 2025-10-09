@@ -82,7 +82,7 @@ class BoostTupleRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Tuple')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::tuple')
         self.cpp_info.set_property('b2_target_name', '/boost/tuple//boost_tuple')
 
         self.cpp_info.bindirs = []

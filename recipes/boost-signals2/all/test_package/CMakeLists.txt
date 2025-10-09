@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-signals2 CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::Signals2)
+target_link_libraries(test Boost::signals2)

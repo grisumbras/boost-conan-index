@@ -82,7 +82,7 @@ class BoostParserRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Parser')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::parser')
         self.cpp_info.set_property('b2_target_name', '/boost/parser//boost_parser')
 
         self.cpp_info.bindirs = []

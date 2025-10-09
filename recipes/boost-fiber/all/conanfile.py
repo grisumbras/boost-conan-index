@@ -88,7 +88,7 @@ class BoostFiberRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Fiber')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::fiber')
         self.cpp_info.set_property('b2_target_name', '/boost/fiber//boost_fiber')
 
         self.cpp_info.libs = ['boost_fiber']

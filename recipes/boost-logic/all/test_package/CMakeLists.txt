@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-logic CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::Logic)
+target_link_libraries(test Boost::logic)

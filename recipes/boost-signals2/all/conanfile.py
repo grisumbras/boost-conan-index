@@ -82,7 +82,7 @@ class BoostSignals2Recipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Signals2')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::signals2')
         self.cpp_info.set_property('b2_target_name', '/boost/signals2//boost_signals2')
 
         self.cpp_info.bindirs = []

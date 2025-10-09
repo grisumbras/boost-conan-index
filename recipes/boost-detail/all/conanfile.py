@@ -80,7 +80,7 @@ class BoostDetailRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Detail')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::detail')
         self.cpp_info.set_property('b2_target_name', '/boost/detail//boost_detail')
 
         self.cpp_info.bindirs = []

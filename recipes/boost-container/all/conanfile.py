@@ -88,7 +88,7 @@ class BoostContainerRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Container')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::container')
         self.cpp_info.set_property('b2_target_name', '/boost/container//boost_container')
 
         self.cpp_info.libs = ['boost_container']

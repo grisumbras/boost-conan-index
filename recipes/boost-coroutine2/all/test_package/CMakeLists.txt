@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-coroutine2 CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::Coroutine2)
+target_link_libraries(test Boost::coroutine2)

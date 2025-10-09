@@ -82,7 +82,7 @@ class BoostMsmRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Msm')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::msm')
         self.cpp_info.set_property('b2_target_name', '/boost/msm//boost_msm')
 
         self.cpp_info.bindirs = []

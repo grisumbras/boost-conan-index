@@ -88,7 +88,7 @@ class BoostRandomRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Random')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::random')
         self.cpp_info.set_property('b2_target_name', '/boost/random//boost_random')
 
         self.cpp_info.libs = ['boost_random']

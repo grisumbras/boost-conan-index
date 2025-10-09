@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-array CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::Array)
+target_link_libraries(test Boost::array)

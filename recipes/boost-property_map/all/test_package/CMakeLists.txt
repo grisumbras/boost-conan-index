@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-property_map CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::PropertyMap)
+target_link_libraries(test Boost::property_map)

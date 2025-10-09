@@ -16,14 +16,14 @@ sources:
   1.90.0-a.d+25.08.21.19.31:
     commit: 060d4aea6b5b59d2c9146b7d8e994735b2c0a582
     dependencies:
-    - boost-config/1.90.0-a.d+25.09.23.09.33
+    - boost-config/1.90.0-a.d+25.10.09.16.01
     - boost-describe/1.90.0-a.d+25.08.17.10.18
     - boost-mp11/1.90.0-a.d+25.09.09.16.43
     url: https://github.com/boostorg/container_hash.git
   1.90.0-a.m+25.08.21.19.31:
     commit: 060d4aea6b5b59d2c9146b7d8e994735b2c0a582
     dependencies:
-    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-config/1.90.0-a.m+25.10.09.16.06
     - boost-describe/1.90.0-a.m+25.08.17.10.18
     - boost-mp11/1.90.0-a.m+25.09.09.16.43
     url: https://github.com/boostorg/container_hash.git

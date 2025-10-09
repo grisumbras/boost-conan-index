@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-mqtt5 CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::Mqtt5)
+target_link_libraries(test Boost::mqtt5)

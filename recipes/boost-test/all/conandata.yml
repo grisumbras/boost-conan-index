@@ -49,7 +49,7 @@ sources:
     - boost-algorithm/1.90.0-a.d+25.08.25.08.42
     - boost-assert/1.90.0-a.d+25.03.21.17.00
     - boost-bind/1.90.0-a.d+24.12.13.03.05
-    - boost-config/1.90.0-a.d+25.09.23.09.33
+    - boost-config/1.90.0-a.d+25.10.09.16.01
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-detail/1.90.0-a.d+25.06.13.00.44
     - boost-exception/1.90.0-a.d+25.05.03.03.11
@@ -71,7 +71,7 @@ sources:
     - boost-algorithm/1.90.0-a.m+23.08.02.20.42
     - boost-assert/1.90.0-a.m+25.03.21.17.00
     - boost-bind/1.90.0-a.m+24.12.13.03.05
-    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-config/1.90.0-a.m+25.10.09.16.06
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-detail/1.90.0-a.m+25.06.13.00.44
     - boost-exception/1.90.0-a.m+25.03.02.03.25

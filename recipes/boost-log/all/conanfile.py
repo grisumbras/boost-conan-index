@@ -88,7 +88,7 @@ class BoostLogRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Log')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::log')
         self.cpp_info.set_property('b2_target_name', '/boost/log//boost_log')
 
         self.cpp_info.libs = ['boost_log']

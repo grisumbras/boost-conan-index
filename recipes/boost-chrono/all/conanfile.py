@@ -88,7 +88,7 @@ class BoostChronoRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Chrono')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::chrono')
         self.cpp_info.set_property('b2_target_name', '/boost/chrono//boost_chrono')
 
         self.cpp_info.libs = ['boost_chrono']

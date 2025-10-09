@@ -88,7 +88,7 @@ class BoostPythonRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Python')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::python')
         self.cpp_info.set_property('b2_target_name', '/boost/python//boost_python')
 
         self.cpp_info.libs = ['boost_python']

@@ -15,11 +15,11 @@ sources:
     commit: f3d4d55f52894fda75ef2915dc122e3133b97b45
     dependencies:
     - boost-assert/1.90.0-a.d+25.03.21.17.00
-    - boost-config/1.90.0-a.d+25.09.23.09.33
+    - boost-config/1.90.0-a.d+25.10.09.16.01
     url: https://github.com/boostorg/throw_exception.git
   1.90.0-a.m+24.12.12.19.39:
     commit: f3d4d55f52894fda75ef2915dc122e3133b97b45
     dependencies:
     - boost-assert/1.90.0-a.m+25.03.21.17.00
-    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-config/1.90.0-a.m+25.10.09.16.06
     url: https://github.com/boostorg/throw_exception.git

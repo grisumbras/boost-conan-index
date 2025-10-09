@@ -88,7 +88,7 @@ class BoostIostreamsRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Iostreams')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::iostreams')
         self.cpp_info.set_property('b2_target_name', '/boost/iostreams//boost_iostreams')
 
         self.cpp_info.libs = ['boost_iostreams']

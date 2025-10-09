@@ -88,7 +88,7 @@ class BoostGraphRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Graph')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::graph')
         self.cpp_info.set_property('b2_target_name', '/boost/graph//boost_graph')
 
         self.cpp_info.libs = ['boost_graph']

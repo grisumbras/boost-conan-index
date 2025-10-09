@@ -88,7 +88,7 @@ class BoostThreadRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Thread')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::thread')
         self.cpp_info.set_property('b2_target_name', '/boost/thread//boost_thread')
 
         self.cpp_info.libs = ['boost_thread']

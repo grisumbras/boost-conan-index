@@ -88,7 +88,7 @@ class BoostContextRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Context')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::context')
         self.cpp_info.set_property('b2_target_name', '/boost/context//boost_context')
 
         self.cpp_info.libs = ['boost_context']

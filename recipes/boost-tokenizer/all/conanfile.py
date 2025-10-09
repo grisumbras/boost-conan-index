@@ -82,7 +82,7 @@ class BoostTokenizerRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Tokenizer')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::tokenizer')
         self.cpp_info.set_property('b2_target_name', '/boost/tokenizer//boost_tokenizer')
 
         self.cpp_info.bindirs = []

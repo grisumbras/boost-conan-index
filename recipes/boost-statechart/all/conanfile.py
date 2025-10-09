@@ -82,7 +82,7 @@ class BoostStatechartRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Statechart')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::statechart')
         self.cpp_info.set_property('b2_target_name', '/boost/statechart//boost_statechart')
 
         self.cpp_info.bindirs = []

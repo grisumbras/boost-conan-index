@@ -82,7 +82,7 @@ class BoostIntegerRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Integer')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::integer')
         self.cpp_info.set_property('b2_target_name', '/boost/integer//boost_integer')
 
         self.cpp_info.bindirs = []

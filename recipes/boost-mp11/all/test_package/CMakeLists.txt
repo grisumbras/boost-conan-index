@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-mp11 CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::Mp11)
+target_link_libraries(test Boost::mp11)

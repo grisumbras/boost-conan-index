@@ -82,7 +82,7 @@ class BoostAssignRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Assign')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::assign')
         self.cpp_info.set_property('b2_target_name', '/boost/assign//boost_assign')
 
         self.cpp_info.bindirs = []

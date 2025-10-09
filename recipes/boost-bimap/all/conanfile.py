@@ -82,7 +82,7 @@ class BoostBimapRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Bimap')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::bimap')
         self.cpp_info.set_property('b2_target_name', '/boost/bimap//boost_bimap')
 
         self.cpp_info.bindirs = []

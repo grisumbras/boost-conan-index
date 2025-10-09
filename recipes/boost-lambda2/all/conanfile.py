@@ -82,7 +82,7 @@ class BoostLambda2Recipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Lambda2')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::lambda2')
         self.cpp_info.set_property('b2_target_name', '/boost/lambda2//boost_lambda2')
 
         self.cpp_info.bindirs = []

@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-json CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::Json)
+target_link_libraries(test Boost::json)

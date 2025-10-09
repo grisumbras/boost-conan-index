@@ -88,7 +88,7 @@ class BoostWaveRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Wave')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::wave')
         self.cpp_info.set_property('b2_target_name', '/boost/wave//boost_wave')
 
         self.cpp_info.libs = ['boost_wave']

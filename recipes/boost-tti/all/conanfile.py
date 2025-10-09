@@ -82,7 +82,7 @@ class BoostTtiRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Tti')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::tti')
         self.cpp_info.set_property('b2_target_name', '/boost/tti//boost_tti')
 
         self.cpp_info.bindirs = []

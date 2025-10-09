@@ -82,7 +82,7 @@ class BoostCoroutine2Recipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Coroutine2')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::coroutine2')
         self.cpp_info.set_property('b2_target_name', '/boost/coroutine2//boost_coroutine2')
 
         self.cpp_info.bindirs = []

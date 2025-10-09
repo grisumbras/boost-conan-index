@@ -82,7 +82,7 @@ class BoostGilRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Gil')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::gil')
         self.cpp_info.set_property('b2_target_name', '/boost/gil//boost_gil')
 
         self.cpp_info.bindirs = []

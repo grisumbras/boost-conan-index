@@ -80,7 +80,7 @@ class BoostUblasRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Ublas')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::ublas')
         self.cpp_info.set_property('b2_target_name', '/boost/ublas//boost_ublas')
 
         self.cpp_info.bindirs = []

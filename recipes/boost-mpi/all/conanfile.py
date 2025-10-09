@@ -88,7 +88,7 @@ class BoostMpiRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Mpi')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::mpi')
         self.cpp_info.set_property('b2_target_name', '/boost/mpi//boost_mpi')
 
         self.cpp_info.libs = ['boost_mpi']

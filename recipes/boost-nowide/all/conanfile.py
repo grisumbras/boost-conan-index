@@ -88,7 +88,7 @@ class BoostNowideRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Nowide')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::nowide')
         self.cpp_info.set_property('b2_target_name', '/boost/nowide//boost_nowide')
 
         self.cpp_info.libs = ['boost_nowide']

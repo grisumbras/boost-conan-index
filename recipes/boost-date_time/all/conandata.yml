@@ -42,7 +42,7 @@ sources:
     dependencies:
     - boost-algorithm/1.90.0-a.d+25.08.25.08.42
     - boost-assert/1.90.0-a.d+25.03.21.17.00
-    - boost-config/1.90.0-a.d+25.09.23.09.33
+    - boost-config/1.90.0-a.d+25.10.09.16.01
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-io/1.90.0-a.d+25.06.26.11.42
     - boost-lexical_cast/1.90.0-a.d+25.10.07.20.25
@@ -61,7 +61,7 @@ sources:
     dependencies:
     - boost-algorithm/1.90.0-a.m+23.08.02.20.42
     - boost-assert/1.90.0-a.m+25.03.21.17.00
-    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-config/1.90.0-a.m+25.10.09.16.06
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-io/1.90.0-a.m+23.10.03.00.15
     - boost-lexical_cast/1.90.0-a.m+25.10.07.20.25

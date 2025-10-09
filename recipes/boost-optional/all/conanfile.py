@@ -82,7 +82,7 @@ class BoostOptionalRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Optional')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::optional')
         self.cpp_info.set_property('b2_target_name', '/boost/optional//boost_optional')
 
         self.cpp_info.bindirs = []

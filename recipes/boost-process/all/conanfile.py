@@ -88,7 +88,7 @@ class BoostProcessRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Process')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::process')
         self.cpp_info.set_property('b2_target_name', '/boost/process//boost_process')
 
         self.cpp_info.libs = ['boost_process']

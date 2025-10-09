@@ -7,4 +7,4 @@ set(Boost_ARCHITECTURE)
 find_package(boost-property_map_parallel CONFIG REQUIRED)
 
 add_executable(test test.cpp)
-target_link_libraries(test Boost::PropertyMapParallel)
+target_link_libraries(test Boost::property_map_parallel)
