@@ -52,6 +52,6 @@ sources:
     - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
     - boost-system/1.90.0-a.m+25.07.02.19.12
     - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
-    - boost-type_index/1.90.0-a.m+25.09.07.19.23
+    - boost-type_index/1.90.0-a.m+25.10.07.20.25
     - boost-winapi/1.90.0-a.m+25.08.25.19.08
     url: https://github.com/boostorg/dll.git

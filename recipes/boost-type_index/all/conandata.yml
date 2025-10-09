@@ -38,3 +38,10 @@ sources:
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     url: https://github.com/boostorg/type_index.git
+  1.90.0-a.m+25.10.07.20.25:
+    commit: 898c212ff27810d6280317bd5a7de252c2301c60
+    dependencies:
+    - boost-config/1.90.0-a.m+25.07.04.20.36
+    - boost-container_hash/1.90.0-a.m+25.08.21.19.31
+    - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    url: https://github.com/boostorg/type_index.git

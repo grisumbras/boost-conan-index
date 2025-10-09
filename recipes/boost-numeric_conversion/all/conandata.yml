@@ -36,7 +36,7 @@ sources:
     commit: d1b479f7a4aa54d8ffb93d8dc4ee0c24670210d8
     dependencies:
     - boost-config/1.90.0-a.m+25.07.04.20.36
-    - boost-conversion/1.90.0-a.m+25.06.27.20.42
+    - boost-conversion/1.90.0-a.m+25.10.07.20.26
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-preprocessor/1.90.0-a.m+25.06.09.02.52

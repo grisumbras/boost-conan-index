@@ -51,7 +51,7 @@ sources:
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-foreach/1.90.0-a.d+25.05.02.19.11
     - boost-function/1.90.0-a.d+24.12.14.04.39
-    - boost-graph/1.90.0-a.d+25.10.01.18.14
+    - boost-graph/1.90.0-a.d+25.10.09.16.54
     - boost-integer/1.90.0-a.d+25.08.25.19.05
     - boost-iterator/1.90.0-a.d+25.08.25.19.05
     - boost-lexical_cast/1.90.0-a.d+25.10.07.20.25
@@ -76,7 +76,7 @@ sources:
     - boost-graph/1.90.0-a.m+25.02.15.20.07
     - boost-integer/1.90.0-a.m+25.08.25.19.05
     - boost-iterator/1.90.0-a.m+25.08.25.19.05
-    - boost-lexical_cast/1.90.0-a.m+25.10.05.11.14
+    - boost-lexical_cast/1.90.0-a.m+25.10.07.20.25
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-optional/1.90.0-a.m+24.12.04.00.23
     - boost-python/1.90.0-a.m+25.03.10.14.19

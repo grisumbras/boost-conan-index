@@ -114,7 +114,7 @@ sources:
   1.90.0-a.m+24.09.02.18.57:
     commit: 33e77cbfc70956d4b99f3dfc9c1e83848fe2550b
     dependencies:
-    - boost-any/1.90.0-a.m+25.06.18.17.56
+    - boost-any/1.90.0-a.m+25.10.07.20.26
     - boost-assert/1.90.0-a.m+25.03.21.17.00
     - boost-bind/1.90.0-a.m+24.12.13.03.05
     - boost-circular_buffer/1.90.0-a.m+22.09.12.08.08
@@ -129,7 +129,7 @@ sources:
     - boost-proto/1.90.0-a.m+21.03.18.17.30
     - boost-serialization/1.90.0-a.m+23.11.12.21.05
     - boost-tuple/1.90.0-a.m+25.06.09.02.57
-    - boost-type_index/1.90.0-a.m+25.09.07.19.23
+    - boost-type_index/1.90.0-a.m+25.10.07.20.25
     - boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - boost-typeof/1.90.0-a.m+25.06.09.02.44
     url: https://github.com/boostorg/msm.git

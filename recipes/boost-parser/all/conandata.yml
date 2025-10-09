@@ -29,5 +29,5 @@ sources:
     - boost-assert/1.90.0-a.m+25.03.21.17.00
     - boost-charconv/1.90.0-a.m+25.08.06.14.08
     - boost-hana/1.90.0-a.m+25.07.03.23.00
-    - boost-type_index/1.90.0-a.m+25.09.07.19.23
+    - boost-type_index/1.90.0-a.m+25.10.07.20.25
     url: https://github.com/boostorg/parser.git

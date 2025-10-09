@@ -70,7 +70,7 @@ sources:
     - boost-concept_check/1.90.0-a.m+24.12.28.18.10
     - boost-config/1.90.0-a.m+25.07.04.20.36
     - boost-container_hash/1.90.0-a.m+25.08.21.19.31
-    - boost-conversion/1.90.0-a.m+25.06.27.20.42
+    - boost-conversion/1.90.0-a.m+25.10.07.20.26
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-detail/1.90.0-a.m+25.06.13.00.44
     - boost-iterator/1.90.0-a.m+25.08.25.19.05

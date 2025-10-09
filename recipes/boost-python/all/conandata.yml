@@ -60,7 +60,7 @@ sources:
     - boost-detail/1.90.0-a.d+25.06.13.00.44
     - boost-foreach/1.90.0-a.d+25.05.02.19.11
     - boost-function/1.90.0-a.d+24.12.14.04.39
-    - boost-graph/1.90.0-a.d+25.10.01.18.14
+    - boost-graph/1.90.0-a.d+25.10.09.16.54
     - boost-integer/1.90.0-a.d+25.08.25.19.05
     - boost-iterator/1.90.0-a.d+25.08.25.19.05
     - boost-lexical_cast/1.90.0-a.d+25.10.07.20.25
@@ -80,7 +80,7 @@ sources:
     - boost-align/1.90.0-a.m+22.11.11.18.29
     - boost-bind/1.90.0-a.m+24.12.13.03.05
     - boost-config/1.90.0-a.m+25.07.04.20.36
-    - boost-conversion/1.90.0-a.m+25.06.27.20.42
+    - boost-conversion/1.90.0-a.m+25.10.07.20.26
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-detail/1.90.0-a.m+25.06.13.00.44
     - boost-foreach/1.90.0-a.m+25.01.26.17.47
@@ -88,7 +88,7 @@ sources:
     - boost-graph/1.90.0-a.m+25.02.15.20.07
     - boost-integer/1.90.0-a.m+25.08.25.19.05
     - boost-iterator/1.90.0-a.m+25.08.25.19.05
-    - boost-lexical_cast/1.90.0-a.m+25.10.05.11.14
+    - boost-lexical_cast/1.90.0-a.m+25.10.07.20.25
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-numeric_conversion/1.90.0-a.m+25.06.26.07.40
     - boost-preprocessor/1.90.0-a.m+25.06.09.02.52

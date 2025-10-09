@@ -73,7 +73,7 @@ sources:
     - boost-filesystem/1.90.0-a.d+25.10.01.17.38
     - boost-foreach/1.90.0-a.d+25.05.02.19.11
     - boost-function/1.90.0-a.d+24.12.14.04.39
-    - boost-graph/1.90.0-a.d+25.10.01.18.14
+    - boost-graph/1.90.0-a.d+25.10.09.16.54
     - boost-iterator/1.90.0-a.d+25.08.25.19.05
     - boost-lexical_cast/1.90.0-a.d+25.10.07.20.25
     - boost-mpi/1.90.0-a.d+25.05.06.14.59
@@ -105,7 +105,7 @@ sources:
     - boost-function/1.90.0-a.m+24.12.14.04.39
     - boost-graph/1.90.0-a.m+25.02.15.20.07
     - boost-iterator/1.90.0-a.m+25.08.25.19.05
-    - boost-lexical_cast/1.90.0-a.m+25.10.05.11.14
+    - boost-lexical_cast/1.90.0-a.m+25.10.07.20.25
     - boost-mpi/1.90.0-a.m+25.04.17.17.55
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-optional/1.90.0-a.m+24.12.04.00.23

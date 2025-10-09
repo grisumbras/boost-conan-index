@@ -25,5 +25,5 @@ sources:
     dependencies:
     - boost-hana/1.90.0-a.m+25.07.03.23.00
     - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-    - boost-type_index/1.90.0-a.m+25.09.07.19.23
+    - boost-type_index/1.90.0-a.m+25.10.07.20.25
     url: https://github.com/boostorg/yap.git

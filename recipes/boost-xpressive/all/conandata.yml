@@ -82,13 +82,13 @@ sources:
     dependencies:
     - boost-assert/1.90.0-a.m+25.03.21.17.00
     - boost-config/1.90.0-a.m+25.07.04.20.36
-    - boost-conversion/1.90.0-a.m+25.06.27.20.42
+    - boost-conversion/1.90.0-a.m+25.10.07.20.26
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-exception/1.90.0-a.m+25.03.02.03.25
     - boost-fusion/1.90.0-a.m+24.05.15.10.13
     - boost-integer/1.90.0-a.m+25.08.25.19.05
     - boost-iterator/1.90.0-a.m+25.08.25.19.05
-    - boost-lexical_cast/1.90.0-a.m+25.10.05.11.14
+    - boost-lexical_cast/1.90.0-a.m+25.10.07.20.25
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-numeric_conversion/1.90.0-a.m+25.06.26.07.40
     - boost-optional/1.90.0-a.m+24.12.04.00.23
