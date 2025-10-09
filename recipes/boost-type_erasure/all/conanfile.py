@@ -88,7 +88,7 @@ class BoostTypeErasureRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Type_Erasure')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::TypeErasure')
         self.cpp_info.set_property('b2_target_name', '/boost/type_erasure//boost_type_erasure')
 
         self.cpp_info.libs = ['boost_type_erasure']

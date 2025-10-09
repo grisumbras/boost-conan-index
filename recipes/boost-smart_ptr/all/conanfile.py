@@ -82,7 +82,7 @@ class BoostSmartPtrRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Smart_Ptr')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::SmartPtr')
         self.cpp_info.set_property('b2_target_name', '/boost/smart_ptr//boost_smart_ptr')
 
         self.cpp_info.bindirs = []

@@ -80,7 +80,7 @@ class BoostScopeExitRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Scope_Exit')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::ScopeExit')
         self.cpp_info.set_property('b2_target_name', '/boost/scope_exit//boost_scope_exit')
 
         self.cpp_info.bindirs = []

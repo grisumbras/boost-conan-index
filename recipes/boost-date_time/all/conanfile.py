@@ -88,7 +88,7 @@ class BoostDateTimeRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Date_Time')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::DateTime')
         self.cpp_info.set_property('b2_target_name', '/boost/date_time//boost_date_time')
 
         self.cpp_info.libs = ['boost_date_time']

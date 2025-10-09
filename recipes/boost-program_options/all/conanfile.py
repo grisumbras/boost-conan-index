@@ -88,7 +88,7 @@ class BoostProgramOptionsRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Program_Options')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::ProgramOptions')
         self.cpp_info.set_property('b2_target_name', '/boost/program_options//boost_program_options')
 
         self.cpp_info.libs = ['boost_program_options']

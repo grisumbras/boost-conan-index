@@ -82,7 +82,7 @@ class BoostLexicalCastRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Lexical_Cast')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::LexicalCast')
         self.cpp_info.set_property('b2_target_name', '/boost/lexical_cast//boost_lexical_cast')
 
         self.cpp_info.bindirs = []

@@ -82,7 +82,7 @@ class BoostPolyCollectionRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Poly_Collection')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::PolyCollection')
         self.cpp_info.set_property('b2_target_name', '/boost/poly_collection//boost_poly_collection')
 
         self.cpp_info.bindirs = []

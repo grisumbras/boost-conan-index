@@ -80,7 +80,7 @@ class BoostLocalFunctionRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Local_Function')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::LocalFunction')
         self.cpp_info.set_property('b2_target_name', '/boost/local_function//boost_local_function')
 
         self.cpp_info.bindirs = []

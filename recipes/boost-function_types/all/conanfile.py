@@ -88,7 +88,7 @@ class BoostFunctionTypesRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Function_Types')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::FunctionTypes')
         self.cpp_info.set_property('b2_target_name', '/boost/function_types//boost_function_types')
 
         self.cpp_info.libs = ['boost_function_types']

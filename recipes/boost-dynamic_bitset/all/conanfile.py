@@ -82,7 +82,7 @@ class BoostDynamicBitsetRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Dynamic_Bitset')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::DynamicBitset')
         self.cpp_info.set_property('b2_target_name', '/boost/dynamic_bitset//boost_dynamic_bitset')
 
         self.cpp_info.bindirs = []

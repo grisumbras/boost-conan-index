@@ -82,7 +82,7 @@ class BoostStaticStringRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::Static_String')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::StaticString')
         self.cpp_info.set_property('b2_target_name', '/boost/static_string//boost_static_string')
 
         self.cpp_info.bindirs = []
