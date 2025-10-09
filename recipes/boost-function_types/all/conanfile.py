@@ -19,11 +19,8 @@ class BoostFunctionTypesRecipe(ConanFile):
     topics = ['Generic', 'Metaprogramming']
 
     python_requires = 'b2-tools/0.0.1-a'
-    
-    package_type = 'library'
-    settings = 'os', 'compiler', 'build_type', 'arch'
-    options = {'shared': [True, False]}
-    default_options = {'shared': False}
+    package_type = 'header-library'
+    settings = 'compiler'
 
     def validate(self):
         check_min_cppstd(self, '03')
@@ -33,10 +30,7 @@ class BoostFunctionTypesRecipe(ConanFile):
             self.requires(
                 dep,
                 headers=True,
-                transitive_headers=True,
-                libs=True,
-                transitive_libs=True,
-            )
+                transitive_headers=True,)
 
     def build_requirements(self):
        self.tool_requires('b2/[>=5.3.0]')
@@ -91,10 +85,12 @@ class BoostFunctionTypesRecipe(ConanFile):
         self.cpp_info.set_property('cmake_target_name', 'Boost::function_types')
         self.cpp_info.set_property('b2_target_name', '/boost/function_types//boost_function_types')
 
-        self.cpp_info.libs = ['boost_function_types']
-        self.cpp_info.defines = ['BOOST_FUNCTION_TYPES_NO_LIB=1']
+        self.cpp_info.bindirs = []
+        self.cpp_info.libdirs = []
         self.cpp_info.resdirs = ['share']
         self.cpp_info.builddirs = ['share/boost/function_types/modules']
+    def package_id(self):
+        self.info.clear()
 
 
 _boost_install = '''\
