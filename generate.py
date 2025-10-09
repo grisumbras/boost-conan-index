@@ -243,7 +243,7 @@ class LibraryProject(Project):
                     self.header = os.path.join(root, files[0])[offset:]
                     break
 
-            self.headeronly = not fs.exists(os.path.join(lib, 'build'))
+            self.headeronly = self._is_header_only(lib, fs)
             self.dependencies = depinst(self, lib, registry)
 
     def generate_recipe(self, base_dir, template_env, fs):
@@ -292,6 +292,10 @@ class LibraryProject(Project):
 
     def __repr__(self):
         return f'LibraryProject("{self.name}", "{self.git_ref}")'
+
+    def _is_header_only(self, lib_dir, fs):
+        return (self.name == 'function_types'
+            or not fs.exists(os.path.join(lib_dir, 'build')))
 
 
 class ToolProject(Project):
