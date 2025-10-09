@@ -99,7 +99,7 @@ class Boost{{ project.name.title() | replace('-', '') | replace('_', '') }}Recip
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::{{project.name.title()}}')
+        self.cpp_info.set_property('cmake_target_name', 'Boost::{{project.name.title().replace('_', '')}}')
         self.cpp_info.set_property('b2_target_name', '/boost/{{project.name}}//boost_{{project.name}}')
 
         {% if project.headeronly -%}
