@@ -155,7 +155,7 @@ sources:
     - boost-detail/1.90.0-a.d+25.06.13.00.44
     - boost-foreach/1.90.0-a.d+25.05.02.19.11
     - boost-function/1.90.0-a.d+24.12.14.04.39
-    - boost-geometry/1.90.0-a.d+25.09.03.15.18
+    - boost-geometry/1.90.0-a.d+25.08.25.17.26
     - boost-integer/1.90.0-a.d+25.08.25.19.05
     - boost-iterator/1.90.0-a.d+25.08.25.19.05
     - boost-lexical_cast/1.90.0-a.d+25.10.07.20.25

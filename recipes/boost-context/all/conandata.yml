@@ -27,7 +27,7 @@ sources:
     - boost-assert/1.90.0-a.d+25.03.21.17.00
     - boost-config/1.90.0-a.d+25.10.09.16.01
     - boost-core/1.90.0-a.d+25.08.25.19.05
-    - boost-mp11/1.90.0-a.d+25.09.09.16.43
+    - boost-mp11/1.90.0-a.d+25.10.09.18.32
     - boost-pool/1.90.0-a.d+19.09.06.01.34
     - boost-predef/1.90.0-a.d+25.02.03.08.30
     - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
@@ -38,7 +38,7 @@ sources:
     - boost-assert/1.90.0-a.m+25.03.21.17.00
     - boost-config/1.90.0-a.m+25.10.09.16.06
     - boost-core/1.90.0-a.m+25.08.25.19.05
-    - boost-mp11/1.90.0-a.m+25.09.09.16.43
+    - boost-mp11/1.90.0-a.m+25.10.09.18.32
     - boost-pool/1.90.0-a.m+25.02.25.18.47
     - boost-predef/1.90.0-a.m+25.01.12.12.53
     - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30

@@ -42,7 +42,7 @@ sources:
     - boost-filesystem/1.90.0-a.d+25.10.01.17.38
     - boost-integer/1.90.0-a.d+25.08.25.19.05
     - boost-iterator/1.90.0-a.d+25.08.25.19.05
-    - boost-mp11/1.90.0-a.d+25.09.09.16.43
+    - boost-mp11/1.90.0-a.d+25.10.09.18.32
     - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - boost-variant2/1.90.0-a.d+25.01.15.19.44
@@ -58,7 +58,7 @@ sources:
     - boost-filesystem/1.90.0-a.m+25.10.01.17.38
     - boost-integer/1.90.0-a.m+25.08.25.19.05
     - boost-iterator/1.90.0-a.m+25.08.25.19.05
-    - boost-mp11/1.90.0-a.m+25.09.09.16.43
+    - boost-mp11/1.90.0-a.m+25.10.09.18.32
     - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - boost-variant2/1.90.0-a.m+25.01.15.19.44

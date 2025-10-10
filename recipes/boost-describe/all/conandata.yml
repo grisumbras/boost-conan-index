@@ -12,10 +12,10 @@ sources:
   1.90.0-a.d+25.08.17.10.18:
     commit: 5858ccb775d415283dfd77ab5aeb7035faeaab91
     dependencies:
-    - boost-mp11/1.90.0-a.d+25.09.09.16.43
+    - boost-mp11/1.90.0-a.d+25.10.09.18.32
     url: https://github.com/boostorg/describe.git
   1.90.0-a.m+25.08.17.10.18:
     commit: 5858ccb775d415283dfd77ab5aeb7035faeaab91
     dependencies:
-    - boost-mp11/1.90.0-a.m+25.09.09.16.43
+    - boost-mp11/1.90.0-a.m+25.10.09.18.32
     url: https://github.com/boostorg/describe.git

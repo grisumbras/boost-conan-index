@@ -92,7 +92,7 @@ sources:
     - boost-describe/1.90.0-a.d+25.08.17.10.18
     - boost-endian/1.90.0-a.d+24.12.14.03.43
     - boost-intrusive/1.90.0-a.d+25.08.25.23.15
-    - boost-mp11/1.90.0-a.d+25.09.09.16.43
+    - boost-mp11/1.90.0-a.d+25.10.09.18.32
     - boost-optional/1.90.0-a.d+24.12.08.17.21
     - boost-pfr/1.90.0-a.d+25.10.06.18.38
     - boost-system/1.90.0-a.d+25.07.02.19.12
@@ -112,7 +112,7 @@ sources:
     - boost-describe/1.90.0-a.m+25.08.17.10.18
     - boost-endian/1.90.0-a.m+24.12.14.03.43
     - boost-intrusive/1.90.0-a.m+25.08.25.23.15
-    - boost-mp11/1.90.0-a.m+25.09.09.16.43
+    - boost-mp11/1.90.0-a.m+25.10.09.18.32
     - boost-optional/1.90.0-a.m+24.12.04.00.23
     - boost-pfr/1.90.0-a.m+25.09.14.14.59
     - boost-system/1.90.0-a.m+25.07.02.19.12

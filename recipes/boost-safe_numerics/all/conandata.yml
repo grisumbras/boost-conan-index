@@ -27,7 +27,7 @@ sources:
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-integer/1.90.0-a.d+25.08.25.19.05
     - boost-logic/1.90.0-a.d+25.07.02.08.14
-    - boost-mp11/1.90.0-a.d+25.09.09.16.43
+    - boost-mp11/1.90.0-a.d+25.10.09.18.32
     url: https://github.com/boostorg/safe_numerics.git
   1.90.0-a.m+21.06.04.22.00:
     commit: 777e0be5ec763d0333a717c5e421a4f7c5e5bdc9
@@ -37,5 +37,5 @@ sources:
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-integer/1.90.0-a.m+25.08.25.19.05
     - boost-logic/1.90.0-a.m+25.01.01.20.44
-    - boost-mp11/1.90.0-a.m+25.09.09.16.43
+    - boost-mp11/1.90.0-a.m+25.10.09.18.32
     url: https://github.com/boostorg/safe_numerics.git

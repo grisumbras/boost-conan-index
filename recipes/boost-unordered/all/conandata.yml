@@ -28,7 +28,7 @@ sources:
     - boost-config/1.90.0-a.d+25.10.09.16.01
     - boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - boost-core/1.90.0-a.d+25.08.25.19.05
-    - boost-mp11/1.90.0-a.d+25.09.09.16.43
+    - boost-mp11/1.90.0-a.d+25.10.09.18.32
     - boost-predef/1.90.0-a.d+25.02.03.08.30
     - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     url: https://github.com/boostorg/unordered.git
@@ -39,7 +39,7 @@ sources:
     - boost-config/1.90.0-a.m+25.10.09.16.06
     - boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - boost-core/1.90.0-a.m+25.08.25.19.05
-    - boost-mp11/1.90.0-a.m+25.09.09.16.43
+    - boost-mp11/1.90.0-a.m+25.10.09.18.32
     - boost-predef/1.90.0-a.m+25.01.12.12.53
     - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     url: https://github.com/boostorg/unordered.git

@@ -34,7 +34,7 @@ sources:
     - boost-core/1.90.0-a.d+25.08.25.19.05
     - boost-function/1.90.0-a.d+24.12.14.04.39
     - boost-fusion/1.90.0-a.d+24.08.21.20.51
-    - boost-mp11/1.90.0-a.d+25.09.09.16.43
+    - boost-mp11/1.90.0-a.d+25.10.09.18.32
     - boost-mpl/1.90.0-a.d+25.07.03.00.11
     - boost-optional/1.90.0-a.d+24.12.08.17.21
     - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
@@ -48,7 +48,7 @@ sources:
     - boost-core/1.90.0-a.m+25.08.25.19.05
     - boost-function/1.90.0-a.m+24.12.14.04.39
     - boost-fusion/1.90.0-a.m+24.05.15.10.13
-    - boost-mp11/1.90.0-a.m+25.09.09.16.43
+    - boost-mp11/1.90.0-a.m+25.10.09.18.32
     - boost-mpl/1.90.0-a.m+25.06.27.02.18
     - boost-optional/1.90.0-a.m+24.12.04.00.23
     - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
