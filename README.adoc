@@ -1,0 +1,93 @@
+= Boost Conan Index
+
+Conan package recipe index for Boost libraries. The project can be cloned and
+used as a
+https://docs.conan.io/2/tutorial/conan_repositories/setup_local_recipes_index.html[
+local recipe index].
+
+The index contains packages for Boost libraries separately and not as
+a monolith. There are versions of packages that correspond to Boost releases,
+betas, and nightly versions creates from the state of Boost superproject each
+day based on develop and master branches. Release package have Conan refs like
+`boost-LIBRARY/MAJOR.MINOR.PATCH` (e.g. `boost-any/1.89.0`). Beta packages have
+Conan refs like `boost-LIBRARY/MAJOR.MINOR.PATCH-b.N` (e.g.
+`boost-any/1.89.0-b.1`). Nightly packages have Conan refs like
+`boost-LIBRARY/MAJOR.MINOR.0-a.B+YY.MM.DD.HH.mm` (e.g.
+`boost-config/1.90.0-a.m+25.07.04.12.10`). In this latter case, `MAJOR.MINOR.0`
+is the Boost version that was planned to be the next at the time of the package
+creation. `B` is the first letter of the branch name of the Boost superproject
+that was used to create the packages. `YY.MM.DD.HH.mm` is the date and time the
+specific commit referred to by the package was authored (year is used without
+the century digits).
+
+NOTE: Beta and nightly packages' version structure makes them prereleases
+(which they in fact are). Conan doesn't find prerelease versions unless it is
+https://docs.conan.io/2/devops/versioning/resolve_prereleases.html[allowed to
+do so].
+
+== Install
+
+```sh
+git clone https://github.com/grisumbras/boost-conan-index -b index --depth 1
+conan remote add boost-conan-index ./boost-conan-index
+```
+
+To update the index
+```sh
+git -C boost-conan-index pull
+```
+
+== Usage
+
+When added the recipe index behaves like a regular conan remote. However note
+that the index doesn't provide any prebuilt packages, thus anything installed
+from it would require a `--build=missing` or a similar flag (see
+https://docs.conan.io/2/reference/commands/install.html[`conan install`
+documentation]).
+
+Prereleases are sorted as tuples of `(version, prerelease, build)`.
+Alphanumeric components are sorted lexicographically. Hence, given packages
+`boost-config/1.90.0-a.d+25.1.2.12.22` and
+`boost-config/1.90.0-a.m+25.1.1.12.22`, the latter is consider more recent
+(`m` is greater than `d` lexicographically). This sorts all `develop`-based
+packages for a given Boost _before_ `master`-based packages, which are in turn
+sorted before betas, which themselves are sorted before the following release.
+
+Don't forget to use `-u` or `--update` in Conan commands to get the more recent
+packages from the index rather than using the versions you already have in
+local cache.
+
+=== Example Version Requests
+
+Boost.Any from the Boost release 1.89.0:: `boost-any/1.89.0`
+
+Boost.Any from Boost 1.89.0 first beta::
+`boost-any/[1.90.0-b.1, include_prerelease]`
+
+Most recent released version of Boost.Any:: `boost-any/[*]`
+
+Most recent version of Boost.Any, including prereleases::
+`boost-any/[>0-a, include_prerelease]`
+
+Most recent nightly version of Boost.Any before release 1.90.0::
+`boost-any/[<1.90.0-z, include_prerelease]`
+
+Most recent version of Boost.Any from master before release 1.90.0::
+`boost-any/[>=1.90.0-a.m <1.90.0-z, include_prerelease]`
+
+Most recent version of Boost.Any from develop before release 1.90.0::
+`boost-any/[>=1.90.0-a.m <1.90.0-a.m, include_prerelease]`
+
+Most recent version of Boost.Any from develop before release 1.90.0, authored before July 2025::
+`boost-any/[<1.90.0-a.d+2025.07, include_prerelease]`
+
+Most recent version of Boost.Any from master before release 1.90.0, authored in July 2025::
+`boost-any/[>=1.90.0-a.m+2025.07 <1.90.0-a.m+2025.08, include_prerelease]`
+
+== Contributing
+
+Contributions are welcome.
+
+== License
+
+link:LICENSE_1_0.txt[BSL-1.0] (C) 2025 Dmitry Arkhipov <grisumbras@yandex.ru>.
