@@ -244,9 +244,11 @@ class LibraryProject(Project):
                     setattr(self, k, v)
 
             includedir = os.path.join(lib, 'include')
+            offset = len(includedir) + 1
             for root, _, files in fs.walk(includedir):
+                if root[offset:].find('detail') >= 0:
+                    continue
                 if files:
-                    offset = len(includedir) + 1
                     self.header = os.path.join(root, files[0])[offset:]
                     break
 
