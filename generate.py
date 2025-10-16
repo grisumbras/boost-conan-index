@@ -44,7 +44,7 @@ def main(argv):
     module_registry = {tools.name: tools}
 
     with git.clone_ref(args.url, args.ref, bare=True) as root:
-        boost = SuperProject(root, args.url, args.ref, git)
+        boost = SuperProject(root, args.url, args.ref, args.tool_ref, git)
         module_registry['boost'] = boost
         for submodule in boost.submodules(tools, git):
             module_registry[submodule.name] = submodule
@@ -82,6 +82,11 @@ def parse_args(argv):
         '--ref',
         default=default_superproject_ref,
         help=f'Boost superproject git ref to use (default: {default_superproject_ref})',
+    )
+    parser.add_argument(
+        '--tool-ref',
+        default=default_superproject_ref,
+        help=f'Tool subproject git ref to use (default: {default_superproject_ref})',
     )
     parser.add_argument(
         '-T', '--target',
@@ -159,9 +164,10 @@ class SuperProject(Project):
     def conan_name(self):
         return self.name
 
-    def __init__(self, path, url, git_ref, git):
+    def __init__(self, path, url, git_ref, tool_git_ref, git):
         super().__init__('boost')
         self.git_ref = git_ref
+        self.tool_git_ref = tool_git_ref
         self.path = path
         self.url = url
         self.commit = git.get_commit(path)
@@ -303,7 +309,7 @@ class ToolProject(Project):
         super().__init__(name)
         self.superproject = superproject
         self.url = urllib.parse.urljoin(superproject.url, url)
-        self.commit = git.submodule_commit(superproject.path, path)
+        self.ref = superproject.tool_git_ref
 
     def collect_data(self, *_):
         pass
@@ -313,7 +319,7 @@ class ToolProject(Project):
 
     @contextlib.contextmanager
     def materialize(self, git):
-        with git.clone_commit(self.url, self.commit, target=self.name) as lib:
+        with git.clone_ref(self.url, self.ref, target=self.name) as lib:
             try:
                 yield lib
             finally:
