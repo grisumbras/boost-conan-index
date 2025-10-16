@@ -226,7 +226,8 @@ class LibraryProject(Project):
         self.recipe_tools = tools
         self.url = urllib.parse.urljoin(superproject.url, url)
         self.commit = git.submodule_commit(superproject.path, path)
-        self.dependencies = []
+        self.private_dependencies = []
+        self.public_dependencies = []
 
     def collect_data(self, git, fs, registry, depinst):
         with git.clone_commit(self.url, self.commit, target=self.name) as lib:
@@ -250,7 +251,9 @@ class LibraryProject(Project):
                     break
 
             self.headeronly = self._is_header_only(lib, fs)
-            self.dependencies = depinst(self, lib, registry)
+            self.public_dependencies, self.private_dependencies = depinst(
+                self, lib, registry,
+            )
 
     def generate_recipe(self, base_dir, template_env, fs):
         pkg_base_dir = os.path.join(base_dir, 'recipes', self.conan_name)
@@ -271,7 +274,12 @@ class LibraryProject(Project):
         conandata['sources'][self.conan_version] = {
             'url': self.url,
             'commit': self.commit,
-            'dependencies': [dep.conan_ref for dep in self.dependencies],
+            'dependencies': {
+                'public': [dep.conan_ref for dep in self.public_dependencies],
+                'private': [
+                    dep.conan_ref for dep in self.private_dependencies
+                ],
+            },
         }
 
         with fs.open(os.path.join(pkg_dir, 'conandata.yml'), 'w') as f:
@@ -537,17 +545,31 @@ class Depinst():
         self._exceptions = exceptions
 
     def __call__(self, lib, lib_dir, registry):
-        deps = {lib.name : 1}
+        public_deps = {lib.name: 1}
+        self._module.scan_directory(
+            os.path.join(lib_dir, 'include'),
+            self._exceptions,
+            registry,
+            public_deps,
+            [],
+        )
+
+        private_deps = {lib.name : 1}
         for subdir in ['include', 'src', 'build']:
             self._module.scan_directory(
                 os.path.join(lib_dir, subdir),
                 self._exceptions,
                 registry,
-                deps,
+                private_deps,
                 [],
             )
-        deps = (self._fix(dep) for dep in deps if dep != lib.name)
-        return [registry[dep] for dep in sorted(set(deps)) if dep != lib.name]
+
+        private_deps = sorted(set(self._fix(dep) for dep in private_deps))
+        public_deps = sorted(set(self._fix(dep) for dep in public_deps))
+        return (
+            [registry[dep] for dep in public_deps if dep != lib.name],
+            [registry[dep] for dep in private_deps if dep not in public_deps],
+        )
 
     @staticmethod
     def _fix(dep):

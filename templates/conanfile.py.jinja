@@ -38,11 +38,21 @@ class Boost{{ project.name.title() | replace('-', '') | replace('_', '') }}Recip
     {%- endif %}
 
     def requirements(self):
-        for dep in self.conan_data['sources'][self.version]['dependencies']:
+        deps = self.conan_data['sources'][self.version]['dependencies']
+        for dep in deps['public']:
             self.requires(
                 dep,
                 headers=True,
                 transitive_headers=True,
+            {%- if not project.headeronly %}
+                libs=True,
+                transitive_libs=True,
+            {%- endif %}
+            )
+        for dep in deps['private']:
+            self.requires(
+                dep,
+                headers=True,
             {%- if not project.headeronly %}
                 libs=True,
                 transitive_libs=True,
