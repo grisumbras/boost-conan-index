@@ -544,6 +544,7 @@ class Depinst():
                 self._exceptions,
                 registry,
                 deps,
+                [],
             )
         deps = (self._fix(dep) for dep in deps if dep != lib.name)
         return [registry[dep] for dep in sorted(set(deps)) if dep != lib.name]
