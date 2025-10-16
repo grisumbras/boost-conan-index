@@ -1,0 +1,29 @@
+sources:
+  1.89.0:
+    commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0
+    url: https://github.com/boostorg/static_assert.git
+  1.89.0-b.1:
+    commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0-b.1
+    url: https://github.com/boostorg/static_assert.git
+  1.90.0-a.d+25.04.15.18.33:
+    commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+    url: https://github.com/boostorg/static_assert.git
+  1.90.0-a.m+25.04.15.18.33:
+    commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+    url: https://github.com/boostorg/static_assert.git

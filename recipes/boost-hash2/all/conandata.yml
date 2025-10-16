@@ -1,0 +1,45 @@
+sources:
+  1.89.0:
+    commit: 5cf695e5e2466df247561894b3c15b4394a68486
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-container_hash/1.89.0
+      - boost-describe/1.89.0
+      - boost-mp11/1.89.0
+    url: https://github.com/boostorg/hash2.git
+  1.89.0-b.1:
+    commit: 5cf695e5e2466df247561894b3c15b4394a68486
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-container_hash/1.89.0-b.1
+      - boost-describe/1.89.0-b.1
+      - boost-mp11/1.89.0-b.1
+    url: https://github.com/boostorg/hash2.git
+  1.90.0-a.d+25.07.03.21.14:
+    commit: 5cf695e5e2466df247561894b3c15b4394a68486
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-container_hash/1.90.0-a.d+25.08.21.19.31
+      - boost-describe/1.90.0-a.d+25.08.17.10.18
+      - boost-mp11/1.90.0-a.d+25.10.09.18.32
+    url: https://github.com/boostorg/hash2.git
+  1.90.0-a.m+25.07.03.21.14:
+    commit: 5cf695e5e2466df247561894b3c15b4394a68486
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-container_hash/1.90.0-a.m+25.08.21.19.31
+      - boost-describe/1.90.0-a.m+25.08.17.10.18
+      - boost-mp11/1.90.0-a.m+25.10.09.18.32
+    url: https://github.com/boostorg/hash2.git

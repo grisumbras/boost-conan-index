@@ -1,0 +1,49 @@
+sources:
+  1.89.0:
+    commit: d6499f26d471158b6e6f65eea7425200f842b547
+    dependencies:
+      private:
+      - boost-assert/1.89.0
+      public:
+      - boost-config/1.89.0
+      - boost-container_hash/1.89.0
+      - boost-core/1.89.0
+      - boost-predef/1.89.0
+      - boost-winapi/1.89.0
+    url: https://github.com/boostorg/stacktrace.git
+  1.89.0-b.1:
+    commit: d6499f26d471158b6e6f65eea7425200f842b547
+    dependencies:
+      private:
+      - boost-assert/1.89.0-b.1
+      public:
+      - boost-config/1.89.0-b.1
+      - boost-container_hash/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-predef/1.89.0-b.1
+      - boost-winapi/1.89.0-b.1
+    url: https://github.com/boostorg/stacktrace.git
+  1.90.0-a.d+25.09.09.12.01:
+    commit: cf5992230b9077ec1d8758824cdb8acf58b71407
+    dependencies:
+      private:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      public:
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-container_hash/1.90.0-a.d+25.08.21.19.31
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-predef/1.90.0-a.d+25.02.03.08.30
+      - boost-winapi/1.90.0-a.d+25.08.25.19.08
+    url: https://github.com/boostorg/stacktrace.git
+  1.90.0-a.m+25.09.09.12.01:
+    commit: cf5992230b9077ec1d8758824cdb8acf58b71407
+    dependencies:
+      private:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      public:
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-container_hash/1.90.0-a.m+25.08.21.19.31
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-predef/1.90.0-a.m+25.01.12.12.53
+      - boost-winapi/1.90.0-a.m+25.08.25.19.08
+    url: https://github.com/boostorg/stacktrace.git

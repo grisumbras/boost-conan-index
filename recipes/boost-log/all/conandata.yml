@@ -1,0 +1,169 @@
+sources:
+  1.89.0:
+    commit: ad2eb6c4e54ebefb667fac25672bdd723fe55f37
+    dependencies:
+      private:
+      - boost-align/1.89.0
+      - boost-asio/1.89.0
+      - boost-interprocess/1.89.0
+      - boost-io/1.89.0
+      - boost-predef/1.89.0
+      public:
+      - boost-assert/1.89.0
+      - boost-atomic/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-date_time/1.89.0
+      - boost-exception/1.89.0
+      - boost-filesystem/1.89.0
+      - boost-function_types/1.89.0
+      - boost-fusion/1.89.0
+      - boost-intrusive/1.89.0
+      - boost-iterator/1.89.0
+      - boost-move/1.89.0
+      - boost-mpl/1.89.0
+      - boost-optional/1.89.0
+      - boost-parameter/1.89.0
+      - boost-phoenix/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-property_tree/1.89.0
+      - boost-proto/1.89.0
+      - boost-range/1.89.0
+      - boost-regex/1.89.0
+      - boost-smart_ptr/1.89.0
+      - boost-spirit/1.89.0
+      - boost-system/1.89.0
+      - boost-thread/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-type_index/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-utility/1.89.0
+      - boost-winapi/1.89.0
+      - boost-xpressive/1.89.0
+    url: https://github.com/boostorg/log.git
+  1.89.0-b.1:
+    commit: 805f0cf971bd6bf1af005b06e5e4c47eb3e1e1a5
+    dependencies:
+      private:
+      - boost-align/1.89.0-b.1
+      - boost-asio/1.89.0-b.1
+      - boost-interprocess/1.89.0-b.1
+      - boost-io/1.89.0-b.1
+      - boost-predef/1.89.0-b.1
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-atomic/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-date_time/1.89.0-b.1
+      - boost-exception/1.89.0-b.1
+      - boost-filesystem/1.89.0-b.1
+      - boost-function_types/1.89.0-b.1
+      - boost-fusion/1.89.0-b.1
+      - boost-intrusive/1.89.0-b.1
+      - boost-iterator/1.89.0-b.1
+      - boost-move/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-optional/1.89.0-b.1
+      - boost-parameter/1.89.0-b.1
+      - boost-phoenix/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-property_tree/1.89.0-b.1
+      - boost-proto/1.89.0-b.1
+      - boost-range/1.89.0-b.1
+      - boost-regex/1.89.0-b.1
+      - boost-smart_ptr/1.89.0-b.1
+      - boost-spirit/1.89.0-b.1
+      - boost-system/1.89.0-b.1
+      - boost-thread/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-type_index/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-utility/1.89.0-b.1
+      - boost-winapi/1.89.0-b.1
+      - boost-xpressive/1.89.0-b.1
+    url: https://github.com/boostorg/log.git
+  1.90.0-a.d+25.10.01.17.41:
+    commit: 3ab24d1e4f3b621d6d031d5c47c540f453d1f8be
+    dependencies:
+      private:
+      - boost-align/1.90.0-a.d+25.06.26.11.43
+      - boost-asio/1.90.0-a.d+25.08.06.22.32
+      - boost-interprocess/1.90.0-a.d+25.09.05.00.08
+      - boost-io/1.90.0-a.d+25.06.26.11.42
+      - boost-predef/1.90.0-a.d+25.02.03.08.30
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-atomic/1.90.0-a.d+25.09.30.15.42
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-date_time/1.90.0-a.d+25.07.07.06.39
+      - boost-exception/1.90.0-a.d+25.05.03.03.11
+      - boost-filesystem/1.90.0-a.d+25.10.01.17.38
+      - boost-function_types/1.90.0-a.d+24.09.18.18.18
+      - boost-fusion/1.90.0-a.d+24.08.21.20.51
+      - boost-intrusive/1.90.0-a.d+25.08.25.23.15
+      - boost-iterator/1.90.0-a.d+25.08.25.19.05
+      - boost-move/1.90.0-a.d+25.08.23.23.03
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-optional/1.90.0-a.d+24.12.08.17.21
+      - boost-parameter/1.90.0-a.d+25.08.25.19.06
+      - boost-phoenix/1.90.0-a.d+24.09.12.00.15
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-property_tree/1.90.0-a.d+25.06.30.13.56
+      - boost-proto/1.90.0-a.d+25.05.02.19.17
+      - boost-range/1.90.0-a.d+25.05.02.19.18
+      - boost-regex/1.90.0-a.d+25.07.04.20.20
+      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      - boost-spirit/1.90.0-a.d+25.10.06.20.36
+      - boost-system/1.90.0-a.d+25.07.02.19.12
+      - boost-thread/1.90.0-a.d+25.05.02.19.21
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-type_index/1.90.0-a.d+25.10.14.11.58
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-utility/1.90.0-a.d+25.08.25.19.07
+      - boost-winapi/1.90.0-a.d+25.08.25.19.08
+      - boost-xpressive/1.90.0-a.d+25.05.02.19.26
+    url: https://github.com/boostorg/log.git
+  1.90.0-a.m+25.10.01.17.41:
+    commit: 3ab24d1e4f3b621d6d031d5c47c540f453d1f8be
+    dependencies:
+      private:
+      - boost-align/1.90.0-a.m+22.11.11.18.29
+      - boost-asio/1.90.0-a.m+25.08.06.22.37
+      - boost-interprocess/1.90.0-a.m+25.09.05.00.08
+      - boost-io/1.90.0-a.m+23.10.03.00.15
+      - boost-predef/1.90.0-a.m+25.01.12.12.53
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-atomic/1.90.0-a.m+25.09.30.15.42
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-date_time/1.90.0-a.m+22.10.31.09.22
+      - boost-exception/1.90.0-a.m+25.03.02.03.25
+      - boost-filesystem/1.90.0-a.m+25.10.01.17.38
+      - boost-function_types/1.90.0-a.m+24.09.18.18.18
+      - boost-fusion/1.90.0-a.m+24.05.15.10.13
+      - boost-intrusive/1.90.0-a.m+25.08.25.23.15
+      - boost-iterator/1.90.0-a.m+25.08.25.19.05
+      - boost-move/1.90.0-a.m+25.08.23.23.03
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-optional/1.90.0-a.m+24.12.04.00.23
+      - boost-parameter/1.90.0-a.m+25.08.25.19.06
+      - boost-phoenix/1.90.0-a.m+23.08.29.14.32
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-property_tree/1.90.0-a.m+25.06.30.13.56
+      - boost-proto/1.90.0-a.m+21.03.18.17.30
+      - boost-range/1.90.0-a.m+25.02.08.16.31
+      - boost-regex/1.90.0-a.m+25.07.04.17.16
+      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+      - boost-spirit/1.90.0-a.m+25.09.17.08.31
+      - boost-system/1.90.0-a.m+25.07.02.19.12
+      - boost-thread/1.90.0-a.m+25.05.02.19.21
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-type_index/1.90.0-a.m+25.10.07.20.25
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-utility/1.90.0-a.m+25.08.25.19.07
+      - boost-winapi/1.90.0-a.m+25.08.25.19.08
+      - boost-xpressive/1.90.0-a.m+24.09.27.20.36
+    url: https://github.com/boostorg/log.git

@@ -1,0 +1,41 @@
+sources:
+  1.89.0:
+    commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-throw_exception/1.89.0
+    url: https://github.com/boostorg/array.git
+  1.89.0-b.1:
+    commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+    url: https://github.com/boostorg/array.git
+  1.90.0-a.d+25.04.03.14.10:
+    commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    url: https://github.com/boostorg/array.git
+  1.90.0-a.m+25.04.03.14.10:
+    commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    url: https://github.com/boostorg/array.git

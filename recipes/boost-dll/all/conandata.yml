@@ -1,0 +1,65 @@
+sources:
+  1.89.0:
+    commit: 4105c3a8f8d5287b59b0185c45d4c9a768d92a55
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-filesystem/1.89.0
+      - boost-predef/1.89.0
+      - boost-smart_ptr/1.89.0
+      - boost-system/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-type_index/1.89.0
+      - boost-winapi/1.89.0
+    url: https://github.com/boostorg/dll.git
+  1.89.0-b.1:
+    commit: 4105c3a8f8d5287b59b0185c45d4c9a768d92a55
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-filesystem/1.89.0-b.1
+      - boost-predef/1.89.0-b.1
+      - boost-smart_ptr/1.89.0-b.1
+      - boost-system/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-type_index/1.89.0-b.1
+      - boost-winapi/1.89.0-b.1
+    url: https://github.com/boostorg/dll.git
+  1.90.0-a.d+25.08.26.12.02:
+    commit: c6d1c7f977c9952a3e895de15622d263eea38e9c
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-filesystem/1.90.0-a.d+25.10.01.17.38
+      - boost-predef/1.90.0-a.d+25.02.03.08.30
+      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      - boost-system/1.90.0-a.d+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-type_index/1.90.0-a.d+25.10.14.11.58
+      - boost-winapi/1.90.0-a.d+25.08.25.19.08
+    url: https://github.com/boostorg/dll.git
+  1.90.0-a.m+25.08.26.12.02:
+    commit: c6d1c7f977c9952a3e895de15622d263eea38e9c
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-filesystem/1.90.0-a.m+25.10.01.17.38
+      - boost-predef/1.90.0-a.m+25.01.12.12.53
+      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+      - boost-system/1.90.0-a.m+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-type_index/1.90.0-a.m+25.10.07.20.25
+      - boost-winapi/1.90.0-a.m+25.08.25.19.08
+    url: https://github.com/boostorg/dll.git

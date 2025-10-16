@@ -1,0 +1,25 @@
+sources:
+  1.89.0:
+    commit: 5034bf55fb6bd1efa7a14955bbb7171c2b3491fc
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/pfr.git
+  1.89.0-b.1:
+    commit: 5034bf55fb6bd1efa7a14955bbb7171c2b3491fc
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/pfr.git
+  1.90.0-a.d+25.10.06.18.38:
+    commit: 7509049f2c271aa22d74a446411c593be5ee0019
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/pfr.git
+  1.90.0-a.m+25.09.14.14.59:
+    commit: 4f9e6457b0e79df1e705e79911078d51647f88c4
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/pfr.git

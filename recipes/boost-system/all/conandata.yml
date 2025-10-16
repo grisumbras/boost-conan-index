@@ -1,0 +1,45 @@
+sources:
+  1.89.0:
+    commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-variant2/1.89.0
+      - boost-winapi/1.89.0
+    url: https://github.com/boostorg/system.git
+  1.89.0-b.1:
+    commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-variant2/1.89.0-b.1
+      - boost-winapi/1.89.0-b.1
+    url: https://github.com/boostorg/system.git
+  1.90.0-a.d+25.07.02.19.12:
+    commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-variant2/1.90.0-a.d+25.01.15.19.44
+      - boost-winapi/1.90.0-a.d+25.08.25.19.08
+    url: https://github.com/boostorg/system.git
+  1.90.0-a.m+25.07.02.19.12:
+    commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-variant2/1.90.0-a.m+25.01.15.19.44
+      - boost-winapi/1.90.0-a.m+25.08.25.19.08
+    url: https://github.com/boostorg/system.git

@@ -1,0 +1,33 @@
+sources:
+  1.89.0:
+    commit: b2f5f57fdb38ca42bc33b55d5e9cd7024e355399
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0
+      - boost-filesystem/1.89.0
+    url: https://github.com/boostorg/nowide.git
+  1.89.0-b.1:
+    commit: b2f5f57fdb38ca42bc33b55d5e9cd7024e355399
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0-b.1
+      - boost-filesystem/1.89.0-b.1
+    url: https://github.com/boostorg/nowide.git
+  1.90.0-a.d+25.09.18.19.58:
+    commit: 2a8f682b6fd4a470bc84fea91ba03ff0c1b63ed3
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-filesystem/1.90.0-a.d+25.10.01.17.38
+    url: https://github.com/boostorg/nowide.git
+  1.90.0-a.m+25.07.08.19.56:
+    commit: b2f5f57fdb38ca42bc33b55d5e9cd7024e355399
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-filesystem/1.90.0-a.m+25.10.01.17.38
+    url: https://github.com/boostorg/nowide.git

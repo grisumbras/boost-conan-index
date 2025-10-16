@@ -1,0 +1,29 @@
+sources:
+  1.89.0:
+    commit: 40d2be68bae9acfb4f165cdaab0a4246c5af5485
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0
+    url: https://github.com/boostorg/move.git
+  1.89.0-b.1:
+    commit: 40d2be68bae9acfb4f165cdaab0a4246c5af5485
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0-b.1
+    url: https://github.com/boostorg/move.git
+  1.90.0-a.d+25.08.23.23.03:
+    commit: 23f9356314fde7544fb2de7f91ddd070011c72e5
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+    url: https://github.com/boostorg/move.git
+  1.90.0-a.m+25.08.23.23.03:
+    commit: 23f9356314fde7544fb2de7f91ddd070011c72e5
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+    url: https://github.com/boostorg/move.git

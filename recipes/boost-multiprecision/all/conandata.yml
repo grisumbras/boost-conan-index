@@ -1,0 +1,61 @@
+sources:
+  1.89.0:
+    commit: e0c112538ff1e903594d039f2eb97e0057737e5d
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-integer/1.89.0
+      - boost-lexical_cast/1.89.0
+      - boost-math/1.89.0
+      - boost-predef/1.89.0
+      - boost-random/1.89.0
+      - boost-throw_exception/1.89.0
+    url: https://github.com/boostorg/multiprecision.git
+  1.89.0-b.1:
+    commit: e0c112538ff1e903594d039f2eb97e0057737e5d
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-integer/1.89.0-b.1
+      - boost-lexical_cast/1.89.0-b.1
+      - boost-math/1.89.0-b.1
+      - boost-predef/1.89.0-b.1
+      - boost-random/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+    url: https://github.com/boostorg/multiprecision.git
+  1.90.0-a.d+25.09.22.22.37:
+    commit: 9aae2f822f2335cff11ca9761dfaefa7989db6f8
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-integer/1.90.0-a.d+25.08.25.19.05
+      - boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
+      - boost-math/1.90.0-a.d+25.10.03.18.32
+      - boost-predef/1.90.0-a.d+25.02.03.08.30
+      - boost-random/1.90.0-a.d+25.10.01.07.50
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    url: https://github.com/boostorg/multiprecision.git
+  1.90.0-a.m+25.07.02.11.53:
+    commit: e0c112538ff1e903594d039f2eb97e0057737e5d
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-integer/1.90.0-a.m+25.08.25.19.05
+      - boost-lexical_cast/1.90.0-a.m+25.10.11.17.36
+      - boost-math/1.90.0-a.m+25.10.15.18.57
+      - boost-predef/1.90.0-a.m+25.01.12.12.53
+      - boost-random/1.90.0-a.m+25.07.03.08.55
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    url: https://github.com/boostorg/multiprecision.git

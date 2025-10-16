@@ -1,0 +1,49 @@
+sources:
+  1.89.0:
+    commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0
+      - boost-mpl/1.89.0
+      - boost-predef/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-type_traits/1.89.0
+    url: https://github.com/boostorg/metaparse.git
+  1.89.0-b.1:
+    commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-predef/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+    url: https://github.com/boostorg/metaparse.git
+  1.90.0-a.d+25.04.14.20.30:
+    commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-predef/1.90.0-a.d+25.02.03.08.30
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    url: https://github.com/boostorg/metaparse.git
+  1.90.0-a.m+25.04.14.20.30:
+    commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-predef/1.90.0-a.m+25.01.12.12.53
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    url: https://github.com/boostorg/metaparse.git

@@ -1,0 +1,9 @@
+require-b2 5.3.0 ;
+
+import testing ;
+
+project package_test ;
+
+exe test : test.cpp /boost/json//boost_json ;
+run test : target-name run ;
+explicit run ;

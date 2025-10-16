@@ -1,0 +1,53 @@
+sources:
+  1.89.0:
+    commit: d1b479f7a4aa54d8ffb93d8dc4ee0c24670210d8
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0
+      - boost-conversion/1.89.0
+      - boost-core/1.89.0
+      - boost-mpl/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-type_traits/1.89.0
+    url: https://github.com/boostorg/numeric_conversion.git
+  1.89.0-b.1:
+    commit: d1b479f7a4aa54d8ffb93d8dc4ee0c24670210d8
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0-b.1
+      - boost-conversion/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+    url: https://github.com/boostorg/numeric_conversion.git
+  1.90.0-a.d+25.06.26.07.40:
+    commit: d1b479f7a4aa54d8ffb93d8dc4ee0c24670210d8
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-conversion/1.90.0-a.d+25.10.07.20.26
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    url: https://github.com/boostorg/numeric_conversion.git
+  1.90.0-a.m+25.06.26.07.40:
+    commit: d1b479f7a4aa54d8ffb93d8dc4ee0c24670210d8
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-conversion/1.90.0-a.m+25.10.07.20.26
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    url: https://github.com/boostorg/numeric_conversion.git

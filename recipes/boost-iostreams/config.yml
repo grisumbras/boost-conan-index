@@ -1,0 +1,9 @@
+versions:
+  1.89.0:
+    folder: all
+  1.89.0-b.1:
+    folder: all
+  1.90.0-a.d+24.12.15.22.27:
+    folder: all
+  1.90.0-a.m+24.12.15.22.27:
+    folder: all

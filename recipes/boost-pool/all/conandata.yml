@@ -1,0 +1,49 @@
+sources:
+  1.89.0:
+    commit: 740c8076f9d02f0216e8f3dbb15d2fd80f67d7f4
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-integer/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-winapi/1.89.0
+    url: https://github.com/boostorg/pool.git
+  1.89.0-b.1:
+    commit: 740c8076f9d02f0216e8f3dbb15d2fd80f67d7f4
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-integer/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-winapi/1.89.0-b.1
+    url: https://github.com/boostorg/pool.git
+  1.90.0-a.d+19.09.06.01.34:
+    commit: 571909a59e29c7fa1f3cae8225f77f9d9d17ecef
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-integer/1.90.0-a.d+25.08.25.19.05
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-winapi/1.90.0-a.d+25.08.25.19.08
+    url: https://github.com/boostorg/pool.git
+  1.90.0-a.m+25.02.25.18.47:
+    commit: 740c8076f9d02f0216e8f3dbb15d2fd80f67d7f4
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-integer/1.90.0-a.m+25.08.25.19.05
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-winapi/1.90.0-a.m+25.08.25.19.08
+    url: https://github.com/boostorg/pool.git

@@ -1,0 +1,61 @@
+sources:
+  1.89.0:
+    commit: f439e22ae41fa647bd7de16c2d92deb232593985
+    dependencies:
+      private:
+      - boost-core/1.89.0
+      - boost-smart_ptr/1.89.0
+      public:
+      - boost-assert/1.89.0
+      - boost-concept_check/1.89.0
+      - boost-config/1.89.0
+      - boost-predef/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-type_traits/1.89.0
+    url: https://github.com/boostorg/regex.git
+  1.89.0-b.1:
+    commit: f439e22ae41fa647bd7de16c2d92deb232593985
+    dependencies:
+      private:
+      - boost-core/1.89.0-b.1
+      - boost-smart_ptr/1.89.0-b.1
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-concept_check/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-predef/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+    url: https://github.com/boostorg/regex.git
+  1.90.0-a.d+25.07.04.20.20:
+    commit: ed6ebbd5a52b566e454e0cc34494dd2912c6c66c
+    dependencies:
+      private:
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-concept_check/1.90.0-a.d+25.07.02.07.32
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-predef/1.90.0-a.d+25.02.03.08.30
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    url: https://github.com/boostorg/regex.git
+  1.90.0-a.m+25.07.04.17.16:
+    commit: f439e22ae41fa647bd7de16c2d92deb232593985
+    dependencies:
+      private:
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-concept_check/1.90.0-a.m+24.12.28.18.10
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-predef/1.90.0-a.m+25.01.12.12.53
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    url: https://github.com/boostorg/regex.git

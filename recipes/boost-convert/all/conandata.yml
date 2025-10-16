@@ -1,0 +1,69 @@
+sources:
+  1.89.0:
+    commit: 0dd7a76b1c051c048b4991b7aa9c8b5aeb5776ee
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-function_types/1.89.0
+      - boost-lexical_cast/1.89.0
+      - boost-math/1.89.0
+      - boost-mpl/1.89.0
+      - boost-optional/1.89.0
+      - boost-parameter/1.89.0
+      - boost-range/1.89.0
+      - boost-spirit/1.89.0
+      - boost-type_traits/1.89.0
+    url: https://github.com/boostorg/convert.git
+  1.89.0-b.1:
+    commit: 0dd7a76b1c051c048b4991b7aa9c8b5aeb5776ee
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-function_types/1.89.0-b.1
+      - boost-lexical_cast/1.89.0-b.1
+      - boost-math/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-optional/1.89.0-b.1
+      - boost-parameter/1.89.0-b.1
+      - boost-range/1.89.0-b.1
+      - boost-spirit/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+    url: https://github.com/boostorg/convert.git
+  1.90.0-a.d+24.08.19.02.48:
+    commit: 6e2419c007b998c087d703e41931141ea555a8e1
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-function_types/1.90.0-a.d+24.09.18.18.18
+      - boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
+      - boost-math/1.90.0-a.d+25.10.03.18.32
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-optional/1.90.0-a.d+24.12.08.17.21
+      - boost-parameter/1.90.0-a.d+25.08.25.19.06
+      - boost-range/1.90.0-a.d+25.05.02.19.18
+      - boost-spirit/1.90.0-a.d+25.10.06.20.36
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    url: https://github.com/boostorg/convert.git
+  1.90.0-a.m+24.04.17.07.49:
+    commit: 0dd7a76b1c051c048b4991b7aa9c8b5aeb5776ee
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-function_types/1.90.0-a.m+24.09.18.18.18
+      - boost-lexical_cast/1.90.0-a.m+25.10.11.17.36
+      - boost-math/1.90.0-a.m+25.10.15.18.57
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-optional/1.90.0-a.m+24.12.04.00.23
+      - boost-parameter/1.90.0-a.m+25.08.25.19.06
+      - boost-range/1.90.0-a.m+25.02.08.16.31
+      - boost-spirit/1.90.0-a.m+25.09.17.08.31
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    url: https://github.com/boostorg/convert.git

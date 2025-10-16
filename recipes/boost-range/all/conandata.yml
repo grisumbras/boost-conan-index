@@ -1,0 +1,93 @@
+sources:
+  1.89.0:
+    commit: 24b7c98ca12708549513adc4770a2cf5586168f9
+    dependencies:
+      private: []
+      public:
+      - boost-array/1.89.0
+      - boost-assert/1.89.0
+      - boost-concept_check/1.89.0
+      - boost-config/1.89.0
+      - boost-container_hash/1.89.0
+      - boost-conversion/1.89.0
+      - boost-core/1.89.0
+      - boost-detail/1.89.0
+      - boost-iterator/1.89.0
+      - boost-mpl/1.89.0
+      - boost-optional/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-regex/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-tuple/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-utility/1.89.0
+    url: https://github.com/boostorg/range.git
+  1.89.0-b.1:
+    commit: 24b7c98ca12708549513adc4770a2cf5586168f9
+    dependencies:
+      private: []
+      public:
+      - boost-array/1.89.0-b.1
+      - boost-assert/1.89.0-b.1
+      - boost-concept_check/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-container_hash/1.89.0-b.1
+      - boost-conversion/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-detail/1.89.0-b.1
+      - boost-iterator/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-optional/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-regex/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-tuple/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-utility/1.89.0-b.1
+    url: https://github.com/boostorg/range.git
+  1.90.0-a.d+25.05.02.19.18:
+    commit: cf7d2d2d3bceccdbd0d7af08cdf4042a2a6e9ea8
+    dependencies:
+      private: []
+      public:
+      - boost-array/1.90.0-a.d+25.04.03.14.10
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-concept_check/1.90.0-a.d+25.07.02.07.32
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-container_hash/1.90.0-a.d+25.08.21.19.31
+      - boost-conversion/1.90.0-a.d+25.10.07.20.26
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-detail/1.90.0-a.d+25.06.13.00.44
+      - boost-iterator/1.90.0-a.d+25.08.25.19.05
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-optional/1.90.0-a.d+24.12.08.17.21
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-regex/1.90.0-a.d+25.07.04.20.20
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-tuple/1.90.0-a.d+25.06.09.02.57
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-utility/1.90.0-a.d+25.08.25.19.07
+    url: https://github.com/boostorg/range.git
+  1.90.0-a.m+25.02.08.16.31:
+    commit: 24b7c98ca12708549513adc4770a2cf5586168f9
+    dependencies:
+      private: []
+      public:
+      - boost-array/1.90.0-a.m+25.04.03.14.10
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-concept_check/1.90.0-a.m+24.12.28.18.10
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-container_hash/1.90.0-a.m+25.08.21.19.31
+      - boost-conversion/1.90.0-a.m+25.10.07.20.26
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-detail/1.90.0-a.m+25.06.13.00.44
+      - boost-iterator/1.90.0-a.m+25.08.25.19.05
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-optional/1.90.0-a.m+24.12.04.00.23
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-regex/1.90.0-a.m+25.07.04.17.16
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-tuple/1.90.0-a.m+25.06.09.02.57
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-utility/1.90.0-a.m+25.08.25.19.07
+    url: https://github.com/boostorg/range.git

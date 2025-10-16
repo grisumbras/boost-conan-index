@@ -1,0 +1,73 @@
+sources:
+  1.89.0:
+    commit: 45787015dd8c11653eb988260acf05c4af9d42e5
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-integer/1.89.0
+      - boost-io/1.89.0
+      - boost-lambda/1.89.0
+      - boost-math/1.89.0
+      - boost-mpl/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-typeof/1.89.0
+    url: https://github.com/boostorg/units.git
+  1.89.0-b.1:
+    commit: 45787015dd8c11653eb988260acf05c4af9d42e5
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-integer/1.89.0-b.1
+      - boost-io/1.89.0-b.1
+      - boost-lambda/1.89.0-b.1
+      - boost-math/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-typeof/1.89.0-b.1
+    url: https://github.com/boostorg/units.git
+  1.90.0-a.d+25.05.02.11.24:
+    commit: 605ebf7143be8861f9cf80e54427a8bbffb55212
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-integer/1.90.0-a.d+25.08.25.19.05
+      - boost-io/1.90.0-a.d+25.06.26.11.42
+      - boost-lambda/1.90.0-a.d+25.05.03.03.20
+      - boost-math/1.90.0-a.d+25.10.03.18.32
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-typeof/1.90.0-a.d+25.06.09.02.44
+    url: https://github.com/boostorg/units.git
+  1.90.0-a.m+21.06.08.00.11:
+    commit: 45787015dd8c11653eb988260acf05c4af9d42e5
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-integer/1.90.0-a.m+25.08.25.19.05
+      - boost-io/1.90.0-a.m+23.10.03.00.15
+      - boost-lambda/1.90.0-a.m+25.05.03.03.20
+      - boost-math/1.90.0-a.m+25.10.15.18.57
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-typeof/1.90.0-a.m+25.06.09.02.44
+    url: https://github.com/boostorg/units.git

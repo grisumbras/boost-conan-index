@@ -1,0 +1,37 @@
+sources:
+  1.89.0:
+    commit: 2d44666933c2993c992a3fc348776ba62cafad6b
+    dependencies:
+      private: []
+      public:
+      - boost-hana/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-type_index/1.89.0
+    url: https://github.com/boostorg/yap.git
+  1.89.0-b.1:
+    commit: 2d44666933c2993c992a3fc348776ba62cafad6b
+    dependencies:
+      private: []
+      public:
+      - boost-hana/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-type_index/1.89.0-b.1
+    url: https://github.com/boostorg/yap.git
+  1.90.0-a.d+25.03.13.18.59:
+    commit: 2d44666933c2993c992a3fc348776ba62cafad6b
+    dependencies:
+      private: []
+      public:
+      - boost-hana/1.90.0-a.d+25.07.03.23.00
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-type_index/1.90.0-a.d+25.10.14.11.58
+    url: https://github.com/boostorg/yap.git
+  1.90.0-a.m+25.03.13.18.59:
+    commit: 2d44666933c2993c992a3fc348776ba62cafad6b
+    dependencies:
+      private: []
+      public:
+      - boost-hana/1.90.0-a.m+25.07.03.23.00
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-type_index/1.90.0-a.m+25.10.07.20.25
+    url: https://github.com/boostorg/yap.git

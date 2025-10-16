@@ -1,0 +1,109 @@
+sources:
+  1.89.0:
+    commit: 9b24b28d502946583300d3e58767cb30a8ec8486
+    dependencies:
+      private: []
+      public:
+      - boost-asio/1.89.0
+      - boost-assert/1.89.0
+      - boost-bind/1.89.0
+      - boost-config/1.89.0
+      - boost-container/1.89.0
+      - boost-container_hash/1.89.0
+      - boost-core/1.89.0
+      - boost-endian/1.89.0
+      - boost-intrusive/1.89.0
+      - boost-logic/1.89.0
+      - boost-mp11/1.89.0
+      - boost-optional/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-smart_ptr/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-static_string/1.89.0
+      - boost-system/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-type_index/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-winapi/1.89.0
+    url: https://github.com/boostorg/beast.git
+  1.89.0-b.1:
+    commit: 03f0ff33cdd45ef6861f969268f9d17e1ced1249
+    dependencies:
+      private: []
+      public:
+      - boost-asio/1.89.0-b.1
+      - boost-assert/1.89.0-b.1
+      - boost-bind/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-container/1.89.0-b.1
+      - boost-container_hash/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-endian/1.89.0-b.1
+      - boost-intrusive/1.89.0-b.1
+      - boost-logic/1.89.0-b.1
+      - boost-mp11/1.89.0-b.1
+      - boost-optional/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-smart_ptr/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-static_string/1.89.0-b.1
+      - boost-system/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-type_index/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-winapi/1.89.0-b.1
+    url: https://github.com/boostorg/beast.git
+  1.90.0-a.d+25.10.09.08.54:
+    commit: 63f3d3f3930288726b5862f24728ed9d418d080a
+    dependencies:
+      private: []
+      public:
+      - boost-asio/1.90.0-a.d+25.08.06.22.32
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-bind/1.90.0-a.d+24.12.13.03.05
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-container/1.90.0-a.d+25.10.08.00.43
+      - boost-container_hash/1.90.0-a.d+25.08.21.19.31
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-endian/1.90.0-a.d+24.12.14.03.43
+      - boost-intrusive/1.90.0-a.d+25.08.25.23.15
+      - boost-logic/1.90.0-a.d+25.07.02.08.14
+      - boost-mp11/1.90.0-a.d+25.10.09.18.32
+      - boost-optional/1.90.0-a.d+24.12.08.17.21
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-static_string/1.90.0-a.d+25.10.08.16.46
+      - boost-system/1.90.0-a.d+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-type_index/1.90.0-a.d+25.10.14.11.58
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-winapi/1.90.0-a.d+25.08.25.19.08
+    url: https://github.com/boostorg/beast.git
+  1.90.0-a.m+25.07.29.12.30:
+    commit: 9b24b28d502946583300d3e58767cb30a8ec8486
+    dependencies:
+      private: []
+      public:
+      - boost-asio/1.90.0-a.m+25.08.06.22.37
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-bind/1.90.0-a.m+24.12.13.03.05
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-container/1.90.0-a.m+25.10.01.22.19
+      - boost-container_hash/1.90.0-a.m+25.08.21.19.31
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-endian/1.90.0-a.m+24.12.14.03.43
+      - boost-intrusive/1.90.0-a.m+25.08.25.23.15
+      - boost-logic/1.90.0-a.m+25.01.01.20.44
+      - boost-mp11/1.90.0-a.m+25.10.09.18.32
+      - boost-optional/1.90.0-a.m+24.12.04.00.23
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-static_string/1.90.0-a.m+23.12.22.17.12
+      - boost-system/1.90.0-a.m+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-type_index/1.90.0-a.m+25.10.07.20.25
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-winapi/1.90.0-a.m+25.08.25.19.08
+    url: https://github.com/boostorg/beast.git

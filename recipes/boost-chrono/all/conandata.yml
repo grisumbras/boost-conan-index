@@ -1,0 +1,85 @@
+sources:
+  1.89.0:
+    commit: ef510872039483dc66b7b2263c43c273a9aaecd6
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-integer/1.89.0
+      - boost-move/1.89.0
+      - boost-mpl/1.89.0
+      - boost-predef/1.89.0
+      - boost-ratio/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-system/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-typeof/1.89.0
+      - boost-utility/1.89.0
+      - boost-winapi/1.89.0
+    url: https://github.com/boostorg/chrono.git
+  1.89.0-b.1:
+    commit: ef510872039483dc66b7b2263c43c273a9aaecd6
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-integer/1.89.0-b.1
+      - boost-move/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-predef/1.89.0-b.1
+      - boost-ratio/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-system/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-typeof/1.89.0-b.1
+      - boost-utility/1.89.0-b.1
+      - boost-winapi/1.89.0-b.1
+    url: https://github.com/boostorg/chrono.git
+  1.90.0-a.d+24.12.13.03.33:
+    commit: ef510872039483dc66b7b2263c43c273a9aaecd6
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-integer/1.90.0-a.d+25.08.25.19.05
+      - boost-move/1.90.0-a.d+25.08.23.23.03
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-predef/1.90.0-a.d+25.02.03.08.30
+      - boost-ratio/1.90.0-a.d+24.12.14.05.05
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-system/1.90.0-a.d+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-typeof/1.90.0-a.d+25.06.09.02.44
+      - boost-utility/1.90.0-a.d+25.08.25.19.07
+      - boost-winapi/1.90.0-a.d+25.08.25.19.08
+    url: https://github.com/boostorg/chrono.git
+  1.90.0-a.m+24.12.13.03.33:
+    commit: ef510872039483dc66b7b2263c43c273a9aaecd6
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-integer/1.90.0-a.m+25.08.25.19.05
+      - boost-move/1.90.0-a.m+25.08.23.23.03
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-predef/1.90.0-a.m+25.01.12.12.53
+      - boost-ratio/1.90.0-a.m+24.12.14.05.05
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-system/1.90.0-a.m+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-typeof/1.90.0-a.m+25.06.09.02.44
+      - boost-utility/1.90.0-a.m+25.08.25.19.07
+      - boost-winapi/1.90.0-a.m+25.08.25.19.08
+    url: https://github.com/boostorg/chrono.git

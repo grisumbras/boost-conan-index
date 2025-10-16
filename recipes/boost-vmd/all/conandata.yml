@@ -1,0 +1,29 @@
+sources:
+  1.89.0:
+    commit: 34cad2c1a574d445812c7c2432d3a5a5c843b412
+    dependencies:
+      private: []
+      public:
+      - boost-preprocessor/1.89.0
+    url: https://github.com/boostorg/vmd.git
+  1.89.0-b.1:
+    commit: 34cad2c1a574d445812c7c2432d3a5a5c843b412
+    dependencies:
+      private: []
+      public:
+      - boost-preprocessor/1.89.0-b.1
+    url: https://github.com/boostorg/vmd.git
+  1.90.0-a.d+25.05.02.19.25:
+    commit: 26b39eb95fa8582cd0f47d79a4a87b048d5db5ce
+    dependencies:
+      private: []
+      public:
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    url: https://github.com/boostorg/vmd.git
+  1.90.0-a.m+21.06.10.00.43:
+    commit: 34cad2c1a574d445812c7c2432d3a5a5c843b412
+    dependencies:
+      private: []
+      public:
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    url: https://github.com/boostorg/vmd.git

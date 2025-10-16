@@ -1,0 +1,37 @@
+sources:
+  1.89.0:
+    commit: 23e7a9cbf54f69f2bdc22951af959af74b037d10
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-move/1.89.0
+    url: https://github.com/boostorg/intrusive.git
+  1.89.0-b.1:
+    commit: 23e7a9cbf54f69f2bdc22951af959af74b037d10
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-move/1.89.0-b.1
+    url: https://github.com/boostorg/intrusive.git
+  1.90.0-a.d+25.08.25.23.15:
+    commit: fd765b6cba60aa635671d596e5cd2797d047c020
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-move/1.90.0-a.d+25.08.23.23.03
+    url: https://github.com/boostorg/intrusive.git
+  1.90.0-a.m+25.08.25.23.15:
+    commit: fd765b6cba60aa635671d596e5cd2797d047c020
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-move/1.90.0-a.m+25.08.23.23.03
+    url: https://github.com/boostorg/intrusive.git

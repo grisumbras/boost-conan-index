@@ -1,0 +1,45 @@
+sources:
+  1.89.0:
+    commit: 9fab401aa0ee4e578ec6757c082b6f66c67a55c7
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-exception/1.89.0
+      - boost-system/1.89.0
+      - boost-throw_exception/1.89.0
+    url: https://github.com/boostorg/outcome.git
+  1.89.0-b.1:
+    commit: 9fab401aa0ee4e578ec6757c082b6f66c67a55c7
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-exception/1.89.0-b.1
+      - boost-system/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+    url: https://github.com/boostorg/outcome.git
+  1.90.0-a.d+25.10.09.20.09:
+    commit: e2bdeb4ed443eb2f7cd3e63ba31e10504588b355
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-exception/1.90.0-a.d+25.05.03.03.11
+      - boost-system/1.90.0-a.d+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    url: https://github.com/boostorg/outcome.git
+  1.90.0-a.m+25.10.09.20.09:
+    commit: 6db8850cfeaa4cf30861313f6217b61daaf64a54
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-exception/1.90.0-a.m+25.03.02.03.25
+      - boost-system/1.90.0-a.m+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    url: https://github.com/boostorg/outcome.git

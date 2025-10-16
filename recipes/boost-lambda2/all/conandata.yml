@@ -1,0 +1,25 @@
+sources:
+  1.89.0:
+    commit: dddfec608515f5a4f51f86d9b8efc01c7ad816cc
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/lambda2.git
+  1.89.0-b.1:
+    commit: dddfec608515f5a4f51f86d9b8efc01c7ad816cc
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/lambda2.git
+  1.90.0-a.d+25.10.09.19.52:
+    commit: a87d775e104a0426f774cde54b6dddd6e3ad7879
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/lambda2.git
+  1.90.0-a.m+25.10.09.19.52:
+    commit: a87d775e104a0426f774cde54b6dddd6e3ad7879
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/lambda2.git

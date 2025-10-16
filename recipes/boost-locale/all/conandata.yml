@@ -1,0 +1,53 @@
+sources:
+  1.89.0:
+    commit: 9b7775715a50e62c5bc0ed99d65e0f56c06361f4
+    dependencies:
+      private:
+      - boost-charconv/1.89.0
+      - boost-predef/1.89.0
+      - boost-thread/1.89.0
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-iterator/1.89.0
+    url: https://github.com/boostorg/locale.git
+  1.89.0-b.1:
+    commit: 9b7775715a50e62c5bc0ed99d65e0f56c06361f4
+    dependencies:
+      private:
+      - boost-charconv/1.89.0-b.1
+      - boost-predef/1.89.0-b.1
+      - boost-thread/1.89.0-b.1
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-iterator/1.89.0-b.1
+    url: https://github.com/boostorg/locale.git
+  1.90.0-a.d+25.09.18.19.54:
+    commit: 3466ac7525b1607477fb4585d4ead8cb1e37d124
+    dependencies:
+      private:
+      - boost-charconv/1.90.0-a.d+25.08.14.13.57
+      - boost-predef/1.90.0-a.d+25.02.03.08.30
+      - boost-thread/1.90.0-a.d+25.05.02.19.21
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-iterator/1.90.0-a.d+25.08.25.19.05
+    url: https://github.com/boostorg/locale.git
+  1.90.0-a.m+25.09.04.13.21:
+    commit: da39dbaf86b2f994e2ae1577d98e4be39cc683bc
+    dependencies:
+      private:
+      - boost-charconv/1.90.0-a.m+25.08.06.14.08
+      - boost-predef/1.90.0-a.m+25.01.12.12.53
+      - boost-thread/1.90.0-a.m+25.05.02.19.21
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-iterator/1.90.0-a.m+25.08.25.19.05
+    url: https://github.com/boostorg/locale.git

@@ -1,0 +1,41 @@
+sources:
+  1.89.0:
+    commit: a128501403c08d70475cc87c4e511b59744b1aa1
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-throw_exception/1.89.0
+    url: https://github.com/boostorg/core.git
+  1.89.0-b.1:
+    commit: a128501403c08d70475cc87c4e511b59744b1aa1
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+    url: https://github.com/boostorg/core.git
+  1.90.0-a.d+25.08.25.19.05:
+    commit: c6b098d25d32ea5f53950492c19904143bf3e6f1
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    url: https://github.com/boostorg/core.git
+  1.90.0-a.m+25.08.25.19.05:
+    commit: c6b098d25d32ea5f53950492c19904143bf3e6f1
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    url: https://github.com/boostorg/core.git

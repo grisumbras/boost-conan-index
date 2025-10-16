@@ -1,0 +1,69 @@
+sources:
+  1.89.0:
+    commit: b452220f5de0f6205433c08cee63742102a424d2
+    dependencies:
+      private: []
+      public:
+      - boost-array/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-move/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-ptr_container/1.89.0
+      - boost-range/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-tuple/1.89.0
+      - boost-type_traits/1.89.0
+    url: https://github.com/boostorg/assign.git
+  1.89.0-b.1:
+    commit: b452220f5de0f6205433c08cee63742102a424d2
+    dependencies:
+      private: []
+      public:
+      - boost-array/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-move/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-ptr_container/1.89.0-b.1
+      - boost-range/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-tuple/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+    url: https://github.com/boostorg/assign.git
+  1.90.0-a.d+25.06.28.11.15:
+    commit: 83ca9df5aa1d60c8257bf8987c2c9e2e1780f93e
+    dependencies:
+      private: []
+      public:
+      - boost-array/1.90.0-a.d+25.04.03.14.10
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-move/1.90.0-a.d+25.08.23.23.03
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-ptr_container/1.90.0-a.d+25.06.28.11.02
+      - boost-range/1.90.0-a.d+25.05.02.19.18
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-tuple/1.90.0-a.d+25.06.09.02.57
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    url: https://github.com/boostorg/assign.git
+  1.90.0-a.m+24.12.28.17.19:
+    commit: b452220f5de0f6205433c08cee63742102a424d2
+    dependencies:
+      private: []
+      public:
+      - boost-array/1.90.0-a.m+25.04.03.14.10
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-move/1.90.0-a.m+25.08.23.23.03
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-ptr_container/1.90.0-a.m+24.12.28.22.04
+      - boost-range/1.90.0-a.m+25.02.08.16.31
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-tuple/1.90.0-a.m+25.06.09.02.57
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    url: https://github.com/boostorg/assign.git

@@ -1,0 +1,97 @@
+sources:
+  1.89.0:
+    commit: 5597aa0055b81017f6ea24cb652f07a014b12771
+    dependencies:
+      private: []
+      public:
+      - boost-algorithm/1.89.0
+      - boost-asio/1.89.0
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-filesystem/1.89.0
+      - boost-fusion/1.89.0
+      - boost-io/1.89.0
+      - boost-iterator/1.89.0
+      - boost-move/1.89.0
+      - boost-optional/1.89.0
+      - boost-system/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-tokenizer/1.89.0
+      - boost-type_index/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-utility/1.89.0
+      - boost-winapi/1.89.0
+    url: https://github.com/boostorg/process.git
+  1.89.0-b.1:
+    commit: 5597aa0055b81017f6ea24cb652f07a014b12771
+    dependencies:
+      private: []
+      public:
+      - boost-algorithm/1.89.0-b.1
+      - boost-asio/1.89.0-b.1
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-filesystem/1.89.0-b.1
+      - boost-fusion/1.89.0-b.1
+      - boost-io/1.89.0-b.1
+      - boost-iterator/1.89.0-b.1
+      - boost-move/1.89.0-b.1
+      - boost-optional/1.89.0-b.1
+      - boost-system/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-tokenizer/1.89.0-b.1
+      - boost-type_index/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-utility/1.89.0-b.1
+      - boost-winapi/1.89.0-b.1
+    url: https://github.com/boostorg/process.git
+  1.90.0-a.d+25.10.09.23.38:
+    commit: 322f581d1f5df4a5a7e83c8257b0fe8aab54294b
+    dependencies:
+      private: []
+      public:
+      - boost-algorithm/1.90.0-a.d+25.08.25.08.42
+      - boost-asio/1.90.0-a.d+25.08.06.22.32
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-filesystem/1.90.0-a.d+25.10.01.17.38
+      - boost-fusion/1.90.0-a.d+24.08.21.20.51
+      - boost-io/1.90.0-a.d+25.06.26.11.42
+      - boost-iterator/1.90.0-a.d+25.08.25.19.05
+      - boost-move/1.90.0-a.d+25.08.23.23.03
+      - boost-optional/1.90.0-a.d+24.12.08.17.21
+      - boost-system/1.90.0-a.d+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-tokenizer/1.90.0-a.d+25.07.02.17.31
+      - boost-type_index/1.90.0-a.d+25.10.14.11.58
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-utility/1.90.0-a.d+25.08.25.19.07
+      - boost-winapi/1.90.0-a.d+25.08.25.19.08
+    url: https://github.com/boostorg/process.git
+  1.90.0-a.m+25.07.01.18.04:
+    commit: 5597aa0055b81017f6ea24cb652f07a014b12771
+    dependencies:
+      private: []
+      public:
+      - boost-algorithm/1.90.0-a.m+23.08.02.20.42
+      - boost-asio/1.90.0-a.m+25.08.06.22.37
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-filesystem/1.90.0-a.m+25.10.01.17.38
+      - boost-fusion/1.90.0-a.m+24.05.15.10.13
+      - boost-io/1.90.0-a.m+23.10.03.00.15
+      - boost-iterator/1.90.0-a.m+25.08.25.19.05
+      - boost-move/1.90.0-a.m+25.08.23.23.03
+      - boost-optional/1.90.0-a.m+24.12.04.00.23
+      - boost-system/1.90.0-a.m+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-tokenizer/1.90.0-a.m+25.01.01.15.10
+      - boost-type_index/1.90.0-a.m+25.10.07.20.25
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-utility/1.90.0-a.m+25.08.25.19.07
+      - boost-winapi/1.90.0-a.m+25.08.25.19.08
+    url: https://github.com/boostorg/process.git

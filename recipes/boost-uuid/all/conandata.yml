@@ -1,0 +1,41 @@
+sources:
+  1.89.0:
+    commit: 434329f8dc7fcfb69cd7565ab0318d86772cea39
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-type_traits/1.89.0
+    url: https://github.com/boostorg/uuid.git
+  1.89.0-b.1:
+    commit: 689f3d2c152626b833a2fb2d636516ef126fa300
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+    url: https://github.com/boostorg/uuid.git
+  1.90.0-a.d+25.10.14.14.26:
+    commit: d79210b0d8da733c75caa3cf31f8f7d11cfecb92
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    url: https://github.com/boostorg/uuid.git
+  1.90.0-a.m+25.10.14.14.26:
+    commit: d79210b0d8da733c75caa3cf31f8f7d11cfecb92
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    url: https://github.com/boostorg/uuid.git

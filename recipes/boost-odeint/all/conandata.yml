@@ -1,0 +1,97 @@
+sources:
+  1.89.0:
+    commit: 9e75be5d9e435739b086aee928736fc241e77a4a
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-compute/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-fusion/1.89.0
+      - boost-iterator/1.89.0
+      - boost-math/1.89.0
+      - boost-mpi/1.89.0
+      - boost-mpl/1.89.0
+      - boost-multi_array/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-range/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-ublas/1.89.0
+      - boost-units/1.89.0
+      - boost-utility/1.89.0
+    url: https://github.com/boostorg/odeint.git
+  1.89.0-b.1:
+    commit: 9e75be5d9e435739b086aee928736fc241e77a4a
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-compute/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-fusion/1.89.0-b.1
+      - boost-iterator/1.89.0-b.1
+      - boost-math/1.89.0-b.1
+      - boost-mpi/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-multi_array/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-range/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-ublas/1.89.0-b.1
+      - boost-units/1.89.0-b.1
+      - boost-utility/1.89.0-b.1
+    url: https://github.com/boostorg/odeint.git
+  1.90.0-a.d+24.11.05.14.58:
+    commit: 91a4a916fa193b02bda2ffc3920953387acae962
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-compute/1.90.0-a.d+25.05.02.19.06
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-fusion/1.90.0-a.d+24.08.21.20.51
+      - boost-iterator/1.90.0-a.d+25.08.25.19.05
+      - boost-math/1.90.0-a.d+25.10.03.18.32
+      - boost-mpi/1.90.0-a.d+25.10.13.17.09
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-multi_array/1.90.0-a.d+25.06.25.18.51
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-range/1.90.0-a.d+25.05.02.19.18
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-ublas/1.90.0-a.d+23.11.22.02.19
+      - boost-units/1.90.0-a.d+25.05.02.11.24
+      - boost-utility/1.90.0-a.d+25.08.25.19.07
+    url: https://github.com/boostorg/odeint.git
+  1.90.0-a.m+24.11.05.14.59:
+    commit: 9e75be5d9e435739b086aee928736fc241e77a4a
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-compute/1.90.0-a.m+24.08.22.10.16
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-fusion/1.90.0-a.m+24.05.15.10.13
+      - boost-iterator/1.90.0-a.m+25.08.25.19.05
+      - boost-math/1.90.0-a.m+25.10.15.18.57
+      - boost-mpi/1.90.0-a.m+25.04.17.17.55
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-multi_array/1.90.0-a.m+21.05.28.00.46
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-range/1.90.0-a.m+25.02.08.16.31
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-ublas/1.90.0-a.m+24.05.07.22.32
+      - boost-units/1.90.0-a.m+21.06.08.00.11
+      - boost-utility/1.90.0-a.m+25.08.25.19.07
+    url: https://github.com/boostorg/odeint.git

@@ -1,0 +1,81 @@
+sources:
+  1.89.0:
+    commit: 8913607a3788cb82d48ed461ea59c919b7bad3df
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0
+      - boost-bind/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-function/1.89.0
+      - boost-fusion/1.89.0
+      - boost-mpl/1.89.0
+      - boost-predef/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-proto/1.89.0
+      - boost-range/1.89.0
+      - boost-smart_ptr/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-utility/1.89.0
+    url: https://github.com/boostorg/phoenix.git
+  1.89.0-b.1:
+    commit: 8913607a3788cb82d48ed461ea59c919b7bad3df
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-bind/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-function/1.89.0-b.1
+      - boost-fusion/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-predef/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-proto/1.89.0-b.1
+      - boost-range/1.89.0-b.1
+      - boost-smart_ptr/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-utility/1.89.0-b.1
+    url: https://github.com/boostorg/phoenix.git
+  1.90.0-a.d+24.09.12.00.15:
+    commit: c4f2535d54c3f31a5c7fcc92a837f9476ea6f3f1
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-bind/1.90.0-a.d+24.12.13.03.05
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-function/1.90.0-a.d+24.12.14.04.39
+      - boost-fusion/1.90.0-a.d+24.08.21.20.51
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-predef/1.90.0-a.d+25.02.03.08.30
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-proto/1.90.0-a.d+25.05.02.19.17
+      - boost-range/1.90.0-a.d+25.05.02.19.18
+      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-utility/1.90.0-a.d+25.08.25.19.07
+    url: https://github.com/boostorg/phoenix.git
+  1.90.0-a.m+23.08.29.14.32:
+    commit: 8913607a3788cb82d48ed461ea59c919b7bad3df
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-bind/1.90.0-a.m+24.12.13.03.05
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-function/1.90.0-a.m+24.12.14.04.39
+      - boost-fusion/1.90.0-a.m+24.05.15.10.13
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-predef/1.90.0-a.m+25.01.12.12.53
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-proto/1.90.0-a.m+21.03.18.17.30
+      - boost-range/1.90.0-a.m+25.02.08.16.31
+      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-utility/1.90.0-a.m+25.08.25.19.07
+    url: https://github.com/boostorg/phoenix.git

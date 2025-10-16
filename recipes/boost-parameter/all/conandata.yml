@@ -1,0 +1,65 @@
+sources:
+  1.89.0:
+    commit: 67861ef6ade2db396af4a3fd9e47647d8b01f73c
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-function/1.89.0
+      - boost-fusion/1.89.0
+      - boost-mp11/1.89.0
+      - boost-mpl/1.89.0
+      - boost-optional/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-utility/1.89.0
+    url: https://github.com/boostorg/parameter.git
+  1.89.0-b.1:
+    commit: 67861ef6ade2db396af4a3fd9e47647d8b01f73c
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-function/1.89.0-b.1
+      - boost-fusion/1.89.0-b.1
+      - boost-mp11/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-optional/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-utility/1.89.0-b.1
+    url: https://github.com/boostorg/parameter.git
+  1.90.0-a.d+25.08.25.19.06:
+    commit: 2592296b4144a3ac7e260e69303c98aec6482123
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-function/1.90.0-a.d+24.12.14.04.39
+      - boost-fusion/1.90.0-a.d+24.08.21.20.51
+      - boost-mp11/1.90.0-a.d+25.10.09.18.32
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-optional/1.90.0-a.d+24.12.08.17.21
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-utility/1.90.0-a.d+25.08.25.19.07
+    url: https://github.com/boostorg/parameter.git
+  1.90.0-a.m+25.08.25.19.06:
+    commit: 2592296b4144a3ac7e260e69303c98aec6482123
+    dependencies:
+      private: []
+      public:
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-function/1.90.0-a.m+24.12.14.04.39
+      - boost-fusion/1.90.0-a.m+24.05.15.10.13
+      - boost-mp11/1.90.0-a.m+25.10.09.18.32
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-optional/1.90.0-a.m+24.12.04.00.23
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-utility/1.90.0-a.m+25.08.25.19.07
+    url: https://github.com/boostorg/parameter.git

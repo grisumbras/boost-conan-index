@@ -1,0 +1,97 @@
+sources:
+  1.89.0:
+    commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
+    dependencies:
+      private:
+      - boost-numeric_conversion/1.89.0
+      public:
+      - boost-assert/1.89.0
+      - boost-config/1.89.0
+      - boost-core/1.89.0
+      - boost-detail/1.89.0
+      - boost-function/1.89.0
+      - boost-integer/1.89.0
+      - boost-iterator/1.89.0
+      - boost-mpl/1.89.0
+      - boost-preprocessor/1.89.0
+      - boost-random/1.89.0
+      - boost-range/1.89.0
+      - boost-regex/1.89.0
+      - boost-smart_ptr/1.89.0
+      - boost-static_assert/1.89.0
+      - boost-throw_exception/1.89.0
+      - boost-type_traits/1.89.0
+      - boost-utility/1.89.0
+    url: https://github.com/boostorg/iostreams.git
+  1.89.0-b.1:
+    commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
+    dependencies:
+      private:
+      - boost-numeric_conversion/1.89.0-b.1
+      public:
+      - boost-assert/1.89.0-b.1
+      - boost-config/1.89.0-b.1
+      - boost-core/1.89.0-b.1
+      - boost-detail/1.89.0-b.1
+      - boost-function/1.89.0-b.1
+      - boost-integer/1.89.0-b.1
+      - boost-iterator/1.89.0-b.1
+      - boost-mpl/1.89.0-b.1
+      - boost-preprocessor/1.89.0-b.1
+      - boost-random/1.89.0-b.1
+      - boost-range/1.89.0-b.1
+      - boost-regex/1.89.0-b.1
+      - boost-smart_ptr/1.89.0-b.1
+      - boost-static_assert/1.89.0-b.1
+      - boost-throw_exception/1.89.0-b.1
+      - boost-type_traits/1.89.0-b.1
+      - boost-utility/1.89.0-b.1
+    url: https://github.com/boostorg/iostreams.git
+  1.90.0-a.d+24.12.15.22.27:
+    commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
+    dependencies:
+      private:
+      - boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-detail/1.90.0-a.d+25.06.13.00.44
+      - boost-function/1.90.0-a.d+24.12.14.04.39
+      - boost-integer/1.90.0-a.d+25.08.25.19.05
+      - boost-iterator/1.90.0-a.d+25.08.25.19.05
+      - boost-mpl/1.90.0-a.d+25.07.03.00.11
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-random/1.90.0-a.d+25.10.01.07.50
+      - boost-range/1.90.0-a.d+25.05.02.19.18
+      - boost-regex/1.90.0-a.d+25.07.04.20.20
+      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+      - boost-utility/1.90.0-a.d+25.08.25.19.07
+    url: https://github.com/boostorg/iostreams.git
+  1.90.0-a.m+24.12.15.22.27:
+    commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
+    dependencies:
+      private:
+      - boost-numeric_conversion/1.90.0-a.m+25.06.26.07.40
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-detail/1.90.0-a.m+25.06.13.00.44
+      - boost-function/1.90.0-a.m+24.12.14.04.39
+      - boost-integer/1.90.0-a.m+25.08.25.19.05
+      - boost-iterator/1.90.0-a.m+25.08.25.19.05
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+      - boost-random/1.90.0-a.m+25.07.03.08.55
+      - boost-range/1.90.0-a.m+25.02.08.16.31
+      - boost-regex/1.90.0-a.m+25.07.04.17.16
+      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-utility/1.90.0-a.m+25.08.25.19.07
+    url: https://github.com/boostorg/iostreams.git

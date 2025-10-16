@@ -1,0 +1,25 @@
+sources:
+  1.89.0:
+    commit: 75146a958410c789381a4609166c754d35548e2d
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/crc.git
+  1.89.0-b.1:
+    commit: 75146a958410c789381a4609166c754d35548e2d
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/crc.git
+  1.90.0-a.d+25.08.22.19.51:
+    commit: d547322aa734b37901fa79e7b5e71040d698ce69
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/crc.git
+  1.90.0-a.m+25.08.22.19.51:
+    commit: d547322aa734b37901fa79e7b5e71040d698ce69
+    dependencies:
+      private: []
+      public: []
+    url: https://github.com/boostorg/crc.git
