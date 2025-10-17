@@ -65,6 +65,28 @@ sources:
       - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
       - boost-variant2/1.90.0-a.d+25.01.15.19.44
     url: https://github.com/boostorg/cobalt.git
+  1.90.0-a.d+25.10.17.17.51:
+    commit: 5a85b3de86d3cca57d6f4687b7f1f5da943cf4ef
+    dependencies:
+      private: []
+      public:
+      - boost-asio/1.90.0-a.d+25.08.06.22.32
+      - boost-callable_traits/1.90.0-a.d+25.06.25.18.43
+      - boost-circular_buffer/1.90.0-a.d+25.05.02.19.05
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-container/1.90.0-a.d+25.10.08.00.43
+      - boost-context/1.90.0-a.d+25.09.24.16.35
+      - boost-core/1.90.0-a.d+25.08.25.19.05
+      - boost-endian/1.90.0-a.d+24.12.14.03.43
+      - boost-intrusive/1.90.0-a.d+25.08.25.23.15
+      - boost-mp11/1.90.0-a.d+25.10.09.18.32
+      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      - boost-static_string/1.90.0-a.d+25.10.08.16.46
+      - boost-system/1.90.0-a.d+25.07.02.19.12
+      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      - boost-variant2/1.90.0-a.d+25.01.15.19.44
+    url: https://github.com/boostorg/cobalt.git
   1.90.0-a.m+25.07.18.17.31:
     commit: 57181cacc5b8d5079d95a33b7aa078d0f5f16147
     dependencies:
