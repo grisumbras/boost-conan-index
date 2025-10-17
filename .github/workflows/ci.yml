@@ -32,7 +32,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate index
-        run: ./generate.py --ref  ${{ matrix.boost-ref }} --target index
+        run: tools/generate.py --ref  ${{ matrix.boost-ref }} --target index
 
       - name: Save index
         uses: actions/upload-artifact@v4
@@ -192,7 +192,7 @@ jobs:
           set -ex
 
           for dir in index-*; do
-            head/merge-index.py $dir current-index
+            head/tools/merge-index.py $dir current-index
           done
           cp head/README.adoc current-index
 

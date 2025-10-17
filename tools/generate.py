@@ -376,7 +376,7 @@ class RecipeToolsProject(Project):
             template.stream({ 'project': self }).dump(f)
 
         fs.copy(
-            os.path.join(os.path.dirname(__file__), 'LICENSE_1_0.txt'),
+            os.path.join(os.path.dirname(__file__), '..', 'LICENSE_1_0.txt'),
             pkg_dir,
         )
 
