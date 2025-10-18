@@ -21,8 +21,6 @@ jobs:
         boost-ref: &boost-refs
           - develop
           - master
-          - boost-1.89.0
-          - boost-1.89.0.beta1
 
     steps:
       - name: Fetch head
@@ -77,7 +75,7 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-range b2-tools; do
+          for proj in boost-thread b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/linux-${{ matrix.toolset }}.profile \
                 "index/recipes/$proj/all/test_package" \
@@ -115,7 +113,7 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-range b2-tools; do
+          for proj in boost-thread b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/windows-${{ matrix.toolset }}.profile \
                 "index/recipes/$proj/all/test_package" \
@@ -154,7 +152,7 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-range b2-tools; do
+          for proj in boost-thread b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/macos-${{ matrix.toolset }}.profile \
                 "index/recipes/$proj/all/test_package" \
