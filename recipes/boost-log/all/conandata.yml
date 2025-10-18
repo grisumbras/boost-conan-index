@@ -15,7 +15,7 @@ sources:
     - header: true
       public: true
       ref: boost-core/1.89.0
-    - header: false
+    - header: true
       public: true
       ref: boost-date_time/1.89.0
     - header: false
@@ -129,7 +129,7 @@ sources:
     - header: true
       public: true
       ref: boost-core/1.89.0-b.1
-    - header: false
+    - header: true
       public: true
       ref: boost-date_time/1.89.0-b.1
     - header: false
@@ -243,7 +243,7 @@ sources:
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.10.18.16.06
-    - header: false
+    - header: true
       public: true
       ref: boost-date_time/1.90.0-a.d+25.07.07.06.39
     - header: false
@@ -357,7 +357,7 @@ sources:
     - header: true
       public: true
       ref: boost-core/1.90.0-a.m+25.08.25.19.05
-    - header: false
+    - header: true
       public: true
       ref: boost-date_time/1.90.0-a.m+22.10.31.09.22
     - header: false
