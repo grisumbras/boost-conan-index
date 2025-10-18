@@ -1,1 +1,3 @@
 /build
+/tools/exceptions/__pycache__
+/tools/exceptions/*.py[cod]

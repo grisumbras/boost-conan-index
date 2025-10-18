@@ -228,6 +228,7 @@ class LibraryProject(Project):
         self.commit = git.submodule_commit(superproject.path, path)
         self.dependencies = []
         self.cxxstd = None
+        self.exceptions = None
 
     def collect_data(self, git, fs, registry, depinst):
         with git.clone_commit(self.url, self.commit, target=self.name) as lib:
@@ -252,10 +253,23 @@ class LibraryProject(Project):
                     self.header = os.path.join(root, files[0])[offset:]
                     break
 
-            self.is_header_only = self._is_header_only(lib, fs)
+            self.is_header_only = not fs.exists(os.path.join(lib, 'build'))
             self.dependencies = depinst(
                 self, lib, registry,
             )
+
+            exceptions = os.path.join(
+                os.path.dirname(__file__), 'exceptions', self.name + '.py',
+            )
+            if fs.exists(exceptions):
+                mod_name = 'boost.' + self.name + '.exceptions'
+                spec = importlib.util.spec_from_file_location(
+                    mod_name, exceptions,
+                )
+                mod = importlib.util.module_from_spec(spec)
+                # sys.modules[mod_name] = mod
+                spec.loader.exec_module(mod)
+                mod.update_data(self, lib, registry)
 
     def generate_recipe(self, base_dir, template_env, fs):
         pkg_base_dir = os.path.join(base_dir, 'recipes', self.conan_name)
@@ -310,12 +324,11 @@ class LibraryProject(Project):
         with fs.open(os.path.join(pkg_test_dir, 'test.cpp'), 'w') as f:
             template.stream({ 'project': self }).dump(f)
 
+        if self.exceptions:
+            fs.copy(self.exceptions, os.path.join(pkg_dir, 'exceptions.py'))
+
     def __repr__(self):
         return f'LibraryProject("{self.name}", "{self.git_ref}")'
-
-    def _is_header_only(self, lib_dir, fs):
-        return (self.name == 'function_types'
-            or not fs.exists(os.path.join(lib_dir, 'build')))
 
 
 class ToolProject(Project):
