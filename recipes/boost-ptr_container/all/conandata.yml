@@ -128,7 +128,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-unordered/1.90.0-a.d+25.10.15.01.40
+      ref: boost-unordered/1.90.0-a.d+25.10.18.17.53
     - header: true
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
