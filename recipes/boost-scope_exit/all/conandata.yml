@@ -1,45 +1,85 @@
 sources:
   1.89.0:
     commit: 60baaae454b2da887a31cf939e22015b6263c9e4
+    cxxstd: null
     dependencies:
-      private: []
-      public:
-      - boost-config/1.89.0
-      - boost-function/1.89.0
-      - boost-preprocessor/1.89.0
-      - boost-type_traits/1.89.0
-      - boost-typeof/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-function/1.89.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/scope_exit.git
   1.89.0-b.1:
     commit: 60baaae454b2da887a31cf939e22015b6263c9e4
+    cxxstd: null
     dependencies:
-      private: []
-      public:
-      - boost-config/1.89.0-b.1
-      - boost-function/1.89.0-b.1
-      - boost-preprocessor/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
-      - boost-typeof/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/scope_exit.git
   1.90.0-a.d+25.05.02.19.19:
     commit: 5450074da7f1d338eb5774b245bd7a255f92680e
+    cxxstd: null
     dependencies:
-      private: []
-      public:
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-function/1.90.0-a.d+24.12.14.04.39
-      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-typeof/1.90.0-a.d+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-a.d+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.d+25.06.09.02.44
+    kind: header-library
     url: https://github.com/boostorg/scope_exit.git
   1.90.0-a.m+21.05.28.00.21:
     commit: 60baaae454b2da887a31cf939e22015b6263c9e4
+    cxxstd: null
     dependencies:
-      private: []
-      public:
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-function/1.90.0-a.m+24.12.14.04.39
-      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-typeof/1.90.0-a.m+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-a.m+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.m+25.06.09.02.44
+    kind: header-library
     url: https://github.com/boostorg/scope_exit.git

@@ -1,89 +1,217 @@
 sources:
   1.89.0:
     commit: 6a82609638e88bcea2985069dfc356f32a575a55
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-asio/1.89.0
-      - boost-assert/1.89.0
-      - boost-charconv/1.89.0
-      - boost-compat/1.89.0
-      - boost-config/1.89.0
-      - boost-container/1.89.0
-      - boost-core/1.89.0
-      - boost-describe/1.89.0
-      - boost-endian/1.89.0
-      - boost-intrusive/1.89.0
-      - boost-mp11/1.89.0
-      - boost-optional/1.89.0
-      - boost-pfr/1.89.0
-      - boost-system/1.89.0
-      - boost-throw_exception/1.89.0
-      - boost-variant2/1.89.0
+    - header: true
+      public: true
+      ref: boost-asio/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: false
+      public: true
+      ref: boost-charconv/1.89.0
+    - header: true
+      public: true
+      ref: boost-compat/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: false
+      public: true
+      ref: boost-container/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-describe/1.89.0
+    - header: true
+      public: true
+      ref: boost-endian/1.89.0
+    - header: true
+      public: true
+      ref: boost-intrusive/1.89.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0
+    - header: true
+      public: true
+      ref: boost-optional/1.89.0
+    - header: true
+      public: true
+      ref: boost-pfr/1.89.0
+    - header: true
+      public: true
+      ref: boost-system/1.89.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0
+    - header: true
+      public: true
+      ref: boost-variant2/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/mysql.git
   1.89.0-b.1:
     commit: 6a82609638e88bcea2985069dfc356f32a575a55
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-asio/1.89.0-b.1
-      - boost-assert/1.89.0-b.1
-      - boost-charconv/1.89.0-b.1
-      - boost-compat/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-container/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-describe/1.89.0-b.1
-      - boost-endian/1.89.0-b.1
-      - boost-intrusive/1.89.0-b.1
-      - boost-mp11/1.89.0-b.1
-      - boost-optional/1.89.0-b.1
-      - boost-pfr/1.89.0-b.1
-      - boost-system/1.89.0-b.1
-      - boost-throw_exception/1.89.0-b.1
-      - boost-variant2/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-asio/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-charconv/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-compat/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-container/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-describe/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-endian/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-intrusive/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-pfr/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant2/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/mysql.git
   1.90.0-a.d+25.10.07.16.56:
     commit: c242bb0ffdea2675a32e0b3a6baeeb987bb90777
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-asio/1.90.0-a.d+25.08.06.22.32
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-charconv/1.90.0-a.d+25.08.14.13.57
-      - boost-compat/1.90.0-a.d+25.09.05.18.48
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-container/1.90.0-a.d+25.10.08.00.43
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-describe/1.90.0-a.d+25.08.17.10.18
-      - boost-endian/1.90.0-a.d+24.12.14.03.43
-      - boost-intrusive/1.90.0-a.d+25.08.25.23.15
-      - boost-mp11/1.90.0-a.d+25.10.09.18.32
-      - boost-optional/1.90.0-a.d+24.12.08.17.21
-      - boost-pfr/1.90.0-a.d+25.10.06.18.38
-      - boost-system/1.90.0-a.d+25.07.02.19.12
-      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
-      - boost-variant2/1.90.0-a.d+25.10.18.08.24
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.d+25.08.06.22.32
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: false
+      public: true
+      ref: boost-charconv/1.90.0-a.d+25.08.14.13.57
+    - header: true
+      public: true
+      ref: boost-compat/1.90.0-a.d+25.09.05.18.48
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-a.d+25.10.08.00.43
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-describe/1.90.0-a.d+25.08.17.10.18
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-a.d+24.12.14.03.43
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0-a.d+25.08.25.23.15
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-pfr/1.90.0-a.d+25.10.06.18.38
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.d+25.07.02.19.12
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.d+25.10.18.08.24
+    kind: header-library
     url: https://github.com/boostorg/mysql.git
   1.90.0-a.m+25.06.07.13.20:
     commit: 6a82609638e88bcea2985069dfc356f32a575a55
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-asio/1.90.0-a.m+25.08.06.22.37
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-charconv/1.90.0-a.m+25.08.06.14.08
-      - boost-compat/1.90.0-a.m+25.09.05.18.48
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-container/1.90.0-a.m+25.10.08.00.43
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-describe/1.90.0-a.m+25.08.17.10.18
-      - boost-endian/1.90.0-a.m+24.12.14.03.43
-      - boost-intrusive/1.90.0-a.m+25.08.25.23.15
-      - boost-mp11/1.90.0-a.m+25.10.09.18.32
-      - boost-optional/1.90.0-a.m+24.12.04.00.23
-      - boost-pfr/1.90.0-a.m+25.09.14.14.59
-      - boost-system/1.90.0-a.m+25.07.02.19.12
-      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
-      - boost-variant2/1.90.0-a.m+25.10.17.21.04
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.m+25.08.06.22.37
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: false
+      public: true
+      ref: boost-charconv/1.90.0-a.m+25.08.06.14.08
+    - header: true
+      public: true
+      ref: boost-compat/1.90.0-a.m+25.09.05.18.48
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-a.m+25.10.08.00.43
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-describe/1.90.0-a.m+25.08.17.10.18
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-a.m+24.12.14.03.43
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0-a.m+25.08.25.23.15
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-pfr/1.90.0-a.m+25.09.14.14.59
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.m+25.07.02.19.12
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.m+25.10.17.21.04
+    kind: header-library
     url: https://github.com/boostorg/mysql.git

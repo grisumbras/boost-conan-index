@@ -1,53 +1,109 @@
 sources:
   1.89.0:
     commit: 3af0091efa65892e030add013417840f80b13e08
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-mp11/1.89.0
-      - boost-pool/1.89.0
-      - boost-predef/1.89.0
-      - boost-smart_ptr/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0
+    - header: true
+      public: true
+      ref: boost-pool/1.89.0
+    - header: true
+      public: true
+      ref: boost-predef/1.89.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0
+    kind: library
     url: https://github.com/boostorg/context.git
   1.89.0-b.1:
     commit: 3af0091efa65892e030add013417840f80b13e08
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-mp11/1.89.0-b.1
-      - boost-pool/1.89.0-b.1
-      - boost-predef/1.89.0-b.1
-      - boost-smart_ptr/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-pool/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0-b.1
+    kind: library
     url: https://github.com/boostorg/context.git
   1.90.0-a.d+25.09.24.16.35:
     commit: 18aae90bf49e697cc49b70a483bc8a5668c334d2
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-mp11/1.90.0-a.d+25.10.09.18.32
-      - boost-pool/1.90.0-a.d+19.09.06.01.34
-      - boost-predef/1.90.0-a.d+25.02.03.08.30
-      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-pool/1.90.0-a.d+19.09.06.01.34
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    kind: library
     url: https://github.com/boostorg/context.git
   1.90.0-a.m+25.05.25.16.34:
     commit: 3af0091efa65892e030add013417840f80b13e08
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-mp11/1.90.0-a.m+25.10.09.18.32
-      - boost-pool/1.90.0-a.m+25.02.25.18.47
-      - boost-predef/1.90.0-a.m+25.01.12.12.53
-      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-pool/1.90.0-a.m+25.02.25.18.47
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+    kind: library
     url: https://github.com/boostorg/context.git

@@ -1,117 +1,301 @@
 sources:
   1.89.0:
     commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-function/1.89.0
-      public:
-      - boost-array/1.89.0
-      - boost-assert/1.89.0
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-detail/1.89.0
-      - boost-integer/1.89.0
-      - boost-io/1.89.0
-      - boost-iterator/1.89.0
-      - boost-move/1.89.0
-      - boost-mp11/1.89.0
-      - boost-mpl/1.89.0
-      - boost-optional/1.89.0
-      - boost-predef/1.89.0
-      - boost-preprocessor/1.89.0
-      - boost-smart_ptr/1.89.0
-      - boost-spirit/1.89.0
-      - boost-static_assert/1.89.0
-      - boost-throw_exception/1.89.0
-      - boost-type_traits/1.89.0
-      - boost-utility/1.89.0
-      - boost-variant/1.89.0
-      - boost-variant2/1.89.0
+    - header: true
+      public: true
+      ref: boost-array/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-detail/1.89.0
+    - header: true
+      public: true
+      ref: boost-integer/1.89.0
+    - header: true
+      public: true
+      ref: boost-io/1.89.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0
+    - header: true
+      public: true
+      ref: boost-move/1.89.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0
+    - header: true
+      public: true
+      ref: boost-optional/1.89.0
+    - header: true
+      public: true
+      ref: boost-predef/1.89.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0
+    - header: true
+      public: true
+      ref: boost-spirit/1.89.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-utility/1.89.0
+    - header: true
+      public: true
+      ref: boost-variant/1.89.0
+    - header: true
+      public: true
+      ref: boost-variant2/1.89.0
+    - header: true
+      public: false
+      ref: boost-function/1.89.0
+    kind: library
     url: https://github.com/boostorg/serialization.git
   1.89.0-b.1:
     commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-function/1.89.0-b.1
-      public:
-      - boost-array/1.89.0-b.1
-      - boost-assert/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-detail/1.89.0-b.1
-      - boost-integer/1.89.0-b.1
-      - boost-io/1.89.0-b.1
-      - boost-iterator/1.89.0-b.1
-      - boost-move/1.89.0-b.1
-      - boost-mp11/1.89.0-b.1
-      - boost-mpl/1.89.0-b.1
-      - boost-optional/1.89.0-b.1
-      - boost-predef/1.89.0-b.1
-      - boost-preprocessor/1.89.0-b.1
-      - boost-smart_ptr/1.89.0-b.1
-      - boost-spirit/1.89.0-b.1
-      - boost-static_assert/1.89.0-b.1
-      - boost-throw_exception/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
-      - boost-utility/1.89.0-b.1
-      - boost-variant/1.89.0-b.1
-      - boost-variant2/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-array/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-io/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-spirit/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant2/1.89.0-b.1
+    - header: true
+      public: false
+      ref: boost-function/1.89.0-b.1
+    kind: library
     url: https://github.com/boostorg/serialization.git
   1.90.0-a.d+24.08.18.11.53:
     commit: 8a8c62864f05732131bf6785d54466d8ac6cd477
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-function/1.90.0-a.d+24.12.14.04.39
-      public:
-      - boost-array/1.90.0-a.d+25.04.03.14.10
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-detail/1.90.0-a.d+25.06.13.00.44
-      - boost-integer/1.90.0-a.d+25.08.25.19.05
-      - boost-io/1.90.0-a.d+25.06.26.11.42
-      - boost-iterator/1.90.0-a.d+25.08.25.19.05
-      - boost-move/1.90.0-a.d+25.10.18.12.24
-      - boost-mp11/1.90.0-a.d+25.10.09.18.32
-      - boost-mpl/1.90.0-a.d+25.07.03.00.11
-      - boost-optional/1.90.0-a.d+24.12.08.17.21
-      - boost-predef/1.90.0-a.d+25.02.03.08.30
-      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
-      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
-      - boost-spirit/1.90.0-a.d+25.10.06.20.36
-      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
-      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-utility/1.90.0-a.d+25.08.25.19.07
-      - boost-variant/1.90.0-a.d+25.09.13.13.52
-      - boost-variant2/1.90.0-a.d+25.10.18.08.24
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-a.d+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-io/1.90.0-a.d+25.06.26.11.42
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-a.d+25.10.18.12.24
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0-a.d+25.10.06.20.36
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-variant/1.90.0-a.d+25.09.13.13.52
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.d+25.10.18.08.24
+    - header: true
+      public: false
+      ref: boost-function/1.90.0-a.d+24.12.14.04.39
+    kind: library
     url: https://github.com/boostorg/serialization.git
   1.90.0-a.m+23.11.12.21.05:
     commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-function/1.90.0-a.m+24.12.14.04.39
-      public:
-      - boost-array/1.90.0-a.m+25.04.03.14.10
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-detail/1.90.0-a.m+25.06.13.00.44
-      - boost-integer/1.90.0-a.m+25.08.25.19.05
-      - boost-io/1.90.0-a.m+23.10.03.00.15
-      - boost-iterator/1.90.0-a.m+25.08.25.19.05
-      - boost-move/1.90.0-a.m+25.10.18.12.24
-      - boost-mp11/1.90.0-a.m+25.10.09.18.32
-      - boost-mpl/1.90.0-a.m+25.06.27.02.18
-      - boost-optional/1.90.0-a.m+24.12.04.00.23
-      - boost-predef/1.90.0-a.m+25.01.12.12.53
-      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
-      - boost-spirit/1.90.0-a.m+25.09.17.08.31
-      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
-      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-utility/1.90.0-a.m+25.08.25.19.07
-      - boost-variant/1.90.0-a.m+25.09.13.13.52
-      - boost-variant2/1.90.0-a.m+25.10.17.21.04
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-a.m+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-io/1.90.0-a.m+23.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-a.m+25.10.18.12.24
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0-a.m+25.09.17.08.31
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-variant/1.90.0-a.m+25.09.13.13.52
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.m+25.10.17.21.04
+    - header: true
+      public: false
+      ref: boost-function/1.90.0-a.m+24.12.14.04.39
+    kind: library
     url: https://github.com/boostorg/serialization.git

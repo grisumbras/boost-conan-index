@@ -1,45 +1,85 @@
 sources:
   1.89.0:
     commit: f6b538dbed2e3047dcbd09eb3f5c7f1ffa90d0a9
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0
-      - boost-bind/1.89.0
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-throw_exception/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-bind/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/function.git
   1.89.0-b.1:
     commit: f6b538dbed2e3047dcbd09eb3f5c7f1ffa90d0a9
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0-b.1
-      - boost-bind/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-throw_exception/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/function.git
   1.90.0-a.d+24.12.14.04.39:
     commit: f6b538dbed2e3047dcbd09eb3f5c7f1ffa90d0a9
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-bind/1.90.0-a.d+24.12.13.03.05
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.d+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    kind: header-library
     url: https://github.com/boostorg/function.git
   1.90.0-a.m+24.12.14.04.39:
     commit: f6b538dbed2e3047dcbd09eb3f5c7f1ffa90d0a9
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-bind/1.90.0-a.m+24.12.13.03.05
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.m+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    kind: header-library
     url: https://github.com/boostorg/function.git

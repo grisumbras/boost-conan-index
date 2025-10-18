@@ -1,33 +1,49 @@
 sources:
   1.89.0:
     commit: bbd9bf65857bcf48fd2f90fecf077a192ee29be8
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.89.0
-      - boost-predef/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-predef/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/winapi.git
   1.89.0-b.1:
     commit: bbd9bf65857bcf48fd2f90fecf077a192ee29be8
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.89.0-b.1
-      - boost-predef/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/winapi.git
   1.90.0-a.d+25.08.25.19.08:
     commit: 094612ee33a8dce960cd075537266fdb4788d059
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-predef/1.90.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    kind: header-library
     url: https://github.com/boostorg/winapi.git
   1.90.0-a.m+25.08.25.19.08:
     commit: 094612ee33a8dce960cd075537266fdb4788d059
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-predef/1.90.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
+    kind: header-library
     url: https://github.com/boostorg/winapi.git

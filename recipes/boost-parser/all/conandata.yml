@@ -1,41 +1,73 @@
 sources:
   1.89.0:
     commit: c674e94c3d409b6ab0ee05429361e8b50fe30320
+    cxxstd: '17'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0
-      - boost-charconv/1.89.0
-      - boost-hana/1.89.0
-      - boost-type_index/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: false
+      public: true
+      ref: boost-charconv/1.89.0
+    - header: true
+      public: true
+      ref: boost-hana/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_index/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/parser.git
   1.89.0-b.1:
     commit: 6414f99e04d362182fa5d3ba87750c993db7e969
+    cxxstd: null
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0-b.1
-      - boost-charconv/1.89.0-b.1
-      - boost-hana/1.89.0-b.1
-      - boost-type_index/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-charconv/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-hana/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_index/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/parser.git
   1.90.0-a.d+25.10.13.18.43:
     commit: d873d7ea8076d95b816cd9557553672ca9689e9b
+    cxxstd: '17'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-charconv/1.90.0-a.d+25.08.14.13.57
-      - boost-hana/1.90.0-a.d+25.07.03.23.00
-      - boost-type_index/1.90.0-a.d+25.10.14.11.58
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: false
+      public: true
+      ref: boost-charconv/1.90.0-a.d+25.08.14.13.57
+    - header: true
+      public: true
+      ref: boost-hana/1.90.0-a.d+25.07.03.23.00
+    - header: true
+      public: true
+      ref: boost-type_index/1.90.0-a.d+25.10.18.15.18
+    kind: header-library
     url: https://github.com/boostorg/parser.git
   1.90.0-a.m+25.07.27.17.50:
     commit: c674e94c3d409b6ab0ee05429361e8b50fe30320
+    cxxstd: '17'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-charconv/1.90.0-a.m+25.08.06.14.08
-      - boost-hana/1.90.0-a.m+25.07.03.23.00
-      - boost-type_index/1.90.0-a.m+25.10.07.20.25
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: false
+      public: true
+      ref: boost-charconv/1.90.0-a.m+25.08.06.14.08
+    - header: true
+      public: true
+      ref: boost-hana/1.90.0-a.m+25.07.03.23.00
+    - header: true
+      public: true
+      ref: boost-type_index/1.90.0-a.m+25.10.07.20.25
+    kind: header-library
     url: https://github.com/boostorg/parser.git

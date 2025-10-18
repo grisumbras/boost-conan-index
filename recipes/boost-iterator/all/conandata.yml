@@ -1,65 +1,145 @@
 sources:
   1.89.0:
     commit: 2a0b753691f326154436fa641287e6336c19d80e
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-concept_check/1.89.0
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-detail/1.89.0
-      - boost-fusion/1.89.0
-      - boost-mp11/1.89.0
-      - boost-mpl/1.89.0
-      - boost-optional/1.89.0
-      - boost-type_traits/1.89.0
-      - boost-utility/1.89.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-detail/1.89.0
+    - header: true
+      public: true
+      ref: boost-fusion/1.89.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0
+    - header: true
+      public: true
+      ref: boost-optional/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-utility/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/iterator.git
   1.89.0-b.1:
     commit: 2a0b753691f326154436fa641287e6336c19d80e
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-concept_check/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-detail/1.89.0-b.1
-      - boost-fusion/1.89.0-b.1
-      - boost-mp11/1.89.0-b.1
-      - boost-mpl/1.89.0-b.1
-      - boost-optional/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
-      - boost-utility/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/iterator.git
   1.90.0-a.d+25.08.25.19.05:
     commit: 248494330d2d82a0264d2f93b88a92687ef7bb7e
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-concept_check/1.90.0-a.d+25.07.02.07.32
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-detail/1.90.0-a.d+25.06.13.00.44
-      - boost-fusion/1.90.0-a.d+24.08.21.20.51
-      - boost-mp11/1.90.0-a.d+25.10.09.18.32
-      - boost-mpl/1.90.0-a.d+25.07.03.00.11
-      - boost-optional/1.90.0-a.d+24.12.08.17.21
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-utility/1.90.0-a.d+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    kind: header-library
     url: https://github.com/boostorg/iterator.git
   1.90.0-a.m+25.08.25.19.05:
     commit: 248494330d2d82a0264d2f93b88a92687ef7bb7e
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-concept_check/1.90.0-a.m+24.12.28.18.10
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-detail/1.90.0-a.m+25.06.13.00.44
-      - boost-fusion/1.90.0-a.m+24.05.15.10.13
-      - boost-mp11/1.90.0-a.m+25.10.09.18.32
-      - boost-mpl/1.90.0-a.m+25.06.27.02.18
-      - boost-optional/1.90.0-a.m+24.12.04.00.23
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-utility/1.90.0-a.m+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.m+24.12.28.18.10
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+    kind: header-library
     url: https://github.com/boostorg/iterator.git

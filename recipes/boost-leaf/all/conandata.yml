@@ -1,25 +1,25 @@
 sources:
   1.89.0:
     commit: aff38b5be343ac6f1588e3258d126224e5347934
-    dependencies:
-      private: []
-      public: []
+    cxxstd: '11'
+    dependencies: []
+    kind: header-library
     url: https://github.com/boostorg/leaf.git
   1.89.0-b.1:
     commit: aff38b5be343ac6f1588e3258d126224e5347934
-    dependencies:
-      private: []
-      public: []
+    cxxstd: '11'
+    dependencies: []
+    kind: header-library
     url: https://github.com/boostorg/leaf.git
   1.90.0-a.d+25.10.13.12.35:
     commit: d8e4a84080ebcd0cd61d36386461ebd3d506c1fe
-    dependencies:
-      private: []
-      public: []
+    cxxstd: '11'
+    dependencies: []
+    kind: header-library
     url: https://github.com/boostorg/leaf.git
   1.90.0-a.m+25.10.13.12.35:
     commit: d8e4a84080ebcd0cd61d36386461ebd3d506c1fe
-    dependencies:
-      private: []
-      public: []
+    cxxstd: '11'
+    dependencies: []
+    kind: header-library
     url: https://github.com/boostorg/leaf.git

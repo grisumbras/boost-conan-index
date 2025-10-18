@@ -18,32 +18,38 @@ class BoostChronoRecipe(ConanFile):
     url = 'https://github.com/boostorg/chrono.git'
     topics = ['Domain', 'System']
 
-    python_requires = 'b2-tools/0.0.1-a'
-    
-    package_type = 'library'
     settings = 'os', 'compiler', 'build_type', 'arch'
     options = {'shared': [True, False]}
     default_options = {'shared': False}
+    python_requires = 'b2-tools/0.0.1-a'
+
+    def configure(self):
+        if self._is_header_only:
+            self.settings.rm_safe('os')
+            self.settings.rm_safe('build_type')
+            self.settings.rm_safe('arch')
+
+            if not self._data_cache['cxxstd']:
+                self.settings.rm_safe('compiler')
+            else:
+                for k, _ in self.settings.compiler.values_list:
+                    if k in ('compiler', 'compiler.cppstd'):
+                        continue
+                    self.settings.rm_safe(k)
 
     def validate(self):
-        check_min_cppstd(self, '11')
+        cxxstd = self._data_cache['cxxstd']
+        if cxxstd:
+            check_min_cppstd(self, cxxstd)
 
     def requirements(self):
-        deps = self.conan_data['sources'][self.version]['dependencies']
-        for dep in deps['public']:
+        for dep in self._data_cache['dependencies']:
             self.requires(
-                dep,
+                dep['ref'],
                 headers=True,
-                transitive_headers=True,
-                libs=True,
-                transitive_libs=True,
-            )
-        for dep in deps['private']:
-            self.requires(
-                dep,
-                headers=True,
-                libs=True,
-                transitive_libs=True,
+                transitive_headers=dep['public'],
+                libs=not dep['header'] and not self._is_header_only,
+                transitive_libs=dep['public'] and not dep['header'],
             )
 
     def build_requirements(self):
@@ -55,8 +61,7 @@ class BoostChronoRecipe(ConanFile):
 
     def source(self):
         git = Git(self)
-        data = self.conan_data['sources'][self.version]
-        git.fetch_commit(data['url'], data['commit'])
+        git.fetch_commit(self._data_cache['url'], self._data_cache['commit'])
         rmdir(self, '.git')
 
         if not glob.glob(f'{self.source_folder}/LICENSE*'):
@@ -99,10 +104,30 @@ class BoostChronoRecipe(ConanFile):
         self.cpp_info.set_property('cmake_target_name', 'Boost::chrono')
         self.cpp_info.set_property('b2_target_name', '/boost/chrono//boost_chrono')
 
-        self.cpp_info.libs = ['boost_chrono']
-        self.cpp_info.defines = ['BOOST_CHRONO_NO_LIB=1']
+        if self._is_header_only:
+            self.cpp_info.bindirs = []
+            self.cpp_info.libdirs = []
+        else:
+            self.cpp_info.libs = ['boost_chrono']
+            self.cpp_info.defines = ['BOOST_CHRONO_NO_LIB=1']
         self.cpp_info.resdirs = ['share']
         self.cpp_info.builddirs = ['share/boost/chrono/modules']
+
+    def package_id(self):
+        if self._is_header_only:
+            self.info.clear()
+
+    @property
+    def _data_cache(self):
+        result = getattr(self, '_conan_data', None)
+        if result is None:
+            result = self.conan_data['sources'][self.version]
+            self._conan_data = result
+        return result
+
+    @property
+    def _is_header_only(self):
+        return self._data_cache['kind'] == 'header-library'
 
 
 _boost_install = '''\

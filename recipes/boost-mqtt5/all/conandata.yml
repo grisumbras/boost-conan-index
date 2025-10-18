@@ -1,78 +1,184 @@
 sources:
   1.89.0:
     commit: 620df1f9934925ac6044e4619c701d6dcf9dc8b6
+    cxxstd: '17'
     dependencies:
-      private: []
-      public:
-      - boost-asio/1.89.0
-      - boost-assert/1.89.0
-      - boost-beast/1.89.0
-      - boost-container/1.89.0
-      - boost-core/1.89.0
-      - boost-endian/1.89.0
-      - boost-fusion/1.89.0
-      - boost-optional/1.89.0
-      - boost-random/1.89.0
-      - boost-range/1.89.0
-      - boost-smart_ptr/1.89.0
-      - boost-spirit/1.89.0
-      - boost-system/1.89.0
-      - boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-asio/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-beast/1.89.0
+    - header: false
+      public: true
+      ref: boost-container/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-endian/1.89.0
+    - header: true
+      public: true
+      ref: boost-fusion/1.89.0
+    - header: true
+      public: true
+      ref: boost-optional/1.89.0
+    - header: false
+      public: true
+      ref: boost-random/1.89.0
+    - header: true
+      public: true
+      ref: boost-range/1.89.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0
+    - header: true
+      public: true
+      ref: boost-spirit/1.89.0
+    - header: true
+      public: true
+      ref: boost-system/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/mqtt5.git
   1.89.0-b.1:
     commit: 5375062894f192351d2827e33412179471e01113
+    cxxstd: '17'
     dependencies:
-      private: []
-      public:
-      - boost-asio/1.89.0-b.1
-      - boost-assert/1.89.0-b.1
-      - boost-beast/1.89.0-b.1
-      - boost-container/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-endian/1.89.0-b.1
-      - boost-fusion/1.89.0-b.1
-      - boost-optional/1.89.0-b.1
-      - boost-random/1.89.0-b.1
-      - boost-range/1.89.0-b.1
-      - boost-smart_ptr/1.89.0-b.1
-      - boost-spirit/1.89.0-b.1
-      - boost-system/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-asio/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-beast/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-container/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-endian/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-random/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-spirit/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/mqtt5.git
   1.90.0-a.d+25.09.18.20.25:
     commit: 150ba94d14d89d1187e010464a63eaddf10e2225
+    cxxstd: '17'
     dependencies:
-      private: []
-      public:
-      - boost-asio/1.90.0-a.d+25.08.06.22.32
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-beast/1.90.0-a.d+25.10.09.08.54
-      - boost-container/1.90.0-a.d+25.10.08.00.43
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-endian/1.90.0-a.d+24.12.14.03.43
-      - boost-random/1.90.0-a.d+25.10.01.07.50
-      - boost-range/1.90.0-a.d+25.05.02.19.18
-      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
-      - boost-system/1.90.0-a.d+25.07.02.19.12
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.d+25.08.06.22.32
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-beast/1.90.0-a.d+25.10.09.08.54
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-a.d+25.10.08.00.43
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-a.d+24.12.14.03.43
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-a.d+25.10.01.07.50
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.d+25.05.02.19.18
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.d+25.07.02.19.12
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    kind: header-library
     url: https://github.com/boostorg/mqtt5.git
   1.90.0-a.m+25.07.28.14.02:
     commit: 620df1f9934925ac6044e4619c701d6dcf9dc8b6
+    cxxstd: '17'
     dependencies:
-      private: []
-      public:
-      - boost-asio/1.90.0-a.m+25.08.06.22.37
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-beast/1.90.0-a.m+25.07.29.12.30
-      - boost-container/1.90.0-a.m+25.10.08.00.43
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-endian/1.90.0-a.m+24.12.14.03.43
-      - boost-fusion/1.90.0-a.m+24.05.15.10.13
-      - boost-optional/1.90.0-a.m+24.12.04.00.23
-      - boost-random/1.90.0-a.m+25.07.03.08.55
-      - boost-range/1.90.0-a.m+25.02.08.16.31
-      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
-      - boost-spirit/1.90.0-a.m+25.09.17.08.31
-      - boost-system/1.90.0-a.m+25.07.02.19.12
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.m+25.08.06.22.37
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-beast/1.90.0-a.m+25.07.29.12.30
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-a.m+25.10.08.00.43
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-a.m+24.12.14.03.43
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.m+24.12.04.00.23
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-a.m+25.07.03.08.55
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.m+25.02.08.16.31
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0-a.m+25.09.17.08.31
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.m+25.07.02.19.12
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    kind: header-library
     url: https://github.com/boostorg/mqtt5.git

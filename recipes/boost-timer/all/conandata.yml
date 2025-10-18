@@ -1,37 +1,61 @@
 sources:
   1.89.0:
     commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-io/1.89.0
-      - boost-predef/1.89.0
-      public:
-      - boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: false
+      ref: boost-io/1.89.0
+    - header: true
+      public: false
+      ref: boost-predef/1.89.0
+    kind: library
     url: https://github.com/boostorg/timer.git
   1.89.0-b.1:
     commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-io/1.89.0-b.1
-      - boost-predef/1.89.0-b.1
-      public:
-      - boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: false
+      ref: boost-io/1.89.0-b.1
+    - header: true
+      public: false
+      ref: boost-predef/1.89.0-b.1
+    kind: library
     url: https://github.com/boostorg/timer.git
   1.90.0-a.d+24.12.14.16.31:
     commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-io/1.90.0-a.d+25.06.26.11.42
-      - boost-predef/1.90.0-a.d+25.02.03.08.30
-      public:
-      - boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: false
+      ref: boost-io/1.90.0-a.d+25.06.26.11.42
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    kind: library
     url: https://github.com/boostorg/timer.git
   1.90.0-a.m+24.12.14.16.31:
     commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-io/1.90.0-a.m+23.10.03.00.15
-      - boost-predef/1.90.0-a.m+25.01.12.12.53
-      public:
-      - boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: false
+      ref: boost-io/1.90.0-a.m+23.10.03.00.15
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
+    kind: library
     url: https://github.com/boostorg/timer.git

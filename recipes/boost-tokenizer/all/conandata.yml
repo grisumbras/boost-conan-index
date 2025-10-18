@@ -1,45 +1,85 @@
 sources:
   1.89.0:
     commit: a1207c1a424ee565344fe5ef00605cb93f5210c2
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0
-      - boost-config/1.89.0
-      - boost-iterator/1.89.0
-      - boost-throw_exception/1.89.0
-      - boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/tokenizer.git
   1.89.0-b.1:
     commit: a1207c1a424ee565344fe5ef00605cb93f5210c2
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-iterator/1.89.0-b.1
-      - boost-throw_exception/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/tokenizer.git
   1.90.0-a.d+25.07.02.17.31:
     commit: 8f6316a8c937656aeeb2f48e469363eeac72837b
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-iterator/1.90.0-a.d+25.08.25.19.05
-      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    kind: header-library
     url: https://github.com/boostorg/tokenizer.git
   1.90.0-a.m+25.01.01.15.10:
     commit: a1207c1a424ee565344fe5ef00605cb93f5210c2
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-iterator/1.90.0-a.m+25.08.25.19.05
-      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    kind: header-library
     url: https://github.com/boostorg/tokenizer.git

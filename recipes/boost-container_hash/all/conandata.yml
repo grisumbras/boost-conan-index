@@ -1,37 +1,61 @@
 sources:
   1.89.0:
     commit: 5d8b8ac2b9d9d7cb3818f88fd7e6372e5f072ff5
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.89.0
-      - boost-describe/1.89.0
-      - boost-mp11/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-describe/1.89.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/container_hash.git
   1.89.0-b.1:
     commit: 5d8b8ac2b9d9d7cb3818f88fd7e6372e5f072ff5
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.89.0-b.1
-      - boost-describe/1.89.0-b.1
-      - boost-mp11/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-describe/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/container_hash.git
   1.90.0-a.d+25.08.21.19.31:
     commit: 060d4aea6b5b59d2c9146b7d8e994735b2c0a582
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-describe/1.90.0-a.d+25.08.17.10.18
-      - boost-mp11/1.90.0-a.d+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-describe/1.90.0-a.d+25.08.17.10.18
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+    kind: header-library
     url: https://github.com/boostorg/container_hash.git
   1.90.0-a.m+25.08.21.19.31:
     commit: 060d4aea6b5b59d2c9146b7d8e994735b2c0a582
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-describe/1.90.0-a.m+25.08.17.10.18
-      - boost-mp11/1.90.0-a.m+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-describe/1.90.0-a.m+25.08.17.10.18
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+    kind: header-library
     url: https://github.com/boostorg/container_hash.git

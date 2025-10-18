@@ -1,65 +1,145 @@
 sources:
   1.89.0:
     commit: 0068b4d90d7843ecec3e43da0ed4229b7acc27c6
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-bind/1.89.0
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-detail/1.89.0
-      - boost-iterator/1.89.0
-      - boost-mpl/1.89.0
-      - boost-preprocessor/1.89.0
-      - boost-tuple/1.89.0
-      - boost-type_traits/1.89.0
-      - boost-utility/1.89.0
+    - header: true
+      public: true
+      ref: boost-bind/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-detail/1.89.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0
+    - header: true
+      public: true
+      ref: boost-tuple/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-utility/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/lambda.git
   1.89.0-b.1:
     commit: 0068b4d90d7843ecec3e43da0ed4229b7acc27c6
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-bind/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-detail/1.89.0-b.1
-      - boost-iterator/1.89.0-b.1
-      - boost-mpl/1.89.0-b.1
-      - boost-preprocessor/1.89.0-b.1
-      - boost-tuple/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
-      - boost-utility/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/lambda.git
   1.90.0-a.d+25.05.03.03.20:
     commit: 0068b4d90d7843ecec3e43da0ed4229b7acc27c6
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-bind/1.90.0-a.d+24.12.13.03.05
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-detail/1.90.0-a.d+25.06.13.00.44
-      - boost-iterator/1.90.0-a.d+25.08.25.19.05
-      - boost-mpl/1.90.0-a.d+25.07.03.00.11
-      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
-      - boost-tuple/1.90.0-a.d+25.06.09.02.57
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-utility/1.90.0-a.d+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.d+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-a.d+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    kind: header-library
     url: https://github.com/boostorg/lambda.git
   1.90.0-a.m+25.05.03.03.20:
     commit: 0068b4d90d7843ecec3e43da0ed4229b7acc27c6
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-bind/1.90.0-a.m+24.12.13.03.05
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-detail/1.90.0-a.m+25.06.13.00.44
-      - boost-iterator/1.90.0-a.m+25.08.25.19.05
-      - boost-mpl/1.90.0-a.m+25.06.27.02.18
-      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-      - boost-tuple/1.90.0-a.m+25.06.09.02.57
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-utility/1.90.0-a.m+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.m+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-a.m+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+    kind: header-library
     url: https://github.com/boostorg/lambda.git

@@ -1,66 +1,148 @@
 sources:
   1.89.0:
     commit: 5e088ffe2ed0e237b9069e3a7352865283d8f196
+    cxxstd: '14'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0
-      - boost-concept_check/1.89.0
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-integer/1.89.0
-      - boost-lexical_cast/1.89.0
-      - boost-predef/1.89.0
-      - boost-random/1.89.0
-      - boost-static_assert/1.89.0
-      - boost-throw_exception/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-integer/1.89.0
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.89.0
+    - header: true
+      public: true
+      ref: boost-predef/1.89.0
+    - header: false
+      public: true
+      ref: boost-random/1.89.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0
+    kind: library
     url: https://github.com/boostorg/math.git
   1.89.0-b.1:
     commit: 5e088ffe2ed0e237b9069e3a7352865283d8f196
+    cxxstd: '14'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0-b.1
-      - boost-concept_check/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-integer/1.89.0-b.1
-      - boost-lexical_cast/1.89.0-b.1
-      - boost-predef/1.89.0-b.1
-      - boost-random/1.89.0-b.1
-      - boost-static_assert/1.89.0-b.1
-      - boost-throw_exception/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-random/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0-b.1
+    kind: library
     url: https://github.com/boostorg/math.git
   1.90.0-a.d+25.10.03.18.32:
     commit: 975672b7b15ed3a42dfa6e0ac33b5bb3b897cadf
+    cxxstd: '14'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-concept_check/1.90.0-a.d+25.07.02.07.32
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-integer/1.90.0-a.d+25.08.25.19.05
-      - boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
-      - boost-multiprecision/1.90.0-a.d+25.09.22.22.37
-      - boost-predef/1.90.0-a.d+25.02.03.08.30
-      - boost-random/1.90.0-a.d+25.10.01.07.50
-      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
-      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
+    - header: true
+      public: true
+      ref: boost-multiprecision/1.90.0-a.d+25.09.22.22.37
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-a.d+25.10.01.07.50
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    kind: library
     url: https://github.com/boostorg/math.git
   1.90.0-a.m+25.10.15.18.57:
     commit: d11ee3f12be09065664da4dcbee0eebf2bcec753
+    cxxstd: '14'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-concept_check/1.90.0-a.m+24.12.28.18.10
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-integer/1.90.0-a.m+25.08.25.19.05
-      - boost-lexical_cast/1.90.0-a.m+25.10.11.17.36
-      - boost-predef/1.90.0-a.m+25.01.12.12.53
-      - boost-random/1.90.0-a.m+25.07.03.08.55
-      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
-      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.m+24.12.28.18.10
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-a.m+25.10.16.09.15
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-a.m+25.07.03.08.55
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    kind: library
     url: https://github.com/boostorg/math.git

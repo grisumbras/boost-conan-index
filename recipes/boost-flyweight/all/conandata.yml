@@ -1,81 +1,193 @@
 sources:
   1.89.0:
     commit: 76c84ce5b3f38abf774f36269ff3978301f06241
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0
-      - boost-config/1.89.0
-      - boost-container_hash/1.89.0
-      - boost-core/1.89.0
-      - boost-detail/1.89.0
-      - boost-interprocess/1.89.0
-      - boost-mpl/1.89.0
-      - boost-multi_index/1.89.0
-      - boost-parameter/1.89.0
-      - boost-preprocessor/1.89.0
-      - boost-smart_ptr/1.89.0
-      - boost-throw_exception/1.89.0
-      - boost-type_traits/1.89.0
-      - boost-unordered/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-container_hash/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-detail/1.89.0
+    - header: true
+      public: true
+      ref: boost-interprocess/1.89.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0
+    - header: true
+      public: true
+      ref: boost-multi_index/1.89.0
+    - header: true
+      public: true
+      ref: boost-parameter/1.89.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-unordered/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/flyweight.git
   1.89.0-b.1:
     commit: 76c84ce5b3f38abf774f36269ff3978301f06241
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-container_hash/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-detail/1.89.0-b.1
-      - boost-interprocess/1.89.0-b.1
-      - boost-mpl/1.89.0-b.1
-      - boost-multi_index/1.89.0-b.1
-      - boost-parameter/1.89.0-b.1
-      - boost-preprocessor/1.89.0-b.1
-      - boost-smart_ptr/1.89.0-b.1
-      - boost-throw_exception/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
-      - boost-unordered/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-interprocess/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-multi_index/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-unordered/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/flyweight.git
   1.90.0-a.d+25.09.20.12.39:
     commit: 575a6852b994b1d3f3fac6b613ea7246778f8369
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-container_hash/1.90.0-a.d+25.08.21.19.31
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-detail/1.90.0-a.d+25.06.13.00.44
-      - boost-interprocess/1.90.0-a.d+25.10.11.12.45
-      - boost-mpl/1.90.0-a.d+25.07.03.00.11
-      - boost-multi_index/1.90.0-a.d+25.09.19.09.06
-      - boost-parameter/1.90.0-a.d+25.08.25.19.06
-      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
-      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
-      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-unordered/1.90.0-a.d+25.10.15.01.40
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-interprocess/1.90.0-a.d+25.10.11.12.45
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - header: true
+      public: true
+      ref: boost-multi_index/1.90.0-a.d+25.09.19.09.06
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-unordered/1.90.0-a.d+25.10.15.01.40
+    kind: header-library
     url: https://github.com/boostorg/flyweight.git
   1.90.0-a.m+25.09.20.12.39:
     commit: 575a6852b994b1d3f3fac6b613ea7246778f8369
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-container_hash/1.90.0-a.m+25.08.21.19.31
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-detail/1.90.0-a.m+25.06.13.00.44
-      - boost-interprocess/1.90.0-a.m+25.10.11.12.45
-      - boost-mpl/1.90.0-a.m+25.06.27.02.18
-      - boost-multi_index/1.90.0-a.m+25.09.20.17.53
-      - boost-parameter/1.90.0-a.m+25.08.25.19.06
-      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
-      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-unordered/1.90.0-a.m+25.10.12.13.14
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-interprocess/1.90.0-a.m+25.10.11.12.45
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+    - header: true
+      public: true
+      ref: boost-multi_index/1.90.0-a.m+25.09.20.17.53
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-unordered/1.90.0-a.m+25.10.12.13.14
+    kind: header-library
     url: https://github.com/boostorg/flyweight.git

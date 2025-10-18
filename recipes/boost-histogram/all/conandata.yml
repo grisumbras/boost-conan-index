@@ -1,53 +1,109 @@
 sources:
   1.89.0:
     commit: 6eaea7fead85b5e00c9a4c4d51d7b8fe335a8782
+    cxxstd: '14'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-math/1.89.0
-      - boost-mp11/1.89.0
-      - boost-serialization/1.89.0
-      - boost-throw_exception/1.89.0
-      - boost-variant2/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: false
+      public: true
+      ref: boost-math/1.89.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0
+    - header: false
+      public: true
+      ref: boost-serialization/1.89.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0
+    - header: true
+      public: true
+      ref: boost-variant2/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/histogram.git
   1.89.0-b.1:
     commit: 6eaea7fead85b5e00c9a4c4d51d7b8fe335a8782
+    cxxstd: '14'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-math/1.89.0-b.1
-      - boost-mp11/1.89.0-b.1
-      - boost-serialization/1.89.0-b.1
-      - boost-throw_exception/1.89.0-b.1
-      - boost-variant2/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-math/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-serialization/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant2/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/histogram.git
   1.90.0-a.d+25.06.12.21.19:
     commit: 3afe76f91f93af237764242d56fa6ebaad7c81e6
+    cxxstd: '14'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-math/1.90.0-a.d+25.10.03.18.32
-      - boost-mp11/1.90.0-a.d+25.10.09.18.32
-      - boost-serialization/1.90.0-a.d+24.08.18.11.53
-      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
-      - boost-variant2/1.90.0-a.d+25.10.18.08.24
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: false
+      public: true
+      ref: boost-math/1.90.0-a.d+25.10.03.18.32
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.d+25.10.18.08.24
+    kind: header-library
     url: https://github.com/boostorg/histogram.git
   1.90.0-a.m+25.06.12.10.10:
     commit: 6eaea7fead85b5e00c9a4c4d51d7b8fe335a8782
+    cxxstd: '14'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-math/1.90.0-a.m+25.10.15.18.57
-      - boost-mp11/1.90.0-a.m+25.10.09.18.32
-      - boost-serialization/1.90.0-a.m+23.11.12.21.05
-      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
-      - boost-variant2/1.90.0-a.m+25.10.17.21.04
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: false
+      public: true
+      ref: boost-math/1.90.0-a.m+25.10.15.18.57
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.m+23.11.12.21.05
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.m+25.10.17.21.04
+    kind: header-library
     url: https://github.com/boostorg/histogram.git

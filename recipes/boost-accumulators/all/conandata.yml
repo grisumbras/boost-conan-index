@@ -1,105 +1,265 @@
 sources:
   1.89.0:
     commit: eb7ff254b81b6a4d3fd0012a9691e91c8591d312
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-array/1.89.0
-      - boost-assert/1.89.0
-      - boost-circular_buffer/1.89.0
-      - boost-concept_check/1.89.0
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-fusion/1.89.0
-      - boost-iterator/1.89.0
-      - boost-mpl/1.89.0
-      - boost-numeric_conversion/1.89.0
-      - boost-parameter/1.89.0
-      - boost-preprocessor/1.89.0
-      - boost-range/1.89.0
-      - boost-serialization/1.89.0
-      - boost-static_assert/1.89.0
-      - boost-throw_exception/1.89.0
-      - boost-tuple/1.89.0
-      - boost-type_traits/1.89.0
-      - boost-typeof/1.89.0
-      - boost-ublas/1.89.0
+    - header: true
+      public: true
+      ref: boost-array/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.89.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-fusion/1.89.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.89.0
+    - header: true
+      public: true
+      ref: boost-parameter/1.89.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0
+    - header: true
+      public: true
+      ref: boost-range/1.89.0
+    - header: false
+      public: true
+      ref: boost-serialization/1.89.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0
+    - header: true
+      public: true
+      ref: boost-tuple/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.89.0
+    - header: true
+      public: true
+      ref: boost-ublas/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/accumulators.git
   1.89.0-b.1:
     commit: eb7ff254b81b6a4d3fd0012a9691e91c8591d312
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-array/1.89.0-b.1
-      - boost-assert/1.89.0-b.1
-      - boost-circular_buffer/1.89.0-b.1
-      - boost-concept_check/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-fusion/1.89.0-b.1
-      - boost-iterator/1.89.0-b.1
-      - boost-mpl/1.89.0-b.1
-      - boost-numeric_conversion/1.89.0-b.1
-      - boost-parameter/1.89.0-b.1
-      - boost-preprocessor/1.89.0-b.1
-      - boost-range/1.89.0-b.1
-      - boost-serialization/1.89.0-b.1
-      - boost-static_assert/1.89.0-b.1
-      - boost-throw_exception/1.89.0-b.1
-      - boost-tuple/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
-      - boost-typeof/1.89.0-b.1
-      - boost-ublas/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-array/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-serialization/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-ublas/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/accumulators.git
   1.90.0-a.d+25.06.26.09.24:
     commit: eb7ff254b81b6a4d3fd0012a9691e91c8591d312
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-array/1.90.0-a.d+25.04.03.14.10
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-circular_buffer/1.90.0-a.d+25.05.02.19.05
-      - boost-concept_check/1.90.0-a.d+25.07.02.07.32
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-fusion/1.90.0-a.d+24.08.21.20.51
-      - boost-iterator/1.90.0-a.d+25.08.25.19.05
-      - boost-mpl/1.90.0-a.d+25.07.03.00.11
-      - boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40
-      - boost-parameter/1.90.0-a.d+25.08.25.19.06
-      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
-      - boost-range/1.90.0-a.d+25.05.02.19.18
-      - boost-serialization/1.90.0-a.d+24.08.18.11.53
-      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
-      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
-      - boost-tuple/1.90.0-a.d+25.06.09.02.57
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-typeof/1.90.0-a.d+25.06.09.02.44
-      - boost-ublas/1.90.0-a.d+23.11.22.02.19
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-a.d+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.90.0-a.d+25.05.02.19.05
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.d+25.05.02.19.18
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-a.d+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.d+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-ublas/1.90.0-a.d+23.11.22.02.19
+    kind: header-library
     url: https://github.com/boostorg/accumulators.git
   1.90.0-a.m+25.06.26.09.24:
     commit: eb7ff254b81b6a4d3fd0012a9691e91c8591d312
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-array/1.90.0-a.m+25.04.03.14.10
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-circular_buffer/1.90.0-a.m+22.09.12.08.08
-      - boost-concept_check/1.90.0-a.m+24.12.28.18.10
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-fusion/1.90.0-a.m+24.05.15.10.13
-      - boost-iterator/1.90.0-a.m+25.08.25.19.05
-      - boost-mpl/1.90.0-a.m+25.06.27.02.18
-      - boost-numeric_conversion/1.90.0-a.m+25.06.26.07.40
-      - boost-parameter/1.90.0-a.m+25.08.25.19.06
-      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-      - boost-range/1.90.0-a.m+25.02.08.16.31
-      - boost-serialization/1.90.0-a.m+23.11.12.21.05
-      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
-      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
-      - boost-tuple/1.90.0-a.m+25.06.09.02.57
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-typeof/1.90.0-a.m+25.06.09.02.44
-      - boost-ublas/1.90.0-a.m+24.05.07.22.32
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-a.m+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.90.0-a.m+22.09.12.08.08
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.m+24.12.28.18.10
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-a.m+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.m+25.02.08.16.31
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.m+23.11.12.21.05
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-a.m+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.m+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-ublas/1.90.0-a.m+24.05.07.22.32
+    kind: header-library
     url: https://github.com/boostorg/accumulators.git

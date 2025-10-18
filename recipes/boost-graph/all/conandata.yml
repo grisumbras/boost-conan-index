@@ -1,196 +1,538 @@
 sources:
   1.89.0:
     commit: 54a94911e68dccf5812b32d018566566700499f3
+    cxxstd: '14'
     dependencies:
-      private:
-      - boost-regex/1.89.0
-      public:
-      - boost-algorithm/1.89.0
-      - boost-any/1.89.0
-      - boost-array/1.89.0
-      - boost-assert/1.89.0
-      - boost-bimap/1.89.0
-      - boost-bind/1.89.0
-      - boost-concept_check/1.89.0
-      - boost-config/1.89.0
-      - boost-container_hash/1.89.0
-      - boost-conversion/1.89.0
-      - boost-core/1.89.0
-      - boost-detail/1.89.0
-      - boost-foreach/1.89.0
-      - boost-function/1.89.0
-      - boost-geometry/1.89.0
-      - boost-integer/1.89.0
-      - boost-iterator/1.89.0
-      - boost-lexical_cast/1.89.0
-      - boost-math/1.89.0
-      - boost-move/1.89.0
-      - boost-mpl/1.89.0
-      - boost-multi_index/1.89.0
-      - boost-numeric_conversion/1.89.0
-      - boost-optional/1.89.0
-      - boost-parameter/1.89.0
-      - boost-preprocessor/1.89.0
-      - boost-property_map/1.89.0
-      - boost-property_tree/1.89.0
-      - boost-random/1.89.0
-      - boost-range/1.89.0
-      - boost-serialization/1.89.0
-      - boost-smart_ptr/1.89.0
-      - boost-spirit/1.89.0
-      - boost-static_assert/1.89.0
-      - boost-throw_exception/1.89.0
-      - boost-tti/1.89.0
-      - boost-tuple/1.89.0
-      - boost-type_traits/1.89.0
-      - boost-typeof/1.89.0
-      - boost-unordered/1.89.0
-      - boost-utility/1.89.0
-      - boost-xpressive/1.89.0
+    - header: true
+      public: true
+      ref: boost-algorithm/1.89.0
+    - header: true
+      public: true
+      ref: boost-any/1.89.0
+    - header: true
+      public: true
+      ref: boost-array/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-bimap/1.89.0
+    - header: true
+      public: true
+      ref: boost-bind/1.89.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-container_hash/1.89.0
+    - header: true
+      public: true
+      ref: boost-conversion/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-detail/1.89.0
+    - header: true
+      public: true
+      ref: boost-foreach/1.89.0
+    - header: true
+      public: true
+      ref: boost-function/1.89.0
+    - header: true
+      public: true
+      ref: boost-geometry/1.89.0
+    - header: true
+      public: true
+      ref: boost-integer/1.89.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.89.0
+    - header: false
+      public: true
+      ref: boost-math/1.89.0
+    - header: true
+      public: true
+      ref: boost-move/1.89.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0
+    - header: true
+      public: true
+      ref: boost-multi_index/1.89.0
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.89.0
+    - header: true
+      public: true
+      ref: boost-optional/1.89.0
+    - header: true
+      public: true
+      ref: boost-parameter/1.89.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0
+    - header: true
+      public: true
+      ref: boost-property_map/1.89.0
+    - header: true
+      public: true
+      ref: boost-property_tree/1.89.0
+    - header: false
+      public: true
+      ref: boost-random/1.89.0
+    - header: true
+      public: true
+      ref: boost-range/1.89.0
+    - header: false
+      public: true
+      ref: boost-serialization/1.89.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0
+    - header: true
+      public: true
+      ref: boost-spirit/1.89.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0
+    - header: true
+      public: true
+      ref: boost-tti/1.89.0
+    - header: true
+      public: true
+      ref: boost-tuple/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.89.0
+    - header: true
+      public: true
+      ref: boost-unordered/1.89.0
+    - header: true
+      public: true
+      ref: boost-utility/1.89.0
+    - header: true
+      public: true
+      ref: boost-xpressive/1.89.0
+    - header: false
+      public: false
+      ref: boost-regex/1.89.0
+    kind: library
     url: https://github.com/boostorg/graph.git
   1.89.0-b.1:
     commit: 54a94911e68dccf5812b32d018566566700499f3
+    cxxstd: '14'
     dependencies:
-      private:
-      - boost-regex/1.89.0-b.1
-      public:
-      - boost-algorithm/1.89.0-b.1
-      - boost-any/1.89.0-b.1
-      - boost-array/1.89.0-b.1
-      - boost-assert/1.89.0-b.1
-      - boost-bimap/1.89.0-b.1
-      - boost-bind/1.89.0-b.1
-      - boost-concept_check/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-container_hash/1.89.0-b.1
-      - boost-conversion/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-detail/1.89.0-b.1
-      - boost-foreach/1.89.0-b.1
-      - boost-function/1.89.0-b.1
-      - boost-geometry/1.89.0-b.1
-      - boost-integer/1.89.0-b.1
-      - boost-iterator/1.89.0-b.1
-      - boost-lexical_cast/1.89.0-b.1
-      - boost-math/1.89.0-b.1
-      - boost-move/1.89.0-b.1
-      - boost-mpl/1.89.0-b.1
-      - boost-multi_index/1.89.0-b.1
-      - boost-numeric_conversion/1.89.0-b.1
-      - boost-optional/1.89.0-b.1
-      - boost-parameter/1.89.0-b.1
-      - boost-preprocessor/1.89.0-b.1
-      - boost-property_map/1.89.0-b.1
-      - boost-property_tree/1.89.0-b.1
-      - boost-random/1.89.0-b.1
-      - boost-range/1.89.0-b.1
-      - boost-serialization/1.89.0-b.1
-      - boost-smart_ptr/1.89.0-b.1
-      - boost-spirit/1.89.0-b.1
-      - boost-static_assert/1.89.0-b.1
-      - boost-throw_exception/1.89.0-b.1
-      - boost-tti/1.89.0-b.1
-      - boost-tuple/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
-      - boost-typeof/1.89.0-b.1
-      - boost-unordered/1.89.0-b.1
-      - boost-utility/1.89.0-b.1
-      - boost-xpressive/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-algorithm/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-any/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-array/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-bimap/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-conversion/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-foreach/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-geometry/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-math/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-multi_index/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-property_map/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-property_tree/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-random/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-serialization/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-spirit/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-tti/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-unordered/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-xpressive/1.89.0-b.1
+    - header: false
+      public: false
+      ref: boost-regex/1.89.0-b.1
+    kind: library
     url: https://github.com/boostorg/graph.git
   1.90.0-a.d+25.10.09.16.54:
     commit: 6c78c841564d6045fee95b91d490a2dcfa5824be
+    cxxstd: '14'
     dependencies:
-      private:
-      - boost-regex/1.90.0-a.d+25.07.04.20.20
-      public:
-      - boost-algorithm/1.90.0-a.d+25.08.25.08.42
-      - boost-any/1.90.0-a.d+25.10.07.20.26
-      - boost-array/1.90.0-a.d+25.04.03.14.10
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-bimap/1.90.0-a.d+25.01.27.23.01
-      - boost-concept_check/1.90.0-a.d+25.07.02.07.32
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-container_hash/1.90.0-a.d+25.08.21.19.31
-      - boost-conversion/1.90.0-a.d+25.10.07.20.26
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-detail/1.90.0-a.d+25.06.13.00.44
-      - boost-foreach/1.90.0-a.d+25.05.02.19.11
-      - boost-function/1.90.0-a.d+24.12.14.04.39
-      - boost-geometry/1.90.0-a.d+25.08.25.17.26
-      - boost-integer/1.90.0-a.d+25.08.25.19.05
-      - boost-iterator/1.90.0-a.d+25.08.25.19.05
-      - boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
-      - boost-math/1.90.0-a.d+25.10.03.18.32
-      - boost-move/1.90.0-a.d+25.10.18.12.24
-      - boost-mpl/1.90.0-a.d+25.07.03.00.11
-      - boost-multi_index/1.90.0-a.d+25.09.19.09.06
-      - boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40
-      - boost-optional/1.90.0-a.d+24.12.08.17.21
-      - boost-parameter/1.90.0-a.d+25.08.25.19.06
-      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
-      - boost-property_map/1.90.0-a.d+25.07.02.16.58
-      - boost-property_tree/1.90.0-a.d+25.06.30.13.56
-      - boost-random/1.90.0-a.d+25.10.01.07.50
-      - boost-range/1.90.0-a.d+25.05.02.19.18
-      - boost-serialization/1.90.0-a.d+24.08.18.11.53
-      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
-      - boost-spirit/1.90.0-a.d+25.10.06.20.36
-      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
-      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
-      - boost-tti/1.90.0-a.d+25.05.02.19.22
-      - boost-tuple/1.90.0-a.d+25.06.09.02.57
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-typeof/1.90.0-a.d+25.06.09.02.44
-      - boost-unordered/1.90.0-a.d+25.10.15.01.40
-      - boost-utility/1.90.0-a.d+25.08.25.19.07
-      - boost-xpressive/1.90.0-a.d+25.05.02.19.26
+    - header: true
+      public: true
+      ref: boost-algorithm/1.90.0-a.d+25.08.25.08.42
+    - header: true
+      public: true
+      ref: boost-any/1.90.0-a.d+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-a.d+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-bimap/1.90.0-a.d+25.01.27.23.01
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-conversion/1.90.0-a.d+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-foreach/1.90.0-a.d+25.05.02.19.11
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-a.d+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-geometry/1.90.0-a.d+25.08.25.17.26
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
+    - header: false
+      public: true
+      ref: boost-math/1.90.0-a.d+25.10.03.18.32
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-a.d+25.10.18.12.24
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - header: true
+      public: true
+      ref: boost-multi_index/1.90.0-a.d+25.09.19.09.06
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-property_map/1.90.0-a.d+25.07.02.16.58
+    - header: true
+      public: true
+      ref: boost-property_tree/1.90.0-a.d+25.06.30.13.56
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-a.d+25.10.01.07.50
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.d+25.05.02.19.18
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0-a.d+25.10.06.20.36
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-tti/1.90.0-a.d+25.05.02.19.22
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-a.d+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.d+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-unordered/1.90.0-a.d+25.10.15.01.40
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-xpressive/1.90.0-a.d+25.05.02.19.26
+    - header: false
+      public: false
+      ref: boost-regex/1.90.0-a.d+25.07.04.20.20
+    kind: library
     url: https://github.com/boostorg/graph.git
   1.90.0-a.m+25.02.15.20.07:
     commit: 54a94911e68dccf5812b32d018566566700499f3
+    cxxstd: '14'
     dependencies:
-      private:
-      - boost-regex/1.90.0-a.m+25.07.04.17.16
-      public:
-      - boost-algorithm/1.90.0-a.m+23.08.02.20.42
-      - boost-any/1.90.0-a.m+25.10.07.20.26
-      - boost-array/1.90.0-a.m+25.04.03.14.10
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-bimap/1.90.0-a.m+25.01.27.23.01
-      - boost-bind/1.90.0-a.m+24.12.13.03.05
-      - boost-concept_check/1.90.0-a.m+24.12.28.18.10
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-container_hash/1.90.0-a.m+25.08.21.19.31
-      - boost-conversion/1.90.0-a.m+25.10.07.20.26
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-detail/1.90.0-a.m+25.06.13.00.44
-      - boost-foreach/1.90.0-a.m+25.01.26.17.47
-      - boost-function/1.90.0-a.m+24.12.14.04.39
-      - boost-geometry/1.90.0-a.m+25.08.01.18.48
-      - boost-integer/1.90.0-a.m+25.08.25.19.05
-      - boost-iterator/1.90.0-a.m+25.08.25.19.05
-      - boost-lexical_cast/1.90.0-a.m+25.10.11.17.36
-      - boost-math/1.90.0-a.m+25.10.15.18.57
-      - boost-move/1.90.0-a.m+25.10.18.12.24
-      - boost-mpl/1.90.0-a.m+25.06.27.02.18
-      - boost-multi_index/1.90.0-a.m+25.09.20.17.53
-      - boost-numeric_conversion/1.90.0-a.m+25.06.26.07.40
-      - boost-optional/1.90.0-a.m+24.12.04.00.23
-      - boost-parameter/1.90.0-a.m+25.08.25.19.06
-      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-      - boost-property_map/1.90.0-a.m+24.12.28.21.57
-      - boost-property_tree/1.90.0-a.m+25.06.30.13.56
-      - boost-random/1.90.0-a.m+25.07.03.08.55
-      - boost-range/1.90.0-a.m+25.02.08.16.31
-      - boost-serialization/1.90.0-a.m+23.11.12.21.05
-      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
-      - boost-spirit/1.90.0-a.m+25.09.17.08.31
-      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
-      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
-      - boost-tti/1.90.0-a.m+21.05.28.00.26
-      - boost-tuple/1.90.0-a.m+25.06.09.02.57
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-typeof/1.90.0-a.m+25.06.09.02.44
-      - boost-unordered/1.90.0-a.m+25.10.12.13.14
-      - boost-utility/1.90.0-a.m+25.08.25.19.07
-      - boost-xpressive/1.90.0-a.m+24.09.27.20.36
+    - header: true
+      public: true
+      ref: boost-algorithm/1.90.0-a.m+23.08.02.20.42
+    - header: true
+      public: true
+      ref: boost-any/1.90.0-a.m+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-a.m+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-bimap/1.90.0-a.m+25.01.27.23.01
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.m+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.m+24.12.28.18.10
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-conversion/1.90.0-a.m+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-foreach/1.90.0-a.m+25.01.26.17.47
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-a.m+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-geometry/1.90.0-a.m+25.08.01.18.48
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-a.m+25.10.16.09.15
+    - header: false
+      public: true
+      ref: boost-math/1.90.0-a.m+25.10.15.18.57
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-a.m+25.10.18.12.24
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+    - header: true
+      public: true
+      ref: boost-multi_index/1.90.0-a.m+25.09.20.17.53
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-a.m+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-property_map/1.90.0-a.m+24.12.28.21.57
+    - header: true
+      public: true
+      ref: boost-property_tree/1.90.0-a.m+25.06.30.13.56
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-a.m+25.07.03.08.55
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.m+25.02.08.16.31
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.m+23.11.12.21.05
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0-a.m+25.09.17.08.31
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-tti/1.90.0-a.m+21.05.28.00.26
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-a.m+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.m+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-unordered/1.90.0-a.m+25.10.12.13.14
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-xpressive/1.90.0-a.m+24.09.27.20.36
+    - header: false
+      public: false
+      ref: boost-regex/1.90.0-a.m+25.07.04.17.16
+    kind: library
     url: https://github.com/boostorg/graph.git

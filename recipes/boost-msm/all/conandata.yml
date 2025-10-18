@@ -1,51 +1,123 @@
 sources:
   1.89.0:
     commit: 33e77cbfc70956d4b99f3dfc9c1e83848fe2550b
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-any/1.89.0
-      - boost-assert/1.89.0
-      - boost-bind/1.89.0
-      - boost-circular_buffer/1.89.0
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-function/1.89.0
-      - boost-fusion/1.89.0
-      - boost-mpl/1.89.0
-      - boost-parameter/1.89.0
-      - boost-phoenix/1.89.0
-      - boost-preprocessor/1.89.0
-      - boost-proto/1.89.0
-      - boost-serialization/1.89.0
-      - boost-tuple/1.89.0
-      - boost-type_index/1.89.0
-      - boost-type_traits/1.89.0
-      - boost-typeof/1.89.0
+    - header: true
+      public: true
+      ref: boost-any/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-bind/1.89.0
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-function/1.89.0
+    - header: true
+      public: true
+      ref: boost-fusion/1.89.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0
+    - header: true
+      public: true
+      ref: boost-parameter/1.89.0
+    - header: true
+      public: true
+      ref: boost-phoenix/1.89.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0
+    - header: true
+      public: true
+      ref: boost-proto/1.89.0
+    - header: false
+      public: true
+      ref: boost-serialization/1.89.0
+    - header: true
+      public: true
+      ref: boost-tuple/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_index/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/msm.git
   1.89.0-b.1:
     commit: 33e77cbfc70956d4b99f3dfc9c1e83848fe2550b
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-any/1.89.0-b.1
-      - boost-assert/1.89.0-b.1
-      - boost-bind/1.89.0-b.1
-      - boost-circular_buffer/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-function/1.89.0-b.1
-      - boost-fusion/1.89.0-b.1
-      - boost-mpl/1.89.0-b.1
-      - boost-parameter/1.89.0-b.1
-      - boost-phoenix/1.89.0-b.1
-      - boost-preprocessor/1.89.0-b.1
-      - boost-proto/1.89.0-b.1
-      - boost-serialization/1.89.0-b.1
-      - boost-tuple/1.89.0-b.1
-      - boost-type_index/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
-      - boost-typeof/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-any/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-phoenix/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-proto/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-serialization/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_index/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/msm.git
   1.90.0-a.d+25.10.15.17.59:
     commit: 8d181b62603fbce5a78908f57d43f91ed090f1ae
@@ -73,49 +145,121 @@ sources:
     url: https://github.com/boostorg/msm.git
   1.90.0-a.d+25.10.18.08.27:
     commit: 838c0b758d3c7bba824fd1e6bee33967655515ed
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-any/1.90.0-a.d+25.10.07.20.26
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-bind/1.90.0-a.d+24.12.13.03.05
-      - boost-circular_buffer/1.90.0-a.d+25.05.02.19.05
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-function/1.90.0-a.d+24.12.14.04.39
-      - boost-fusion/1.90.0-a.d+24.08.21.20.51
-      - boost-mp11/1.90.0-a.d+25.10.09.18.32
-      - boost-mpl/1.90.0-a.d+25.07.03.00.11
-      - boost-parameter/1.90.0-a.d+25.08.25.19.06
-      - boost-phoenix/1.90.0-a.d+24.09.12.00.15
-      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
-      - boost-proto/1.90.0-a.d+25.05.02.19.17
-      - boost-serialization/1.90.0-a.d+24.08.18.11.53
-      - boost-type_index/1.90.0-a.d+25.10.14.11.58
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-typeof/1.90.0-a.d+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-any/1.90.0-a.d+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.d+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.90.0-a.d+25.05.02.19.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-a.d+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-phoenix/1.90.0-a.d+24.09.12.00.15
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-proto/1.90.0-a.d+25.05.02.19.17
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
+    - header: true
+      public: true
+      ref: boost-type_index/1.90.0-a.d+25.10.18.15.18
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.d+25.06.09.02.44
+    kind: header-library
     url: https://github.com/boostorg/msm.git
   1.90.0-a.m+24.09.02.18.57:
     commit: 33e77cbfc70956d4b99f3dfc9c1e83848fe2550b
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-any/1.90.0-a.m+25.10.07.20.26
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-bind/1.90.0-a.m+24.12.13.03.05
-      - boost-circular_buffer/1.90.0-a.m+22.09.12.08.08
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-function/1.90.0-a.m+24.12.14.04.39
-      - boost-fusion/1.90.0-a.m+24.05.15.10.13
-      - boost-mpl/1.90.0-a.m+25.06.27.02.18
-      - boost-parameter/1.90.0-a.m+25.08.25.19.06
-      - boost-phoenix/1.90.0-a.m+23.08.29.14.32
-      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-      - boost-proto/1.90.0-a.m+21.03.18.17.30
-      - boost-serialization/1.90.0-a.m+23.11.12.21.05
-      - boost-tuple/1.90.0-a.m+25.06.09.02.57
-      - boost-type_index/1.90.0-a.m+25.10.07.20.25
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-typeof/1.90.0-a.m+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-any/1.90.0-a.m+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.m+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.90.0-a.m+22.09.12.08.08
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-a.m+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-phoenix/1.90.0-a.m+23.08.29.14.32
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-proto/1.90.0-a.m+21.03.18.17.30
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.m+23.11.12.21.05
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-a.m+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_index/1.90.0-a.m+25.10.07.20.25
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.m+25.06.09.02.44
+    kind: header-library
     url: https://github.com/boostorg/msm.git

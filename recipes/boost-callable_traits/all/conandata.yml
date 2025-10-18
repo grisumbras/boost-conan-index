@@ -1,25 +1,25 @@
 sources:
   1.89.0:
     commit: 2a56a3a2496cdb66496f844db55085dd992d5e49
-    dependencies:
-      private: []
-      public: []
+    cxxstd: '11'
+    dependencies: []
+    kind: header-library
     url: https://github.com/boostorg/callable_traits.git
   1.89.0-b.1:
     commit: 2a56a3a2496cdb66496f844db55085dd992d5e49
-    dependencies:
-      private: []
-      public: []
+    cxxstd: '11'
+    dependencies: []
+    kind: header-library
     url: https://github.com/boostorg/callable_traits.git
   1.90.0-a.d+25.06.25.18.43:
     commit: 046d4dd064fb87d9f13f4e91adf2c5ba5b0dc2e3
-    dependencies:
-      private: []
-      public: []
+    cxxstd: '11'
+    dependencies: []
+    kind: header-library
     url: https://github.com/boostorg/callable_traits.git
   1.90.0-a.m+21.09.14.23.10:
     commit: 2a56a3a2496cdb66496f844db55085dd992d5e49
-    dependencies:
-      private: []
-      public: []
+    cxxstd: '11'
+    dependencies: []
+    kind: header-library
     url: https://github.com/boostorg/callable_traits.git

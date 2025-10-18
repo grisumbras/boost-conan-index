@@ -1,45 +1,85 @@
 sources:
   1.89.0:
     commit: 1368f28b2f32486c106ff1ec66626938bc5c8e94
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-range/1.89.0
-      - boost-static_assert/1.89.0
-      - boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-range/1.89.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/sort.git
   1.89.0-b.1:
     commit: 1368f28b2f32486c106ff1ec66626938bc5c8e94
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-range/1.89.0-b.1
-      - boost-static_assert/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/sort.git
   1.90.0-a.d+25.09.12.22.13:
     commit: 93c298e3fa7819ea62dcf2d3f23f53475e10ed38
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-range/1.90.0-a.d+25.05.02.19.18
-      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.d+25.05.02.19.18
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    kind: header-library
     url: https://github.com/boostorg/sort.git
   1.90.0-a.m+25.09.12.22.39:
     commit: 241945faac206bd42a6d84dd01872280622fff37
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-range/1.90.0-a.m+25.02.08.16.31
-      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.m+25.02.08.16.31
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    kind: header-library
     url: https://github.com/boostorg/sort.git

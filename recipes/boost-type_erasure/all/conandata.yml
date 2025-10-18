@@ -1,81 +1,193 @@
 sources:
   1.89.0:
     commit: 5281f14d3cb59f978c8cb6cbb90ce92dde4e3e13
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-thread/1.89.0
-      public:
-      - boost-assert/1.89.0
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-fusion/1.89.0
-      - boost-iterator/1.89.0
-      - boost-mp11/1.89.0
-      - boost-mpl/1.89.0
-      - boost-preprocessor/1.89.0
-      - boost-smart_ptr/1.89.0
-      - boost-throw_exception/1.89.0
-      - boost-type_traits/1.89.0
-      - boost-typeof/1.89.0
-      - boost-vmd/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-fusion/1.89.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.89.0
+    - header: true
+      public: true
+      ref: boost-vmd/1.89.0
+    - header: false
+      public: false
+      ref: boost-thread/1.89.0
+    kind: library
     url: https://github.com/boostorg/type_erasure.git
   1.89.0-b.1:
     commit: 5281f14d3cb59f978c8cb6cbb90ce92dde4e3e13
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-thread/1.89.0-b.1
-      public:
-      - boost-assert/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-fusion/1.89.0-b.1
-      - boost-iterator/1.89.0-b.1
-      - boost-mp11/1.89.0-b.1
-      - boost-mpl/1.89.0-b.1
-      - boost-preprocessor/1.89.0-b.1
-      - boost-smart_ptr/1.89.0-b.1
-      - boost-throw_exception/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
-      - boost-typeof/1.89.0-b.1
-      - boost-vmd/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-vmd/1.89.0-b.1
+    - header: false
+      public: false
+      ref: boost-thread/1.89.0-b.1
+    kind: library
     url: https://github.com/boostorg/type_erasure.git
   1.90.0-a.d+25.05.04.19.28:
     commit: 5281f14d3cb59f978c8cb6cbb90ce92dde4e3e13
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-thread/1.90.0-a.d+25.05.02.19.21
-      public:
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-fusion/1.90.0-a.d+24.08.21.20.51
-      - boost-iterator/1.90.0-a.d+25.08.25.19.05
-      - boost-mp11/1.90.0-a.d+25.10.09.18.32
-      - boost-mpl/1.90.0-a.d+25.07.03.00.11
-      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
-      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
-      - boost-throw_exception/1.90.0-a.d+24.12.12.19.39
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-typeof/1.90.0-a.d+25.06.09.02.44
-      - boost-vmd/1.90.0-a.d+25.05.02.19.25
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.d+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-vmd/1.90.0-a.d+25.05.02.19.25
+    - header: false
+      public: false
+      ref: boost-thread/1.90.0-a.d+25.05.02.19.21
+    kind: library
     url: https://github.com/boostorg/type_erasure.git
   1.90.0-a.m+25.05.04.19.28:
     commit: 5281f14d3cb59f978c8cb6cbb90ce92dde4e3e13
+    cxxstd: '03'
     dependencies:
-      private:
-      - boost-thread/1.90.0-a.m+25.05.02.19.21
-      public:
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-fusion/1.90.0-a.m+24.05.15.10.13
-      - boost-iterator/1.90.0-a.m+25.08.25.19.05
-      - boost-mp11/1.90.0-a.m+25.10.09.18.32
-      - boost-mpl/1.90.0-a.m+25.06.27.02.18
-      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
-      - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-typeof/1.90.0-a.m+25.06.09.02.44
-      - boost-vmd/1.90.0-a.m+21.06.10.00.43
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.m+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-vmd/1.90.0-a.m+21.06.10.00.43
+    - header: false
+      public: false
+      ref: boost-thread/1.90.0-a.m+25.05.02.19.21
+    kind: library
     url: https://github.com/boostorg/type_erasure.git

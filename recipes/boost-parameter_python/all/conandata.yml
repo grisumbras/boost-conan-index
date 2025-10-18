@@ -1,41 +1,73 @@
 sources:
   1.89.0:
     commit: 1f7f9ce9930119f0dda7dcd5e1ec3b5ed7c6b091
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-mpl/1.89.0
-      - boost-parameter/1.89.0
-      - boost-preprocessor/1.89.0
-      - boost-python/1.89.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0
+    - header: true
+      public: true
+      ref: boost-parameter/1.89.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0
+    - header: false
+      public: true
+      ref: boost-python/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/parameter_python.git
   1.89.0-b.1:
     commit: 1f7f9ce9930119f0dda7dcd5e1ec3b5ed7c6b091
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-mpl/1.89.0-b.1
-      - boost-parameter/1.89.0-b.1
-      - boost-preprocessor/1.89.0-b.1
-      - boost-python/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.89.0-b.1
+    - header: false
+      public: true
+      ref: boost-python/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/parameter_python.git
   1.90.0-a.d+25.05.02.19.14:
     commit: 800edc0398c0cabad1efb51da195df9cd294b783
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-mpl/1.90.0-a.d+25.07.03.00.11
-      - boost-parameter/1.90.0-a.d+25.08.25.19.06
-      - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
-      - boost-python/1.90.0-a.d+25.03.31.23.33
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: false
+      public: true
+      ref: boost-python/1.90.0-a.d+25.03.31.23.33
+    kind: header-library
     url: https://github.com/boostorg/parameter_python.git
   1.90.0-a.m+21.11.12.04.59:
     commit: 1f7f9ce9930119f0dda7dcd5e1ec3b5ed7c6b091
+    cxxstd: '03'
     dependencies:
-      private: []
-      public:
-      - boost-mpl/1.90.0-a.m+25.06.27.02.18
-      - boost-parameter/1.90.0-a.m+25.08.25.19.06
-      - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-      - boost-python/1.90.0-a.m+25.03.10.14.19
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: false
+      public: true
+      ref: boost-python/1.90.0-a.m+25.03.10.14.19
+    kind: header-library
     url: https://github.com/boostorg/parameter_python.git

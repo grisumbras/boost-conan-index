@@ -1,60 +1,138 @@
 sources:
   1.89.0:
     commit: fa5071af867bfd2480e3b004a4bee27127b951b6
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-array/1.89.0
-      - boost-assert/1.89.0
-      - boost-circular_buffer/1.89.0
-      - boost-config/1.89.0
-      - boost-core/1.89.0
-      - boost-iterator/1.89.0
-      - boost-mpl/1.89.0
-      - boost-range/1.89.0
-      - boost-smart_ptr/1.89.0
-      - boost-static_assert/1.89.0
-      - boost-type_traits/1.89.0
-      - boost-unordered/1.89.0
-      - boost-utility/1.89.0
+    - header: true
+      public: true
+      ref: boost-array/1.89.0
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.89.0
+    - header: true
+      public: true
+      ref: boost-config/1.89.0
+    - header: true
+      public: true
+      ref: boost-core/1.89.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0
+    - header: true
+      public: true
+      ref: boost-range/1.89.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0
+    - header: true
+      public: true
+      ref: boost-unordered/1.89.0
+    - header: true
+      public: true
+      ref: boost-utility/1.89.0
+    kind: header-library
     url: https://github.com/boostorg/ptr_container.git
   1.89.0-b.1:
     commit: fa5071af867bfd2480e3b004a4bee27127b951b6
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-array/1.89.0-b.1
-      - boost-assert/1.89.0-b.1
-      - boost-circular_buffer/1.89.0-b.1
-      - boost-config/1.89.0-b.1
-      - boost-core/1.89.0-b.1
-      - boost-iterator/1.89.0-b.1
-      - boost-mpl/1.89.0-b.1
-      - boost-range/1.89.0-b.1
-      - boost-smart_ptr/1.89.0-b.1
-      - boost-static_assert/1.89.0-b.1
-      - boost-type_traits/1.89.0-b.1
-      - boost-unordered/1.89.0-b.1
-      - boost-utility/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-array/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-unordered/1.89.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.89.0-b.1
+    kind: header-library
     url: https://github.com/boostorg/ptr_container.git
   1.90.0-a.d+25.06.28.11.02:
     commit: ea15c57680927e915e93b14af2eef244baef6bce
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-array/1.90.0-a.d+25.04.03.14.10
-      - boost-assert/1.90.0-a.d+25.03.21.17.00
-      - boost-circular_buffer/1.90.0-a.d+25.05.02.19.05
-      - boost-config/1.90.0-a.d+25.10.09.16.01
-      - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-iterator/1.90.0-a.d+25.08.25.19.05
-      - boost-mpl/1.90.0-a.d+25.07.03.00.11
-      - boost-range/1.90.0-a.d+25.05.02.19.18
-      - boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
-      - boost-static_assert/1.90.0-a.d+25.04.15.18.33
-      - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-unordered/1.90.0-a.d+25.10.15.01.40
-      - boost-utility/1.90.0-a.d+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-a.d+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.90.0-a.d+25.05.02.19.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.d+25.05.02.19.18
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-unordered/1.90.0-a.d+25.10.15.01.40
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    kind: header-library
     url: https://github.com/boostorg/ptr_container.git
   1.90.0-a.m+24.12.28.22.04:
     commit: fa5071af867bfd2480e3b004a4bee27127b951b6
@@ -77,20 +155,46 @@ sources:
     url: https://github.com/boostorg/ptr_container.git
   1.90.0-a.m+25.06.28.11.02:
     commit: ea15c57680927e915e93b14af2eef244baef6bce
+    cxxstd: '11'
     dependencies:
-      private: []
-      public:
-      - boost-array/1.90.0-a.m+25.04.03.14.10
-      - boost-assert/1.90.0-a.m+25.03.21.17.00
-      - boost-circular_buffer/1.90.0-a.m+22.09.12.08.08
-      - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-iterator/1.90.0-a.m+25.08.25.19.05
-      - boost-mpl/1.90.0-a.m+25.06.27.02.18
-      - boost-range/1.90.0-a.m+25.02.08.16.31
-      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
-      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
-      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-unordered/1.90.0-a.m+25.10.12.13.14
-      - boost-utility/1.90.0-a.m+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-a.m+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.90.0-a.m+22.09.12.08.08
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.m+25.02.08.16.31
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-unordered/1.90.0-a.m+25.10.12.13.14
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+    kind: header-library
     url: https://github.com/boostorg/ptr_container.git
