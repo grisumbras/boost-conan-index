@@ -75,3 +75,22 @@ sources:
       - boost-unordered/1.90.0-a.m+25.10.12.13.14
       - boost-utility/1.90.0-a.m+25.08.25.19.07
     url: https://github.com/boostorg/ptr_container.git
+  1.90.0-a.m+25.06.28.11.02:
+    commit: ea15c57680927e915e93b14af2eef244baef6bce
+    dependencies:
+      private: []
+      public:
+      - boost-array/1.90.0-a.m+25.04.03.14.10
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-circular_buffer/1.90.0-a.m+22.09.12.08.08
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-core/1.90.0-a.m+25.08.25.19.05
+      - boost-iterator/1.90.0-a.m+25.08.25.19.05
+      - boost-mpl/1.90.0-a.m+25.06.27.02.18
+      - boost-range/1.90.0-a.m+25.02.08.16.31
+      - boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+      - boost-static_assert/1.90.0-a.m+25.04.15.18.33
+      - boost-type_traits/1.90.0-a.m+25.07.04.20.38
+      - boost-unordered/1.90.0-a.m+25.10.12.13.14
+      - boost-utility/1.90.0-a.m+25.08.25.19.07
+    url: https://github.com/boostorg/ptr_container.git

@@ -64,7 +64,7 @@ sources:
       - boost-asio/1.90.0-a.m+25.08.06.22.37
       - boost-assert/1.90.0-a.m+25.03.21.17.00
       - boost-beast/1.90.0-a.m+25.07.29.12.30
-      - boost-container/1.90.0-a.m+25.10.01.22.19
+      - boost-container/1.90.0-a.m+25.10.08.00.43
       - boost-core/1.90.0-a.m+25.08.25.19.05
       - boost-endian/1.90.0-a.m+24.12.14.03.43
       - boost-fusion/1.90.0-a.m+24.05.15.10.13

@@ -110,7 +110,7 @@ sources:
       - boost-tuple/1.90.0-a.d+25.06.09.02.57
       - boost-type_traits/1.90.0-a.d+25.04.21.15.19
       - boost-variant/1.90.0-a.d+25.09.13.13.52
-      - boost-variant2/1.90.0-a.d+25.01.15.19.44
+      - boost-variant2/1.90.0-a.d+25.10.18.08.24
     url: https://github.com/boostorg/geometry.git
   1.90.0-a.m+25.08.01.18.48:
     commit: 617d75e0cda78b1f05590319200973514b609097
@@ -123,7 +123,7 @@ sources:
       - boost-assert/1.90.0-a.m+25.03.21.17.00
       - boost-concept_check/1.90.0-a.m+24.12.28.18.10
       - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-container/1.90.0-a.m+25.10.01.22.19
+      - boost-container/1.90.0-a.m+25.10.08.00.43
       - boost-core/1.90.0-a.m+25.08.25.19.05
       - boost-function_types/1.90.0-a.m+24.09.18.18.18
       - boost-fusion/1.90.0-a.m+24.05.15.10.13
@@ -147,5 +147,5 @@ sources:
       - boost-tuple/1.90.0-a.m+25.06.09.02.57
       - boost-type_traits/1.90.0-a.m+25.07.04.20.38
       - boost-variant/1.90.0-a.m+25.09.13.13.52
-      - boost-variant2/1.90.0-a.m+25.01.15.19.44
+      - boost-variant2/1.90.0-a.m+25.10.17.21.04
     url: https://github.com/boostorg/geometry.git

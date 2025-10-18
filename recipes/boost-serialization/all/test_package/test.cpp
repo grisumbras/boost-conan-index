@@ -1,4 +1,4 @@
-#include <boost/archive/text_woarchive.hpp>
+#include <boost/serialization/singleton.hpp>
 
 int main()
 {

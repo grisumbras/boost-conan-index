@@ -37,7 +37,7 @@ sources:
       private: []
       public:
       - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-container/1.90.0-a.m+25.10.01.22.19
+      - boost-container/1.90.0-a.m+25.10.08.00.43
       - boost-core/1.90.0-a.m+25.08.25.19.05
       - boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     url: https://github.com/boostorg/lexical_cast.git

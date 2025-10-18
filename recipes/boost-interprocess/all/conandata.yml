@@ -35,6 +35,18 @@ sources:
       - boost-move/1.90.0-a.d+25.08.23.23.03
       - boost-winapi/1.90.0-a.d+25.08.25.19.08
     url: https://github.com/boostorg/interprocess.git
+  1.90.0-a.d+25.10.11.12.45:
+    commit: 8825137dedc27827d8e14f3c7b2959ad0dd5fc5c
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-container/1.90.0-a.d+25.10.08.00.43
+      - boost-intrusive/1.90.0-a.d+25.08.25.23.15
+      - boost-move/1.90.0-a.d+25.10.18.12.24
+      - boost-winapi/1.90.0-a.d+25.08.25.19.08
+    url: https://github.com/boostorg/interprocess.git
   1.90.0-a.m+25.09.05.00.08:
     commit: d5bb1904edf658a6501df281716b0c57a02023e8
     dependencies:
@@ -45,5 +57,17 @@ sources:
       - boost-container/1.90.0-a.m+25.10.01.22.19
       - boost-intrusive/1.90.0-a.m+25.08.25.23.15
       - boost-move/1.90.0-a.m+25.08.23.23.03
+      - boost-winapi/1.90.0-a.m+25.08.25.19.08
+    url: https://github.com/boostorg/interprocess.git
+  1.90.0-a.m+25.10.11.12.45:
+    commit: 8825137dedc27827d8e14f3c7b2959ad0dd5fc5c
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-container/1.90.0-a.m+25.10.08.00.43
+      - boost-intrusive/1.90.0-a.m+25.08.25.23.15
+      - boost-move/1.90.0-a.m+25.10.18.12.24
       - boost-winapi/1.90.0-a.m+25.08.25.19.08
     url: https://github.com/boostorg/interprocess.git

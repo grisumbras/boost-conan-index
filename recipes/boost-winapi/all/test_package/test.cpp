@@ -1,4 +1,4 @@
-#include <boost/winapi/get_process_times.hpp>
+#include <boost/winapi/time.hpp>
 
 int main()
 {

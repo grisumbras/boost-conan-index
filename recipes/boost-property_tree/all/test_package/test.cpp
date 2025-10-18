@@ -1,4 +1,4 @@
-#include <boost/property_tree/ptree_fwd.hpp>
+#include <boost/property_tree/id_translator.hpp>
 
 int main()
 {

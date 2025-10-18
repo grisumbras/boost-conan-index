@@ -1,4 +1,4 @@
-#include <boost/property_map/parallel/local_property_map.hpp>
+#include <boost/property_map/parallel/caching_property_map.hpp>
 
 int main()
 {

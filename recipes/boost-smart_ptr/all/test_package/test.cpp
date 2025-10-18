@@ -1,4 +1,4 @@
-#include <boost/shared_ptr.hpp>
+#include <boost/make_unique.hpp>
 
 int main()
 {

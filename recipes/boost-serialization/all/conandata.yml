@@ -71,7 +71,7 @@ sources:
       - boost-integer/1.90.0-a.d+25.08.25.19.05
       - boost-io/1.90.0-a.d+25.06.26.11.42
       - boost-iterator/1.90.0-a.d+25.08.25.19.05
-      - boost-move/1.90.0-a.d+25.08.23.23.03
+      - boost-move/1.90.0-a.d+25.10.18.12.24
       - boost-mp11/1.90.0-a.d+25.10.09.18.32
       - boost-mpl/1.90.0-a.d+25.07.03.00.11
       - boost-optional/1.90.0-a.d+24.12.08.17.21
@@ -84,7 +84,7 @@ sources:
       - boost-type_traits/1.90.0-a.d+25.04.21.15.19
       - boost-utility/1.90.0-a.d+25.08.25.19.07
       - boost-variant/1.90.0-a.d+25.09.13.13.52
-      - boost-variant2/1.90.0-a.d+25.01.15.19.44
+      - boost-variant2/1.90.0-a.d+25.10.18.08.24
     url: https://github.com/boostorg/serialization.git
   1.90.0-a.m+23.11.12.21.05:
     commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
@@ -100,7 +100,7 @@ sources:
       - boost-integer/1.90.0-a.m+25.08.25.19.05
       - boost-io/1.90.0-a.m+23.10.03.00.15
       - boost-iterator/1.90.0-a.m+25.08.25.19.05
-      - boost-move/1.90.0-a.m+25.08.23.23.03
+      - boost-move/1.90.0-a.m+25.10.18.12.24
       - boost-mp11/1.90.0-a.m+25.10.09.18.32
       - boost-mpl/1.90.0-a.m+25.06.27.02.18
       - boost-optional/1.90.0-a.m+24.12.04.00.23
@@ -113,5 +113,5 @@ sources:
       - boost-type_traits/1.90.0-a.m+25.07.04.20.38
       - boost-utility/1.90.0-a.m+25.08.25.19.07
       - boost-variant/1.90.0-a.m+25.09.13.13.52
-      - boost-variant2/1.90.0-a.m+25.01.15.19.44
+      - boost-variant2/1.90.0-a.m+25.10.17.21.04
     url: https://github.com/boostorg/serialization.git

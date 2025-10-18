@@ -41,7 +41,7 @@ sources:
       - boost-array/1.90.0-a.d+25.04.03.14.10
       - boost-config/1.90.0-a.d+25.10.09.16.01
       - boost-core/1.90.0-a.d+25.08.25.19.05
-      - boost-move/1.90.0-a.d+25.08.23.23.03
+      - boost-move/1.90.0-a.d+25.10.18.12.24
       - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
       - boost-ptr_container/1.90.0-a.d+25.06.28.11.02
       - boost-range/1.90.0-a.d+25.05.02.19.18
@@ -58,9 +58,9 @@ sources:
       - boost-array/1.90.0-a.m+25.04.03.14.10
       - boost-config/1.90.0-a.m+25.10.09.16.06
       - boost-core/1.90.0-a.m+25.08.25.19.05
-      - boost-move/1.90.0-a.m+25.08.23.23.03
+      - boost-move/1.90.0-a.m+25.10.18.12.24
       - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
-      - boost-ptr_container/1.90.0-a.m+24.12.28.22.04
+      - boost-ptr_container/1.90.0-a.m+25.06.28.11.02
       - boost-range/1.90.0-a.m+25.02.08.16.31
       - boost-static_assert/1.90.0-a.m+25.04.15.18.33
       - boost-throw_exception/1.90.0-a.m+24.12.12.19.39

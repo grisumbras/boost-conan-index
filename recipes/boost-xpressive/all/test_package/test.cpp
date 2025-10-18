@@ -1,4 +1,4 @@
-#include <boost/xpressive/regex_iterator.hpp>
+#include <boost/xpressive/xpressive.hpp>
 
 int main()
 {

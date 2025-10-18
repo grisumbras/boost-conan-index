@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/opencl.hpp>
+#include <boost/numeric/ublas/operation_blocked.hpp>
 
 int main()
 {

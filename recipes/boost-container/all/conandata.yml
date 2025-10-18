@@ -27,7 +27,7 @@ sources:
       - boost-assert/1.90.0-a.d+25.03.21.17.00
       - boost-config/1.90.0-a.d+25.10.09.16.01
       - boost-intrusive/1.90.0-a.d+25.08.25.23.15
-      - boost-move/1.90.0-a.d+25.08.23.23.03
+      - boost-move/1.90.0-a.d+25.10.18.12.24
     url: https://github.com/boostorg/container.git
   1.90.0-a.m+25.10.01.22.19:
     commit: a4ae4a21925d73db415f4cd7737812728304d4dd
@@ -38,4 +38,14 @@ sources:
       - boost-config/1.90.0-a.m+25.10.09.16.06
       - boost-intrusive/1.90.0-a.m+25.08.25.23.15
       - boost-move/1.90.0-a.m+25.08.23.23.03
+    url: https://github.com/boostorg/container.git
+  1.90.0-a.m+25.10.08.00.43:
+    commit: 243b74cb9de5ede942a29175c9a0293dad9622a1
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-intrusive/1.90.0-a.m+25.08.25.23.15
+      - boost-move/1.90.0-a.m+25.10.18.12.24
     url: https://github.com/boostorg/container.git

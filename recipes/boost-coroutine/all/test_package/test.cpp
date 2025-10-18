@@ -1,4 +1,4 @@
-#include <boost/coroutine/attributes.hpp>
+#include <boost/coroutine/asymmetric_coroutine.hpp>
 
 int main()
 {

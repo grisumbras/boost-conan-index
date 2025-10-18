@@ -26,8 +26,26 @@ sources:
       - boost-config/1.90.0-a.d+25.10.09.16.01
       - boost-mp11/1.90.0-a.d+25.10.09.18.32
     url: https://github.com/boostorg/variant2.git
+  1.90.0-a.d+25.10.18.08.24:
+    commit: a63b03286e3347f9d570f2b75d480f129cec8ecc
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.d+25.03.21.17.00
+      - boost-config/1.90.0-a.d+25.10.09.16.01
+      - boost-mp11/1.90.0-a.d+25.10.09.18.32
+    url: https://github.com/boostorg/variant2.git
   1.90.0-a.m+25.01.15.19.44:
     commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
+    dependencies:
+      private: []
+      public:
+      - boost-assert/1.90.0-a.m+25.03.21.17.00
+      - boost-config/1.90.0-a.m+25.10.09.16.06
+      - boost-mp11/1.90.0-a.m+25.10.09.18.32
+    url: https://github.com/boostorg/variant2.git
+  1.90.0-a.m+25.10.17.21.04:
+    commit: 28d23c14f6b4f226f7830f10e5ae8134b0e8004c
     dependencies:
       private: []
       public:

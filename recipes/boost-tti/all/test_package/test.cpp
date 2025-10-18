@@ -1,4 +1,4 @@
-#include <boost/tti/has_static_member_function.hpp>
+#include <boost/tti/has_function.hpp>
 
 int main()
 {

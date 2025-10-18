@@ -1,4 +1,4 @@
-#include <boost/yap/expression.hpp>
+#include <boost/yap/algorithm_fwd.hpp>
 
 int main()
 {

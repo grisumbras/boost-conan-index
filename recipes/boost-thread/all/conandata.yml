@@ -79,7 +79,7 @@ sources:
       - boost-exception/1.90.0-a.d+25.05.03.03.11
       - boost-function/1.90.0-a.d+24.12.14.04.39
       - boost-io/1.90.0-a.d+25.06.26.11.42
-      - boost-move/1.90.0-a.d+25.08.23.23.03
+      - boost-move/1.90.0-a.d+25.10.18.12.24
       - boost-optional/1.90.0-a.d+24.12.08.17.21
       - boost-predef/1.90.0-a.d+25.02.03.08.30
       - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
@@ -103,14 +103,14 @@ sources:
       - boost-chrono/1.90.0-a.m+24.12.13.03.33
       - boost-concept_check/1.90.0-a.m+24.12.28.18.10
       - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-container/1.90.0-a.m+25.10.01.22.19
+      - boost-container/1.90.0-a.m+25.10.08.00.43
       - boost-container_hash/1.90.0-a.m+25.08.21.19.31
       - boost-core/1.90.0-a.m+25.08.25.19.05
       - boost-date_time/1.90.0-a.m+22.10.31.09.22
       - boost-exception/1.90.0-a.m+25.03.02.03.25
       - boost-function/1.90.0-a.m+24.12.14.04.39
       - boost-io/1.90.0-a.m+23.10.03.00.15
-      - boost-move/1.90.0-a.m+25.08.23.23.03
+      - boost-move/1.90.0-a.m+25.10.18.12.24
       - boost-optional/1.90.0-a.m+24.12.04.00.23
       - boost-predef/1.90.0-a.m+25.01.12.12.53
       - boost-preprocessor/1.90.0-a.m+25.06.09.02.52

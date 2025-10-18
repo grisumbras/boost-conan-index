@@ -89,7 +89,7 @@ sources:
       - boost-assert/1.90.0-a.m+25.03.21.17.00
       - boost-bind/1.90.0-a.m+24.12.13.03.05
       - boost-config/1.90.0-a.m+25.10.09.16.06
-      - boost-container/1.90.0-a.m+25.10.01.22.19
+      - boost-container/1.90.0-a.m+25.10.08.00.43
       - boost-container_hash/1.90.0-a.m+25.08.21.19.31
       - boost-core/1.90.0-a.m+25.08.25.19.05
       - boost-endian/1.90.0-a.m+24.12.14.03.43

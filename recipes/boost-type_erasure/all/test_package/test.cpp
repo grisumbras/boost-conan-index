@@ -1,4 +1,4 @@
-#include <boost/type_erasure/is_empty.hpp>
+#include <boost/type_erasure/builtin.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/test/framework.hpp>
+#include <boost/test/unit_test_log.hpp>
 
 int main()
 {

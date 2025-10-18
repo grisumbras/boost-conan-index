@@ -1,4 +1,4 @@
-#include <boost/compat/mem_fn.hpp>
+#include <boost/compat/shared_lock.hpp>
 
 int main()
 {

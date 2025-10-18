@@ -1,4 +1,4 @@
-#include <boost/polymorphic_pointer_cast.hpp>
+#include <boost/polymorphic_cast.hpp>
 
 int main()
 {

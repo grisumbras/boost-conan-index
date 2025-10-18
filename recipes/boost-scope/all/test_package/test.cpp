@@ -1,4 +1,4 @@
-#include <boost/scope/error_code_checker.hpp>
+#include <boost/scope/unique_resource.hpp>
 
 int main()
 {

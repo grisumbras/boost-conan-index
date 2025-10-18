@@ -54,7 +54,7 @@ sources:
       - boost-core/1.90.0-a.d+25.08.25.19.05
       - boost-function/1.90.0-a.d+24.12.14.04.39
       - boost-iterator/1.90.0-a.d+25.08.25.19.05
-      - boost-move/1.90.0-a.d+25.08.23.23.03
+      - boost-move/1.90.0-a.d+25.10.18.12.24
       - boost-mpl/1.90.0-a.d+25.07.03.00.11
       - boost-optional/1.90.0-a.d+24.12.08.17.21
       - boost-parameter/1.90.0-a.d+25.08.25.19.06
@@ -76,7 +76,7 @@ sources:
       - boost-core/1.90.0-a.m+25.08.25.19.05
       - boost-function/1.90.0-a.m+24.12.14.04.39
       - boost-iterator/1.90.0-a.m+25.08.25.19.05
-      - boost-move/1.90.0-a.m+25.08.23.23.03
+      - boost-move/1.90.0-a.m+25.10.18.12.24
       - boost-mpl/1.90.0-a.m+25.06.27.02.18
       - boost-optional/1.90.0-a.m+24.12.04.00.23
       - boost-parameter/1.90.0-a.m+25.08.25.19.06

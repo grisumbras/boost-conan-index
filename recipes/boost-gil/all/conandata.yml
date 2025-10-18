@@ -51,7 +51,7 @@ sources:
       - boost-mp11/1.90.0-a.d+25.10.09.18.32
       - boost-preprocessor/1.90.0-a.d+25.06.09.02.52
       - boost-type_traits/1.90.0-a.d+25.04.21.15.19
-      - boost-variant2/1.90.0-a.d+25.01.15.19.44
+      - boost-variant2/1.90.0-a.d+25.10.18.08.24
     url: https://github.com/boostorg/gil.git
   1.90.0-a.m+24.07.07.14.32:
     commit: 201f31c76eed54b304f8d89e44da08a5e8825094
@@ -69,5 +69,5 @@ sources:
       - boost-mp11/1.90.0-a.m+25.10.09.18.32
       - boost-preprocessor/1.90.0-a.m+25.06.09.02.52
       - boost-type_traits/1.90.0-a.m+25.07.04.20.38
-      - boost-variant2/1.90.0-a.m+25.01.15.19.44
+      - boost-variant2/1.90.0-a.m+25.10.17.21.04
     url: https://github.com/boostorg/gil.git

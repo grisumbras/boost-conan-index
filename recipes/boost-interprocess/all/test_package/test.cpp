@@ -1,4 +1,4 @@
-#include <boost/interprocess/offset_ptr.hpp>
+#include <boost/interprocess/shared_memory_object.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/proto/args.hpp>
+#include <boost/proto/traits.hpp>
 
 int main()
 {

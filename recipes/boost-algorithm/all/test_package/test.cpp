@@ -1,4 +1,4 @@
-#include <boost/algorithm/algorithm.hpp>
+#include <boost/algorithm/sort_subrange.hpp>
 
 int main()
 {
