@@ -226,8 +226,8 @@ class LibraryProject(Project):
         self.recipe_tools = tools
         self.url = urllib.parse.urljoin(superproject.url, url)
         self.commit = git.submodule_commit(superproject.path, path)
-        self.private_dependencies = []
-        self.public_dependencies = []
+        self.dependencies = []
+        self.cxxstd = None
 
     def collect_data(self, git, fs, registry, depinst):
         with git.clone_commit(self.url, self.commit, target=self.name) as lib:
@@ -252,8 +252,8 @@ class LibraryProject(Project):
                     self.header = os.path.join(root, files[0])[offset:]
                     break
 
-            self.headeronly = self._is_header_only(lib, fs)
-            self.public_dependencies, self.private_dependencies = depinst(
+            self.is_header_only = self._is_header_only(lib, fs)
+            self.dependencies = depinst(
                 self, lib, registry,
             )
 
@@ -276,12 +276,16 @@ class LibraryProject(Project):
         conandata['sources'][self.conan_version] = {
             'url': self.url,
             'commit': self.commit,
-            'dependencies': {
-                'public': [dep.conan_ref for dep in self.public_dependencies],
-                'private': [
-                    dep.conan_ref for dep in self.private_dependencies
-                ],
-            },
+            'kind': 'header-library' if self.is_header_only else 'library',
+            'cxxstd': self.cxxstd,
+            'dependencies': [
+                {
+                    'ref': dep.conan_ref,
+                    'public': is_public,
+                    'header': dep.is_header_only
+                }
+                for dep, is_public in self.dependencies
+            ],
         }
 
         with fs.open(os.path.join(pkg_dir, 'conandata.yml'), 'w') as f:
@@ -568,10 +572,13 @@ class Depinst():
 
         private_deps = sorted(set(self._fix(dep) for dep in private_deps))
         public_deps = sorted(set(self._fix(dep) for dep in public_deps))
-        return (
-            [registry[dep] for dep in public_deps if dep != lib.name],
-            [registry[dep] for dep in private_deps if dep not in public_deps],
-        )
+        return [
+            (registry[dep], True) for dep in public_deps
+            if dep != lib.name
+        ] + [
+            (registry[dep], False) for dep in private_deps
+            if dep not in public_deps
+        ]
 
     @staticmethod
     def _fix(dep):
