@@ -75,7 +75,7 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-range b2-tools; do
+          for proj in boost-thread b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/linux-${{ matrix.toolset }}.profile \
                 "index/recipes/$proj/all/test_package" \
@@ -113,7 +113,7 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-range b2-tools; do
+          for proj in boost-thread b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/windows-${{ matrix.toolset }}.profile \
                 "index/recipes/$proj/all/test_package" \
@@ -152,7 +152,7 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-range b2-tools; do
+          for proj in boost-thread b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/macos-${{ matrix.toolset }}.profile \
                 "index/recipes/$proj/all/test_package" \
