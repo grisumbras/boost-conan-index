@@ -30,7 +30,7 @@ sources:
     - header: true
       public: false
       ref: boost-smart_ptr/1.89.0
-    kind: library
+    kind: header-library
     url: https://github.com/boostorg/regex.git
   1.89.0-b.1:
     commit: f439e22ae41fa647bd7de16c2d92deb232593985
@@ -63,7 +63,7 @@ sources:
     - header: true
       public: false
       ref: boost-smart_ptr/1.89.0-b.1
-    kind: library
+    kind: header-library
     url: https://github.com/boostorg/regex.git
   1.90.0-a.d+25.07.04.20.20:
     commit: ed6ebbd5a52b566e454e0cc34494dd2912c6c66c
@@ -96,7 +96,7 @@ sources:
     - header: true
       public: false
       ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
-    kind: library
+    kind: header-library
     url: https://github.com/boostorg/regex.git
   1.90.0-a.m+25.07.04.17.16:
     commit: f439e22ae41fa647bd7de16c2d92deb232593985
@@ -129,5 +129,5 @@ sources:
     - header: true
       public: false
       ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
-    kind: library
+    kind: header-library
     url: https://github.com/boostorg/regex.git

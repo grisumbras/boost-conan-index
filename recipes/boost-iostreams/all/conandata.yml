@@ -36,7 +36,7 @@ sources:
     - header: true
       public: true
       ref: boost-range/1.89.0
-    - header: false
+    - header: true
       public: true
       ref: boost-regex/1.89.0
     - header: true
@@ -96,7 +96,7 @@ sources:
     - header: true
       public: true
       ref: boost-range/1.89.0-b.1
-    - header: false
+    - header: true
       public: true
       ref: boost-regex/1.89.0-b.1
     - header: true
@@ -156,7 +156,7 @@ sources:
     - header: true
       public: true
       ref: boost-range/1.90.0-a.d+25.05.02.19.18
-    - header: false
+    - header: true
       public: true
       ref: boost-regex/1.90.0-a.d+25.07.04.20.20
     - header: true
@@ -216,7 +216,7 @@ sources:
     - header: true
       public: true
       ref: boost-range/1.90.0-a.m+25.02.08.16.31
-    - header: false
+    - header: true
       public: true
       ref: boost-regex/1.90.0-a.m+25.07.04.17.16
     - header: true
