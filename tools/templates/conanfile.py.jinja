@@ -161,6 +161,7 @@ _boost_install = '''\
 import notfile ;
 import project ;
 import targets ;
+import virtual-target ;
 
 rule conan-install ( libraries * )
 {
@@ -256,6 +257,13 @@ rule boost-library ( id ? : options * : * )
 class check-files-target-class : make-target-class
 {
     rule skip-from-usage-requirements ( ) { }
+}
+
+constant BOOST_JAMROOT_MODULE : $(__name__) ;
+rule tag ( name : type ? : property-set )
+{
+    return [ virtual-target.add-prefix-and-suffix $(name) : $(type)
+        : $(property-set) ] ;
 }
 
 '''
