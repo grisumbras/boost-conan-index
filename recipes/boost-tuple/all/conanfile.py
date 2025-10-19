@@ -40,6 +40,10 @@ class BoostTupleRecipe(ConanFile):
                         continue
                     self.settings.rm_safe(k)
 
+    def configure_options(self):
+        if self._is_header_only:
+            del self.options.shared
+
     def validate(self):
         cxxstd = self._data_cache['cxxstd']
         if cxxstd:
@@ -156,6 +160,7 @@ _boost_install = '''\
 import notfile ;
 import project ;
 import targets ;
+import virtual-target ;
 
 rule conan-install ( libraries * )
 {
@@ -251,6 +256,13 @@ rule boost-library ( id ? : options * : * )
 class check-files-target-class : make-target-class
 {
     rule skip-from-usage-requirements ( ) { }
+}
+
+constant BOOST_JAMROOT_MODULE : $(__name__) ;
+rule tag ( name : type ? : property-set )
+{
+    return [ virtual-target.add-prefix-and-suffix $(name) : $(type)
+        : $(property-set) ] ;
 }
 
 '''
