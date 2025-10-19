@@ -158,7 +158,7 @@ sources:
       ref: boost-array/1.90.0-a.d+25.04.03.14.10
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+      ref: boost-assert/1.90.0-a.d+25.10.18.22.44
     - header: true
       public: true
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
@@ -218,7 +218,7 @@ sources:
       ref: boost-variant/1.90.0-a.d+25.09.13.13.52
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.d+25.10.18.08.24
+      ref: boost-variant2/1.90.0-a.d+25.10.18.20.23
     - header: true
       public: false
       ref: boost-function/1.90.0-a.d+24.12.14.04.39

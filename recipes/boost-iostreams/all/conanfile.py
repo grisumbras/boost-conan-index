@@ -4,10 +4,13 @@ from conan import ConanFile
 from conan.tools.build import check_min_cppstd
 from conan.tools.files import (
     copy,
+    mkdir,
+    rename,
     rmdir,
     save,
 )
 from conan.tools.scm import Git
+from jinja2 import Template
 
 class BoostIostreamsRecipe(ConanFile):
     name = 'boost-iostreams'
@@ -64,6 +67,27 @@ class BoostIostreamsRecipe(ConanFile):
         git.fetch_commit(self._data_cache['url'], self._data_cache['commit'])
         rmdir(self, '.git')
 
+        build_jam = os.path.join(self.source_folder, 'build.jam')
+        if not glob.glob(build_jam):
+            if self._is_header_only:
+                save(self, build_jam, _build_jam)
+            else:
+                files = glob.glob('*')
+                lib_dir = os.path.join(self.source_folder, 'libs', 'iostreams')
+                mkdir(self, lib_dir)
+                for file in files:
+                    rename(self, file, os.path.join(lib_dir, file))
+
+                save(self, build_jam, _jamroot)
+
+                lib_jam_template = Template(
+                    _lib_jam, trim_blocks=True, lstrip_blocks=True)
+                save(
+                    self,
+                    os.path.join(self.source_folder, 'libs', 'build.jam'),
+                    lib_jam_template.render(conanfile=self),
+                )
+
         if not glob.glob(f'{self.source_folder}/LICENSE*'):
             copy(
                 self,
@@ -88,11 +112,6 @@ class BoostIostreamsRecipe(ConanFile):
         )
 
     def build(self):
-        build_jam = os.path.join(self.source_folder, 'build.jam')
-        if not glob.glob(build_jam):
-            with open(build_jam, 'w') as f:
-                f.write(_build_jam)
-
         b2 = self.python_requires['b2-tools'].module.B2(self)
         b2.build('boost_iostreams')
 
@@ -244,4 +263,35 @@ project /boost/iostreams ;
 alias boost_iostreams : : : <include>include ;
 
 call-if : boost-library iostreams ;
+'''
+
+_jamroot = '''\
+require-b2 5.3.0 ;
+
+project boost ;
+
+rule boost-install ( libs * ) { conan-install $(libs) ; }
+
+alias boost_iostreams : libs/iostreams/build//boost_iostreams ;
+
+install conan-install-headers
+    : [ glob-tree-ex libs/iostreams/include : *.* ]
+    : <location>(includedir)
+      <install-source-root>libs/iostreams/include
+    ;
+alias conan-install : libs/iostreams/build//conan-install conan-install-headers ;
+explicit conan-install conan-install-headers ;
+'''
+
+
+_lib_jam = '''\
+project
+    : requirements
+{% for req, dep in conanfile.dependencies.items() %}
+    {% if req.direct and dep.ref.name.startswith('boost-') %}
+        <library>/boost/{{dep.ref.name[6:]}}//boost_{{dep.ref.name[6:]}}
+    {% endif %}
+        <include>{{conanfile.name[6:]}}/include
+{% endfor %}
+    ;
 '''

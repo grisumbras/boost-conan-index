@@ -110,7 +110,7 @@ sources:
       ref: boost-any/1.90.0-a.d+25.10.07.20.26
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+      ref: boost-assert/1.90.0-a.d+25.10.18.22.44
     - header: true
       public: true
       ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32

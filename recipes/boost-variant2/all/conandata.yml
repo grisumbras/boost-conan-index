@@ -53,6 +53,21 @@ sources:
       ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
     kind: header-library
     url: https://github.com/boostorg/variant2.git
+  1.90.0-a.d+25.10.18.20.23:
+    commit: b9d0499a8f1fbb29df3de4019a5b8265bb0cbb41
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.18.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+    kind: header-library
+    url: https://github.com/boostorg/variant2.git
   1.90.0-a.m+25.01.15.19.44:
     commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
     dependencies:

@@ -212,7 +212,7 @@ sources:
       ref: boost-array/1.90.0-a.d+25.04.03.14.10
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+      ref: boost-assert/1.90.0-a.d+25.10.18.22.44
     - header: true
       public: true
       ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
@@ -299,7 +299,7 @@ sources:
       ref: boost-variant/1.90.0-a.d+25.09.13.13.52
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.d+25.10.18.08.24
+      ref: boost-variant2/1.90.0-a.d+25.10.18.20.23
     kind: header-library
     url: https://github.com/boostorg/geometry.git
   1.90.0-a.m+25.08.01.18.48:

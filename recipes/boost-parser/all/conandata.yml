@@ -41,7 +41,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+      ref: boost-assert/1.90.0-a.d+25.10.18.22.44
     - header: false
       public: true
       ref: boost-charconv/1.90.0-a.d+25.08.14.13.57

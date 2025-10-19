@@ -68,7 +68,7 @@ sources:
       ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
     - header: true
       public: false
-      ref: boost-assert/1.90.0-a.d+25.03.21.17.00
+      ref: boost-assert/1.90.0-a.d+25.10.18.22.44
     kind: library
     url: https://github.com/boostorg/stacktrace.git
   1.90.0-a.m+25.09.09.12.01:
