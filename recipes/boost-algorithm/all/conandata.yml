@@ -122,7 +122,7 @@ sources:
       ref: boost-array/1.90.0-a.d+25.04.03.14.10
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.d+25.10.18.22.44
+      ref: boost-assert/1.90.0-a.d+25.10.19.12.15
     - header: true
       public: true
       ref: boost-bind/1.90.0-a.d+24.12.13.03.05
@@ -179,7 +179,7 @@ sources:
       ref: boost-array/1.90.0-a.m+25.04.03.14.10
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.m+25.03.21.17.00
+      ref: boost-assert/1.90.0-a.m+25.10.19.02.52
     - header: true
       public: true
       ref: boost-bind/1.90.0-a.m+24.12.13.03.05
@@ -224,6 +224,6 @@ sources:
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - header: true
       public: true
-      ref: boost-unordered/1.90.0-a.m+25.10.12.13.14
+      ref: boost-unordered/1.90.0-a.m+25.10.18.17.53
     kind: header-library
     url: https://github.com/boostorg/algorithm.git
