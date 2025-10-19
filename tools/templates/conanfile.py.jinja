@@ -132,7 +132,10 @@ class Boost{{ project.name.title() | replace('-', '') | replace('_', '') }}Recip
             self.cpp_info.bindirs = []
             self.cpp_info.libdirs = []
         else:
-            self.cpp_info.libs = ['boost_{{project.name}}']
+            self.cpp_info.libs = [
+                'boost_' + tgt['name'] for tgt in self._data_cache['targets']
+                if tgt['kind'] == 'library'
+            ]
             self.cpp_info.defines = ['BOOST_{{project.name | upper}}_NO_LIB=1']
         self.cpp_info.resdirs = ['share']
         self.cpp_info.builddirs = ['share/boost/{{project.name}}/modules']
@@ -146,6 +149,12 @@ class Boost{{ project.name.title() | replace('-', '') | replace('_', '') }}Recip
         result = getattr(self, '_conan_data', None)
         if result is None:
             result = self.conan_data['sources'][self.version]
+            header_only = True
+            for tgt in result['targets']:
+                if tgt['kind'] == 'library':
+                    header_only = False
+                    break
+            result['kind'] = 'header-library' if header_only else 'library'
             self._conan_data = result
         return result
 

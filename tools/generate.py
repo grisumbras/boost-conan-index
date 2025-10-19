@@ -109,15 +109,64 @@ def parse_args(argv):
     return parser.parse_args(argv[1:])
 
 
-def collect_module_deps_from_jam_file(path, fs):
-    with fs.open(path, 'r') as f:
-        for line in f.readlines():
-            stripped = line.lstrip()
-            if stripped.startswith('import-search'):
-                module = stripped.split(' ')[1]
-                module = module.split('/')
-                if module[:2] == ['', 'boost']:
-                    yield module[2]
+def library_name_to_target_name(name):
+    if name.startswith('boost_'):
+        name = name[6:]
+    return name
+
+
+def collect_libraries_from_jamfile(lib_dir, lib_name, fs):
+    build_jam = os.path.join(lib_dir, 'build.jam')
+    if not fs.exists(build_jam):
+        return []
+
+    with fs.open(build_jam, 'r') as f:
+        lines = f.readlines()
+        while lines:
+            match = re.match(r'\s*call-if\s+: boost-library\b', lines[0])
+            if match:
+                break
+            lines = lines[1:]
+
+        targets = ''
+        while lines:
+            targets = targets + lines[0] + ' '
+            if lines[0].find(';') >= 0:
+                break
+            lines = lines[1:]
+        targets = targets.split(';', 1)[0].split(':')
+        if len(targets) < 3:
+            return []
+
+        targets = [tgt.strip() for tgt in targets[2].strip().split(' ') if tgt]
+        if len(targets) < 2 or targets[0] != 'install':
+            return []
+
+        targets = [library_name_to_target_name(tgt) for tgt in targets[1:]]
+
+        main_target = []
+        dependency = []
+        if len(targets) > 1:
+            try:
+                lib_index = targets.index(lib_name)
+            except:
+                lib_index = None
+            if lib_index is  not None:
+                del targets[lib_index]
+                dependency = [lib_name]
+                main_target = [{
+                    'name': lib_name,
+                    'kind': 'library',
+                    'dependencies': [],
+                }]
+        return main_target + [
+            {
+                'name': library_name_to_target_name(tgt),
+                'kind': 'library',
+                'dependencies': dependency,
+            }
+            for tgt in targets
+        ]
 
 
 class Project():
@@ -213,6 +262,13 @@ class SuperProject(Project):
 
 class LibraryProject(Project):
     @property
+    def is_header_only(self):
+        for tgt in self.targets:
+            if tgt['kind'] == 'library':
+                return False
+        return True
+
+    @property
     def conan_name(self):
         return f'boost-{self.name}'
 
@@ -227,8 +283,8 @@ class LibraryProject(Project):
         self.url = urllib.parse.urljoin(superproject.url, url)
         self.commit = git.submodule_commit(superproject.path, path)
         self.dependencies = []
+        self.targets = []
         self.cxxstd = None
-        self.exceptions = None
 
     def collect_data(self, git, fs, registry, depinst):
         with git.clone_commit(self.url, self.commit, target=self.name) as lib:
@@ -253,10 +309,18 @@ class LibraryProject(Project):
                     self.header = os.path.join(root, files[0])[offset:]
                     break
 
-            self.is_header_only = not fs.exists(os.path.join(lib, 'build'))
-            self.dependencies = depinst(
-                self, lib, registry,
-            )
+            self.targets = collect_libraries_from_jamfile(lib, self.name, fs)
+            if not self.targets:
+                target = {
+                    'name': self.name,
+                    'dependencies': [],
+                    'kind': 'header-library',
+                }
+                if fs.exists(os.path.join(lib, 'build')):
+                    target['kind'] = 'library'
+                self.targets = [target]
+
+            self.dependencies = depinst(self, lib, registry)
 
             exceptions = os.path.join(
                 os.path.dirname(__file__), 'exceptions', self.name + '.py',
@@ -267,7 +331,6 @@ class LibraryProject(Project):
                     mod_name, exceptions,
                 )
                 mod = importlib.util.module_from_spec(spec)
-                # sys.modules[mod_name] = mod
                 spec.loader.exec_module(mod)
                 mod.update_data(self, lib, registry)
 
@@ -290,8 +353,8 @@ class LibraryProject(Project):
         conandata['sources'][self.conan_version] = {
             'url': self.url,
             'commit': self.commit,
-            'kind': 'header-library' if self.is_header_only else 'library',
             'cxxstd': self.cxxstd,
+            'targets': self.targets,
             'dependencies': [
                 {
                     'ref': dep.conan_ref,
@@ -323,9 +386,6 @@ class LibraryProject(Project):
         template = template_env.get_template('test.cpp.jinja')
         with fs.open(os.path.join(pkg_test_dir, 'test.cpp'), 'w') as f:
             template.stream({ 'project': self }).dump(f)
-
-        if self.exceptions:
-            fs.copy(self.exceptions, os.path.join(pkg_dir, 'exceptions.py'))
 
     def __repr__(self):
         return f'LibraryProject("{self.name}", "{self.git_ref}")'
