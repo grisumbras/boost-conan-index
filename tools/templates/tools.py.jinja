@@ -45,7 +45,7 @@ class B2Toolchain(object):
         )
 
         var = _collect_variations(conanfile)
-        self._variation = {'toolset': var.get('toolset')}
+        self.variation = {'toolset': var.get('toolset')}
 
         self._toolsets = {}
         self._xc_run = None
@@ -70,10 +70,6 @@ class B2Toolchain(object):
             ),
             toolchain_template.render(toolsets=self.toolsets),
         )
-
-    @property
-    def variation(self):
-        return self._variation
 
     def using(self, name, *args):
         self._toolsets[name] = args
@@ -517,10 +513,17 @@ def _collect_variations(conanfile):
         if require.direct or not require.build or not require.test
     ] + [conanfile]
     for pkg in packages:
-        result.update((
-            (k, v) for k, v in variation(pkg, conanfile).items()
-            if v is not None
-        ))
+        for k, v in variation(pkg, conanfile).items():
+            if v is None:
+                continue
+            old = result.get(k)
+            if old is not None and old != v:
+                if v.startswith(old):
+                    result[k] = v
+                elif not old.startswith(v):
+                    raise Exception(f'incompatible values for {k}: {old}, {v}')
+            else:
+                result[k] = v
     return result
 
 def variation_id(variation):
