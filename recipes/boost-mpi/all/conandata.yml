@@ -125,13 +125,13 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.d+25.10.19.12.15
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: true
       public: true
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+      ref: boost-core/1.90.0-a.d+25.10.20.06.11
     - header: true
       public: true
       ref: boost-foreach/1.90.0-a.d+25.05.02.19.11
@@ -185,13 +185,13 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.m+25.10.19.02.52
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     - header: true
       public: true
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+      ref: boost-core/1.90.0-a.m+25.10.19.22.14
     - header: true
       public: true
       ref: boost-foreach/1.90.0-a.m+25.01.26.17.47

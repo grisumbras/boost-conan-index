@@ -32,7 +32,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+      ref: boost-core/1.90.0-a.d+25.10.20.06.11
     kind: header-library
     url: https://github.com/boostorg/logic.git
   1.90.0-a.m+25.01.01.20.44:
@@ -44,6 +44,6 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+      ref: boost-core/1.90.0-a.m+25.10.19.22.14
     kind: header-library
     url: https://github.com/boostorg/logic.git

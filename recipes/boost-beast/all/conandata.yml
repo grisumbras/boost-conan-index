@@ -146,7 +146,7 @@ sources:
       ref: boost-asio/1.90.0-a.d+25.08.06.22.32
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.d+25.10.19.12.15
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: true
       public: true
       ref: boost-bind/1.90.0-a.d+24.12.13.03.05
@@ -161,7 +161,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+      ref: boost-core/1.90.0-a.d+25.10.20.06.11
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43
@@ -191,7 +191,7 @@ sources:
       ref: boost-static_string/1.90.0-a.d+25.10.08.16.46
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.07.02.19.12
+      ref: boost-system/1.90.0-a.d+25.10.19.21.04
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
@@ -215,7 +215,7 @@ sources:
       ref: boost-asio/1.90.0-a.m+25.08.06.22.37
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.m+25.10.19.02.52
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     - header: true
       public: true
       ref: boost-bind/1.90.0-a.m+24.12.13.03.05
@@ -230,7 +230,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+      ref: boost-core/1.90.0-a.m+25.10.19.22.14
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -260,7 +260,7 @@ sources:
       ref: boost-static_string/1.90.0-a.m+23.12.22.17.12
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.m+25.07.02.19.12
+      ref: boost-system/1.90.0-a.m+25.10.19.21.04
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39

@@ -212,7 +212,7 @@ sources:
       ref: boost-array/1.90.0-a.d+25.04.03.14.10
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.d+25.10.19.12.15
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: true
       public: true
       ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
@@ -224,7 +224,7 @@ sources:
       ref: boost-container/1.90.0-a.d+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+      ref: boost-core/1.90.0-a.d+25.10.20.06.11
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43
@@ -299,7 +299,7 @@ sources:
       ref: boost-variant/1.90.0-a.d+25.09.13.13.52
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.d+25.10.18.20.23
+      ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
     kind: header-library
     url: https://github.com/boostorg/geometry.git
   1.90.0-a.m+25.08.01.18.48:
@@ -317,7 +317,7 @@ sources:
       ref: boost-array/1.90.0-a.m+25.04.03.14.10
     - header: true
       public: true
-      ref: boost-assert/1.90.0-a.m+25.10.19.02.52
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     - header: true
       public: true
       ref: boost-concept_check/1.90.0-a.m+24.12.28.18.10
@@ -329,7 +329,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+      ref: boost-core/1.90.0-a.m+25.10.19.22.14
     - header: true
       public: true
       ref: boost-function_types/1.90.0-a.m+24.09.18.18.18
@@ -398,6 +398,6 @@ sources:
       ref: boost-variant/1.90.0-a.m+25.09.13.13.52
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.m+25.10.17.21.04
+      ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
     kind: header-library
     url: https://github.com/boostorg/geometry.git

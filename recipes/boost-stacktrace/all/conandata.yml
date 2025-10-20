@@ -59,7 +59,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.18.16.06
+      ref: boost-core/1.90.0-a.d+25.10.20.06.11
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
@@ -68,7 +68,7 @@ sources:
       ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
     - header: true
       public: false
-      ref: boost-assert/1.90.0-a.d+25.10.19.12.15
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     kind: library
     url: https://github.com/boostorg/stacktrace.git
   1.90.0-a.m+25.09.09.12.01:
@@ -83,7 +83,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.08.25.19.05
+      ref: boost-core/1.90.0-a.m+25.10.19.22.14
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53
@@ -92,6 +92,6 @@ sources:
       ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
     - header: true
       public: false
-      ref: boost-assert/1.90.0-a.m+25.10.19.02.52
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     kind: library
     url: https://github.com/boostorg/stacktrace.git
