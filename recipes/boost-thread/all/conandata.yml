@@ -79,6 +79,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: thread
     url: https://github.com/boostorg/thread.git
   1.89.0-b.1:
     commit: a1f89c951879b6677772606d0549e7368c9c99bc
@@ -160,6 +164,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: thread
     url: https://github.com/boostorg/thread.git
   1.90.0-a.d+25.05.02.19.21:
     commit: a1f89c951879b6677772606d0549e7368c9c99bc
@@ -241,6 +249,10 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: thread
     url: https://github.com/boostorg/thread.git
   1.90.0-a.m+25.05.02.19.21:
     commit: a1f89c951879b6677772606d0549e7368c9c99bc
@@ -272,7 +284,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-date_time/1.90.0-a.m+22.10.31.09.22
@@ -322,4 +334,8 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: thread
     url: https://github.com/boostorg/thread.git

@@ -40,6 +40,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: statechart
     url: https://github.com/boostorg/statechart.git
   1.89.0-b.1:
     commit: ae93e58e44f722626fe462a854b92d9b4f11449a
@@ -82,6 +86,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: statechart
     url: https://github.com/boostorg/statechart.git
   1.90.0-a.d+25.05.02.11.20:
     commit: 2b1270f7ab9027320a6b7e187ea1d37d329b3624
@@ -124,6 +132,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: statechart
     url: https://github.com/boostorg/statechart.git
   1.90.0-a.m+24.09.28.11.17:
     commit: ae93e58e44f722626fe462a854b92d9b4f11449a
@@ -143,7 +155,7 @@ sources:
       ref: boost-conversion/1.90.0-a.m+25.10.07.20.26
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
@@ -166,4 +178,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: statechart
     url: https://github.com/boostorg/statechart.git

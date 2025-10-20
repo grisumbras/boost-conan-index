@@ -16,6 +16,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: scope
     url: https://github.com/boostorg/scope.git
   1.89.0-b.1:
     commit: e286819b43744aa589e6b1937ae0e6f78f038cc7
@@ -34,6 +38,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: scope
     url: https://github.com/boostorg/scope.git
   1.90.0-a.d+25.08.25.19.17:
     commit: edb755c829ba65e89f9d97ec3bb85c374f3a3451
@@ -52,6 +60,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: scope
     url: https://github.com/boostorg/scope.git
   1.90.0-a.m+25.08.25.19.17:
     commit: edb755c829ba65e89f9d97ec3bb85c374f3a3451
@@ -65,9 +77,13 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: scope
     url: https://github.com/boostorg/scope.git

@@ -283,48 +283,58 @@ class B2Deps(object):
 
     def _collect_targets(self, dependencies):
         for dep in dependencies:
-            self._collect_targets_for_component(dep)
+            self._collect_targets_for_package(dep)
         return self._projects
 
-    def _collect_targets_for_component(self, dep):
-        main_target = self._targets.get(dep)
+    def _collect_targets_for_package(self, dep):
+        main_target = self._targets.get(dep.cpp_info)
         if main_target is not None:
             return main_target
 
-        project, target_name = _b2_target(dep)
+        project, target_name = _b2_target(dep.ref.name, dep.cpp_info)
         var = variation(dep, self._conanfile)
 
-        libs = [
-            _lib_target(project, lib, dep, var)
-            for lib in dep.cpp_info.libs
-        ]
-        # comps = _subcomponents(project, dep, var)
-
-        if len(libs) == 1:
-            main_target = libs[0]
-            main_target['name'] = target_name
-            libs = []
-        elif not libs:
-            main_target = _alias_target(project, target_name, dep, var)
-        else:
-            main_target = _simple_alias_target(project, target_name, dep, var)
-
-        main_target['dependencies'].extend(libs)
-        # main_target['dependencies'].extend(comps)
-
-        self._targets[dep] = main_target
-        for lib in libs:
-            self._targets[lib] = lib
-
-        main_target['dependencies'].extend((
-            self._collect_targets_for_component(other)
-            for other in dep.dependencies.direct_host.values()
-        ))
+        targets = _collect_targets_for_component(
+            dep.cpp_info, dep, project, target_name, var
+        )
+        main_target = targets[0]
+        self._targets[dep.cpp_info] = main_target
 
         project = self._projects.setdefault(project, {})
         pkg = project.setdefault(dep.pref.package_id, [])
-        pkg.append(main_target)
-        pkg.extend(libs)
+        pkg.extend(targets)
+
+        for name, comp in dep.cpp_info.components.items():
+            project, target_name = _b2_target(name, comp)
+            targets = _collect_targets_for_component(
+                comp, dep, project, target_name, var,
+            )
+            comp_target = targets[0]
+            self._targets[comp] = comp_target
+
+            main_target['dependencies'].append(comp_target)
+            project = self._projects.setdefault(project, {})
+            pkg = project.setdefault(dep.pref.package_id, [])
+            pkg.extend(targets)
+
+        for comp in dep.cpp_info.components.values():
+            comp_tgt = self._targets[comp]
+            for pkg_name, req_name in comp.parsed_requires():
+                if pkg_name is None:
+                    req_comp = dep.cpp_info.components[req_name]
+                else:
+                    pkg = dep.dependencies[pkg_name]
+                    self._collect_targets_for_package(pkg)
+                    if req_name == pkg_name:
+                        req_comp = pkg.cpp_info
+                    else:
+                        req_comp = pkg.cpp_info.components[req_name]
+                comp_tgt['dependencies'].append(self._targets[req_comp])
+        else:
+            main_target['dependencies'].extend((
+                self._collect_targets_for_package(other)
+                for other in dep.dependencies.direct_host.values()
+            ))
 
         return main_target
 
@@ -583,9 +593,9 @@ def _toolset(conanfile, consumer_conanfile):
     return toolset
 
 
-def _b2_target(dep):
+def _b2_target(name, info):
     project = None
-    target = dep.cpp_info.get_property('b2_target_name', check_type=str)
+    target = info.get_property('b2_target_name', check_type=str)
     if target:
         target = target.split('//')
         if len(target) > 1:
@@ -593,7 +603,7 @@ def _b2_target(dep):
         target = target[-1]
 
     if not target:
-        target = dep.cpp_info.get_property(
+        target = info.get_property(
             'cmake_target_name', check_type=str,
         ) or ''
         target = [ jamify(part) for part in target.split(sep='::') ]
@@ -602,7 +612,7 @@ def _b2_target(dep):
         target = target[-1]
 
     if not project:
-        project = '/' + jamify(dep.ref.name)
+        project = '/' + jamify(name)
 
     if not target:
         target = 'libs'
@@ -610,42 +620,60 @@ def _b2_target(dep):
     return project, target
 
 
-def _lib_target(project, name, dep, var):
-    result = _alias_target(project, name, dep, var)
+def _collect_targets_for_component(info, pkg, project, name, variation):
+    libs = [
+        _lib_target(project, lib, info, pkg, variation) for lib in info.libs
+    ]
+
+    if len(libs) == 1:
+        main_target = libs[0]
+        main_target['name'] = name
+        libs = []
+    elif not libs:
+        main_target = _alias_target(project, name, info, pkg, variation)
+    else:
+        main_target = _simple_alias_target(project, name, pkg, var)
+        main_target['dependencies'].extend(libs)
+
+    return [main_target] + libs
+
+
+def _lib_target(project, name, info, pkg, var):
+    result = _alias_target(project, name, info, pkg, var)
     libs = []
-    for dir in dep.cpp_info.libdirs:
+    for dir in info.libdirs:
         libs += glob.glob(os.path.join(dir, f'*{name}*'))
     libs = sorted(libs, key=lambda lib: len(lib))
     result.update(
         kind='lib',
         lib_name=name,
-        search=dep.cpp_info.libdirs,
+        search=info.libdirs,
         file=libs[0],
     )
     return result
 
 
-def _alias_target(project, name, dep, var):
-    result = _simple_alias_target(project, name, dep, var)
-    linkflags = dep.cpp_info.sharedlinkflags or []
-    linkflags.extend(dep.cpp_info.exelinkflags or [])
+def _alias_target(project, name, info, pkg, var):
+    result = _simple_alias_target(project, name, pkg, var)
+    linkflags = info.sharedlinkflags or []
+    linkflags.extend(info.exelinkflags or [])
     result.update(
-        includes=dep.cpp_info.includedirs,
-        defines=dep.cpp_info.defines,
-        cflags=dep.cpp_info.cflags,
-        cxxflags=dep.cpp_info.cxxflags,
+        includes=info.includedirs,
+        defines=info.defines,
+        cflags=info.cflags,
+        cxxflags=info.cxxflags,
         linkflags=linkflags,
     )
     return result
 
 
-def _simple_alias_target(project, name, dep, var):
+def _simple_alias_target(project, name, pkg, var):
     return {
         'project': project,
         'name': name,
         'kind': 'alias',
         'variation': var,
-        'component': dep,
+        'component': pkg,
         'dependencies': [],
     }
 

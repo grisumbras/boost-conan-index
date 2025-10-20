@@ -112,6 +112,14 @@ sources:
       public: false
       ref: boost-predef/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: log
+    - dependencies:
+      - log
+      kind: library
+      name: log_setup
     url: https://github.com/boostorg/log.git
   1.89.0-b.1:
     commit: 805f0cf971bd6bf1af005b06e5e4c47eb3e1e1a5
@@ -226,6 +234,14 @@ sources:
       public: false
       ref: boost-predef/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: log
+    - dependencies:
+      - log
+      kind: library
+      name: log_setup
     url: https://github.com/boostorg/log.git
   1.90.0-a.d+25.10.01.17.41:
     commit: 3ab24d1e4f3b621d6d031d5c47c540f453d1f8be
@@ -332,7 +348,7 @@ sources:
       ref: boost-asio/1.90.0-a.d+25.08.06.22.32
     - header: true
       public: false
-      ref: boost-interprocess/1.90.0-a.d+25.10.11.12.45
+      ref: boost-interprocess/1.90.0-a.d+25.10.20.13.13
     - header: true
       public: false
       ref: boost-io/1.90.0-a.d+25.06.26.11.42
@@ -340,6 +356,14 @@ sources:
       public: false
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: log
+    - dependencies:
+      - log
+      kind: library
+      name: log_setup
     url: https://github.com/boostorg/log.git
   1.90.0-a.m+25.10.01.17.41:
     commit: 3ab24d1e4f3b621d6d031d5c47c540f453d1f8be
@@ -356,7 +380,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-date_time/1.90.0-a.m+22.10.31.09.22
@@ -446,7 +470,7 @@ sources:
       ref: boost-asio/1.90.0-a.m+25.08.06.22.37
     - header: true
       public: false
-      ref: boost-interprocess/1.90.0-a.m+25.10.11.12.45
+      ref: boost-interprocess/1.90.0-a.m+25.10.20.13.13
     - header: true
       public: false
       ref: boost-io/1.90.0-a.m+23.10.03.00.15
@@ -454,4 +478,12 @@ sources:
       public: false
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: log
+    - dependencies:
+      - log
+      kind: library
+      name: log_setup
     url: https://github.com/boostorg/log.git

@@ -34,6 +34,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: dll
     url: https://github.com/boostorg/dll.git
   1.89.0-b.1:
     commit: 4105c3a8f8d5287b59b0185c45d4c9a768d92a55
@@ -70,6 +74,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: dll
     url: https://github.com/boostorg/dll.git
   1.90.0-a.d+25.08.26.12.02:
     commit: c6d1c7f977c9952a3e895de15622d263eea38e9c
@@ -106,6 +114,10 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: dll
     url: https://github.com/boostorg/dll.git
   1.90.0-a.m+25.08.26.12.02:
     commit: c6d1c7f977c9952a3e895de15622d263eea38e9c
@@ -119,7 +131,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: false
       public: true
       ref: boost-filesystem/1.90.0-a.m+25.10.01.17.38
@@ -142,4 +154,8 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: dll
     url: https://github.com/boostorg/dll.git

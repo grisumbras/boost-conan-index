@@ -25,6 +25,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mpl
     url: https://github.com/boostorg/mpl.git
   1.89.0-b.1:
     commit: 74d927f9847c60b908beac94e1198d1985380abf
@@ -52,6 +56,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mpl
     url: https://github.com/boostorg/mpl.git
   1.90.0-a.d+25.07.03.00.11:
     commit: 02ec362f5ca4907290e1516adcc53bf7673a4806
@@ -79,6 +87,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mpl
     url: https://github.com/boostorg/mpl.git
   1.90.0-a.m+25.06.27.02.18:
     commit: 74d927f9847c60b908beac94e1198d1985380abf
@@ -89,7 +101,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53
@@ -106,4 +118,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mpl
     url: https://github.com/boostorg/mpl.git

@@ -22,6 +22,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: bloom
     url: https://github.com/boostorg/bloom.git
   1.89.0-b.1:
     commit: 42ac5003f8742981a9731ae443a99be6b8fa23bc
@@ -46,6 +50,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: bloom
     url: https://github.com/boostorg/bloom.git
   1.90.0-a.d+25.10.15.01.40:
     commit: 8a16729b4401332fce89ff4e12df4387cd6e645a
@@ -94,6 +102,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: bloom
     url: https://github.com/boostorg/bloom.git
   1.90.0-a.m+25.09.30.20.11:
     commit: 5b9069a1471e3892ad6359e9f3f0b4fcbab5f40a
@@ -110,7 +122,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
@@ -118,4 +130,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: bloom
     url: https://github.com/boostorg/bloom.git

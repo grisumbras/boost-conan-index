@@ -25,6 +25,10 @@ sources:
       public: true
       ref: boost-variant2/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: histogram
     url: https://github.com/boostorg/histogram.git
   1.89.0-b.1:
     commit: 6eaea7fead85b5e00c9a4c4d51d7b8fe335a8782
@@ -52,6 +56,10 @@ sources:
       public: true
       ref: boost-variant2/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: histogram
     url: https://github.com/boostorg/histogram.git
   1.90.0-a.d+25.06.12.21.19:
     commit: 3afe76f91f93af237764242d56fa6ebaad7c81e6
@@ -79,6 +87,10 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: histogram
     url: https://github.com/boostorg/histogram.git
   1.90.0-a.m+25.06.12.10.10:
     commit: 6eaea7fead85b5e00c9a4c4d51d7b8fe335a8782
@@ -89,7 +101,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: false
       public: true
       ref: boost-math/1.90.0-a.m+25.10.15.18.57
@@ -106,4 +118,8 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: histogram
     url: https://github.com/boostorg/histogram.git

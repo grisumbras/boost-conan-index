@@ -16,6 +16,10 @@ sources:
       public: true
       ref: boost-type_index/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: parser
     url: https://github.com/boostorg/parser.git
   1.89.0-b.1:
     commit: 6414f99e04d362182fa5d3ba87750c993db7e969
@@ -34,6 +38,10 @@ sources:
       public: true
       ref: boost-type_index/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: parser
     url: https://github.com/boostorg/parser.git
   1.90.0-a.d+25.10.13.18.43:
     commit: d873d7ea8076d95b816cd9557553672ca9689e9b
@@ -52,6 +60,10 @@ sources:
       public: true
       ref: boost-type_index/1.90.0-a.d+25.10.18.15.18
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: parser
     url: https://github.com/boostorg/parser.git
   1.90.0-a.m+25.07.27.17.50:
     commit: c674e94c3d409b6ab0ee05429361e8b50fe30320
@@ -70,4 +82,8 @@ sources:
       public: true
       ref: boost-type_index/1.90.0-a.m+25.10.07.20.25
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: parser
     url: https://github.com/boostorg/parser.git

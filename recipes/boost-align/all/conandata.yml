@@ -16,6 +16,10 @@ sources:
       public: true
       ref: boost-static_assert/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: align
     url: https://github.com/boostorg/align.git
   1.89.0-b.1:
     commit: 5ad7df63cd792fbdb801d600b93cad1a432f0151
@@ -34,6 +38,10 @@ sources:
       public: true
       ref: boost-static_assert/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: align
     url: https://github.com/boostorg/align.git
   1.90.0-a.d+25.06.26.11.43:
     commit: bd7f7f5f11645397313d3b584e4c521142327ed7
@@ -52,6 +60,10 @@ sources:
       public: true
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: align
     url: https://github.com/boostorg/align.git
   1.90.0-a.m+22.11.11.18.29:
     commit: 5ad7df63cd792fbdb801d600b93cad1a432f0151
@@ -65,9 +77,13 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: align
     url: https://github.com/boostorg/align.git

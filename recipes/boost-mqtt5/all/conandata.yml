@@ -46,6 +46,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mqtt5
     url: https://github.com/boostorg/mqtt5.git
   1.89.0-b.1:
     commit: 5375062894f192351d2827e33412179471e01113
@@ -94,6 +98,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mqtt5
     url: https://github.com/boostorg/mqtt5.git
   1.90.0-a.d+25.09.18.20.25:
     commit: 150ba94d14d89d1187e010464a63eaddf10e2225
@@ -133,6 +141,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mqtt5
     url: https://github.com/boostorg/mqtt5.git
   1.90.0-a.m+25.07.28.14.02:
     commit: 620df1f9934925ac6044e4619c701d6dcf9dc8b6
@@ -152,7 +164,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -181,4 +193,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mqtt5
     url: https://github.com/boostorg/mqtt5.git

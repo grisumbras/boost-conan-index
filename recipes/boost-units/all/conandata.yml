@@ -40,6 +40,10 @@ sources:
       public: true
       ref: boost-typeof/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: units
     url: https://github.com/boostorg/units.git
   1.89.0-b.1:
     commit: 45787015dd8c11653eb988260acf05c4af9d42e5
@@ -82,6 +86,10 @@ sources:
       public: true
       ref: boost-typeof/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: units
     url: https://github.com/boostorg/units.git
   1.90.0-a.d+25.05.02.11.24:
     commit: 605ebf7143be8861f9cf80e54427a8bbffb55212
@@ -124,6 +132,10 @@ sources:
       public: true
       ref: boost-typeof/1.90.0-a.d+25.06.09.02.44
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: units
     url: https://github.com/boostorg/units.git
   1.90.0-a.m+21.06.08.00.11:
     commit: 45787015dd8c11653eb988260acf05c4af9d42e5
@@ -137,7 +149,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.m+25.08.25.19.05
@@ -166,4 +178,8 @@ sources:
       public: true
       ref: boost-typeof/1.90.0-a.m+25.06.09.02.44
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: units
     url: https://github.com/boostorg/units.git

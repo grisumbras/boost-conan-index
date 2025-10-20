@@ -91,6 +91,10 @@ sources:
       public: true
       ref: boost-variant/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: spirit
     url: https://github.com/boostorg/spirit.git
   1.89.0-b.1:
     commit: 08b3d033c92238f3c4f8d78e8b4e5b1d90307389
@@ -184,6 +188,10 @@ sources:
       public: true
       ref: boost-variant/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: spirit
     url: https://github.com/boostorg/spirit.git
   1.90.0-a.d+25.10.06.20.36:
     commit: cadecf42fab9fed221605285cce9e40c36e68381
@@ -277,6 +285,10 @@ sources:
       public: true
       ref: boost-variant/1.90.0-a.d+25.09.13.13.52
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: spirit
     url: https://github.com/boostorg/spirit.git
   1.90.0-a.m+25.09.17.08.31:
     commit: 82184fecd6e6979e44a539bb5ff0918724948c40
@@ -293,7 +305,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -370,4 +382,8 @@ sources:
       public: true
       ref: boost-variant/1.90.0-a.m+25.09.13.13.52
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: spirit
     url: https://github.com/boostorg/spirit.git

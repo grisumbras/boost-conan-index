@@ -52,6 +52,10 @@ sources:
       public: true
       ref: boost-variant/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: signals2
     url: https://github.com/boostorg/signals2.git
   1.89.0-b.1:
     commit: 898c81affdac7759768f846ea461d2364b028f0e
@@ -106,6 +110,10 @@ sources:
       public: true
       ref: boost-variant/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: signals2
     url: https://github.com/boostorg/signals2.git
   1.90.0-a.d+25.09.11.10.10:
     commit: 3e7413b9d6084a160db9a2a90bb74d55415c5226
@@ -160,6 +168,10 @@ sources:
       public: true
       ref: boost-variant/1.90.0-a.d+25.09.13.13.52
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: signals2
     url: https://github.com/boostorg/signals2.git
   1.90.0-a.m+25.09.11.10.10:
     commit: 3e7413b9d6084a160db9a2a90bb74d55415c5226
@@ -176,7 +188,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-function/1.90.0-a.m+24.12.14.04.39
@@ -214,4 +226,8 @@ sources:
       public: true
       ref: boost-variant/1.90.0-a.m+25.09.13.13.52
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: signals2
     url: https://github.com/boostorg/signals2.git

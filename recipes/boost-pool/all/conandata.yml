@@ -22,6 +22,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: pool
     url: https://github.com/boostorg/pool.git
   1.89.0-b.1:
     commit: 740c8076f9d02f0216e8f3dbb15d2fd80f67d7f4
@@ -46,6 +50,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: pool
     url: https://github.com/boostorg/pool.git
   1.90.0-a.d+19.09.06.01.34:
     commit: 571909a59e29c7fa1f3cae8225f77f9d9d17ecef
@@ -70,6 +78,10 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: pool
     url: https://github.com/boostorg/pool.git
   1.90.0-a.m+25.02.25.18.47:
     commit: 740c8076f9d02f0216e8f3dbb15d2fd80f67d7f4
@@ -94,4 +106,8 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: pool
     url: https://github.com/boostorg/pool.git

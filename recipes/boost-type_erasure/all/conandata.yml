@@ -46,6 +46,10 @@ sources:
       public: false
       ref: boost-thread/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: type_erasure
     url: https://github.com/boostorg/type_erasure.git
   1.89.0-b.1:
     commit: 5281f14d3cb59f978c8cb6cbb90ce92dde4e3e13
@@ -94,6 +98,10 @@ sources:
       public: false
       ref: boost-thread/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: type_erasure
     url: https://github.com/boostorg/type_erasure.git
   1.90.0-a.d+25.05.04.19.28:
     commit: 5281f14d3cb59f978c8cb6cbb90ce92dde4e3e13
@@ -142,6 +150,10 @@ sources:
       public: false
       ref: boost-thread/1.90.0-a.d+25.05.02.19.21
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: type_erasure
     url: https://github.com/boostorg/type_erasure.git
   1.90.0-a.m+25.05.04.19.28:
     commit: 5281f14d3cb59f978c8cb6cbb90ce92dde4e3e13
@@ -155,7 +167,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
@@ -190,4 +202,8 @@ sources:
       public: false
       ref: boost-thread/1.90.0-a.m+25.05.02.19.21
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: type_erasure
     url: https://github.com/boostorg/type_erasure.git

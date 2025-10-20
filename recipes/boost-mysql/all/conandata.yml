@@ -52,6 +52,10 @@ sources:
       public: true
       ref: boost-variant2/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mysql
     url: https://github.com/boostorg/mysql.git
   1.89.0-b.1:
     commit: 6a82609638e88bcea2985069dfc356f32a575a55
@@ -106,6 +110,10 @@ sources:
       public: true
       ref: boost-variant2/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mysql
     url: https://github.com/boostorg/mysql.git
   1.90.0-a.d+25.10.07.16.56:
     commit: c242bb0ffdea2675a32e0b3a6baeeb987bb90777
@@ -160,6 +168,10 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mysql
     url: https://github.com/boostorg/mysql.git
   1.90.0-a.m+25.06.07.13.20:
     commit: 6a82609638e88bcea2985069dfc356f32a575a55
@@ -185,7 +197,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-describe/1.90.0-a.m+25.08.17.10.18
@@ -214,4 +226,8 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mysql
     url: https://github.com/boostorg/mysql.git

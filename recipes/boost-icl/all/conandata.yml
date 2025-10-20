@@ -49,6 +49,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: icl
     url: https://github.com/boostorg/icl.git
   1.89.0-b.1:
     commit: 2741c3a1b7b79f7326360c26c3e1588b385c9e53
@@ -100,6 +104,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: icl
     url: https://github.com/boostorg/icl.git
   1.90.0-a.d+25.10.14.14.00:
     commit: b7fc812e75bfdb6b3d32722635bd9a009883a2ae
@@ -151,6 +159,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: icl
     url: https://github.com/boostorg/icl.git
   1.90.0-a.m+23.09.23.20.05:
     commit: 2741c3a1b7b79f7326360c26c3e1588b385c9e53
@@ -170,7 +182,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-date_time/1.90.0-a.m+22.10.31.09.22
@@ -202,4 +214,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: icl
     url: https://github.com/boostorg/icl.git

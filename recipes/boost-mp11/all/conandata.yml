@@ -4,22 +4,38 @@ sources:
     cxxstd: '11'
     dependencies: []
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mp11
     url: https://github.com/boostorg/mp11.git
   1.89.0-b.1:
     commit: 2fb81c24534663a99f9570b99a3c748393a23dba
     cxxstd: '11'
     dependencies: []
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mp11
     url: https://github.com/boostorg/mp11.git
   1.90.0-a.d+25.10.09.18.32:
     commit: 50e2a0a1b82d0a2df78d20ea42deeb0835f972ff
     cxxstd: '11'
     dependencies: []
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mp11
     url: https://github.com/boostorg/mp11.git
   1.90.0-a.m+25.10.09.18.32:
     commit: 50e2a0a1b82d0a2df78d20ea42deeb0835f972ff
     cxxstd: '11'
     dependencies: []
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mp11
     url: https://github.com/boostorg/mp11.git

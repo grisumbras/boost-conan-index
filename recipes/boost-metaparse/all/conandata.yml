@@ -22,6 +22,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: metaparse
     url: https://github.com/boostorg/metaparse.git
   1.89.0-b.1:
     commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
@@ -46,6 +50,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: metaparse
     url: https://github.com/boostorg/metaparse.git
   1.90.0-a.d+25.04.14.20.30:
     commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
@@ -70,6 +78,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: metaparse
     url: https://github.com/boostorg/metaparse.git
   1.90.0-a.m+25.04.14.20.30:
     commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
@@ -94,4 +106,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: metaparse
     url: https://github.com/boostorg/metaparse.git

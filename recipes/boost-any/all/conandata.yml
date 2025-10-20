@@ -16,6 +16,10 @@ sources:
       public: true
       ref: boost-type_index/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: any
     url: https://github.com/boostorg/any.git
   1.89.0-b.1:
     commit: 9b1941c787f2769fcb6afdb0cef621db80f953a6
@@ -34,6 +38,10 @@ sources:
       public: true
       ref: boost-type_index/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: any
     url: https://github.com/boostorg/any.git
   1.90.0-a.d+25.10.07.20.26:
     commit: a863df824b3606c69e8211ea850b412899e64992
@@ -52,6 +60,10 @@ sources:
       public: true
       ref: boost-type_index/1.90.0-a.d+25.10.18.15.18
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: any
     url: https://github.com/boostorg/any.git
   1.90.0-a.m+25.10.07.20.26:
     commit: a863df824b3606c69e8211ea850b412899e64992
@@ -70,4 +82,8 @@ sources:
       public: true
       ref: boost-type_index/1.90.0-a.m+25.10.07.20.25
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: any
     url: https://github.com/boostorg/any.git

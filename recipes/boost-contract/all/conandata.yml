@@ -52,6 +52,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: contract
     url: https://github.com/boostorg/contract.git
   1.89.0-b.1:
     commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
@@ -106,6 +110,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: contract
     url: https://github.com/boostorg/contract.git
   1.90.0-a.d+20.05.22.17.53:
     commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
@@ -160,6 +168,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: contract
     url: https://github.com/boostorg/contract.git
   1.90.0-a.m+20.05.22.17.53:
     commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
@@ -176,7 +188,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: false
       public: true
       ref: boost-exception/1.90.0-a.m+25.03.02.03.25
@@ -214,4 +226,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: contract
     url: https://github.com/boostorg/contract.git

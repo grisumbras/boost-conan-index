@@ -28,6 +28,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: rational
     url: https://github.com/boostorg/rational.git
   1.89.0-b.1:
     commit: 3c6dfc84c90d4dbcfa81d7dc685bcab702f3473d
@@ -58,6 +62,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: rational
     url: https://github.com/boostorg/rational.git
   1.90.0-a.d+20.02.12.21.10:
     commit: 894bd14cba4a48bbd8cb422ebcd1ac2af78795d1
@@ -88,6 +96,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: rational
     url: https://github.com/boostorg/rational.git
   1.90.0-a.m+25.01.01.15.17:
     commit: 3c6dfc84c90d4dbcfa81d7dc685bcab702f3473d
@@ -101,7 +113,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.m+25.08.25.19.05
@@ -118,4 +130,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: rational
     url: https://github.com/boostorg/rational.git

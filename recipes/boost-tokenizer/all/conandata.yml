@@ -19,6 +19,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: tokenizer
     url: https://github.com/boostorg/tokenizer.git
   1.89.0-b.1:
     commit: a1207c1a424ee565344fe5ef00605cb93f5210c2
@@ -40,6 +44,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: tokenizer
     url: https://github.com/boostorg/tokenizer.git
   1.90.0-a.d+25.07.02.17.31:
     commit: 8f6316a8c937656aeeb2f48e469363eeac72837b
@@ -61,6 +69,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: tokenizer
     url: https://github.com/boostorg/tokenizer.git
   1.90.0-a.m+25.01.01.15.10:
     commit: a1207c1a424ee565344fe5ef00605cb93f5210c2
@@ -82,4 +94,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: tokenizer
     url: https://github.com/boostorg/tokenizer.git

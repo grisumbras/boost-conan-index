@@ -16,6 +16,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: array
     url: https://github.com/boostorg/array.git
   1.89.0-b.1:
     commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
@@ -34,6 +38,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: array
     url: https://github.com/boostorg/array.git
   1.90.0-a.d+25.04.03.14.10:
     commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
@@ -52,6 +60,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: array
     url: https://github.com/boostorg/array.git
   1.90.0-a.m+25.04.03.14.10:
     commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
@@ -70,4 +82,8 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: array
     url: https://github.com/boostorg/array.git

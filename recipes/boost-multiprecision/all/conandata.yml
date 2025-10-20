@@ -31,6 +31,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: multiprecision
     url: https://github.com/boostorg/multiprecision.git
   1.89.0-b.1:
     commit: e0c112538ff1e903594d039f2eb97e0057737e5d
@@ -64,6 +68,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: multiprecision
     url: https://github.com/boostorg/multiprecision.git
   1.90.0-a.d+25.09.22.22.37:
     commit: 9aae2f822f2335cff11ca9761dfaefa7989db6f8
@@ -97,6 +105,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: multiprecision
     url: https://github.com/boostorg/multiprecision.git
   1.90.0-a.m+25.07.02.11.53:
     commit: e0c112538ff1e903594d039f2eb97e0057737e5d
@@ -110,7 +122,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.m+25.08.25.19.05
@@ -130,4 +142,8 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: multiprecision
     url: https://github.com/boostorg/multiprecision.git

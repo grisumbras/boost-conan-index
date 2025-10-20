@@ -43,6 +43,10 @@ sources:
       public: true
       ref: boost-typeof/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: ublas
     url: https://github.com/boostorg/ublas.git
   1.89.0-b.1:
     commit: 15d871b410ff92592c6f3e0a53550035e7817046
@@ -88,6 +92,10 @@ sources:
       public: true
       ref: boost-typeof/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: ublas
     url: https://github.com/boostorg/ublas.git
   1.90.0-a.d+23.11.22.02.19:
     commit: 8934b49ebe5327964b42faefbb22334ba89f4574
@@ -133,6 +141,10 @@ sources:
       public: true
       ref: boost-typeof/1.90.0-a.d+25.06.09.02.44
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: ublas
     url: https://github.com/boostorg/ublas.git
   1.90.0-a.m+24.05.07.22.32:
     commit: 15d871b410ff92592c6f3e0a53550035e7817046
@@ -149,7 +161,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-interval/1.90.0-a.m+25.01.01.15.32
@@ -178,4 +190,8 @@ sources:
       public: true
       ref: boost-typeof/1.90.0-a.m+25.06.09.02.44
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: ublas
     url: https://github.com/boostorg/ublas.git

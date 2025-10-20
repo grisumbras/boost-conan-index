@@ -13,6 +13,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: compat
     url: https://github.com/boostorg/compat.git
   1.89.0-b.1:
     commit: e3746402659838fbd5efd91f4110ad0e0c63c957
@@ -28,6 +32,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: compat
     url: https://github.com/boostorg/compat.git
   1.90.0-a.d+25.09.05.18.48:
     commit: a5a56ee5c0ed2c3b981374c17d76933bedefff71
@@ -43,6 +51,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: compat
     url: https://github.com/boostorg/compat.git
   1.90.0-a.m+25.09.05.18.48:
     commit: a5a56ee5c0ed2c3b981374c17d76933bedefff71
@@ -58,4 +70,8 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: compat
     url: https://github.com/boostorg/compat.git

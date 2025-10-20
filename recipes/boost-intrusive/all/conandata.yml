@@ -13,6 +13,10 @@ sources:
       public: true
       ref: boost-move/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: intrusive
     url: https://github.com/boostorg/intrusive.git
   1.89.0-b.1:
     commit: 23e7a9cbf54f69f2bdc22951af959af74b037d10
@@ -28,6 +32,10 @@ sources:
       public: true
       ref: boost-move/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: intrusive
     url: https://github.com/boostorg/intrusive.git
   1.90.0-a.d+25.08.25.23.15:
     commit: fd765b6cba60aa635671d596e5cd2797d047c020
@@ -43,6 +51,10 @@ sources:
       public: true
       ref: boost-move/1.90.0-a.d+25.10.18.12.24
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: intrusive
     url: https://github.com/boostorg/intrusive.git
   1.90.0-a.m+25.08.25.23.15:
     commit: fd765b6cba60aa635671d596e5cd2797d047c020
@@ -58,4 +70,8 @@ sources:
       public: true
       ref: boost-move/1.90.0-a.m+25.10.18.12.24
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: intrusive
     url: https://github.com/boostorg/intrusive.git

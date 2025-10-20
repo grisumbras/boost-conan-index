@@ -43,6 +43,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: variant
     url: https://github.com/boostorg/variant.git
   1.89.0-b.1:
     commit: 1fd7271d2e34a36f010f8882fdde703ad9a4ffeb
@@ -88,6 +92,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: variant
     url: https://github.com/boostorg/variant.git
   1.90.0-a.d+25.09.13.13.52:
     commit: 9738f5733b3a9863be0cc2ab23cd9ba1ae5b74ff
@@ -133,6 +141,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: variant
     url: https://github.com/boostorg/variant.git
   1.90.0-a.m+25.09.13.13.52:
     commit: 9738f5733b3a9863be0cc2ab23cd9ba1ae5b74ff
@@ -149,7 +161,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
@@ -178,4 +190,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: variant
     url: https://github.com/boostorg/variant.git

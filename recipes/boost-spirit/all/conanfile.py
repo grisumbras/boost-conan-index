@@ -1,5 +1,6 @@
 import glob
 import os.path
+import shutil
 from conan import ConanFile
 from conan.tools.build import check_min_cppstd
 from conan.tools.files import (
@@ -115,6 +116,18 @@ class BoostSpiritRecipe(ConanFile):
             _boost_install,
         )
 
+        libs_dir = os.path.join(self.source_folder, 'libs')
+        if (os.path.exists(libs_dir)
+            and ('boost-config' in self.dependencies.direct_host)
+        ):
+            config_dir = os.path.join(libs_dir, 'config')
+            boost_config = self.dependencies['boost-config']
+            self.output.info(boost_config.cpp_info.builddirs)
+            for src in boost_config.cpp_info.builddirs:
+                if os.path.exists(src):
+                    self.output.info(src)
+                    shutil.copytree(src, config_dir)
+
     def build(self):
         b2 = self.python_requires['b2-tools'].module.B2(self)
         b2.build('boost_spirit')
@@ -124,17 +137,42 @@ class BoostSpiritRecipe(ConanFile):
         b2.build(target='conan-install')
 
     def package_info(self):
-        self.cpp_info.set_property('cmake_target_name', 'Boost::spirit')
-        self.cpp_info.set_property('b2_target_name', '/boost/spirit//boost_spirit')
-
-        if self._is_header_only:
-            self.cpp_info.bindirs = []
-            self.cpp_info.libdirs = []
-        else:
-            self.cpp_info.libs = ['boost_spirit']
-            self.cpp_info.defines = ['BOOST_SPIRIT_NO_LIB=1']
+        self.cpp_info.bindirs = []
         self.cpp_info.resdirs = ['share']
         self.cpp_info.builddirs = ['share/boost/spirit/modules']
+
+        targets = self._data_cache['targets']
+        no_autolink = ['BOOST_SPIRIT_NO_LIB=1']
+
+        if len(targets) < 2:
+            self.cpp_info.set_property('cmake_target_name', 'Boost::spirit')
+            self.cpp_info.set_property('b2_target_name', '/boost/spirit//boost_spirit')
+
+            if self._is_header_only:
+                self.cpp_info.libdirs = []
+            else:
+                self.cpp_info.libs = [
+                    'boost_' + tgt['name'] for tgt in targets
+                    if tgt['kind'] == 'library'
+                ]
+                self.cpp_info.defines = no_autolink
+        else:
+            self.cpp_info.set_property('b2_target_name', '/boost/spirit//libs')
+            for tgt in targets:
+                name = tgt['name']
+                comp = self.cpp_info.components[name]
+                comp.bindirs = []
+                comp.set_property('cmake_target_name', 'Boost::' + name)
+                comp.set_property('b2_target_name', '/boost/spirit//boost_' + name)
+                if tgt['kind'] == 'library':
+                    comp.libs = ['boost_' + name]
+                    comp.defines = no_autolink
+                else:
+                    comp.libdirs = []
+                comp.requires = tgt['dependencies']
+                for dep in self._data_cache['dependencies']:
+                    dep_name = dep['ref'].split('/')[0]
+                    comp.requires.append(dep_name + '::' + dep_name)
 
     def package_id(self):
         if self._is_header_only:
@@ -145,6 +183,12 @@ class BoostSpiritRecipe(ConanFile):
         result = getattr(self, '_conan_data', None)
         if result is None:
             result = self.conan_data['sources'][self.version]
+            header_only = True
+            for tgt in result['targets']:
+                if tgt['kind'] == 'library':
+                    header_only = False
+                    break
+            result['kind'] = 'header-library' if header_only else 'library'
             self._conan_data = result
         return result
 

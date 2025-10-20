@@ -61,6 +61,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: wave
     url: https://github.com/boostorg/wave.git
   1.89.0-b.1:
     commit: d7aa5a369d8f2faf48c8ea16ba041dfabbf91363
@@ -124,6 +128,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: wave
     url: https://github.com/boostorg/wave.git
   1.90.0-a.d+25.04.28.13.47:
     commit: d7aa5a369d8f2faf48c8ea16ba041dfabbf91363
@@ -187,6 +195,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: wave
     url: https://github.com/boostorg/wave.git
   1.90.0-a.m+25.04.28.13.47:
     commit: d7aa5a369d8f2faf48c8ea16ba041dfabbf91363
@@ -203,7 +215,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: false
       public: true
       ref: boost-filesystem/1.90.0-a.m+25.10.01.17.38
@@ -250,4 +262,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: wave
     url: https://github.com/boostorg/wave.git

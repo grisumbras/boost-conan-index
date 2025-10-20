@@ -19,6 +19,10 @@ sources:
       public: true
       ref: boost-typeof/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: scope_exit
     url: https://github.com/boostorg/scope_exit.git
   1.89.0-b.1:
     commit: 60baaae454b2da887a31cf939e22015b6263c9e4
@@ -40,6 +44,10 @@ sources:
       public: true
       ref: boost-typeof/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: scope_exit
     url: https://github.com/boostorg/scope_exit.git
   1.90.0-a.d+25.05.02.19.19:
     commit: 5450074da7f1d338eb5774b245bd7a255f92680e
@@ -61,6 +69,10 @@ sources:
       public: true
       ref: boost-typeof/1.90.0-a.d+25.06.09.02.44
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: scope_exit
     url: https://github.com/boostorg/scope_exit.git
   1.90.0-a.m+21.05.28.00.21:
     commit: 60baaae454b2da887a31cf939e22015b6263c9e4
@@ -82,4 +94,8 @@ sources:
       public: true
       ref: boost-typeof/1.90.0-a.m+25.06.09.02.44
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: scope_exit
     url: https://github.com/boostorg/scope_exit.git

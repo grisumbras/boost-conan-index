@@ -13,6 +13,10 @@ sources:
       public: true
       ref: boost-logic/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: interval
     url: https://github.com/boostorg/interval.git
   1.89.0-b.1:
     commit: 565d0d754f851eb9447745b359ca5be6a033918c
@@ -28,6 +32,10 @@ sources:
       public: true
       ref: boost-logic/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: interval
     url: https://github.com/boostorg/interval.git
   1.90.0-a.d+25.07.02.08.08:
     commit: 26800d3a7fb53945b03341681537295992e24019
@@ -43,6 +51,10 @@ sources:
       public: true
       ref: boost-logic/1.90.0-a.d+25.07.02.08.14
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: interval
     url: https://github.com/boostorg/interval.git
   1.90.0-a.m+25.01.01.15.32:
     commit: 565d0d754f851eb9447745b359ca5be6a033918c
@@ -58,4 +70,8 @@ sources:
       public: true
       ref: boost-logic/1.90.0-a.m+25.01.01.20.44
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: interval
     url: https://github.com/boostorg/interval.git

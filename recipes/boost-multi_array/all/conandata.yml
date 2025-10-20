@@ -34,6 +34,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: multi_array
     url: https://github.com/boostorg/multi_array.git
   1.89.0-b.1:
     commit: 0c5348bef71b890c4bd06eff1ee5ebda69e7b27a
@@ -70,6 +74,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: multi_array
     url: https://github.com/boostorg/multi_array.git
   1.90.0-a.d+25.06.25.18.51:
     commit: 333c304d84aaadf5b42aa344e4b87f5fbfd489ba
@@ -106,6 +114,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: multi_array
     url: https://github.com/boostorg/multi_array.git
   1.90.0-a.m+21.05.28.00.46:
     commit: 0c5348bef71b890c4bd06eff1ee5ebda69e7b27a
@@ -125,7 +137,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-functional/1.90.0-a.m+23.04.17.06.59
@@ -142,4 +154,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: multi_array
     url: https://github.com/boostorg/multi_array.git

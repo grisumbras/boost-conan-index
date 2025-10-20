@@ -49,6 +49,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: chrono
     url: https://github.com/boostorg/chrono.git
   1.89.0-b.1:
     commit: ef510872039483dc66b7b2263c43c273a9aaecd6
@@ -100,6 +104,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: chrono
     url: https://github.com/boostorg/chrono.git
   1.90.0-a.d+24.12.13.03.33:
     commit: ef510872039483dc66b7b2263c43c273a9aaecd6
@@ -151,6 +159,10 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: chrono
     url: https://github.com/boostorg/chrono.git
   1.90.0-a.m+24.12.13.03.33:
     commit: ef510872039483dc66b7b2263c43c273a9aaecd6
@@ -164,7 +176,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.m+25.08.25.19.05
@@ -202,4 +214,8 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: chrono
     url: https://github.com/boostorg/chrono.git

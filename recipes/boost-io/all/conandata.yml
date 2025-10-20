@@ -7,6 +7,10 @@ sources:
       public: true
       ref: boost-config/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: io
     url: https://github.com/boostorg/io.git
   1.89.0-b.1:
     commit: 342e4c6d10d586058818daa84201a2d301357a53
@@ -16,6 +20,10 @@ sources:
       public: true
       ref: boost-config/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: io
     url: https://github.com/boostorg/io.git
   1.90.0-a.d+25.06.26.11.42:
     commit: 2d9a2419f9e2086a0d65fc7118f609c2ff635fa7
@@ -25,6 +33,10 @@ sources:
       public: true
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: io
     url: https://github.com/boostorg/io.git
   1.90.0-a.m+23.10.03.00.15:
     commit: 342e4c6d10d586058818daa84201a2d301357a53
@@ -34,4 +46,8 @@ sources:
       public: true
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: io
     url: https://github.com/boostorg/io.git

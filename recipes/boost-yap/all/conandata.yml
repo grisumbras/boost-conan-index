@@ -13,6 +13,10 @@ sources:
       public: true
       ref: boost-type_index/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: yap
     url: https://github.com/boostorg/yap.git
   1.89.0-b.1:
     commit: 2d44666933c2993c992a3fc348776ba62cafad6b
@@ -28,6 +32,10 @@ sources:
       public: true
       ref: boost-type_index/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: yap
     url: https://github.com/boostorg/yap.git
   1.90.0-a.d+25.03.13.18.59:
     commit: 2d44666933c2993c992a3fc348776ba62cafad6b
@@ -43,6 +51,10 @@ sources:
       public: true
       ref: boost-type_index/1.90.0-a.d+25.10.18.15.18
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: yap
     url: https://github.com/boostorg/yap.git
   1.90.0-a.m+25.03.13.18.59:
     commit: 2d44666933c2993c992a3fc348776ba62cafad6b
@@ -58,4 +70,8 @@ sources:
       public: true
       ref: boost-type_index/1.90.0-a.m+25.10.07.20.25
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: yap
     url: https://github.com/boostorg/yap.git

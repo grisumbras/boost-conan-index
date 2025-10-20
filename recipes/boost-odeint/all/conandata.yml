@@ -58,6 +58,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: odeint
     url: https://github.com/boostorg/odeint.git
   1.89.0-b.1:
     commit: 9e75be5d9e435739b086aee928736fc241e77a4a
@@ -118,6 +122,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: odeint
     url: https://github.com/boostorg/odeint.git
   1.90.0-a.d+24.11.05.14.58:
     commit: 91a4a916fa193b02bda2ffc3920953387acae962
@@ -178,6 +186,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: odeint
     url: https://github.com/boostorg/odeint.git
   1.90.0-a.m+24.11.05.14.59:
     commit: 9e75be5d9e435739b086aee928736fc241e77a4a
@@ -194,7 +206,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
@@ -238,4 +250,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: odeint
     url: https://github.com/boostorg/odeint.git

@@ -34,6 +34,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: parameter
     url: https://github.com/boostorg/parameter.git
   1.89.0-b.1:
     commit: 67861ef6ade2db396af4a3fd9e47647d8b01f73c
@@ -70,6 +74,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: parameter
     url: https://github.com/boostorg/parameter.git
   1.90.0-a.d+25.08.25.19.06:
     commit: 2592296b4144a3ac7e260e69303c98aec6482123
@@ -106,6 +114,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: parameter
     url: https://github.com/boostorg/parameter.git
   1.90.0-a.m+25.08.25.19.06:
     commit: 2592296b4144a3ac7e260e69303c98aec6482123
@@ -116,7 +128,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-function/1.90.0-a.m+24.12.14.04.39
@@ -142,4 +154,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: parameter
     url: https://github.com/boostorg/parameter.git

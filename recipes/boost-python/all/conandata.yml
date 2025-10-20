@@ -67,6 +67,14 @@ sources:
       public: false
       ref: boost-property_map/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: python
+    - dependencies:
+      - python
+      kind: library
+      name: numpy
     url: https://github.com/boostorg/python.git
   1.89.0-b.1:
     commit: 3e7be69e1e405e1d5ddd232c69c024ee441592c5
@@ -136,6 +144,14 @@ sources:
       public: false
       ref: boost-property_map/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: python
+    - dependencies:
+      - python
+      kind: library
+      name: numpy
     url: https://github.com/boostorg/python.git
   1.90.0-a.d+25.03.31.23.33:
     commit: f604eb8d0f99f5c16831cd4ccd86d9edc859c189
@@ -205,6 +221,14 @@ sources:
       public: false
       ref: boost-property_map/1.90.0-a.d+25.07.02.16.58
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: python
+    - dependencies:
+      - python
+      kind: library
+      name: numpy
     url: https://github.com/boostorg/python.git
   1.90.0-a.m+25.03.10.14.19:
     commit: 3e7be69e1e405e1d5ddd232c69c024ee441592c5
@@ -224,7 +248,7 @@ sources:
       ref: boost-conversion/1.90.0-a.m+25.10.07.20.26
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
@@ -274,4 +298,12 @@ sources:
       public: false
       ref: boost-property_map/1.90.0-a.m+24.12.28.21.57
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: python
+    - dependencies:
+      - python
+      kind: library
+      name: numpy
     url: https://github.com/boostorg/python.git

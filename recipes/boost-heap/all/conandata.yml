@@ -34,6 +34,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: heap
     url: https://github.com/boostorg/heap.git
   1.89.0-b.1:
     commit: 7db5d9db6615b40239a8bb9383a12bd56924bd07
@@ -70,6 +74,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: heap
     url: https://github.com/boostorg/heap.git
   1.90.0-a.d+25.09.06.12.17:
     commit: 3b22808536e43f501fce7af81e83a18958d50ce5
@@ -106,6 +114,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: heap
     url: https://github.com/boostorg/heap.git
   1.90.0-a.m+24.12.20.14.29:
     commit: 7db5d9db6615b40239a8bb9383a12bd56924bd07
@@ -138,7 +150,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-intrusive/1.90.0-a.m+25.08.25.23.15
@@ -158,4 +170,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: heap
     url: https://github.com/boostorg/heap.git

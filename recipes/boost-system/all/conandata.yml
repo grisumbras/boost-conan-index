@@ -19,6 +19,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: system
     url: https://github.com/boostorg/system.git
   1.89.0-b.1:
     commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
@@ -40,6 +44,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: system
     url: https://github.com/boostorg/system.git
   1.90.0-a.d+25.07.02.19.12:
     commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
@@ -82,6 +90,10 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: system
     url: https://github.com/boostorg/system.git
   1.90.0-a.m+25.07.02.19.12:
     commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
@@ -124,4 +136,8 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: system
     url: https://github.com/boostorg/system.git

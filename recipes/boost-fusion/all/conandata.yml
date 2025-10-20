@@ -40,6 +40,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: fusion
     url: https://github.com/boostorg/fusion.git
   1.89.0-b.1:
     commit: 53da4e0b2c8cd4969b09fa646d314ac0c414c1ff
@@ -82,6 +86,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: fusion
     url: https://github.com/boostorg/fusion.git
   1.90.0-a.d+24.08.21.20.51:
     commit: 495539ce4404bde4af187ccc072235a6a7446e2c
@@ -124,6 +132,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: fusion
     url: https://github.com/boostorg/fusion.git
   1.90.0-a.m+24.05.15.10.13:
     commit: 53da4e0b2c8cd4969b09fa646d314ac0c414c1ff
@@ -137,7 +149,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-function_types/1.90.0-a.m+24.09.18.18.18
@@ -166,4 +178,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: fusion
     url: https://github.com/boostorg/fusion.git

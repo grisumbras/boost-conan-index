@@ -13,6 +13,10 @@ sources:
       public: true
       ref: boost-mp11/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: variant2
     url: https://github.com/boostorg/variant2.git
   1.89.0-b.1:
     commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
@@ -28,6 +32,10 @@ sources:
       public: true
       ref: boost-mp11/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: variant2
     url: https://github.com/boostorg/variant2.git
   1.90.0-a.d+25.01.15.19.44:
     commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
@@ -82,6 +90,10 @@ sources:
       public: true
       ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: variant2
     url: https://github.com/boostorg/variant2.git
   1.90.0-a.m+25.01.15.19.44:
     commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
@@ -121,4 +133,8 @@ sources:
       public: true
       ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: variant2
     url: https://github.com/boostorg/variant2.git

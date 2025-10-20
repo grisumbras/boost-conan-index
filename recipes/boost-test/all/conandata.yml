@@ -58,6 +58,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: test
     url: https://github.com/boostorg/test.git
   1.89.0-b.1:
     commit: cfd3a7e8749752f5a9d20266c1fc7afdb9b1e173
@@ -118,6 +122,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: test
     url: https://github.com/boostorg/test.git
   1.90.0-a.d+25.10.02.08.37:
     commit: 98f4db50606877576e6b4eb0fe23c88becc392f6
@@ -178,6 +186,16 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: library
+    targets:
+    - dependencies: &id001 []
+      kind: library
+      name: prg_exec_monitor
+    - dependencies: *id001
+      kind: library
+      name: test_exec_monitor
+    - dependencies: *id001
+      kind: library
+      name: unit_test_framework
     url: https://github.com/boostorg/test.git
   1.90.0-a.m+25.02.24.11.42:
     commit: cfd3a7e8749752f5a9d20266c1fc7afdb9b1e173
@@ -197,7 +215,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
@@ -238,4 +256,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: test
     url: https://github.com/boostorg/test.git

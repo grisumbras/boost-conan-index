@@ -25,6 +25,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: redis
     url: https://github.com/boostorg/redis.git
   1.89.0-b.1:
     commit: 76129bbcb8373f23d37877fccededb288690eed0
@@ -52,6 +56,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: redis
     url: https://github.com/boostorg/redis.git
   1.90.0-a.d+25.10.15.17.36:
     commit: da09787d29672bd5076c93168e0680d83ad73abd
@@ -79,6 +87,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: redis
     url: https://github.com/boostorg/redis.git
   1.90.0-a.m+25.07.08.21.07:
     commit: 76129bbcb8373f23d37877fccededb288690eed0
@@ -95,7 +107,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
@@ -106,4 +118,8 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: redis
     url: https://github.com/boostorg/redis.git

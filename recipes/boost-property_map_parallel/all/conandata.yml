@@ -43,6 +43,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: property_map_parallel
     url: https://github.com/boostorg/property_map_parallel.git
   1.89.0-b.1:
     commit: a2f90e9660e4e7e012c0b54a1338d8e69fb71906
@@ -88,6 +92,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: property_map_parallel
     url: https://github.com/boostorg/property_map_parallel.git
   1.90.0-a.d+25.05.02.19.16:
     commit: d04a8f0103c5f0531c2c470d85def0e85a103e8e
@@ -133,6 +141,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: property_map_parallel
     url: https://github.com/boostorg/property_map_parallel.git
   1.90.0-a.m+22.01.29.06.34:
     commit: a2f90e9660e4e7e012c0b54a1338d8e69fb71906
@@ -178,4 +190,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: property_map_parallel
     url: https://github.com/boostorg/property_map_parallel.git

@@ -97,6 +97,10 @@ sources:
       public: true
       ref: boost-variant2/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: geometry
     url: https://github.com/boostorg/geometry.git
   1.89.0-b.1:
     commit: e845577b221cd9ab957b13b0322e8774a06ce75e
@@ -196,6 +200,10 @@ sources:
       public: true
       ref: boost-variant2/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: geometry
     url: https://github.com/boostorg/geometry.git
   1.90.0-a.d+25.08.25.17.26:
     commit: 8aaf504091cfb46541b0a014cb0778c4d7754b51
@@ -301,6 +309,10 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: geometry
     url: https://github.com/boostorg/geometry.git
   1.90.0-a.m+25.08.01.18.48:
     commit: 617d75e0cda78b1f05590319200973514b609097
@@ -329,7 +341,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-function_types/1.90.0-a.m+24.09.18.18.18
@@ -400,4 +412,8 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: geometry
     url: https://github.com/boostorg/geometry.git

@@ -19,6 +19,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: tti
     url: https://github.com/boostorg/tti.git
   1.89.0-b.1:
     commit: 03734c54a51b6372ac3296d2fe5103b7360bcd3f
@@ -40,6 +44,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: tti
     url: https://github.com/boostorg/tti.git
   1.90.0-a.d+25.05.02.19.22:
     commit: da15e744519fd54fb0641e23042dd69bee75d12c
@@ -61,6 +69,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: tti
     url: https://github.com/boostorg/tti.git
   1.90.0-a.m+21.05.28.00.26:
     commit: 03734c54a51b6372ac3296d2fe5103b7360bcd3f
@@ -82,4 +94,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: tti
     url: https://github.com/boostorg/tti.git

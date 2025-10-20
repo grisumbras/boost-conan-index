@@ -25,6 +25,10 @@ sources:
       public: false
       ref: boost-thread/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: locale
     url: https://github.com/boostorg/locale.git
   1.89.0-b.1:
     commit: 9b7775715a50e62c5bc0ed99d65e0f56c06361f4
@@ -52,6 +56,10 @@ sources:
       public: false
       ref: boost-thread/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: locale
     url: https://github.com/boostorg/locale.git
   1.90.0-a.d+25.09.18.19.54:
     commit: 3466ac7525b1607477fb4585d4ead8cb1e37d124
@@ -79,6 +87,10 @@ sources:
       public: false
       ref: boost-thread/1.90.0-a.d+25.05.02.19.21
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: locale
     url: https://github.com/boostorg/locale.git
   1.90.0-a.m+25.09.04.13.21:
     commit: da39dbaf86b2f994e2ae1577d98e4be39cc683bc
@@ -92,7 +104,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
@@ -106,4 +118,8 @@ sources:
       public: false
       ref: boost-thread/1.90.0-a.m+25.05.02.19.21
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: locale
     url: https://github.com/boostorg/locale.git

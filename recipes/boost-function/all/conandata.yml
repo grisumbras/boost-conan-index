@@ -19,6 +19,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: function
     url: https://github.com/boostorg/function.git
   1.89.0-b.1:
     commit: f6b538dbed2e3047dcbd09eb3f5c7f1ffa90d0a9
@@ -40,6 +44,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: function
     url: https://github.com/boostorg/function.git
   1.90.0-a.d+24.12.14.04.39:
     commit: f6b538dbed2e3047dcbd09eb3f5c7f1ffa90d0a9
@@ -61,6 +69,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: function
     url: https://github.com/boostorg/function.git
   1.90.0-a.m+24.12.14.04.39:
     commit: f6b538dbed2e3047dcbd09eb3f5c7f1ffa90d0a9
@@ -77,9 +89,13 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: function
     url: https://github.com/boostorg/function.git

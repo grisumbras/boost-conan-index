@@ -67,6 +67,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: beast
     url: https://github.com/boostorg/beast.git
   1.89.0-b.1:
     commit: 03f0ff33cdd45ef6861f969268f9d17e1ced1249
@@ -136,6 +140,10 @@ sources:
       public: true
       ref: boost-winapi/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: beast
     url: https://github.com/boostorg/beast.git
   1.90.0-a.d+25.10.09.08.54:
     commit: 63f3d3f3930288726b5862f24728ed9d418d080a
@@ -205,6 +213,10 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: beast
     url: https://github.com/boostorg/beast.git
   1.90.0-a.m+25.07.29.12.30:
     commit: 9b24b28d502946583300d3e58767cb30a8ec8486
@@ -230,7 +242,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -274,4 +286,8 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: beast
     url: https://github.com/boostorg/beast.git

@@ -46,6 +46,10 @@ sources:
       public: true
       ref: boost-unordered/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: flyweight
     url: https://github.com/boostorg/flyweight.git
   1.89.0-b.1:
     commit: 76c84ce5b3f38abf774f36269ff3978301f06241
@@ -94,6 +98,10 @@ sources:
       public: true
       ref: boost-unordered/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: flyweight
     url: https://github.com/boostorg/flyweight.git
   1.90.0-a.d+25.09.20.12.39:
     commit: 575a6852b994b1d3f3fac6b613ea7246778f8369
@@ -116,7 +124,7 @@ sources:
       ref: boost-detail/1.90.0-a.d+25.06.13.00.44
     - header: true
       public: true
-      ref: boost-interprocess/1.90.0-a.d+25.10.11.12.45
+      ref: boost-interprocess/1.90.0-a.d+25.10.20.13.13
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
@@ -142,6 +150,10 @@ sources:
       public: true
       ref: boost-unordered/1.90.0-a.d+25.10.20.09.04
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: flyweight
     url: https://github.com/boostorg/flyweight.git
   1.90.0-a.m+25.09.20.12.39:
     commit: 575a6852b994b1d3f3fac6b613ea7246778f8369
@@ -158,13 +170,13 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
     - header: true
       public: true
-      ref: boost-interprocess/1.90.0-a.m+25.10.11.12.45
+      ref: boost-interprocess/1.90.0-a.m+25.10.20.13.13
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
@@ -190,4 +202,8 @@ sources:
       public: true
       ref: boost-unordered/1.90.0-a.m+25.10.18.17.53
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: flyweight
     url: https://github.com/boostorg/flyweight.git

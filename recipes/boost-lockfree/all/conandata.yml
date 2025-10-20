@@ -34,6 +34,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: lockfree
     url: https://github.com/boostorg/lockfree.git
   1.89.0-b.1:
     commit: 4a69f38b3d1d20ac56e60095a550ffb2ce4ccbd7
@@ -70,6 +74,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: lockfree
     url: https://github.com/boostorg/lockfree.git
   1.90.0-a.d+25.09.06.12.22:
     commit: 1a5af261286a102848d090b1b84b51b1d231dc29
@@ -106,6 +114,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: lockfree
     url: https://github.com/boostorg/lockfree.git
   1.90.0-a.m+25.04.05.10.02:
     commit: 4a69f38b3d1d20ac56e60095a550ffb2ce4ccbd7
@@ -141,7 +153,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
@@ -158,4 +170,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: lockfree
     url: https://github.com/boostorg/lockfree.git

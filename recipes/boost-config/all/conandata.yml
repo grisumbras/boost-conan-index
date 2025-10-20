@@ -4,22 +4,38 @@ sources:
     cxxstd: '03'
     dependencies: []
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: config
     url: https://github.com/boostorg/config.git
   1.89.0-b.1:
     commit: bf8c8bd7960cd8505210838f86bd28fb4fb71071
     cxxstd: '03'
     dependencies: []
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: config
     url: https://github.com/boostorg/config.git
   1.90.0-a.d+25.10.09.16.01:
     commit: 2cf312e18b2631c523ee056999b1044300b8ebaa
     cxxstd: '03'
     dependencies: []
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: config
     url: https://github.com/boostorg/config.git
   1.90.0-a.m+25.10.09.16.06:
     commit: a7d5a9b05d70c9cfea980dc3539ca3d3461411b3
     cxxstd: '03'
     dependencies: []
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: config
     url: https://github.com/boostorg/config.git

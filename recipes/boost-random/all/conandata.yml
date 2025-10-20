@@ -37,6 +37,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: random
     url: https://github.com/boostorg/random.git
   1.89.0-b.1:
     commit: ce34d1e3685861bca0e5c08f6f0cbe5701aa1266
@@ -76,6 +80,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: random
     url: https://github.com/boostorg/random.git
   1.90.0-a.d+25.10.01.07.50:
     commit: be37499139d93d5f928bd5a97562346a92100847
@@ -115,6 +123,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: random
     url: https://github.com/boostorg/random.git
   1.90.0-a.m+25.07.03.08.55:
     commit: ce34d1e3685861bca0e5c08f6f0cbe5701aa1266
@@ -128,7 +140,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-dynamic_bitset/1.90.0-a.m+25.09.29.17.22
@@ -154,4 +166,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: random
     url: https://github.com/boostorg/random.git

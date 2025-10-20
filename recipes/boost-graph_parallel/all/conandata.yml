@@ -82,6 +82,10 @@ sources:
       public: true
       ref: boost-variant/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: graph_parallel
     url: https://github.com/boostorg/graph_parallel.git
   1.89.0-b.1:
     commit: 5520a5617d2763c48a06a4ff277ad76e665c7cf3
@@ -166,6 +170,10 @@ sources:
       public: true
       ref: boost-variant/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: graph_parallel
     url: https://github.com/boostorg/graph_parallel.git
   1.90.0-a.d+25.10.15.03.16:
     commit: 57fbbbd6dde588e46694925b254957fed1a3adfd
@@ -250,6 +258,10 @@ sources:
       public: true
       ref: boost-variant/1.90.0-a.d+25.09.13.13.52
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: graph_parallel
     url: https://github.com/boostorg/graph_parallel.git
   1.90.0-a.m+22.01.29.06.44:
     commit: 5520a5617d2763c48a06a4ff277ad76e665c7cf3
@@ -272,7 +284,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
@@ -334,4 +346,8 @@ sources:
       public: true
       ref: boost-variant/1.90.0-a.m+25.09.13.13.52
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: graph_parallel
     url: https://github.com/boostorg/graph_parallel.git

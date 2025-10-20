@@ -70,6 +70,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: xpressive
     url: https://github.com/boostorg/xpressive.git
   1.89.0-b.1:
     commit: bd1db9341abd303dacc2979422d8809a9a1e0558
@@ -142,6 +146,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: xpressive
     url: https://github.com/boostorg/xpressive.git
   1.90.0-a.d+25.05.02.19.26:
     commit: 3950d7958ce22b68a53072cafa9cb57975f4195a
@@ -214,6 +222,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: xpressive
     url: https://github.com/boostorg/xpressive.git
   1.90.0-a.m+24.09.27.20.36:
     commit: bd1db9341abd303dacc2979422d8809a9a1e0558
@@ -230,7 +242,7 @@ sources:
       ref: boost-conversion/1.90.0-a.m+25.10.07.20.26
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: false
       public: true
       ref: boost-exception/1.90.0-a.m+25.03.02.03.25
@@ -286,4 +298,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: xpressive
     url: https://github.com/boostorg/xpressive.git

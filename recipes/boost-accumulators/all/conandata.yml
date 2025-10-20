@@ -64,6 +64,10 @@ sources:
       public: true
       ref: boost-ublas/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: accumulators
     url: https://github.com/boostorg/accumulators.git
   1.89.0-b.1:
     commit: eb7ff254b81b6a4d3fd0012a9691e91c8591d312
@@ -130,6 +134,10 @@ sources:
       public: true
       ref: boost-ublas/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: accumulators
     url: https://github.com/boostorg/accumulators.git
   1.90.0-a.d+25.06.26.09.24:
     commit: eb7ff254b81b6a4d3fd0012a9691e91c8591d312
@@ -196,6 +204,10 @@ sources:
       public: true
       ref: boost-ublas/1.90.0-a.d+23.11.22.02.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: accumulators
     url: https://github.com/boostorg/accumulators.git
   1.90.0-a.m+25.06.26.09.24:
     commit: eb7ff254b81b6a4d3fd0012a9691e91c8591d312
@@ -218,7 +230,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
@@ -262,4 +274,8 @@ sources:
       public: true
       ref: boost-ublas/1.90.0-a.m+24.05.07.22.32
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: accumulators
     url: https://github.com/boostorg/accumulators.git

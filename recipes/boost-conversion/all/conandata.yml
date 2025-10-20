@@ -16,6 +16,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: conversion
     url: https://github.com/boostorg/conversion.git
   1.89.0-b.1:
     commit: b74a4c34cb181a8a26d35d05fab608426449626a
@@ -34,6 +38,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: conversion
     url: https://github.com/boostorg/conversion.git
   1.90.0-a.d+25.10.07.20.26:
     commit: 6632ca93098d80d8c42715481e9aa47512e8d32b
@@ -52,6 +60,10 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: conversion
     url: https://github.com/boostorg/conversion.git
   1.90.0-a.m+25.10.07.20.26:
     commit: 6632ca93098d80d8c42715481e9aa47512e8d32b
@@ -70,4 +82,8 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: conversion
     url: https://github.com/boostorg/conversion.git

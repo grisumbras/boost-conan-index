@@ -10,6 +10,10 @@ sources:
       public: true
       ref: boost-config/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: throw_exception
     url: https://github.com/boostorg/throw_exception.git
   1.89.0-b.1:
     commit: f3d4d55f52894fda75ef2915dc122e3133b97b45
@@ -22,6 +26,10 @@ sources:
       public: true
       ref: boost-config/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: throw_exception
     url: https://github.com/boostorg/throw_exception.git
   1.90.0-a.d+24.12.12.19.39:
     commit: f3d4d55f52894fda75ef2915dc122e3133b97b45
@@ -34,6 +42,10 @@ sources:
       public: true
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: throw_exception
     url: https://github.com/boostorg/throw_exception.git
   1.90.0-a.m+24.12.12.19.39:
     commit: f3d4d55f52894fda75ef2915dc122e3133b97b45
@@ -46,4 +58,8 @@ sources:
       public: true
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: throw_exception
     url: https://github.com/boostorg/throw_exception.git

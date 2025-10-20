@@ -40,6 +40,10 @@ sources:
       public: true
       ref: boost-variant2/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: gil
     url: https://github.com/boostorg/gil.git
   1.89.0-b.1:
     commit: 201f31c76eed54b304f8d89e44da08a5e8825094
@@ -82,6 +86,10 @@ sources:
       public: true
       ref: boost-variant2/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: gil
     url: https://github.com/boostorg/gil.git
   1.90.0-a.d+25.08.27.11.08:
     commit: d8c56358fae6302dd2f2e8cc496bcd4535c16183
@@ -124,6 +132,10 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: gil
     url: https://github.com/boostorg/gil.git
   1.90.0-a.m+24.07.07.14.32:
     commit: 201f31c76eed54b304f8d89e44da08a5e8825094
@@ -143,7 +155,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: false
       public: true
       ref: boost-filesystem/1.90.0-a.m+25.10.01.17.38
@@ -166,4 +178,8 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: gil
     url: https://github.com/boostorg/gil.git

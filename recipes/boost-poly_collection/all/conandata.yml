@@ -28,6 +28,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: poly_collection
     url: https://github.com/boostorg/poly_collection.git
   1.89.0-b.1:
     commit: 1ae6a823b9118e403e501adb17ee7d562dcc75a7
@@ -58,6 +62,10 @@ sources:
       public: true
       ref: boost-type_traits/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: poly_collection
     url: https://github.com/boostorg/poly_collection.git
   1.90.0-a.d+25.09.18.21.59:
     commit: 3175ae3c91203556f86561f574830aa38d5bc80c
@@ -88,6 +96,10 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: poly_collection
     url: https://github.com/boostorg/poly_collection.git
   1.90.0-a.m+25.09.18.21.59:
     commit: 3175ae3c91203556f86561f574830aa38d5bc80c
@@ -101,7 +113,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
@@ -118,4 +130,8 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: poly_collection
     url: https://github.com/boostorg/poly_collection.git

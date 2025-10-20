@@ -52,6 +52,14 @@ sources:
       public: true
       ref: boost-variant2/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: cobalt
+    - dependencies:
+      - cobalt
+      kind: library
+      name: cobalt_io
     url: https://github.com/boostorg/cobalt.git
   1.89.0-b.1:
     commit: b57d5187a5963ee45497dc027425e1dcbd334ac0
@@ -106,6 +114,14 @@ sources:
       public: true
       ref: boost-variant2/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: cobalt
+    - dependencies:
+      - cobalt
+      kind: library
+      name: cobalt_io
     url: https://github.com/boostorg/cobalt.git
   1.90.0-a.d+25.09.07.01.20:
     commit: 7ff9397b51030248a41be57aa8d28a1789141b33
@@ -182,6 +198,17 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: cobalt
+    - dependencies: &id001
+      - cobalt
+      kind: library
+      name: cobalt_io
+    - dependencies: *id001
+      kind: library
+      name: cobalt_io_ssl
     url: https://github.com/boostorg/cobalt.git
   1.90.0-a.m+25.07.18.17.31:
     commit: 57181cacc5b8d5079d95a33b7aa078d0f5f16147
@@ -207,7 +234,7 @@ sources:
       ref: boost-context/1.90.0-a.m+25.05.25.16.34
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -236,4 +263,12 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: cobalt
+    - dependencies:
+      - cobalt
+      kind: library
+      name: cobalt_io
     url: https://github.com/boostorg/cobalt.git

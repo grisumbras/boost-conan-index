@@ -37,6 +37,10 @@ sources:
       public: false
       ref: boost-throw_exception/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: url
     url: https://github.com/boostorg/url.git
   1.89.0-b.1:
     commit: 0820c344b643169068a60d78505f76a578e414f0
@@ -76,6 +80,10 @@ sources:
       public: false
       ref: boost-throw_exception/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: url
     url: https://github.com/boostorg/url.git
   1.90.0-a.d+25.10.01.17.19:
     commit: be06301557b1c83e3093166aa643d36dbb86a4f2
@@ -154,6 +162,10 @@ sources:
       public: false
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: url
     url: https://github.com/boostorg/url.git
   1.90.0-a.m+25.10.01.17.19:
     commit: be06301557b1c83e3093166aa643d36dbb86a4f2
@@ -170,7 +182,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
@@ -193,4 +205,8 @@ sources:
       public: false
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: url
     url: https://github.com/boostorg/url.git

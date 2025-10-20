@@ -49,6 +49,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: property_map
     url: https://github.com/boostorg/property_map.git
   1.89.0-b.1:
     commit: 830cb6bce0b54fc1b2d7806901c1b8c8716964b7
@@ -100,6 +104,10 @@ sources:
       public: true
       ref: boost-utility/1.89.0-b.1
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: property_map
     url: https://github.com/boostorg/property_map.git
   1.90.0-a.d+25.07.02.16.58:
     commit: b035da13ebcc79fe0457629ffe5f7c8f6a78e682
@@ -151,6 +159,10 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: property_map
     url: https://github.com/boostorg/property_map.git
   1.90.0-a.m+24.12.28.21.57:
     commit: 830cb6bce0b54fc1b2d7806901c1b8c8716964b7
@@ -170,7 +182,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-function/1.90.0-a.m+24.12.14.04.39
@@ -202,4 +214,8 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: property_map
     url: https://github.com/boostorg/property_map.git

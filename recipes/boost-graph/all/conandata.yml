@@ -133,6 +133,10 @@ sources:
       public: false
       ref: boost-regex/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: graph
     url: https://github.com/boostorg/graph.git
   1.89.0-b.1:
     commit: 54a94911e68dccf5812b32d018566566700499f3
@@ -268,6 +272,10 @@ sources:
       public: false
       ref: boost-regex/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: graph
     url: https://github.com/boostorg/graph.git
   1.90.0-a.d+25.10.09.16.54:
     commit: 6c78c841564d6045fee95b91d490a2dcfa5824be
@@ -400,6 +408,10 @@ sources:
       public: false
       ref: boost-regex/1.90.0-a.d+25.07.04.20.20
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: graph
     url: https://github.com/boostorg/graph.git
   1.90.0-a.m+25.02.15.20.07:
     commit: 54a94911e68dccf5812b32d018566566700499f3
@@ -437,7 +449,7 @@ sources:
       ref: boost-conversion/1.90.0-a.m+25.10.07.20.26
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
@@ -535,4 +547,8 @@ sources:
       public: false
       ref: boost-regex/1.90.0-a.m+25.07.04.17.16
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: graph
     url: https://github.com/boostorg/graph.git

@@ -73,6 +73,10 @@ sources:
       public: false
       ref: boost-function/1.89.0
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: serialization
     url: https://github.com/boostorg/serialization.git
   1.89.0-b.1:
     commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
@@ -148,6 +152,10 @@ sources:
       public: false
       ref: boost-function/1.89.0-b.1
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: serialization
     url: https://github.com/boostorg/serialization.git
   1.90.0-a.d+24.08.18.11.53:
     commit: 8a8c62864f05732131bf6785d54466d8ac6cd477
@@ -223,6 +231,14 @@ sources:
       public: false
       ref: boost-function/1.90.0-a.d+24.12.14.04.39
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: serialization
+    - dependencies:
+      - serialization
+      kind: library
+      name: wserialization
     url: https://github.com/boostorg/serialization.git
   1.90.0-a.m+23.11.12.21.05:
     commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
@@ -239,7 +255,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.19.22.14
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
@@ -298,4 +314,8 @@ sources:
       public: false
       ref: boost-function/1.90.0-a.m+24.12.14.04.39
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: serialization
     url: https://github.com/boostorg/serialization.git
