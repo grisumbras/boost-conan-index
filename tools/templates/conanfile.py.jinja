@@ -1,5 +1,6 @@
 import glob
 import os.path
+import shutil
 from conan import ConanFile
 from conan.tools.build import check_min_cppstd
 from conan.tools.files import (
@@ -115,6 +116,18 @@ class Boost{{ project.name.title() | replace('-', '') | replace('_', '') }}Recip
             os.path.join(self.generators_folder, 'conanboost.jam'),
             _boost_install,
         )
+
+        libs_dir = os.path.join(self.source_folder, 'libs')
+        if (os.path.exists(libs_dir)
+            and ('boost-config' in self.dependencies.direct_host)
+        ):
+            config_dir = os.path.join(libs_dir, 'config')
+            boost_config = self.dependencies['boost-config']
+            self.output.info(boost_config.cpp_info.builddirs)
+            for src in boost_config.cpp_info.builddirs:
+                if os.path.exists(src):
+                    self.output.info(src)
+                    shutil.copytree(src, config_dir)
 
     def build(self):
         b2 = self.python_requires['{{ project.recipe_tools.conan_name }}'].module.B2(self)
