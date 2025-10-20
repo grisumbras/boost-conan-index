@@ -36,7 +36,7 @@ sources:
     kind: library
     targets:
     - dependencies: []
-      kind: library
+      kind: header-library
       name: math
     - dependencies: &id001
       - math
@@ -95,7 +95,7 @@ sources:
     kind: library
     targets:
     - dependencies: []
-      kind: library
+      kind: header-library
       name: math
     - dependencies: &id002
       - math
@@ -157,7 +157,7 @@ sources:
     kind: library
     targets:
     - dependencies: []
-      kind: library
+      kind: header-library
       name: math
     - dependencies: &id003
       - math
@@ -216,7 +216,7 @@ sources:
     kind: library
     targets:
     - dependencies: []
-      kind: library
+      kind: header-library
       name: math
     - dependencies: &id004
       - math
