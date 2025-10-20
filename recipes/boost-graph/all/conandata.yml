@@ -47,9 +47,6 @@ sources:
       ref: boost-function/1.89.0
     - header: true
       public: true
-      ref: boost-geometry/1.89.0
-    - header: true
-      public: true
       ref: boost-integer/1.89.0
     - header: true
       public: true
@@ -186,9 +183,6 @@ sources:
       ref: boost-function/1.89.0-b.1
     - header: true
       public: true
-      ref: boost-geometry/1.89.0-b.1
-    - header: true
-      public: true
       ref: boost-integer/1.89.0-b.1
     - header: true
       public: true
@@ -320,9 +314,6 @@ sources:
     - header: true
       public: true
       ref: boost-function/1.90.0-a.d+24.12.14.04.39
-    - header: true
-      public: true
-      ref: boost-geometry/1.90.0-a.d+25.08.25.17.26
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.d+25.08.25.19.05
@@ -459,9 +450,6 @@ sources:
     - header: true
       public: true
       ref: boost-function/1.90.0-a.m+24.12.14.04.39
-    - header: true
-      public: true
-      ref: boost-geometry/1.90.0-a.m+25.08.01.18.48
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.m+25.08.25.19.05
