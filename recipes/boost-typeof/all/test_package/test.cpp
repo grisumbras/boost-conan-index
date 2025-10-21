@@ -1,4 +1,4 @@
-#include <boost/typeof/incr_registration_group.hpp>
+#include <boost/typeof/constant.hpp>
 
 int main()
 {

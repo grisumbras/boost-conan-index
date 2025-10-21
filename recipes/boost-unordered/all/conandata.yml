@@ -130,7 +130,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.20.06.11
+      ref: boost-core/1.90.0-a.d+25.10.20.20.43
     - header: true
       public: true
       ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
@@ -199,6 +199,36 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: unordered
+    url: https://github.com/boostorg/unordered.git
+  1.90.0-a.m+25.10.20.09.04:
+    commit: e9ca2a2defb7d38f8f9d6f350c74c90e76d89d04
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.20.06.11
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     targets:
     - dependencies: []
       kind: header-library

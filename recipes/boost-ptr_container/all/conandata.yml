@@ -115,7 +115,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.20.06.11
+      ref: boost-core/1.90.0-a.d+25.10.20.20.43
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
@@ -204,7 +204,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - header: true
       public: true
-      ref: boost-unordered/1.90.0-a.m+25.10.18.17.53
+      ref: boost-unordered/1.90.0-a.m+25.10.20.09.04
     - header: true
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07

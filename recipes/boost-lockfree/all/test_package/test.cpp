@@ -1,4 +1,4 @@
-#include <boost/lockfree/spsc_value.hpp>
+#include <boost/lockfree/stack.hpp>
 
 int main()
 {

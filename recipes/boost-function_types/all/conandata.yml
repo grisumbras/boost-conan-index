@@ -64,7 +64,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.20.06.11
+      ref: boost-core/1.90.0-a.d+25.10.20.20.43
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.d+25.06.13.00.44

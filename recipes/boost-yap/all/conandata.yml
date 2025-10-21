@@ -68,7 +68,7 @@ sources:
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-type_index/1.90.0-a.m+25.10.07.20.25
+      ref: boost-type_index/1.90.0-a.m+25.10.18.15.18
     kind: header-library
     targets:
     - dependencies: []

@@ -1,4 +1,4 @@
-#include <boost/cregex.hpp>
+#include <boost/regex.h>
 
 int main()
 {

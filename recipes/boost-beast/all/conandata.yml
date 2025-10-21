@@ -169,7 +169,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.20.06.11
+      ref: boost-core/1.90.0-a.d+25.10.20.20.43
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43
@@ -278,7 +278,7 @@ sources:
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     - header: true
       public: true
-      ref: boost-type_index/1.90.0-a.m+25.10.07.20.25
+      ref: boost-type_index/1.90.0-a.m+25.10.18.15.18
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38

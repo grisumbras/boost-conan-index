@@ -1,4 +1,4 @@
-#include <boost/shared_container_iterator.hpp>
+#include <boost/function_output_iterator.hpp>
 
 int main()
 {

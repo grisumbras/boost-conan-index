@@ -1,4 +1,4 @@
-#include <boost/stl_interfaces/reverse_iterator.hpp>
+#include <boost/stl_interfaces/config.hpp>
 
 int main()
 {

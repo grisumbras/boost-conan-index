@@ -1,4 +1,4 @@
-#include <boost/log/expressions.hpp>
+#include <boost/log/attributes.hpp>
 
 int main()
 {

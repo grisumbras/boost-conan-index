@@ -1,4 +1,4 @@
-#include <boost/type_traits.hpp>
+#include <boost/aligned_storage.hpp>
 
 int main()
 {

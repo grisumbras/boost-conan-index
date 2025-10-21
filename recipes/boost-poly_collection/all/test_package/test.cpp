@@ -1,4 +1,4 @@
-#include <boost/poly_collection/any_collection_fwd.hpp>
+#include <boost/poly_collection/variant_collection.hpp>
 
 int main()
 {

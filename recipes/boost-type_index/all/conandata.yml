@@ -90,3 +90,21 @@ sources:
       kind: header-library
       name: type_index
     url: https://github.com/boostorg/type_index.git
+  1.90.0-a.m+25.10.18.15.18:
+    commit: f2a3bdd29cc20ca2c4f9ee0916b7da6dbaaaaa28
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: type_index
+    url: https://github.com/boostorg/type_index.git

@@ -1,4 +1,4 @@
-#include <boost/function.hpp>
+#include <boost/function_equal.hpp>
 
 int main()
 {

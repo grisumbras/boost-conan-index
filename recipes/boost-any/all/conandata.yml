@@ -80,7 +80,7 @@ sources:
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     - header: true
       public: true
-      ref: boost-type_index/1.90.0-a.m+25.10.07.20.25
+      ref: boost-type_index/1.90.0-a.m+25.10.18.15.18
     kind: header-library
     targets:
     - dependencies: []

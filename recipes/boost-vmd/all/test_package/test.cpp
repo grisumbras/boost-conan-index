@@ -1,4 +1,4 @@
-#include <boost/vmd/to_seq.hpp>
+#include <boost/vmd/is_list.hpp>
 
 int main()
 {

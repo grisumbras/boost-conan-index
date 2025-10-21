@@ -1,4 +1,4 @@
-#include <boost/iostreams/code_converter.hpp>
+#include <boost/iostreams/pipeline.hpp>
 
 int main()
 {

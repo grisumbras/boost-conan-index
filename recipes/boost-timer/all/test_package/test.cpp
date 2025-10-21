@@ -1,4 +1,4 @@
-#include <boost/progress.hpp>
+#include <boost/timer.hpp>
 
 int main()
 {

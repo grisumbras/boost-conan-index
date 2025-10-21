@@ -1,4 +1,4 @@
-#include <boost/units/scale.hpp>
+#include <boost/units/quantity.hpp>
 
 int main()
 {

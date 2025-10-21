@@ -100,7 +100,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - header: true
       public: false
-      ref: boost-core/1.90.0-a.d+25.10.20.06.11
+      ref: boost-core/1.90.0-a.d+25.10.20.20.43
     - header: true
       public: false
       ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30

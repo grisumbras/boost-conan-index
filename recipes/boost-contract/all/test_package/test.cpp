@@ -1,4 +1,4 @@
-#include <boost/contract.hpp>
+#include <boost/contract_macro.hpp>
 
 int main()
 {

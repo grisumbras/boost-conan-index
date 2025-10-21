@@ -1,4 +1,4 @@
-#include <boost/mpl/iterator_range.hpp>
+#include <boost/mpl/integral_c_tag.hpp>
 
 int main()
 {

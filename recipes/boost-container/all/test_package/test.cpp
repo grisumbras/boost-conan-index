@@ -1,4 +1,4 @@
-#include <boost/container/uses_allocator_fwd.hpp>
+#include <boost/container/scoped_allocator.hpp>
 
 int main()
 {

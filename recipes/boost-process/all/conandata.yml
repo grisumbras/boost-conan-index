@@ -191,6 +191,69 @@ sources:
       kind: library
       name: process
     url: https://github.com/boostorg/process.git
+  1.90.0-a.d+25.10.21.15.25:
+    commit: 1e572e17560c967baf7759cf7df47f8586fd7960
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.90.0-a.d+25.08.25.08.42
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.d+25.08.06.22.32
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.20.20.43
+    - header: false
+      public: true
+      ref: boost-filesystem/1.90.0-a.d+25.10.01.17.38
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
+    - header: true
+      public: true
+      ref: boost-io/1.90.0-a.d+25.06.26.11.42
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-a.d+25.10.18.12.24
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.d+25.10.19.21.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-tokenizer/1.90.0-a.d+25.07.02.17.31
+    - header: true
+      public: true
+      ref: boost-type_index/1.90.0-a.d+25.10.18.15.18
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: library
+      name: process
+    url: https://github.com/boostorg/process.git
   1.90.0-a.m+25.07.01.18.04:
     commit: 5597aa0055b81017f6ea24cb652f07a014b12771
     cxxstd: '11'
@@ -239,7 +302,7 @@ sources:
       ref: boost-tokenizer/1.90.0-a.m+25.01.01.15.10
     - header: true
       public: true
-      ref: boost-type_index/1.90.0-a.m+25.10.07.20.25
+      ref: boost-type_index/1.90.0-a.m+25.10.18.15.18
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
