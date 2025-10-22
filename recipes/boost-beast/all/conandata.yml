@@ -169,7 +169,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.20.20.43
+      ref: boost-core/1.90.0-a.d+25.10.22.10.34
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43
@@ -181,7 +181,7 @@ sources:
       ref: boost-logic/1.90.0-a.d+25.07.02.08.14
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+      ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
@@ -242,7 +242,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.06.11
+      ref: boost-core/1.90.0-a.m+25.10.20.20.43
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -254,7 +254,7 @@ sources:
       ref: boost-logic/1.90.0-a.m+25.01.01.20.44
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+      ref: boost-mp11/1.90.0-a.m+25.10.21.18.51
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23

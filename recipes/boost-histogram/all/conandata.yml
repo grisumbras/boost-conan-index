@@ -70,13 +70,13 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.20.20.43
+      ref: boost-core/1.90.0-a.d+25.10.22.10.34
     - header: false
       public: true
       ref: boost-math/1.90.0-a.d+25.10.03.18.32
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+      ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
     - header: false
       public: true
       ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
@@ -101,13 +101,13 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.06.11
+      ref: boost-core/1.90.0-a.m+25.10.20.20.43
     - header: false
       public: true
       ref: boost-math/1.90.0-a.m+25.10.15.18.57
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+      ref: boost-mp11/1.90.0-a.m+25.10.21.18.51
     - header: false
       public: true
       ref: boost-serialization/1.90.0-a.m+23.11.12.21.05

@@ -73,10 +73,10 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.20.20.43
+      ref: boost-core/1.90.0-a.d+25.10.22.10.34
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.10.09.18.32
+      ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
     - header: true
       public: true
       ref: boost-pool/1.90.0-a.d+19.09.06.01.34
@@ -104,10 +104,10 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.06.11
+      ref: boost-core/1.90.0-a.m+25.10.20.20.43
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.10.09.18.32
+      ref: boost-mp11/1.90.0-a.m+25.10.21.18.51
     - header: true
       public: true
       ref: boost-pool/1.90.0-a.m+25.02.25.18.47

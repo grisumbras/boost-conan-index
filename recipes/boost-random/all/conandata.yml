@@ -97,10 +97,10 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.20.20.43
+      ref: boost-core/1.90.0-a.d+25.10.22.10.34
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.90.0-a.d+25.09.29.17.22
+      ref: boost-dynamic_bitset/1.90.0-a.d+25.10.21.18.52
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.d+25.08.25.19.05
@@ -140,10 +140,10 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.06.11
+      ref: boost-core/1.90.0-a.m+25.10.20.20.43
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.90.0-a.m+25.09.29.17.22
+      ref: boost-dynamic_bitset/1.90.0-a.m+25.10.21.18.52
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.m+25.08.25.19.05
