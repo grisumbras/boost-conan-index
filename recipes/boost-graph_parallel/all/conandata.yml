@@ -226,7 +226,7 @@ sources:
       ref: boost-mpi/1.90.0-a.d+25.10.13.17.09
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+      ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
@@ -284,7 +284,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.20.43
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
@@ -314,7 +314,7 @@ sources:
       ref: boost-mpi/1.90.0-a.m+25.04.17.17.55
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+      ref: boost-mpl/1.90.0-a.m+25.07.03.00.11
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23

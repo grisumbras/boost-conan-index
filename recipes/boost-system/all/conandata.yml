@@ -85,7 +85,7 @@ sources:
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
     - header: true
       public: true
       ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
@@ -131,7 +131,7 @@ sources:
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
+      ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
     - header: true
       public: true
       ref: boost-winapi/1.90.0-a.m+25.08.25.19.08

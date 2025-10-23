@@ -167,6 +167,45 @@ sources:
       kind: library
       name: url
     url: https://github.com/boostorg/url.git
+  1.90.0-a.d+25.10.21.19.06:
+    commit: 0b7fd495a49d893d545509388f7338e95e84e66d
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.90.0-a.d+25.06.26.11.43
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.22.10.34
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.d+25.10.19.21.04
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
+    - header: true
+      public: false
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    targets:
+    - dependencies: []
+      kind: library
+      name: url
+    url: https://github.com/boostorg/url.git
   1.90.0-a.m+25.10.01.17.19:
     commit: be06301557b1c83e3093166aa643d36dbb86a4f2
     cxxstd: '11'
@@ -205,6 +244,45 @@ sources:
       public: false
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: url
+    url: https://github.com/boostorg/url.git
+  1.90.0-a.m+25.10.21.19.06:
+    commit: 0b7fd495a49d893d545509388f7338e95e84e66d
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.90.0-a.m+22.11.11.18.29
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.22.11.09
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.m+25.10.19.21.04
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
+    - header: true
+      public: false
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     targets:
     - dependencies: []
       kind: library

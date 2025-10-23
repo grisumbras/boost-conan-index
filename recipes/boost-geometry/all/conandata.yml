@@ -259,7 +259,7 @@ sources:
       ref: boost-math/1.90.0-a.d+25.10.03.18.32
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+      ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
       ref: boost-multiprecision/1.90.0-a.d+25.09.22.22.37
@@ -307,7 +307,7 @@ sources:
       ref: boost-variant/1.90.0-a.d+25.09.13.13.52
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
     kind: header-library
     targets:
     - dependencies: []
@@ -341,7 +341,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.20.43
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
     - header: true
       public: true
       ref: boost-function_types/1.90.0-a.m+24.09.18.18.18
@@ -365,7 +365,7 @@ sources:
       ref: boost-math/1.90.0-a.m+25.10.15.18.57
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+      ref: boost-mpl/1.90.0-a.m+25.07.03.00.11
     - header: true
       public: true
       ref: boost-multiprecision/1.90.0-a.m+25.07.02.11.53
@@ -410,7 +410,7 @@ sources:
       ref: boost-variant/1.90.0-a.m+25.09.13.13.52
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
+      ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
     kind: header-library
     targets:
     - dependencies: []

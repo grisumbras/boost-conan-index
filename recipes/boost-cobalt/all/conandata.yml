@@ -274,6 +274,70 @@ sources:
       kind: library
       name: cobalt_io_ssl
     url: https://github.com/boostorg/cobalt.git
+  1.90.0-a.d+25.10.23.00.26:
+    commit: 10fa59946e1bb8413c32802cc089dafa644ec814
+    cxxstd: '20'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.d+25.08.06.22.32
+    - header: true
+      public: true
+      ref: boost-callable_traits/1.90.0-a.d+25.06.25.18.43
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.90.0-a.d+25.05.02.19.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-a.d+25.10.08.00.43
+    - header: false
+      public: true
+      ref: boost-context/1.90.0-a.d+25.09.24.16.35
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.22.10.34
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-a.d+24.12.14.03.43
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0-a.d+25.08.25.23.15
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-static_string/1.90.0-a.d+25.10.22.19.18
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.d+25.10.19.21.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
+    targets:
+    - dependencies: []
+      kind: library
+      name: cobalt
+    - dependencies: &id003
+      - cobalt
+      kind: library
+      name: cobalt_io
+    - dependencies: *id003
+      kind: library
+      name: cobalt_io_ssl
+    url: https://github.com/boostorg/cobalt.git
   1.90.0-a.m+25.07.18.17.31:
     commit: 57181cacc5b8d5079d95a33b7aa078d0f5f16147
     cxxstd: '20'
@@ -392,11 +456,75 @@ sources:
     - dependencies: []
       kind: library
       name: cobalt
-    - dependencies: &id003
+    - dependencies: &id004
       - cobalt
       kind: library
       name: cobalt_io
-    - dependencies: *id003
+    - dependencies: *id004
+      kind: library
+      name: cobalt_io_ssl
+    url: https://github.com/boostorg/cobalt.git
+  1.90.0-a.m+25.10.23.00.26:
+    commit: 10fa59946e1bb8413c32802cc089dafa644ec814
+    cxxstd: '20'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.m+25.08.06.22.37
+    - header: true
+      public: true
+      ref: boost-callable_traits/1.90.0-a.m+21.09.14.23.10
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.90.0-a.m+22.09.12.08.08
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-a.m+25.10.08.00.43
+    - header: false
+      public: true
+      ref: boost-context/1.90.0-a.m+25.05.25.16.34
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-a.m+24.12.14.03.43
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0-a.m+25.08.25.23.15
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.22.11.09
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+    - header: true
+      public: true
+      ref: boost-static_string/1.90.0-a.m+23.12.22.17.12
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.m+25.10.19.21.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
+    targets:
+    - dependencies: []
+      kind: library
+      name: cobalt
+    - dependencies: &id005
+      - cobalt
+      kind: library
+      name: cobalt_io
+    - dependencies: *id005
       kind: library
       name: cobalt_io_ssl
     url: https://github.com/boostorg/cobalt.git

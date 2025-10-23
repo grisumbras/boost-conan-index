@@ -77,7 +77,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.20.43
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33

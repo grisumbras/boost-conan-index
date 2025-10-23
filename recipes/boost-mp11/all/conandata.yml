@@ -57,3 +57,12 @@ sources:
       kind: header-library
       name: mp11
     url: https://github.com/boostorg/mp11.git
+  1.90.0-a.m+25.10.22.11.09:
+    commit: d8ddd856e866949028b90d0a1363f6eb93793b8f
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mp11
+    url: https://github.com/boostorg/mp11.git

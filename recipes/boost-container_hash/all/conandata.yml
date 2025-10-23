@@ -46,7 +46,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-describe/1.90.0-a.d+25.08.17.10.18
+      ref: boost-describe/1.90.0-a.d+25.10.22.16.03
     - header: true
       public: true
       ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
@@ -65,10 +65,10 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-describe/1.90.0-a.m+25.08.17.10.18
+      ref: boost-describe/1.90.0-a.m+25.10.22.16.03
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.10.21.18.51
+      ref: boost-mp11/1.90.0-a.m+25.10.22.11.09
     kind: header-library
     targets:
     - dependencies: []

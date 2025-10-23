@@ -142,7 +142,7 @@ sources:
       ref: boost-move/1.90.0-a.d+25.10.18.12.24
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+      ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
       ref: boost-range/1.90.0-a.d+25.05.02.19.18
@@ -182,7 +182,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.20.43
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
     - header: true
       public: true
       ref: boost-date_time/1.90.0-a.m+22.10.31.09.22
@@ -197,7 +197,7 @@ sources:
       ref: boost-move/1.90.0-a.m+25.10.18.12.24
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+      ref: boost-mpl/1.90.0-a.m+25.07.03.00.11
     - header: true
       public: true
       ref: boost-range/1.90.0-a.m+25.02.08.16.31

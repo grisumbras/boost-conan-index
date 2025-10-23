@@ -193,7 +193,7 @@ sources:
       ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+      ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
@@ -226,7 +226,7 @@ sources:
       ref: boost-variant/1.90.0-a.d+25.09.13.13.52
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
     - header: true
       public: false
       ref: boost-function/1.90.0-a.d+24.12.14.04.39
@@ -255,7 +255,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.20.43
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
@@ -273,10 +273,10 @@ sources:
       ref: boost-move/1.90.0-a.m+25.10.18.12.24
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.10.21.18.51
+      ref: boost-mp11/1.90.0-a.m+25.10.22.11.09
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+      ref: boost-mpl/1.90.0-a.m+25.07.03.00.11
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23
@@ -309,7 +309,7 @@ sources:
       ref: boost-variant/1.90.0-a.m+25.09.13.13.52
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
+      ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
     - header: true
       public: false
       ref: boost-function/1.90.0-a.m+24.12.14.04.39

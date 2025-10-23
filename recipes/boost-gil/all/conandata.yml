@@ -130,7 +130,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
     kind: header-library
     targets:
     - dependencies: []
@@ -155,7 +155,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.20.43
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
     - header: false
       public: true
       ref: boost-filesystem/1.90.0-a.m+25.10.01.17.38
@@ -167,7 +167,7 @@ sources:
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.10.21.18.51
+      ref: boost-mp11/1.90.0-a.m+25.10.22.11.09
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
@@ -176,7 +176,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
+      ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
     kind: header-library
     targets:
     - dependencies: []

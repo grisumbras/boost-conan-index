@@ -106,7 +106,7 @@ sources:
       ref: boost-math/1.90.0-a.d+25.10.03.18.32
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.d+25.07.03.00.11
+      ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
@@ -137,7 +137,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.20.43
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
     - header: true
       public: true
       ref: boost-function_types/1.90.0-a.m+24.09.18.18.18
@@ -149,7 +149,7 @@ sources:
       ref: boost-math/1.90.0-a.m+25.10.15.18.57
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.m+25.06.27.02.18
+      ref: boost-mpl/1.90.0-a.m+25.07.03.00.11
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23

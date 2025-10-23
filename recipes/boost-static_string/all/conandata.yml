@@ -92,6 +92,33 @@ sources:
       kind: header-library
       name: static_string
     url: https://github.com/boostorg/static_string.git
+  1.90.0-a.d+25.10.22.19.18:
+    commit: 7b564d8d267c3ebdf069ab732126f602c28c70a0
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.22.10.34
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: static_string
+    url: https://github.com/boostorg/static_string.git
   1.90.0-a.m+23.12.22.17.12:
     commit: bff5cb65a5cb9151aacaf56abe80125e0128f43a
     cxxstd: '11'
@@ -107,7 +134,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.20.43
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33

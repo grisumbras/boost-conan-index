@@ -210,3 +210,21 @@ sources:
       kind: header-library
       name: core
     url: https://github.com/boostorg/core.git
+  1.90.0-a.m+25.10.22.10.34:
+    commit: b700f98b4e5ea6bd51f29d28893d6d1d9f3d8603
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: core
+    url: https://github.com/boostorg/core.git

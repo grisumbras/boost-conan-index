@@ -142,7 +142,7 @@ sources:
       ref: boost-core/1.90.0-a.d+25.10.22.10.34
     - header: true
       public: true
-      ref: boost-describe/1.90.0-a.d+25.08.17.10.18
+      ref: boost-describe/1.90.0-a.d+25.10.22.16.03
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43
@@ -166,7 +166,7 @@ sources:
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.d+25.10.19.21.07
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
     kind: header-library
     targets:
     - dependencies: []
@@ -197,10 +197,10 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.20.20.43
+      ref: boost-core/1.90.0-a.m+25.10.22.10.34
     - header: true
       public: true
-      ref: boost-describe/1.90.0-a.m+25.08.17.10.18
+      ref: boost-describe/1.90.0-a.m+25.10.22.16.03
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -209,7 +209,7 @@ sources:
       ref: boost-intrusive/1.90.0-a.m+25.08.25.23.15
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.10.21.18.51
+      ref: boost-mp11/1.90.0-a.m+25.10.22.11.09
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23
@@ -224,7 +224,7 @@ sources:
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     - header: true
       public: true
-      ref: boost-variant2/1.90.0-a.m+25.10.19.21.07
+      ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
     kind: header-library
     targets:
     - dependencies: []
