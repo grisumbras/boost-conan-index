@@ -86,7 +86,7 @@ sources:
       ref: boost-function_types/1.90.0-a.m+24.09.18.18.18
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.m+25.07.03.00.11
+      ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52

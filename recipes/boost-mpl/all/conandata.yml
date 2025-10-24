@@ -101,7 +101,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.22.10.34
+      ref: boost-core/1.90.0-a.d+25.10.24.11.36
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
@@ -163,6 +163,36 @@ sources:
     - header: true
       public: true
       ref: boost-core/1.90.0-a.m+25.10.22.10.34
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mpl
+    url: https://github.com/boostorg/mpl.git
+  1.90.0-a.m+25.10.23.11.37:
+    commit: 2358570f2d801dfd5a1b06701696f42b0d2e390a
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.24.02.59
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53

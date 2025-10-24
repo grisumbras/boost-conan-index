@@ -97,7 +97,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.22.10.34
+      ref: boost-core/1.90.0-a.d+25.10.24.11.36
     - header: true
       public: true
       ref: boost-functional/1.90.0-a.d+25.06.26.09.00
@@ -137,7 +137,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.22.10.34
+      ref: boost-core/1.90.0-a.m+25.10.24.02.59
     - header: true
       public: true
       ref: boost-functional/1.90.0-a.m+23.04.17.06.59
@@ -146,7 +146,7 @@ sources:
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.m+25.07.03.00.11
+      ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33

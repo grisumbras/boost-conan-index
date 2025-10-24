@@ -153,7 +153,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.22.10.34
+      ref: boost-core/1.90.0-a.d+25.10.24.11.36
     - header: true
       public: true
       ref: boost-foreach/1.90.0-a.d+25.05.02.19.11
@@ -177,7 +177,7 @@ sources:
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
     - header: false
       public: true
-      ref: boost-python/1.90.0-a.d+25.03.31.23.33
+      ref: boost-python/1.90.0-a.d+25.10.24.06.40
     - header: false
       public: true
       ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
@@ -224,7 +224,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.22.10.34
+      ref: boost-core/1.90.0-a.m+25.10.24.02.59
     - header: true
       public: true
       ref: boost-foreach/1.90.0-a.m+25.01.26.17.47
@@ -242,7 +242,7 @@ sources:
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.m+25.07.03.00.11
+      ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23

@@ -196,13 +196,13 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.22.10.34
+      ref: boost-core/1.90.0-a.d+25.10.24.11.36
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.d+25.06.13.00.44
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.90.0-a.d+25.10.21.18.52
+      ref: boost-dynamic_bitset/1.90.0-a.d+25.10.24.12.28
     - header: false
       public: true
       ref: boost-filesystem/1.90.0-a.d+25.10.01.17.38
@@ -238,7 +238,7 @@ sources:
       ref: boost-property_map_parallel/1.90.0-a.d+25.05.02.19.16
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.d+25.10.01.07.50
+      ref: boost-random/1.90.0-a.d+25.10.24.08.40
     - header: false
       public: true
       ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
@@ -284,7 +284,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.22.10.34
+      ref: boost-core/1.90.0-a.m+25.10.24.02.59
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
@@ -314,7 +314,7 @@ sources:
       ref: boost-mpi/1.90.0-a.m+25.04.17.17.55
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.m+25.07.03.00.11
+      ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23
@@ -326,7 +326,7 @@ sources:
       ref: boost-property_map_parallel/1.90.0-a.m+22.01.29.06.34
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.m+25.07.03.08.55
+      ref: boost-random/1.90.0-a.m+25.10.23.18.31
     - header: false
       public: true
       ref: boost-serialization/1.90.0-a.m+23.11.12.21.05

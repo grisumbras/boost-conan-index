@@ -167,7 +167,7 @@ sources:
       ref: boost-mpi/1.90.0-a.m+25.04.17.17.55
     - header: true
       public: true
-      ref: boost-mpl/1.90.0-a.m+25.07.03.00.11
+      ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
     - header: true
       public: true
       ref: boost-multi_index/1.90.0-a.m+25.09.20.17.53

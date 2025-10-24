@@ -56,6 +56,24 @@ sources:
       kind: library
       name: charconv
     url: https://github.com/boostorg/charconv.git
+  1.90.0-a.d+25.10.23.14.15:
+    commit: 0c8358acfa37632f4174c582bb22e010824043ef
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.24.11.36
+    targets:
+    - dependencies: []
+      kind: library
+      name: charconv
+    url: https://github.com/boostorg/charconv.git
   1.90.0-a.m+25.08.06.14.08:
     commit: 728f7c4a85d7893c91c5fd85220367bb17cd06b5
     cxxstd: '11'
@@ -68,7 +86,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.22.10.34
+      ref: boost-core/1.90.0-a.m+25.10.24.02.59
     kind: library
     targets:
     - dependencies: []

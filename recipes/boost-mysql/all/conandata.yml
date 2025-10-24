@@ -127,7 +127,7 @@ sources:
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: false
       public: true
-      ref: boost-charconv/1.90.0-a.d+25.08.14.13.57
+      ref: boost-charconv/1.90.0-a.d+25.10.23.14.15
     - header: true
       public: true
       ref: boost-compat/1.90.0-a.d+25.09.05.18.48
@@ -139,7 +139,7 @@ sources:
       ref: boost-container/1.90.0-a.d+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.22.10.34
+      ref: boost-core/1.90.0-a.d+25.10.24.11.36
     - header: true
       public: true
       ref: boost-describe/1.90.0-a.d+25.10.22.16.03
@@ -197,7 +197,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.22.10.34
+      ref: boost-core/1.90.0-a.m+25.10.24.02.59
     - header: true
       public: true
       ref: boost-describe/1.90.0-a.m+25.10.22.16.03
