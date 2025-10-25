@@ -142,7 +142,7 @@ sources:
       ref: boost-range/1.90.0-a.d+25.05.02.19.18
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.25.02.23
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
@@ -170,7 +170,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.24.02.59
+      ref: boost-core/1.90.0-a.m+25.10.24.11.36
     - header: true
       public: true
       ref: boost-function/1.90.0-a.m+24.12.14.04.39

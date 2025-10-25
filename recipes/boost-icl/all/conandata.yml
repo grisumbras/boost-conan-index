@@ -182,7 +182,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.24.02.59
+      ref: boost-core/1.90.0-a.m+25.10.24.11.36
     - header: true
       public: true
       ref: boost-date_time/1.90.0-a.m+22.10.31.09.22

@@ -39,3 +39,12 @@ sources:
       kind: header-library
       name: pfr
     url: https://github.com/boostorg/pfr.git
+  1.90.0-a.m+25.10.06.18.38:
+    commit: 7509049f2c271aa22d74a446411c593be5ee0019
+    cxxstd: '14'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: pfr
+    url: https://github.com/boostorg/pfr.git

@@ -140,7 +140,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.24.02.59
+      ref: boost-core/1.90.0-a.m+25.10.24.11.36
     - header: true
       public: true
       ref: boost-move/1.90.0-a.m+25.10.18.12.24

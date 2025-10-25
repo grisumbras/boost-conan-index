@@ -103,7 +103,7 @@ sources:
       ref: boost-core/1.90.0-a.d+25.10.24.11.36
     - header: true
       public: false
-      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.25.02.23
     kind: header-library
     targets:
     - dependencies: []
@@ -137,7 +137,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - header: true
       public: false
-      ref: boost-core/1.90.0-a.m+25.10.24.02.59
+      ref: boost-core/1.90.0-a.m+25.10.24.11.36
     - header: true
       public: false
       ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30

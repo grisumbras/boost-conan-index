@@ -55,7 +55,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.25.02.23
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39

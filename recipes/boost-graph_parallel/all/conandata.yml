@@ -202,7 +202,7 @@ sources:
       ref: boost-detail/1.90.0-a.d+25.06.13.00.44
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.90.0-a.d+25.10.24.12.28
+      ref: boost-dynamic_bitset/1.90.0-a.d+25.10.24.18.01
     - header: false
       public: true
       ref: boost-filesystem/1.90.0-a.d+25.10.01.17.38
@@ -244,7 +244,7 @@ sources:
       ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.25.02.23
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
@@ -284,13 +284,13 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.24.02.59
+      ref: boost-core/1.90.0-a.m+25.10.24.11.36
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.90.0-a.m+25.10.21.18.52
+      ref: boost-dynamic_bitset/1.90.0-a.m+25.10.24.18.01
     - header: false
       public: true
       ref: boost-filesystem/1.90.0-a.m+25.10.01.17.38

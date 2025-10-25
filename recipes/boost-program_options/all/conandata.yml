@@ -124,7 +124,7 @@ sources:
       ref: boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.08.16.11.30
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.25.02.23
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
@@ -158,7 +158,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.24.02.59
+      ref: boost-core/1.90.0-a.m+25.10.24.11.36
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.m+25.06.13.00.44
