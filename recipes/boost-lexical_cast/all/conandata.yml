@@ -61,7 +61,7 @@ sources:
       ref: boost-container/1.90.0-a.d+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.24.11.36
+      ref: boost-core/1.90.0-a.d+25.10.25.14.55
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
@@ -93,7 +93,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.10.08.00.43
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.24.11.36
+      ref: boost-core/1.90.0-a.m+25.10.25.14.55
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39

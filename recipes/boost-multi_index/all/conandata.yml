@@ -133,7 +133,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.24.11.36
+      ref: boost-core/1.90.0-a.d+25.10.25.14.55
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.d+25.08.25.19.05
@@ -151,7 +151,7 @@ sources:
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.25.02.23
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
@@ -191,7 +191,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.24.11.36
+      ref: boost-core/1.90.0-a.m+25.10.25.14.55
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.m+25.08.25.19.05
@@ -209,7 +209,7 @@ sources:
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.25.15.30
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33

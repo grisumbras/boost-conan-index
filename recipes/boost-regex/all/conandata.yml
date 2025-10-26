@@ -100,10 +100,10 @@ sources:
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - header: true
       public: false
-      ref: boost-core/1.90.0-a.d+25.10.24.11.36
+      ref: boost-core/1.90.0-a.d+25.10.25.14.55
     - header: true
       public: false
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.25.02.23
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
     kind: header-library
     targets:
     - dependencies: []
@@ -137,10 +137,10 @@ sources:
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - header: true
       public: false
-      ref: boost-core/1.90.0-a.m+25.10.24.11.36
+      ref: boost-core/1.90.0-a.m+25.10.25.14.55
     - header: true
       public: false
-      ref: boost-smart_ptr/1.90.0-a.m+25.08.16.11.30
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.25.15.30
     kind: header-library
     targets:
     - dependencies: []
