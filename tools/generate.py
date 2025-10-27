@@ -26,7 +26,7 @@ import yaml
 
 default_superproject_url = 'https://github.com/boostorg/boost/'
 default_superproject_ref = 'develop'
-index_url = 'https://github.com/grisumbras/boost/'
+index_url = 'https://github.com/grisumbras/boost-conan-index/'
 
 future_boost_version = '1.90.0'
 b2_tools_version = '0.0.1-a'
@@ -41,12 +41,13 @@ def main(argv):
     git = Git(runner, fs, args.allow_reuse)
 
     tools = RecipeToolsProject()
-    module_registry = {tools.name: tools}
+    helpers = HelpersProject()
+    module_registry = {tools.name: tools, helpers.name: helpers}
 
     with git.clone_ref(args.url, args.ref, bare=True) as root:
         boost = SuperProject(root, args.url, args.ref, args.tool_ref, git)
         module_registry['boost'] = boost
-        for submodule in boost.submodules(tools, git):
+        for submodule in boost.submodules(tools, helpers, git):
             module_registry[submodule.name] = submodule
 
     template_env = jinja2.Environment(
@@ -222,7 +223,7 @@ class SuperProject(Project):
         self.commit = git.get_commit(path)
         self.datetime = git.get_datetime(path)
 
-    def submodules(self, tools, git):
+    def submodules(self, tools, helpers, git):
         submodules = git.submodule_config(
             self.path, '--name-only', '--get-regexp', 'path')
         for m in submodules:
@@ -248,7 +249,7 @@ class SuperProject(Project):
             else:
                 cls = IgnoredProject
 
-            yield cls(name, path, url, self, tools, git)
+            yield cls(name, path, url, self, tools, helpers, git)
 
     def collect_data(self, *_):
         pass
@@ -276,10 +277,11 @@ class LibraryProject(Project):
     def git_ref(self):
         return self.superproject.git_ref
 
-    def __init__(self, name, path, url, superproject, tools, git):
+    def __init__(self, name, path, url, superproject, tools, helpers, git):
         super().__init__(name)
         self.superproject = superproject
         self.recipe_tools = tools
+        self.boost_helpers = helpers
         self.url = urllib.parse.urljoin(superproject.url, url)
         self.commit = git.submodule_commit(superproject.path, path)
         self.dependencies = []
@@ -399,7 +401,7 @@ class LibraryProject(Project):
 
 
 class ToolProject(Project):
-    def __init__(self, name, path, url, superproject, tools, git):
+    def __init__(self, name, path, url, superproject, tools, helpers, git):
         super().__init__(name)
         self.superproject = superproject
         self.url = urllib.parse.urljoin(superproject.url, url)
@@ -434,7 +436,7 @@ class RecipeToolsProject(Project):
 
     def __init__(self):
         super().__init__('b2-tools')
-        self.url = 'https://grisumbras/boost-conan-index'
+        self.url = index_url
         self.version = b2_tools_version
         self.b2_version = b2_version
 
@@ -478,6 +480,46 @@ class RecipeToolsProject(Project):
 
     def __repr__(self):
         return f'RecipeToolsProject()'
+
+
+class HelpersProject(Project):
+    @property
+    def conan_version(self):
+        return self.version
+
+    @property
+    def conan_name(self):
+        return self.name
+
+    def __init__(self):
+        super().__init__('boost-helpers')
+        self.url = index_url
+        self.version = b2_tools_version
+
+    def collect_data(self, *_):
+        pass
+
+    def generate_recipe(self, base_dir, template_env, fs):
+        recipe_dir = os.path.join(base_dir, 'recipes', self.name)
+        fs.copy_tree(
+            os.path.join(os.path.dirname(__file__), self.name),
+            recipe_dir,
+            dirs_exist_ok=True,
+        )
+
+        versions = dict()
+        versions['versions'] = dict()
+        versions['versions'][self.conan_version] = {'folder': 'all'}
+        with fs.open(os.path.join(recipe_dir, 'config.yml'), 'w') as f:
+            yaml.dump(versions, f)
+
+        data = {'b2_version': b2_version}
+        with fs.open(os.path.join(recipe_dir, 'all', 'data.yml'), 'w') as f:
+            yaml.dump(data, f)
+
+
+    def __repr__(self):
+        return f'HelpersProject()'
 
 
 class IgnoredProject(Project):
@@ -599,6 +641,10 @@ class FileSystem():
     @staticmethod
     def copy(src, dst):
         shutil.copy(src, dst)
+
+    @staticmethod
+    def copy_tree(src, dst, dirs_exist_ok=False):
+        shutil.copytree(src, dst, dirs_exist_ok=dirs_exist_ok)
 
 
 class Depinst():

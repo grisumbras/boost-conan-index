@@ -363,6 +363,11 @@ class B2(object):
     def build(self, target=None):
         cmd = 'b2'
         if target:
+            if isinstance(target, collections.abc.Iterable):
+                if not isinstance(target, str):
+                    target = ' '.join(target)
+            else:
+                target = str(target)
             cmd += ' ' + target
 
         project_config = self.project_config
