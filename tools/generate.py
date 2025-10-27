@@ -300,14 +300,7 @@ class LibraryProject(Project):
                         continue
                     setattr(self, k, v)
 
-            includedir = os.path.join(lib, 'include')
-            offset = len(includedir) + 1
-            for root, _, files in fs.walk(includedir):
-                if root[offset:].find('detail') >= 0:
-                    continue
-                if files:
-                    self.header = os.path.join(root, files[0])[offset:]
-                    break
+            self.header = self._locate_header(lib, fs)
 
             self.targets = collect_libraries_from_jamfile(lib, self.name, fs)
             if not self.targets:
@@ -389,6 +382,20 @@ class LibraryProject(Project):
 
     def __repr__(self):
         return f'LibraryProject("{self.name}", "{self.git_ref}")'
+
+    def _locate_header(self, lib_dir, fs):
+        includedir = os.path.join(lib_dir, 'include')
+        offset = len(includedir) + 1
+
+        convenience_header = os.path.join(includedir, self.name + '.hpp')
+        if fs.exists(convenience_header):
+            return convenience_header[offset:]
+
+        for root, _, files in fs.walk(includedir):
+            if root[offset:].find('detail') >= 0:
+                continue
+            if files:
+                return os.path.join(root, files[0])[offset:]
 
 
 class ToolProject(Project):
