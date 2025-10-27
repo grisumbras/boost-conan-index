@@ -6,6 +6,7 @@ from conan.tools.build import check_min_cppstd
 from conan.tools.files import (
     copy,
     mkdir,
+    patch,
     rename,
     rmdir,
     save,
@@ -127,6 +128,9 @@ class BoostBimapRecipe(ConanFile):
                 if os.path.exists(src):
                     self.output.info(src)
                     shutil.copytree(src, config_dir)
+
+        if 'boost-predef' in self.dependencies.direct_host:
+            patch(self, patch_string=_predef_patch, fuzz=True)
 
     def build(self):
         b2 = self.python_requires['b2-tools'].module.B2(self)
@@ -351,3 +355,57 @@ project
 {% endfor %}
     ;
 '''
+
+
+
+_predef_patch = '''\
+--- a/bin.v2/generators/b2_dep-boost-predef/tools/check/predef.jam
++++ b/bin.v2/generators/b2_dep-boost-predef/tools/check/predef.jam
+@@ -16,9 +16,6 @@ import path ;
+ import "class" : new ;
+ import regex ;
+
+-# Create a project for our targets.
+-project.extension predef check ;
+-
+ # Feature to pass check expressions to check programs.
+ feature.feature predef-expression : : free ;
+
+@@ -30,9 +27,11 @@ rule check ( expressions + : language ? : true-properties * : false-properties *
+     # Default to C++ on the check context.
+     language ?= cpp ;
+     \n\
+-    local project_target = [ project.target $(__name__) ] ;
++    local binding = [ modules.binding $(__name__) ] ;
++    local mod = [ project.find $(binding:D) : $(binding) ] ;
++    local project_target = [ project.target $(mod) ] ;
+     $(project_target).reset-alternatives ;
+-\tproject.push-current $(project_target) ;
++    project.push-current $(project_target) ;
+     local terms ;
+     local result ;
+     for expression in $(expressions)
+@@ -48,11 +47,11 @@ rule check ( expressions + : language ? : true-properties * : false-properties *
+             if ! ( $(key) in $(_checks_) )
+             {
+                 _checks_ += $(key) ;
+-                _message_(/check/predef//predef_check_cc_$(key)) = $(expression) ;
++                _message_($(binding:D)//predef_check_cc_$(key)) = $(expression) ;
+                 check_target $(language) $(key) : [ change_term_to_def $(expression) ] ;
+             }
+             \n\
+-            terms += /check/predef//predef_check_cc_$(key) ;
++            terms += $(binding:D)//predef_check_cc_$(key) ;
+         }
+     }
+     local instance = [ new check-expression-evaluator
+@@ -118,7 +117,8 @@ local rule check_target ( language key : requirements * )
+     obj predef_check_cc_$(key)
+         : $(source_path)
+         : <include>$(include_path) $(requirements) ;
+-    explicit predef_check_cc_$(key) ;
++    local p = [ project.current ] ;
++    $(p).mark-target-as-explicit predef_check_cc_$(key) ;
+     return predef_check_cc_$(key) ;
+ }
+ '''
