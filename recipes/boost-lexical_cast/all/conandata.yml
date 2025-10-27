@@ -58,10 +58,10 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.10.08.00.43
+      ref: boost-container/1.90.0-a.d+25.10.27.09.07
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.25.14.55
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
@@ -90,10 +90,10 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.m+25.10.08.00.43
+      ref: boost-container/1.90.0-a.m+25.10.27.09.07
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.25.14.55
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39

@@ -98,7 +98,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.25.14.55
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
@@ -142,6 +142,27 @@ sources:
     - header: true
       public: true
       ref: boost-core/1.90.0-a.m+25.10.25.14.55
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: smart_ptr
+    url: https://github.com/boostorg/smart_ptr.git
+  1.90.0-a.m+25.10.26.02.22:
+    commit: 8688d747aeafca79383ede8c50b374f1ec3f085c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39

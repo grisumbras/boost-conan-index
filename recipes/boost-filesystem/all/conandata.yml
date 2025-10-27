@@ -139,7 +139,7 @@ sources:
       ref: boost-atomic/1.90.0-a.d+25.09.30.15.42
     - header: true
       public: false
-      ref: boost-core/1.90.0-a.d+25.10.25.14.55
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: false
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
@@ -179,7 +179,7 @@ sources:
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.25.15.30
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
     - header: true
       public: true
       ref: boost-system/1.90.0-a.m+25.10.19.21.04
@@ -191,7 +191,7 @@ sources:
       ref: boost-atomic/1.90.0-a.m+25.09.30.15.42
     - header: true
       public: false
-      ref: boost-core/1.90.0-a.m+25.10.25.14.55
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: false
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53

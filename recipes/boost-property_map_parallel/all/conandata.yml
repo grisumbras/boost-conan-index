@@ -121,7 +121,7 @@ sources:
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-multi_index/1.90.0-a.d+25.09.19.09.06
+      ref: boost-multi_index/1.90.0-a.d+25.10.27.09.17
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
@@ -182,7 +182,7 @@ sources:
       ref: boost-serialization/1.90.0-a.m+23.11.12.21.05
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.25.15.30
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33

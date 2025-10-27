@@ -103,7 +103,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.25.14.55
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
@@ -149,7 +149,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.25.14.55
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53

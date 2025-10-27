@@ -173,6 +173,60 @@ sources:
       kind: header-library
       name: multi_index
     url: https://github.com/boostorg/multi_index.git
+  1.90.0-a.d+25.10.27.09.17:
+    commit: 890f0329390fac7ef7b9607f5c9dd1ef51a6779b
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.d+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-a.d+25.10.18.12.24
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-a.d+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: multi_index
+    url: https://github.com/boostorg/multi_index.git
   1.90.0-a.m+25.09.20.17.53:
     commit: 90697ee83e4a1c144dc54da891a0a4be61c4f8b9
     cxxstd: '03'
@@ -191,7 +245,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.25.14.55
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.m+25.08.25.19.05
@@ -209,7 +263,7 @@ sources:
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.25.15.30
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33

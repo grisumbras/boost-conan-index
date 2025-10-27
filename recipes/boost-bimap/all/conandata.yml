@@ -112,7 +112,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.25.14.55
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
@@ -124,7 +124,7 @@ sources:
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-multi_index/1.90.0-a.d+25.09.19.09.06
+      ref: boost-multi_index/1.90.0-a.d+25.10.27.09.17
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
@@ -161,7 +161,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.25.14.55
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05

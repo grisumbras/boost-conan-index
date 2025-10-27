@@ -130,7 +130,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.25.14.55
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: false
       public: true
       ref: boost-exception/1.90.0-a.d+25.05.03.03.11
@@ -188,7 +188,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.25.14.55
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: false
       public: true
       ref: boost-exception/1.90.0-a.m+25.03.02.03.25
@@ -209,7 +209,7 @@ sources:
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.25.15.30
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33

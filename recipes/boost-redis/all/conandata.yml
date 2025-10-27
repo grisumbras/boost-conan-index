@@ -197,7 +197,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.25.14.55
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
       ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
@@ -238,6 +238,36 @@ sources:
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: redis
+    url: https://github.com/boostorg/redis.git
+  1.90.0-a.m+25.10.27.11.03:
+    commit: cd46e39f36df9f0ce4566c6e2ee173c02aabddd3
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.m+25.08.06.22.37
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.22.11.09
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.m+25.10.19.21.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
     targets:
     - dependencies: []
       kind: header-library

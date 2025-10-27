@@ -236,13 +236,13 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.10.08.00.43
+      ref: boost-container/1.90.0-a.d+25.10.27.09.07
     - header: true
       public: true
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.25.14.55
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43
@@ -302,13 +302,13 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.m+25.10.08.00.43
+      ref: boost-container/1.90.0-a.m+25.10.27.09.07
     - header: true
       public: true
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.25.14.55
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -329,7 +329,7 @@ sources:
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.25.15.30
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
