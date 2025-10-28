@@ -292,7 +292,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.09.16.01
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.10.27.09.07
+      ref: boost-container/1.90.0-a.d+25.10.27.23.55
     - header: false
       public: true
       ref: boost-context/1.90.0-a.d+25.09.24.16.35

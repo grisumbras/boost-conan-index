@@ -200,6 +200,72 @@ sources:
       kind: library
       name: wave
     url: https://github.com/boostorg/wave.git
+  1.90.0-a.d+25.10.26.16.35:
+    commit: 7a8e9d38842a7d51f02c590d98224ce2dfea21ba
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: false
+      public: true
+      ref: boost-filesystem/1.90.0-a.d+25.10.01.17.38
+    - header: true
+      public: true
+      ref: boost-format/1.90.0-a.d+25.06.26.19.58
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-multi_index/1.90.0-a.d+25.10.27.09.17
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-pool/1.90.0-a.d+19.09.06.01.34
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0-a.d+25.10.06.20.36
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    targets:
+    - dependencies: []
+      kind: library
+      name: wave
+    url: https://github.com/boostorg/wave.git
   1.90.0-a.m+25.04.28.13.47:
     commit: d7aa5a369d8f2faf48c8ea16ba041dfabbf91363
     cxxstd: '11'

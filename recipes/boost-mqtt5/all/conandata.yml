@@ -203,7 +203,7 @@ sources:
       ref: boost-beast/1.90.0-a.d+25.10.22.16.51
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.10.27.09.07
+      ref: boost-container/1.90.0-a.d+25.10.27.23.55
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.10.27.02.24

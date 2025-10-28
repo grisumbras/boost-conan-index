@@ -30,7 +30,7 @@ class B2RecipeToolsRecipe(ConanFile):
     name = 'b2-tools'
     description = 'Recipe tools for building with B2'
     author = 'Dmitry Arkhipov'
-    url = 'https://grisumbras/boost-conan-index'
+    url = 'https://github.com/grisumbras/boost-conan-index/'
     license = 'BSL-1.0'
     package_type = 'python-require'
     version = '0.0.1-a'
@@ -363,6 +363,11 @@ class B2(object):
     def build(self, target=None):
         cmd = 'b2'
         if target:
+            if isinstance(target, collections.abc.Iterable):
+                if not isinstance(target, str):
+                    target = ' '.join(target)
+            else:
+                target = str(target)
             cmd += ' ' + target
 
         project_config = self.project_config
