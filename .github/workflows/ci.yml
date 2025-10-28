@@ -122,6 +122,17 @@ jobs:
                 "$proj/[>0-a,include_prerelease]"
           done
 
+      - name: Save failed build
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: failure-${{ matrix.boost-ref }}
+          path: |
+            C:\Users\runneradmin\.conan2
+          if-no-files-found: error
+          include-hidden-files: true
+          retention-days: 1
+
   test-macos:
     name: Test on MacOS
     runs-on: macos-latest
