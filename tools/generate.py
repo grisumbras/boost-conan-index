@@ -587,6 +587,12 @@ class Git():
                 'git', '-C', target, 'remote', 'add', 'origin', repo,
             )
             self.runner.run(
+                'git', '-C', target, 'config', 'core.autocrlf', 'false',
+            )
+            self.runner.run(
+                'git', '-C', target, 'config', 'core.eol', 'lf',
+            )
+            self.runner.run(
                 'git', '-C', target, 'fetch', 'origin', commit, '--depth', '1',
             )
             self.runner.run(

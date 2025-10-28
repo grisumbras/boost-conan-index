@@ -81,7 +81,11 @@ class BoostPackage():
 
     def source(self):
         git = Git(self)
+        git.run('init')
+        git.run('config core.autocrlf false')
+        git.run('config core.eol lf')
         git.fetch_commit(self._data_cache['url'], self._data_cache['commit'])
+
         sha1 = calculate_checksum(self.source_folder)
         if sha1 != self._data_cache['sha1']:
             raise ConanException(
