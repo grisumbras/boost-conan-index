@@ -317,17 +317,9 @@ class LibraryProject(Project):
 
             self.dependencies = depinst(self, lib, registry)
 
-            exceptions = os.path.join(
-                os.path.dirname(__file__), 'exceptions', self.name + '.py',
-            )
-            if fs.exists(exceptions):
-                mod_name = 'boost.' + self.name + '.exceptions'
-                spec = importlib.util.spec_from_file_location(
-                    mod_name, exceptions,
-                )
-                mod = importlib.util.module_from_spec(spec)
-                spec.loader.exec_module(mod)
-                mod.update_data(self, lib, registry)
+            exceptions_func = getattr(self, f'_{self.name}_exceptions', None)
+            if exceptions_func is not None:
+                exceptions_func(lib, registry)
 
     def generate_recipe(self, base_dir, template_env, fs):
         pkg_base_dir = os.path.join(base_dir, 'recipes', self.conan_name)
@@ -398,6 +390,28 @@ class LibraryProject(Project):
                 continue
             if files:
                 return os.path.join(root, files[0])[offset:]
+
+    def _context_exceptions(self, lib_dir, registry):
+        self.header = 'boost/context/fiber.hpp'
+
+    def _date_time_exceptions(self, lib_dir, registry):
+        self.targets[0]['kind'] = 'header-library'
+
+    def _function_types_exceptions(self, lib_dir, registry):
+        self.targets[0]['kind'] = 'header-library'
+
+    def _graph_exceptions(self, lib_dir, registry):
+        for i, dep in enumerate(self.dependencies):
+            if dep[0].name == 'geometry':
+                del self.dependencies[i]
+
+    def _math_exceptions(self, lib_dir, registry):
+        for target in self.targets:
+            if target['name'] == 'math':
+                target['kind'] = 'header-library'
+
+    def _regex_exceptions(self, lib_dir, registry):
+        self.targets[0]['kind'] = 'header-library'
 
 
 class ToolProject(Project):
