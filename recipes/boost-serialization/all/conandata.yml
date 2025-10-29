@@ -169,7 +169,7 @@ sources:
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.d+25.10.09.16.01
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.10.27.02.24

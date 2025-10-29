@@ -152,6 +152,36 @@ sources:
       kind: library
       name: locale
     url: https://github.com/boostorg/locale.git
+  1.90.0-a.d+25.10.29.08.44:
+    commit: 57cda421b79bb1fe034cd92a6dca8cbe3972c1d9
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+    - header: false
+      public: false
+      ref: boost-charconv/1.90.0-a.d+25.10.23.14.15
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    - header: false
+      public: false
+      ref: boost-thread/1.90.0-a.d+25.05.02.19.21
+    targets:
+    - dependencies: []
+      kind: library
+      name: locale
+    url: https://github.com/boostorg/locale.git
   1.90.0-a.m+25.09.04.13.21:
     commit: da39dbaf86b2f994e2ae1577d98e4be39cc683bc
     cxxstd: '11'
@@ -185,6 +215,36 @@ sources:
     url: https://github.com/boostorg/locale.git
   1.90.0-a.m+25.10.22.17.24:
     commit: 351e06f64bb7faf33eefcb9f1d7c39e3f57261d8
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+    - header: false
+      public: false
+      ref: boost-charconv/1.90.0-a.m+25.08.06.14.08
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
+    - header: false
+      public: false
+      ref: boost-thread/1.90.0-a.m+25.05.02.19.21
+    targets:
+    - dependencies: []
+      kind: library
+      name: locale
+    url: https://github.com/boostorg/locale.git
+  1.90.0-a.m+25.10.29.09.04:
+    commit: 9a45e028eb2b174dac89ae1ee8ae72f64316cd11
     cxxstd: '11'
     dependencies:
     - header: true

@@ -29,6 +29,15 @@ sources:
       kind: header-library
       name: config
     url: https://github.com/boostorg/config.git
+  1.90.0-a.d+25.10.29.08.37:
+    commit: 845fd033c33a7eb30e91e6f352000ef84a04808b
+    cxxstd: '03'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: config
+    url: https://github.com/boostorg/config.git
   1.90.0-a.m+25.10.09.16.06:
     commit: a7d5a9b05d70c9cfea980dc3539ca3d3461411b3
     cxxstd: '03'
