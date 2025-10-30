@@ -8,3 +8,8 @@ find_package(boost-{{ project.name }} CONFIG REQUIRED)
 
 add_executable(test test.cpp)
 target_link_libraries(test Boost::{{ project.name }})
+
+if("{{ project.name }}" STREQUAL python)
+    find_package(Python COMPONENTS Development REQUIRED)
+    target_link_libraries(test Python::Python)
+endif()
