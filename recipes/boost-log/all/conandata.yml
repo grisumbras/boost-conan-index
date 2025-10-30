@@ -434,13 +434,13 @@ sources:
       ref: boost-regex/1.90.0-a.d+25.07.04.20.20
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
     - header: true
       public: true
       ref: boost-spirit/1.90.0-a.d+25.10.06.20.36
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.10.19.21.04
+      ref: boost-system/1.90.0-a.d+25.10.29.15.44
     - header: false
       public: true
       ref: boost-thread/1.90.0-a.d+25.05.02.19.21
@@ -467,7 +467,7 @@ sources:
       ref: boost-align/1.90.0-a.d+25.06.26.11.43
     - header: true
       public: false
-      ref: boost-asio/1.90.0-a.d+25.08.06.22.32
+      ref: boost-asio/1.90.0-a.d+25.10.30.08.28
     - header: true
       public: false
       ref: boost-interprocess/1.90.0-a.d+25.10.20.13.13
@@ -677,13 +677,13 @@ sources:
       ref: boost-regex/1.90.0-a.m+25.07.04.17.16
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
     - header: true
       public: true
       ref: boost-spirit/1.90.0-a.m+25.09.17.08.31
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.m+25.10.19.21.04
+      ref: boost-system/1.90.0-a.m+25.10.29.15.44
     - header: false
       public: true
       ref: boost-thread/1.90.0-a.m+25.05.02.19.21

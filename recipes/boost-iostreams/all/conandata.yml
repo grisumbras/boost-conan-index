@@ -168,7 +168,7 @@ sources:
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.d+25.10.24.08.40
+      ref: boost-random/1.90.0-a.d+25.10.29.19.18
     - header: true
       public: true
       ref: boost-range/1.90.0-a.d+25.05.02.19.18
@@ -177,7 +177,7 @@ sources:
       ref: boost-regex/1.90.0-a.d+25.07.04.20.20
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
@@ -236,7 +236,7 @@ sources:
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.m+25.10.23.18.31
+      ref: boost-random/1.90.0-a.m+25.10.30.11.48
     - header: true
       public: true
       ref: boost-range/1.90.0-a.m+25.02.08.16.31
@@ -245,7 +245,7 @@ sources:
       ref: boost-regex/1.90.0-a.m+25.07.04.17.16
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33

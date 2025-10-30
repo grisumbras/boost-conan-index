@@ -314,7 +314,7 @@ sources:
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
@@ -465,6 +465,75 @@ sources:
       kind: library
       name: test_exec_monitor
     - dependencies: *id004
+      kind: library
+      name: unit_test_framework
+    url: https://github.com/boostorg/test.git
+  1.90.0-a.m+25.10.29.12.09:
+    commit: 0cba5d6cd973e544c6121072d426522d5be47a13
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.90.0-a.m+23.08.02.20.42
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.m+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+    - header: false
+      public: true
+      ref: boost-exception/1.90.0-a.m+25.03.02.03.25
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-a.m+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-io/1.90.0-a.m+23.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-a.m+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+    targets:
+    - dependencies: &id005 []
+      kind: library
+      name: prg_exec_monitor
+    - dependencies: *id005
+      kind: library
+      name: test_exec_monitor
+    - dependencies: *id005
       kind: library
       name: unit_test_framework
     url: https://github.com/boostorg/test.git

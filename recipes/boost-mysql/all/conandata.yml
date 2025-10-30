@@ -121,13 +121,13 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.d+25.08.06.22.32
+      ref: boost-asio/1.90.0-a.d+25.10.30.08.28
     - header: true
       public: true
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: false
       public: true
-      ref: boost-charconv/1.90.0-a.d+25.10.23.14.15
+      ref: boost-charconv/1.90.0-a.d+25.10.29.17.26
     - header: true
       public: true
       ref: boost-compat/1.90.0-a.d+25.09.05.18.48
@@ -151,7 +151,7 @@ sources:
       ref: boost-intrusive/1.90.0-a.d+25.08.25.23.15
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
+      ref: boost-mp11/1.90.0-a.d+25.10.30.10.46
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
@@ -160,7 +160,7 @@ sources:
       ref: boost-pfr/1.90.0-a.d+25.10.28.17.40
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.10.19.21.04
+      ref: boost-system/1.90.0-a.d+25.10.29.15.44
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
@@ -226,6 +226,63 @@ sources:
       public: true
       ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mysql
+    url: https://github.com/boostorg/mysql.git
+  1.90.0-a.m+25.10.07.16.56:
+    commit: c242bb0ffdea2675a32e0b3a6baeeb987bb90777
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.m+25.08.06.22.37
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: false
+      public: true
+      ref: boost-charconv/1.90.0-a.m+25.10.29.19.17
+    - header: true
+      public: true
+      ref: boost-compat/1.90.0-a.m+25.09.05.18.48
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-a.m+25.10.27.09.07
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-describe/1.90.0-a.m+25.10.22.16.03
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-a.m+24.12.14.03.43
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0-a.m+25.08.25.23.15
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.22.11.09
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-pfr/1.90.0-a.m+25.10.28.17.40
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.m+25.10.29.15.44
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
     targets:
     - dependencies: []
       kind: header-library

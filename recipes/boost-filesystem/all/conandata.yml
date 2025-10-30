@@ -127,10 +127,10 @@ sources:
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.10.19.21.04
+      ref: boost-system/1.90.0-a.d+25.10.29.15.44
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
@@ -179,10 +179,10 @@ sources:
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.m+25.10.19.21.04
+      ref: boost-system/1.90.0-a.m+25.10.29.15.44
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38

@@ -355,7 +355,7 @@ sources:
       ref: boost-property_tree/1.90.0-a.d+25.06.30.13.56
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.d+25.10.24.08.40
+      ref: boost-random/1.90.0-a.d+25.10.29.19.18
     - header: true
       public: true
       ref: boost-range/1.90.0-a.d+25.05.02.19.18
@@ -364,7 +364,7 @@ sources:
       ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
     - header: true
       public: true
       ref: boost-spirit/1.90.0-a.d+25.10.06.20.36
@@ -491,7 +491,7 @@ sources:
       ref: boost-property_tree/1.90.0-a.m+25.06.30.13.56
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.m+25.10.23.18.31
+      ref: boost-random/1.90.0-a.m+25.10.30.11.48
     - header: true
       public: true
       ref: boost-range/1.90.0-a.m+25.02.08.16.31
@@ -500,7 +500,7 @@ sources:
       ref: boost-serialization/1.90.0-a.m+23.11.12.21.05
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
     - header: true
       public: true
       ref: boost-spirit/1.90.0-a.m+25.09.17.08.31

@@ -92,6 +92,36 @@ sources:
       kind: library
       name: context
     url: https://github.com/boostorg/context.git
+  1.90.0-a.d+25.10.29.21.21:
+    commit: 6ff80e0575133c6d0b704e03bbb956a0c3b9551a
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.30.10.46
+    - header: true
+      public: true
+      ref: boost-pool/1.90.0-a.d+19.09.06.01.34
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
+    targets:
+    - dependencies: []
+      kind: library
+      name: context
+    url: https://github.com/boostorg/context.git
   1.90.0-a.m+25.05.25.16.34:
     commit: 3af0091efa65892e030add013417840f80b13e08
     cxxstd: '11'
@@ -116,7 +146,7 @@ sources:
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
     kind: library
     targets:
     - dependencies: []

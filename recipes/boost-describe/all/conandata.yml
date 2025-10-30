@@ -44,7 +44,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
+      ref: boost-mp11/1.90.0-a.d+25.10.30.10.46
     targets:
     - dependencies: []
       kind: header-library

@@ -170,7 +170,7 @@ sources:
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
     - header: false
       public: false
-      ref: boost-charconv/1.90.0-a.d+25.10.23.14.15
+      ref: boost-charconv/1.90.0-a.d+25.10.29.17.26
     - header: true
       public: false
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
@@ -261,7 +261,7 @@ sources:
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
     - header: false
       public: false
-      ref: boost-charconv/1.90.0-a.m+25.08.06.14.08
+      ref: boost-charconv/1.90.0-a.m+25.10.29.19.17
     - header: true
       public: false
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53

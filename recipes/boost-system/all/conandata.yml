@@ -95,6 +95,30 @@ sources:
       kind: header-library
       name: system
     url: https://github.com/boostorg/system.git
+  1.90.0-a.d+25.10.29.15.44:
+    commit: 1a3279d087dcffbe370b065918ac995562deca81
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: system
+    url: https://github.com/boostorg/system.git
   1.90.0-a.m+25.07.02.19.12:
     commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
     cxxstd: '11'
@@ -136,6 +160,30 @@ sources:
       public: true
       ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: system
+    url: https://github.com/boostorg/system.git
+  1.90.0-a.m+25.10.29.15.44:
+    commit: 1a3279d087dcffbe370b065918ac995562deca81
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
     targets:
     - dependencies: []
       kind: header-library

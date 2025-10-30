@@ -137,7 +137,7 @@ sources:
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.d+25.10.24.08.40
+      ref: boost-random/1.90.0-a.d+25.10.29.19.18
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
@@ -210,7 +210,7 @@ sources:
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.m+25.10.23.18.31
+      ref: boost-random/1.90.0-a.m+25.10.30.11.48
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39

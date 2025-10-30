@@ -76,7 +76,7 @@ sources:
       ref: boost-math/1.90.0-a.d+25.10.23.15.24
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
+      ref: boost-mp11/1.90.0-a.d+25.10.30.10.46
     - header: false
       public: true
       ref: boost-serialization/1.90.0-a.d+24.08.18.11.53

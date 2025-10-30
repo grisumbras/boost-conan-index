@@ -248,7 +248,7 @@ sources:
       ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
     - header: true
       public: true
       ref: boost-spirit/1.90.0-a.d+25.10.06.20.36
@@ -314,7 +314,7 @@ sources:
       ref: boost-serialization/1.90.0-a.m+23.11.12.21.05
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
     - header: true
       public: true
       ref: boost-spirit/1.90.0-a.m+25.09.17.08.31

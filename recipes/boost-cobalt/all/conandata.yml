@@ -280,7 +280,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.d+25.08.06.22.32
+      ref: boost-asio/1.90.0-a.d+25.10.30.08.28
     - header: true
       public: true
       ref: boost-callable_traits/1.90.0-a.d+25.06.25.18.43
@@ -295,7 +295,7 @@ sources:
       ref: boost-container/1.90.0-a.d+25.10.29.00.12
     - header: false
       public: true
-      ref: boost-context/1.90.0-a.d+25.09.24.16.35
+      ref: boost-context/1.90.0-a.d+25.10.29.21.21
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
@@ -307,19 +307,19 @@ sources:
       ref: boost-intrusive/1.90.0-a.d+25.08.25.23.15
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.10.22.11.09
+      ref: boost-mp11/1.90.0-a.d+25.10.30.10.46
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
     - header: true
       public: true
       ref: boost-static_string/1.90.0-a.d+25.10.03.12.26
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.10.19.21.04
+      ref: boost-system/1.90.0-a.d+25.10.29.15.44
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
@@ -503,13 +503,13 @@ sources:
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.26.02.22
+      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
     - header: true
       public: true
       ref: boost-static_string/1.90.0-a.m+23.12.22.17.12
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.m+25.10.19.21.04
+      ref: boost-system/1.90.0-a.m+25.10.29.15.44
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
