@@ -161,6 +161,33 @@ sources:
       kind: header-library
       name: openmethod
     url: https://github.com/boostorg/openmethod.git
+  1.90.0-a.d+25.10.31.13.50:
+    commit: d5ccc9edaa3832e4005776039288b02f74d67769
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.90.0-a.d+25.10.31.11.15
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.10.30.10.46
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: openmethod
+    url: https://github.com/boostorg/openmethod.git
   1.90.0-a.m+25.10.22.17.16:
     commit: 3392f1a636c579d7521e7fc6c414c18266f3e556
     cxxstd: '17'
@@ -217,6 +244,33 @@ sources:
     url: https://github.com/boostorg/openmethod.git
   1.90.0-a.m+25.10.29.10.44:
     commit: e5762bd6e6ca163abdac6ec4488d202bda421e3a
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.90.0-a.m+25.10.24.18.01
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.10.30.10.46
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: openmethod
+    url: https://github.com/boostorg/openmethod.git
+  1.90.0-a.m+25.10.31.13.50:
+    commit: d5ccc9edaa3832e4005776039288b02f74d67769
     cxxstd: '17'
     dependencies:
     - header: true

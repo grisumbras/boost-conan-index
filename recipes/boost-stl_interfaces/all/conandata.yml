@@ -56,6 +56,24 @@ sources:
       kind: header-library
       name: stl_interfaces
     url: https://github.com/boostorg/stl_interfaces.git
+  1.90.0-a.d+25.10.31.17.15:
+    commit: 48375e95648bed776a2f6d34148185daf2cdce96
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: stl_interfaces
+    url: https://github.com/boostorg/stl_interfaces.git
   1.90.0-a.m+25.07.13.15.59:
     commit: 9bf4c9275820a3e2b59c3f4eb1dd638d8beb3386
     cxxstd: '14'
@@ -70,6 +88,24 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: stl_interfaces
+    url: https://github.com/boostorg/stl_interfaces.git
+  1.90.0-a.m+25.10.31.17.15:
+    commit: 48375e95648bed776a2f6d34148185daf2cdce96
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     targets:
     - dependencies: []
       kind: header-library
