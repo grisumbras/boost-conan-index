@@ -124,7 +124,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.11.01.10.05
+      ref: boost-container/1.90.0-a.d+25.11.01.22.12
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
@@ -179,7 +179,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.m+25.10.27.09.07
+      ref: boost-container/1.90.0-a.m+25.11.01.22.12
     - header: true
       public: true
       ref: boost-core/1.90.0-a.m+25.10.27.02.24

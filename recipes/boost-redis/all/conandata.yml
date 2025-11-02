@@ -260,7 +260,7 @@ sources:
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.10.30.10.46
+      ref: boost-mp11/1.90.0-a.d+25.11.01.14.12
     - header: true
       public: true
       ref: boost-system/1.90.0-a.d+25.10.29.15.44
@@ -321,7 +321,7 @@ sources:
       ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.10.30.10.46
+      ref: boost-mp11/1.90.0-a.m+25.11.01.14.12
     - header: true
       public: true
       ref: boost-system/1.90.0-a.m+25.10.29.15.44
