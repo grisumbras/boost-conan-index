@@ -107,7 +107,7 @@ sources:
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.11.01.14.12
+      ref: boost-mp11/1.90.0-a.d+25.11.03.10.57
     - header: true
       public: true
       ref: boost-pool/1.90.0-a.d+19.09.06.01.34

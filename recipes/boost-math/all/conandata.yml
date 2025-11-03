@@ -298,6 +298,64 @@ sources:
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
+  1.90.0-a.d+25.11.03.10.17:
+    commit: 9eba9d7e87acb3fb0c6e42a9db512914bcf33b9a
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-a.d+25.10.29.19.18
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: math
+    - dependencies: &id006
+      - math
+      kind: library
+      name: math_c99
+    - dependencies: *id006
+      kind: library
+      name: math_c99f
+    - dependencies: *id006
+      kind: library
+      name: math_c99l
+    - dependencies: *id006
+      kind: library
+      name: math_tr1
+    - dependencies: *id006
+      kind: library
+      name: math_tr1f
+    - dependencies: *id006
+      kind: library
+      name: math_tr1l
+    url: https://github.com/boostorg/math.git
   1.90.0-a.m+25.10.15.18.57:
     commit: d11ee3f12be09065664da4dcbee0eebf2bcec753
     cxxstd: '14'
@@ -337,23 +395,23 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id006
+    - dependencies: &id007
       - math
       kind: library
       name: math_c99
-    - dependencies: *id006
+    - dependencies: *id007
       kind: library
       name: math_c99f
-    - dependencies: *id006
+    - dependencies: *id007
       kind: library
       name: math_c99l
-    - dependencies: *id006
+    - dependencies: *id007
       kind: library
       name: math_tr1
-    - dependencies: *id006
+    - dependencies: *id007
       kind: library
       name: math_tr1f
-    - dependencies: *id006
+    - dependencies: *id007
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
@@ -398,23 +456,23 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id007
+    - dependencies: &id008
       - math
       kind: library
       name: math_c99
-    - dependencies: *id007
+    - dependencies: *id008
       kind: library
       name: math_c99f
-    - dependencies: *id007
+    - dependencies: *id008
       kind: library
       name: math_c99l
-    - dependencies: *id007
+    - dependencies: *id008
       kind: library
       name: math_tr1
-    - dependencies: *id007
+    - dependencies: *id008
       kind: library
       name: math_tr1f
-    - dependencies: *id007
+    - dependencies: *id008
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
@@ -456,23 +514,23 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id008
+    - dependencies: &id009
       - math
       kind: library
       name: math_c99
-    - dependencies: *id008
+    - dependencies: *id009
       kind: library
       name: math_c99f
-    - dependencies: *id008
+    - dependencies: *id009
       kind: library
       name: math_c99l
-    - dependencies: *id008
+    - dependencies: *id009
       kind: library
       name: math_tr1
-    - dependencies: *id008
+    - dependencies: *id009
       kind: library
       name: math_tr1f
-    - dependencies: *id008
+    - dependencies: *id009
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git

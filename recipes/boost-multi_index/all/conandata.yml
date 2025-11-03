@@ -197,10 +197,10 @@ sources:
       ref: boost-integer/1.90.0-a.d+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.10.18.12.24
+      ref: boost-move/1.90.0-a.d+25.11.02.22.45
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.11.01.14.12
+      ref: boost-mp11/1.90.0-a.d+25.11.03.10.57
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52

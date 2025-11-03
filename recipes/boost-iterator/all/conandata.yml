@@ -100,7 +100,7 @@ sources:
       ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.11.01.14.12
+      ref: boost-mp11/1.90.0-a.d+25.11.03.10.57
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37

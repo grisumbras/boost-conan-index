@@ -76,7 +76,7 @@ sources:
       ref: boost-logic/1.90.0-a.d+25.07.02.08.14
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.11.01.14.12
+      ref: boost-mp11/1.90.0-a.d+25.11.03.10.57
     kind: header-library
     targets:
     - dependencies: []
