@@ -177,7 +177,7 @@ sources:
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
     - header: false
       public: true
-      ref: boost-python/1.90.0-a.d+25.01.22.11.25
+      ref: boost-python/1.90.0-a.d+25.06.06.11.27
     - header: false
       public: true
       ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
@@ -248,7 +248,7 @@ sources:
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23
     - header: false
       public: true
-      ref: boost-python/1.90.0-a.m+25.03.10.14.19
+      ref: boost-python/1.90.0-a.m+25.06.06.11.27
     - header: false
       public: true
       ref: boost-serialization/1.90.0-a.m+23.11.12.21.05

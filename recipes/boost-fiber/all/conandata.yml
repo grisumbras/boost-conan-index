@@ -105,7 +105,7 @@ sources:
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.08.25.23.15
+      ref: boost-intrusive/1.90.0-a.d+25.11.03.21.51
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
@@ -149,7 +149,7 @@ sources:
       ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.m+25.08.25.23.15
+      ref: boost-intrusive/1.90.0-a.m+25.11.03.21.51
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53

@@ -85,7 +85,7 @@ sources:
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.02.22.45
+      ref: boost-move/1.90.0-a.d+25.11.03.21.51
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
@@ -119,7 +119,7 @@ sources:
       ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.m+25.10.18.12.24
+      ref: boost-move/1.90.0-a.m+25.11.03.21.51
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33

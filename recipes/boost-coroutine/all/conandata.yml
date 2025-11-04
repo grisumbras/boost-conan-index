@@ -100,7 +100,7 @@ sources:
       ref: boost-exception/1.90.0-a.d+25.05.03.03.11
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.02.22.45
+      ref: boost-move/1.90.0-a.d+25.11.03.21.51
     - header: true
       public: true
       ref: boost-system/1.90.0-a.d+25.11.02.20.08
@@ -140,7 +140,7 @@ sources:
       ref: boost-exception/1.90.0-a.m+25.03.02.03.25
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.m+25.10.18.12.24
+      ref: boost-move/1.90.0-a.m+25.11.03.21.51
     - header: true
       public: true
       ref: boost-system/1.90.0-a.m+25.11.02.20.08

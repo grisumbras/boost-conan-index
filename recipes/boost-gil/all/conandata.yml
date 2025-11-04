@@ -121,7 +121,7 @@ sources:
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.11.03.10.57
+      ref: boost-mp11/1.90.0-a.d+25.11.03.13.55
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
@@ -167,7 +167,7 @@ sources:
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.11.01.14.12
+      ref: boost-mp11/1.90.0-a.m+25.11.03.13.55
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52

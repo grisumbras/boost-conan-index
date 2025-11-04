@@ -303,3 +303,33 @@ sources:
       kind: library
       name: locale
     url: https://github.com/boostorg/locale.git
+  1.90.0-a.m+25.11.03.12.30:
+    commit: 448d98ec03c10da6b4b8b4a9c4424818fb2dedc2
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+    - header: false
+      public: false
+      ref: boost-charconv/1.90.0-a.m+25.10.29.19.17
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
+    - header: false
+      public: false
+      ref: boost-thread/1.90.0-a.m+25.05.02.19.21
+    targets:
+    - dependencies: []
+      kind: library
+      name: locale
+    url: https://github.com/boostorg/locale.git

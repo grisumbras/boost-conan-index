@@ -292,7 +292,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.11.03.00.12
+      ref: boost-container/1.90.0-a.d+25.11.03.23.55
     - header: false
       public: true
       ref: boost-context/1.90.0-a.d+25.10.29.21.21
@@ -304,10 +304,10 @@ sources:
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.08.25.23.15
+      ref: boost-intrusive/1.90.0-a.d+25.11.03.21.51
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.11.03.10.57
+      ref: boost-mp11/1.90.0-a.d+25.11.03.13.55
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
@@ -482,7 +482,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.m+25.11.01.22.12
+      ref: boost-container/1.90.0-a.m+25.11.03.23.55
     - header: false
       public: true
       ref: boost-context/1.90.0-a.m+25.05.25.16.34
@@ -494,10 +494,10 @@ sources:
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.m+25.08.25.23.15
+      ref: boost-intrusive/1.90.0-a.m+25.11.03.21.51
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.11.01.14.12
+      ref: boost-mp11/1.90.0-a.m+25.11.03.13.55
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52

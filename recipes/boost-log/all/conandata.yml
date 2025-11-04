@@ -398,13 +398,13 @@ sources:
       ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.08.25.23.15
+      ref: boost-intrusive/1.90.0-a.d+25.11.03.21.51
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.02.22.45
+      ref: boost-move/1.90.0-a.d+25.11.03.21.51
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -470,7 +470,7 @@ sources:
       ref: boost-asio/1.90.0-a.d+25.10.30.20.41
     - header: true
       public: false
-      ref: boost-interprocess/1.90.0-a.d+25.11.03.00.13
+      ref: boost-interprocess/1.90.0-a.d+25.11.04.09.10
     - header: true
       public: false
       ref: boost-io/1.90.0-a.d+25.06.26.11.42
@@ -641,13 +641,13 @@ sources:
       ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.m+25.08.25.23.15
+      ref: boost-intrusive/1.90.0-a.m+25.11.03.21.51
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.m+25.10.18.12.24
+      ref: boost-move/1.90.0-a.m+25.11.03.21.51
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
@@ -713,7 +713,7 @@ sources:
       ref: boost-asio/1.90.0-a.m+25.10.30.22.12
     - header: true
       public: false
-      ref: boost-interprocess/1.90.0-a.m+25.10.20.13.13
+      ref: boost-interprocess/1.90.0-a.m+25.11.04.09.10
     - header: true
       public: false
       ref: boost-io/1.90.0-a.m+23.10.03.00.15
