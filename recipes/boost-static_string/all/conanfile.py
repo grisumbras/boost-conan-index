@@ -8,7 +8,7 @@ class BoostStaticStringRecipe(ConanFile):
     description = '''A fixed capacity dynamically sized string.'''
     author = 'Krystian Stasiowski, Vinnie Falco'
     url = 'https://github.com/boostorg/static_string.git'
-    topics = ['Container', 'String']
+    topics = ['Containers', 'String']
 
     settings = 'os', 'compiler', 'build_type', 'arch'
     options = {'shared': [True, False]}

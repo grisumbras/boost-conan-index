@@ -290,7 +290,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.d+25.10.30.20.41
+      ref: boost-asio/1.90.0-a.d+25.11.05.21.42
     - header: true
       public: true
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
@@ -302,7 +302,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.11.03.23.55
+      ref: boost-container/1.90.0-a.d+25.11.05.00.24
     - header: true
       public: true
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
@@ -314,7 +314,7 @@ sources:
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.11.03.21.51
+      ref: boost-intrusive/1.90.0-a.d+25.11.05.08.17
     - header: true
       public: true
       ref: boost-logic/1.90.0-a.d+25.07.02.08.14
@@ -468,7 +468,7 @@ sources:
       ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
     - header: true
       public: true
-      ref: boost-static_string/1.90.0-a.m+23.12.22.17.12
+      ref: boost-static_string/1.90.0-a.m+25.10.03.12.26
     - header: true
       public: true
       ref: boost-system/1.90.0-a.m+25.11.02.20.08

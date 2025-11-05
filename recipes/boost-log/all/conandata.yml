@@ -398,13 +398,13 @@ sources:
       ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.11.03.21.51
+      ref: boost-intrusive/1.90.0-a.d+25.11.05.08.17
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.03.21.51
+      ref: boost-move/1.90.0-a.d+25.11.05.08.17
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -467,10 +467,10 @@ sources:
       ref: boost-align/1.90.0-a.d+25.06.26.11.43
     - header: true
       public: false
-      ref: boost-asio/1.90.0-a.d+25.10.30.20.41
+      ref: boost-asio/1.90.0-a.d+25.11.05.21.42
     - header: true
       public: false
-      ref: boost-interprocess/1.90.0-a.d+25.11.04.09.10
+      ref: boost-interprocess/1.90.0-a.d+25.11.05.08.17
     - header: true
       public: false
       ref: boost-io/1.90.0-a.d+25.06.26.11.42

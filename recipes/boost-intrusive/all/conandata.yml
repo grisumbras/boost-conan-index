@@ -74,6 +74,24 @@ sources:
       kind: header-library
       name: intrusive
     url: https://github.com/boostorg/intrusive.git
+  1.90.0-a.d+25.11.05.08.17:
+    commit: e970dc42a59c16ce0626ac632d21c9343d6a05da
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-a.d+25.11.05.08.17
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: intrusive
+    url: https://github.com/boostorg/intrusive.git
   1.90.0-a.m+25.08.25.23.15:
     commit: fd765b6cba60aa635671d596e5cd2797d047c020
     cxxstd: '03'
