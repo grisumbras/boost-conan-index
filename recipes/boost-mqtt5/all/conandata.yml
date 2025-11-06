@@ -314,6 +314,48 @@ sources:
       kind: header-library
       name: mqtt5
     url: https://github.com/boostorg/mqtt5.git
+  1.90.0-a.d+25.11.06.10.27:
+    commit: d3fc7684eb82dfac243e216313b5013d603444a1
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.d+25.11.05.23.25
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-beast/1.90.0-a.d+25.11.05.18.20
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-a.d+25.11.05.22.31
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-a.d+24.12.14.03.43
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-a.d+25.10.29.19.18
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.d+25.05.02.19.18
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.d+25.11.02.20.08
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: mqtt5
+    url: https://github.com/boostorg/mqtt5.git
   1.90.0-a.m+25.07.28.14.02:
     commit: 620df1f9934925ac6044e4619c701d6dcf9dc8b6
     cxxstd: '17'
@@ -456,7 +498,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.m+25.10.30.22.12
+      ref: boost-asio/1.90.0-a.m+25.11.05.23.27
     - header: true
       public: true
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59

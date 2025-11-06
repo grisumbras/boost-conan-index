@@ -136,7 +136,7 @@ sources:
       ref: boost-algorithm/1.90.0-a.d+25.08.25.08.42
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.d+25.11.05.21.42
+      ref: boost-asio/1.90.0-a.d+25.11.05.23.25
     - header: true
       public: true
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
@@ -390,7 +390,7 @@ sources:
       ref: boost-algorithm/1.90.0-a.m+23.08.02.20.42
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.m+25.10.30.22.12
+      ref: boost-asio/1.90.0-a.m+25.11.05.23.27
     - header: true
       public: true
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59

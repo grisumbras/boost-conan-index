@@ -289,7 +289,7 @@ sources:
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-bimap/1.90.0-a.d+25.01.27.23.01
+      ref: boost-bimap/1.90.0-a.d+25.11.05.21.22
     - header: true
       public: true
       ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
@@ -334,7 +334,7 @@ sources:
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-multi_index/1.90.0-a.d+25.10.27.09.17
+      ref: boost-multi_index/1.90.0-a.d+25.11.05.20.16
     - header: true
       public: true
       ref: boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40

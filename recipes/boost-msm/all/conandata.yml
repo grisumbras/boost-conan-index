@@ -714,6 +714,69 @@ sources:
       kind: header-library
       name: msm
     url: https://github.com/boostorg/msm.git
+  1.90.0-a.m+25.11.05.01.27:
+    commit: 8c2c8ab3e9de76d4caa61a7bffcc1959010bbb0a
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.90.0-a.m+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.m+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.90.0-a.m+22.09.12.08.08
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-a.m+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.11.03.13.55
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
+    - header: true
+      public: true
+      ref: boost-phoenix/1.90.0-a.m+23.08.29.14.32
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-proto/1.90.0-a.m+21.03.18.17.30
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.m+23.11.12.21.05
+    - header: true
+      public: true
+      ref: boost-type_index/1.90.0-a.m+25.10.18.15.18
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-a.m+25.06.09.02.44
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: msm
+    url: https://github.com/boostorg/msm.git
   1.90.0-a.m+25.11.05.01.56:
     commit: 235c2c40b3af6a180041dfecc36fcb50d067f1e0
     cxxstd: '03'
