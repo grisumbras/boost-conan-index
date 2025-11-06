@@ -10,8 +10,10 @@ import glob
 import os.path
 import shutil
 from conan import ConanFile
+from conan.errors import ConanException
 from conan.tools.build import check_min_cppstd
 from conan.tools.files import (
+    collect_libs,
     copy,
     load,
     mkdir,
@@ -143,10 +145,8 @@ class BoostPackage():
         ):
             config_dir = os.path.join(libs_dir, 'config')
             boost_config = self.dependencies['boost-config']
-            self.output.info(boost_config.cpp_info.builddirs)
             for src in boost_config.cpp_info.builddirs:
                 if os.path.exists(src):
-                    self.output.info(src)
                     shutil.copytree(src, config_dir)
 
         if 'boost-predef' in self.dependencies.direct_host:
@@ -161,6 +161,24 @@ class BoostPackage():
     def package(self):
         b2 = self.python_requires['b2-tools'].module.B2(self)
         b2.build('conan-install')
+
+        lib_name = self.name[6:]
+        targets_file = os.path.join(
+            self.package_folder, 'share', 'boost', lib_name, 'targets.yml',
+        )
+        actual_targets = yaml.load(load(self, targets_file), yaml.Loader)
+        for target in self._data_cache['targets']:
+            target_name = 'boost_' + target['name']
+            if target_name not in actual_targets:
+                raise ConanException(f'Target {target_name} was not installed')
+
+            actual = actual_targets[target_name]
+            kind = 'library' if actual.get('files', []) else 'header-library'
+            if target['kind'] != kind:
+                raise ConanException(
+                    f'Target {target_name} has the wrong kind\n'
+                    f'  expected: {target["kind"]}, got: {kind}'
+                )
 
     def package_info(self):
         lib_name = self.name[6:]
@@ -193,8 +211,44 @@ class BoostPackage():
             self.cpp_info.set_property(
                 'b2_target_name', f'/boost/{lib_name}//libs',
             )
+
+            found_libs = set(collect_libs(self))
+            targets_file = os.path.join(
+                self.package_folder, 'share', 'boost', lib_name, 'targets.yml',
+            )
+            actual_targets = yaml.load(load(self, targets_file), yaml.Loader)
+            for target in actual_targets.values():
+                files = target.get('files', [])
+                matched_libs = []
+                for lib in found_libs:
+                    for file in files:
+                        if lib in file:
+                            matched_libs.append(lib)
+                            break
+
+                if len(matched_libs) > 1:
+                    preferred_lib = None
+                    max_len = 0
+                    for lib in matched_libs:
+                        cur_len = len(lib)
+                        if cur_len > max_len:
+                            preferred_lib = lib
+                            max_len = cur_len
+                    matched_libs = [preferred_lib]
+
+                if files and not matched_libs:
+                    raise ConanException(
+                        'None of the found libraries matches files:' +
+                        ', '.join(files)
+                    )
+
+                if matched_libs:
+                    found_libs.remove(matched_libs[0])
+                    target['files'] = matched_libs
+
             for tgt in targets:
                 name = tgt['name']
+                actual_target = actual_targets['boost_' + name]
                 comp = self.cpp_info.components[name]
                 comp.bindirs = []
                 comp.set_property('cmake_target_name', 'Boost::' + name)
@@ -203,7 +257,7 @@ class BoostPackage():
                     f'/boost/{lib_name}//boost_{name}',
                 )
                 if tgt['kind'] == 'library':
-                    comp.libs = ['boost_' + name]
+                    comp.libs = actual_target.get('files', [])
                     comp.defines = no_autolink
                 else:
                     comp.libdirs = []
@@ -251,9 +305,11 @@ _boost_install = '''\
 # Conan automatically generated config file
 # DO NOT EDIT MANUALLY, it will be overwritten
 
-import notfile ;
+import print ;
 import project ;
-import targets ;
+import property ;
+import property-set ;
+import regex ;
 import virtual-target ;
 
 rule conan-install ( libraries * )
@@ -264,28 +320,47 @@ rule conan-install ( libraries * )
         return ;
     }
 
-    if $(libraries)
+    for local lib in $(libraries)
     {
-        install conan-install-libraries-unchecked
-            : $(libraries)
+        install conan-install-$(lib)
+            : $(lib)
             : <location>(libdir)
               <install-type>STATIC_LIB
               <install-type>SHARED_LIB
               <install-type>PDB
             ;
-        $(p).mark-target-as-explicit conan-install-libraries-unchecked ;
-        targets.create-metatarget check-files-target-class
-            : $(p)
-            : conan-install-libraries
-            : conan-install-libraries-unchecked
-            : <action>@check-files-installed
+        $(p).mark-target-as-explicit conan-install-$(lib) ;
+
+        generate conan-$(lib)-info
+            : $(lib)
+            : <generating-rule>@conan-target-info
+              <flags>target=$(lib)
             ;
+        $(p).mark-target-as-explicit conan-$(lib)-info ;
     }
-    else
-    {
-        alias conan-install-libraries ;
-    }
-    $(p).mark-target-as-explicit conan-install-libraries ;
+
+    local id = [ $(p).get id ] ;
+
+    local lib_name = [ MATCH /boost/(.*) : $(id) ] ;
+    local lib_name = $(lib_name[1]) ;
+
+    make targets.yml
+        : conan-$(libraries)-info
+        : @make-libraries-info
+        : <flags>project=$(lib_name)
+        ;
+    $(p).mark-target-as-explicit targets.yml ;
+
+    install install-targets-info
+        : targets.yml
+        : <location>"(datarootdir)$(id)"
+        ;
+    $(p).mark-target-as-explicit install-targets-info ;
+
+    alias conan-install-libraries
+        : conan-install-$(libraries)
+          install-targets-info
+        ;
 
     install conan-install-headers
         : [ glob-tree-ex include : *.* ]
@@ -294,7 +369,6 @@ rule conan-install ( libraries * )
         ;
     $(p).mark-target-as-explicit conan-install-headers ;
 
-    local id = [ $(p).get id ] ;
     install conan-install-license
         : [ glob LICENSE* ]
         : <location>"(datarootdir)$(id)"
@@ -318,13 +392,65 @@ rule conan-install ( libraries * )
     $(p).mark-target-as-explicit conan-install ;
 }
 
-rule check-files-installed ( tgt : files * : props * )
+rule conan-target-info ( project name : property-set : sources * )
 {
-    if ! $(files)
+    local target ;
+    for local flag in [ $(property-set).get <flags> ]
     {
-        import errors ;
-        errors.user-error No binaries were installed. ;
+        local match = [ MATCH (.*)=(.*) : $(flag) ] ;
+        if "$(match[1])" = target
+        {
+            if $(sources)
+            {
+                target = $(match[2])/$(sources:J=/) ;
+            }
+            else
+            {
+                target = $(match[2]) ;
+            }
+        }
     }
+
+    return [ property-set.create <flags>target=$(target) ] ;
+}
+
+rule make-libraries-info ( target : : props * )
+{
+    print.output $(target) ;
+
+    local targets ;
+    local project ;
+    for local flag in [ property.select <flags> : $(props) ]
+    {
+        local match = [ MATCH (.*)=(.*) : $(flag:G=) ] ;
+        if "$(match[1])" = target
+        {
+            local target = [ regex.split "$(match[2])" / ] ;
+            local files ;
+            for local src in $(target[2-])
+            {
+                files += [ $(src).name ] ;
+            }
+            files ?= "" ;
+            target = $(target[0]) ;
+            print.text "$(target):" "  files: [$(files:J=,)]" : overwrite ;
+            targets += "$(target)" ;
+        }
+        else
+        {
+            if "$(match[1])" = project
+            {
+                project = "$(match[2])" ;
+            }
+        }
+    }
+
+    if ! ( boost_$(project) in $(targets) )
+    {
+        print.text "boost_$(project):" "  files: []" : overwrite ;
+    }
+
+    print.text "" : overwrite ;
 }
 
 rule boost-library ( id ? : options * : * )
@@ -345,11 +471,6 @@ rule boost-library ( id ? : options * : * )
             conan-install ;
         }
     }
-}
-
-class check-files-target-class : make-target-class
-{
-    rule skip-from-usage-requirements ( ) { }
 }
 
 constant BOOST_JAMROOT_MODULE : $(__name__) ;

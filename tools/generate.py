@@ -145,28 +145,20 @@ def collect_libraries_from_jamfile(lib_dir, lib_name, fs):
 
         targets = [library_name_to_target_name(tgt) for tgt in targets[1:]]
 
-        main_target = []
-        dependency = []
-        if len(targets) > 1:
-            try:
-                lib_index = targets.index(lib_name)
-            except:
-                lib_index = None
-            if lib_index is  not None:
-                del targets[lib_index]
-                dependency = [lib_name]
-                main_target = [{
-                    'name': lib_name,
-                    'kind': 'library',
-                    'dependencies': [],
-                }]
-        return main_target + [
+        main_target = {
+            'name': lib_name,
+            'kind': 'library' if lib_name in targets else 'header-library',
+            'dependencies': [],
+        }
+
+        return [main_target] + [
             {
-                'name': library_name_to_target_name(tgt),
+                'name': target,
                 'kind': 'library',
-                'dependencies': dependency,
+                'dependencies': [lib_name],
             }
-            for tgt in targets
+            for target in targets
+            if target != lib_name
         ]
 
 
@@ -394,9 +386,6 @@ class LibraryProject(Project):
     def _context_exceptions(self, lib_dir, registry):
         self.header = 'boost/context/fiber.hpp'
 
-    def _date_time_exceptions(self, lib_dir, registry):
-        self.targets[0]['kind'] = 'header-library'
-
     def _function_types_exceptions(self, lib_dir, registry):
         self.targets[0]['kind'] = 'header-library'
 
@@ -409,9 +398,6 @@ class LibraryProject(Project):
         for target in self.targets:
             if target['name'] == 'math':
                 target['kind'] = 'header-library'
-
-    def _regex_exceptions(self, lib_dir, registry):
-        self.targets[0]['kind'] = 'header-library'
 
 
 class ToolProject(Project):
