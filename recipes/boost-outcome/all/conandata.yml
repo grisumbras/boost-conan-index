@@ -74,6 +74,30 @@ sources:
       kind: header-library
       name: outcome
     url: https://github.com/boostorg/outcome.git
+  1.90.0-a.d+25.11.06.21.06:
+    commit: 3d3e9f276a4a5dc9d647d632c5ee10118284404d
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: false
+      public: true
+      ref: boost-exception/1.90.0-a.d+25.05.03.03.11
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.d+25.11.02.20.08
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: outcome
+    url: https://github.com/boostorg/outcome.git
   1.90.0-a.m+25.10.09.20.09:
     commit: 6db8850cfeaa4cf30861313f6217b61daaf64a54
     cxxstd: '14'

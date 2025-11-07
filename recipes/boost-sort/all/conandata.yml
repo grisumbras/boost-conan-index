@@ -122,6 +122,30 @@ sources:
       kind: header-library
       name: sort
     url: https://github.com/boostorg/sort.git
+  1.90.0-a.d+25.11.06.21.14:
+    commit: ab77096e2374bb8d97745b0be8d458c4d136bcb7
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.d+25.05.02.19.18
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: sort
+    url: https://github.com/boostorg/sort.git
   1.90.0-a.m+25.09.12.22.39:
     commit: 241945faac206bd42a6d84dd01872280622fff37
     cxxstd: '03'
