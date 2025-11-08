@@ -176,7 +176,7 @@ sources:
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-multi_index/1.90.0-a.d+25.11.05.20.16
+      ref: boost-multi_index/1.90.0-a.d+25.11.07.18.37
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52

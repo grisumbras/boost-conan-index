@@ -124,13 +124,13 @@ sources:
       ref: boost-detail/1.90.0-a.d+25.06.13.00.44
     - header: true
       public: true
-      ref: boost-interprocess/1.90.0-a.d+25.11.05.08.17
+      ref: boost-interprocess/1.90.0-a.d+25.11.07.23.51
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-multi_index/1.90.0-a.d+25.11.05.20.16
+      ref: boost-multi_index/1.90.0-a.d+25.11.07.18.37
     - header: true
       public: true
       ref: boost-parameter/1.90.0-a.d+25.08.25.19.06

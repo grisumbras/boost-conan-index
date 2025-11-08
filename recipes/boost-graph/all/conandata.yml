@@ -328,13 +328,13 @@ sources:
       ref: boost-math/1.90.0-a.d+25.11.03.10.17
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.05.08.17
+      ref: boost-move/1.90.0-a.d+25.11.07.23.51
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-multi_index/1.90.0-a.d+25.11.05.20.16
+      ref: boost-multi_index/1.90.0-a.d+25.11.07.18.37
     - header: true
       public: true
       ref: boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40

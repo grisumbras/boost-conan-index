@@ -510,7 +510,7 @@ sources:
       ref: boost-exception/1.90.0-a.d+25.05.03.03.11
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.d+25.10.01.17.38
+      ref: boost-filesystem/1.90.0-a.d+25.06.15.17.50
     - header: true
       public: true
       ref: boost-function_types/1.90.0-a.d+24.09.18.18.18
@@ -519,13 +519,13 @@ sources:
       ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.11.05.08.17
+      ref: boost-intrusive/1.90.0-a.d+25.11.07.23.52
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.05.08.17
+      ref: boost-move/1.90.0-a.d+25.11.07.23.51
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -591,7 +591,7 @@ sources:
       ref: boost-asio/1.90.0-a.d+25.11.05.23.25
     - header: true
       public: false
-      ref: boost-interprocess/1.90.0-a.d+25.11.05.08.17
+      ref: boost-interprocess/1.90.0-a.d+25.11.07.23.51
     - header: true
       public: false
       ref: boost-io/1.90.0-a.d+25.06.26.11.42
