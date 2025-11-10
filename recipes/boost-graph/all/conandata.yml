@@ -328,7 +328,7 @@ sources:
       ref: boost-math/1.90.0-a.d+25.11.03.10.17
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.07.23.51
+      ref: boost-move/1.90.0-a.d+25.11.09.21.32
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37

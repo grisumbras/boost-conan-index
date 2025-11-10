@@ -100,7 +100,7 @@ sources:
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.07.23.51
+      ref: boost-move/1.90.0-a.d+25.11.09.21.32
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52

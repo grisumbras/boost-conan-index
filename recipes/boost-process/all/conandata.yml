@@ -160,7 +160,7 @@ sources:
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.07.23.51
+      ref: boost-move/1.90.0-a.d+25.11.09.21.32
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
