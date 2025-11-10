@@ -18,7 +18,7 @@ class Boost{{ project.name.title() | replace('_', '') }}Recipe(ConanFile):
     topics = {{project.category}}
 
     settings = 'os', 'compiler', 'build_type', 'arch'
-    options = {'shared': [True, False]}
+    options = {'shared': [True, False], 'disabled_libraries': ['ANY']}
     default_options = {'shared': False}
     python_requires = (
         '{{ project.recipe_tools.conan_ref }}',

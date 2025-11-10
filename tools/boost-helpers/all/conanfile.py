@@ -154,29 +154,35 @@ class BoostPackage():
 
     def build(self):
         b2 = self.python_requires['b2-tools'].module.B2(self)
-        b2.build((
-            'boost_' + tgt['name'] for tgt in self._data_cache['targets']
-        ))
+        b2.build((tgt['name'] for tgt in self._data_cache['targets']))
 
     def package(self):
+        requested = [tgt['name'] for tgt in self._data_cache['libraries']]
+        if requested:
+            args = ['--requested-libraries=' + ','.join([
+                tgt['name'] for tgt in self._data_cache['libraries']
+            ])]
+        else:
+            args = None
+
         b2 = self.python_requires['b2-tools'].module.B2(self)
-        b2.build('conan-install')
+        b2.build('conan-install', args=args)
 
         lib_name = self.name[6:]
         targets_file = os.path.join(
             self.package_folder, 'share', 'boost', lib_name, 'targets.yml',
         )
         actual_targets = yaml.load(load(self, targets_file), yaml.Loader)
-        for target in self._data_cache['targets']:
-            target_name = 'boost_' + target['name']
-            if target_name not in actual_targets:
-                raise ConanException(f'Target {target_name} was not installed')
+        for target in self._data_cache['libraries']:
+            name = target['name']
+            if name not in actual_targets:
+                raise ConanException(f'Target {name} was not installed')
 
-            actual = actual_targets[target_name]
+            actual = actual_targets[name]
             kind = 'library' if actual.get('files', []) else 'header-library'
             if target['kind'] != kind:
                 raise ConanException(
-                    f'Target {target_name} has the wrong kind\n'
+                    f'Target {name} has the wrong kind\n'
                     f'  expected: {target["kind"]}, got: {kind}'
                 )
 
@@ -203,7 +209,7 @@ class BoostPackage():
                 self.cpp_info.libdirs = []
             else:
                 self.cpp_info.libs = [
-                    'boost_' + tgt['name'] for tgt in targets
+                    tgt['name'] for tgt in targets
                     if tgt['kind'] == 'library'
                 ]
                 self.cpp_info.defines = no_autolink
@@ -212,56 +218,28 @@ class BoostPackage():
                 'b2_target_name', f'/boost/{lib_name}//libs',
             )
 
-            found_libs = set(collect_libs(self))
             targets_file = os.path.join(
                 self.package_folder, 'share', 'boost', lib_name, 'targets.yml',
             )
             actual_targets = yaml.load(load(self, targets_file), yaml.Loader)
-            for target in actual_targets.values():
-                files = target.get('files', [])
-                matched_libs = []
-                for lib in found_libs:
-                    for file in files:
-                        if lib in file:
-                            matched_libs.append(lib)
-                            break
-
-                if len(matched_libs) > 1:
-                    preferred_lib = None
-                    max_len = 0
-                    for lib in matched_libs:
-                        cur_len = len(lib)
-                        if cur_len > max_len:
-                            preferred_lib = lib
-                            max_len = cur_len
-                    matched_libs = [preferred_lib]
-
-                if files and not matched_libs:
-                    raise ConanException(
-                        'None of the found libraries matches files:' +
-                        ', '.join(files)
-                    )
-
-                if matched_libs:
-                    found_libs.remove(matched_libs[0])
-                    target['files'] = matched_libs
+            actual_targets = self._filtered_target_files(actual_targets)
 
             for tgt in targets:
                 name = tgt['name']
-                actual_target = actual_targets['boost_' + name]
+                actual_target = actual_targets[name]
                 comp = self.cpp_info.components[name]
                 comp.bindirs = []
-                comp.set_property('cmake_target_name', 'Boost::' + name)
+                comp.set_property('cmake_target_name', 'Boost::' + name[6:])
                 comp.set_property(
                     'b2_target_name',
-                    f'/boost/{lib_name}//boost_{name}',
+                    f'/boost/{lib_name}//{name}',
                 )
                 if tgt['kind'] == 'library':
                     comp.libs = actual_target.get('files', [])
                     comp.defines = no_autolink
                 else:
                     comp.libdirs = []
-                comp.requires = tgt['dependencies']
+                comp.requires = ['boost_' + dep for dep in tgt['dependencies']]
                 for dep in self._data_cache['dependencies']:
                     dep_name = dep['ref'].split('/')[0]
                     comp.requires.append(dep_name + '::' + dep_name)
@@ -269,26 +247,52 @@ class BoostPackage():
     def package_id(self):
         if self._is_header_only:
             self.info.clear()
+        else:
+            self.info.options.rm_safe('disabled_libraries')
+            self.info.libraries = ';'.join([
+                tgt['name'] for tgt in self._data_cache['libraries']
+            ])
 
     @property
     def _data_cache(self):
         result = getattr(self, '_conan_data', None)
         if result is None:
             result = self.conan_data['sources'][self.version]
-            header_only = True
-            for tgt in result['targets']:
-                if tgt['kind'] == 'library':
-                    header_only = False
-                    break
-            result['kind'] = 'header-library' if header_only else 'library'
-            self._conan_data = result
+
+            disabled_libs = str(self.options.disabled_libraries).split(',')
+
+            targets = []
+            libraries = []
+            for target in result['targets']:
+                name = 'boost_' + target['name']
+                target['name'] = name
+                if target['kind'] == 'library':
+                    if name not in disabled_libs:
+                        libraries.append(target)
+                        targets.append(target)
+                else:
+                    targets.append(target)
+
+            if not targets:
+                lib_name = self.name[6:]
+                targets.append({
+                    'name': 'boost_' + lib_name,
+                    'kind': 'header-library',
+                    'dependencies': [],
+                })
+
+            result['targets'] = targets
+            result['libraries'] = libraries
+            result['kind'] = 'library' if libraries else 'header-library'
 
             base = self.python_requires['boost-helpers']
             data = yaml.load(
                 load(self, os.path.join(base.path, 'data.yml')),
                 yaml.Loader,
             )
-            self._conan_data.update(data)
+            result.update(data)
+
+            self._conan_data = result
 
         return result
 
@@ -300,11 +304,46 @@ class BoostPackage():
     def _b2_version(self):
         return self._data_cache['b2_version']
 
+    def _filtered_target_files(self, targets):
+        found_libs = set(collect_libs(self))
+
+        for target in targets.values():
+            files = target.get('files', [])
+            matched_libs = []
+            for lib in found_libs:
+                for file in files:
+                    if lib in file:
+                        matched_libs.append(lib)
+                        break
+
+            if len(matched_libs) > 1:
+                preferred_lib = None
+                max_len = 0
+                for lib in matched_libs:
+                    cur_len = len(lib)
+                    if cur_len > max_len:
+                        preferred_lib = lib
+                        max_len = cur_len
+                matched_libs = [preferred_lib]
+
+            if files and not matched_libs:
+                raise ConanException(
+                    'None of the found libraries matches files:' +
+                    ', '.join(files)
+                )
+
+            if matched_libs:
+                found_libs.remove(matched_libs[0])
+                target['files'] = matched_libs
+
+        return targets
+
 
 _boost_install = '''\
 # Conan automatically generated config file
 # DO NOT EDIT MANUALLY, it will be overwritten
 
+import option ;
 import print ;
 import project ;
 import property ;
@@ -343,6 +382,12 @@ rule conan-install ( libraries * )
 
     local lib_name = [ MATCH /boost/(.*) : $(id) ] ;
     local lib_name = $(lib_name[1]) ;
+
+    local requested = [ option.get requested-libraries ] ;
+    if $(requested)
+    {
+        libraries = [ regex.split $(requested:E=) , ] ;
+    }
 
     make targets.yml
         : conan-$(libraries)-info
@@ -457,11 +502,11 @@ rule boost-library ( id ? : options * : * )
 {
     for n in 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
     {
-        local option = $($(n)) ;
-        if $(option[1]) = install
+        local opt = $($(n)) ;
+        if $(opt[1]) = install
         {
-            conan-install $(option[2-]) ;
-            if $(option[1]) = install
+            conan-install $(opt[2-]) ;
+            if $(opt[1]) = install
             {
                 called-conan-install = true ;
             }
