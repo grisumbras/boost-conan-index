@@ -27,13 +27,12 @@ from jinja2 import Template
 
 
 class B2RecipeToolsRecipe(ConanFile):
-    name = '{{ project.conan_name }}'
+    name = 'b2-tools'
     description = 'Recipe tools for building with B2'
     author = 'Dmitry Arkhipov'
-    url = '{{project.url}}'
+    url = 'https://grisumbras/boost-conan-index'
     license = 'BSL-1.0'
     package_type = 'python-require'
-    version = '{{ project.conan_version }}'
     exports = 'LICENSE_1_0.txt'
 
 
@@ -683,7 +682,6 @@ def _simple_alias_target(project, name, pkg, var):
     }
 
 
-{% raw %}
 _toolchain_template = '''\
 # Conan automatically generated config file
 # DO NOT EDIT MANUALLY, it will be overwritten
@@ -805,4 +803,3 @@ project
 
 {% endfor %}
 '''
-{% endraw %}

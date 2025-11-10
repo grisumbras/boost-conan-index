@@ -1,4 +1,4 @@
-require-b2 {{ project.b2_version }} ;
+require-b2 5.3.0 ;
 
 import testing ;
 

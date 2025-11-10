@@ -452,45 +452,28 @@ class RecipeToolsProject(Project):
         super().__init__('b2-tools')
         self.url = index_url
         self.version = b2_tools_version
-        self.b2_version = b2_version
 
     def collect_data(self, *_):
         pass
 
     def generate_recipe(self, base_dir, template_env, fs):
-        pkg_base_dir = os.path.join(base_dir, 'recipes', 'b2-tools')
-        pkg_dir = os.path.join(pkg_base_dir, 'all')
-        pkg_test_dir = os.path.join(pkg_dir, 'test_package')
-
-        fs.create_path(pkg_test_dir)
+        recipe_dir = os.path.join(base_dir, 'recipes', self.name)
+        fs.copy_tree(
+            os.path.join(os.path.dirname(__file__), self.name),
+            recipe_dir,
+            dirs_exist_ok=True,
+        )
 
         versions = dict()
         versions['versions'] = dict()
         versions['versions'][self.version] = {'folder': 'all'}
-
-        with fs.open(os.path.join(pkg_base_dir, 'config.yml'), 'w') as f:
+        with fs.open(os.path.join(recipe_dir, 'config.yml'), 'w') as f:
             yaml.dump(versions, f)
-
-        template = template_env.get_template('tools.py.jinja')
-        with fs.open(os.path.join(pkg_dir, 'conanfile.py'), 'w') as f:
-            template.stream({ 'project': self }).dump(f)
 
         fs.copy(
             os.path.join(os.path.dirname(__file__), '..', 'LICENSE_1_0.txt'),
-            pkg_dir,
+            recipe_dir,
         )
-
-        template = template_env.get_template('tools_test_conanfile.py.jinja')
-        with fs.open(os.path.join(pkg_test_dir, 'conanfile.py'), 'w') as f:
-            template.stream({ 'project': self }).dump(f)
-
-        template = template_env.get_template('test_jamroot.jam.jinja')
-        with fs.open(os.path.join(pkg_test_dir, 'jamroot.jam'), 'w') as f:
-            template.stream({ 'project': self }).dump(f)
-
-        template = template_env.get_template('tools_test.cpp.jinja')
-        with fs.open(os.path.join(pkg_test_dir, 'test.cpp'), 'w') as f:
-            template.stream({}).dump(f)
 
     def __repr__(self):
         return f'RecipeToolsProject()'
@@ -531,6 +514,10 @@ class HelpersProject(Project):
         with fs.open(os.path.join(recipe_dir, 'all', 'data.yml'), 'w') as f:
             yaml.dump(data, f)
 
+        fs.copy(
+            os.path.join(os.path.dirname(__file__), '..', 'LICENSE_1_0.txt'),
+            recipe_dir,
+        )
 
     def __repr__(self):
         return f'HelpersProject()'
