@@ -30,10 +30,9 @@ class B2RecipeToolsRecipe(ConanFile):
     name = 'b2-tools'
     description = 'Recipe tools for building with B2'
     author = 'Dmitry Arkhipov'
-    url = 'https://github.com/grisumbras/boost-conan-index/'
+    url = 'https://grisumbras/boost-conan-index'
     license = 'BSL-1.0'
     package_type = 'python-require'
-    version = '0.0.1-a'
     exports = 'LICENSE_1_0.txt'
 
 
@@ -681,7 +680,6 @@ def _simple_alias_target(project, name, pkg, var):
         'component': pkg,
         'dependencies': [],
     }
-
 
 
 _toolchain_template = '''\
