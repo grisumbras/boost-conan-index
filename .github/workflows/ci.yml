@@ -80,6 +80,7 @@ jobs:
           for proj in boost-serialization boost-context boost-python b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/linux-${{ matrix.toolset }}.profile \
+                -o "*:disabled_libraries=boost_numpy" \
                 "index/recipes/$proj/all/test_package" \
                 "$proj/[>0-a,include_prerelease]"
           done
@@ -118,6 +119,7 @@ jobs:
           for proj in boost-serialization boost-context boost-python b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/windows-${{ matrix.toolset }}.profile \
+                -o "*:disabled_libraries=boost_numpy" \
                 "index/recipes/$proj/all/test_package" \
                 "$proj/[>0-a,include_prerelease]"
           done
@@ -157,6 +159,7 @@ jobs:
           for proj in boost-serialization boost-context boost-python b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/macos-${{ matrix.toolset }}.profile \
+                -o "*:disabled_libraries=boost_numpy" \
                 "index/recipes/$proj/all/test_package" \
                 "$proj/[>0-a,include_prerelease]"
           done
