@@ -62,13 +62,10 @@ sources:
     - dependencies: []
       kind: library
       name: mpi
-    - dependencies: &id001
+    - dependencies:
       - mpi
       kind: library
       name: mpi_python
-    - dependencies: *id001
-      kind: library
-      name: mpi
     url: https://github.com/boostorg/mpi.git
   1.89.0-b.1:
     commit: c548d5e72617b57b762105dac9f21be3ca00725a
@@ -133,13 +130,10 @@ sources:
     - dependencies: []
       kind: library
       name: mpi
-    - dependencies: &id002
+    - dependencies:
       - mpi
       kind: library
       name: mpi_python
-    - dependencies: *id002
-      kind: library
-      name: mpi
     url: https://github.com/boostorg/mpi.git
   1.90.0-a.d+25.10.13.17.09:
     commit: 39f288dfe2f882199a73a79e3af3c9f5b7ba3503
@@ -204,13 +198,10 @@ sources:
     - dependencies: []
       kind: library
       name: mpi
-    - dependencies: &id003
+    - dependencies:
       - mpi
       kind: library
       name: mpi_python
-    - dependencies: *id003
-      kind: library
-      name: mpi
     url: https://github.com/boostorg/mpi.git
   1.90.0-a.m+25.04.17.17.55:
     commit: b5733ba6f93671c696be707e13e8b2662c1e45e2
@@ -275,11 +266,8 @@ sources:
     - dependencies: []
       kind: library
       name: mpi
-    - dependencies: &id004
+    - dependencies:
       - mpi
       kind: library
       name: mpi_python
-    - dependencies: *id004
-      kind: library
-      name: mpi
     url: https://github.com/boostorg/mpi.git

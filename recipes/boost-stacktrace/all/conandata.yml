@@ -23,25 +23,35 @@ sources:
       ref: boost-assert/1.89.0
     kind: library
     targets:
-    - dependencies: &id001 []
+    - dependencies: []
+      kind: header-library
+      name: stacktrace
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_addr2line
-    - dependencies: *id001
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_backtrace
-    - dependencies: *id001
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_basic
-    - dependencies: *id001
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_from_exception
-    - dependencies: *id001
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_noop
-    - dependencies: *id001
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_windbg
-    - dependencies: *id001
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git
@@ -69,25 +79,35 @@ sources:
       ref: boost-assert/1.89.0-b.1
     kind: library
     targets:
-    - dependencies: &id002 []
+    - dependencies: []
+      kind: header-library
+      name: stacktrace
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_addr2line
-    - dependencies: *id002
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_backtrace
-    - dependencies: *id002
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_basic
-    - dependencies: *id002
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_from_exception
-    - dependencies: *id002
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_noop
-    - dependencies: *id002
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_windbg
-    - dependencies: *id002
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git
@@ -115,25 +135,25 @@ sources:
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     kind: library
     targets:
-    - dependencies: &id003 []
+    - dependencies: &id001 []
       kind: library
       name: stacktrace_addr2line
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: stacktrace_backtrace
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: stacktrace_basic
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: stacktrace_from_exception
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: stacktrace_noop
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: stacktrace_windbg
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git
@@ -160,25 +180,35 @@ sources:
       public: false
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     targets:
-    - dependencies: &id004 []
+    - dependencies: []
+      kind: header-library
+      name: stacktrace
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_addr2line
-    - dependencies: *id004
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_backtrace
-    - dependencies: *id004
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_basic
-    - dependencies: *id004
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_from_exception
-    - dependencies: *id004
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_noop
-    - dependencies: *id004
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_windbg
-    - dependencies: *id004
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git
@@ -206,25 +236,25 @@ sources:
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     kind: library
     targets:
-    - dependencies: &id005 []
+    - dependencies: &id002 []
       kind: library
       name: stacktrace_addr2line
-    - dependencies: *id005
+    - dependencies: *id002
       kind: library
       name: stacktrace_backtrace
-    - dependencies: *id005
+    - dependencies: *id002
       kind: library
       name: stacktrace_basic
-    - dependencies: *id005
+    - dependencies: *id002
       kind: library
       name: stacktrace_from_exception
-    - dependencies: *id005
+    - dependencies: *id002
       kind: library
       name: stacktrace_noop
-    - dependencies: *id005
+    - dependencies: *id002
       kind: library
       name: stacktrace_windbg
-    - dependencies: *id005
+    - dependencies: *id002
       kind: library
       name: stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git
@@ -251,25 +281,35 @@ sources:
       public: false
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     targets:
-    - dependencies: &id006 []
+    - dependencies: []
+      kind: header-library
+      name: stacktrace
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_addr2line
-    - dependencies: *id006
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_backtrace
-    - dependencies: *id006
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_basic
-    - dependencies: *id006
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_from_exception
-    - dependencies: *id006
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_noop
-    - dependencies: *id006
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_windbg
-    - dependencies: *id006
+    - dependencies:
+      - stacktrace
       kind: library
       name: stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git

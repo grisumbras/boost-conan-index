@@ -126,7 +126,7 @@ sources:
     - header: true
       public: true
       ref: boost-xpressive/1.89.0
-    - header: true
+    - header: false
       public: false
       ref: boost-regex/1.89.0
     kind: library
@@ -262,7 +262,7 @@ sources:
     - header: true
       public: true
       ref: boost-xpressive/1.89.0-b.1
-    - header: true
+    - header: false
       public: false
       ref: boost-regex/1.89.0-b.1
     kind: library
@@ -395,7 +395,7 @@ sources:
     - header: true
       public: true
       ref: boost-xpressive/1.90.0-a.d+25.05.02.19.26
-    - header: true
+    - header: false
       public: false
       ref: boost-regex/1.90.0-a.d+25.07.04.20.20
     kind: library
@@ -531,7 +531,7 @@ sources:
     - header: true
       public: true
       ref: boost-xpressive/1.90.0-a.m+24.09.27.20.36
-    - header: true
+    - header: false
       public: false
       ref: boost-regex/1.90.0-a.m+25.07.04.17.16
     kind: library

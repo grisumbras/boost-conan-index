@@ -38,23 +38,28 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id001
+    - dependencies:
       - math
       kind: library
       name: math_c99
-    - dependencies: *id001
+    - dependencies:
+      - math
       kind: library
       name: math_c99f
-    - dependencies: *id001
+    - dependencies:
+      - math
       kind: library
       name: math_c99l
-    - dependencies: *id001
+    - dependencies:
+      - math
       kind: library
       name: math_tr1
-    - dependencies: *id001
+    - dependencies:
+      - math
       kind: library
       name: math_tr1f
-    - dependencies: *id001
+    - dependencies:
+      - math
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
@@ -97,23 +102,28 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id002
+    - dependencies:
       - math
       kind: library
       name: math_c99
-    - dependencies: *id002
+    - dependencies:
+      - math
       kind: library
       name: math_c99f
-    - dependencies: *id002
+    - dependencies:
+      - math
       kind: library
       name: math_c99l
-    - dependencies: *id002
+    - dependencies:
+      - math
       kind: library
       name: math_tr1
-    - dependencies: *id002
+    - dependencies:
+      - math
       kind: library
       name: math_tr1f
-    - dependencies: *id002
+    - dependencies:
+      - math
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
@@ -159,23 +169,23 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id003
+    - dependencies: &id001
       - math
       kind: library
       name: math_c99
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: math_c99f
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: math_c99l
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: math_tr1
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: math_tr1f
-    - dependencies: *id003
+    - dependencies: *id001
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
@@ -220,23 +230,23 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id004
+    - dependencies: &id002
       - math
       kind: library
       name: math_c99
-    - dependencies: *id004
+    - dependencies: *id002
       kind: library
       name: math_c99f
-    - dependencies: *id004
+    - dependencies: *id002
       kind: library
       name: math_c99l
-    - dependencies: *id004
+    - dependencies: *id002
       kind: library
       name: math_tr1
-    - dependencies: *id004
+    - dependencies: *id002
       kind: library
       name: math_tr1f
-    - dependencies: *id004
+    - dependencies: *id002
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
@@ -278,23 +288,23 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id005
+    - dependencies: &id003
       - math
       kind: library
       name: math_c99
-    - dependencies: *id005
+    - dependencies: *id003
       kind: library
       name: math_c99f
-    - dependencies: *id005
+    - dependencies: *id003
       kind: library
       name: math_c99l
-    - dependencies: *id005
+    - dependencies: *id003
       kind: library
       name: math_tr1
-    - dependencies: *id005
+    - dependencies: *id003
       kind: library
       name: math_tr1f
-    - dependencies: *id005
+    - dependencies: *id003
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
@@ -336,23 +346,28 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id006
+    - dependencies:
       - math
       kind: library
       name: math_c99
-    - dependencies: *id006
+    - dependencies:
+      - math
       kind: library
       name: math_c99f
-    - dependencies: *id006
+    - dependencies:
+      - math
       kind: library
       name: math_c99l
-    - dependencies: *id006
+    - dependencies:
+      - math
       kind: library
       name: math_tr1
-    - dependencies: *id006
+    - dependencies:
+      - math
       kind: library
       name: math_tr1f
-    - dependencies: *id006
+    - dependencies:
+      - math
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
@@ -395,23 +410,23 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id007
+    - dependencies: &id004
       - math
       kind: library
       name: math_c99
-    - dependencies: *id007
+    - dependencies: *id004
       kind: library
       name: math_c99f
-    - dependencies: *id007
+    - dependencies: *id004
       kind: library
       name: math_c99l
-    - dependencies: *id007
+    - dependencies: *id004
       kind: library
       name: math_tr1
-    - dependencies: *id007
+    - dependencies: *id004
       kind: library
       name: math_tr1f
-    - dependencies: *id007
+    - dependencies: *id004
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
@@ -456,23 +471,23 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id008
+    - dependencies: &id005
       - math
       kind: library
       name: math_c99
-    - dependencies: *id008
+    - dependencies: *id005
       kind: library
       name: math_c99f
-    - dependencies: *id008
+    - dependencies: *id005
       kind: library
       name: math_c99l
-    - dependencies: *id008
+    - dependencies: *id005
       kind: library
       name: math_tr1
-    - dependencies: *id008
+    - dependencies: *id005
       kind: library
       name: math_tr1f
-    - dependencies: *id008
+    - dependencies: *id005
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git
@@ -514,23 +529,28 @@ sources:
     - dependencies: []
       kind: header-library
       name: math
-    - dependencies: &id009
+    - dependencies:
       - math
       kind: library
       name: math_c99
-    - dependencies: *id009
+    - dependencies:
+      - math
       kind: library
       name: math_c99f
-    - dependencies: *id009
+    - dependencies:
+      - math
       kind: library
       name: math_c99l
-    - dependencies: *id009
+    - dependencies:
+      - math
       kind: library
       name: math_tr1
-    - dependencies: *id009
+    - dependencies:
+      - math
       kind: library
       name: math_tr1f
-    - dependencies: *id009
+    - dependencies:
+      - math
       kind: library
       name: math_tr1l
     url: https://github.com/boostorg/math.git

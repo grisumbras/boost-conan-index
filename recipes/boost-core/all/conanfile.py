@@ -11,7 +11,7 @@ class BoostCoreRecipe(ConanFile):
     topics = ['Miscellaneous']
 
     settings = 'os', 'compiler', 'build_type', 'arch'
-    options = {'shared': [True, False]}
+    options = {'shared': [True, False], 'disabled_libraries': ['ANY']}
     default_options = {'shared': False}
     python_requires = (
         'b2-tools/0.0.1-a',

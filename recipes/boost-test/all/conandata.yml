@@ -325,13 +325,19 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     targets:
-    - dependencies: &id003 []
+    - dependencies: []
+      kind: header-library
+      name: test
+    - dependencies:
+      - test
       kind: library
       name: prg_exec_monitor
-    - dependencies: *id003
+    - dependencies:
+      - test
       kind: library
       name: test_exec_monitor
-    - dependencies: *id003
+    - dependencies:
+      - test
       kind: library
       name: unit_test_framework
     url: https://github.com/boostorg/test.git
@@ -458,13 +464,13 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     targets:
-    - dependencies: &id004 []
+    - dependencies: &id003 []
       kind: library
       name: prg_exec_monitor
-    - dependencies: *id004
+    - dependencies: *id003
       kind: library
       name: test_exec_monitor
-    - dependencies: *id004
+    - dependencies: *id003
       kind: library
       name: unit_test_framework
     url: https://github.com/boostorg/test.git
@@ -527,13 +533,19 @@ sources:
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
     targets:
-    - dependencies: &id005 []
+    - dependencies: []
+      kind: header-library
+      name: test
+    - dependencies:
+      - test
       kind: library
       name: prg_exec_monitor
-    - dependencies: *id005
+    - dependencies:
+      - test
       kind: library
       name: test_exec_monitor
-    - dependencies: *id005
+    - dependencies:
+      - test
       kind: library
       name: unit_test_framework
     url: https://github.com/boostorg/test.git

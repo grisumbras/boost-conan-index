@@ -359,7 +359,7 @@ class B2(object):
 
         self.build_request = _collect_variations(conanfile)
 
-    def build(self, target=None):
+    def build(self, target=None, args=[]):
         cmd = 'b2'
         if target:
             if isinstance(target, collections.abc.Iterable):
@@ -383,6 +383,9 @@ class B2(object):
         for feature, value in self.build_request.items():
             if value:
                 cmd += f' {feature}="{value}"'
+
+        if args:
+            cmd += ' ' + ' '.join(args)
 
         with chdir(self, self.source_folder):
             self._conanfile.run(cmd)

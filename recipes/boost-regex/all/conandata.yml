@@ -33,7 +33,7 @@ sources:
     kind: header-library
     targets:
     - dependencies: []
-      kind: header-library
+      kind: library
       name: regex
     url: https://github.com/boostorg/regex.git
   1.89.0-b.1:
@@ -70,7 +70,7 @@ sources:
     kind: header-library
     targets:
     - dependencies: []
-      kind: header-library
+      kind: library
       name: regex
     url: https://github.com/boostorg/regex.git
   1.90.0-a.d+25.07.04.20.20:
@@ -108,6 +108,10 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
+      name: regex
+    - dependencies:
+      - regex
+      kind: library
       name: regex_old
     url: https://github.com/boostorg/regex.git
   1.90.0-a.m+25.07.04.17.16:
@@ -144,6 +148,6 @@ sources:
     kind: header-library
     targets:
     - dependencies: []
-      kind: header-library
+      kind: library
       name: regex
     url: https://github.com/boostorg/regex.git

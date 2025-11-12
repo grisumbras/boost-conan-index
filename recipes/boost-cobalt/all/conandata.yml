@@ -330,11 +330,12 @@ sources:
     - dependencies: []
       kind: library
       name: cobalt
-    - dependencies: &id003
+    - dependencies:
       - cobalt
       kind: library
       name: cobalt_io
-    - dependencies: *id003
+    - dependencies:
+      - cobalt
       kind: library
       name: cobalt_io_ssl
     url: https://github.com/boostorg/cobalt.git
@@ -456,11 +457,11 @@ sources:
     - dependencies: []
       kind: library
       name: cobalt
-    - dependencies: &id004
+    - dependencies: &id003
       - cobalt
       kind: library
       name: cobalt_io
-    - dependencies: *id004
+    - dependencies: *id003
       kind: library
       name: cobalt_io_ssl
     url: https://github.com/boostorg/cobalt.git
@@ -520,11 +521,12 @@ sources:
     - dependencies: []
       kind: library
       name: cobalt
-    - dependencies: &id005
+    - dependencies:
       - cobalt
       kind: library
       name: cobalt_io
-    - dependencies: *id005
+    - dependencies:
+      - cobalt
       kind: library
       name: cobalt_io_ssl
     url: https://github.com/boostorg/cobalt.git
