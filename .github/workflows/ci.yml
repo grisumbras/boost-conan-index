@@ -66,6 +66,10 @@ jobs:
           name: index-${{ matrix.boost-ref }}
           path: index
 
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.9'
+
       - name: Setup Conan
         run: |
           set -ex
@@ -104,6 +108,10 @@ jobs:
         with:
           name: index-${{ matrix.boost-ref }}
           path: index
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.9'
 
       - name: Setup Conan
         run: |
@@ -144,6 +152,10 @@ jobs:
         with:
           name: index-${{ matrix.boost-ref }}
           path: index
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.9'
 
       - name: Setup Conan
         run: |
