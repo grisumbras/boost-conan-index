@@ -187,7 +187,7 @@ sources:
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.09.21.32
+      ref: boost-move/1.90.0-a.d+25.11.11.23.00
     - header: true
       public: true
       ref: boost-mp11/1.90.0-a.d+25.11.03.13.55

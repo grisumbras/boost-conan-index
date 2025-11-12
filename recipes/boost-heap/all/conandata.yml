@@ -97,7 +97,7 @@ sources:
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.11.07.23.52
+      ref: boost-intrusive/1.90.0-a.d+25.11.11.22.59
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.d+25.08.25.19.05

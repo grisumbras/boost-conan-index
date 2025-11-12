@@ -328,7 +328,7 @@ sources:
       ref: boost-math/1.90.0-a.d+25.11.03.10.17
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.09.21.32
+      ref: boost-move/1.90.0-a.d+25.11.11.23.00
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -355,7 +355,7 @@ sources:
       ref: boost-property_tree/1.90.0-a.d+25.06.30.13.56
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.d+25.10.29.19.18
+      ref: boost-random/1.90.0-a.d+25.11.12.11.25
     - header: true
       public: true
       ref: boost-range/1.90.0-a.d+25.05.02.19.18
