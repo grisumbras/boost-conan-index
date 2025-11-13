@@ -9,10 +9,17 @@ find_package(boost-{{ project.name }} CONFIG REQUIRED)
 add_executable(test_program test.cpp)
 target_link_libraries(test_program Boost::{{ project.name }})
 
-if("{{ project.name }}" STREQUAL python)
-    find_package(Python COMPONENTS Development REQUIRED)
-    target_link_libraries(test_program Python::Python)
-endif()
+{% if project.name == 'python' %}
+
+find_package(Python COMPONENTS Development REQUIRED)
+target_link_libraries(test_program Python::Python)
+
+{% elif project.name  == 'mpi' %}
+
+find_package(MPI COMPONENTS CXX REQUIRED)
+target_link_libraries(test_program MPI::MPI_CXX)
+
+{% endif %}
 
 include(CTest)
 add_test(NAME test COMMAND test_program)
