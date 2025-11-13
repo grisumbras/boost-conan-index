@@ -128,6 +128,8 @@ class BoostPackage():
         b2_gens = self.python_requires['b2-tools'].module
 
         tc = b2_gens.B2Toolchain(self)
+        if self.name == 'boost-mpi':
+            tc.using('mpi')
         tc.generate()
 
         deps = b2_gens.B2Deps(self)
