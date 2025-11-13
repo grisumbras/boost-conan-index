@@ -12,16 +12,18 @@ class BoostAssignTestConan(ConanFile):
     def requirements(self):
         self.requires(self.tested_reference_str)
 
-    def build(self):
+    def generate(self):
         cmake = CMake(self)
         cmake.configure()
+
+    def build(self):
+        cmake = CMake(self)
         cmake.build()
 
     def layout(self):
         cmake_layout(self)
 
     def test(self):
-        if not can_run(self):
-            return
-        cmd = os.path.join(self.cpp.build.bindir, 'test')
-        self.run(cmd, env="conanrun")
+        if can_run(self):
+            cmake = CMake(self)
+            cmake.test()

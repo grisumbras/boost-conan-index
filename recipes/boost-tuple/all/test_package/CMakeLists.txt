@@ -6,5 +6,13 @@ set(Boost_USE_STATIC_LIBS ON)
 set(Boost_ARCHITECTURE)
 find_package(boost-tuple CONFIG REQUIRED)
 
-add_executable(test test.cpp)
-target_link_libraries(test Boost::tuple)
+add_executable(test_program test.cpp)
+target_link_libraries(test_program Boost::tuple)
+
+if("tuple" STREQUAL python)
+    find_package(Python COMPONENTS Development REQUIRED)
+    target_link_libraries(test_program Python::Python)
+endif()
+
+include(CTest)
+add_test(NAME test COMMAND test_program)

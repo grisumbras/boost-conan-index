@@ -6,5 +6,13 @@ set(Boost_USE_STATIC_LIBS ON)
 set(Boost_ARCHITECTURE)
 find_package(boost-range CONFIG REQUIRED)
 
-add_executable(test test.cpp)
-target_link_libraries(test Boost::range)
+add_executable(test_program test.cpp)
+target_link_libraries(test_program Boost::range)
+
+if("range" STREQUAL python)
+    find_package(Python COMPONENTS Development REQUIRED)
+    target_link_libraries(test_program Python::Python)
+endif()
+
+include(CTest)
+add_test(NAME test COMMAND test_program)

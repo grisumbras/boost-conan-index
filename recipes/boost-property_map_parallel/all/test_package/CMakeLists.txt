@@ -6,5 +6,13 @@ set(Boost_USE_STATIC_LIBS ON)
 set(Boost_ARCHITECTURE)
 find_package(boost-property_map_parallel CONFIG REQUIRED)
 
-add_executable(test test.cpp)
-target_link_libraries(test Boost::property_map_parallel)
+add_executable(test_program test.cpp)
+target_link_libraries(test_program Boost::property_map_parallel)
+
+if("property_map_parallel" STREQUAL python)
+    find_package(Python COMPONENTS Development REQUIRED)
+    target_link_libraries(test_program Python::Python)
+endif()
+
+include(CTest)
+add_test(NAME test COMMAND test_program)
