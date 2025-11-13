@@ -239,7 +239,7 @@ class BoostPackage():
                     comp.defines = no_autolink
                 else:
                     comp.libdirs = []
-                comp.requires = ['boost_' + dep for dep in tgt['dependencies']]
+                comp.requires = [dep for dep in tgt['dependencies']]
                 for dep in self._data_cache['dependencies']:
                     dep_name = dep['ref'].split('/')[0]
                     comp.requires.append(dep_name + '::' + dep_name)
@@ -264,8 +264,7 @@ class BoostPackage():
             targets = []
             libraries = []
             for target in result['targets']:
-                name = 'boost_' + target['name']
-                target['name'] = name
+                name = target['name']
                 if target['kind'] == 'library':
                     if name not in disabled_libs:
                         libraries.append(target)
@@ -274,9 +273,8 @@ class BoostPackage():
                     targets.append(target)
 
             if not targets:
-                lib_name = self.name[6:]
                 targets.append({
-                    'name': 'boost_' + lib_name,
+                    'name': 'boost_' + self.name[6:],
                     'kind': 'header-library',
                     'dependencies': [],
                 })
