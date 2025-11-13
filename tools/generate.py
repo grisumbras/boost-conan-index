@@ -110,10 +110,17 @@ def parse_args(argv):
     return parser.parse_args(argv[1:])
 
 
-def library_name_to_target_name(name):
-    if name.startswith('boost_'):
-        name = name[6:]
-    return name
+def collect_libraries(lib_dir, lib_name, fs):
+    lib_name = 'boost_' + lib_name
+    return collect_libraries_from_jamfile(lib_dir, lib_name, fs) or [{
+        'name': lib_name,
+        'dependencies': [],
+        'kind': (
+            'library'
+            if fs.exists(os.path.join(lib_dir, 'build'))
+            else 'header-library'
+        ),
+    }]
 
 
 def collect_libraries_from_jamfile(lib_dir, lib_name, fs):
@@ -143,7 +150,7 @@ def collect_libraries_from_jamfile(lib_dir, lib_name, fs):
         if len(targets) < 2 or targets[0] != 'install':
             return []
 
-        targets = [library_name_to_target_name(tgt) for tgt in targets[1:]]
+        targets = [tgt for tgt in targets[1:]]
 
         main_target = {
             'name': lib_name,
@@ -295,18 +302,7 @@ class LibraryProject(Project):
                     setattr(self, k, v)
 
             self.header = self._locate_header(lib, fs)
-
-            self.targets = collect_libraries_from_jamfile(lib, self.name, fs)
-            if not self.targets:
-                target = {
-                    'name': self.name,
-                    'dependencies': [],
-                    'kind': 'header-library',
-                }
-                if fs.exists(os.path.join(lib, 'build')):
-                    target['kind'] = 'library'
-                self.targets = [target]
-
+            self.targets = collect_libraries(lib, self.name, fs)
             self.dependencies = depinst(self, lib, registry)
 
             exceptions_func = getattr(self, f'_{self.name}_exceptions', None)
@@ -396,7 +392,7 @@ class LibraryProject(Project):
 
     def _math_exceptions(self, lib_dir, registry):
         for target in self.targets:
-            if target['name'] == 'math':
+            if target['name'] == 'boost_math':
                 target['kind'] = 'header-library'
 
 
