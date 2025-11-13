@@ -395,6 +395,9 @@ class LibraryProject(Project):
             if target['name'] == 'boost_math':
                 target['kind'] = 'header-library'
 
+    def _mpi_exceptions(self, lib_dir, registry):
+        self.targets = [tgt for tgt in self.targets if tgt['name'] != 'mpi']
+
 
 class ToolProject(Project):
     def __init__(self, name, path, url, superproject, tools, helpers, git):
