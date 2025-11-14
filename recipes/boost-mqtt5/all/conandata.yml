@@ -326,7 +326,7 @@ sources:
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-beast/1.90.0-a.d+25.11.05.18.20
+      ref: boost-beast/1.90.0-a.d+25.11.13.19.36
     - header: false
       public: true
       ref: boost-container/1.90.0-a.d+25.11.11.22.59

@@ -124,7 +124,7 @@ sources:
       ref: boost-detail/1.90.0-a.d+25.06.13.00.44
     - header: true
       public: true
-      ref: boost-interprocess/1.90.0-a.d+25.11.12.23.07
+      ref: boost-interprocess/1.90.0-a.d+25.11.13.23.33
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
