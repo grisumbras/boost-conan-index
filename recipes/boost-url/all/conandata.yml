@@ -395,7 +395,7 @@ sources:
       ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
     - header: true
       public: false
-      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.d+25.11.14.21.06
     targets:
     - dependencies: []
       kind: library

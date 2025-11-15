@@ -91,7 +91,7 @@ sources:
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.d+25.11.14.21.06
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19

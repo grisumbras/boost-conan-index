@@ -359,7 +359,7 @@ sources:
       ref: boost-integer/1.90.0-a.d+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+      ref: boost-iterator/1.90.0-a.d+25.11.14.03.49
     - header: true
       public: true
       ref: boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
@@ -401,7 +401,7 @@ sources:
       ref: boost-thread/1.90.0-a.d+25.05.02.19.21
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.d+25.11.14.21.06
     - header: true
       public: true
       ref: boost-tokenizer/1.90.0-a.d+25.07.02.17.31

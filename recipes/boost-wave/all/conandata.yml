@@ -224,7 +224,7 @@ sources:
       ref: boost-format/1.90.0-a.d+25.06.26.19.58
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+      ref: boost-iterator/1.90.0-a.d+25.11.14.03.49
     - header: true
       public: true
       ref: boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
@@ -248,7 +248,7 @@ sources:
       ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
+      ref: boost-smart_ptr/1.90.0-a.d+25.11.14.16.11
     - header: true
       public: true
       ref: boost-spirit/1.90.0-a.d+25.10.06.20.36
@@ -257,7 +257,7 @@ sources:
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.d+25.11.14.21.06
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19

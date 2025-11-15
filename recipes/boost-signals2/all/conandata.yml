@@ -136,7 +136,7 @@ sources:
       ref: boost-function/1.90.0-a.d+24.12.14.04.39
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+      ref: boost-iterator/1.90.0-a.d+25.11.14.03.49
     - header: true
       public: true
       ref: boost-move/1.90.0-a.d+25.11.11.23.00
@@ -154,10 +154,10 @@ sources:
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.10.29.17.15
+      ref: boost-smart_ptr/1.90.0-a.d+25.11.14.16.11
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.d+25.11.14.21.06
     - header: true
       public: true
       ref: boost-tuple/1.90.0-a.d+25.06.09.02.57

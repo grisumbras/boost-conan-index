@@ -100,7 +100,7 @@ sources:
       ref: boost-intrusive/1.90.0-a.d+25.11.11.22.59
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.08.25.19.05
+      ref: boost-iterator/1.90.0-a.d+25.11.14.03.49
     - header: true
       public: true
       ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
@@ -109,7 +109,7 @@ sources:
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.d+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.d+25.11.14.21.06
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
