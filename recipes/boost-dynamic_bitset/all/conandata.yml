@@ -206,7 +206,7 @@ sources:
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.d+25.11.14.21.06
+      ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
     targets:
     - dependencies: []
       kind: header-library

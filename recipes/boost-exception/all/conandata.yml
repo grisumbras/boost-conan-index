@@ -79,7 +79,7 @@ sources:
       ref: boost-smart_ptr/1.90.0-a.d+25.11.14.16.11
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.d+25.11.14.21.06
+      ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
     - header: true
       public: true
       ref: boost-tuple/1.90.0-a.d+25.06.09.02.57

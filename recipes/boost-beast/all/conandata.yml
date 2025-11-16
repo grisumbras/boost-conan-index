@@ -467,7 +467,7 @@ sources:
       ref: boost-system/1.90.0-a.d+25.11.02.20.08
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.d+25.11.14.21.06
+      ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
     - header: true
       public: true
       ref: boost-type_index/1.90.0-a.d+25.10.18.15.18
