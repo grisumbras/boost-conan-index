@@ -156,16 +156,13 @@ class BoostPackage():
 
     def build(self):
         b2 = self.python_requires['b2-tools'].module.B2(self)
-        b2.build((tgt['name'] for tgt in self._data_cache['targets']))
+        libs = [tgt['name'] for tgt in self._data_cache['libraries']]
+        if libs:
+            b2.build(libs)
 
     def package(self):
         requested = [tgt['name'] for tgt in self._data_cache['libraries']]
-        if requested:
-            args = ['--requested-libraries=' + ','.join([
-                tgt['name'] for tgt in self._data_cache['libraries']
-            ])]
-        else:
-            args = None
+        args = ['--requested-libraries=' + ','.join(requested)]
 
         b2 = self.python_requires['b2-tools'].module.B2(self)
         b2.build('conan-install', args=args)
@@ -387,6 +384,10 @@ rule conan-install ( libraries * )
     if $(requested)
     {
         libraries = [ regex.split $(requested:E=) , ] ;
+    }
+    else
+    {
+        libraries = ;
     }
 
     make targets.yml
