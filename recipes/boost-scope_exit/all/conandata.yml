@@ -22,7 +22,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: scope_exit
+      name: boost_scope_exit
     url: https://github.com/boostorg/scope_exit.git
   1.89.0-b.1:
     commit: 60baaae454b2da887a31cf939e22015b6263c9e4
@@ -47,7 +47,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: scope_exit
+      name: boost_scope_exit
     url: https://github.com/boostorg/scope_exit.git
   1.90.0-a.d+25.05.02.19.19:
     commit: 5450074da7f1d338eb5774b245bd7a255f92680e
@@ -72,7 +72,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: scope_exit
+      name: boost_scope_exit
     url: https://github.com/boostorg/scope_exit.git
   1.90.0-a.m+21.05.28.00.21:
     commit: 60baaae454b2da887a31cf939e22015b6263c9e4
@@ -97,5 +97,29 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: scope_exit
+      name: boost_scope_exit
+    url: https://github.com/boostorg/scope_exit.git
+  1.90.0-b.1:
+    commit: 60baaae454b2da887a31cf939e22015b6263c9e4
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope_exit
     url: https://github.com/boostorg/scope_exit.git

@@ -25,7 +25,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: bloom
+      name: boost_bloom
     url: https://github.com/boostorg/bloom.git
   1.89.0-b.1:
     commit: 42ac5003f8742981a9731ae443a99be6b8fa23bc
@@ -53,7 +53,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: bloom
+      name: boost_bloom
     url: https://github.com/boostorg/bloom.git
   1.90.0-a.d+25.10.15.01.40:
     commit: 8a16729b4401332fce89ff4e12df4387cd6e645a
@@ -105,7 +105,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: bloom
+      name: boost_bloom
     url: https://github.com/boostorg/bloom.git
   1.90.0-a.m+25.09.30.20.11:
     commit: 5b9069a1471e3892ad6359e9f3f0b4fcbab5f40a
@@ -160,5 +160,32 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: bloom
+      name: boost_bloom
+    url: https://github.com/boostorg/bloom.git
+  1.90.0-b.1:
+    commit: 7eda52eec0f44cb9936393568e58891376cc9ccf
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_bloom
     url: https://github.com/boostorg/bloom.git

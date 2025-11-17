@@ -22,7 +22,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: tti
+      name: boost_tti
     url: https://github.com/boostorg/tti.git
   1.89.0-b.1:
     commit: 03734c54a51b6372ac3296d2fe5103b7360bcd3f
@@ -47,7 +47,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: tti
+      name: boost_tti
     url: https://github.com/boostorg/tti.git
   1.90.0-a.d+25.05.02.19.22:
     commit: da15e744519fd54fb0641e23042dd69bee75d12c
@@ -72,7 +72,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: tti
+      name: boost_tti
     url: https://github.com/boostorg/tti.git
   1.90.0-a.m+21.05.28.00.26:
     commit: 03734c54a51b6372ac3296d2fe5103b7360bcd3f
@@ -97,5 +97,29 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: tti
+      name: boost_tti
+    url: https://github.com/boostorg/tti.git
+  1.90.0-b.1:
+    commit: 03734c54a51b6372ac3296d2fe5103b7360bcd3f
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function_types/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_tti
     url: https://github.com/boostorg/tti.git

@@ -61,7 +61,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: test
+      name: boost_test
     url: https://github.com/boostorg/test.git
   1.89.0-b.1:
     commit: cfd3a7e8749752f5a9d20266c1fc7afdb9b1e173
@@ -125,7 +125,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: test
+      name: boost_test
     url: https://github.com/boostorg/test.git
   1.90.0-a.d+25.10.02.08.37:
     commit: 98f4db50606877576e6b4eb0fe23c88becc392f6
@@ -327,19 +327,19 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: test
+      name: boost_test
     - dependencies:
-      - test
+      - boost_test
       kind: library
-      name: prg_exec_monitor
+      name: boost_prg_exec_monitor
     - dependencies:
-      - test
+      - boost_test
       kind: library
-      name: test_exec_monitor
+      name: boost_test_exec_monitor
     - dependencies:
-      - test
+      - boost_test
       kind: library
-      name: unit_test_framework
+      name: boost_unit_test_framework
     url: https://github.com/boostorg/test.git
   1.90.0-a.m+25.02.24.11.42:
     commit: cfd3a7e8749752f5a9d20266c1fc7afdb9b1e173
@@ -535,17 +535,92 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: test
+      name: boost_test
     - dependencies:
-      - test
+      - boost_test
       kind: library
-      name: prg_exec_monitor
+      name: boost_prg_exec_monitor
     - dependencies:
-      - test
+      - boost_test
       kind: library
-      name: test_exec_monitor
+      name: boost_test_exec_monitor
     - dependencies:
-      - test
+      - boost_test
       kind: library
-      name: unit_test_framework
+      name: boost_unit_test_framework
+    url: https://github.com/boostorg/test.git
+  1.90.0-b.1:
+    commit: 0cba5d6cd973e544c6121072d426522d5be47a13
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-io/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_test
+    - dependencies:
+      - boost_test
+      kind: library
+      name: boost_prg_exec_monitor
+    - dependencies:
+      - boost_test
+      kind: library
+      name: boost_test_exec_monitor
+    - dependencies:
+      - boost_test
+      kind: library
+      name: boost_unit_test_framework
     url: https://github.com/boostorg/test.git

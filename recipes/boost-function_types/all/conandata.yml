@@ -25,7 +25,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: function_types
+      name: boost_function_types
     url: https://github.com/boostorg/function_types.git
   1.89.0-b.1:
     commit: 6fba35ace59e9e7b1c3007ca6246a42ed6ead145
@@ -53,7 +53,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: function_types
+      name: boost_function_types
     url: https://github.com/boostorg/function_types.git
   1.90.0-a.d+24.09.18.18.18:
     commit: 6fba35ace59e9e7b1c3007ca6246a42ed6ead145
@@ -81,7 +81,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: function_types
+      name: boost_function_types
     url: https://github.com/boostorg/function_types.git
   1.90.0-a.m+24.09.18.18.18:
     commit: 6fba35ace59e9e7b1c3007ca6246a42ed6ead145
@@ -109,5 +109,32 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: function_types
+      name: boost_function_types
+    url: https://github.com/boostorg/function_types.git
+  1.90.0-b.1:
+    commit: 6fba35ace59e9e7b1c3007ca6246a42ed6ead145
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_function_types
     url: https://github.com/boostorg/function_types.git

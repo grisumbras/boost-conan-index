@@ -28,7 +28,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: utility
+      name: boost_utility
     url: https://github.com/boostorg/utility.git
   1.89.0-b.1:
     commit: 211570f2b972f66e368e4fe32b00fee31e597d25
@@ -59,7 +59,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: utility
+      name: boost_utility
     url: https://github.com/boostorg/utility.git
   1.90.0-a.d+25.08.25.19.07:
     commit: dda83c5b60bfaa77d4d777a047197ae5e5922c49
@@ -90,7 +90,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: utility
+      name: boost_utility
     url: https://github.com/boostorg/utility.git
   1.90.0-a.m+25.08.25.19.07:
     commit: dda83c5b60bfaa77d4d777a047197ae5e5922c49
@@ -121,5 +121,35 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: utility
+      name: boost_utility
+    url: https://github.com/boostorg/utility.git
+  1.90.0-b.1:
+    commit: dda83c5b60bfaa77d4d777a047197ae5e5922c49
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-io/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_utility
     url: https://github.com/boostorg/utility.git

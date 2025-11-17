@@ -9,10 +9,7 @@ find_package(boost-property_tree CONFIG REQUIRED)
 add_executable(test_program test.cpp)
 target_link_libraries(test_program Boost::property_tree)
 
-if("property_tree" STREQUAL python)
-    find_package(Python COMPONENTS Development REQUIRED)
-    target_link_libraries(test_program Python::Python)
-endif()
+
 
 include(CTest)
 add_test(NAME test COMMAND test_program)

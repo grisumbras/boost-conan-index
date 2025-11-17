@@ -13,7 +13,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: logic
+      name: boost_logic
     url: https://github.com/boostorg/logic.git
   1.89.0-b.1:
     commit: 9b8703a2d6623405323b892f1d126a6b17ca1651
@@ -29,7 +29,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: logic
+      name: boost_logic
     url: https://github.com/boostorg/logic.git
   1.90.0-a.d+25.07.02.08.14:
     commit: ebff10a43bf6512548eae231a1b9c81260dd98dc
@@ -45,7 +45,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: logic
+      name: boost_logic
     url: https://github.com/boostorg/logic.git
   1.90.0-a.m+25.01.01.20.44:
     commit: 9b8703a2d6623405323b892f1d126a6b17ca1651
@@ -61,5 +61,20 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: logic
+      name: boost_logic
+    url: https://github.com/boostorg/logic.git
+  1.90.0-b.1:
+    commit: 9b8703a2d6623405323b892f1d126a6b17ca1651
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_logic
     url: https://github.com/boostorg/logic.git

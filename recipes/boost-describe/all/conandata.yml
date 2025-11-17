@@ -10,7 +10,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: describe
+      name: boost_describe
     url: https://github.com/boostorg/describe.git
   1.89.0-b.1:
     commit: b64177c39f929998e3a145992d0328712e095c29
@@ -23,7 +23,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: describe
+      name: boost_describe
     url: https://github.com/boostorg/describe.git
   1.90.0-a.d+25.08.17.10.18:
     commit: 5858ccb775d415283dfd77ab5aeb7035faeaab91
@@ -60,7 +60,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: describe
+      name: boost_describe
     url: https://github.com/boostorg/describe.git
   1.90.0-a.m+25.08.17.10.18:
     commit: 5858ccb775d415283dfd77ab5aeb7035faeaab91
@@ -85,5 +85,17 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: describe
+      name: boost_describe
+    url: https://github.com/boostorg/describe.git
+  1.90.0-b.1:
+    commit: 2864875eef7864884da11338c04aafef7e15d30d
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_describe
     url: https://github.com/boostorg/describe.git

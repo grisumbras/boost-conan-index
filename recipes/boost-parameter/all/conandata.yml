@@ -37,7 +37,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: parameter
+      name: boost_parameter
     url: https://github.com/boostorg/parameter.git
   1.89.0-b.1:
     commit: 67861ef6ade2db396af4a3fd9e47647d8b01f73c
@@ -77,7 +77,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: parameter
+      name: boost_parameter
     url: https://github.com/boostorg/parameter.git
   1.90.0-a.d+25.08.25.19.06:
     commit: 2592296b4144a3ac7e260e69303c98aec6482123
@@ -117,7 +117,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: parameter
+      name: boost_parameter
     url: https://github.com/boostorg/parameter.git
   1.90.0-a.m+25.08.25.19.06:
     commit: 2592296b4144a3ac7e260e69303c98aec6482123
@@ -157,5 +157,44 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: parameter
+      name: boost_parameter
+    url: https://github.com/boostorg/parameter.git
+  1.90.0-b.1:
+    commit: 2592296b4144a3ac7e260e69303c98aec6482123
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_parameter
     url: https://github.com/boostorg/parameter.git

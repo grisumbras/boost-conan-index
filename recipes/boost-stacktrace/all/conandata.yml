@@ -25,35 +25,35 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: stacktrace
+      name: boost_stacktrace
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_addr2line
+      name: boost_stacktrace_addr2line
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_backtrace
+      name: boost_stacktrace_backtrace
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_basic
+      name: boost_stacktrace_basic
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_from_exception
+      name: boost_stacktrace_from_exception
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_noop
+      name: boost_stacktrace_noop
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_windbg
+      name: boost_stacktrace_windbg
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_windbg_cached
+      name: boost_stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git
   1.89.0-b.1:
     commit: d6499f26d471158b6e6f65eea7425200f842b547
@@ -81,35 +81,35 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: stacktrace
+      name: boost_stacktrace
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_addr2line
+      name: boost_stacktrace_addr2line
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_backtrace
+      name: boost_stacktrace_backtrace
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_basic
+      name: boost_stacktrace_basic
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_from_exception
+      name: boost_stacktrace_from_exception
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_noop
+      name: boost_stacktrace_noop
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_windbg
+      name: boost_stacktrace_windbg
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_windbg_cached
+      name: boost_stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git
   1.90.0-a.d+25.09.09.12.01:
     commit: cf5992230b9077ec1d8758824cdb8acf58b71407
@@ -182,35 +182,35 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: stacktrace
+      name: boost_stacktrace
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_addr2line
+      name: boost_stacktrace_addr2line
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_backtrace
+      name: boost_stacktrace_backtrace
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_basic
+      name: boost_stacktrace_basic
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_from_exception
+      name: boost_stacktrace_from_exception
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_noop
+      name: boost_stacktrace_noop
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_windbg
+      name: boost_stacktrace_windbg
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_windbg_cached
+      name: boost_stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git
   1.90.0-a.m+25.09.09.12.01:
     commit: cf5992230b9077ec1d8758824cdb8acf58b71407
@@ -283,33 +283,88 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: stacktrace
+      name: boost_stacktrace
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_addr2line
+      name: boost_stacktrace_addr2line
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_backtrace
+      name: boost_stacktrace_backtrace
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_basic
+      name: boost_stacktrace_basic
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_from_exception
+      name: boost_stacktrace_from_exception
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_noop
+      name: boost_stacktrace_noop
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_windbg
+      name: boost_stacktrace_windbg
     - dependencies:
-      - stacktrace
+      - boost_stacktrace
       kind: library
-      name: stacktrace_windbg_cached
+      name: boost_stacktrace_windbg_cached
+    url: https://github.com/boostorg/stacktrace.git
+  1.90.0-b.1:
+    commit: cec57009ef66de58876ad9524297c7af501eeddf
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-assert/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_stacktrace
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_addr2line
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_backtrace
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_basic
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_from_exception
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_noop
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_windbg
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git

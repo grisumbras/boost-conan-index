@@ -52,7 +52,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: date_time
+      name: boost_date_time
     url: https://github.com/boostorg/date_time.git
   1.89.0-b.1:
     commit: 85e637cb325208c2af9af791c3a1948b4888c6cd
@@ -107,7 +107,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: date_time
+      name: boost_date_time
     url: https://github.com/boostorg/date_time.git
   1.90.0-a.d+25.07.07.06.39:
     commit: 69c45b7a2b98102d428fddf50d68fa9494f0beba
@@ -162,7 +162,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: date_time
+      name: boost_date_time
     url: https://github.com/boostorg/date_time.git
   1.90.0-a.m+22.10.31.09.22:
     commit: 85e637cb325208c2af9af791c3a1948b4888c6cd
@@ -217,5 +217,59 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: date_time
+      name: boost_date_time
+    url: https://github.com/boostorg/date_time.git
+  1.90.0-b.1:
+    commit: 85e637cb325208c2af9af791c3a1948b4888c6cd
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-io/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-tokenizer/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_date_time
     url: https://github.com/boostorg/date_time.git

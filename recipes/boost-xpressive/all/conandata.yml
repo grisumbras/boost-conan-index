@@ -73,7 +73,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: xpressive
+      name: boost_xpressive
     url: https://github.com/boostorg/xpressive.git
   1.89.0-b.1:
     commit: bd1db9341abd303dacc2979422d8809a9a1e0558
@@ -149,7 +149,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: xpressive
+      name: boost_xpressive
     url: https://github.com/boostorg/xpressive.git
   1.90.0-a.d+25.05.02.19.26:
     commit: 3950d7958ce22b68a53072cafa9cb57975f4195a
@@ -225,7 +225,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: xpressive
+      name: boost_xpressive
     url: https://github.com/boostorg/xpressive.git
   1.90.0-a.m+24.09.27.20.36:
     commit: bd1db9341abd303dacc2979422d8809a9a1e0558
@@ -301,5 +301,80 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: xpressive
+      name: boost_xpressive
+    url: https://github.com/boostorg/xpressive.git
+  1.90.0-b.1:
+    commit: bd1db9341abd303dacc2979422d8809a9a1e0558
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-conversion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-proto/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_xpressive
     url: https://github.com/boostorg/xpressive.git

@@ -37,31 +37,31 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: math
+      name: boost_math
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99
+      name: boost_math_c99
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99f
+      name: boost_math_c99f
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99l
+      name: boost_math_c99l
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1
+      name: boost_math_tr1
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1f
+      name: boost_math_tr1f
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1l
+      name: boost_math_tr1l
     url: https://github.com/boostorg/math.git
   1.89.0-b.1:
     commit: 5e088ffe2ed0e237b9069e3a7352865283d8f196
@@ -101,31 +101,31 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: math
+      name: boost_math
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99
+      name: boost_math_c99
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99f
+      name: boost_math_c99f
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99l
+      name: boost_math_c99l
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1
+      name: boost_math_tr1
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1f
+      name: boost_math_tr1f
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1l
+      name: boost_math_tr1l
     url: https://github.com/boostorg/math.git
   1.90.0-a.d+25.10.03.18.32:
     commit: 975672b7b15ed3a42dfa6e0ac33b5bb3b897cadf
@@ -345,31 +345,31 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: math
+      name: boost_math
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99
+      name: boost_math_c99
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99f
+      name: boost_math_c99f
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99l
+      name: boost_math_c99l
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1
+      name: boost_math_tr1
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1f
+      name: boost_math_tr1f
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1l
+      name: boost_math_tr1l
     url: https://github.com/boostorg/math.git
   1.90.0-a.m+25.10.15.18.57:
     commit: d11ee3f12be09065664da4dcbee0eebf2bcec753
@@ -528,29 +528,92 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: math
+      name: boost_math
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99
+      name: boost_math_c99
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99f
+      name: boost_math_c99f
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_c99l
+      name: boost_math_c99l
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1
+      name: boost_math_tr1
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1f
+      name: boost_math_tr1f
     - dependencies:
-      - math
+      - boost_math
       kind: library
-      name: math_tr1l
+      name: boost_math_tr1l
+    url: https://github.com/boostorg/math.git
+  1.90.0-b.1:
+    commit: e0fcd19f7227d81391770ea46015acc3c80af810
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_math
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_c99
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_c99f
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_c99l
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_tr1
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_tr1f
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_tr1l
     url: https://github.com/boostorg/math.git

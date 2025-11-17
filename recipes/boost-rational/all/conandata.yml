@@ -31,7 +31,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: rational
+      name: boost_rational
     url: https://github.com/boostorg/rational.git
   1.89.0-b.1:
     commit: 3c6dfc84c90d4dbcfa81d7dc685bcab702f3473d
@@ -65,7 +65,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: rational
+      name: boost_rational
     url: https://github.com/boostorg/rational.git
   1.90.0-a.d+20.02.12.21.10:
     commit: 894bd14cba4a48bbd8cb422ebcd1ac2af78795d1
@@ -99,7 +99,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: rational
+      name: boost_rational
     url: https://github.com/boostorg/rational.git
   1.90.0-a.m+25.01.01.15.17:
     commit: 3c6dfc84c90d4dbcfa81d7dc685bcab702f3473d
@@ -133,5 +133,38 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: rational
+      name: boost_rational
+    url: https://github.com/boostorg/rational.git
+  1.90.0-b.1:
+    commit: 3c6dfc84c90d4dbcfa81d7dc685bcab702f3473d
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_rational
     url: https://github.com/boostorg/rational.git

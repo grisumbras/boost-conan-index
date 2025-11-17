@@ -70,7 +70,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: beast
+      name: boost_beast
     url: https://github.com/boostorg/beast.git
   1.89.0-b.1:
     commit: 03f0ff33cdd45ef6861f969268f9d17e1ced1249
@@ -143,7 +143,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: beast
+      name: boost_beast
     url: https://github.com/boostorg/beast.git
   1.90.0-a.d+25.10.09.08.54:
     commit: 63f3d3f3930288726b5862f24728ed9d418d080a
@@ -480,7 +480,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: beast
+      name: boost_beast
     url: https://github.com/boostorg/beast.git
   1.90.0-a.m+25.07.29.12.30:
     commit: 9b24b28d502946583300d3e58767cb30a8ec8486
@@ -619,5 +619,71 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: beast
+      name: boost_beast
+    url: https://github.com/boostorg/beast.git
+  1.90.0-b.1:
+    commit: 5d6edfabfa9e2532d7a5e4432c05763f12547483
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-logic/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_string/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_index/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_beast
     url: https://github.com/boostorg/beast.git

@@ -70,11 +70,11 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: python
+      name: boost_python
     - dependencies:
-      - python
+      - boost_python
       kind: library
-      name: numpy
+      name: boost_numpy
     url: https://github.com/boostorg/python.git
   1.89.0-b.1:
     commit: 3e7be69e1e405e1d5ddd232c69c024ee441592c5
@@ -147,11 +147,11 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: python
+      name: boost_python
     - dependencies:
-      - python
+      - boost_python
       kind: library
-      name: numpy
+      name: boost_numpy
     url: https://github.com/boostorg/python.git
   1.90.0-a.d+25.01.22.11.25:
     commit: 2b6f667e987c81e91e7cf805e15ec19863f83ed3
@@ -376,11 +376,11 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: python
+      name: boost_python
     - dependencies:
-      - python
+      - boost_python
       kind: library
-      name: numpy
+      name: boost_numpy
     url: https://github.com/boostorg/python.git
   1.90.0-a.d+25.10.24.06.40:
     commit: b4fb28e99a1ba5ed23d597d38e70e72e261a03eb
@@ -605,9 +605,85 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: python
+      name: boost_python
     - dependencies:
-      - python
+      - boost_python
       kind: library
-      name: numpy
+      name: boost_numpy
+    url: https://github.com/boostorg/python.git
+  1.90.0-b.1:
+    commit: 97402f7925648ef433d0f1f979b9b422936dac31
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-conversion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-foreach/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    - header: false
+      public: false
+      ref: boost-graph/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-integer/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-property_map/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_python
+    - dependencies:
+      - boost_python
+      kind: library
+      name: boost_numpy
     url: https://github.com/boostorg/python.git

@@ -133,7 +133,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: graph
+      name: boost_graph
     url: https://github.com/boostorg/graph.git
   1.89.0-b.1:
     commit: 54a94911e68dccf5812b32d018566566700499f3
@@ -269,7 +269,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: graph
+      name: boost_graph
     url: https://github.com/boostorg/graph.git
   1.90.0-a.d+25.10.09.16.54:
     commit: 6c78c841564d6045fee95b91d490a2dcfa5824be
@@ -402,7 +402,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: graph
+      name: boost_graph
     url: https://github.com/boostorg/graph.git
   1.90.0-a.m+25.02.15.20.07:
     commit: 54a94911e68dccf5812b32d018566566700499f3
@@ -538,5 +538,140 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: graph
+      name: boost_graph
+    url: https://github.com/boostorg/graph.git
+  1.90.0-b.1:
+    commit: 54a94911e68dccf5812b32d018566566700499f3
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-any/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-bimap/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-conversion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-foreach/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-math/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-multi_index/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-property_map/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-property_tree/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-tti/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-unordered/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-xpressive/1.90.0-b.1
+    - header: false
+      public: false
+      ref: boost-regex/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_graph
     url: https://github.com/boostorg/graph.git

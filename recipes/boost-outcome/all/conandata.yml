@@ -22,7 +22,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: outcome
+      name: boost_outcome
     url: https://github.com/boostorg/outcome.git
   1.89.0-b.1:
     commit: 9fab401aa0ee4e578ec6757c082b6f66c67a55c7
@@ -47,7 +47,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: outcome
+      name: boost_outcome
     url: https://github.com/boostorg/outcome.git
   1.90.0-a.d+25.10.09.20.09:
     commit: e2bdeb4ed443eb2f7cd3e63ba31e10504588b355
@@ -96,7 +96,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: outcome
+      name: boost_outcome
     url: https://github.com/boostorg/outcome.git
   1.90.0-a.m+25.10.09.20.09:
     commit: 6db8850cfeaa4cf30861313f6217b61daaf64a54
@@ -121,5 +121,29 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: outcome
+      name: boost_outcome
+    url: https://github.com/boostorg/outcome.git
+  1.90.0-b.1:
+    commit: 6db8850cfeaa4cf30861313f6217b61daaf64a54
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_outcome
     url: https://github.com/boostorg/outcome.git

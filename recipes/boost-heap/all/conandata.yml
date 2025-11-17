@@ -37,7 +37,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: heap
+      name: boost_heap
     url: https://github.com/boostorg/heap.git
   1.89.0-b.1:
     commit: 7db5d9db6615b40239a8bb9383a12bd56924bd07
@@ -77,7 +77,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: heap
+      name: boost_heap
     url: https://github.com/boostorg/heap.git
   1.90.0-a.d+25.09.06.12.17:
     commit: 3b22808536e43f501fce7af81e83a18958d50ce5
@@ -117,7 +117,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: heap
+      name: boost_heap
     url: https://github.com/boostorg/heap.git
   1.90.0-a.m+24.12.20.14.29:
     commit: 7db5d9db6615b40239a8bb9383a12bd56924bd07
@@ -173,5 +173,44 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: heap
+      name: boost_heap
+    url: https://github.com/boostorg/heap.git
+  1.90.0-b.1:
+    commit: 3b22808536e43f501fce7af81e83a18958d50ce5
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_heap
     url: https://github.com/boostorg/heap.git

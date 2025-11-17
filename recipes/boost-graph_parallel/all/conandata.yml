@@ -85,7 +85,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: graph_parallel
+      name: boost_graph_parallel
     url: https://github.com/boostorg/graph_parallel.git
   1.89.0-b.1:
     commit: 5520a5617d2763c48a06a4ff277ad76e665c7cf3
@@ -173,7 +173,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: graph_parallel
+      name: boost_graph_parallel
     url: https://github.com/boostorg/graph_parallel.git
   1.90.0-a.d+25.10.15.03.16:
     commit: 57fbbbd6dde588e46694925b254957fed1a3adfd
@@ -261,7 +261,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: graph_parallel
+      name: boost_graph_parallel
     url: https://github.com/boostorg/graph_parallel.git
   1.90.0-a.m+22.01.29.06.44:
     commit: 5520a5617d2763c48a06a4ff277ad76e665c7cf3
@@ -349,5 +349,92 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: graph_parallel
+      name: boost_graph_parallel
+    url: https://github.com/boostorg/graph_parallel.git
+  1.90.0-b.1:
+    commit: 5520a5617d2763c48a06a4ff277ad76e665c7cf3
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-filesystem/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-foreach/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-graph/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-mpi/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-property_map/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-property_map_parallel/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-random/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_graph_parallel
     url: https://github.com/boostorg/graph_parallel.git

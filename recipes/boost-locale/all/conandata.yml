@@ -28,7 +28,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: locale
+      name: boost_locale
     url: https://github.com/boostorg/locale.git
   1.89.0-b.1:
     commit: 9b7775715a50e62c5bc0ed99d65e0f56c06361f4
@@ -59,7 +59,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: locale
+      name: boost_locale
     url: https://github.com/boostorg/locale.git
   1.90.0-a.d+25.09.18.19.54:
     commit: 3466ac7525b1607477fb4585d4ead8cb1e37d124
@@ -210,7 +210,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: locale
+      name: boost_locale
     url: https://github.com/boostorg/locale.git
   1.90.0-a.m+25.09.04.13.21:
     commit: da39dbaf86b2f994e2ae1577d98e4be39cc683bc
@@ -331,5 +331,35 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: locale
+      name: boost_locale
+    url: https://github.com/boostorg/locale.git
+  1.90.0-b.1:
+    commit: 448d98ec03c10da6b4b8b4a9c4424818fb2dedc2
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: false
+      public: false
+      ref: boost-charconv/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0-b.1
+    - header: false
+      public: false
+      ref: boost-thread/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_locale
     url: https://github.com/boostorg/locale.git

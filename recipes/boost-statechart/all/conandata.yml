@@ -43,7 +43,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: statechart
+      name: boost_statechart
     url: https://github.com/boostorg/statechart.git
   1.89.0-b.1:
     commit: ae93e58e44f722626fe462a854b92d9b4f11449a
@@ -89,7 +89,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: statechart
+      name: boost_statechart
     url: https://github.com/boostorg/statechart.git
   1.90.0-a.d+25.05.02.11.20:
     commit: 2b1270f7ab9027320a6b7e187ea1d37d329b3624
@@ -135,7 +135,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: statechart
+      name: boost_statechart
     url: https://github.com/boostorg/statechart.git
   1.90.0-a.m+24.09.28.11.17:
     commit: ae93e58e44f722626fe462a854b92d9b4f11449a
@@ -181,5 +181,50 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: statechart
+      name: boost_statechart
+    url: https://github.com/boostorg/statechart.git
+  1.90.0-b.1:
+    commit: ae93e58e44f722626fe462a854b92d9b4f11449a
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-conversion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-thread/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_statechart
     url: https://github.com/boostorg/statechart.git

@@ -55,7 +55,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: mysql
+      name: boost_mysql
     url: https://github.com/boostorg/mysql.git
   1.89.0-b.1:
     commit: 6a82609638e88bcea2985069dfc356f32a575a55
@@ -113,7 +113,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: mysql
+      name: boost_mysql
     url: https://github.com/boostorg/mysql.git
   1.90.0-a.d+25.10.07.16.56:
     commit: c242bb0ffdea2675a32e0b3a6baeeb987bb90777
@@ -171,7 +171,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: mysql
+      name: boost_mysql
     url: https://github.com/boostorg/mysql.git
   1.90.0-a.m+25.06.07.13.20:
     commit: 6a82609638e88bcea2985069dfc356f32a575a55
@@ -286,5 +286,62 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: mysql
+      name: boost_mysql
+    url: https://github.com/boostorg/mysql.git
+  1.90.0-b.1:
+    commit: c242bb0ffdea2675a32e0b3a6baeeb987bb90777
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-charconv/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-compat/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-describe/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-pfr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_mysql
     url: https://github.com/boostorg/mysql.git

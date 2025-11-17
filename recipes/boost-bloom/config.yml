@@ -11,3 +11,5 @@ versions:
     folder: all
   1.90.0-a.m+25.10.20.10.01:
     folder: all
+  1.90.0-b.1:
+    folder: all

@@ -55,7 +55,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: signals2
+      name: boost_signals2
     url: https://github.com/boostorg/signals2.git
   1.89.0-b.1:
     commit: 898c81affdac7759768f846ea461d2364b028f0e
@@ -113,7 +113,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: signals2
+      name: boost_signals2
     url: https://github.com/boostorg/signals2.git
   1.90.0-a.d+25.09.11.10.10:
     commit: 3e7413b9d6084a160db9a2a90bb74d55415c5226
@@ -171,7 +171,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: signals2
+      name: boost_signals2
     url: https://github.com/boostorg/signals2.git
   1.90.0-a.m+25.09.11.10.10:
     commit: 3e7413b9d6084a160db9a2a90bb74d55415c5226
@@ -229,5 +229,62 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: signals2
+      name: boost_signals2
+    url: https://github.com/boostorg/signals2.git
+  1.90.0-b.1:
+    commit: 3e7413b9d6084a160db9a2a90bb74d55415c5226
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_signals2
     url: https://github.com/boostorg/signals2.git

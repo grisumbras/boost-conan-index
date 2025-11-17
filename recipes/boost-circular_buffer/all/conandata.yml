@@ -31,7 +31,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: circular_buffer
+      name: boost_circular_buffer
     url: https://github.com/boostorg/circular_buffer.git
   1.89.0-b.1:
     commit: a08a5b55ee82e0c2487523471379ac53a23935dc
@@ -65,7 +65,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: circular_buffer
+      name: boost_circular_buffer
     url: https://github.com/boostorg/circular_buffer.git
   1.90.0-a.d+25.05.02.19.05:
     commit: 0320ba365cf959d3f9c982eb05b78452571b35e5
@@ -99,7 +99,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: circular_buffer
+      name: boost_circular_buffer
     url: https://github.com/boostorg/circular_buffer.git
   1.90.0-a.m+22.09.12.08.08:
     commit: a08a5b55ee82e0c2487523471379ac53a23935dc
@@ -133,5 +133,38 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: circular_buffer
+      name: boost_circular_buffer
+    url: https://github.com/boostorg/circular_buffer.git
+  1.90.0-b.1:
+    commit: a08a5b55ee82e0c2487523471379ac53a23935dc
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_circular_buffer
     url: https://github.com/boostorg/circular_buffer.git

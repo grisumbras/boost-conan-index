@@ -7,7 +7,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: qvm
+      name: boost_qvm
     url: https://github.com/boostorg/qvm.git
   1.89.0-b.1:
     commit: daabde8f20ef751d078c220e230f81f7aee0db05
@@ -17,7 +17,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: qvm
+      name: boost_qvm
     url: https://github.com/boostorg/qvm.git
   1.90.0-a.d+25.08.17.15.33:
     commit: 237d4274e7294534ede6a67232bd96defe90b870
@@ -27,7 +27,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: qvm
+      name: boost_qvm
     url: https://github.com/boostorg/qvm.git
   1.90.0-a.m+25.01.18.23.55:
     commit: daabde8f20ef751d078c220e230f81f7aee0db05
@@ -37,5 +37,14 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: qvm
+      name: boost_qvm
+    url: https://github.com/boostorg/qvm.git
+  1.90.0-b.1:
+    commit: daabde8f20ef751d078c220e230f81f7aee0db05
+    cxxstd: '03'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_qvm
     url: https://github.com/boostorg/qvm.git

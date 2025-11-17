@@ -19,7 +19,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: type_index
+      name: boost_type_index
     url: https://github.com/boostorg/type_index.git
   1.89.0-b.1:
     commit: 32dcf01725eb07d17e0bc2d55248b9609280896c
@@ -41,7 +41,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: type_index
+      name: boost_type_index
     url: https://github.com/boostorg/type_index.git
   1.90.0-a.d+25.10.14.11.58:
     commit: a33e418f3992912838e3b32a0a82595b9f4ce88f
@@ -69,7 +69,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: type_index
+      name: boost_type_index
     url: https://github.com/boostorg/type_index.git
   1.90.0-a.m+25.10.07.20.25:
     commit: 898c212ff27810d6280317bd5a7de252c2301c60
@@ -106,5 +106,23 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: type_index
+      name: boost_type_index
+    url: https://github.com/boostorg/type_index.git
+  1.90.0-b.1:
+    commit: f2a3bdd29cc20ca2c4f9ee0916b7da6dbaaaaa28
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_type_index
     url: https://github.com/boostorg/type_index.git

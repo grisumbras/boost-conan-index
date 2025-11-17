@@ -58,7 +58,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: range
+      name: boost_range
     url: https://github.com/boostorg/range.git
   1.89.0-b.1:
     commit: 24b7c98ca12708549513adc4770a2cf5586168f9
@@ -119,7 +119,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: range
+      name: boost_range
     url: https://github.com/boostorg/range.git
   1.90.0-a.d+25.05.02.19.18:
     commit: cf7d2d2d3bceccdbd0d7af08cdf4042a2a6e9ea8
@@ -180,7 +180,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: range
+      name: boost_range
     url: https://github.com/boostorg/range.git
   1.90.0-a.m+25.02.08.16.31:
     commit: 24b7c98ca12708549513adc4770a2cf5586168f9
@@ -241,5 +241,65 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: range
+      name: boost_range
+    url: https://github.com/boostorg/range.git
+  1.90.0-b.1:
+    commit: 24b7c98ca12708549513adc4770a2cf5586168f9
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-conversion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-regex/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_range
     url: https://github.com/boostorg/range.git

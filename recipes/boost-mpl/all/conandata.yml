@@ -28,7 +28,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: mpl
+      name: boost_mpl
     url: https://github.com/boostorg/mpl.git
   1.89.0-b.1:
     commit: 74d927f9847c60b908beac94e1198d1985380abf
@@ -59,7 +59,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: mpl
+      name: boost_mpl
     url: https://github.com/boostorg/mpl.git
   1.90.0-a.d+25.07.03.00.11:
     commit: 02ec362f5ca4907290e1516adcc53bf7673a4806
@@ -120,7 +120,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: mpl
+      name: boost_mpl
     url: https://github.com/boostorg/mpl.git
   1.90.0-a.m+25.06.27.02.18:
     commit: 74d927f9847c60b908beac94e1198d1985380abf
@@ -211,5 +211,35 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: mpl
+      name: boost_mpl
+    url: https://github.com/boostorg/mpl.git
+  1.90.0-b.1:
+    commit: 2358570f2d801dfd5a1b06701696f42b0d2e390a
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_mpl
     url: https://github.com/boostorg/mpl.git

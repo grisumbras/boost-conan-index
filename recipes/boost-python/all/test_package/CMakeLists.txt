@@ -9,10 +9,12 @@ find_package(boost-python CONFIG REQUIRED)
 add_executable(test_program test.cpp)
 target_link_libraries(test_program Boost::python)
 
-if("python" STREQUAL python)
-    find_package(Python COMPONENTS Development REQUIRED)
-    target_link_libraries(test_program Python::Python)
-endif()
+
+
+find_package(Python COMPONENTS Development REQUIRED)
+target_link_libraries(test_program Python::Python)
+
+
 
 include(CTest)
 add_test(NAME test COMMAND test_program)

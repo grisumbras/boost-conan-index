@@ -7,7 +7,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: predef
+      name: boost_predef
     url: https://github.com/boostorg/predef.git
   1.89.0-b.1:
     commit: e1211a4ca467bb6512e99025772ca25afa8d6159
@@ -17,7 +17,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: predef
+      name: boost_predef
     url: https://github.com/boostorg/predef.git
   1.90.0-a.d+25.02.03.08.30:
     commit: a2a5010e2824b7740890a3bf463b8c4b8927aaa7
@@ -27,7 +27,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: predef
+      name: boost_predef
     url: https://github.com/boostorg/predef.git
   1.90.0-a.m+25.01.12.12.53:
     commit: e1211a4ca467bb6512e99025772ca25afa8d6159
@@ -37,5 +37,14 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: predef
+      name: boost_predef
+    url: https://github.com/boostorg/predef.git
+  1.90.0-b.1:
+    commit: e1211a4ca467bb6512e99025772ca25afa8d6159
+    cxxstd: '98'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_predef
     url: https://github.com/boostorg/predef.git

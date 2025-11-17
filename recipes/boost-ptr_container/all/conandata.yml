@@ -46,7 +46,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: ptr_container
+      name: boost_ptr_container
     url: https://github.com/boostorg/ptr_container.git
   1.89.0-b.1:
     commit: fa5071af867bfd2480e3b004a4bee27127b951b6
@@ -95,7 +95,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: ptr_container
+      name: boost_ptr_container
     url: https://github.com/boostorg/ptr_container.git
   1.90.0-a.d+25.06.28.11.02:
     commit: ea15c57680927e915e93b14af2eef244baef6bce
@@ -144,7 +144,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: ptr_container
+      name: boost_ptr_container
     url: https://github.com/boostorg/ptr_container.git
   1.90.0-a.m+24.12.28.22.04:
     commit: fa5071af867bfd2480e3b004a4bee27127b951b6
@@ -212,5 +212,53 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: ptr_container
+      name: boost_ptr_container
+    url: https://github.com/boostorg/ptr_container.git
+  1.90.0-b.1:
+    commit: ea15c57680927e915e93b14af2eef244baef6bce
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-unordered/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_ptr_container
     url: https://github.com/boostorg/ptr_container.git

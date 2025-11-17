@@ -16,7 +16,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: variant2
+      name: boost_variant2
     url: https://github.com/boostorg/variant2.git
   1.89.0-b.1:
     commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
@@ -35,7 +35,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: variant2
+      name: boost_variant2
     url: https://github.com/boostorg/variant2.git
   1.90.0-a.d+25.01.15.19.44:
     commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
@@ -111,7 +111,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: variant2
+      name: boost_variant2
     url: https://github.com/boostorg/variant2.git
   1.90.0-a.m+25.01.15.19.44:
     commit: 8caa1a34843951b9e4e302dc85e90bc19ca4f3dd
@@ -172,5 +172,23 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: variant2
+      name: boost_variant2
+    url: https://github.com/boostorg/variant2.git
+  1.90.0-b.1:
+    commit: f267609ad6f5dac4aa2d664d613701b50ede0404
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_variant2
     url: https://github.com/boostorg/variant2.git

@@ -28,7 +28,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: local_function
+      name: boost_local_function
     url: https://github.com/boostorg/local_function.git
   1.89.0-b.1:
     commit: 258aeaa6c1a9618c02ca4e4af2890e70833035f0
@@ -59,7 +59,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: local_function
+      name: boost_local_function
     url: https://github.com/boostorg/local_function.git
   1.90.0-a.d+25.06.26.09.08:
     commit: ff0934f6a397ec8949c52386d9b2fe0b29715e9f
@@ -90,7 +90,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: local_function
+      name: boost_local_function
     url: https://github.com/boostorg/local_function.git
   1.90.0-a.m+24.01.23.04.57:
     commit: 258aeaa6c1a9618c02ca4e4af2890e70833035f0
@@ -121,5 +121,35 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: local_function
+      name: boost_local_function
+    url: https://github.com/boostorg/local_function.git
+  1.90.0-b.1:
+    commit: 258aeaa6c1a9618c02ca4e4af2890e70833035f0
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-scope_exit/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_local_function
     url: https://github.com/boostorg/local_function.git

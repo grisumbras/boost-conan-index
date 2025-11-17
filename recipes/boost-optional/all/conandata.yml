@@ -22,7 +22,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: optional
+      name: boost_optional
     url: https://github.com/boostorg/optional.git
   1.89.0-b.1:
     commit: 121f3efde91de78ca018019904732f55d33b5788
@@ -47,7 +47,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: optional
+      name: boost_optional
     url: https://github.com/boostorg/optional.git
   1.90.0-a.d+24.12.08.17.21:
     commit: bfdf0c73f98efba4c2458c806b1af9458e4bf79d
@@ -72,7 +72,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: optional
+      name: boost_optional
     url: https://github.com/boostorg/optional.git
   1.90.0-a.m+24.12.04.00.23:
     commit: 121f3efde91de78ca018019904732f55d33b5788
@@ -97,5 +97,29 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: optional
+      name: boost_optional
+    url: https://github.com/boostorg/optional.git
+  1.90.0-b.1:
+    commit: 121f3efde91de78ca018019904732f55d33b5788
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_optional
     url: https://github.com/boostorg/optional.git

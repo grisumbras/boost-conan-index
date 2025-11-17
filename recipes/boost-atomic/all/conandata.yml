@@ -28,7 +28,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: atomic
+      name: boost_atomic
     url: https://github.com/boostorg/atomic.git
   1.89.0-b.1:
     commit: 8a6de6d93dbe123134deff264851a18d96063764
@@ -59,7 +59,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: atomic
+      name: boost_atomic
     url: https://github.com/boostorg/atomic.git
   1.90.0-a.d+25.09.30.15.42:
     commit: 23b53aebe6aeb1c14a34d119d230f16a76dccc1c
@@ -90,7 +90,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: atomic
+      name: boost_atomic
     url: https://github.com/boostorg/atomic.git
   1.90.0-a.m+25.09.30.15.42:
     commit: 23b53aebe6aeb1c14a34d119d230f16a76dccc1c
@@ -121,5 +121,35 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: atomic
+      name: boost_atomic
+    url: https://github.com/boostorg/atomic.git
+  1.90.0-b.1:
+    commit: 23b53aebe6aeb1c14a34d119d230f16a76dccc1c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-align/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-preprocessor/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_atomic
     url: https://github.com/boostorg/atomic.git

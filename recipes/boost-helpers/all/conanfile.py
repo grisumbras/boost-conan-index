@@ -128,6 +128,8 @@ class BoostPackage():
         b2_gens = self.python_requires['b2-tools'].module
 
         tc = b2_gens.B2Toolchain(self)
+        if self.name == 'boost-mpi':
+            tc.using('mpi')
         tc.generate()
 
         deps = b2_gens.B2Deps(self)
@@ -154,16 +156,13 @@ class BoostPackage():
 
     def build(self):
         b2 = self.python_requires['b2-tools'].module.B2(self)
-        b2.build((tgt['name'] for tgt in self._data_cache['targets']))
+        libs = [tgt['name'] for tgt in self._data_cache['libraries']]
+        if libs:
+            b2.build(libs)
 
     def package(self):
         requested = [tgt['name'] for tgt in self._data_cache['libraries']]
-        if requested:
-            args = ['--requested-libraries=' + ','.join([
-                tgt['name'] for tgt in self._data_cache['libraries']
-            ])]
-        else:
-            args = None
+        args = ['--requested-libraries=' + ','.join(requested)]
 
         b2 = self.python_requires['b2-tools'].module.B2(self)
         b2.build('conan-install', args=args)
@@ -239,7 +238,7 @@ class BoostPackage():
                     comp.defines = no_autolink
                 else:
                     comp.libdirs = []
-                comp.requires = ['boost_' + dep for dep in tgt['dependencies']]
+                comp.requires = [dep for dep in tgt['dependencies']]
                 for dep in self._data_cache['dependencies']:
                     dep_name = dep['ref'].split('/')[0]
                     comp.requires.append(dep_name + '::' + dep_name)
@@ -264,8 +263,7 @@ class BoostPackage():
             targets = []
             libraries = []
             for target in result['targets']:
-                name = 'boost_' + target['name']
-                target['name'] = name
+                name = target['name']
                 if target['kind'] == 'library':
                     if name not in disabled_libs:
                         libraries.append(target)
@@ -274,9 +272,8 @@ class BoostPackage():
                     targets.append(target)
 
             if not targets:
-                lib_name = self.name[6:]
                 targets.append({
-                    'name': 'boost_' + lib_name,
+                    'name': 'boost_' + self.name[6:],
                     'kind': 'header-library',
                     'dependencies': [],
                 })
@@ -387,6 +384,10 @@ rule conan-install ( libraries * )
     if $(requested)
     {
         libraries = [ regex.split $(requested:E=) , ] ;
+    }
+    else
+    {
+        libraries = ;
     }
 
     make targets.yml

@@ -9,10 +9,7 @@ find_package(boost-type_index CONFIG REQUIRED)
 add_executable(test_program test.cpp)
 target_link_libraries(test_program Boost::type_index)
 
-if("type_index" STREQUAL python)
-    find_package(Python COMPONENTS Development REQUIRED)
-    target_link_libraries(test_program Python::Python)
-endif()
+
 
 include(CTest)
 add_test(NAME test COMMAND test_program)

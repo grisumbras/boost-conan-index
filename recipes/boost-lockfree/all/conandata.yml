@@ -37,7 +37,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: lockfree
+      name: boost_lockfree
     url: https://github.com/boostorg/lockfree.git
   1.89.0-b.1:
     commit: 4a69f38b3d1d20ac56e60095a550ffb2ce4ccbd7
@@ -77,7 +77,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: lockfree
+      name: boost_lockfree
     url: https://github.com/boostorg/lockfree.git
   1.90.0-a.d+25.09.06.12.22:
     commit: 1a5af261286a102848d090b1b84b51b1d231dc29
@@ -117,7 +117,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: lockfree
+      name: boost_lockfree
     url: https://github.com/boostorg/lockfree.git
   1.90.0-a.m+25.04.05.10.02:
     commit: 4a69f38b3d1d20ac56e60095a550ffb2ce4ccbd7
@@ -173,5 +173,44 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: lockfree
+      name: boost_lockfree
+    url: https://github.com/boostorg/lockfree.git
+  1.90.0-b.1:
+    commit: 1a5af261286a102848d090b1b84b51b1d231dc29
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-atomic/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lockfree
     url: https://github.com/boostorg/lockfree.git

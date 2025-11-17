@@ -61,7 +61,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: odeint
+      name: boost_odeint
     url: https://github.com/boostorg/odeint.git
   1.89.0-b.1:
     commit: 9e75be5d9e435739b086aee928736fc241e77a4a
@@ -125,7 +125,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: odeint
+      name: boost_odeint
     url: https://github.com/boostorg/odeint.git
   1.90.0-a.d+24.11.05.14.58:
     commit: 91a4a916fa193b02bda2ffc3920953387acae962
@@ -189,7 +189,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: odeint
+      name: boost_odeint
     url: https://github.com/boostorg/odeint.git
   1.90.0-a.m+24.11.05.14.59:
     commit: 9e75be5d9e435739b086aee928736fc241e77a4a
@@ -253,5 +253,68 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: odeint
+      name: boost_odeint
+    url: https://github.com/boostorg/odeint.git
+  1.90.0-b.1:
+    commit: 9e75be5d9e435739b086aee928736fc241e77a4a
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-compute/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-math/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-mpi/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-multi_array/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-ublas/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-units/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_odeint
     url: https://github.com/boostorg/odeint.git

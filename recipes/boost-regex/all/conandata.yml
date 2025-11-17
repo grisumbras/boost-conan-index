@@ -34,7 +34,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: regex
+      name: boost_regex
     url: https://github.com/boostorg/regex.git
   1.89.0-b.1:
     commit: f439e22ae41fa647bd7de16c2d92deb232593985
@@ -71,7 +71,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: regex
+      name: boost_regex
     url: https://github.com/boostorg/regex.git
   1.90.0-a.d+25.07.04.20.20:
     commit: ed6ebbd5a52b566e454e0cc34494dd2912c6c66c
@@ -108,11 +108,11 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: regex
+      name: boost_regex
     - dependencies:
-      - regex
+      - boost_regex
       kind: library
-      name: regex_old
+      name: boost_regex_old
     url: https://github.com/boostorg/regex.git
   1.90.0-a.m+25.07.04.17.16:
     commit: f439e22ae41fa647bd7de16c2d92deb232593985
@@ -149,5 +149,41 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: regex
+      name: boost_regex
+    url: https://github.com/boostorg/regex.git
+  1.90.0-b.1:
+    commit: f439e22ae41fa647bd7de16c2d92deb232593985
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-smart_ptr/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_regex
     url: https://github.com/boostorg/regex.git

@@ -31,7 +31,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: poly_collection
+      name: boost_poly_collection
     url: https://github.com/boostorg/poly_collection.git
   1.89.0-b.1:
     commit: 1ae6a823b9118e403e501adb17ee7d562dcc75a7
@@ -65,7 +65,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: poly_collection
+      name: boost_poly_collection
     url: https://github.com/boostorg/poly_collection.git
   1.90.0-a.d+25.09.18.21.59:
     commit: 3175ae3c91203556f86561f574830aa38d5bc80c
@@ -99,7 +99,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: poly_collection
+      name: boost_poly_collection
     url: https://github.com/boostorg/poly_collection.git
   1.90.0-a.m+25.09.18.21.59:
     commit: 3175ae3c91203556f86561f574830aa38d5bc80c
@@ -133,5 +133,38 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: poly_collection
+      name: boost_poly_collection
+    url: https://github.com/boostorg/poly_collection.git
+  1.90.0-b.1:
+    commit: 3175ae3c91203556f86561f574830aa38d5bc80c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-type_erasure/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_poly_collection
     url: https://github.com/boostorg/poly_collection.git

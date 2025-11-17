@@ -10,7 +10,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: typeof
+      name: boost_typeof
     url: https://github.com/boostorg/typeof.git
   1.89.0-b.1:
     commit: 26e22b8b370617a6181f3ae4bd1f584b3b4767e1
@@ -23,7 +23,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: typeof
+      name: boost_typeof
     url: https://github.com/boostorg/typeof.git
   1.90.0-a.d+25.06.09.02.44:
     commit: 26e22b8b370617a6181f3ae4bd1f584b3b4767e1
@@ -36,7 +36,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: typeof
+      name: boost_typeof
     url: https://github.com/boostorg/typeof.git
   1.90.0-a.m+25.06.09.02.44:
     commit: 26e22b8b370617a6181f3ae4bd1f584b3b4767e1
@@ -49,5 +49,17 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: typeof
+      name: boost_typeof
+    url: https://github.com/boostorg/typeof.git
+  1.90.0-b.1:
+    commit: 26e22b8b370617a6181f3ae4bd1f584b3b4767e1
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_typeof
     url: https://github.com/boostorg/typeof.git

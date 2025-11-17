@@ -13,7 +13,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: bind
+      name: boost_bind
     url: https://github.com/boostorg/bind.git
   1.89.0-b.1:
     commit: a541a8d5c16920e1836d09299915890d687efe36
@@ -29,7 +29,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: bind
+      name: boost_bind
     url: https://github.com/boostorg/bind.git
   1.90.0-a.d+24.12.13.03.05:
     commit: a541a8d5c16920e1836d09299915890d687efe36
@@ -45,7 +45,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: bind
+      name: boost_bind
     url: https://github.com/boostorg/bind.git
   1.90.0-a.m+24.12.13.03.05:
     commit: a541a8d5c16920e1836d09299915890d687efe36
@@ -61,5 +61,20 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: bind
+      name: boost_bind
+    url: https://github.com/boostorg/bind.git
+  1.90.0-b.1:
+    commit: a541a8d5c16920e1836d09299915890d687efe36
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_bind
     url: https://github.com/boostorg/bind.git

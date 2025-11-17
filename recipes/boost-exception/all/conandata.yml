@@ -28,7 +28,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: exception
+      name: boost_exception
     url: https://github.com/boostorg/exception.git
   1.89.0-b.1:
     commit: 9238ef8e7f97e619ed3e58bc7becf16b4966ccf0
@@ -59,7 +59,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: exception
+      name: boost_exception
     url: https://github.com/boostorg/exception.git
   1.90.0-a.d+25.05.03.03.11:
     commit: 95b1ead06c7adc1b3ca23a82ef9794599dc2b6c3
@@ -90,7 +90,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: exception
+      name: boost_exception
     url: https://github.com/boostorg/exception.git
   1.90.0-a.m+25.03.02.03.25:
     commit: 9238ef8e7f97e619ed3e58bc7becf16b4966ccf0
@@ -121,5 +121,35 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: exception
+      name: boost_exception
+    url: https://github.com/boostorg/exception.git
+  1.90.0-b.1:
+    commit: 9238ef8e7f97e619ed3e58bc7becf16b4966ccf0
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_exception
     url: https://github.com/boostorg/exception.git

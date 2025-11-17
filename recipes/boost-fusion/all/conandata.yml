@@ -43,7 +43,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: fusion
+      name: boost_fusion
     url: https://github.com/boostorg/fusion.git
   1.89.0-b.1:
     commit: 53da4e0b2c8cd4969b09fa646d314ac0c414c1ff
@@ -89,7 +89,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: fusion
+      name: boost_fusion
     url: https://github.com/boostorg/fusion.git
   1.90.0-a.d+24.08.21.20.51:
     commit: 495539ce4404bde4af187ccc072235a6a7446e2c
@@ -135,7 +135,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: fusion
+      name: boost_fusion
     url: https://github.com/boostorg/fusion.git
   1.90.0-a.m+24.05.15.10.13:
     commit: 53da4e0b2c8cd4969b09fa646d314ac0c414c1ff
@@ -181,5 +181,50 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: fusion
+      name: boost_fusion
+    url: https://github.com/boostorg/fusion.git
+  1.90.0-b.1:
+    commit: 53da4e0b2c8cd4969b09fa646d314ac0c414c1ff
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function_types/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-functional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_fusion
     url: https://github.com/boostorg/fusion.git

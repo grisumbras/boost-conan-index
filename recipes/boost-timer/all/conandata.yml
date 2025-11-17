@@ -16,7 +16,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: timer
+      name: boost_timer
     url: https://github.com/boostorg/timer.git
   1.89.0-b.1:
     commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
@@ -35,7 +35,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: timer
+      name: boost_timer
     url: https://github.com/boostorg/timer.git
   1.90.0-a.d+24.12.14.16.31:
     commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
@@ -54,7 +54,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: timer
+      name: boost_timer
     url: https://github.com/boostorg/timer.git
   1.90.0-a.m+24.12.14.16.31:
     commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
@@ -73,5 +73,23 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: timer
+      name: boost_timer
+    url: https://github.com/boostorg/timer.git
+  1.90.0-b.1:
+    commit: b7f65f09a0975f26cb294eebd8b17e91a5beff3f
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-io/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_timer
     url: https://github.com/boostorg/timer.git

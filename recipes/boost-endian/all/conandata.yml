@@ -10,7 +10,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: endian
+      name: boost_endian
     url: https://github.com/boostorg/endian.git
   1.89.0-b.1:
     commit: c0b5c80603b8de7eeea8724c9a4f2761c3df06f2
@@ -23,7 +23,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: endian
+      name: boost_endian
     url: https://github.com/boostorg/endian.git
   1.90.0-a.d+24.12.14.03.43:
     commit: c0b5c80603b8de7eeea8724c9a4f2761c3df06f2
@@ -36,7 +36,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: endian
+      name: boost_endian
     url: https://github.com/boostorg/endian.git
   1.90.0-a.m+24.12.14.03.43:
     commit: c0b5c80603b8de7eeea8724c9a4f2761c3df06f2
@@ -49,5 +49,17 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: endian
+      name: boost_endian
+    url: https://github.com/boostorg/endian.git
+  1.90.0-b.1:
+    commit: c0b5c80603b8de7eeea8724c9a4f2761c3df06f2
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_endian
     url: https://github.com/boostorg/endian.git

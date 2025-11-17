@@ -76,7 +76,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: serialization
+      name: boost_serialization
     url: https://github.com/boostorg/serialization.git
   1.89.0-b.1:
     commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
@@ -155,7 +155,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: serialization
+      name: boost_serialization
     url: https://github.com/boostorg/serialization.git
   1.90.0-a.d+24.08.18.11.53:
     commit: 8a8c62864f05732131bf6785d54466d8ac6cd477
@@ -234,11 +234,11 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: serialization
+      name: boost_serialization
     - dependencies:
-      - serialization
+      - boost_serialization
       kind: library
-      name: wserialization
+      name: boost_wserialization
     url: https://github.com/boostorg/serialization.git
   1.90.0-a.m+23.11.12.21.05:
     commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
@@ -317,5 +317,83 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: serialization
+      name: boost_serialization
+    url: https://github.com/boostorg/serialization.git
+  1.90.0-b.1:
+    commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-io/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-function/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_serialization
     url: https://github.com/boostorg/serialization.git

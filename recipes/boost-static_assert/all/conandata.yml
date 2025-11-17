@@ -10,7 +10,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: static_assert
+      name: boost_static_assert
     url: https://github.com/boostorg/static_assert.git
   1.89.0-b.1:
     commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
@@ -23,7 +23,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: static_assert
+      name: boost_static_assert
     url: https://github.com/boostorg/static_assert.git
   1.90.0-a.d+25.04.15.18.33:
     commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
@@ -36,7 +36,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: static_assert
+      name: boost_static_assert
     url: https://github.com/boostorg/static_assert.git
   1.90.0-a.m+25.04.15.18.33:
     commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
@@ -49,5 +49,17 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: static_assert
+      name: boost_static_assert
+    url: https://github.com/boostorg/static_assert.git
+  1.90.0-b.1:
+    commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_static_assert
     url: https://github.com/boostorg/static_assert.git

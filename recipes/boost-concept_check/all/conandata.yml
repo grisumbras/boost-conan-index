@@ -19,7 +19,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: concept_check
+      name: boost_concept_check
     url: https://github.com/boostorg/concept_check.git
   1.89.0-b.1:
     commit: 0ef7f2b5daeaa125a53d98affba8f40091d24b17
@@ -41,7 +41,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: concept_check
+      name: boost_concept_check
     url: https://github.com/boostorg/concept_check.git
   1.90.0-a.d+25.07.02.07.32:
     commit: e302e80e85279ff6a51c8d5a0e3a81d909a2f397
@@ -63,7 +63,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: concept_check
+      name: boost_concept_check
     url: https://github.com/boostorg/concept_check.git
   1.90.0-a.m+24.12.28.18.10:
     commit: 0ef7f2b5daeaa125a53d98affba8f40091d24b17
@@ -85,5 +85,26 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: concept_check
+      name: boost_concept_check
+    url: https://github.com/boostorg/concept_check.git
+  1.90.0-b.1:
+    commit: 0ef7f2b5daeaa125a53d98affba8f40091d24b17
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_concept_check
     url: https://github.com/boostorg/concept_check.git

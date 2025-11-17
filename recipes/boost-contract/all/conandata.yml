@@ -55,7 +55,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: contract
+      name: boost_contract
     url: https://github.com/boostorg/contract.git
   1.89.0-b.1:
     commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
@@ -113,7 +113,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: contract
+      name: boost_contract
     url: https://github.com/boostorg/contract.git
   1.90.0-a.d+20.05.22.17.53:
     commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
@@ -171,7 +171,7 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: contract
+      name: boost_contract
     url: https://github.com/boostorg/contract.git
   1.90.0-a.m+20.05.22.17.53:
     commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
@@ -229,5 +229,62 @@ sources:
     targets:
     - dependencies: []
       kind: library
-      name: contract
+      name: boost_contract
+    url: https://github.com/boostorg/contract.git
+  1.90.0-b.1:
+    commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function_types/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-thread/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_contract
     url: https://github.com/boostorg/contract.git

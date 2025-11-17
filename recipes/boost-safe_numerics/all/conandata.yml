@@ -25,7 +25,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: safe_numerics
+      name: boost_safe_numerics
     url: https://github.com/boostorg/safe_numerics.git
   1.89.0-b.1:
     commit: 777e0be5ec763d0333a717c5e421a4f7c5e5bdc9
@@ -53,7 +53,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: safe_numerics
+      name: boost_safe_numerics
     url: https://github.com/boostorg/safe_numerics.git
   1.90.0-a.d+24.08.18.11.52:
     commit: c46d7a33fa6efc10e3d35526e9fcf6673936ed41
@@ -81,7 +81,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: safe_numerics
+      name: boost_safe_numerics
     url: https://github.com/boostorg/safe_numerics.git
   1.90.0-a.m+21.06.04.22.00:
     commit: 777e0be5ec763d0333a717c5e421a4f7c5e5bdc9
@@ -109,5 +109,32 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: safe_numerics
+      name: boost_safe_numerics
+    url: https://github.com/boostorg/safe_numerics.git
+  1.90.0-b.1:
+    commit: 777e0be5ec763d0333a717c5e421a4f7c5e5bdc9
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-logic/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_safe_numerics
     url: https://github.com/boostorg/safe_numerics.git

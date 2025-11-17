@@ -58,7 +58,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: algorithm
+      name: boost_algorithm
     url: https://github.com/boostorg/algorithm.git
   1.89.0-b.1:
     commit: 32c5a6327cfdca5d41ce0f1d8849b811886daa2f
@@ -119,7 +119,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: algorithm
+      name: boost_algorithm
     url: https://github.com/boostorg/algorithm.git
   1.90.0-a.d+25.08.25.08.42:
     commit: 0edbfe8736a073ce5d7bd70e268c663132d80b10
@@ -180,7 +180,7 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: algorithm
+      name: boost_algorithm
     url: https://github.com/boostorg/algorithm.git
   1.90.0-a.m+23.08.02.20.42:
     commit: 32c5a6327cfdca5d41ce0f1d8849b811886daa2f
@@ -241,5 +241,65 @@ sources:
     targets:
     - dependencies: []
       kind: header-library
-      name: algorithm
+      name: boost_algorithm
+    url: https://github.com/boostorg/algorithm.git
+  1.90.0-b.1:
+    commit: 32c5a6327cfdca5d41ce0f1d8849b811886daa2f
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-b.1
+    - header: false
+      public: true
+      ref: boost-regex/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-b.1
+    - header: true
+      public: true
+      ref: boost-unordered/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_algorithm
     url: https://github.com/boostorg/algorithm.git
