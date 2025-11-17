@@ -21,6 +21,7 @@ jobs:
         boost-ref: &boost-refs
           - develop
           - master
+          - boost-1.90.0.beta1
           - boost-1.89.0
           - boost-1.89.0.beta1
 
