@@ -7,7 +7,8 @@ set(Boost_ARCHITECTURE)
 find_package(boost-nowide CONFIG REQUIRED)
 
 add_executable(test_program test.cpp)
-target_link_libraries(test_program Boost::nowide)
+target_link_libraries(test_program PRIVATE Boost::nowide)
+
 
 
 

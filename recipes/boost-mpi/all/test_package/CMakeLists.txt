@@ -7,12 +7,13 @@ set(Boost_ARCHITECTURE)
 find_package(boost-mpi CONFIG REQUIRED)
 
 add_executable(test_program test.cpp)
-target_link_libraries(test_program Boost::mpi)
+target_link_libraries(test_program PRIVATE Boost::mpi)
 
 
 
 find_package(MPI COMPONENTS CXX REQUIRED)
-target_link_libraries(test_program MPI::MPI_CXX)
+target_link_libraries(test_program PRIVATE MPI::MPI_CXX)
+
 
 
 

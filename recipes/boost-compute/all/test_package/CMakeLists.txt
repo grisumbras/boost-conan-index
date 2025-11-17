@@ -7,7 +7,13 @@ set(Boost_ARCHITECTURE)
 find_package(boost-compute CONFIG REQUIRED)
 
 add_executable(test_program test.cpp)
-target_link_libraries(test_program Boost::compute)
+target_link_libraries(test_program PRIVATE Boost::compute)
+
+
+
+find_package(OpenCL)
+target_include_directories(test_program PRIVATE "${OpenCL_INCLUDE_DIR}")
+
 
 
 

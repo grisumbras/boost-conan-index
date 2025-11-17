@@ -7,12 +7,13 @@ set(Boost_ARCHITECTURE)
 find_package(boost-python CONFIG REQUIRED)
 
 add_executable(test_program test.cpp)
-target_link_libraries(test_program Boost::python)
+target_link_libraries(test_program PRIVATE Boost::python)
 
 
 
 find_package(Python COMPONENTS Development REQUIRED)
-target_link_libraries(test_program Python::Python)
+target_link_libraries(test_program PRIVATE Python::Python)
+
 
 
 
