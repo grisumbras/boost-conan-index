@@ -202,7 +202,7 @@ sources:
       ref: boost-range/1.90.0-a.d+25.05.02.19.18
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.11.14.16.11
+      ref: boost-smart_ptr/1.90.0-a.d+25.11.18.10.53
     - header: true
       public: true
       ref: boost-spirit/1.90.0-a.d+25.10.06.20.36

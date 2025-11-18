@@ -140,7 +140,7 @@ sources:
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.d+25.11.14.16.11
+      ref: boost-smart_ptr/1.90.0-a.d+25.11.18.10.53
     - header: true
       public: true
       ref: boost-system/1.90.0-a.d+25.11.02.20.08
