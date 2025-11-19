@@ -130,7 +130,7 @@ sources:
       ref: boost-charconv/1.90.0-a.d+25.10.29.17.26
     - header: true
       public: true
-      ref: boost-compat/1.90.0-a.d+25.11.03.18.54
+      ref: boost-compat/1.90.0-a.d+25.11.18.11.26
     - header: true
       public: true
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
