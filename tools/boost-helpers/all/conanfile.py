@@ -7,6 +7,8 @@
 
 
 import glob
+import hashlib
+import os
 import os.path
 import shutil
 from conan import ConanFile
@@ -80,7 +82,17 @@ class BoostPackage():
 
     def source(self):
         git = Git(self)
+        git.run('init')
+        git.run('config core.autocrlf false')
+        git.run('config core.eol lf')
         git.fetch_commit(self._data_cache['url'], self._data_cache['commit'])
+
+        sha1 = calculate_checksum(self.source_folder)
+        if sha1 != self._data_cache['sha1']:
+            raise ConanException(
+                'sha1 signature failed for sources.\n'
+                f' Provided signature: {self._data_cache["sha1"]}\n'
+                f' Computed signature: {sha1}')
         rmdir(self, '.git')
 
         build_jam = os.path.join(self.source_folder, 'build.jam')
@@ -334,6 +346,26 @@ class BoostPackage():
                 target['files'] = matched_libs
 
         return targets
+
+
+def calculate_checksum(path):
+    all_files = []
+    gitdir = os.path.join(path, '.git')
+    for root, dirs, files in os.walk(path):
+        if root.startswith(gitdir):
+            continue
+        all_files.extend(( os.path.join(root, file) for file in files ))
+
+    m = hashlib.new('sha1')
+    for file in sorted(all_files):
+        m.update(file[len(path) + 1:].encode('utf-8'))
+        with open(file, 'rb') as f:
+            while True:
+                data = f.read(8192)
+                if not data:
+                    break
+                m.update(data)
+    return m.hexdigest()
 
 
 _boost_install = '''\
