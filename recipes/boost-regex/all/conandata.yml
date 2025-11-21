@@ -135,7 +135,7 @@ sources:
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
@@ -144,7 +144,7 @@ sources:
       ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: false
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
+      ref: boost-smart_ptr/1.90.0-a.m+25.11.18.10.53
     kind: header-library
     targets:
     - dependencies: []

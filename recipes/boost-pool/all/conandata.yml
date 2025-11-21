@@ -98,7 +98,7 @@ sources:
       ref: boost-integer/1.90.0-a.m+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38

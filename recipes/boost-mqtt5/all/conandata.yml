@@ -546,7 +546,7 @@ sources:
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-beast/1.90.0-a.m+25.10.29.12.01
+      ref: boost-beast/1.90.0-a.m+25.11.13.19.36
     - header: false
       public: true
       ref: boost-container/1.90.0-a.m+25.11.03.23.55
@@ -558,13 +558,13 @@ sources:
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.m+25.10.30.11.48
+      ref: boost-random/1.90.0-a.m+25.11.14.15.33
     - header: true
       public: true
       ref: boost-range/1.90.0-a.m+25.02.08.16.31
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
+      ref: boost-smart_ptr/1.90.0-a.m+25.11.18.10.53
     - header: true
       public: true
       ref: boost-system/1.90.0-a.m+25.11.02.20.08

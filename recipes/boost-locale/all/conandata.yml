@@ -318,7 +318,7 @@ sources:
       ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+      ref: boost-iterator/1.90.0-a.m+25.11.14.03.49
     - header: false
       public: false
       ref: boost-charconv/1.90.0-a.m+25.10.29.19.17

@@ -186,7 +186,7 @@ sources:
       ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.08.25.19.05
+      ref: boost-iterator/1.90.0-a.m+25.11.14.03.49
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
@@ -195,7 +195,7 @@ sources:
       ref: boost-range/1.90.0-a.m+25.02.08.16.31
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
+      ref: boost-smart_ptr/1.90.0-a.m+25.11.18.10.53
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33

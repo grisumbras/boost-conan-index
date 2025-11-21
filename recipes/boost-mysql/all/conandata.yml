@@ -246,7 +246,7 @@ sources:
       ref: boost-charconv/1.90.0-a.m+25.10.29.19.17
     - header: true
       public: true
-      ref: boost-compat/1.90.0-a.m+25.11.03.18.54
+      ref: boost-compat/1.90.0-a.m+25.11.18.11.33
     - header: true
       public: true
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
@@ -258,7 +258,7 @@ sources:
       ref: boost-core/1.90.0-a.m+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-describe/1.90.0-a.m+25.10.22.16.03
+      ref: boost-describe/1.90.0-a.m+25.11.14.14.32
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -279,7 +279,7 @@ sources:
       ref: boost-system/1.90.0-a.m+25.11.02.20.08
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
     - header: true
       public: true
       ref: boost-variant2/1.90.0-a.m+25.10.22.21.03

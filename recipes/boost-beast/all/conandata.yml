@@ -621,6 +621,72 @@ sources:
       kind: header-library
       name: boost_beast
     url: https://github.com/boostorg/beast.git
+  1.90.0-a.m+25.11.13.19.36:
+    commit: 67106ebaab7a644a9bdb5d6e6b0a3f4ad1d0e4f7
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.90.0-a.m+25.11.05.23.27
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.m+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-a.m+25.11.03.23.55
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-a.m+24.12.14.03.43
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0-a.m+25.11.03.21.51
+    - header: true
+      public: true
+      ref: boost-logic/1.90.0-a.m+25.01.01.20.44
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.m+25.11.03.13.55
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_string/1.90.0-a.m+25.11.14.12.03
+    - header: true
+      public: true
+      ref: boost-system/1.90.0-a.m+25.11.02.20.08
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_index/1.90.0-a.m+25.10.18.15.18
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_beast
+    url: https://github.com/boostorg/beast.git
   1.90.0-b.1:
     commit: 5d6edfabfa9e2532d7a5e4432c05763f12547483
     cxxstd: '11'

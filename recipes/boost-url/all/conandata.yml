@@ -594,7 +594,7 @@ sources:
       ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
     - header: true
       public: false
-      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
     targets:
     - dependencies: []
       kind: library

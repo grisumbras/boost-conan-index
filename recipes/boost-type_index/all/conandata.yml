@@ -102,7 +102,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
     targets:
     - dependencies: []
       kind: header-library

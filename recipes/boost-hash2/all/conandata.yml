@@ -89,7 +89,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-describe/1.90.0-a.m+25.10.22.16.03
+      ref: boost-describe/1.90.0-a.m+25.11.14.14.32
     - header: true
       public: true
       ref: boost-mp11/1.90.0-a.m+25.11.03.13.55

@@ -518,13 +518,13 @@ sources:
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.m+25.10.30.11.48
+      ref: boost-random/1.90.0-a.m+25.11.14.15.33
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
     targets:
     - dependencies: []
       kind: header-library

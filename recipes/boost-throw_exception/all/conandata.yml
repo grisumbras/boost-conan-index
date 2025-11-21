@@ -93,6 +93,21 @@ sources:
       kind: header-library
       name: boost_throw_exception
     url: https://github.com/boostorg/throw_exception.git
+  1.90.0-a.m+25.11.15.22.13:
+    commit: 74bea78a391ccbba61d5287925c31a4ead1114d1
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_throw_exception
+    url: https://github.com/boostorg/throw_exception.git
   1.90.0-b.1:
     commit: f3d4d55f52894fda75ef2915dc122e3133b97b45
     cxxstd: '03'

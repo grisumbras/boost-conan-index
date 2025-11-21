@@ -77,10 +77,10 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-smart_ptr/1.90.0-a.m+25.10.29.17.15
+      ref: boost-smart_ptr/1.90.0-a.m+25.11.18.10.53
     - header: true
       public: true
-      ref: boost-throw_exception/1.90.0-a.m+24.12.12.19.39
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
     kind: header-library
     targets:
     - dependencies: []
