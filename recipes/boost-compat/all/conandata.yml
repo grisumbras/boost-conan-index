@@ -165,6 +165,24 @@ sources:
       kind: header-library
       name: boost_compat
     url: https://github.com/boostorg/compat.git
+  1.90.0-a.m+25.11.18.11.26:
+    commit: 0776d62a95e77af6091483db10f5d1b80c753f51
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_compat
+    url: https://github.com/boostorg/compat.git
   1.90.0-a.m+25.11.18.11.33:
     commit: ffaadc079d0e9b4b60b4ab0838735e4b7ebed9bf
     cxxstd: '11'
