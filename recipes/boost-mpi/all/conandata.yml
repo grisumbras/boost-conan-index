@@ -156,13 +156,13 @@ sources:
       ref: boost-function/1.90.0-a.d+24.12.14.04.39
     - header: false
       public: true
-      ref: boost-graph/1.90.0-a.d+25.10.09.16.54
+      ref: boost-graph/1.90.0-a.d+25.11.26.07.18
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.d+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.14.03.49
+      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -230,7 +230,7 @@ sources:
       ref: boost-integer/1.90.0-a.m+25.08.25.19.05
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.14.03.49
+      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.m+25.10.23.11.37

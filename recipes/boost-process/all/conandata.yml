@@ -157,7 +157,7 @@ sources:
       ref: boost-io/1.90.0-a.d+25.06.26.11.42
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.14.03.49
+      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
     - header: true
       public: true
       ref: boost-move/1.90.0-a.d+25.11.11.23.00
@@ -411,7 +411,7 @@ sources:
       ref: boost-io/1.90.0-a.m+23.10.03.00.15
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.14.03.49
+      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
     - header: true
       public: true
       ref: boost-move/1.90.0-a.m+25.11.03.21.51

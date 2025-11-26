@@ -97,10 +97,10 @@ sources:
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.11.11.22.59
+      ref: boost-intrusive/1.90.0-a.d+25.11.25.22.40
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.14.03.49
+      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
     - header: true
       public: true
       ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
@@ -156,7 +156,7 @@ sources:
       ref: boost-intrusive/1.90.0-a.m+25.11.03.21.51
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.14.03.49
+      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
     - header: true
       public: true
       ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
