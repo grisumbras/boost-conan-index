@@ -534,19 +534,22 @@ project
 {% endif %}
     ;
 
-alias {{ conanfile.name | replace('-', '_') }}
-{% if conanfile._is_header_only %}
-    : : : <include>include ;
-{% else %}
-    : build//{{ conanfile.name | replace('-', '_') }} ;
-{% endif %}
+{% for tgt in conanfile._data_cache.targets %}
+alias {{ tgt.name }}
+    {% if tgt.kind == 'library' %}
+    : build//{{ tgt.name }}
+    {% else %}
+    : : : <include>include
+    {% endif %}
+    ;
+{% endfor %}
 
 call-if : boost-library {{ conanfile.name[6:] }}
-{% if conanfile._is_header_only %}
+{% for lib in conanfile._data_cache.libraries %}
+    {% if loop.first %}: install{% endif %}
+      {{ lib.name }}
+{% endfor %}
     ;
-{% else %}
-    : install {{ conanfile.name | replace('-', '_') }} ;
-{% endif %}
 '''
 
 _jamroot = '''\
