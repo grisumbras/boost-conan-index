@@ -1,4 +1,4 @@
-#include <boost/shared_ptr.hpp>
+#include <boost/smart_ptr.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/circular_buffer_fwd.hpp>
+#include <boost/circular_buffer.hpp>
 
 int main()
 {

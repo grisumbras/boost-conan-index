@@ -1,4 +1,4 @@
-#include <boost/lambda/switch.hpp>
+#include <boost/lambda/lambda.hpp>
 
 int main()
 {

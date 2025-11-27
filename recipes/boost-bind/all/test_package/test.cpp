@@ -1,4 +1,4 @@
-#include <boost/mem_fn.hpp>
+#include <boost/bind/bind.hpp>
 
 int main()
 {

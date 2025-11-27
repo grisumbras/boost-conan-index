@@ -1,4 +1,4 @@
-#include <boost/ratio.hpp>
+#include <boost/ratio/ratio.hpp>
 
 int main()
 {

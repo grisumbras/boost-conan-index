@@ -1,4 +1,4 @@
-#include <boost/regex.h>
+#include <boost/regex.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/pool/poolfwd.hpp>
+#include <boost/pool/pool.hpp>
 
 int main()
 {

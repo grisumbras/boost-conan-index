@@ -1,4 +1,4 @@
-#include <boost/fiber/timed_mutex.hpp>
+#include <boost/fiber/fiber.hpp>
 
 int main()
 {

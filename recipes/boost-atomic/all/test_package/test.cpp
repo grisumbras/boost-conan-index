@@ -1,4 +1,4 @@
-#include <boost/memory_order.hpp>
+#include <boost/atomic/atomic.hpp>
 
 int main()
 {

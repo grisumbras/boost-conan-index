@@ -1,4 +1,4 @@
-#include <boost/integer_traits.hpp>
+#include <boost/integer.hpp>
 
 int main()
 {

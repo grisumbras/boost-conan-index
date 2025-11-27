@@ -1,4 +1,4 @@
-#include <boost/coroutine/attributes.hpp>
+#include <boost/coroutine/coroutine.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/bimap.hpp>
+#include <boost/bimap/bimap.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/histogram.hpp>
+#include <boost/histogram/histogram.hpp>
 
 int main()
 {

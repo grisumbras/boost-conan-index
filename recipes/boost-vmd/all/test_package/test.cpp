@@ -1,4 +1,4 @@
-#include <boost/vmd/is_list.hpp>
+#include <boost/vmd/vmd.hpp>
 
 int main()
 {

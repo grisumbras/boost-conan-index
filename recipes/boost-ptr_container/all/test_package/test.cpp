@@ -1,4 +1,4 @@
-#include <boost/ptr_container/serialize_ptr_set.hpp>
+#include <boost/ptr_container/ptr_container.hpp>
 
 int main()
 {

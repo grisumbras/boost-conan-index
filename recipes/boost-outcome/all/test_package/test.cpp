@@ -1,4 +1,4 @@
-#include <boost/outcome.hpp>
+#include <boost/outcome/outcome.hpp>
 
 int main()
 {

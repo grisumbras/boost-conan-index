@@ -1,4 +1,4 @@
-#include <boost/flyweight.hpp>
+#include <boost/flyweight/flyweight.hpp>
 
 int main()
 {

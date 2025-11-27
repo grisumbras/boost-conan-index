@@ -1,4 +1,4 @@
-#include <boost/polygon/point_concept.hpp>
+#include <boost/polygon/polygon.hpp>
 
 int main()
 {

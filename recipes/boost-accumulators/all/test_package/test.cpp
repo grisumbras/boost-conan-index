@@ -1,4 +1,4 @@
-#include <boost/accumulators/statistics.hpp>
+#include <boost/accumulators/accumulators.hpp>
 
 int main()
 {

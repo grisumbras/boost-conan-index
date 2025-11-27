@@ -1,4 +1,4 @@
-#include <boost/move/utility_core.hpp>
+#include <boost/move/move.hpp>
 
 int main()
 {
