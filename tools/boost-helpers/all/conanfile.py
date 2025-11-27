@@ -84,37 +84,11 @@ class BoostPackage():
         rmdir(self, '.git')
 
         build_jam = os.path.join(self.source_folder, 'build.jam')
-        if not glob.glob(build_jam):
-            if self._is_header_only:
-                build_jam_template = Template(
-                    _build_jam, trim_blocks=True, lstrip_blocks=True)
-                save(
-                    self,
-                    build_jam,
-                    build_jam_template.render(conanfile=self),
-                )
-            else:
-                files = glob.glob('*')
-                lib_dir = os.path.join(
-                    self.source_folder, 'libs', self.name[6:]
-                )
-                mkdir(self, lib_dir)
-                for file in files:
-                    rename(self, file, os.path.join(lib_dir, file))
-
-                jamroot_template = Template(
-                    _jamroot, trim_blocks=True, lstrip_blocks=True)
-                save(
-                    self, build_jam, jamroot_template.render(conanfile=self),
-                )
-
-                lib_jam_template = Template(
-                    _lib_jam, trim_blocks=True, lstrip_blocks=True)
-                save(
-                    self,
-                    os.path.join(self.source_folder, 'libs', 'build.jam'),
-                    lib_jam_template.render(conanfile=self),
-                )
+        if not os.path.exists(build_jam):
+            lib_jam_template = Template(
+                _build_jam, trim_blocks=True, lstrip_blocks=True,
+            )
+            save(self, build_jam, lib_jam_template.render(conanfile=self))
 
         if not glob.glob(f'{self.source_folder}/LICENSE*'):
             copy(
@@ -123,6 +97,20 @@ class BoostPackage():
                 self.python_requires['b2-tools'].path,
                 self.source_folder,
             )
+
+        files = glob.glob('*')
+        lib_dir = os.path.join(self.source_folder, 'libs', self.name[6:])
+        mkdir(self, lib_dir)
+        for file in files:
+            rename(self, file, os.path.join(lib_dir, file))
+
+        jamroot_template = Template(
+            _jamroot, trim_blocks=True, lstrip_blocks=True)
+        save(
+            self,
+            os.path.join(self.source_folder, 'build.jam'),
+            jamroot_template.render(conanfile=self),
+        )
 
     def generate(self):
         b2_gens = self.python_requires['b2-tools'].module
@@ -156,7 +144,10 @@ class BoostPackage():
 
     def build(self):
         b2 = self.python_requires['b2-tools'].module.B2(self)
-        libs = [tgt['name'] for tgt in self._data_cache['libraries']]
+        libs = [
+            f'libs/{self.name[6:]}//{tgt["name"]}'
+            for tgt in self._data_cache['libraries']
+        ]
         if libs:
             b2.build(libs)
 
@@ -165,7 +156,7 @@ class BoostPackage():
         args = ['--requested-libraries=' + ','.join(requested)]
 
         b2 = self.python_requires['b2-tools'].module.B2(self)
-        b2.build('conan-install', args=args)
+        b2.build(f'libs/{self.name[6:]}//conan-install', args=args)
 
         lib_name = self.name[6:]
         targets_file = os.path.join(
@@ -348,7 +339,7 @@ import property-set ;
 import regex ;
 import virtual-target ;
 
-rule conan-install ( libraries * )
+rule conan-install ( id : libraries * )
 {
     local p = [ project.current ] ;
     if [ $(p).has-alternative-for-target conan-install ]
@@ -375,10 +366,9 @@ rule conan-install ( libraries * )
         $(p).mark-target-as-explicit conan-$(lib)-info ;
     }
 
-    local id = [ $(p).get id ] ;
+    local lib_name = $(id) ;
 
-    local lib_name = [ MATCH /boost/(.*) : $(id) ] ;
-    local lib_name = $(lib_name[1]) ;
+    id = /boost/$(id) ;
 
     local requested = [ option.get requested-libraries ] ;
     if $(requested)
@@ -506,7 +496,7 @@ rule boost-library ( id ? : options * : * )
         local opt = $($(n)) ;
         if $(opt[1]) = install
         {
-            conan-install $(opt[2-]) ;
+            conan-install $(id) : $(opt[2-]) ;
             if $(opt[1]) = install
             {
                 called-conan-install = true ;
@@ -514,7 +504,7 @@ rule boost-library ( id ? : options * : * )
         }
         if ! $(called-conan-install)
         {
-            conan-install ;
+            conan-install $(id) ;
         }
     }
 }
@@ -531,11 +521,31 @@ rule tag ( name : type ? : property-set )
 _build_jam = '''\
 require-b2 {{ conanfile._b2_version }} ;
 
-project /boost/{{ conanfile.name[6:] }} ;
+project
+    : requirements
+{% if not conanfile._is_header_only %}
+    {% for req, dep in conanfile.dependencies.items() %}
+        {% if req.direct and dep.ref.name.startswith('boost-') %}
+            <library>/boost/{{dep.ref.name[6:]}}//boost_{{dep.ref.name[6:]}}
+        {% endif %}
+    {% endfor %}
+            <include>include
+{% endif %}
+    ;
 
-alias {{ conanfile.name | replace('-', '_') }} : : : <include>include ;
+alias {{ conanfile.name | replace('-', '_') }}
+{% if conanfile._is_header_only %}
+    : : : <include>include ;
+{% else %}
+    : build//{{ conanfile.name | replace('-', '_') }} ;
+{% endif %}
 
-call-if : boost-library {{ conanfile.name[6:] }} ;
+call-if : boost-library {{ conanfile.name[6:] }}
+{% if conanfile._is_header_only %}
+    ;
+{% else %}
+    : install {{ conanfile.name | replace('-', '_') }} ;
+{% endif %}
 '''
 
 _jamroot = '''\
@@ -543,34 +553,7 @@ require-b2 {{ conanfile._b2_version }} ;
 
 project boost ;
 
-rule boost-install ( libs * ) { conan-install $(libs) ; }
-
-alias {{ conanfile.name | replace('-', '_') }}
-    : libs/{{ conanfile.name[6:] }}/build//{{ conanfile.name | replace('-', '_') }}
-    ;
-
-install conan-install-headers
-    : [ glob-tree-ex libs/{{ conanfile.name[6:] }}/include : *.* ]
-    : <location>(includedir)
-      <install-source-root>libs/{{ conanfile.name[6:] }}/include
-    ;
-alias conan-install
-    : libs/{{ conanfile.name[6:] }}/build//conan-install
-      conan-install-headers
-    ;
-explicit conan-install conan-install-headers ;
-'''
-
-_lib_jam = '''\
-project
-    : requirements
-{% for req, dep in conanfile.dependencies.items() %}
-    {% if req.direct and dep.ref.name.startswith('boost-') %}
-        <library>/boost/{{dep.ref.name[6:]}}//boost_{{dep.ref.name[6:]}}
-    {% endif %}
-        <include>{{conanfile.name[6:]}}/include
-{% endfor %}
-    ;
+rule boost-install ( * ) { }
 '''
 
 _predef_patch = '''\
