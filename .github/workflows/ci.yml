@@ -82,10 +82,9 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-geometry boost-timer boost-context boost-python boost-test b2-tools; do
+          for proj in boost-geometry boost-timer boost-context boost-python boost-test boost-stacktrace b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/linux-${{ matrix.toolset }}.profile \
-                -o "*:disabled_libraries=boost_numpy,boost_mpi,boost_mpi_python" \
                 "index/recipes/$proj/all/test_package" \
                 "$proj/[>0-a,include_prerelease]"
           done
@@ -125,10 +124,9 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-geometry boost-timer boost-context boost-python boost-test b2-tools; do
+          for proj in boost-geometry boost-timer boost-context boost-python boost-test boost-stacktrace b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/windows-${{ matrix.toolset }}.profile \
-                -o "*:disabled_libraries=boost_numpy,boost_mpi,boost_python_mpi" \
                 "index/recipes/$proj/all/test_package" \
                 "$proj/[>0-a,include_prerelease]"
           done
@@ -169,10 +167,9 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-geometry boost-timer boost-context boost-python boost-test b2-tools; do
+          for proj in boost-geometry boost-timer boost-context boost-python boost-test boost-stacktrace b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/macos-${{ matrix.toolset }}.profile \
-                -o "*:disabled_libraries=boost_numpy,boost_mpi,boost_python_mpi" \
                 "index/recipes/$proj/all/test_package" \
                 "$proj/[>0-a,include_prerelease]"
           done

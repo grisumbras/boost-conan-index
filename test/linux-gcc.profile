@@ -6,3 +6,6 @@ compiler.cppstd=17
 compiler.libcxx=libstdc++11
 compiler.version=13
 os=Linux
+
+[options]
+boost-*:disabled_libraries=boost_numpy,boost_mpi,boost_mpi_python,boost_stacktrace_windbg,boost_stacktrace_windbg_cached

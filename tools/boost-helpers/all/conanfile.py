@@ -338,6 +338,7 @@ import project ;
 import property ;
 import property-set ;
 import regex ;
+import targets ;
 import virtual-target ;
 
 rule conan-install ( id : libraries * )
@@ -381,10 +382,11 @@ rule conan-install ( id : libraries * )
         libraries = ;
     }
 
-    make targets.yml
+    targets.create-metatarget multimake-target-class
+        : $(p)
+        : targets.yml
         : conan-$(libraries)-info
-        : @make-libraries-info
-        : <flags>project=$(lib_name)
+        : <action>@make-libraries-info <flags>project=$(lib_name)
         ;
     $(p).mark-target-as-explicit targets.yml ;
 
@@ -488,6 +490,13 @@ rule make-libraries-info ( target : : props * )
     }
 
     print.text "" : overwrite ;
+}
+
+class multimake-target-class : make-target-class
+{
+    rule skip-from-usage-requirements ( )
+    {
+    }
 }
 
 rule boost-library ( id ? : options * : * )
