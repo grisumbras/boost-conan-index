@@ -130,14 +130,15 @@ class BoostPackage():
         )
 
         libs_dir = os.path.join(self.source_folder, 'libs')
-        if (os.path.exists(libs_dir)
-            and ('boost-config' in self.dependencies.direct_host)
-        ):
-            config_dir = os.path.join(libs_dir, 'config')
-            boost_config = self.dependencies['boost-config']
-            for src in boost_config.cpp_info.builddirs:
-                if os.path.exists(src):
-                    shutil.copytree(src, config_dir)
+        if os.path.exists(libs_dir):
+            for dep_name in ('config', 'predef'):
+                if f'boost-{dep_name}' in self.dependencies.direct_host:
+                    dep_dir = os.path.join(libs_dir, dep_name)
+                    dep = self.dependencies[f'boost-{dep_name}']
+                    for src in dep.cpp_info.builddirs:
+                        if os.path.exists(src):
+                            shutil.copytree(src, dep_dir)
+
 
         if 'boost-predef' in self.dependencies.direct_host:
             patch(self, patch_string=_predef_patch, fuzz=True)
@@ -533,19 +534,22 @@ project
 {% endif %}
     ;
 
-alias {{ conanfile.name | replace('-', '_') }}
-{% if conanfile._is_header_only %}
-    : : : <include>include ;
-{% else %}
-    : build//{{ conanfile.name | replace('-', '_') }} ;
-{% endif %}
+{% for tgt in conanfile._data_cache.targets %}
+alias {{ tgt.name }}
+    {% if tgt.kind == 'library' %}
+    : build//{{ tgt.name }}
+    {% else %}
+    : : : <include>include
+    {% endif %}
+    ;
+{% endfor %}
 
 call-if : boost-library {{ conanfile.name[6:] }}
-{% if conanfile._is_header_only %}
+{% for lib in conanfile._data_cache.libraries %}
+    {% if loop.first %}: install{% endif %}
+      {{ lib.name }}
+{% endfor %}
     ;
-{% else %}
-    : install {{ conanfile.name | replace('-', '_') }} ;
-{% endif %}
 '''
 
 _jamroot = '''\

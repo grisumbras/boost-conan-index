@@ -7,7 +7,11 @@ set(Boost_ARCHITECTURE)
 find_package(boost-xpressive CONFIG REQUIRED)
 
 add_executable(test_program test.cpp)
-target_link_libraries(test_program PRIVATE Boost::xpressive)
+target_link_libraries(test_program PRIVATE
+
+    Boost::xpressive
+
+)
 
 
 

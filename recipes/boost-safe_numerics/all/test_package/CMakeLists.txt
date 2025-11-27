@@ -7,7 +7,11 @@ set(Boost_ARCHITECTURE)
 find_package(boost-safe_numerics CONFIG REQUIRED)
 
 add_executable(test_program test.cpp)
-target_link_libraries(test_program PRIVATE Boost::safe_numerics)
+target_link_libraries(test_program PRIVATE
+
+    Boost::safe_numerics
+
+)
 
 
 

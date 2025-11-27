@@ -7,7 +7,11 @@ set(Boost_ARCHITECTURE)
 find_package(boost-container_hash CONFIG REQUIRED)
 
 add_executable(test_program test.cpp)
-target_link_libraries(test_program PRIVATE Boost::container_hash)
+target_link_libraries(test_program PRIVATE
+
+    Boost::container_hash
+
+)
 
 
 

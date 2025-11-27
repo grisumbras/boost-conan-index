@@ -57,11 +57,20 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.89.0
+    - header: true
+      public: false
+      ref: boost-predef/1.89.0
     kind: library
     targets:
     - dependencies: []
       kind: library
-      name: boost_test
+      name: boost_unit_test_framework
+    - dependencies: []
+      kind: library
+      name: boost_prg_exec_monitor
+    - dependencies: []
+      kind: library
+      name: boost_test_exec_monitor
     url: https://github.com/boostorg/test.git
   1.89.0-b.1:
     commit: cfd3a7e8749752f5a9d20266c1fc7afdb9b1e173
@@ -121,11 +130,20 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.89.0-b.1
+    - header: true
+      public: false
+      ref: boost-predef/1.89.0-b.1
     kind: library
     targets:
     - dependencies: []
       kind: library
-      name: boost_test
+      name: boost_unit_test_framework
+    - dependencies: []
+      kind: library
+      name: boost_prg_exec_monitor
+    - dependencies: []
+      kind: library
+      name: boost_test_exec_monitor
     url: https://github.com/boostorg/test.git
   1.90.0-a.d+25.10.02.08.37:
     commit: 98f4db50606877576e6b4eb0fe23c88becc392f6
@@ -324,22 +342,19 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
     targets:
     - dependencies: []
-      kind: header-library
-      name: boost_test
-    - dependencies:
-      - boost_test
-      kind: library
-      name: boost_prg_exec_monitor
-    - dependencies:
-      - boost_test
-      kind: library
-      name: boost_test_exec_monitor
-    - dependencies:
-      - boost_test
       kind: library
       name: boost_unit_test_framework
+    - dependencies: []
+      kind: library
+      name: boost_prg_exec_monitor
+    - dependencies: []
+      kind: library
+      name: boost_test_exec_monitor
     url: https://github.com/boostorg/test.git
   1.90.0-a.m+25.02.24.11.42:
     commit: cfd3a7e8749752f5a9d20266c1fc7afdb9b1e173
@@ -532,22 +547,19 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
     targets:
     - dependencies: []
-      kind: header-library
-      name: boost_test
-    - dependencies:
-      - boost_test
-      kind: library
-      name: boost_prg_exec_monitor
-    - dependencies:
-      - boost_test
-      kind: library
-      name: boost_test_exec_monitor
-    - dependencies:
-      - boost_test
       kind: library
       name: boost_unit_test_framework
+    - dependencies: []
+      kind: library
+      name: boost_prg_exec_monitor
+    - dependencies: []
+      kind: library
+      name: boost_test_exec_monitor
     url: https://github.com/boostorg/test.git
   1.90.0-b.1:
     commit: 0cba5d6cd973e544c6121072d426522d5be47a13
@@ -607,20 +619,17 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.90.0-b.1
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0-b.1
     targets:
     - dependencies: []
-      kind: header-library
-      name: boost_test
-    - dependencies:
-      - boost_test
-      kind: library
-      name: boost_prg_exec_monitor
-    - dependencies:
-      - boost_test
-      kind: library
-      name: boost_test_exec_monitor
-    - dependencies:
-      - boost_test
       kind: library
       name: boost_unit_test_framework
+    - dependencies: []
+      kind: library
+      name: boost_prg_exec_monitor
+    - dependencies: []
+      kind: library
+      name: boost_test_exec_monitor
     url: https://github.com/boostorg/test.git

@@ -7,7 +7,11 @@ set(Boost_ARCHITECTURE)
 find_package(boost-dynamic_bitset CONFIG REQUIRED)
 
 add_executable(test_program test.cpp)
-target_link_libraries(test_program PRIVATE Boost::dynamic_bitset)
+target_link_libraries(test_program PRIVATE
+
+    Boost::dynamic_bitset
+
+)
 
 
 
