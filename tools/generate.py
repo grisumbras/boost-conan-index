@@ -401,6 +401,31 @@ class LibraryProject(Project):
     def _mpi_exceptions(self, lib_dir, registry):
         self.targets = [tgt for tgt in self.targets if tgt['name'] != 'mpi']
 
+    def _test_exceptions(self, lib_dir, registry):
+        self.header = 'boost/test/framework.hpp'
+        has_predef = False
+        for dep, _ in self.dependencies:
+            has_predef = dep.name == 'predef'
+        if not has_predef:
+            self.dependencies.append( (registry['predef'], False) )
+        self.targets = [
+            {
+                'name': 'boost_unit_test_framework',
+                'kind': 'library',
+                'dependencies': [],
+            },
+            {
+                'name': 'boost_prg_exec_monitor',
+                'kind': 'library',
+                'dependencies': [],
+            },
+            {
+                'name': 'boost_test_exec_monitor',
+                'kind': 'library',
+                'dependencies': [],
+            },
+        ]
+
 
 class ToolProject(Project):
     def __init__(self, name, path, url, superproject, tools, helpers, git):
