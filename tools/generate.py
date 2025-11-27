@@ -369,9 +369,12 @@ class LibraryProject(Project):
         includedir = os.path.join(lib_dir, 'include')
         offset = len(includedir) + 1
 
-        convenience_header = os.path.join(includedir, self.name + '.hpp')
-        if fs.exists(convenience_header):
-            return convenience_header[offset:]
+        for convenience_header in (
+            os.path.join(includedir, 'boost', self.name, self.name + '.hpp'),
+            os.path.join(includedir, 'boost', self.name + '.hpp'),
+        ):
+            if fs.exists(convenience_header):
+                return convenience_header[offset:]
 
         for root, _, files in fs.walk(includedir):
             if root[offset:].find('detail') >= 0:

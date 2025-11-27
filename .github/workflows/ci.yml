@@ -82,7 +82,7 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-geometry boost-context boost-python b2-tools; do
+          for proj in boost-geometry boost-timer boost-context boost-python b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/linux-${{ matrix.toolset }}.profile \
                 -o "*:disabled_libraries=boost_numpy,boost_mpi,boost_mpi_python" \
@@ -125,7 +125,7 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-geometry boost-context boost-python b2-tools; do
+          for proj in boost-geometry boost-timer boost-context boost-python b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/windows-${{ matrix.toolset }}.profile \
                 -o "*:disabled_libraries=boost_numpy,boost_mpi,boost_python_mpi" \
@@ -169,7 +169,7 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-geometry boost-context boost-python b2-tools; do
+          for proj in boost-geometry boost-timer boost-context boost-python b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/macos-${{ matrix.toolset }}.profile \
                 -o "*:disabled_libraries=boost_numpy,boost_mpi,boost_python_mpi" \
