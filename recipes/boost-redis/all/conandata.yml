@@ -29,7 +29,8 @@ sources:
       ref: openssl/[*]
     kind: header-library
     targets:
-    - dependencies: []
+    - dependencies:
+      - openssl::ssl
       kind: header-library
       name: boost_redis
     url: https://github.com/boostorg/redis.git
@@ -63,7 +64,8 @@ sources:
       ref: openssl/[*]
     kind: header-library
     targets:
-    - dependencies: []
+    - dependencies:
+      - openssl::ssl
       kind: header-library
       name: boost_redis
     url: https://github.com/boostorg/redis.git
@@ -397,7 +399,8 @@ sources:
       public: true
       ref: openssl/[*]
     targets:
-    - dependencies: []
+    - dependencies:
+      - openssl::ssl
       kind: header-library
       name: boost_redis
     url: https://github.com/boostorg/redis.git
@@ -521,7 +524,8 @@ sources:
       public: true
       ref: openssl/[*]
     targets:
-    - dependencies: []
+    - dependencies:
+      - openssl::ssl
       kind: header-library
       name: boost_redis
     url: https://github.com/boostorg/redis.git
@@ -554,7 +558,8 @@ sources:
       public: true
       ref: openssl/[*]
     targets:
-    - dependencies: []
+    - dependencies:
+      - openssl::ssl
       kind: header-library
       name: boost_redis
     url: https://github.com/boostorg/redis.git

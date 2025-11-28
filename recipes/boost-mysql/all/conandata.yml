@@ -51,9 +51,13 @@ sources:
     - header: true
       public: true
       ref: boost-variant2/1.89.0
+    - header: false
+      public: true
+      ref: openssl/[*]
     kind: header-library
     targets:
-    - dependencies: []
+    - dependencies:
+      - openssl::ssl
       kind: header-library
       name: boost_mysql
     url: https://github.com/boostorg/mysql.git
@@ -109,9 +113,13 @@ sources:
     - header: true
       public: true
       ref: boost-variant2/1.89.0-b.1
+    - header: false
+      public: true
+      ref: openssl/[*]
     kind: header-library
     targets:
-    - dependencies: []
+    - dependencies:
+      - openssl::ssl
       kind: header-library
       name: boost_mysql
     url: https://github.com/boostorg/mysql.git
@@ -167,9 +175,13 @@ sources:
     - header: true
       public: true
       ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
+    - header: false
+      public: true
+      ref: openssl/[*]
     kind: header-library
     targets:
-    - dependencies: []
+    - dependencies:
+      - openssl::ssl
       kind: header-library
       name: boost_mysql
     url: https://github.com/boostorg/mysql.git
@@ -283,8 +295,12 @@ sources:
     - header: true
       public: true
       ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
+    - header: false
+      public: true
+      ref: openssl/[*]
     targets:
-    - dependencies: []
+    - dependencies:
+      - openssl::ssl
       kind: header-library
       name: boost_mysql
     url: https://github.com/boostorg/mysql.git
@@ -340,8 +356,12 @@ sources:
     - header: true
       public: true
       ref: boost-variant2/1.90.0-b.1
+    - header: false
+      public: true
+      ref: openssl/[*]
     targets:
-    - dependencies: []
+    - dependencies:
+      - openssl::ssl
       kind: header-library
       name: boost_mysql
     url: https://github.com/boostorg/mysql.git

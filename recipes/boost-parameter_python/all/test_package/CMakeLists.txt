@@ -15,6 +15,11 @@ target_link_libraries(test_program PRIVATE
 
 
 
+find_package(Python COMPONENTS Development REQUIRED)
+target_link_libraries(test_program PRIVATE Python::Python)
+
+
+
 
 include(CTest)
 add_test(NAME test COMMAND test_program)
