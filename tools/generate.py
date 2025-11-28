@@ -428,7 +428,11 @@ class LibraryProject(Project):
 
     def _redis_exceptions(self, lib_dir, registry):
         self.dependencies.append( (ExternalProject('openssl'), True) )
-        # self.targets[0]['dependencies'].append('openssl::ssl')
+        self.targets[0]['dependencies'].append('openssl::ssl')
+
+    def _mysql_exceptions(self, lib_dir, registry):
+        self.dependencies.append( (ExternalProject('openssl'), True) )
+        self.targets[0]['dependencies'].append('openssl::ssl')
 
 
 class ToolProject(Project):
