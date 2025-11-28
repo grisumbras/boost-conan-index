@@ -92,6 +92,36 @@ sources:
       kind: header-library
       name: boost_histogram
     url: https://github.com/boostorg/histogram.git
+  1.90.0-a.d+25.11.28.13.08:
+    commit: 5e9b7b162e8a2801b77ccf199dedea88fa44325c
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: false
+      public: true
+      ref: boost-math/1.90.0-a.d+25.11.03.10.17
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.11.03.13.55
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_histogram
+    url: https://github.com/boostorg/histogram.git
   1.90.0-a.m+25.06.12.10.10:
     commit: 6eaea7fead85b5e00c9a4c4d51d7b8fe335a8782
     cxxstd: '14'
