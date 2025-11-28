@@ -15,7 +15,7 @@ target_link_libraries(test_program PRIVATE
 {% endif %}
 )
 
-{% if project.name == 'python' %}
+{% if project.name in ('python', 'parameter_python') %}
 
 find_package(Python COMPONENTS Development REQUIRED)
 target_link_libraries(test_program PRIVATE Python::Python)
