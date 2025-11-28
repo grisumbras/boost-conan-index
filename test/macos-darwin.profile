@@ -12,4 +12,5 @@ boost-*:disabled_libraries=boost_numpy,boost_mpi,boost_mpi_python,boost_stacktra
 
 [conf]
 tools.build:compiler_executables={"cpp": "g++-15", "c": "gcc-15"}
-tools.build:defines=["_GNU_SOURCE"]
+boost-*:tools.build:defines=["_GNU_SOURCE"]
+&:tools.build:defines=["_GNU_SOURCE"]

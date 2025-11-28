@@ -219,6 +219,17 @@ class B2Deps(object):
         self.generators_folder = (
             generators_folder or conanfile.generators_folder
         )
+        self.excluded_dependencies = [
+            'bzip2',
+            'libjpeg',
+            'libpng',
+            'libtiff',
+            'openssl',
+            'qt',
+            'xz_utils',
+            'zlib',
+            'zstd',
+        ]
         self._clear_cache()
 
     def generate(self):
@@ -247,6 +258,11 @@ class B2Deps(object):
                 save(self._conanfile, path, content)
 
     def _project_content(self, project, pkgs):
+        for pkg in pkgs.values():
+            self._conanfile.output.info(pkg['package'])
+            if pkg['package'].ref.name in self.excluded_dependencies:
+                return
+
         project_dir = os.path.join(
             self.generators_folder,
             'b2_dep' + project.replace('/', '-'),
@@ -262,7 +278,8 @@ class B2Deps(object):
         )
 
         deps = set()
-        for pkg_id, targets in pkgs.items():
+        for pkg_id, pkg in pkgs.items():
+            targets = pkg['targets']
             yield (
                 os.path.join(project_dir, f'id-{pkg_id}.jam'),
                 Template(_dep_pkg_template).render(targets=targets),
@@ -300,8 +317,10 @@ class B2Deps(object):
         self._targets[dep.cpp_info] = main_target
 
         project = self._projects.setdefault(project, {})
-        pkg = project.setdefault(dep.pref.package_id, [])
-        pkg.extend(targets)
+        pkg = project.setdefault(dep.pref.package_id, {})
+        pkg['package'] = dep
+        pkg_targets = pkg.setdefault('targets', [])
+        pkg_targets.extend(targets)
 
         for name, comp in dep.cpp_info.components.items():
             project, target_name = _b2_target(name, comp)
@@ -313,8 +332,10 @@ class B2Deps(object):
 
             main_target['dependencies'].append(comp_target)
             project = self._projects.setdefault(project, {})
-            pkg = project.setdefault(dep.pref.package_id, [])
-            pkg.extend(targets)
+            pkg = project.setdefault(dep.pref.package_id, {})
+            pkg['package'] = dep
+            pkg_targets = pkg.setdefault('targets', [])
+            pkg_targets.extend(targets)
 
         for comp in dep.cpp_info.components.values():
             comp_tgt = self._targets[comp]

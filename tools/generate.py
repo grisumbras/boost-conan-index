@@ -426,6 +426,10 @@ class LibraryProject(Project):
             },
         ]
 
+    def _redis_exceptions(self, lib_dir, registry):
+        self.dependencies.append( (ExternalProject('openssl'), True) )
+        # self.targets[0]['dependencies'].append('openssl::ssl')
+
 
 class ToolProject(Project):
     def __init__(self, name, path, url, superproject, tools, helpers, git):
@@ -534,6 +538,17 @@ class HelpersProject(Project):
 
     def __repr__(self):
         return f'HelpersProject()'
+
+
+class ExternalProject(Project):
+    def __init__(self, name, version=None, header_only=False):
+        super().__init__(name)
+        self._conan_version = version if version is not None else '[*]'
+        self.is_header_only = header_only
+
+    @property
+    def conan_name(self):
+        return self.name
 
 
 class IgnoredProject(Project):
