@@ -67,7 +67,7 @@ class BoostPackage():
                 dep['ref'],
                 headers=True,
                 transitive_headers=dep['public'],
-                libs=not dep['header'] and not self._is_header_only,
+                libs=not dep['header'],
                 transitive_libs=dep['public'] and not dep['header'],
             )
 
@@ -196,6 +196,11 @@ class BoostPackage():
                 f'/boost/{lib_name}//boost_{lib_name}',
             )
 
+            if targets:
+                self.cpp_info.requires = _dependencies_for_target(
+                    targets[0], self._data_cache['dependencies'],
+                )
+
             if self._is_header_only:
                 self.cpp_info.libdirs = []
             else:
@@ -230,10 +235,9 @@ class BoostPackage():
                     comp.defines = no_autolink
                 else:
                     comp.libdirs = []
-                comp.requires = [dep for dep in tgt['dependencies']]
-                for dep in self._data_cache['dependencies']:
-                    dep_name = dep['ref'].split('/')[0]
-                    comp.requires.append(dep_name + '::' + dep_name)
+                comp.requires = _dependencies_for_target(
+                    tgt, self._data_cache['dependencies'],
+                )
 
     def package_id(self):
         if self._is_header_only:
@@ -326,6 +330,19 @@ class BoostPackage():
                 target['files'] = matched_libs
 
         return targets
+
+def _dependencies_for_target(target, package_dependencies):
+    deps = [dep.split('::') for dep in target['dependencies']]
+    for dep in package_dependencies:
+        dep_name = dep['ref'].split('/')[0]
+        found = False
+        for d in deps:
+            if d[0] == dep_name:
+                found = True
+                break
+        if not found:
+            deps.append([dep_name, dep_name])
+    return ['::'.join(dep) for dep in deps]
 
 
 _boost_install = '''\

@@ -24,6 +24,9 @@ sources:
     - header: true
       public: true
       ref: boost-throw_exception/1.89.0
+    - header: false
+      public: true
+      ref: openssl/[*]
     kind: header-library
     targets:
     - dependencies: []
@@ -55,6 +58,9 @@ sources:
     - header: true
       public: true
       ref: boost-throw_exception/1.89.0-b.1
+    - header: false
+      public: true
+      ref: openssl/[*]
     kind: header-library
     targets:
     - dependencies: []
@@ -387,6 +393,9 @@ sources:
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
+    - header: false
+      public: true
+      ref: openssl/[*]
     targets:
     - dependencies: []
       kind: header-library
@@ -508,6 +517,9 @@ sources:
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
+    - header: false
+      public: true
+      ref: openssl/[*]
     targets:
     - dependencies: []
       kind: header-library
@@ -538,6 +550,9 @@ sources:
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-b.1
+    - header: false
+      public: true
+      ref: openssl/[*]
     targets:
     - dependencies: []
       kind: header-library
