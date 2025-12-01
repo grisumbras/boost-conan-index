@@ -393,6 +393,11 @@ class LibraryProject(Project):
             if dep[0].name == 'geometry':
                 del self.dependencies[i]
 
+    def _iostreams_exceptions(self, lib_dir, registry):
+        for i, target in enumerate(self.targets):
+            if target['name'] == '$(compression-libs-to-install)':
+                del self.targets[i]
+
     def _math_exceptions(self, lib_dir, registry):
         for target in self.targets:
             if target['name'] == 'boost_math':
