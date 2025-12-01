@@ -82,7 +82,7 @@ jobs:
         run: |
           set -ex
 
-          for proj in boost-geometry boost-locale boost-redis boost-python boost-test boost-stacktrace b2-tools; do
+          for proj in boost-geometry boost-iostreams boost-locale boost-redis boost-python boost-test boost-stacktrace b2-tools; do
             conan test --build=missing \
                 -pr:a ./test/linux-${{ matrix.toolset }}.profile \
                 "index/recipes/$proj/all/test_package" \

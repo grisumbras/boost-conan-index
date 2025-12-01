@@ -20,7 +20,7 @@ target_link_libraries(test_program PRIVATE
 find_package(Python COMPONENTS Development REQUIRED)
 target_link_libraries(test_program PRIVATE Python::Python)
 
-{% elif project.name  == 'mpi' %}
+{% elif project.name in ('mpi', 'graph_parallel')  %}
 
 find_package(MPI COMPONENTS CXX REQUIRED)
 target_link_libraries(test_program PRIVATE MPI::MPI_CXX)
