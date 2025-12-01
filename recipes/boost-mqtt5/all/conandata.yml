@@ -362,7 +362,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.d+25.11.05.23.25
+      ref: boost-asio/1.90.0-a.d+25.12.01.22.49
     - header: true
       public: true
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59

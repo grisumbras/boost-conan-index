@@ -588,7 +588,7 @@ sources:
       ref: boost-align/1.90.0-a.d+25.06.26.11.43
     - header: true
       public: false
-      ref: boost-asio/1.90.0-a.d+25.11.05.23.25
+      ref: boost-asio/1.90.0-a.d+25.12.01.22.49
     - header: true
       public: false
       ref: boost-interprocess/1.90.0-a.d+25.11.30.23.56

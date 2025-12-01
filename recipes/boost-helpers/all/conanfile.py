@@ -19,6 +19,7 @@ from conan.tools.files import (
     mkdir,
     patch,
     rename,
+    replace_in_file,
     rmdir,
     save,
 )
@@ -83,6 +84,15 @@ class BoostPackage():
         git.fetch_commit(self._data_cache['url'], self._data_cache['commit'])
         rmdir(self, '.git')
 
+        if self.name == 'boost-log':
+            replace_in_file(
+                self,
+                os.path.join(
+                    self.source_folder, 'build', 'log-build-config.jam',
+                ),
+                'asio_core',
+                'asio',
+            )
         build_jam = os.path.join(self.source_folder, 'build.jam')
         if not os.path.exists(build_jam):
             lib_jam_template = Template(
@@ -582,6 +592,8 @@ _jamroot = '''\
 require-b2 {{ conanfile._b2_version }} ;
 
 project boost ;
+
+project-search /boost/{{ conanfile.name[6:] }} : libs/{{ conanfile.name[6:] }} ;
 
 rule boost-install ( * ) { }
 '''
