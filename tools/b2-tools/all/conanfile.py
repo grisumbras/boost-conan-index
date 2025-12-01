@@ -367,7 +367,9 @@ class B2(object):
         build_folder=None,
         package_folder=None,
         generators_folder=None,
-        project_config=None
+        project_config=None,
+        user_config=None,
+        site_config=None,
     ):
         self._conanfile = conanfile
         self.source_folder = source_folder or conanfile.source_folder
@@ -377,6 +379,12 @@ class B2(object):
             generators_folder or conanfile.generators_folder
         )
         self.project_config = project_config
+        self.user_config = user_config or conanfile.conf.get(
+            'user.b2:user_config', default=None, check_type=str,
+        )
+        self.site_config = site_config or conanfile.conf.get(
+            'user.b2:site_config', default=None, check_type=str,
+        )
 
         self.build_request = _collect_variations(conanfile)
 
@@ -397,6 +405,12 @@ class B2(object):
                 project_config = path
         if project_config:
             cmd += f' --project-config="{project_config}"'
+
+        if self.user_config is not None:
+            cmd += f' --user-config="{self.user_config}"'
+
+        if self.site_config is not None:
+            cmd += f' --user-config="{self.site_config}"'
 
         cmd += f' --build-dir="{self.build_folder}"'
         cmd += f' install-prefix="{self.package_folder}"'
