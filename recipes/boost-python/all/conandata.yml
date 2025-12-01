@@ -366,7 +366,7 @@ sources:
       ref: boost-utility/1.90.0-a.d+25.08.25.19.07
     - header: false
       public: false
-      ref: boost-graph/1.90.0-a.d+25.11.26.07.18
+      ref: boost-graph/1.90.0-a.d+25.12.01.07.18
     - header: true
       public: false
       ref: boost-integer/1.90.0-a.d+25.08.25.19.05

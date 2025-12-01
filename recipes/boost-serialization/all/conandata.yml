@@ -187,7 +187,7 @@ sources:
       ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.11.23.00
+      ref: boost-move/1.90.0-a.d+25.11.30.22.52
     - header: true
       public: true
       ref: boost-mp11/1.90.0-a.d+25.11.03.13.55
@@ -208,7 +208,7 @@ sources:
       ref: boost-smart_ptr/1.90.0-a.d+25.11.18.10.53
     - header: true
       public: true
-      ref: boost-spirit/1.90.0-a.d+25.11.29.09.14
+      ref: boost-spirit/1.90.0-a.d+25.11.30.08.56
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33

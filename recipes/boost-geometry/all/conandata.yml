@@ -338,7 +338,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.11.25.22.28
+      ref: boost-container/1.90.0-a.d+25.11.30.23.23
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
@@ -353,7 +353,7 @@ sources:
       ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
     - header: false
       public: true
-      ref: boost-graph/1.90.0-a.d+25.11.26.07.18
+      ref: boost-graph/1.90.0-a.d+25.12.01.07.18
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.d+25.08.25.19.05

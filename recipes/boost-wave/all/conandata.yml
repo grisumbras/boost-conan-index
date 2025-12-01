@@ -317,7 +317,7 @@ sources:
       ref: boost-smart_ptr/1.90.0-a.d+25.11.18.10.53
     - header: true
       public: true
-      ref: boost-spirit/1.90.0-a.d+25.11.29.09.14
+      ref: boost-spirit/1.90.0-a.d+25.11.30.08.56
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33

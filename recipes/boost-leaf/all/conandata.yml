@@ -47,6 +47,15 @@ sources:
       kind: header-library
       name: boost_leaf
     url: https://github.com/boostorg/leaf.git
+  1.90.0-a.d+25.11.30.22.46:
+    commit: 7154e7f9c711310521ff4a4133491849137c20d0
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_leaf
+    url: https://github.com/boostorg/leaf.git
   1.90.0-a.m+25.10.13.12.35:
     commit: d8e4a84080ebcd0cd61d36386461ebd3d506c1fe
     cxxstd: '11'

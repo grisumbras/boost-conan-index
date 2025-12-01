@@ -156,7 +156,7 @@ sources:
       ref: boost-function/1.90.0-a.d+24.12.14.04.39
     - header: false
       public: true
-      ref: boost-graph/1.90.0-a.d+25.11.26.07.18
+      ref: boost-graph/1.90.0-a.d+25.12.01.07.18
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.d+25.08.25.19.05

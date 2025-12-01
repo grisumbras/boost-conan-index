@@ -160,13 +160,13 @@ sources:
       ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.11.11.23.00
+      ref: boost-move/1.90.0-a.d+25.11.30.22.52
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.11.02.20.08
+      ref: boost-system/1.90.0-a.d+25.12.01.03.03
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13

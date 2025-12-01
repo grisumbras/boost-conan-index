@@ -371,7 +371,7 @@ sources:
       ref: boost-beast/1.90.0-a.d+25.11.13.19.36
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.11.25.22.28
+      ref: boost-container/1.90.0-a.d+25.11.30.23.23
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.10.27.02.24
@@ -389,7 +389,7 @@ sources:
       ref: boost-smart_ptr/1.90.0-a.d+25.11.18.10.53
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.11.02.20.08
+      ref: boost-system/1.90.0-a.d+25.12.01.03.03
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
