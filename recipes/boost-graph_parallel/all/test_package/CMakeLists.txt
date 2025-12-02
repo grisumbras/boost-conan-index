@@ -15,6 +15,11 @@ target_link_libraries(test_program PRIVATE
 
 
 
+find_package(MPI COMPONENTS CXX REQUIRED)
+target_link_libraries(test_program PRIVATE MPI::MPI_CXX)
+
+
+
 
 include(CTest)
 add_test(NAME test COMMAND test_program)

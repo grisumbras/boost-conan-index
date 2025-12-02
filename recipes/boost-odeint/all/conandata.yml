@@ -191,6 +191,69 @@ sources:
       kind: header-library
       name: boost_odeint
     url: https://github.com/boostorg/odeint.git
+  1.90.0-a.d+25.12.02.08.31:
+    commit: 2875284ab6a087ba98bedbc4fed4d55b3e2a6d2a
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-compute/1.90.0-a.d+25.05.02.19.06
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+    - header: false
+      public: true
+      ref: boost-math/1.90.0-a.d+25.11.03.10.17
+    - header: false
+      public: true
+      ref: boost-mpi/1.90.0-a.d+25.10.13.17.09
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-multi_array/1.90.0-a.d+25.06.25.18.51
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.d+25.05.02.19.18
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-ublas/1.90.0-a.d+23.11.22.02.19
+    - header: true
+      public: true
+      ref: boost-units/1.90.0-a.d+25.05.02.11.24
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_odeint
+    url: https://github.com/boostorg/odeint.git
   1.90.0-a.m+24.11.05.14.59:
     commit: 9e75be5d9e435739b086aee928736fc241e77a4a
     cxxstd: '11'

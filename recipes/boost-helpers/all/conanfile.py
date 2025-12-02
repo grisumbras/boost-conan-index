@@ -126,7 +126,7 @@ class BoostPackage():
         b2_gens = self.python_requires['b2-tools'].module
 
         tc = b2_gens.B2Toolchain(self)
-        if self.name == 'boost-mpi':
+        if self.name == 'boost-mpi' or 'boost-graph_parallel':
             tc.using('mpi')
         tc.generate()
 

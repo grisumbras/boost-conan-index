@@ -62,10 +62,6 @@ sources:
     - dependencies: []
       kind: library
       name: boost_iostreams
-    - dependencies:
-      - boost_iostreams
-      kind: library
-      name: $(compression-libs-to-install)
     url: https://github.com/boostorg/iostreams.git
   1.89.0-b.1:
     commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
@@ -130,10 +126,6 @@ sources:
     - dependencies: []
       kind: library
       name: boost_iostreams
-    - dependencies:
-      - boost_iostreams
-      kind: library
-      name: $(compression-libs-to-install)
     url: https://github.com/boostorg/iostreams.git
   1.90.0-a.d+24.12.15.22.27:
     commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
@@ -198,10 +190,6 @@ sources:
     - dependencies: []
       kind: library
       name: boost_iostreams
-    - dependencies:
-      - boost_iostreams
-      kind: library
-      name: $(compression-libs-to-install)
     url: https://github.com/boostorg/iostreams.git
   1.90.0-a.m+24.12.15.22.27:
     commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
@@ -266,10 +254,6 @@ sources:
     - dependencies: []
       kind: library
       name: boost_iostreams
-    - dependencies:
-      - boost_iostreams
-      kind: library
-      name: $(compression-libs-to-install)
     url: https://github.com/boostorg/iostreams.git
   1.90.0-b.1:
     commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
@@ -333,8 +317,4 @@ sources:
     - dependencies: []
       kind: library
       name: boost_iostreams
-    - dependencies:
-      - boost_iostreams
-      kind: library
-      name: $(compression-libs-to-install)
     url: https://github.com/boostorg/iostreams.git
