@@ -422,6 +422,114 @@ sources:
       kind: header-library
       name: boost_geometry
     url: https://github.com/boostorg/geometry.git
+  1.90.0-a.d+25.12.02.12.47:
+    commit: 9bf3f194ce07d6ad83588afd68334bb712edd9e9
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.90.0-a.d+25.08.25.08.42
+    - header: true
+      public: true
+      ref: boost-any/1.90.0-a.d+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-array/1.90.0-a.d+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: false
+      public: true
+      ref: boost-container/1.90.0-a.d+25.11.30.23.23
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+    - header: true
+      public: true
+      ref: boost-endian/1.90.0-a.d+24.12.14.03.43
+    - header: true
+      public: true
+      ref: boost-function_types/1.90.0-a.d+24.09.18.18.18
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
+    - header: false
+      public: true
+      ref: boost-graph/1.90.0-a.d+25.12.01.07.18
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
+    - header: false
+      public: true
+      ref: boost-math/1.90.0-a.d+25.11.03.10.17
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-multiprecision/1.90.0-a.d+25.10.25.15.33
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-polygon/1.90.0-a.d+25.05.02.19.15
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-qvm/1.90.0-a.d+25.08.17.15.33
+    - header: true
+      public: true
+      ref: boost-range/1.90.0-a.d+25.05.02.19.18
+    - header: true
+      public: true
+      ref: boost-rational/1.90.0-a.d+20.02.12.21.10
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: false
+      public: true
+      ref: boost-thread/1.90.0-a.d+25.05.02.19.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-tokenizer/1.90.0-a.d+25.07.02.17.31
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-a.d+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-variant/1.90.0-a.d+25.09.13.13.52
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_geometry
+    url: https://github.com/boostorg/geometry.git
   1.90.0-a.m+25.08.01.18.48:
     commit: 617d75e0cda78b1f05590319200973514b609097
     cxxstd: '14'
