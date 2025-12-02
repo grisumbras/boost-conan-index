@@ -9,4 +9,4 @@ compiler.version=194
 os=Windows
 
 [options]
-boost-*:disabled_libraries=boost_numpy,boost_mpi,boost_mpi_python,boost_graph_parallel,boost_stacktrace_basic,boost_stacktrace_backtrace,boost_stacktrace_addr2line
+boost-*:disabled_libraries=boost_numpy,boost_mpi,boost_mpi_python,boost_graph_parallel,boost_stacktrace_basic,boost_stacktrace_backtrace,boost_stacktrace_addr2line,boost_fiber_numa

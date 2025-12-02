@@ -8,7 +8,7 @@ compiler.version=16
 os=Macos
 
 [options]
-boost-*:disabled_libraries=boost_numpy,boost_mpi,boost_mpi_python,boost_graph_parallel,boost_stacktrace_from_exception,boost_stacktrace_backtrace,boost_stacktrace_windbg,boost_stacktrace_windbg_cached
+boost-*:disabled_libraries=boost_numpy,boost_mpi,boost_mpi_python,boost_graph_parallel,boost_stacktrace_from_exception,boost_stacktrace_backtrace,boost_stacktrace_windbg,boost_stacktrace_windbg_cached,boost_fiber_numa
 
 [conf]
 tools.build:compiler_executables={"cpp": "clang++", "c": "clang"}
