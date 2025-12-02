@@ -195,7 +195,8 @@ class BoostPackage():
         self.cpp_info.builddirs = [f'share/boost/{lib_name}/modules']
 
         targets = self._data_cache['targets']
-        no_autolink = [f'BOOST_{lib_name.upper()}_NO_LIB=1']
+        lib_identity = lib_name if lib_name != 'fiber' else 'fibers'
+        no_autolink = [f'BOOST_{lib_identity.upper()}_NO_LIB=1']
 
         if len(targets) < 2:
             self.cpp_info.set_property(
