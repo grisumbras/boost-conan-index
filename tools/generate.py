@@ -42,7 +42,11 @@ def main(argv):
 
     tools = RecipeToolsProject()
     helpers = HelpersProject()
-    module_registry = {tools.name: tools, helpers.name: helpers}
+    module_registry = {
+        tools.name: tools,
+        helpers.name: helpers,
+        'external/openssl': ExternalProject('openssl'),
+    }
 
     with git.clone_ref(args.url, args.ref, bare=True) as root:
         boost = SuperProject(root, args.url, args.ref, args.tool_ref, git)
@@ -211,7 +215,7 @@ class Project():
 class SuperProject(Project):
     @property
     def conan_name(self):
-        return self.name
+        return 'boost-libraries'
 
     def __init__(self, path, url, git_ref, tool_git_ref, git):
         super().__init__('boost')
@@ -250,11 +254,61 @@ class SuperProject(Project):
 
             yield cls(name, path, url, self, tools, helpers, git)
 
-    def collect_data(self, *_):
-        pass
+    def collect_data(self, git, fs, registry, depinst):
+        self.dependencies = [
+            proj
+            for proj in registry.values()
+            if isinstance(proj, LibraryProject)
+        ]
 
-    def generate_recipe(self, *_):
-        print(f'skipping superproject')
+    def generate_recipe(self, base_dir, template_env, fs):
+        pkg_base_dir = os.path.join(base_dir, 'recipes', self.conan_name)
+        pkg_dir = os.path.join(pkg_base_dir, 'all')
+        pkg_test_dir = os.path.join(pkg_dir, 'test_package')
+
+        fs.create_path(pkg_test_dir)
+
+        versions = dict()
+        versions['versions'] = dict()
+        versions['versions'][self.conan_version] = {'folder': 'all'}
+
+        with fs.open(os.path.join(pkg_base_dir, 'config.yml'), 'w') as f:
+            yaml.dump(versions, f)
+
+        conandata = dict()
+        conandata['sources'] = dict()
+        conandata['sources'][self.conan_version] = {
+            'dependencies': [
+                {
+                    'ref': dep.conan_ref,
+                    'header': dep.is_header_only
+                }
+                for dep in self.dependencies
+            ],
+        }
+
+        with fs.open(os.path.join(pkg_dir, 'conandata.yml'), 'w') as f:
+            yaml.dump(conandata, f)
+
+        template = template_env.get_template('super_conanfile.py.jinja')
+        with fs.open(os.path.join(pkg_dir, 'conanfile.py'), 'w') as f:
+            template.stream({
+                'project': self,
+                'b2_version': b2_version,
+            }).dump(f)
+
+        template = template_env.get_template('test_conanfile.py.jinja')
+        with fs.open(os.path.join(pkg_test_dir, 'conanfile.py'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+        template = template_env.get_template('super_test_cmakelists.txt.jinja')
+        with fs.open(os.path.join(pkg_test_dir, 'CMakeLists.txt'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
+        template = template_env.get_template('super_test.cpp.jinja')
+        with fs.open(os.path.join(pkg_test_dir, 'test.cpp'), 'w') as f:
+            template.stream({ 'project': self }).dump(f)
+
 
     def __repr__(self):
         return f'SuperProject("{self.name}", "{self.git_ref}")'
@@ -382,6 +436,12 @@ class LibraryProject(Project):
             if files:
                 return os.path.join(root, files[0])[offset:]
 
+    def _cobalt_exceptions(self, lib_dir, registry):
+        for target in self.targets:
+            if target['name'] == 'boost_cobalt_io_ssl':
+                self.dependencies.append((registry['external/openssl'], True))
+                target['dependencies'].append('openssl::ssl')
+
     def _context_exceptions(self, lib_dir, registry):
         self.header = 'boost/context/fiber.hpp'
 
@@ -432,11 +492,11 @@ class LibraryProject(Project):
         ]
 
     def _redis_exceptions(self, lib_dir, registry):
-        self.dependencies.append( (ExternalProject('openssl'), True) )
+        self.dependencies.append((registry['external/openssl'], True))
         self.targets[0]['dependencies'].append('openssl::ssl')
 
     def _mysql_exceptions(self, lib_dir, registry):
-        self.dependencies.append( (ExternalProject('openssl'), True) )
+        self.dependencies.append((registry['external/openssl'], True))
         self.targets[0]['dependencies'].append('openssl::ssl')
 
 
@@ -558,6 +618,12 @@ class ExternalProject(Project):
     @property
     def conan_name(self):
         return self.name
+
+    def collect_data(self, *_):
+        pass
+
+    def generate_recipe(self, *_):
+        pass
 
 
 class IgnoredProject(Project):

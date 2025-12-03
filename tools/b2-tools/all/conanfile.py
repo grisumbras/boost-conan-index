@@ -241,17 +241,25 @@ class B2Deps(object):
             _pkg_config_template,
         )
 
-        save(
-            self._conanfile,
-            os.path.join(self.generators_folder, 'conandeps.jam'),
-            _conandeps_template,
-        )
-
-        dependencies = (
+        dependencies = [
             dep
             for require, dep in self._conanfile.dependencies.items()
             if require.direct or not require.build or not require.test
+        ]
+
+        exceptions = [
+            dep
+            for dep in dependencies
+            if dep.ref.name in self.excluded_dependencies
+        ]
+
+        deps_template = Template(_conandeps_template)
+        save(
+            self._conanfile,
+            os.path.join(self.generators_folder, 'conandeps.jam'),
+            deps_template.render(exceptions=exceptions),
         )
+
         projects = self._collect_targets(dependencies)
         for project, pkgs in projects.items():
             for path, content in self._project_content(project, pkgs):
@@ -259,7 +267,6 @@ class B2Deps(object):
 
     def _project_content(self, project, pkgs):
         for pkg in pkgs.values():
-            self._conanfile.output.info(pkg['package'])
             if pkg['package'].ref.name in self.excluded_dependencies:
                 return
 
@@ -765,13 +772,25 @@ for local dep in [ glob $(GENERATORS_FOLDER)/b2_dep-*/entry.jam ]
 {
     include [ path.native [ path.root $(dep) $(GENERATORS_FOLDER) ] ] ;
 }
+
+import path ;
+{% for dep in exceptions %}
+libdir = {{ dep.cpp_info.libdirs[0] | replace('\\\\', '/') }} ;
+incdir = {{ dep.cpp_info.includedirs[0] | replace('\\\\', '/') }} ;
+    {% if dep.ref.name in ('bzip2', 'libjpeg', 'libpng', 'openssl', 'zlib', 'zstd') %}
+echo using {{ dep.ref.name }} ":" {{ dep.ref.version }} ":" <search>"$(libdir)" <dll-path>"$(libdir)" <include>"$(incdir)" ";" ;
+using {{ dep.ref.name }} : {{ dep.ref.version }} : <search>"$(libdir)" <dll-path>"$(libdir)" <include>"$(incdir)" ;
+    {% elif dep.ref.name == 'xz_utils' %}
+using lzma : {{ dep.ref.version }} : <search>"$(libdir)" <dll-path>"$(libdir)" <include>"$(incdir)" ;
+    {% endif %}
+{% endfor %}
 '''
 
 _dep_entry_template = '''\
 # Conan automatically generated config file
 # DO NOT EDIT MANUALLY, it will be overwritten
 import path ;
-project-search {{ project }} : [ path.make "{{ path | replace('\\\\', '\\\\\\\\') }}" ] ;
+project-search {{ project }} : [ path.make "{{ path | replace('\\\\', '/') }}" ] ;
 '''
 
 _dep_root_template = '''\
@@ -794,7 +813,7 @@ project
     : common-requirements
 {% for target in targets %}
     {% for dir in target.includes %}
-      <include>"{{ dir | replace('\\\\', '\\\\\\\\') }}"
+      <include>"{{ dir | replace('\\\\', '/') }}"
     {% endfor %}
 {% endfor %}
     ;
@@ -810,7 +829,7 @@ project
     {% endif %}
     :
     {% if target.kind == 'lib' and target.search %}
-        <file>"{{ target.file | replace('\\\\', '\\\\\\\\') }}"
+        <file>"{{ target.file | replace('\\\\', '/') }}"
     {% endif %}
     {% for feature, value in target.variation.items() %}
         {% if value %}<{{ feature }}>"{{ value }}"{% endif %}
@@ -818,7 +837,7 @@ project
     :
     :
     {% for dir in target.includes %}
-        <include>"{{ dir | replace('\\\\', '\\\\\\\\') }}"
+        <include>"{{ dir | replace('\\\\', '/') }}"
     {% endfor %}
     {% for define in target.defines %}
         <define>"{{ define }}"
