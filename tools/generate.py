@@ -42,7 +42,11 @@ def main(argv):
 
     tools = RecipeToolsProject()
     helpers = HelpersProject()
-    module_registry = {tools.name: tools, helpers.name: helpers}
+    module_registry = {
+        tools.name: tools,
+        helpers.name: helpers,
+        'external/openssl': ExternalProject('openssl'),
+    }
 
     with git.clone_ref(args.url, args.ref, bare=True) as root:
         boost = SuperProject(root, args.url, args.ref, args.tool_ref, git)
@@ -432,6 +436,12 @@ class LibraryProject(Project):
             if files:
                 return os.path.join(root, files[0])[offset:]
 
+    def _cobalt_exceptions(self, lib_dir, registry):
+        for target in self.targets:
+            if target['name'] == 'boost_cobalt_io_ssl':
+                self.dependencies.append((registry['external/openssl'], True))
+                target['dependencies'].append('openssl::ssl')
+
     def _context_exceptions(self, lib_dir, registry):
         self.header = 'boost/context/fiber.hpp'
 
@@ -482,11 +492,11 @@ class LibraryProject(Project):
         ]
 
     def _redis_exceptions(self, lib_dir, registry):
-        self.dependencies.append( (ExternalProject('openssl'), True) )
+        self.dependencies.append((registry['external/openssl'], True))
         self.targets[0]['dependencies'].append('openssl::ssl')
 
     def _mysql_exceptions(self, lib_dir, registry):
-        self.dependencies.append( (ExternalProject('openssl'), True) )
+        self.dependencies.append((registry['external/openssl'], True))
         self.targets[0]['dependencies'].append('openssl::ssl')
 
     def _system_exceptions(self, lib_dir, registry):
@@ -611,6 +621,12 @@ class ExternalProject(Project):
     @property
     def conan_name(self):
         return self.name
+
+    def collect_data(self, *_):
+        pass
+
+    def generate_recipe(self, *_):
+        pass
 
 
 class IgnoredProject(Project):
