@@ -259,7 +259,6 @@ class B2Deps(object):
 
     def _project_content(self, project, pkgs):
         for pkg in pkgs.values():
-            self._conanfile.output.info(pkg['package'])
             if pkg['package'].ref.name in self.excluded_dependencies:
                 return
 
