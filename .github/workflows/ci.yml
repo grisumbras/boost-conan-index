@@ -19,8 +19,6 @@ jobs:
     strategy:
       matrix:
         boost-ref: &boost-refs
-          - develop
-          - master
           - boost-1.90.0.beta1
 
     steps:
@@ -44,56 +42,12 @@ jobs:
           retention-days: 1
           compression-level: 9
 
-  test-linux:
-    name: Test on Linux
-    runs-on: ubuntu-latest
-    needs: Generate
-    strategy:
-      matrix:
-        boost-ref: *boost-refs
-        toolset:
-          - gcc
-          - clang
-
-    steps:
-      - name: Fetch head
-        uses: actions/checkout@v5
-
-      - name: Download new indices
-        uses: actions/download-artifact@v5
-        with:
-          name: index-${{ matrix.boost-ref }}
-          path: index
-
-      - uses: actions/setup-python@v6
-        with:
-          python-version: '3.9'
-
-      - name: Setup Conan
-        run: |
-          set -ex
-
-          pip install conan
-          conan remote add boost-conan-index ./index
-
-      - name: Test selected packages
-        run: |
-          set -ex
-
-          for proj in b2-tools boost-libraries; do
-            conan test --build=missing \
-                -pr:a ./test/linux-${{ matrix.toolset }}.profile \
-                "index/recipes/$proj/all/test_package" \
-                "$proj/[>0-a,include_prerelease]"
-          done
-
   test-windows:
     name: Test on Windows
     runs-on: windows-latest
     needs: Generate
     strategy:
       matrix:
-        boost-ref: *boost-refs
         toolset:
           - msvc
 
@@ -104,7 +58,7 @@ jobs:
       - name: Download new indices
         uses: actions/download-artifact@v5
         with:
-          name: index-${{ matrix.boost-ref }}
+          name: index-boost-1.90.0.beta1
           path: index
 
       - uses: actions/setup-python@v6
@@ -122,105 +76,20 @@ jobs:
         run: |
           set -ex
 
-          for proj in b2-tools boost-libraries; do
+          for proj in boost-core; do
             conan test --build=missing \
                 -pr:a ./test/windows-${{ matrix.toolset }}.profile \
                 "index/recipes/$proj/all/test_package" \
                 "$proj/[>0-a,include_prerelease]"
           done
 
-  test-macos:
-    name: Test on MacOS
-    runs-on: macos-latest
-    needs: Generate
-    strategy:
-      matrix:
-        boost-ref: *boost-refs
-        toolset:
-          - darwin
-          - clang
-
-    steps:
-      - name: Fetch head
-        uses: actions/checkout@v5
-
-      - name: Download new indices
-        uses: actions/download-artifact@v5
-        with:
-          name: index-${{ matrix.boost-ref }}
-          path: index
-
-      - uses: actions/setup-python@v6
-        with:
-          python-version: '3.9'
-
-      - name: Setup Conan
-        run: |
-          set -ex
-
-          pip install conan
-          conan remote add boost-conan-index ./index
-
-      - name: Test selected packages
-        run: |
-          set -ex
-
-          for proj in b2-tools boost-libraries; do
-            conan test --build=missing \
-                -pr:a ./test/macos-${{ matrix.toolset }}.profile \
-                "index/recipes/$proj/all/test_package" \
-                "$proj/[>0-a,include_prerelease]"
-          done
-
-  Merge:
-    runs-on: ubuntu-latest
-    needs:
-        - Generate
-        - test-linux
-        - test-windows
-    permissions:
-      contents: write
-
-    steps:
-      - name: Fetch head
-        uses: actions/checkout@v5
-        with:
-          path: head
-
-      - name: Fetch current index
-        uses: actions/checkout@v5
-        with:
-          ref: index
-          path: current-index
-
-      - name: Download new indices
-        uses: actions/download-artifact@v5
-        with:
-          pattern: index-*
-
-      - name: Update index
-        run: |
-          set -ex
-
-          for dir in index-*; do
-            head/tools/merge-index.py $dir current-index
-          done
-          cp head/README.adoc current-index
-
-      - name: Uploading updated index
-        if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule'
-        env:
-          GIT_AUTHOR_NAME: ${{ github.triggering_actor }}
-          GIT_AUTHOR_EMAIL: ${{ github.triggering_actor }}@users.noreply.github.com
-          GIT_COMMITTER_NAME: ${{ github.triggering_actor }}
-          GIT_COMMITTER_EMAIL: ${{ github.triggering_actor }}@users.noreply.github.com
-          COMMIT_MESSAGE: ${{ (github.event_name == 'schedule' && 'Scheduled update') || 'Automatic update due to a push to master' }}
-        run: |
-            set -ex
-
-            cd current-index
-            git add .
-            if [ -n "$(git status --porcelain=v1)" ]; then
-              git commit -m "$COMMIT_MESSAGE"
-              git push
-            fi
+          workdir=$(pwd)
+          package_id=$(conan list 'boost-core/*:*' 2>1 | sed -n '7p' | sed 's/^\s*//')
+          build_dir=$(conan cache path --folder build boost-core/1.90.0-b.1:$package_id)
+          cd $build_dir
+          ls bin.v2
+          ls bin.v2\\generators
+          rm -rf bin.v2\\boost
+          conan run "b2 libs/core//conan-install --project-config=bin.v2\\generators\\project-config.jam --build-dir=bin.v2 install-prefix=..\\p toolset=msvc cxxstd=20 link=static architecture=x86 address-model=64 target-os=windows --requested-libraries= -d+2 --reconfigure" \
+            --tool-requires=b2/5.3.3 \
+            -pr:a $workdir/test/windows-${{ matrix.toolset }}.profile

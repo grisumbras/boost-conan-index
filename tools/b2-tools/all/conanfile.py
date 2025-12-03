@@ -774,11 +774,9 @@ for local dep in [ glob $(GENERATORS_FOLDER)/b2_dep-*/entry.jam ]
 }
 
 import path ;
-local libdir ;
-local incdir ;
 {% for dep in exceptions %}
-libdir = [ path.make {{ dep.cpp_info.libdirs[0] | replace('\\\\', '\\\\\\\\') }} ] ;
-incdir = [ path.make {{ dep.cpp_info.includedirs[0] | replace('\\\\', '\\\\\\\\') }} ] ;
+libdir = {{ dep.cpp_info.libdirs[0] | replace('\\\\', '/') }} ;
+incdir = {{ dep.cpp_info.includedirs[0] | replace('\\\\', '/') }} ;
     {% if dep.ref.name in ('bzip2', 'libjpeg', 'libpng', 'openssl', 'zlib', 'zstd') %}
 echo using {{ dep.ref.name }} ":" {{ dep.ref.version }} ":" <search>"$(libdir)" <dll-path>"$(libdir)" <include>"$(incdir)" ";" ;
 using {{ dep.ref.name }} : {{ dep.ref.version }} : <search>"$(libdir)" <dll-path>"$(libdir)" <include>"$(incdir)" ;
@@ -792,7 +790,7 @@ _dep_entry_template = '''\
 # Conan automatically generated config file
 # DO NOT EDIT MANUALLY, it will be overwritten
 import path ;
-project-search {{ project }} : [ path.make "{{ path | replace('\\\\', '\\\\\\\\') }}" ] ;
+project-search {{ project }} : [ path.make "{{ path | replace('\\\\', '/') }}" ] ;
 '''
 
 _dep_root_template = '''\
@@ -815,7 +813,7 @@ project
     : common-requirements
 {% for target in targets %}
     {% for dir in target.includes %}
-      <include>"{{ dir | replace('\\\\', '\\\\\\\\') }}"
+      <include>"{{ dir | replace('\\\\', '/') }}"
     {% endfor %}
 {% endfor %}
     ;
@@ -831,7 +829,7 @@ project
     {% endif %}
     :
     {% if target.kind == 'lib' and target.search %}
-        <file>"{{ target.file | replace('\\\\', '\\\\\\\\') }}"
+        <file>"{{ target.file | replace('\\\\', '/') }}"
     {% endif %}
     {% for feature, value in target.variation.items() %}
         {% if value %}<{{ feature }}>"{{ value }}"{% endif %}
@@ -839,7 +837,7 @@ project
     :
     :
     {% for dir in target.includes %}
-        <include>"{{ dir | replace('\\\\', '\\\\\\\\') }}"
+        <include>"{{ dir | replace('\\\\', '/') }}"
     {% endfor %}
     {% for define in target.defines %}
         <define>"{{ define }}"
