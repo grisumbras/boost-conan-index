@@ -335,7 +335,7 @@ sources:
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.d+25.11.12.11.25
+      ref: boost-random/1.90.0-a.d+25.12.02.14.54
     - header: true
       public: true
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33

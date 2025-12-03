@@ -623,7 +623,7 @@ sources:
       ref: boost-property_tree/1.90.0-a.d+25.06.30.13.56
     - header: false
       public: true
-      ref: boost-random/1.90.0-a.d+25.11.12.11.25
+      ref: boost-random/1.90.0-a.d+25.12.02.14.54
     - header: true
       public: true
       ref: boost-range/1.90.0-a.d+25.05.02.19.18
