@@ -241,17 +241,25 @@ class B2Deps(object):
             _pkg_config_template,
         )
 
-        save(
-            self._conanfile,
-            os.path.join(self.generators_folder, 'conandeps.jam'),
-            _conandeps_template,
-        )
-
-        dependencies = (
+        dependencies = [
             dep
             for require, dep in self._conanfile.dependencies.items()
             if require.direct or not require.build or not require.test
+        ]
+
+        exceptions = [
+            dep
+            for dep in dependencies
+            if dep.ref.name in self.excluded_dependencies
+        ]
+
+        deps_template = Template(_conandeps_template)
+        save(
+            self._conanfile,
+            os.path.join(self.generators_folder, 'conandeps.jam'),
+            deps_template.render(exceptions=exceptions),
         )
+
         projects = self._collect_targets(dependencies)
         for project, pkgs in projects.items():
             for path, content in self._project_content(project, pkgs):
@@ -764,6 +772,20 @@ for local dep in [ glob $(GENERATORS_FOLDER)/b2_dep-*/entry.jam ]
 {
     include [ path.native [ path.root $(dep) $(GENERATORS_FOLDER) ] ] ;
 }
+
+import path ;
+local libdir ;
+local incdir ;
+{% for dep in exceptions %}
+libdir = [ path.make {{ dep.cpp_info.libdirs[0] | replace('\\\\', '\\\\\\\\') }} ] ;
+incdir = [ path.make {{ dep.cpp_info.includedirs[0] | replace('\\\\', '\\\\\\\\') }} ] ;
+    {% if dep.ref.name in ('bzip2', 'libjpeg', 'libpng', 'openssl', 'zlib', 'zstd') %}
+echo using {{ dep.ref.name }} ":" {{ dep.ref.version }} ":" <search>"$(libdir)" <dll-path>"$(libdir)" <include>"$(incdir)" ";" ;
+using {{ dep.ref.name }} : {{ dep.ref.version }} : <search>"$(libdir)" <dll-path>"$(libdir)" <include>"$(incdir)" ;
+    {% elif dep.ref.name == 'xz_utils' %}
+using lzma : {{ dep.ref.version }} : <search>"$(libdir)" <dll-path>"$(libdir)" <include>"$(incdir)" ;
+    {% endif %}
+{% endfor %}
 '''
 
 _dep_entry_template = '''\
