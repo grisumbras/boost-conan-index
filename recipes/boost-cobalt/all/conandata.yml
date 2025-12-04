@@ -280,7 +280,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.d+25.12.01.22.49
+      ref: boost-asio/1.90.0-a.d+25.12.04.00.07
     - header: true
       public: true
       ref: boost-callable_traits/1.90.0-a.d+25.06.25.18.43
@@ -319,7 +319,7 @@ sources:
       ref: boost-static_string/1.90.0-a.d+25.11.14.12.03
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.12.01.03.03
+      ref: boost-system/1.90.0-a.d+25.12.03.19.33
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
@@ -471,7 +471,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.m+25.11.05.23.27
+      ref: boost-asio/1.90.0-a.m+25.12.04.00.07
     - header: true
       public: true
       ref: boost-callable_traits/1.90.0-a.m+21.09.14.23.10

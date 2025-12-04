@@ -362,7 +362,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.d+25.12.01.22.49
+      ref: boost-asio/1.90.0-a.d+25.12.04.00.07
     - header: true
       public: true
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
@@ -389,7 +389,7 @@ sources:
       ref: boost-smart_ptr/1.90.0-a.d+25.11.18.10.53
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.12.01.03.03
+      ref: boost-system/1.90.0-a.d+25.12.03.19.33
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
@@ -540,7 +540,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-asio/1.90.0-a.m+25.11.05.23.27
+      ref: boost-asio/1.90.0-a.m+25.12.04.00.07
     - header: true
       public: true
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59

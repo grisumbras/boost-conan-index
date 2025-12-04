@@ -130,7 +130,7 @@ sources:
       ref: boost-smart_ptr/1.90.0-a.d+25.11.18.10.53
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.12.01.03.03
+      ref: boost-system/1.90.0-a.d+25.12.03.19.33
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
