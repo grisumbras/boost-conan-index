@@ -449,7 +449,7 @@ sources:
       ref: boost-container/1.90.0-a.d+25.12.06.22.57
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+      ref: boost-core/1.90.0-a.d+25.12.08.14.18
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43

@@ -186,6 +186,24 @@ sources:
       kind: header-library
       name: boost_core
     url: https://github.com/boostorg/core.git
+  1.90.0-a.d+25.12.08.14.18:
+    commit: 99d550a5e4588cb197eb55352993d47b63ba644c
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_core
+    url: https://github.com/boostorg/core.git
   1.90.0-a.m+25.08.25.19.05:
     commit: c6b098d25d32ea5f53950492c19904143bf3e6f1
     cxxstd: '03'

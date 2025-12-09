@@ -145,7 +145,7 @@ sources:
       ref: boost-conversion/1.90.0-a.d+25.10.07.20.26
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+      ref: boost-core/1.90.0-a.d+25.12.08.14.18
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.d+25.06.13.00.44

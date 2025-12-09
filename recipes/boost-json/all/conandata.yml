@@ -317,7 +317,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+      ref: boost-core/1.90.0-a.d+25.12.08.14.18
     - header: true
       public: true
       ref: boost-describe/1.90.0-a.d+25.11.14.23.07

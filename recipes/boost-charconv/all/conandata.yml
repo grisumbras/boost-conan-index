@@ -86,7 +86,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+      ref: boost-core/1.90.0-a.d+25.12.08.14.18
     targets:
     - dependencies: []
       kind: library

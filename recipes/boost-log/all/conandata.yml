@@ -501,7 +501,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.10.27.02.24
+      ref: boost-core/1.90.0-a.d+25.12.08.14.18
     - header: false
       public: true
       ref: boost-date_time/1.90.0-a.d+25.07.07.06.39
@@ -519,7 +519,7 @@ sources:
       ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.12.07.01.20
+      ref: boost-intrusive/1.90.0-a.d+25.12.08.21.54
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.d+25.11.26.01.27

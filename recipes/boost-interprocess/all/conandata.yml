@@ -484,7 +484,7 @@ sources:
       ref: boost-container/1.90.0-a.d+25.12.06.22.57
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.12.07.01.20
+      ref: boost-intrusive/1.90.0-a.d+25.12.08.21.54
     - header: true
       public: true
       ref: boost-move/1.90.0-a.d+25.12.06.22.59

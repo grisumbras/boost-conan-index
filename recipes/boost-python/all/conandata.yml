@@ -458,6 +458,82 @@ sources:
       kind: library
       name: numpy
     url: https://github.com/boostorg/python.git
+  1.90.0-a.d+25.12.02.08.38:
+    commit: 32da86df269fb8f7ef777ddd8c3424d854e94455
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.90.0-a.d+25.06.26.11.43
+    - header: true
+      public: true
+      ref: boost-bind/1.90.0-a.d+24.12.13.03.05
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-conversion/1.90.0-a.d+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+    - header: true
+      public: true
+      ref: boost-foreach/1.90.0-a.d+25.05.02.19.11
+    - header: true
+      public: true
+      ref: boost-function/1.90.0-a.d+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-tuple/1.90.0-a.d+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+    - header: false
+      public: false
+      ref: boost-graph/1.90.0-a.d+25.12.01.07.18
+    - header: true
+      public: false
+      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+    - header: true
+      public: false
+      ref: boost-property_map/1.90.0-a.d+25.07.02.16.58
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_python
+    - dependencies:
+      - boost_python
+      kind: library
+      name: boost_numpy
+    url: https://github.com/boostorg/python.git
   1.90.0-a.m+25.03.10.14.19:
     commit: 3e7be69e1e405e1d5ddd232c69c024ee441592c5
     cxxstd: '03'
