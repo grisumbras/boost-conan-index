@@ -141,7 +141,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - header: true
       public: false
-      ref: boost-core/1.90.0-a.m+25.10.27.02.24
+      ref: boost-core/1.90.0-a.m+25.12.08.14.18
     - header: true
       public: false
       ref: boost-smart_ptr/1.90.0-a.m+25.11.18.10.53

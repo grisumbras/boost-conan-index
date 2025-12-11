@@ -371,7 +371,7 @@ sources:
       ref: boost-beast/1.90.0-a.d+25.11.13.19.36
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.12.09.22.38
+      ref: boost-container/1.90.0-a.d+25.12.10.15.11
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.12.08.14.18
@@ -552,7 +552,7 @@ sources:
       ref: boost-container/1.90.0-a.m+25.11.03.23.55
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.10.27.02.24
+      ref: boost-core/1.90.0-a.m+25.12.08.14.18
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
