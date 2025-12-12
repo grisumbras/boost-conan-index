@@ -311,7 +311,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.12.10.15.11
+      ref: boost-container/1.90.0-a.d+25.12.11.15.24
     - header: true
       public: true
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
@@ -320,7 +320,7 @@ sources:
       ref: boost-core/1.90.0-a.d+25.12.08.14.18
     - header: true
       public: true
-      ref: boost-describe/1.90.0-a.d+25.11.14.23.07
+      ref: boost-describe/1.90.0-a.d+25.12.11.15.49
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43

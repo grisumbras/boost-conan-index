@@ -212,6 +212,61 @@ sources:
       kind: library
       name: boost_stacktrace_windbg_cached
     url: https://github.com/boostorg/stacktrace.git
+  1.90.0-a.d+25.12.11.22.15:
+    commit: 6ef20c3ab785200124e6dd6ee189e3469cc8a81b
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
+    - header: true
+      public: false
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_stacktrace
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_addr2line
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_backtrace
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_basic
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_from_exception
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_noop
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_windbg
+    - dependencies:
+      - boost_stacktrace
+      kind: library
+      name: boost_stacktrace_windbg_cached
+    url: https://github.com/boostorg/stacktrace.git
   1.90.0-a.m+25.09.09.12.01:
     commit: cf5992230b9077ec1d8758824cdb8acf58b71407
     cxxstd: '11'

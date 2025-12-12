@@ -371,7 +371,7 @@ sources:
       ref: boost-beast/1.90.0-a.d+25.11.13.19.36
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.12.10.15.11
+      ref: boost-container/1.90.0-a.d+25.12.11.15.24
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.12.08.14.18

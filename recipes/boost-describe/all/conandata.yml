@@ -74,6 +74,18 @@ sources:
       kind: header-library
       name: boost_describe
     url: https://github.com/boostorg/describe.git
+  1.90.0-a.d+25.12.11.15.49:
+    commit: 7c0d234267213c73a9d836c6c9119791684d8781
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0-a.d+25.11.03.13.55
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_describe
+    url: https://github.com/boostorg/describe.git
   1.90.0-a.m+25.08.17.10.18:
     commit: 5858ccb775d415283dfd77ab5aeb7035faeaab91
     cxxstd: null

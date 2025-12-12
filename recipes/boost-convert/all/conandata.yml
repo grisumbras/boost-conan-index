@@ -100,7 +100,7 @@ sources:
       ref: boost-function_types/1.90.0-a.d+24.09.18.18.18
     - header: true
       public: true
-      ref: boost-lexical_cast/1.90.0-a.d+25.10.16.09.15
+      ref: boost-lexical_cast/1.90.0-a.d+25.12.11.22.17
     - header: false
       public: true
       ref: boost-math/1.90.0-a.d+25.11.03.10.17
