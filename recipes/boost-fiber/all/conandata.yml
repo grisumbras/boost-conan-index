@@ -102,10 +102,10 @@ sources:
       ref: boost-context/1.90.0-a.d+25.10.29.21.21
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.d+25.12.11.15.23
+      ref: boost-intrusive/1.90.0-a.d+25.12.13.17.21
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
@@ -117,7 +117,7 @@ sources:
       ref: boost-algorithm/1.90.0-a.d+25.08.25.08.42
     - header: false
       public: false
-      ref: boost-filesystem/1.90.0-a.d+25.06.15.17.50
+      ref: boost-filesystem/1.90.0-a.d+25.12.13.20.40
     - header: true
       public: false
       ref: boost-format/1.90.0-a.d+25.06.26.19.58
@@ -146,7 +146,7 @@ sources:
       ref: boost-context/1.90.0-a.m+25.10.29.21.21
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
       ref: boost-intrusive/1.90.0-a.m+25.11.03.21.51
@@ -161,7 +161,7 @@ sources:
       ref: boost-algorithm/1.90.0-a.m+23.08.02.20.42
     - header: false
       public: false
-      ref: boost-filesystem/1.90.0-a.m+25.06.15.17.50
+      ref: boost-filesystem/1.90.0-a.m+25.12.13.20.40
     - header: true
       public: false
       ref: boost-format/1.90.0-a.m+25.01.02.11.49

@@ -124,22 +124,22 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.12.11.15.24
+      ref: boost-container/1.90.0-a.d+25.12.13.17.20
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: false
       public: true
       ref: boost-date_time/1.90.0-a.d+25.07.07.06.39
     - header: true
       public: true
-      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+      ref: boost-detail/1.90.0-a.d+25.12.13.20.38
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.12.11.15.02
+      ref: boost-move/1.90.0-a.d+25.12.13.16.59
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -157,7 +157,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.d+25.12.13.20.46
     kind: header-library
     targets:
     - dependencies: []
@@ -182,16 +182,16 @@ sources:
       ref: boost-container/1.90.0-a.m+25.11.03.23.55
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: false
       public: true
       ref: boost-date_time/1.90.0-a.m+22.10.31.09.22
     - header: true
       public: true
-      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+      ref: boost-detail/1.90.0-a.m+25.12.13.20.38
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: true
       public: true
       ref: boost-move/1.90.0-a.m+25.11.03.21.51
@@ -212,7 +212,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.m+25.12.13.20.46
     kind: header-library
     targets:
     - dependencies: []

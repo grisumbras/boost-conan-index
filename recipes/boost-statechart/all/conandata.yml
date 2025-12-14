@@ -109,10 +109,10 @@ sources:
       ref: boost-conversion/1.90.0-a.d+25.10.07.20.26
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+      ref: boost-detail/1.90.0-a.d+25.12.13.20.38
     - header: true
       public: true
       ref: boost-function/1.90.0-a.d+24.12.14.04.39
@@ -155,10 +155,10 @@ sources:
       ref: boost-conversion/1.90.0-a.m+25.10.07.20.26
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+      ref: boost-detail/1.90.0-a.m+25.12.13.20.38
     - header: true
       public: true
       ref: boost-function/1.90.0-a.m+24.12.14.04.39

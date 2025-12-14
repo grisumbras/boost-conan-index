@@ -266,13 +266,13 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
       ref: boost-dynamic_bitset/1.90.0-a.d+25.10.31.11.15
     - header: true
       public: true
-      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+      ref: boost-integer/1.90.0-a.d+25.12.13.20.41
     - header: true
       public: true
       ref: boost-io/1.90.0-a.d+25.06.26.11.42
@@ -290,7 +290,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.d+25.12.13.20.46
     targets:
     - dependencies: []
       kind: library
@@ -435,13 +435,13 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
       ref: boost-dynamic_bitset/1.90.0-a.m+25.10.31.11.15
     - header: true
       public: true
-      ref: boost-integer/1.90.0-a.m+25.08.25.19.05
+      ref: boost-integer/1.90.0-a.m+25.12.13.20.41
     - header: true
       public: true
       ref: boost-io/1.90.0-a.m+23.10.03.00.15
@@ -459,7 +459,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.m+25.12.13.20.46
     targets:
     - dependencies: []
       kind: library

@@ -83,6 +83,33 @@ sources:
       kind: header-library
       name: boost_integer
     url: https://github.com/boostorg/integer.git
+  1.90.0-a.d+25.12.13.20.41:
+    commit: fcb8d7868f873789228087b569b4aea156a6ef39
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_integer
+    url: https://github.com/boostorg/integer.git
   1.90.0-a.m+25.08.25.19.05:
     commit: 4d702c79a45c1b204de864a5d11efa711e8713cf
     cxxstd: '03'
@@ -106,6 +133,33 @@ sources:
       public: true
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_integer
+    url: https://github.com/boostorg/integer.git
+  1.90.0-a.m+25.12.13.20.41:
+    commit: fcb8d7868f873789228087b569b4aea156a6ef39
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     targets:
     - dependencies: []
       kind: header-library

@@ -160,13 +160,13 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
       ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -175,7 +175,7 @@ sources:
       ref: boost-numeric_conversion/1.90.0-a.d+25.06.26.07.40
     - header: true
       public: true
-      ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
+      ref: boost-parameter/1.90.0-a.d+25.12.13.20.44
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
@@ -230,13 +230,13 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
       ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
@@ -245,7 +245,7 @@ sources:
       ref: boost-numeric_conversion/1.90.0-a.m+25.06.26.07.40
     - header: true
       public: true
-      ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
+      ref: boost-parameter/1.90.0-a.m+25.12.13.20.44
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52

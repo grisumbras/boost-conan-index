@@ -188,13 +188,13 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.d+25.12.13.20.46
     targets:
     - dependencies: []
       kind: header-library
@@ -273,13 +273,13 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.m+25.12.13.20.46
     targets:
     - dependencies: []
       kind: header-library

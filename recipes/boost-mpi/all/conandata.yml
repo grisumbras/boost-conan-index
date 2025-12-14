@@ -215,7 +215,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
       ref: boost-foreach/1.90.0-a.d+25.05.02.19.11
@@ -227,10 +227,10 @@ sources:
       ref: boost-graph/1.90.0-a.d+25.12.01.07.18
     - header: true
       public: true
-      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+      ref: boost-integer/1.90.0-a.d+25.12.13.20.41
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -260,7 +260,7 @@ sources:
       ref: boost-lexical_cast/1.90.0-a.d+25.12.11.22.17
     - header: true
       public: false
-      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.d+25.12.13.20.46
     targets:
     - dependencies: []
       kind: library
@@ -282,7 +282,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
       ref: boost-foreach/1.90.0-a.m+25.01.26.17.47
@@ -294,10 +294,10 @@ sources:
       ref: boost-graph/1.90.0-a.m+25.02.15.20.07
     - header: true
       public: true
-      ref: boost-integer/1.90.0-a.m+25.08.25.19.05
+      ref: boost-integer/1.90.0-a.m+25.12.13.20.41
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
@@ -327,7 +327,7 @@ sources:
       ref: boost-lexical_cast/1.90.0-a.m+25.10.16.09.15
     - header: true
       public: false
-      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.m+25.12.13.20.46
     kind: library
     targets:
     - dependencies: []

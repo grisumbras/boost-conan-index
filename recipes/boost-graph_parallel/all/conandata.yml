@@ -196,16 +196,16 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+      ref: boost-detail/1.90.0-a.d+25.12.13.20.38
     - header: true
       public: true
       ref: boost-dynamic_bitset/1.90.0-a.d+25.10.31.11.15
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.d+25.06.15.17.50
+      ref: boost-filesystem/1.90.0-a.d+25.12.13.20.40
     - header: true
       public: true
       ref: boost-foreach/1.90.0-a.d+25.05.02.19.11
@@ -217,7 +217,7 @@ sources:
       ref: boost-graph/1.90.0-a.d+25.12.01.07.18
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: true
       public: true
       ref: boost-lexical_cast/1.90.0-a.d+25.12.11.22.17
@@ -284,16 +284,16 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+      ref: boost-detail/1.90.0-a.m+25.12.13.20.38
     - header: true
       public: true
       ref: boost-dynamic_bitset/1.90.0-a.m+25.10.31.11.15
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.m+25.06.15.17.50
+      ref: boost-filesystem/1.90.0-a.m+25.12.13.20.40
     - header: true
       public: true
       ref: boost-foreach/1.90.0-a.m+25.01.26.17.47
@@ -305,7 +305,7 @@ sources:
       ref: boost-graph/1.90.0-a.m+25.02.15.20.07
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: true
       public: true
       ref: boost-lexical_cast/1.90.0-a.m+25.10.16.09.15

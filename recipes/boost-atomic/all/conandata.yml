@@ -92,6 +92,36 @@ sources:
       kind: library
       name: boost_atomic
     url: https://github.com/boostorg/atomic.git
+  1.90.0-a.d+25.12.13.20.07:
+    commit: bf580857808402b91e0a5296d787c32332b377af
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
+    - header: true
+      public: false
+      ref: boost-align/1.90.0-a.d+25.06.26.11.43
+    - header: true
+      public: false
+      ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_atomic
+    url: https://github.com/boostorg/atomic.git
   1.90.0-a.m+25.09.30.15.42:
     commit: 23b53aebe6aeb1c14a34d119d230f16a76dccc1c
     cxxstd: '11'
@@ -118,6 +148,36 @@ sources:
       public: false
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     kind: library
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_atomic
+    url: https://github.com/boostorg/atomic.git
+  1.90.0-a.m+25.12.13.20.07:
+    commit: bf580857808402b91e0a5296d787c32332b377af
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
+    - header: true
+      public: false
+      ref: boost-align/1.90.0-a.m+22.11.11.18.29
+    - header: true
+      public: false
+      ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
     targets:
     - dependencies: []
       kind: library

@@ -476,10 +476,10 @@ sources:
       ref: boost-conversion/1.90.0-a.d+25.10.07.20.26
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+      ref: boost-detail/1.90.0-a.d+25.12.13.20.38
     - header: true
       public: true
       ref: boost-foreach/1.90.0-a.d+25.05.02.19.11
@@ -488,7 +488,7 @@ sources:
       ref: boost-function/1.90.0-a.d+24.12.14.04.39
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: true
       public: true
       ref: boost-lexical_cast/1.90.0-a.d+25.12.11.22.17
@@ -515,13 +515,13 @@ sources:
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.d+25.12.13.20.46
     - header: false
       public: false
       ref: boost-graph/1.90.0-a.d+25.12.01.07.18
     - header: true
       public: false
-      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+      ref: boost-integer/1.90.0-a.d+25.12.13.20.41
     - header: true
       public: false
       ref: boost-property_map/1.90.0-a.d+25.07.02.16.58
@@ -629,10 +629,10 @@ sources:
       ref: boost-conversion/1.90.0-a.m+25.10.07.20.26
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+      ref: boost-detail/1.90.0-a.m+25.12.13.20.38
     - header: true
       public: true
       ref: boost-foreach/1.90.0-a.m+25.01.26.17.47
@@ -641,7 +641,7 @@ sources:
       ref: boost-function/1.90.0-a.m+24.12.14.04.39
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: true
       public: true
       ref: boost-lexical_cast/1.90.0-a.m+25.10.16.09.15
@@ -668,13 +668,13 @@ sources:
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.m+25.12.13.20.46
     - header: false
       public: false
       ref: boost-graph/1.90.0-a.m+25.02.15.20.07
     - header: true
       public: false
-      ref: boost-integer/1.90.0-a.m+25.08.25.19.05
+      ref: boost-integer/1.90.0-a.m+25.12.13.20.41
     - header: true
       public: false
       ref: boost-property_map/1.90.0-a.m+24.12.28.21.57

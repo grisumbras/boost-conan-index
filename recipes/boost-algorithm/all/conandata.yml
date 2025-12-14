@@ -142,7 +142,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: false
       public: true
       ref: boost-exception/1.90.0-a.d+25.05.03.03.11
@@ -151,7 +151,7 @@ sources:
       ref: boost-function/1.90.0-a.d+24.12.14.04.39
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -203,7 +203,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: false
       public: true
       ref: boost-exception/1.90.0-a.m+25.03.02.03.25
@@ -212,7 +212,7 @@ sources:
       ref: boost-function/1.90.0-a.m+24.12.14.04.39
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.m+25.10.23.11.37

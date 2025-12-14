@@ -401,7 +401,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.d+24.12.14.03.43
@@ -416,16 +416,16 @@ sources:
       ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
     - header: true
       public: true
-      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+      ref: boost-integer/1.90.0-a.d+25.12.13.20.41
     - header: true
       public: true
       ref: boost-io/1.90.0-a.d+25.06.26.11.42
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.12.11.15.02
+      ref: boost-move/1.90.0-a.d+25.12.13.16.59
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -473,7 +473,7 @@ sources:
       ref: boost-unordered/1.90.0-a.d+25.10.21.20.47
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.d+25.12.13.20.46
     - header: true
       public: true
       ref: boost-variant/1.90.0-a.d+25.09.13.13.52
@@ -497,7 +497,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -512,13 +512,13 @@ sources:
       ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
     - header: true
       public: true
-      ref: boost-integer/1.90.0-a.m+25.08.25.19.05
+      ref: boost-integer/1.90.0-a.m+25.12.13.20.41
     - header: true
       public: true
       ref: boost-io/1.90.0-a.m+23.10.03.00.15
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: true
       public: true
       ref: boost-move/1.90.0-a.m+25.11.03.21.51
@@ -569,7 +569,7 @@ sources:
       ref: boost-unordered/1.90.0-a.m+25.10.21.20.47
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.m+25.12.13.20.46
     - header: true
       public: true
       ref: boost-variant/1.90.0-a.m+25.09.13.13.52

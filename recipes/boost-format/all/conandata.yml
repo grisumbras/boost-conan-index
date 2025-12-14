@@ -73,7 +73,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
@@ -85,7 +85,7 @@ sources:
       ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.d+25.12.13.20.46
     kind: header-library
     targets:
     - dependencies: []
@@ -104,7 +104,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23
@@ -116,7 +116,7 @@ sources:
       ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.m+25.12.13.20.46
     kind: header-library
     targets:
     - dependencies: []

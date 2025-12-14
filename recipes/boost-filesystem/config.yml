@@ -7,9 +7,13 @@ versions:
     folder: all
   1.90.0-a.d+25.10.01.17.38:
     folder: all
+  1.90.0-a.d+25.12.13.20.40:
+    folder: all
   1.90.0-a.m+25.06.15.17.50:
     folder: all
   1.90.0-a.m+25.10.01.17.38:
+    folder: all
+  1.90.0-a.m+25.12.13.20.40:
     folder: all
   1.90.0-b.1:
     folder: all

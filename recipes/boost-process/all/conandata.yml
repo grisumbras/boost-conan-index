@@ -145,10 +145,10 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.d+25.06.15.17.50
+      ref: boost-filesystem/1.90.0-a.d+25.12.13.20.40
     - header: true
       public: true
       ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
@@ -157,10 +157,10 @@ sources:
       ref: boost-io/1.90.0-a.d+25.06.26.11.42
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.d+25.12.11.15.02
+      ref: boost-move/1.90.0-a.d+25.12.13.16.59
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
@@ -181,7 +181,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.d+25.12.13.20.46
     - header: true
       public: true
       ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
@@ -399,10 +399,10 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.m+25.06.15.17.50
+      ref: boost-filesystem/1.90.0-a.m+25.12.13.20.40
     - header: true
       public: true
       ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
@@ -411,7 +411,7 @@ sources:
       ref: boost-io/1.90.0-a.m+23.10.03.00.15
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: true
       public: true
       ref: boost-move/1.90.0-a.m+25.11.03.21.51
@@ -435,7 +435,7 @@ sources:
       ref: boost-type_traits/1.90.0-a.m+25.07.04.20.38
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.m+25.12.13.20.46
     - header: true
       public: true
       ref: boost-winapi/1.90.0-a.m+25.08.25.19.08

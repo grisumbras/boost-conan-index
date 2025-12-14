@@ -332,13 +332,13 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
       ref: boost-fusion/1.90.0-a.d+24.08.21.20.51
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: false
       public: true
       ref: boost-math/1.90.0-a.d+25.11.03.10.17
@@ -374,7 +374,7 @@ sources:
       ref: boost-units/1.90.0-a.d+25.05.02.11.24
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.d+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.d+25.12.13.20.46
     targets:
     - dependencies: []
       kind: header-library
@@ -395,13 +395,13 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
       ref: boost-fusion/1.90.0-a.m+24.05.15.10.13
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: false
       public: true
       ref: boost-math/1.90.0-a.m+25.10.30.16.18
@@ -437,7 +437,7 @@ sources:
       ref: boost-units/1.90.0-a.m+21.06.08.00.11
     - header: true
       public: true
-      ref: boost-utility/1.90.0-a.m+25.08.25.19.07
+      ref: boost-utility/1.90.0-a.m+25.12.13.20.46
     kind: header-library
     targets:
     - dependencies: []

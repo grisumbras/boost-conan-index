@@ -155,16 +155,16 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.d+25.06.15.17.50
+      ref: boost-filesystem/1.90.0-a.d+25.12.13.20.40
     - header: true
       public: true
-      ref: boost-integer/1.90.0-a.d+25.08.25.19.05
+      ref: boost-integer/1.90.0-a.d+25.12.13.20.41
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.d+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: true
       public: true
       ref: boost-mp11/1.90.0-a.d+25.11.03.13.55
@@ -381,16 +381,16 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.m+25.06.15.17.50
+      ref: boost-filesystem/1.90.0-a.m+25.12.13.20.40
     - header: true
       public: true
-      ref: boost-integer/1.90.0-a.m+25.08.25.19.05
+      ref: boost-integer/1.90.0-a.m+25.12.13.20.41
     - header: true
       public: true
-      ref: boost-iterator/1.90.0-a.m+25.11.26.01.27
+      ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: true
       public: true
       ref: boost-mp11/1.90.0-a.m+25.11.03.13.55

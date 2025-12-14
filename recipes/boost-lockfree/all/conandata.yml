@@ -91,16 +91,16 @@ sources:
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: false
       public: true
-      ref: boost-atomic/1.90.0-a.d+25.09.30.15.42
+      ref: boost-atomic/1.90.0-a.d+25.12.13.20.07
     - header: true
       public: true
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
+      ref: boost-parameter/1.90.0-a.d+25.12.13.20.44
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.d+25.02.03.08.30
@@ -147,16 +147,16 @@ sources:
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     - header: false
       public: true
-      ref: boost-atomic/1.90.0-a.m+25.09.30.15.42
+      ref: boost-atomic/1.90.0-a.m+25.12.13.20.07
     - header: true
       public: true
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
+      ref: boost-parameter/1.90.0-a.m+25.12.13.20.44
     - header: true
       public: true
       ref: boost-predef/1.90.0-a.m+25.01.12.12.53

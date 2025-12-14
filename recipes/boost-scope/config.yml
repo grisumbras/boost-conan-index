@@ -5,7 +5,11 @@ versions:
     folder: all
   1.90.0-a.d+25.08.25.19.17:
     folder: all
+  1.90.0-a.d+25.12.13.20.45:
+    folder: all
   1.90.0-a.m+25.08.25.19.17:
+    folder: all
+  1.90.0-a.m+25.12.13.20.45:
     folder: all
   1.90.0-b.1:
     folder: all

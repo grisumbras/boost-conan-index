@@ -101,7 +101,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.d+25.06.15.17.50
+      ref: boost-filesystem/1.90.0-a.d+25.12.13.20.40
     targets:
     - dependencies: []
       kind: library
@@ -162,7 +162,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.m+25.06.15.17.50
+      ref: boost-filesystem/1.90.0-a.m+25.12.13.20.40
     targets:
     - dependencies: []
       kind: library

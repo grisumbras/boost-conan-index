@@ -608,7 +608,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
       ref: boost-function/1.90.0-a.d+24.12.14.04.39
@@ -623,7 +623,7 @@ sources:
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
+      ref: boost-parameter/1.90.0-a.d+25.12.13.20.44
     - header: true
       public: true
       ref: boost-phoenix/1.90.0-a.d+24.09.12.00.15
@@ -1050,7 +1050,7 @@ sources:
       ref: boost-config/1.90.0-a.m+25.10.09.16.06
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
       ref: boost-function/1.90.0-a.m+24.12.14.04.39
@@ -1065,7 +1065,7 @@ sources:
       ref: boost-mpl/1.90.0-a.m+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
+      ref: boost-parameter/1.90.0-a.m+25.12.13.20.44
     - header: true
       public: true
       ref: boost-phoenix/1.90.0-a.m+23.08.29.14.32

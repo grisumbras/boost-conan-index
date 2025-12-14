@@ -118,13 +118,13 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.08.14.18
+      ref: boost-core/1.90.0-a.d+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-detail/1.90.0-a.d+25.06.13.00.44
+      ref: boost-detail/1.90.0-a.d+25.12.13.20.38
     - header: true
       public: true
-      ref: boost-interprocess/1.90.0-a.d+25.12.13.11.38
+      ref: boost-interprocess/1.90.0-a.d+25.12.14.00.27
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -133,7 +133,7 @@ sources:
       ref: boost-multi_index/1.90.0-a.d+25.11.07.18.37
     - header: true
       public: true
-      ref: boost-parameter/1.90.0-a.d+25.08.25.19.06
+      ref: boost-parameter/1.90.0-a.d+25.12.13.20.44
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.d+25.06.09.02.52
@@ -170,10 +170,10 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.08.14.18
+      ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: true
       public: true
-      ref: boost-detail/1.90.0-a.m+25.06.13.00.44
+      ref: boost-detail/1.90.0-a.m+25.12.13.20.38
     - header: true
       public: true
       ref: boost-interprocess/1.90.0-a.m+25.11.13.23.33
@@ -185,7 +185,7 @@ sources:
       ref: boost-multi_index/1.90.0-a.m+25.09.20.17.53
     - header: true
       public: true
-      ref: boost-parameter/1.90.0-a.m+25.08.25.19.06
+      ref: boost-parameter/1.90.0-a.m+25.12.13.20.44
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52
