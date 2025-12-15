@@ -622,7 +622,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.10.29.08.37
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.13.20.35
+      ref: boost-core/1.90.0-a.d+25.12.14.22.45
     - header: false
       public: true
       ref: boost-date_time/1.90.0-a.d+25.07.07.06.39
@@ -631,7 +631,7 @@ sources:
       ref: boost-exception/1.90.0-a.d+25.05.03.03.11
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.d+25.12.13.20.40
+      ref: boost-filesystem/1.90.0-a.d+25.12.14.15.29
     - header: true
       public: true
       ref: boost-function_types/1.90.0-a.d+24.09.18.18.18
@@ -712,7 +712,7 @@ sources:
       ref: boost-asio/1.90.0-a.d+25.12.04.00.07
     - header: true
       public: false
-      ref: boost-interprocess/1.90.0-a.d+25.12.14.00.27
+      ref: boost-interprocess/1.90.0-a.d+25.12.15.11.00
     - header: true
       public: false
       ref: boost-io/1.90.0-a.d+25.06.26.11.42
@@ -1116,7 +1116,7 @@ sources:
       ref: boost-exception/1.90.0-a.m+25.03.02.03.25
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.m+25.12.13.20.40
+      ref: boost-filesystem/1.90.0-a.m+25.12.14.15.29
     - header: true
       public: true
       ref: boost-function_types/1.90.0-a.m+24.09.18.18.18

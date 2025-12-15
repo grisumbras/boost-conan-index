@@ -118,13 +118,13 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.13.20.35
+      ref: boost-core/1.90.0-a.d+25.12.14.22.45
     - header: true
       public: true
       ref: boost-detail/1.90.0-a.d+25.12.13.20.38
     - header: true
       public: true
-      ref: boost-interprocess/1.90.0-a.d+25.12.14.00.27
+      ref: boost-interprocess/1.90.0-a.d+25.12.15.11.00
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37

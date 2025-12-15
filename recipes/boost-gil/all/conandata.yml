@@ -155,10 +155,10 @@ sources:
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.13.20.35
+      ref: boost-core/1.90.0-a.d+25.12.14.22.45
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.d+25.12.13.20.40
+      ref: boost-filesystem/1.90.0-a.d+25.12.14.15.29
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.d+25.12.13.20.41
@@ -384,7 +384,7 @@ sources:
       ref: boost-core/1.90.0-a.m+25.12.13.20.35
     - header: false
       public: true
-      ref: boost-filesystem/1.90.0-a.m+25.12.13.20.40
+      ref: boost-filesystem/1.90.0-a.m+25.12.14.15.29
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.m+25.12.13.20.41

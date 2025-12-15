@@ -94,7 +94,7 @@ sources:
       ref: boost-context/1.90.0-a.d+25.10.29.21.21
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.13.20.35
+      ref: boost-core/1.90.0-a.d+25.12.14.22.45
     - header: false
       public: true
       ref: boost-exception/1.90.0-a.d+25.05.03.03.11

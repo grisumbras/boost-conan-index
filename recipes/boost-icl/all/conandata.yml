@@ -127,7 +127,7 @@ sources:
       ref: boost-container/1.90.0-a.d+25.12.13.17.20
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.d+25.12.13.20.35
+      ref: boost-core/1.90.0-a.d+25.12.14.22.45
     - header: false
       public: true
       ref: boost-date_time/1.90.0-a.d+25.07.07.06.39
