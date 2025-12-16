@@ -98,16 +98,16 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+      ref: boost-config/1.90.0-a.d+25.12.15.15.12
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.12.14.22.45
     - header: false
       public: true
-      ref: boost-math/1.90.0-a.d+25.11.03.10.17
+      ref: boost-math/1.90.0-a.d+25.12.15.13.39
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.11.03.13.55
+      ref: boost-mp11/1.90.0-a.d+25.12.15.15.52
     - header: false
       public: true
       ref: boost-serialization/1.90.0-a.d+24.08.18.11.53
@@ -159,16 +159,16 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+      ref: boost-config/1.90.0-a.m+25.12.15.19.00
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.13.20.35
+      ref: boost-core/1.90.0-a.m+25.12.14.22.45
     - header: false
       public: true
-      ref: boost-math/1.90.0-a.m+25.10.30.16.18
+      ref: boost-math/1.90.0-a.m+25.12.15.15.13
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.11.03.13.55
+      ref: boost-mp11/1.90.0-a.m+25.12.15.15.52
     - header: false
       public: true
       ref: boost-serialization/1.90.0-a.m+23.11.12.21.05

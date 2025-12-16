@@ -190,7 +190,7 @@ sources:
       ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+      ref: boost-config/1.90.0-a.d+25.12.15.15.12
     - header: false
       public: true
       ref: boost-container/1.90.0-a.d+25.12.13.17.20
@@ -232,7 +232,7 @@ sources:
       ref: boost-static_assert/1.90.0-a.d+25.04.15.18.33
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.12.03.19.33
+      ref: boost-system/1.90.0-a.d+25.12.15.21.52
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
@@ -275,7 +275,7 @@ sources:
       ref: boost-concept_check/1.90.0-a.m+24.12.28.18.10
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+      ref: boost-config/1.90.0-a.m+25.12.15.19.00
     - header: false
       public: true
       ref: boost-container/1.90.0-a.m+25.11.03.23.55
@@ -284,7 +284,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.13.20.35
+      ref: boost-core/1.90.0-a.m+25.12.14.22.45
     - header: false
       public: true
       ref: boost-date_time/1.90.0-a.m+22.10.31.09.22

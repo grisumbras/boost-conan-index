@@ -38,11 +38,29 @@ sources:
       kind: header-library
       name: boost_config
     url: https://github.com/boostorg/config.git
+  1.90.0-a.d+25.12.15.15.12:
+    commit: 82f16e561af27b297f75f6039e2660b23f07d0da
+    cxxstd: '03'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_config
+    url: https://github.com/boostorg/config.git
   1.90.0-a.m+25.10.09.16.06:
     commit: a7d5a9b05d70c9cfea980dc3539ca3d3461411b3
     cxxstd: '03'
     dependencies: []
     kind: header-library
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_config
+    url: https://github.com/boostorg/config.git
+  1.90.0-a.m+25.12.15.19.00:
+    commit: e80fde0d7af5832e7ddad6375dd0d5d56b41a084
+    cxxstd: '03'
+    dependencies: []
     targets:
     - dependencies: []
       kind: header-library

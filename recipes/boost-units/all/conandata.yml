@@ -100,7 +100,7 @@ sources:
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+      ref: boost-config/1.90.0-a.d+25.12.15.15.12
     - header: true
       public: true
       ref: boost-core/1.90.0-a.d+25.12.14.22.45
@@ -115,7 +115,7 @@ sources:
       ref: boost-lambda/1.90.0-a.d+25.05.03.03.20
     - header: false
       public: true
-      ref: boost-math/1.90.0-a.d+25.11.03.10.17
+      ref: boost-math/1.90.0-a.d+25.12.15.13.39
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -146,10 +146,10 @@ sources:
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+      ref: boost-config/1.90.0-a.m+25.12.15.19.00
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.13.20.35
+      ref: boost-core/1.90.0-a.m+25.12.14.22.45
     - header: true
       public: true
       ref: boost-integer/1.90.0-a.m+25.12.13.20.41
@@ -161,7 +161,7 @@ sources:
       ref: boost-lambda/1.90.0-a.m+25.05.03.03.20
     - header: false
       public: true
-      ref: boost-math/1.90.0-a.m+25.10.30.16.18
+      ref: boost-math/1.90.0-a.m+25.12.15.15.13
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.m+25.10.23.11.37

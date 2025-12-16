@@ -551,7 +551,7 @@ sources:
       ref: boost-concept_check/1.90.0-a.d+25.07.02.07.32
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+      ref: boost-config/1.90.0-a.d+25.12.15.15.12
     - header: false
       public: true
       ref: boost-container/1.90.0-a.d+25.12.13.17.20
@@ -581,7 +581,7 @@ sources:
       ref: boost-lexical_cast/1.90.0-a.d+25.12.11.22.17
     - header: false
       public: true
-      ref: boost-math/1.90.0-a.d+25.11.03.10.17
+      ref: boost-math/1.90.0-a.d+25.12.15.13.39
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.d+25.10.23.11.37
@@ -864,13 +864,13 @@ sources:
       ref: boost-concept_check/1.90.0-a.m+24.12.28.18.10
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+      ref: boost-config/1.90.0-a.m+25.12.15.19.00
     - header: false
       public: true
       ref: boost-container/1.90.0-a.m+25.11.03.23.55
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.13.20.35
+      ref: boost-core/1.90.0-a.m+25.12.14.22.45
     - header: true
       public: true
       ref: boost-function_types/1.90.0-a.m+24.09.18.18.18
@@ -891,7 +891,7 @@ sources:
       ref: boost-lexical_cast/1.90.0-a.m+25.10.16.09.15
     - header: false
       public: true
-      ref: boost-math/1.90.0-a.m+25.10.30.16.18
+      ref: boost-math/1.90.0-a.m+25.12.15.15.13
     - header: true
       public: true
       ref: boost-mpl/1.90.0-a.m+25.10.23.11.37

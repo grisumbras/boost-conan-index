@@ -88,7 +88,7 @@ sources:
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+      ref: boost-config/1.90.0-a.d+25.12.15.15.12
     - header: false
       public: true
       ref: boost-context/1.90.0-a.d+25.10.29.21.21
@@ -103,7 +103,7 @@ sources:
       ref: boost-move/1.90.0-a.d+25.12.13.16.59
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.12.03.19.33
+      ref: boost-system/1.90.0-a.d+25.12.15.21.52
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
@@ -128,13 +128,13 @@ sources:
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+      ref: boost-config/1.90.0-a.m+25.12.15.19.00
     - header: false
       public: true
       ref: boost-context/1.90.0-a.m+25.10.29.21.21
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.13.20.35
+      ref: boost-core/1.90.0-a.m+25.12.14.22.45
     - header: false
       public: true
       ref: boost-exception/1.90.0-a.m+25.03.02.03.25

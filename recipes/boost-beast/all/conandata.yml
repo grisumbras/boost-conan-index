@@ -431,7 +431,7 @@ sources:
       ref: boost-bind/1.90.0-a.d+24.12.13.03.05
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+      ref: boost-config/1.90.0-a.d+25.12.15.15.12
     - header: false
       public: true
       ref: boost-container/1.90.0-a.d+25.12.13.17.20
@@ -452,7 +452,7 @@ sources:
       ref: boost-logic/1.90.0-a.d+25.07.02.08.14
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.d+25.11.03.13.55
+      ref: boost-mp11/1.90.0-a.d+25.12.15.15.52
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.d+24.12.08.17.21
@@ -461,10 +461,10 @@ sources:
       ref: boost-smart_ptr/1.90.0-a.d+25.11.18.10.53
     - header: true
       public: true
-      ref: boost-static_string/1.90.0-a.d+25.11.14.12.03
+      ref: boost-static_string/1.90.0-a.d+25.12.15.18.23
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.12.03.19.33
+      ref: boost-system/1.90.0-a.d+25.12.15.21.52
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
@@ -636,7 +636,7 @@ sources:
       ref: boost-bind/1.90.0-a.m+24.12.13.03.05
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+      ref: boost-config/1.90.0-a.m+25.12.15.19.00
     - header: false
       public: true
       ref: boost-container/1.90.0-a.m+25.11.03.23.55
@@ -645,7 +645,7 @@ sources:
       ref: boost-container_hash/1.90.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.90.0-a.m+25.12.13.20.35
+      ref: boost-core/1.90.0-a.m+25.12.14.22.45
     - header: true
       public: true
       ref: boost-endian/1.90.0-a.m+24.12.14.03.43
@@ -657,7 +657,7 @@ sources:
       ref: boost-logic/1.90.0-a.m+25.01.01.20.44
     - header: true
       public: true
-      ref: boost-mp11/1.90.0-a.m+25.11.03.13.55
+      ref: boost-mp11/1.90.0-a.m+25.12.15.15.52
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23

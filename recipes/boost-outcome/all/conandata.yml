@@ -83,13 +83,13 @@ sources:
       ref: boost-assert/1.90.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.d+25.10.29.08.37
+      ref: boost-config/1.90.0-a.d+25.12.15.15.12
     - header: false
       public: true
       ref: boost-exception/1.90.0-a.d+25.05.03.03.11
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.12.03.19.33
+      ref: boost-system/1.90.0-a.d+25.12.15.21.52
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
@@ -107,7 +107,7 @@ sources:
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.90.0-a.m+25.10.09.16.06
+      ref: boost-config/1.90.0-a.m+25.12.15.19.00
     - header: false
       public: true
       ref: boost-exception/1.90.0-a.m+25.03.02.03.25
