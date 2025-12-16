@@ -439,6 +439,9 @@ class LibraryProject(Project):
         self.dependencies.append( (ExternalProject('openssl'), True) )
         self.targets[0]['dependencies'].append('openssl::ssl')
 
+    def _system_exceptions(self, lib_dir, registry):
+        self.targets[0]['kind'] = 'header-library'
+
 
 class ToolProject(Project):
     def __init__(self, name, path, url, superproject, tools, helpers, git):
