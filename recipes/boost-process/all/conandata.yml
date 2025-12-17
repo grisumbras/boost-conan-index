@@ -414,7 +414,7 @@ sources:
       ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.m+25.11.03.21.51
+      ref: boost-move/1.90.0-a.m+25.12.13.16.59
     - header: true
       public: true
       ref: boost-optional/1.90.0-a.m+24.12.04.00.23

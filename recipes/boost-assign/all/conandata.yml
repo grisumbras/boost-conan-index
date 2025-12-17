@@ -143,7 +143,7 @@ sources:
       ref: boost-core/1.90.0-a.m+25.12.14.22.45
     - header: true
       public: true
-      ref: boost-move/1.90.0-a.m+25.11.03.21.51
+      ref: boost-move/1.90.0-a.m+25.12.13.16.59
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-a.m+25.06.09.02.52

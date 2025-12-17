@@ -153,7 +153,7 @@ sources:
       ref: boost-core/1.90.0-a.m+25.12.14.22.45
     - header: true
       public: true
-      ref: boost-intrusive/1.90.0-a.m+25.11.03.21.51
+      ref: boost-intrusive/1.90.0-a.m+25.12.13.17.21
     - header: true
       public: true
       ref: boost-iterator/1.90.0-a.m+25.12.13.20.42
