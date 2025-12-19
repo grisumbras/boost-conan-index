@@ -28,7 +28,7 @@ default_superproject_url = 'https://github.com/boostorg/boost/'
 default_superproject_ref = 'develop'
 index_url = 'https://github.com/grisumbras/boost-conan-index/'
 
-future_boost_version = '1.90.0'
+future_boost_version = '1.91.0'
 b2_tools_version = '0.0.1-a'
 b2_version = '5.3.0'
 
