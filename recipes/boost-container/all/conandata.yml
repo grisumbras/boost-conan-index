@@ -790,6 +790,27 @@ sources:
       kind: library
       name: boost_container
     url: https://github.com/boostorg/container.git
+  1.91.0-a.d+25.12.19.10.10:
+    commit: ce530f5fbefeb98e9abdbec4bbbed612278fbca9
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.d+25.12.13.17.21
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.d+25.12.13.16.59
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_container
+    url: https://github.com/boostorg/container.git
   1.91.0-a.m+25.12.13.17.20:
     commit: df5010d5eb8de9f19fb4c7d302c8dd8a868de2f4
     cxxstd: '03'

@@ -342,7 +342,7 @@ sources:
       ref: boost-config/1.91.0-a.d+25.12.15.15.12
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+25.12.18.15.56
+      ref: boost-container/1.91.0-a.d+25.12.19.10.10
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+25.12.14.22.45
