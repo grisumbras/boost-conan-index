@@ -643,7 +643,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.12.15.15.12
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.12.16.19.34
+      ref: boost-container/1.90.0-a.d+25.12.18.15.56
     - header: true
       public: true
       ref: boost-intrusive/1.90.0-a.d+25.12.13.17.21

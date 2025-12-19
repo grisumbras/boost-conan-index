@@ -341,7 +341,7 @@ sources:
       ref: boost-iterator/1.90.0-a.d+25.12.13.20.42
     - header: false
       public: true
-      ref: boost-math/1.90.0-a.d+25.12.15.13.39
+      ref: boost-math/1.90.0-a.d+25.12.18.11.52
     - header: false
       public: true
       ref: boost-mpi/1.90.0-a.d+25.12.02.14.52

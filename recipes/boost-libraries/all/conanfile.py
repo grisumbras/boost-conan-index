@@ -1,0 +1,66 @@
+from conan import ConanFile
+from conan.tools.files import mkdir
+import os.path
+
+
+class BoostSuperprojectRecipe(ConanFile):
+    name = 'boost-libraries'
+
+    license = 'BSL-1.0'
+    description = 'Boost provides free peer-reviewed portable C++ source libraries'
+    homepage = 'boost.org'
+    topics = ('libraries', 'cpp')
+
+    package_type = 'header-library'
+
+    def requirements(self):
+        for dep in self.conan_data['sources'][self.version]['dependencies']:
+            self.requires(
+                dep['ref'],
+                headers=True,
+                transitive_headers=True,
+                libs=not dep['header'],
+                transitive_libs=not dep['header'],
+            )
+
+    def package(self):
+        # needed to please CMake generator
+        mkdir(self, os.path.join(self.package_folder, 'include'))
+
+    def package_info(self):
+        includedirs = []
+        defines = []
+        deps = (
+            dep
+            for require, dep in self.dependencies.items()
+            if require.direct or not require.build or not require.test
+        )
+        for dep in deps:
+            dirs = dep.cpp_info.includedirs
+            defs = dep.cpp_info.defines
+            for comp_name, comp in dep.cpp_info.components.items():
+                for d in comp.includedirs:
+                    if d not in dirs:
+                        dirs.append(d)
+                for d in comp.defines:
+                    if d not in defs:
+                        defs.append(d)
+            includedirs.extend(dirs)
+            defines.extend(defs)
+
+        self.cpp_info.includedirs = includedirs
+        self.cpp_info.defines = defines
+        self.cpp_info.bindirs = []
+        self.cpp_info.resdirs = []
+        self.cpp_info.builddirs = []
+        self.cpp_info.libdirs = []
+        self.cpp_info.set_property('cmake_file_name', 'boost')
+
+        for comp_name in ('headers', 'boost'):
+            comp = self.cpp_info.components[comp_name]
+            comp.bindirs = []
+            comp.libdirs = []
+            comp.includedirs = includedirs
+            comp.defines = defines
+            comp.set_property('cmake_target_name', f'Boost::{comp_name}')
+            comp.set_property('b2_target_name', f'/boost//{comp_name}')

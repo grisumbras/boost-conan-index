@@ -221,6 +221,33 @@ sources:
       kind: header-library
       name: boost_system
     url: https://github.com/boostorg/system.git
+  1.90.0-a.d+25.12.18.19.30:
+    commit: 423e6937ad38f19f6620f37abc0ebeb77dbcc46c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-compat/1.90.0-a.d+25.11.18.11.26
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.d+25.10.22.21.03
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_system
+    url: https://github.com/boostorg/system.git
   1.90.0-a.m+25.07.02.19.12:
     commit: 14c5f52602c172d2ede2dda2c06847f7123b4c77
     cxxstd: '11'
@@ -298,6 +325,33 @@ sources:
     - header: true
       public: true
       ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.90.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0-a.m+25.10.22.21.03
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0-a.m+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_system
+    url: https://github.com/boostorg/system.git
+  1.90.0-a.m+25.12.18.19.28:
+    commit: b930bc38acf87e2b4c58f5b3d211f20cc8917612
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-compat/1.90.0-a.m+25.11.18.11.26
     - header: true
       public: true
       ref: boost-config/1.90.0-a.m+25.12.15.19.00

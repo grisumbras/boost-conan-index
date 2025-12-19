@@ -434,7 +434,7 @@ sources:
       ref: boost-config/1.90.0-a.d+25.12.15.15.12
     - header: false
       public: true
-      ref: boost-container/1.90.0-a.d+25.12.16.19.34
+      ref: boost-container/1.90.0-a.d+25.12.18.15.56
     - header: true
       public: true
       ref: boost-container_hash/1.90.0-a.d+25.08.21.19.31
@@ -464,7 +464,7 @@ sources:
       ref: boost-static_string/1.90.0-a.d+25.12.15.18.23
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.d+25.12.15.21.52
+      ref: boost-system/1.90.0-a.d+25.12.18.19.30
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.d+25.11.15.22.13
@@ -669,7 +669,7 @@ sources:
       ref: boost-static_string/1.90.0-a.m+25.11.14.12.03
     - header: true
       public: true
-      ref: boost-system/1.90.0-a.m+25.11.02.20.08
+      ref: boost-system/1.90.0-a.m+25.12.18.19.28
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-a.m+25.11.15.22.13
