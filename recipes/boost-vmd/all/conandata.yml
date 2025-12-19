@@ -25,6 +25,18 @@ sources:
       kind: header-library
       name: boost_vmd
     url: https://github.com/boostorg/vmd.git
+  1.90.0:
+    commit: 34cad2c1a574d445812c7c2432d3a5a5c843b412
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_vmd
+    url: https://github.com/boostorg/vmd.git
   1.90.0-a.d+25.05.02.19.25:
     commit: 26b39eb95fa8582cd0f47d79a4a87b048d5db5ce
     cxxstd: '03'
@@ -58,6 +70,30 @@ sources:
     - header: true
       public: true
       ref: boost-preprocessor/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_vmd
+    url: https://github.com/boostorg/vmd.git
+  1.91.0-a.d+25.05.02.19.25:
+    commit: 26b39eb95fa8582cd0f47d79a4a87b048d5db5ce
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_vmd
+    url: https://github.com/boostorg/vmd.git
+  1.91.0-a.m+21.06.10.00.43:
+    commit: 34cad2c1a574d445812c7c2432d3a5a5c843b412
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
     targets:
     - dependencies: []
       kind: header-library

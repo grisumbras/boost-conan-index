@@ -97,6 +97,54 @@ sources:
       kind: header-library
       name: boost_property_map_parallel
     url: https://github.com/boostorg/property_map_parallel.git
+  1.90.0:
+    commit: a2f90e9660e4e7e012c0b54a1338d8e69fb71906
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-function/1.90.0
+    - header: false
+      public: true
+      ref: boost-mpi/1.90.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0
+    - header: true
+      public: true
+      ref: boost-multi_index/1.90.0
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0
+    - header: true
+      public: true
+      ref: boost-property_map/1.90.0
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_property_map_parallel
+    url: https://github.com/boostorg/property_map_parallel.git
   1.90.0-a.d+25.05.02.19.16:
     commit: d04a8f0103c5f0531c2c470d85def0e85a103e8e
     cxxstd: '03'
@@ -238,6 +286,102 @@ sources:
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_property_map_parallel
+    url: https://github.com/boostorg/property_map_parallel.git
+  1.91.0-a.d+25.05.02.19.16:
+    commit: d04a8f0103c5f0531c2c470d85def0e85a103e8e
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0-a.d+25.07.02.07.32
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+    - header: false
+      public: true
+      ref: boost-mpi/1.91.0-a.d+25.12.02.14.52
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-multi_index/1.91.0-a.d+25.11.07.18.37
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-property_map/1.91.0-a.d+25.07.02.16.58
+    - header: false
+      public: true
+      ref: boost-serialization/1.91.0-a.d+24.08.18.11.53
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_property_map_parallel
+    url: https://github.com/boostorg/property_map_parallel.git
+  1.91.0-a.m+22.01.29.06.34:
+    commit: a2f90e9660e4e7e012c0b54a1338d8e69fb71906
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0-a.m+24.12.28.18.10
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+    - header: false
+      public: true
+      ref: boost-mpi/1.91.0-a.m+25.04.17.17.55
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-multi_index/1.91.0-a.m+25.09.20.17.53
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-property_map/1.91.0-a.m+24.12.28.21.57
+    - header: false
+      public: true
+      ref: boost-serialization/1.91.0-a.m+23.11.12.21.05
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
     targets:
     - dependencies: []
       kind: header-library

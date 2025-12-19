@@ -127,6 +127,69 @@ sources:
       kind: library
       name: boost_iostreams
     url: https://github.com/boostorg/iostreams.git
+  1.90.0:
+    commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-core/1.90.0
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0
+    - header: true
+      public: true
+      ref: boost-function/1.90.0
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0
+    - header: false
+      public: true
+      ref: boost-random/1.90.0
+    - header: true
+      public: true
+      ref: boost-range/1.90.0
+    - header: false
+      public: true
+      ref: boost-regex/1.90.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0
+    - header: true
+      public: false
+      ref: boost-numeric_conversion/1.90.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_iostreams
+    url: https://github.com/boostorg/iostreams.git
   1.90.0-a.d+24.12.15.22.27:
     commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
     cxxstd: '03'
@@ -313,6 +376,132 @@ sources:
     - header: true
       public: false
       ref: boost-numeric_conversion/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_iostreams
+    url: https://github.com/boostorg/iostreams.git
+  1.91.0-a.d+24.12.15.22.27:
+    commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.d+25.12.13.20.38
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-a.d+25.12.13.20.41
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: false
+      public: true
+      ref: boost-random/1.91.0-a.d+25.12.02.14.54
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-a.d+25.05.02.19.18
+    - header: false
+      public: true
+      ref: boost-regex/1.91.0-a.d+25.07.04.20.20
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+    - header: true
+      public: false
+      ref: boost-numeric_conversion/1.91.0-a.d+25.06.26.07.40
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_iostreams
+    url: https://github.com/boostorg/iostreams.git
+  1.91.0-a.m+24.12.15.22.27:
+    commit: 8561bdb8bcd0a1b528d60c090407233b0c1d9148
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.m+25.12.13.20.38
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-a.m+25.12.13.20.41
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
+    - header: false
+      public: true
+      ref: boost-random/1.91.0-a.m+25.11.14.15.33
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-a.m+25.02.08.16.31
+    - header: false
+      public: true
+      ref: boost-regex/1.91.0-a.m+25.07.04.17.16
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.m+25.12.13.20.46
+    - header: true
+      public: false
+      ref: boost-numeric_conversion/1.91.0-a.m+25.06.26.07.40
     targets:
     - dependencies: []
       kind: library

@@ -135,6 +135,73 @@ sources:
       kind: library
       name: boost_mpi_python
     url: https://github.com/boostorg/mpi.git
+  1.90.0:
+    commit: b5733ba6f93671c696be707e13e8b2662c1e45e2
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-core/1.90.0
+    - header: true
+      public: true
+      ref: boost-foreach/1.90.0
+    - header: true
+      public: true
+      ref: boost-function/1.90.0
+    - header: false
+      public: true
+      ref: boost-graph/1.90.0
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0
+    - header: false
+      public: true
+      ref: boost-python/1.90.0
+    - header: false
+      public: true
+      ref: boost-serialization/1.90.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    - header: true
+      public: false
+      ref: boost-lexical_cast/1.90.0
+    - header: true
+      public: false
+      ref: boost-utility/1.90.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_mpi
+    - dependencies:
+      - boost_mpi
+      kind: library
+      name: boost_mpi_python
+    url: https://github.com/boostorg/mpi.git
   1.90.0-a.d+25.10.13.17.09:
     commit: 39f288dfe2f882199a73a79e3af3c9f5b7ba3503
     cxxstd: '03'
@@ -396,6 +463,140 @@ sources:
     - header: true
       public: false
       ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_mpi
+    - dependencies:
+      - boost_mpi
+      kind: library
+      name: boost_mpi_python
+    url: https://github.com/boostorg/mpi.git
+  1.91.0-a.d+25.12.02.14.52:
+    commit: bbd88b46388a2c3a37dc0e408022c61e1ad2915c
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-foreach/1.91.0-a.d+25.05.02.19.11
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+    - header: false
+      public: true
+      ref: boost-graph/1.91.0-a.d+25.12.01.07.18
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-a.d+25.12.13.20.41
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.d+24.12.08.17.21
+    - header: false
+      public: true
+      ref: boost-python/1.91.0-a.d+25.12.02.08.38
+    - header: false
+      public: true
+      ref: boost-serialization/1.91.0-a.d+24.08.18.11.53
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: false
+      ref: boost-lexical_cast/1.91.0-a.d+25.12.11.22.17
+    - header: true
+      public: false
+      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_mpi
+    - dependencies:
+      - boost_mpi
+      kind: library
+      name: boost_mpi_python
+    url: https://github.com/boostorg/mpi.git
+  1.91.0-a.m+25.04.17.17.55:
+    commit: b5733ba6f93671c696be707e13e8b2662c1e45e2
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-foreach/1.91.0-a.m+25.01.26.17.47
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+    - header: false
+      public: true
+      ref: boost-graph/1.91.0-a.m+25.02.15.20.07
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-a.m+25.12.13.20.41
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.m+24.12.04.00.23
+    - header: false
+      public: true
+      ref: boost-python/1.91.0-a.m+25.06.06.11.27
+    - header: false
+      public: true
+      ref: boost-serialization/1.91.0-a.m+23.11.12.21.05
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    - header: true
+      public: false
+      ref: boost-lexical_cast/1.91.0-a.m+25.10.16.09.15
+    - header: true
+      public: false
+      ref: boost-utility/1.91.0-a.m+25.12.13.20.46
     targets:
     - dependencies: []
       kind: library

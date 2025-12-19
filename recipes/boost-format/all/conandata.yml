@@ -61,6 +61,36 @@ sources:
       kind: header-library
       name: boost_format
     url: https://github.com/boostorg/format.git
+  1.90.0:
+    commit: 66075102416bc5d0f8e0bd151a19013dadbf94ce
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-core/1.90.0
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_format
+    url: https://github.com/boostorg/format.git
   1.90.0-a.d+25.06.26.19.58:
     commit: 3fb39d7deeb2a1b13765fe19358518a010ba66b7
     cxxstd: '11'
@@ -148,6 +178,66 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_format
+    url: https://github.com/boostorg/format.git
+  1.91.0-a.d+25.06.26.19.58:
+    commit: 3fb39d7deeb2a1b13765fe19358518a010ba66b7
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_format
+    url: https://github.com/boostorg/format.git
+  1.91.0-a.m+25.01.02.11.49:
+    commit: 66075102416bc5d0f8e0bd151a19013dadbf94ce
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.m+25.12.13.20.46
     targets:
     - dependencies: []
       kind: header-library

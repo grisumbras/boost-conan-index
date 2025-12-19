@@ -73,6 +73,42 @@ sources:
       kind: header-library
       name: boost_functional
     url: https://github.com/boostorg/functional.git
+  1.90.0:
+    commit: 6a573e4b8333ee63ee62ce95558c3667348db233
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-core/1.90.0
+    - header: true
+      public: true
+      ref: boost-function/1.90.0
+    - header: true
+      public: true
+      ref: boost-function_types/1.90.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_functional
+    url: https://github.com/boostorg/functional.git
   1.90.0-a.d+25.06.26.09.00:
     commit: 3c468dd0246577c20c3d6f88b2d42be92adaafa6
     cxxstd: '03'
@@ -178,6 +214,78 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_functional
+    url: https://github.com/boostorg/functional.git
+  1.91.0-a.d+25.06.26.09.00:
+    commit: 3c468dd0246577c20c3d6f88b2d42be92adaafa6
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-function_types/1.91.0-a.d+24.09.18.18.18
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0-a.d+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_functional
+    url: https://github.com/boostorg/functional.git
+  1.91.0-a.m+23.04.17.06.59:
+    commit: 6a573e4b8333ee63ee62ce95558c3667348db233
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-function_types/1.91.0-a.m+24.09.18.18.18
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0-a.m+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.m+25.12.13.20.46
     targets:
     - dependencies: []
       kind: header-library

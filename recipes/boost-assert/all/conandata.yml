@@ -25,6 +25,18 @@ sources:
       kind: header-library
       name: boost_assert
     url: https://github.com/boostorg/assert.git
+  1.90.0:
+    commit: e107bd7b556d72ef5273c17f4099198a28edaa4d
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_assert
+    url: https://github.com/boostorg/assert.git
   1.90.0-a.d+25.03.21.17.00:
     commit: 5dcb2af5213ae132b7531e45e7f93258cc33ffd8
     cxxstd: '03'
@@ -103,6 +115,30 @@ sources:
     - header: true
       public: true
       ref: boost-config/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_assert
+    url: https://github.com/boostorg/assert.git
+  1.91.0-a.d+25.10.19.13.59:
+    commit: e107bd7b556d72ef5273c17f4099198a28edaa4d
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_assert
+    url: https://github.com/boostorg/assert.git
+  1.91.0-a.m+25.10.19.13.59:
+    commit: e107bd7b556d72ef5273c17f4099198a28edaa4d
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
     targets:
     - dependencies: []
       kind: header-library

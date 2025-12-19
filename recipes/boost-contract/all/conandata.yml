@@ -115,6 +115,63 @@ sources:
       kind: library
       name: boost_contract
     url: https://github.com/boostorg/contract.git
+  1.90.0:
+    commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.90.0
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-core/1.90.0
+    - header: false
+      public: true
+      ref: boost-exception/1.90.0
+    - header: true
+      public: true
+      ref: boost-function/1.90.0
+    - header: true
+      public: true
+      ref: boost-function_types/1.90.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0
+    - header: false
+      public: true
+      ref: boost-thread/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.90.0
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_contract
+    url: https://github.com/boostorg/contract.git
   1.90.0-a.d+20.05.22.17.53:
     commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
     cxxstd: '11'
@@ -283,6 +340,120 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_contract
+    url: https://github.com/boostorg/contract.git
+  1.91.0-a.d+20.05.22.17.53:
+    commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.91.0-a.d+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-a.d+25.05.03.03.11
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-function_types/1.91.0-a.d+24.09.18.18.18
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+    - header: false
+      public: true
+      ref: boost-thread/1.91.0-a.d+25.05.02.19.21
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0-a.d+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_contract
+    url: https://github.com/boostorg/contract.git
+  1.91.0-a.m+20.05.22.17.53:
+    commit: 4a4047f84a1a849f8e2737d8d4ceb71a739e2082
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.91.0-a.m+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-a.m+25.03.02.03.25
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-function_types/1.91.0-a.m+24.09.18.18.18
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+    - header: false
+      public: true
+      ref: boost-thread/1.91.0-a.m+25.05.02.19.21
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0-a.m+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.m+25.12.13.20.46
     targets:
     - dependencies: []
       kind: library

@@ -97,6 +97,54 @@ sources:
       kind: library
       name: boost_program_options
     url: https://github.com/boostorg/program_options.git
+  1.90.0:
+    commit: 902aaedaaa157a92e649c3b1324c92f5a264a805
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-core/1.90.0
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0
+    - header: true
+      public: true
+      ref: boost-function/1.90.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.90.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    - header: true
+      public: false
+      ref: boost-bind/1.90.0
+    - header: true
+      public: false
+      ref: boost-tokenizer/1.90.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_program_options
+    url: https://github.com/boostorg/program_options.git
   1.90.0-a.d+25.09.13.10.38:
     commit: 902aaedaaa157a92e649c3b1324c92f5a264a805
     cxxstd: '11'
@@ -286,6 +334,102 @@ sources:
     - header: true
       public: false
       ref: boost-tokenizer/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_program_options
+    url: https://github.com/boostorg/program_options.git
+  1.91.0-a.d+25.12.04.11.07:
+    commit: ec6794632fd7e6050a69480ea3e5b2a5d5b3c08d
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.91.0-a.d+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.d+25.12.13.20.38
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.91.0-a.d+25.12.11.22.17
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: false
+      ref: boost-bind/1.91.0-a.d+24.12.13.03.05
+    - header: true
+      public: false
+      ref: boost-tokenizer/1.91.0-a.d+25.07.02.17.31
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_program_options
+    url: https://github.com/boostorg/program_options.git
+  1.91.0-a.m+25.09.13.10.38:
+    commit: 902aaedaaa157a92e649c3b1324c92f5a264a805
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.91.0-a.m+25.10.07.20.26
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.m+25.12.13.20.38
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.91.0-a.m+25.10.16.09.15
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    - header: true
+      public: false
+      ref: boost-bind/1.91.0-a.m+24.12.13.03.05
+    - header: true
+      public: false
+      ref: boost-tokenizer/1.91.0-a.m+25.01.01.15.10
     targets:
     - dependencies: []
       kind: library

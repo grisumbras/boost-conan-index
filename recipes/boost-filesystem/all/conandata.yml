@@ -103,6 +103,57 @@ sources:
       kind: library
       name: boost_filesystem
     url: https://github.com/boostorg/filesystem.git
+  1.90.0:
+    commit: 868dc76bb6dd09923a0f4b90f2f2aad25d9f51d6
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-container_hash/1.90.0
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0
+    - header: true
+      public: true
+      ref: boost-io/1.90.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0
+    - header: true
+      public: true
+      ref: boost-system/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    - header: false
+      public: false
+      ref: boost-atomic/1.90.0
+    - header: true
+      public: false
+      ref: boost-core/1.90.0
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0
+    - header: true
+      public: false
+      ref: boost-scope/1.90.0
+    - header: true
+      public: false
+      ref: boost-winapi/1.90.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_filesystem
+    url: https://github.com/boostorg/filesystem.git
   1.90.0-a.d+25.06.15.17.50:
     commit: 868dc76bb6dd09923a0f4b90f2f2aad25d9f51d6
     cxxstd: '11'
@@ -559,6 +610,108 @@ sources:
     - header: true
       public: false
       ref: boost-winapi/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_filesystem
+    url: https://github.com/boostorg/filesystem.git
+  1.91.0-a.d+25.12.14.15.29:
+    commit: b6130f0f17c248a57e9a3f52f08430aa3b3b99b0
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.d+25.12.13.20.38
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-a.d+25.06.26.11.42
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+25.12.18.19.30
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: false
+      public: false
+      ref: boost-atomic/1.91.0-a.d+25.12.13.20.07
+    - header: true
+      public: false
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: true
+      public: false
+      ref: boost-predef/1.91.0-a.d+25.02.03.08.30
+    - header: true
+      public: false
+      ref: boost-scope/1.91.0-a.d+25.12.13.20.45
+    - header: true
+      public: false
+      ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_filesystem
+    url: https://github.com/boostorg/filesystem.git
+  1.91.0-a.m+25.12.14.15.29:
+    commit: b6130f0f17c248a57e9a3f52f08430aa3b3b99b0
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-a.m+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.m+25.12.13.20.38
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-a.m+23.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.m+25.12.18.19.28
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    - header: false
+      public: false
+      ref: boost-atomic/1.91.0-a.m+25.12.13.20.07
+    - header: true
+      public: false
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: true
+      public: false
+      ref: boost-predef/1.91.0-a.m+25.01.12.12.53
+    - header: true
+      public: false
+      ref: boost-scope/1.91.0-a.m+25.12.13.20.45
+    - header: true
+      public: false
+      ref: boost-winapi/1.91.0-a.m+25.08.25.19.08
     targets:
     - dependencies: []
       kind: library

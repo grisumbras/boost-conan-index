@@ -37,6 +37,24 @@ sources:
       kind: header-library
       name: boost_yap
     url: https://github.com/boostorg/yap.git
+  1.90.0:
+    commit: 2d44666933c2993c992a3fc348776ba62cafad6b
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-hana/1.90.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_index/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_yap
+    url: https://github.com/boostorg/yap.git
   1.90.0-a.d+25.03.13.18.59:
     commit: 2d44666933c2993c992a3fc348776ba62cafad6b
     cxxstd: '14'
@@ -88,6 +106,42 @@ sources:
     - header: true
       public: true
       ref: boost-type_index/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_yap
+    url: https://github.com/boostorg/yap.git
+  1.91.0-a.d+25.03.13.18.59:
+    commit: 2d44666933c2993c992a3fc348776ba62cafad6b
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-hana/1.91.0-a.d+25.07.03.23.00
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.d+25.10.18.15.18
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_yap
+    url: https://github.com/boostorg/yap.git
+  1.91.0-a.m+25.03.13.18.59:
+    commit: 2d44666933c2993c992a3fc348776ba62cafad6b
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-hana/1.91.0-a.m+25.07.03.23.00
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.m+25.10.18.15.18
     targets:
     - dependencies: []
       kind: header-library

@@ -55,6 +55,33 @@ sources:
       kind: header-library
       name: boost_metaparse
     url: https://github.com/boostorg/metaparse.git
+  1.90.0:
+    commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_metaparse
+    url: https://github.com/boostorg/metaparse.git
   1.90.0-a.d+25.04.14.20.30:
     commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
     cxxstd: '03'
@@ -133,6 +160,60 @@ sources:
     - header: true
       public: true
       ref: boost-type_traits/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_metaparse
+    url: https://github.com/boostorg/metaparse.git
+  1.91.0-a.d+25.04.14.20.30:
+    commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_metaparse
+    url: https://github.com/boostorg/metaparse.git
+  1.91.0-a.m+25.04.14.20.30:
+    commit: 0c7c2dd33744ad251e3124aa4f372194fd662902
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
     targets:
     - dependencies: []
       kind: header-library

@@ -43,6 +43,27 @@ sources:
       kind: header-library
       name: boost_array
     url: https://github.com/boostorg/array.git
+  1.90.0:
+    commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_array
+    url: https://github.com/boostorg/array.git
   1.90.0-a.d+25.04.03.14.10:
     commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
     cxxstd: '03'
@@ -103,6 +124,48 @@ sources:
     - header: true
       public: true
       ref: boost-throw_exception/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_array
+    url: https://github.com/boostorg/array.git
+  1.91.0-a.d+25.04.03.14.10:
+    commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_array
+    url: https://github.com/boostorg/array.git
+  1.91.0-a.m+25.04.03.14.10:
+    commit: e988ef9c4a7d64be2850dc8de18b6461e094d4ae
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
     targets:
     - dependencies: []
       kind: header-library

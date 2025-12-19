@@ -37,6 +37,24 @@ sources:
       kind: header-library
       name: boost_coroutine2
     url: https://github.com/boostorg/coroutine2.git
+  1.90.0:
+    commit: dbbf042e0a9081b4119d491b788ae0fe7c03192a
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: false
+      public: true
+      ref: boost-context/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_coroutine2
+    url: https://github.com/boostorg/coroutine2.git
   1.90.0-a.d+25.09.08.14.56:
     commit: f405b3c5c2434daac6cc90c279f9e50b05c5c11c
     cxxstd: '11'
@@ -88,6 +106,42 @@ sources:
     - header: false
       public: true
       ref: boost-context/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_coroutine2
+    url: https://github.com/boostorg/coroutine2.git
+  1.91.0-a.d+25.09.08.14.56:
+    commit: f405b3c5c2434daac6cc90c279f9e50b05c5c11c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: false
+      public: true
+      ref: boost-context/1.91.0-a.d+25.10.29.21.21
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_coroutine2
+    url: https://github.com/boostorg/coroutine2.git
+  1.91.0-a.m+24.08.28.12.53:
+    commit: dbbf042e0a9081b4119d491b788ae0fe7c03192a
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: false
+      public: true
+      ref: boost-context/1.91.0-a.m+25.10.29.21.21
     targets:
     - dependencies: []
       kind: header-library

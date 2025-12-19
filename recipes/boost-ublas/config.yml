@@ -3,9 +3,15 @@ versions:
     folder: all
   1.89.0-b.1:
     folder: all
+  1.90.0:
+    folder: all
   1.90.0-a.d+23.11.22.02.19:
     folder: all
   1.90.0-a.m+24.05.07.22.32:
     folder: all
   1.90.0-b.1:
+    folder: all
+  1.91.0-a.d+23.11.22.02.19:
+    folder: all
+  1.91.0-a.m+24.05.07.22.32:
     folder: all

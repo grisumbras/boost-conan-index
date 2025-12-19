@@ -79,6 +79,45 @@ sources:
       kind: library
       name: boost_coroutine
     url: https://github.com/boostorg/coroutine.git
+  1.90.0:
+    commit: 8b09bf7d0e8a13d1ef59aaff02a84d42acb034f3
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: false
+      public: true
+      ref: boost-context/1.90.0
+    - header: true
+      public: true
+      ref: boost-core/1.90.0
+    - header: false
+      public: true
+      ref: boost-exception/1.90.0
+    - header: true
+      public: true
+      ref: boost-move/1.90.0
+    - header: true
+      public: true
+      ref: boost-system/1.90.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_coroutine
+    url: https://github.com/boostorg/coroutine.git
   1.90.0-a.d+24.08.28.12.50:
     commit: 8b09bf7d0e8a13d1ef59aaff02a84d42acb034f3
     cxxstd: null
@@ -193,6 +232,84 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_coroutine
+    url: https://github.com/boostorg/coroutine.git
+  1.91.0-a.d+24.08.28.12.50:
+    commit: 8b09bf7d0e8a13d1ef59aaff02a84d42acb034f3
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: false
+      public: true
+      ref: boost-context/1.91.0-a.d+25.10.29.21.21
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-a.d+25.05.03.03.11
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.d+25.12.13.16.59
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+25.12.18.19.30
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_coroutine
+    url: https://github.com/boostorg/coroutine.git
+  1.91.0-a.m+24.08.28.12.50:
+    commit: 8b09bf7d0e8a13d1ef59aaff02a84d42acb034f3
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: false
+      public: true
+      ref: boost-context/1.91.0-a.m+25.10.29.21.21
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-a.m+25.03.02.03.25
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.m+25.12.13.16.59
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.m+25.12.18.19.28
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.m+25.12.13.20.46
     targets:
     - dependencies: []
       kind: library

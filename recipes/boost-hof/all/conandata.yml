@@ -19,6 +19,15 @@ sources:
       kind: header-library
       name: boost_hof
     url: https://github.com/boostorg/hof.git
+  1.90.0:
+    commit: 63ac019fca325038bfb4f56db17fbb281d2b5f49
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_hof
+    url: https://github.com/boostorg/hof.git
   1.90.0-a.d+24.08.18.20.20:
     commit: 1fa2229b700f6f8f87c0f12b127eb2034eefa1af
     cxxstd: '11'
@@ -40,6 +49,24 @@ sources:
       name: boost_hof
     url: https://github.com/boostorg/hof.git
   1.90.0-b.1:
+    commit: 63ac019fca325038bfb4f56db17fbb281d2b5f49
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_hof
+    url: https://github.com/boostorg/hof.git
+  1.91.0-a.d+24.08.18.20.20:
+    commit: 1fa2229b700f6f8f87c0f12b127eb2034eefa1af
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_hof
+    url: https://github.com/boostorg/hof.git
+  1.91.0-a.m+23.01.11.18.32:
     commit: 63ac019fca325038bfb4f56db17fbb281d2b5f49
     cxxstd: '11'
     dependencies: []

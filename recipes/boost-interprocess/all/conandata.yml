@@ -55,6 +55,33 @@ sources:
       kind: header-library
       name: boost_interprocess
     url: https://github.com/boostorg/interprocess.git
+  1.90.0:
+    commit: cb612879cd2cae14702557385e9cd60f6f5e4afa
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: false
+      public: true
+      ref: boost-container/1.90.0
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0
+    - header: true
+      public: true
+      ref: boost-move/1.90.0
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_interprocess
+    url: https://github.com/boostorg/interprocess.git
   1.90.0-a.d+25.09.05.00.08:
     commit: d5bb1904edf658a6501df281716b0c57a02023e8
     dependencies:
@@ -824,6 +851,60 @@ sources:
     - header: true
       public: true
       ref: boost-winapi/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_interprocess
+    url: https://github.com/boostorg/interprocess.git
+  1.91.0-a.d+25.12.16.07.24:
+    commit: 32ede303644cbd841426049cdec1993efc5e613d
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-a.d+25.12.18.15.56
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.d+25.12.13.17.21
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.d+25.12.13.16.59
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_interprocess
+    url: https://github.com/boostorg/interprocess.git
+  1.91.0-a.m+25.12.16.07.24:
+    commit: 32ede303644cbd841426049cdec1993efc5e613d
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-a.m+25.12.13.17.20
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.m+25.12.13.17.21
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.m+25.12.13.16.59
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.m+25.08.25.19.08
     targets:
     - dependencies: []
       kind: header-library

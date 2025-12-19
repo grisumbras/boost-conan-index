@@ -73,6 +73,42 @@ sources:
       kind: library
       name: boost_regex
     url: https://github.com/boostorg/regex.git
+  1.90.0:
+    commit: f439e22ae41fa647bd7de16c2d92deb232593985
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    - header: true
+      public: false
+      ref: boost-core/1.90.0
+    - header: true
+      public: false
+      ref: boost-smart_ptr/1.90.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_regex
+    url: https://github.com/boostorg/regex.git
   1.90.0-a.d+25.07.04.20.20:
     commit: ed6ebbd5a52b566e454e0cc34494dd2912c6c66c
     cxxstd: '11'
@@ -182,6 +218,82 @@ sources:
     - header: true
       public: false
       ref: boost-smart_ptr/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_regex
+    url: https://github.com/boostorg/regex.git
+  1.91.0-a.d+25.07.04.20.20:
+    commit: ed6ebbd5a52b566e454e0cc34494dd2912c6c66c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0-a.d+25.07.02.07.32
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: false
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: true
+      public: false
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_regex
+    - dependencies:
+      - boost_regex
+      kind: library
+      name: boost_regex_old
+    url: https://github.com/boostorg/regex.git
+  1.91.0-a.m+25.07.04.17.16:
+    commit: f439e22ae41fa647bd7de16c2d92deb232593985
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0-a.m+24.12.28.18.10
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    - header: true
+      public: false
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: true
+      public: false
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
     targets:
     - dependencies: []
       kind: library

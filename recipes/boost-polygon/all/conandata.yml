@@ -25,6 +25,18 @@ sources:
       kind: header-library
       name: boost_polygon
     url: https://github.com/boostorg/polygon.git
+  1.90.0:
+    commit: 8ba35b57c1436c4b36f7544aadd78c2b24acc7db
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_polygon
+    url: https://github.com/boostorg/polygon.git
   1.90.0-a.d+25.05.02.19.15:
     commit: ddb9c8adadbbb539fe52cb7f8ee0a446ba5ead04
     cxxstd: null
@@ -58,6 +70,30 @@ sources:
     - header: true
       public: true
       ref: boost-config/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_polygon
+    url: https://github.com/boostorg/polygon.git
+  1.91.0-a.d+25.05.02.19.15:
+    commit: ddb9c8adadbbb539fe52cb7f8ee0a446ba5ead04
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_polygon
+    url: https://github.com/boostorg/polygon.git
+  1.91.0-a.m+21.06.10.00.52:
+    commit: 8ba35b57c1436c4b36f7544aadd78c2b24acc7db
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
     targets:
     - dependencies: []
       kind: header-library

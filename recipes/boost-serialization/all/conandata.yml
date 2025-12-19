@@ -157,6 +157,84 @@ sources:
       kind: library
       name: boost_serialization
     url: https://github.com/boostorg/serialization.git
+  1.90.0:
+    commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.90.0
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-core/1.90.0
+    - header: true
+      public: true
+      ref: boost-detail/1.90.0
+    - header: true
+      public: true
+      ref: boost-integer/1.90.0
+    - header: true
+      public: true
+      ref: boost-io/1.90.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0
+    - header: true
+      public: true
+      ref: boost-move/1.90.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.90.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0
+    - header: true
+      public: true
+      ref: boost-predef/1.90.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.90.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0
+    - header: true
+      public: true
+      ref: boost-variant/1.90.0
+    - header: true
+      public: true
+      ref: boost-variant2/1.90.0
+    - header: true
+      public: false
+      ref: boost-function/1.90.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_serialization
+    url: https://github.com/boostorg/serialization.git
   1.90.0-a.d+24.08.18.11.53:
     commit: 8a8c62864f05732131bf6785d54466d8ac6cd477
     cxxstd: '03'
@@ -392,6 +470,166 @@ sources:
     - header: true
       public: false
       ref: boost-function/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_serialization
+    url: https://github.com/boostorg/serialization.git
+  1.91.0-a.d+24.08.18.11.53:
+    commit: 8a8c62864f05732131bf6785d54466d8ac6cd477
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.91.0-a.d+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.d+25.12.13.20.38
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-a.d+25.12.13.20.41
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-a.d+25.06.26.11.42
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.d+25.12.13.16.59
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.d+25.12.15.15.52
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-spirit/1.91.0-a.d+25.11.30.08.56
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+    - header: true
+      public: true
+      ref: boost-variant/1.91.0-a.d+25.09.13.13.52
+    - header: true
+      public: true
+      ref: boost-variant2/1.91.0-a.d+25.10.22.21.03
+    - header: true
+      public: false
+      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_serialization
+    - dependencies:
+      - boost_serialization
+      kind: library
+      name: boost_wserialization
+    url: https://github.com/boostorg/serialization.git
+  1.91.0-a.m+23.11.12.21.05:
+    commit: a20c4d97c37e5f437c8ba78f296830edb79cff9e
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.91.0-a.m+25.04.03.14.10
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.m+25.12.13.20.38
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-a.m+25.12.13.20.41
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-a.m+23.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.m+25.12.13.16.59
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.m+25.12.15.15.52
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-spirit/1.91.0-a.m+25.09.17.08.31
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.m+25.12.13.20.46
+    - header: true
+      public: true
+      ref: boost-variant/1.91.0-a.m+25.09.13.13.52
+    - header: true
+      public: true
+      ref: boost-variant2/1.91.0-a.m+25.10.22.21.03
+    - header: true
+      public: false
+      ref: boost-function/1.91.0-a.m+24.12.14.04.39
     targets:
     - dependencies: []
       kind: library

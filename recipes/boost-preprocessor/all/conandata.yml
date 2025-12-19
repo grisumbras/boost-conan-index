@@ -19,6 +19,15 @@ sources:
       kind: header-library
       name: boost_preprocessor
     url: https://github.com/boostorg/preprocessor.git
+  1.90.0:
+    commit: cd1b1bd03900b68505822cfa25cb16851bd6caf1
+    cxxstd: '03'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_preprocessor
+    url: https://github.com/boostorg/preprocessor.git
   1.90.0-a.d+25.06.09.02.52:
     commit: cd1b1bd03900b68505822cfa25cb16851bd6caf1
     cxxstd: '03'
@@ -40,6 +49,24 @@ sources:
       name: boost_preprocessor
     url: https://github.com/boostorg/preprocessor.git
   1.90.0-b.1:
+    commit: cd1b1bd03900b68505822cfa25cb16851bd6caf1
+    cxxstd: '03'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_preprocessor
+    url: https://github.com/boostorg/preprocessor.git
+  1.91.0-a.d+25.06.09.02.52:
+    commit: cd1b1bd03900b68505822cfa25cb16851bd6caf1
+    cxxstd: '03'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_preprocessor
+    url: https://github.com/boostorg/preprocessor.git
+  1.91.0-a.m+25.06.09.02.52:
     commit: cd1b1bd03900b68505822cfa25cb16851bd6caf1
     cxxstd: '03'
     dependencies: []

@@ -243,6 +243,127 @@ sources:
       kind: library
       name: boost_log_setup
     url: https://github.com/boostorg/log.git
+  1.90.0:
+    commit: 014f344715461cdf056eb184eb3362d8692c6bdd
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.90.0
+    - header: false
+      public: true
+      ref: boost-atomic/1.90.0
+    - header: true
+      public: true
+      ref: boost-config/1.90.0
+    - header: true
+      public: true
+      ref: boost-core/1.90.0
+    - header: false
+      public: true
+      ref: boost-date_time/1.90.0
+    - header: false
+      public: true
+      ref: boost-exception/1.90.0
+    - header: false
+      public: true
+      ref: boost-filesystem/1.90.0
+    - header: true
+      public: true
+      ref: boost-function_types/1.90.0
+    - header: true
+      public: true
+      ref: boost-fusion/1.90.0
+    - header: true
+      public: true
+      ref: boost-intrusive/1.90.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.90.0
+    - header: true
+      public: true
+      ref: boost-move/1.90.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.90.0
+    - header: true
+      public: true
+      ref: boost-optional/1.90.0
+    - header: true
+      public: true
+      ref: boost-parameter/1.90.0
+    - header: true
+      public: true
+      ref: boost-phoenix/1.90.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.90.0
+    - header: true
+      public: true
+      ref: boost-property_tree/1.90.0
+    - header: true
+      public: true
+      ref: boost-proto/1.90.0
+    - header: true
+      public: true
+      ref: boost-range/1.90.0
+    - header: false
+      public: true
+      ref: boost-regex/1.90.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.90.0
+    - header: true
+      public: true
+      ref: boost-spirit/1.90.0
+    - header: true
+      public: true
+      ref: boost-system/1.90.0
+    - header: false
+      public: true
+      ref: boost-thread/1.90.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_index/1.90.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.90.0
+    - header: true
+      public: true
+      ref: boost-utility/1.90.0
+    - header: true
+      public: true
+      ref: boost-winapi/1.90.0
+    - header: true
+      public: true
+      ref: boost-xpressive/1.90.0
+    - header: true
+      public: false
+      ref: boost-align/1.90.0
+    - header: true
+      public: false
+      ref: boost-asio/1.90.0
+    - header: true
+      public: false
+      ref: boost-interprocess/1.90.0
+    - header: true
+      public: false
+      ref: boost-io/1.90.0
+    - header: true
+      public: false
+      ref: boost-predef/1.90.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_log
+    - dependencies:
+      - boost_log
+      kind: library
+      name: boost_log_setup
+    url: https://github.com/boostorg/log.git
   1.90.0-a.d+25.10.01.17.41:
     commit: 3ab24d1e4f3b621d6d031d5c47c540f453d1f8be
     cxxstd: '11'
@@ -1567,6 +1688,248 @@ sources:
     - header: true
       public: false
       ref: boost-predef/1.90.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_log
+    - dependencies:
+      - boost_log
+      kind: library
+      name: boost_log_setup
+    url: https://github.com/boostorg/log.git
+  1.91.0-a.d+25.12.17.04.16:
+    commit: d70b528bc5cf0684c4fff341af1cc745e3bae340
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: false
+      public: true
+      ref: boost-atomic/1.91.0-a.d+25.12.13.20.07
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+    - header: false
+      public: true
+      ref: boost-date_time/1.91.0-a.d+25.07.07.06.39
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-a.d+25.05.03.03.11
+    - header: false
+      public: true
+      ref: boost-filesystem/1.91.0-a.d+25.12.14.15.29
+    - header: true
+      public: true
+      ref: boost-function_types/1.91.0-a.d+24.09.18.18.18
+    - header: true
+      public: true
+      ref: boost-fusion/1.91.0-a.d+24.08.21.20.51
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.d+25.12.13.17.21
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.d+25.12.13.16.59
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-parameter/1.91.0-a.d+25.12.13.20.44
+    - header: true
+      public: true
+      ref: boost-phoenix/1.91.0-a.d+24.09.12.00.15
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-property_tree/1.91.0-a.d+25.06.30.13.56
+    - header: true
+      public: true
+      ref: boost-proto/1.91.0-a.d+25.05.02.19.17
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-a.d+25.05.02.19.18
+    - header: false
+      public: true
+      ref: boost-regex/1.91.0-a.d+25.07.04.20.20
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-spirit/1.91.0-a.d+25.11.30.08.56
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+25.12.18.19.30
+    - header: false
+      public: true
+      ref: boost-thread/1.91.0-a.d+25.05.02.19.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.d+25.10.18.15.18
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
+    - header: true
+      public: true
+      ref: boost-xpressive/1.91.0-a.d+25.05.02.19.26
+    - header: true
+      public: false
+      ref: boost-align/1.91.0-a.d+25.06.26.11.43
+    - header: true
+      public: false
+      ref: boost-asio/1.91.0-a.d+25.12.04.00.07
+    - header: true
+      public: false
+      ref: boost-interprocess/1.91.0-a.d+25.12.16.07.24
+    - header: true
+      public: false
+      ref: boost-io/1.91.0-a.d+25.06.26.11.42
+    - header: true
+      public: false
+      ref: boost-predef/1.91.0-a.d+25.02.03.08.30
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_log
+    - dependencies:
+      - boost_log
+      kind: library
+      name: boost_log_setup
+    url: https://github.com/boostorg/log.git
+  1.91.0-a.m+25.12.13.20.43:
+    commit: fa2af18239410bead9f7bb352b68dc4ec04051fb
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: false
+      public: true
+      ref: boost-atomic/1.91.0-a.m+25.12.13.20.07
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+    - header: false
+      public: true
+      ref: boost-date_time/1.91.0-a.m+22.10.31.09.22
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-a.m+25.03.02.03.25
+    - header: false
+      public: true
+      ref: boost-filesystem/1.91.0-a.m+25.12.14.15.29
+    - header: true
+      public: true
+      ref: boost-function_types/1.91.0-a.m+24.09.18.18.18
+    - header: true
+      public: true
+      ref: boost-fusion/1.91.0-a.m+24.05.15.10.13
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.m+25.12.13.17.21
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.m+25.12.13.16.59
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.m+24.12.04.00.23
+    - header: true
+      public: true
+      ref: boost-parameter/1.91.0-a.m+25.12.13.20.44
+    - header: true
+      public: true
+      ref: boost-phoenix/1.91.0-a.m+23.08.29.14.32
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-property_tree/1.91.0-a.m+25.06.30.13.56
+    - header: true
+      public: true
+      ref: boost-proto/1.91.0-a.m+21.03.18.17.30
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-a.m+25.02.08.16.31
+    - header: false
+      public: true
+      ref: boost-regex/1.91.0-a.m+25.07.04.17.16
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-spirit/1.91.0-a.m+25.09.17.08.31
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.m+25.12.18.19.28
+    - header: false
+      public: true
+      ref: boost-thread/1.91.0-a.m+25.05.02.19.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.m+25.10.18.15.18
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.m+25.12.13.20.46
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.m+25.08.25.19.08
+    - header: true
+      public: true
+      ref: boost-xpressive/1.91.0-a.m+24.09.27.20.36
+    - header: true
+      public: false
+      ref: boost-align/1.91.0-a.m+22.11.11.18.29
+    - header: true
+      public: false
+      ref: boost-asio/1.91.0-a.m+25.12.04.00.07
+    - header: true
+      public: false
+      ref: boost-interprocess/1.91.0-a.m+25.12.16.07.24
+    - header: true
+      public: false
+      ref: boost-io/1.91.0-a.m+23.10.03.00.15
+    - header: true
+      public: false
+      ref: boost-predef/1.91.0-a.m+25.01.12.12.53
     targets:
     - dependencies: []
       kind: library
