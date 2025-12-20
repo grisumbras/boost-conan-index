@@ -1802,7 +1802,7 @@ sources:
       ref: boost-asio/1.91.0-a.d+25.12.04.00.07
     - header: true
       public: false
-      ref: boost-interprocess/1.91.0-a.d+25.12.19.11.08
+      ref: boost-interprocess/1.91.0-a.d+25.12.20.00.43
     - header: true
       public: false
       ref: boost-io/1.91.0-a.d+25.06.26.11.42
