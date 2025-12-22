@@ -153,7 +153,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+      ref: boost-config/1.91.0-a.d+25.12.21.22.26
     - header: true
       public: true
       ref: boost-function_types/1.91.0-a.d+24.09.18.18.18

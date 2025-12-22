@@ -1709,10 +1709,10 @@ sources:
       ref: boost-atomic/1.91.0-a.d+25.12.13.20.07
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+      ref: boost-config/1.91.0-a.d+25.12.21.22.26
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+      ref: boost-core/1.91.0-a.d+25.12.21.20.13
     - header: false
       public: true
       ref: boost-date_time/1.91.0-a.d+25.07.07.06.39
@@ -1833,7 +1833,7 @@ sources:
       ref: boost-config/1.91.0-a.m+25.12.15.19.00
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+      ref: boost-core/1.91.0-a.m+25.12.21.20.13
     - header: false
       public: true
       ref: boost-date_time/1.91.0-a.m+22.10.31.09.22
@@ -1923,7 +1923,7 @@ sources:
       ref: boost-asio/1.91.0-a.m+25.12.04.00.07
     - header: true
       public: false
-      ref: boost-interprocess/1.91.0-a.m+25.12.16.07.24
+      ref: boost-interprocess/1.91.0-a.m+25.12.20.12.50
     - header: true
       public: false
       ref: boost-io/1.91.0-a.m+23.10.03.00.15

@@ -381,6 +381,30 @@ sources:
       kind: header-library
       name: boost_dynamic_bitset
     url: https://github.com/boostorg/dynamic_bitset.git
+  1.91.0-a.d+25.12.22.11.53:
+    commit: 54c841d585e2cda007a2936af252a6cb43ef1050
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.21.22.26
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.21.20.13
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_dynamic_bitset
+    url: https://github.com/boostorg/dynamic_bitset.git
   1.91.0-a.m+25.10.31.11.15:
     commit: 7c4dbfa2ac063cd6af8c6b7cb10bd70e353f590f
     cxxstd: '11'
@@ -396,7 +420,7 @@ sources:
       ref: boost-container_hash/1.91.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+      ref: boost-core/1.91.0-a.m+25.12.21.20.13
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13

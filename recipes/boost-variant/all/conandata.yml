@@ -300,13 +300,13 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.15.15.12
+      ref: boost-config/1.91.0-a.d+25.12.21.22.26
     - header: true
       public: true
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.14.22.45
+      ref: boost-core/1.91.0-a.d+25.12.21.20.13
     - header: true
       public: true
       ref: boost-detail/1.91.0-a.d+25.12.13.20.38
@@ -354,7 +354,7 @@ sources:
       ref: boost-container_hash/1.91.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.14.22.45
+      ref: boost-core/1.91.0-a.m+25.12.21.20.13
     - header: true
       public: true
       ref: boost-detail/1.91.0-a.m+25.12.13.20.38
