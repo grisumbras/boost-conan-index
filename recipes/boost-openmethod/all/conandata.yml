@@ -737,13 +737,13 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.21.22.26
+      ref: boost-config/1.91.0-a.d+25.12.23.11.49
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+25.12.21.20.13
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.91.0-a.d+25.12.22.11.53
+      ref: boost-dynamic_bitset/1.91.0-a.d+25.12.20.20.50
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.d+25.12.15.15.52
@@ -764,13 +764,13 @@ sources:
       ref: boost-assert/1.91.0-a.m+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+25.12.15.19.00
+      ref: boost-config/1.91.0-a.m+25.12.23.11.49
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+25.12.21.20.13
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.91.0-a.m+25.10.31.11.15
+      ref: boost-dynamic_bitset/1.91.0-a.m+25.12.20.20.50
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.m+25.12.15.15.52
