@@ -1173,7 +1173,7 @@ sources:
       ref: boost-config/1.91.0-a.d+25.12.23.11.49
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+25.12.23.11.07
+      ref: boost-container/1.91.0-a.d+25.12.24.01.59
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+25.12.21.20.13
@@ -1197,7 +1197,7 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.d+25.12.11.22.17
+      ref: boost-lexical_cast/1.91.0-a.d+25.12.23.20.25
     - header: false
       public: true
       ref: boost-math/1.91.0-a.d+25.12.19.07.32
@@ -1218,7 +1218,7 @@ sources:
       ref: boost-predef/1.91.0-a.d+25.02.03.08.30
     - header: true
       public: true
-      ref: boost-qvm/1.91.0-a.d+25.08.17.15.33
+      ref: boost-qvm/1.91.0-a.d+25.12.23.16.13
     - header: true
       public: true
       ref: boost-range/1.91.0-a.d+25.05.02.19.18
@@ -1320,7 +1320,7 @@ sources:
       ref: boost-polygon/1.91.0-a.m+21.06.10.00.52
     - header: true
       public: true
-      ref: boost-qvm/1.91.0-a.m+25.01.18.23.55
+      ref: boost-qvm/1.91.0-a.m+25.12.23.16.13
     - header: true
       public: true
       ref: boost-range/1.91.0-a.m+25.02.08.16.31

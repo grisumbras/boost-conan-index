@@ -291,7 +291,7 @@ sources:
       ref: boost-hana/1.91.0-a.d+25.07.03.23.00
     - header: true
       public: true
-      ref: boost-type_index/1.91.0-a.d+25.10.18.15.18
+      ref: boost-type_index/1.91.0-a.d+25.12.23.20.23
     targets:
     - dependencies: []
       kind: header-library

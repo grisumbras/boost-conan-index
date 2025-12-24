@@ -837,7 +837,7 @@ sources:
       ref: boost-config/1.91.0-a.d+25.12.23.11.49
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+25.12.23.11.07
+      ref: boost-container/1.91.0-a.d+25.12.24.01.59
     - header: true
       public: true
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
@@ -873,7 +873,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
     - header: true
       public: true
-      ref: boost-type_index/1.91.0-a.d+25.10.18.15.18
+      ref: boost-type_index/1.91.0-a.d+25.12.23.20.23
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19

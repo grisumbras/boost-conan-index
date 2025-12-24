@@ -348,7 +348,7 @@ sources:
       ref: boost-io/1.91.0-a.d+25.06.26.11.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.d+25.12.11.22.17
+      ref: boost-lexical_cast/1.91.0-a.d+25.12.23.20.25
     - header: true
       public: true
       ref: boost-numeric_conversion/1.91.0-a.d+25.06.26.07.40

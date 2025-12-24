@@ -270,7 +270,7 @@ sources:
       ref: boost-function_types/1.91.0-a.d+24.09.18.18.18
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.d+25.12.11.22.17
+      ref: boost-lexical_cast/1.91.0-a.d+25.12.23.20.25
     - header: false
       public: true
       ref: boost-math/1.91.0-a.d+25.12.19.07.32

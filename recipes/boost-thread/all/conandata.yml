@@ -531,7 +531,7 @@ sources:
       ref: boost-config/1.91.0-a.d+25.12.23.11.49
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+25.12.23.11.07
+      ref: boost-container/1.91.0-a.d+25.12.24.01.59
     - header: true
       public: true
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31

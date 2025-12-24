@@ -526,7 +526,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
     - header: true
       public: false
-      ref: boost-lexical_cast/1.91.0-a.d+25.12.11.22.17
+      ref: boost-lexical_cast/1.91.0-a.d+25.12.23.20.25
     - header: true
       public: false
       ref: boost-utility/1.91.0-a.d+25.12.13.20.46

@@ -618,7 +618,7 @@ sources:
       ref: boost-tokenizer/1.91.0-a.d+25.07.02.17.31
     - header: true
       public: true
-      ref: boost-type_index/1.91.0-a.d+25.10.18.15.18
+      ref: boost-type_index/1.91.0-a.d+25.12.23.20.23
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
