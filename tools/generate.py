@@ -11,6 +11,7 @@
 import argparse
 import contextlib
 import datetime
+import hashlib
 import importlib.util
 import jinja2
 import json
@@ -171,6 +172,26 @@ def collect_libraries_from_jamfile(lib_dir, lib_name, fs):
             for target in targets
             if target != lib_name
         ]
+
+
+def calculate_checksum(path, fs):
+    all_files = []
+    gitdir = os.path.join(path, '.git')
+    for root, dirs, files in fs.walk(path):
+        if root.startswith(gitdir):
+            continue
+        all_files.extend(( os.path.join(root, file) for file in files ))
+
+    m = hashlib.new('sha1')
+    for file in sorted(all_files):
+        m.update(file[len(path) + 1:].encode('utf-8'))
+        with open(file, 'rb') as f:
+            while True:
+                data = f.read(8192)
+                if not data:
+                    break
+                m.update(data)
+    return m.hexdigest()
 
 
 class Project():
@@ -343,6 +364,7 @@ class LibraryProject(Project):
 
     def collect_data(self, git, fs, registry, depinst):
         with git.clone_commit(self.url, self.commit, target=self.name) as lib:
+            self.checksum = calculate_checksum(lib, fs)
             self.datetime = git.get_datetime(lib)
 
             meta_path = os.path.join(lib, 'meta', 'libraries.json')
@@ -382,6 +404,7 @@ class LibraryProject(Project):
         conandata['sources'][self.conan_version] = {
             'url': self.url,
             'commit': self.commit,
+            'sha1': self.checksum,
             'cxxstd': self.cxxstd,
             'targets': self.targets,
             'dependencies': [
@@ -669,6 +692,12 @@ class Git():
             self.runner.run('git', '-C', target, 'init', '-b', 'master')
             self.runner.run(
                 'git', '-C', target, 'remote', 'add', 'origin', repo,
+            )
+            self.runner.run(
+                'git', '-C', target, 'config', 'core.autocrlf', 'false',
+            )
+            self.runner.run(
+                'git', '-C', target, 'config', 'core.eol', 'lf',
             )
             self.runner.run(
                 'git', '-C', target, 'fetch', 'origin', commit, '--depth', '1',
