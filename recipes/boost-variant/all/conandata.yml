@@ -339,6 +339,54 @@ sources:
       kind: header-library
       name: boost_variant
     url: https://github.com/boostorg/variant.git
+  1.91.0-a.d+25.12.24.20.23:
+    commit: cf72f05cef8681d3299c9daeb027b8c930ce9318
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+25.12.21.20.13
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.d+25.12.13.20.38
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-a.d+25.12.13.20.41
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.d+25.12.24.20.19
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_variant
+    url: https://github.com/boostorg/variant.git
   1.91.0-a.m+25.09.13.13.52:
     commit: 9738f5733b3a9863be0cc2ab23cd9ba1ae5b74ff
     cxxstd: '11'

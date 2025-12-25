@@ -953,7 +953,7 @@ sources:
       ref: boost-integer/1.91.0-a.d+25.12.13.20.41
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.d+25.12.23.20.25
+      ref: boost-lexical_cast/1.91.0-a.d+25.12.24.20.21
     - header: true
       public: true
       ref: boost-predef/1.91.0-a.d+25.02.03.08.30
@@ -1016,7 +1016,7 @@ sources:
       ref: boost-integer/1.91.0-a.m+25.12.13.20.41
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+25.10.16.09.15
+      ref: boost-lexical_cast/1.91.0-a.m+25.12.23.20.25
     - header: true
       public: true
       ref: boost-predef/1.91.0-a.m+25.01.12.12.53

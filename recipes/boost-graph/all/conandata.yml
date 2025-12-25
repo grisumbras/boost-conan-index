@@ -1086,7 +1086,7 @@ sources:
       ref: boost-algorithm/1.91.0-a.d+25.08.25.08.42
     - header: true
       public: true
-      ref: boost-any/1.91.0-a.d+25.10.07.20.26
+      ref: boost-any/1.91.0-a.d+25.12.24.20.18
     - header: true
       public: true
       ref: boost-array/1.91.0-a.d+25.04.03.14.10
@@ -1107,7 +1107,7 @@ sources:
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-conversion/1.91.0-a.d+25.10.07.20.26
+      ref: boost-conversion/1.91.0-a.d+25.12.24.20.19
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+25.12.21.20.13
@@ -1128,7 +1128,7 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.d+25.12.23.20.25
+      ref: boost-lexical_cast/1.91.0-a.d+25.12.24.20.21
     - header: false
       public: true
       ref: boost-math/1.91.0-a.d+25.12.19.07.32
@@ -1266,7 +1266,7 @@ sources:
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+25.10.16.09.15
+      ref: boost-lexical_cast/1.91.0-a.m+25.12.23.20.25
     - header: false
       public: true
       ref: boost-math/1.91.0-a.m+25.12.15.15.13

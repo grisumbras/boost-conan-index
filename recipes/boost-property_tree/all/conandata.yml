@@ -315,7 +315,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-any/1.91.0-a.d+25.10.07.20.26
+      ref: boost-any/1.91.0-a.d+25.12.24.20.18
     - header: true
       public: true
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59

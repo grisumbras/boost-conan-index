@@ -541,7 +541,7 @@ sources:
       ref: boost-utility/1.91.0-a.d+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-variant/1.91.0-a.d+25.09.13.13.52
+      ref: boost-variant/1.91.0-a.d+25.12.24.20.23
     - header: true
       public: true
       ref: boost-variant2/1.91.0-a.d+25.10.22.21.03

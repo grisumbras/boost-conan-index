@@ -150,6 +150,27 @@ sources:
       kind: header-library
       name: boost_any
     url: https://github.com/boostorg/any.git
+  1.91.0-a.d+25.12.24.20.18:
+    commit: c69e4fda681bb9286b13815e5257846bde426aea
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.d+25.12.24.20.19
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_any
+    url: https://github.com/boostorg/any.git
   1.91.0-a.m+25.10.07.20.26:
     commit: a863df824b3606c69e8211ea850b412899e64992
     cxxstd: '11'

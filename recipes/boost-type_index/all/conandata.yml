@@ -180,6 +180,24 @@ sources:
       kind: header-library
       name: boost_type_index
     url: https://github.com/boostorg/type_index.git
+  1.91.0-a.d+25.12.24.20.19:
+    commit: 6d09bc96b61b57845313b46ab11b921e9fb76d88
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_type_index
+    url: https://github.com/boostorg/type_index.git
   1.91.0-a.m+25.10.18.15.18:
     commit: f2a3bdd29cc20ca2c4f9ee0916b7da6dbaaaaa28
     cxxstd: '11'

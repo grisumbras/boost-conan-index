@@ -384,7 +384,7 @@ sources:
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-conversion/1.91.0-a.d+25.10.07.20.26
+      ref: boost-conversion/1.91.0-a.d+25.12.24.20.19
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+25.12.21.20.13

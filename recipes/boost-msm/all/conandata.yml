@@ -1413,7 +1413,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-any/1.91.0-a.d+25.10.07.20.26
+      ref: boost-any/1.91.0-a.d+25.12.24.20.18
     - header: true
       public: true
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
@@ -1458,7 +1458,7 @@ sources:
       ref: boost-serialization/1.91.0-a.d+24.08.18.11.53
     - header: true
       public: true
-      ref: boost-type_index/1.91.0-a.d+25.12.23.20.23
+      ref: boost-type_index/1.91.0-a.d+25.12.24.20.19
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19

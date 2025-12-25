@@ -570,7 +570,7 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.d+25.12.23.20.25
+      ref: boost-lexical_cast/1.91.0-a.d+25.12.24.20.21
     - header: false
       public: true
       ref: boost-mpi/1.91.0-a.d+25.12.02.14.52
@@ -606,7 +606,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-variant/1.91.0-a.d+25.09.13.13.52
+      ref: boost-variant/1.91.0-a.d+25.12.24.20.23
     targets:
     - dependencies: []
       kind: library
@@ -657,7 +657,7 @@ sources:
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+25.10.16.09.15
+      ref: boost-lexical_cast/1.91.0-a.m+25.12.23.20.25
     - header: false
       public: true
       ref: boost-mpi/1.91.0-a.m+25.04.17.17.55

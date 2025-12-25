@@ -468,7 +468,7 @@ sources:
       ref: boost-optional/1.91.0-a.d+24.12.08.17.21
     - header: true
       public: true
-      ref: boost-pfr/1.91.0-a.d+25.10.28.17.40
+      ref: boost-pfr/1.91.0-a.d+25.12.24.20.19
     - header: true
       public: true
       ref: boost-system/1.91.0-a.d+25.12.18.19.30
