@@ -1173,10 +1173,10 @@ sources:
       ref: boost-config/1.91.0-a.d+25.12.23.11.49
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+25.12.24.01.59
+      ref: boost-container/1.91.0-a.d+25.12.26.11.00
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.21.20.13
+      ref: boost-core/1.91.0-a.d+25.12.25.16.31
     - header: true
       public: true
       ref: boost-endian/1.91.0-a.d+24.12.14.03.43
@@ -1320,7 +1320,7 @@ sources:
       ref: boost-polygon/1.91.0-a.m+21.06.10.00.52
     - header: true
       public: true
-      ref: boost-qvm/1.91.0-a.m+25.12.23.16.13
+      ref: boost-qvm/1.91.0-a.m+25.12.24.23.54
     - header: true
       public: true
       ref: boost-range/1.91.0-a.m+25.02.08.16.31

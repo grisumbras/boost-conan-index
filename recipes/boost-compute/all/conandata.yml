@@ -585,10 +585,10 @@ sources:
       ref: boost-config/1.91.0-a.d+25.12.23.11.49
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.21.20.13
+      ref: boost-core/1.91.0-a.d+25.12.25.16.31
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.d+25.12.22.23.15
+      ref: boost-filesystem/1.91.0-a.d+25.12.25.15.28
     - header: true
       public: true
       ref: boost-function/1.91.0-a.d+24.12.14.04.39
@@ -648,7 +648,7 @@ sources:
       ref: boost-utility/1.91.0-a.d+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-uuid/1.91.0-a.d+25.12.23.19.48
+      ref: boost-uuid/1.91.0-a.d+25.12.25.15.18
     targets:
     - dependencies: []
       kind: header-library

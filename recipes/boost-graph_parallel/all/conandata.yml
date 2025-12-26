@@ -546,7 +546,7 @@ sources:
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.21.20.13
+      ref: boost-core/1.91.0-a.d+25.12.25.16.31
     - header: true
       public: true
       ref: boost-detail/1.91.0-a.d+25.12.13.20.38
@@ -555,7 +555,7 @@ sources:
       ref: boost-dynamic_bitset/1.91.0-a.d+25.12.20.20.50
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.d+25.12.22.23.15
+      ref: boost-filesystem/1.91.0-a.d+25.12.25.15.28
     - header: true
       public: true
       ref: boost-foreach/1.91.0-a.d+25.05.02.19.11

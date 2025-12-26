@@ -252,7 +252,7 @@ sources:
       ref: boost-context/1.91.0-a.d+25.10.29.21.21
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.21.20.13
+      ref: boost-core/1.91.0-a.d+25.12.25.16.31
     - header: false
       public: true
       ref: boost-exception/1.91.0-a.d+25.05.03.03.11

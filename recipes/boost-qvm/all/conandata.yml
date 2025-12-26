@@ -102,3 +102,12 @@ sources:
       kind: header-library
       name: boost_qvm
     url: https://github.com/boostorg/qvm.git
+  1.91.0-a.m+25.12.24.23.54:
+    commit: 2e574dd16f812b99423ad20fa72b3738ff053390
+    cxxstd: '03'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_qvm
+    url: https://github.com/boostorg/qvm.git

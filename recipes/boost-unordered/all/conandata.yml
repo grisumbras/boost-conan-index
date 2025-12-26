@@ -369,7 +369,7 @@ sources:
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.21.20.13
+      ref: boost-core/1.91.0-a.d+25.12.25.16.31
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.d+25.12.15.15.52
