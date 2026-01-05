@@ -88,6 +88,16 @@ jobs:
                 "$proj/[>0-a,include_prerelease]"
           done
 
+      - name: Save build artifacts
+        uses: actions/upload-artifact@v4
+        if: ${{ failure() }}
+        with:
+          name: artifacts-linux-${{ matrix.boost-ref }}-${{ matrix.toolset }}
+          path: /home/runner/.conan2/p
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 9
+
   test-windows:
     name: Test on Windows
     runs-on: windows-latest
@@ -129,6 +139,16 @@ jobs:
                 "index/recipes/$proj/all/test_package" \
                 "$proj/[>0-a,include_prerelease]"
           done
+
+      - name: Save build artifacts
+        uses: actions/upload-artifact@v4
+        if: ${{ failure() }}
+        with:
+          name: artifacts-windows-${{ matrix.boost-ref }}-${{ matrix.toolset }}
+          path: C:\\Users\\runneradmin\\.conan2\\p
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 9
 
   test-macos:
     name: Test on MacOS
@@ -173,12 +193,23 @@ jobs:
                 "$proj/[>0-a,include_prerelease]"
           done
 
+      - name: Save build artifacts
+        uses: actions/upload-artifact@v4
+        if: ${{ failure() }}
+        with:
+          name: artifacts-macos-${{ matrix.boost-ref }}-${{ matrix.toolset }}
+          path: /home/runner/.conan2/p
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 9
+
   Merge:
     runs-on: ubuntu-latest
     needs:
         - Generate
         - test-linux
         - test-windows
+        - test-macos
     permissions:
       contents: write
 
