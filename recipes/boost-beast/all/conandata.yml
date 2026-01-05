@@ -831,25 +831,25 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-bind/1.91.0-a.d+24.12.13.03.05
+      ref: boost-bind/1.91.0-a.d+26.01.03.18.00
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+25.12.26.11.00
+      ref: boost-container/1.91.0-a.d+26.01.05.02.17
     - header: true
       public: true
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.25.16.31
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
     - header: true
       public: true
       ref: boost-endian/1.91.0-a.d+24.12.14.03.43
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.d+25.12.13.17.21
+      ref: boost-intrusive/1.91.0-a.d+25.12.31.21.02
     - header: true
       public: true
       ref: boost-logic/1.91.0-a.d+25.07.02.08.14
@@ -873,7 +873,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
     - header: true
       public: true
-      ref: boost-type_index/1.91.0-a.d+25.12.24.20.19
+      ref: boost-type_index/1.91.0-a.d+26.01.04.22.00
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
@@ -897,7 +897,7 @@ sources:
       ref: boost-assert/1.91.0-a.m+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-bind/1.91.0-a.m+24.12.13.03.05
+      ref: boost-bind/1.91.0-a.m+26.01.03.18.00
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+25.12.23.11.49
@@ -909,7 +909,7 @@ sources:
       ref: boost-container_hash/1.91.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.21.20.13
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
       ref: boost-endian/1.91.0-a.m+24.12.14.03.43
@@ -933,7 +933,7 @@ sources:
       ref: boost-static_string/1.91.0-a.m+25.11.14.12.03
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.m+25.12.18.19.28
+      ref: boost-system/1.91.0-a.m+25.12.18.19.30
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13

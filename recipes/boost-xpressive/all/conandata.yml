@@ -462,13 +462,13 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-conversion/1.91.0-a.d+25.12.24.20.19
+      ref: boost-conversion/1.91.0-a.d+26.01.02.13.40
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.25.16.31
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
     - header: false
       public: true
       ref: boost-exception/1.91.0-a.d+25.05.03.03.11
@@ -483,7 +483,7 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.d+25.12.24.20.21
+      ref: boost-lexical_cast/1.91.0-a.d+26.01.04.11.10
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
@@ -510,7 +510,7 @@ sources:
       ref: boost-spirit/1.91.0-a.d+25.12.21.06.48
     - header: true
       public: true
-      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+      ref: boost-static_assert/1.91.0-a.d+25.12.26.19.43
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
@@ -540,10 +540,10 @@ sources:
       ref: boost-config/1.91.0-a.m+25.12.23.11.49
     - header: true
       public: true
-      ref: boost-conversion/1.91.0-a.m+25.10.07.20.26
+      ref: boost-conversion/1.91.0-a.m+25.12.26.22.04
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.21.20.13
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: false
       public: true
       ref: boost-exception/1.91.0-a.m+25.03.02.03.25
@@ -558,7 +558,7 @@ sources:
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+25.12.23.20.25
+      ref: boost-lexical_cast/1.91.0-a.m+25.12.26.22.05
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.m+25.10.23.11.37

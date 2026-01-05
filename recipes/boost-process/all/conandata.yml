@@ -585,13 +585,13 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.25.16.31
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.d+25.12.25.15.28
+      ref: boost-filesystem/1.91.0-a.d+25.12.30.16.14
     - header: true
       public: true
       ref: boost-fusion/1.91.0-a.d+24.08.21.20.51
@@ -603,7 +603,7 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-move/1.91.0-a.d+25.12.13.16.59
+      ref: boost-move/1.91.0-a.d+25.12.31.21.02
     - header: true
       public: true
       ref: boost-optional/1.91.0-a.d+24.12.08.17.21
@@ -618,7 +618,7 @@ sources:
       ref: boost-tokenizer/1.91.0-a.d+25.07.02.17.31
     - header: true
       public: true
-      ref: boost-type_index/1.91.0-a.d+25.12.24.20.19
+      ref: boost-type_index/1.91.0-a.d+26.01.04.22.00
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
@@ -651,10 +651,10 @@ sources:
       ref: boost-config/1.91.0-a.m+25.12.23.11.49
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.21.20.13
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.m+25.12.14.15.29
+      ref: boost-filesystem/1.91.0-a.m+25.12.30.16.14
     - header: true
       public: true
       ref: boost-fusion/1.91.0-a.m+24.05.15.10.13
@@ -672,7 +672,7 @@ sources:
       ref: boost-optional/1.91.0-a.m+24.12.04.00.23
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.m+25.12.18.19.28
+      ref: boost-system/1.91.0-a.m+25.12.18.19.30
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13

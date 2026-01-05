@@ -465,10 +465,10 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: false
       public: true
-      ref: boost-context/1.91.0-a.d+25.10.29.21.21
+      ref: boost-context/1.91.0-a.d+25.12.27.17.25
     - header: false
       public: true
       ref: boost-date_time/1.91.0-a.d+25.07.07.06.39
@@ -504,7 +504,7 @@ sources:
       ref: boost-date_time/1.91.0-a.m+22.10.31.09.22
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.m+25.12.18.19.28
+      ref: boost-system/1.91.0-a.m+25.12.18.19.30
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13

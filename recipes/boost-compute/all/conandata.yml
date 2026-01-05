@@ -576,19 +576,19 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: false
       public: true
-      ref: boost-atomic/1.91.0-a.d+25.12.13.20.07
+      ref: boost-atomic/1.91.0-a.d+25.12.29.17.20
     - header: false
       public: true
       ref: boost-chrono/1.91.0-a.d+24.12.13.03.33
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.25.16.31
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.d+25.12.25.15.28
+      ref: boost-filesystem/1.91.0-a.d+25.12.30.16.14
     - header: true
       public: true
       ref: boost-function/1.91.0-a.d+24.12.14.04.39
@@ -603,7 +603,7 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.d+25.12.24.20.21
+      ref: boost-lexical_cast/1.91.0-a.d+26.01.04.11.10
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
@@ -627,7 +627,7 @@ sources:
       ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
     - header: true
       public: true
-      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+      ref: boost-static_assert/1.91.0-a.d+25.12.26.19.43
     - header: false
       public: true
       ref: boost-thread/1.91.0-a.d+25.05.02.19.21
@@ -648,7 +648,7 @@ sources:
       ref: boost-utility/1.91.0-a.d+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-uuid/1.91.0-a.d+25.12.25.15.18
+      ref: boost-uuid/1.91.0-a.d+26.01.05.16.02
     targets:
     - dependencies: []
       kind: header-library
@@ -669,7 +669,7 @@ sources:
       ref: boost-assert/1.91.0-a.m+25.10.19.13.59
     - header: false
       public: true
-      ref: boost-atomic/1.91.0-a.m+25.12.13.20.07
+      ref: boost-atomic/1.91.0-a.m+25.12.29.17.20
     - header: false
       public: true
       ref: boost-chrono/1.91.0-a.m+24.12.13.03.33
@@ -678,10 +678,10 @@ sources:
       ref: boost-config/1.91.0-a.m+25.12.23.11.49
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.21.20.13
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.m+25.12.14.15.29
+      ref: boost-filesystem/1.91.0-a.m+25.12.30.16.14
     - header: true
       public: true
       ref: boost-function/1.91.0-a.m+24.12.14.04.39
@@ -696,7 +696,7 @@ sources:
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+25.12.23.20.25
+      ref: boost-lexical_cast/1.91.0-a.m+25.12.26.22.05
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
@@ -741,7 +741,7 @@ sources:
       ref: boost-utility/1.91.0-a.m+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-uuid/1.91.0-a.m+25.12.21.21.03
+      ref: boost-uuid/1.91.0-a.m+25.12.29.13.08
     targets:
     - dependencies: []
       kind: header-library

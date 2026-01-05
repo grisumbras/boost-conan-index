@@ -375,16 +375,16 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-bind/1.91.0-a.d+24.12.13.03.05
+      ref: boost-bind/1.91.0-a.d+26.01.03.18.00
     - header: true
       public: true
       ref: boost-concept_check/1.91.0-a.d+25.07.02.07.32
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.25.16.31
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
     - header: false
       public: true
       ref: boost-exception/1.91.0-a.d+25.05.03.03.11
@@ -405,7 +405,7 @@ sources:
       ref: boost-regex/1.91.0-a.d+25.07.04.20.20
     - header: true
       public: true
-      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+      ref: boost-static_assert/1.91.0-a.d+25.12.26.19.43
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
@@ -417,7 +417,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-unordered/1.91.0-a.d+25.10.21.20.47
+      ref: boost-unordered/1.91.0-a.d+26.01.05.13.15
     targets:
     - dependencies: []
       kind: header-library
@@ -435,7 +435,7 @@ sources:
       ref: boost-assert/1.91.0-a.m+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-bind/1.91.0-a.m+24.12.13.03.05
+      ref: boost-bind/1.91.0-a.m+26.01.03.18.00
     - header: true
       public: true
       ref: boost-concept_check/1.91.0-a.m+24.12.28.18.10
@@ -444,7 +444,7 @@ sources:
       ref: boost-config/1.91.0-a.m+25.12.23.11.49
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.21.20.13
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: false
       public: true
       ref: boost-exception/1.91.0-a.m+25.03.02.03.25

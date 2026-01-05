@@ -108,6 +108,21 @@ sources:
       kind: header-library
       name: boost_bind
     url: https://github.com/boostorg/bind.git
+  1.91.0-a.d+26.01.03.18.00:
+    commit: 8cc29fc19db49e791743c821821e201b46ab9c66
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_bind
+    url: https://github.com/boostorg/bind.git
   1.91.0-a.m+24.12.13.03.05:
     commit: a541a8d5c16920e1836d09299915890d687efe36
     cxxstd: '11'
@@ -118,6 +133,21 @@ sources:
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+25.12.21.20.13
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_bind
+    url: https://github.com/boostorg/bind.git
+  1.91.0-a.m+26.01.03.18.00:
+    commit: 8cc29fc19db49e791743c821821e201b46ab9c66
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.23.11.49
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
     targets:
     - dependencies: []
       kind: header-library

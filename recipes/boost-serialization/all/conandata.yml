@@ -487,10 +487,10 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.25.16.31
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
     - header: true
       public: true
       ref: boost-detail/1.91.0-a.d+25.12.13.20.38
@@ -505,7 +505,7 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-move/1.91.0-a.d+25.12.13.16.59
+      ref: boost-move/1.91.0-a.d+25.12.31.21.02
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.d+25.12.15.15.52
@@ -529,7 +529,7 @@ sources:
       ref: boost-spirit/1.91.0-a.d+25.12.21.06.48
     - header: true
       public: true
-      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+      ref: boost-static_assert/1.91.0-a.d+25.12.26.19.43
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
@@ -541,10 +541,10 @@ sources:
       ref: boost-utility/1.91.0-a.d+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-variant/1.91.0-a.d+25.12.24.20.23
+      ref: boost-variant/1.91.0-a.d+26.01.04.11.27
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.d+25.10.22.21.03
+      ref: boost-variant2/1.91.0-a.d+26.01.02.12.29
     - header: true
       public: false
       ref: boost-function/1.91.0-a.d+24.12.14.04.39
@@ -572,7 +572,7 @@ sources:
       ref: boost-config/1.91.0-a.m+25.12.23.11.49
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.21.20.13
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
       ref: boost-detail/1.91.0-a.m+25.12.13.20.38
@@ -623,10 +623,10 @@ sources:
       ref: boost-utility/1.91.0-a.m+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-variant/1.91.0-a.m+25.09.13.13.52
+      ref: boost-variant/1.91.0-a.m+25.12.29.12.31
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.m+25.10.22.21.03
+      ref: boost-variant2/1.91.0-a.m+26.01.02.12.29
     - header: true
       public: false
       ref: boost-function/1.91.0-a.m+24.12.14.04.39

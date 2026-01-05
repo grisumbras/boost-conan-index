@@ -190,6 +190,12 @@ class BoostPackage():
     def package_info(self):
         lib_name = self.name[6:]
 
+        has_headers = os.path.exists(
+            os.path.join(self.package_folder, 'include')
+        )
+        if not has_headers:
+            self.cpp_info.includedirs = []
+
         self.cpp_info.bindirs = []
         self.cpp_info.resdirs = ['share']
         self.cpp_info.builddirs = [f'share/boost/{lib_name}/modules']
@@ -236,6 +242,8 @@ class BoostPackage():
                 actual_target = actual_targets[name]
                 comp = self.cpp_info.components[name]
                 comp.bindirs = []
+                if not has_headers:
+                    comp.cpp_info.includedirs = []
                 comp.set_property('cmake_target_name', 'Boost::' + name[6:])
                 comp.set_property(
                     'b2_target_name',

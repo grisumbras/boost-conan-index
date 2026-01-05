@@ -558,10 +558,10 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.25.16.31
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
     - header: true
       public: true
       ref: boost-dynamic_bitset/1.91.0-a.d+25.12.20.20.50
@@ -573,7 +573,7 @@ sources:
       ref: boost-io/1.91.0-a.d+25.06.26.11.42
     - header: true
       public: true
-      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+      ref: boost-static_assert/1.91.0-a.d+25.12.26.19.43
     - header: true
       public: true
       ref: boost-system/1.91.0-a.d+25.12.18.19.30
@@ -603,7 +603,7 @@ sources:
       ref: boost-config/1.91.0-a.m+25.12.23.11.49
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.21.20.13
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
       ref: boost-dynamic_bitset/1.91.0-a.m+25.12.20.20.50
@@ -618,7 +618,7 @@ sources:
       ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.m+25.12.18.19.28
+      ref: boost-system/1.91.0-a.m+25.12.18.19.30
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13

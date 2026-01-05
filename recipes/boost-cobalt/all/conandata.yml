@@ -745,6 +745,75 @@ sources:
       kind: library
       name: boost_cobalt_io_ssl
     url: https://github.com/boostorg/cobalt.git
+  1.91.0-a.d+26.01.02.09.19:
+    commit: a3c061f29c47aaf14a6d283804a759117f7ee878
+    cxxstd: '20'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.91.0-a.d+25.12.04.00.07
+    - header: true
+      public: true
+      ref: boost-callable_traits/1.91.0-a.d+25.06.25.18.43
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.91.0-a.d+25.05.02.19.05
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-a.d+26.01.05.02.17
+    - header: false
+      public: true
+      ref: boost-context/1.91.0-a.d+25.12.27.17.25
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+    - header: true
+      public: true
+      ref: boost-endian/1.91.0-a.d+24.12.14.03.43
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.d+25.12.31.21.02
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.d+25.12.15.15.52
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-static_string/1.91.0-a.d+25.12.19.12.32
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+25.12.18.19.30
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-variant2/1.91.0-a.d+26.01.02.12.29
+    - header: false
+      public: true
+      ref: openssl/[*]
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_cobalt
+    - dependencies:
+      - boost_cobalt
+      kind: library
+      name: boost_cobalt_io
+    - dependencies:
+      - boost_cobalt
+      - openssl::ssl
+      kind: library
+      name: boost_cobalt_io_ssl
+    url: https://github.com/boostorg/cobalt.git
   1.91.0-a.m+25.10.23.00.26:
     commit: 10fa59946e1bb8413c32802cc089dafa644ec814
     cxxstd: '20'
@@ -769,7 +838,7 @@ sources:
       ref: boost-context/1.91.0-a.m+25.10.29.21.21
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.21.20.13
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
       ref: boost-endian/1.91.0-a.m+24.12.14.03.43
@@ -790,13 +859,13 @@ sources:
       ref: boost-static_string/1.91.0-a.m+25.11.14.12.03
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.m+25.12.18.19.28
+      ref: boost-system/1.91.0-a.m+25.12.18.19.30
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.m+25.10.22.21.03
+      ref: boost-variant2/1.91.0-a.m+26.01.02.12.29
     - header: false
       public: true
       ref: openssl/[*]

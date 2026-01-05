@@ -87,6 +87,15 @@ sources:
       kind: header-library
       name: boost_static_assert
     url: https://github.com/boostorg/static_assert.git
+  1.91.0-a.d+25.12.26.19.43:
+    commit: b137322f65dbe1193729010708f2ac7ffc966e19
+    cxxstd: '03'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_static_assert
+    url: https://github.com/boostorg/static_assert.git
   1.91.0-a.m+25.04.15.18.33:
     commit: 9a6a86efc8dea37083ed1a78fb0998673517cf4e
     cxxstd: '03'

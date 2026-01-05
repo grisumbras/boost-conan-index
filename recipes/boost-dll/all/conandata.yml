@@ -393,6 +393,45 @@ sources:
       kind: header-library
       name: boost_dll
     url: https://github.com/boostorg/dll.git
+  1.91.0-a.d+26.01.04.09.53:
+    commit: a71976486975d9c56169214b331157a1ffa1d278
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+    - header: false
+      public: true
+      ref: boost-filesystem/1.91.0-a.d+25.12.30.16.14
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+25.12.18.19.30
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.d+26.01.04.22.00
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_dll
+    url: https://github.com/boostorg/dll.git
   1.91.0-a.m+25.10.24.20.06:
     commit: 2751e5768a8aaa8cc9e020ae4dcdbe96813587a8
     cxxstd: '11'
@@ -418,6 +457,45 @@ sources:
     - header: true
       public: true
       ref: boost-system/1.91.0-a.m+25.12.18.19.28
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.m+25.10.18.15.18
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.m+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_dll
+    url: https://github.com/boostorg/dll.git
+  1.91.0-a.m+25.12.26.22.04:
+    commit: 962a4d56b7973d54e56265986f703576648c2345
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+25.12.23.11.49
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+    - header: false
+      public: true
+      ref: boost-filesystem/1.91.0-a.m+25.12.30.16.14
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.m+25.12.18.19.30
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13

@@ -120,10 +120,10 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: false
       public: true
-      ref: boost-context/1.91.0-a.d+25.10.29.21.21
+      ref: boost-context/1.91.0-a.d+25.12.27.17.25
     targets:
     - dependencies: []
       kind: header-library

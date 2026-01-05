@@ -879,10 +879,10 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+25.12.23.11.49
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+25.12.25.16.31
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
     - header: true
       public: true
       ref: boost-endian/1.91.0-a.d+24.12.14.03.43
@@ -906,7 +906,7 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-move/1.91.0-a.d+25.12.13.16.59
+      ref: boost-move/1.91.0-a.d+25.12.31.21.02
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
@@ -936,7 +936,7 @@ sources:
       ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
     - header: true
       public: true
-      ref: boost-static_assert/1.91.0-a.d+25.04.15.18.33
+      ref: boost-static_assert/1.91.0-a.d+25.12.26.19.43
     - header: false
       public: true
       ref: boost-thread/1.91.0-a.d+25.05.02.19.21
@@ -951,13 +951,13 @@ sources:
       ref: boost-typeof/1.91.0-a.d+25.06.09.02.44
     - header: true
       public: true
-      ref: boost-unordered/1.91.0-a.d+25.10.21.20.47
+      ref: boost-unordered/1.91.0-a.d+26.01.05.13.15
     - header: true
       public: true
       ref: boost-utility/1.91.0-a.d+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-variant/1.91.0-a.d+25.12.24.20.23
+      ref: boost-variant/1.91.0-a.d+26.01.04.11.27
     targets:
     - dependencies: []
       kind: header-library
@@ -978,7 +978,7 @@ sources:
       ref: boost-config/1.91.0-a.m+25.12.23.11.49
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+25.12.21.20.13
+      ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
       ref: boost-endian/1.91.0-a.m+24.12.14.03.43
@@ -1053,7 +1053,7 @@ sources:
       ref: boost-utility/1.91.0-a.m+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-variant/1.91.0-a.m+25.09.13.13.52
+      ref: boost-variant/1.91.0-a.m+25.12.29.12.31
     targets:
     - dependencies: []
       kind: header-library
