@@ -648,7 +648,7 @@ sources:
       ref: boost-utility/1.91.0-a.d+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-uuid/1.91.0-a.d+26.01.05.16.02
+      ref: boost-uuid/1.91.0-a.d+26.01.05.18.53
     targets:
     - dependencies: []
       kind: header-library
