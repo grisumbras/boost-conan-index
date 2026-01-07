@@ -1972,13 +1972,13 @@ sources:
       ref: boost-fusion/1.91.0-a.m+24.05.15.10.13
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.m+25.12.13.17.21
+      ref: boost-intrusive/1.91.0-a.m+25.12.31.21.02
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-move/1.91.0-a.m+25.12.13.16.59
+      ref: boost-move/1.91.0-a.m+25.12.31.21.02
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
@@ -2044,7 +2044,7 @@ sources:
       ref: boost-asio/1.91.0-a.m+25.12.04.00.07
     - header: true
       public: false
-      ref: boost-interprocess/1.91.0-a.m+25.12.20.12.50
+      ref: boost-interprocess/1.91.0-a.m+26.01.05.02.09
     - header: true
       public: false
       ref: boost-io/1.91.0-a.m+23.10.03.00.15

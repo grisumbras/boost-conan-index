@@ -301,7 +301,7 @@ sources:
       ref: boost-config/1.91.0-a.m+25.12.23.11.49
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.m+25.12.19.10.10
+      ref: boost-container/1.91.0-a.m+26.01.05.02.17
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.02.13.40

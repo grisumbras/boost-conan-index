@@ -322,7 +322,7 @@ sources:
       ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.m+25.12.13.17.21
+      ref: boost-intrusive/1.91.0-a.m+25.12.31.21.02
     - header: true
       public: true
       ref: boost-predef/1.91.0-a.m+25.01.12.12.53

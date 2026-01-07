@@ -267,7 +267,7 @@ sources:
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-static_assert/1.91.0-a.d+25.12.26.19.43
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
