@@ -219,7 +219,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+25.12.23.11.49
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: false
       public: true
       ref: boost-filesystem/1.91.0-a.m+25.12.30.16.14

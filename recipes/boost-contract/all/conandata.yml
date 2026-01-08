@@ -414,13 +414,13 @@ sources:
       ref: boost-assert/1.91.0-a.m+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+25.12.23.11.49
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: false
       public: true
-      ref: boost-exception/1.91.0-a.m+25.03.02.03.25
+      ref: boost-exception/1.91.0-a.m+25.05.03.03.11
     - header: true
       public: true
       ref: boost-function/1.91.0-a.m+24.12.14.04.39
@@ -441,7 +441,7 @@ sources:
       ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
     - header: true
       public: true
-      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+      ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
     - header: false
       public: true
       ref: boost-thread/1.91.0-a.m+25.05.02.19.21

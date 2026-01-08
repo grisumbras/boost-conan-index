@@ -225,7 +225,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+25.12.23.11.49
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.02.13.40
@@ -234,7 +234,7 @@ sources:
       ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+      ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38

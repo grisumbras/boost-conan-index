@@ -120,3 +120,15 @@ sources:
       kind: header-library
       name: boost_static_assert
     url: https://github.com/boostorg/static_assert.git
+  1.91.0-a.m+26.01.06.18.03:
+    commit: 858097c08ebb53faaf1fba3201c0a76a96e49584
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_static_assert
+    url: https://github.com/boostorg/static_assert.git

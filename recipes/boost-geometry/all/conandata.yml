@@ -1278,7 +1278,7 @@ sources:
       ref: boost-concept_check/1.91.0-a.m+24.12.28.18.10
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+25.12.23.11.49
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: false
       public: true
       ref: boost-container/1.91.0-a.m+26.01.05.02.17
@@ -1332,7 +1332,7 @@ sources:
       ref: boost-serialization/1.91.0-a.m+23.11.12.21.05
     - header: true
       public: true
-      ref: boost-static_assert/1.91.0-a.m+25.04.15.18.33
+      ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
     - header: false
       public: true
       ref: boost-thread/1.91.0-a.m+25.05.02.19.21

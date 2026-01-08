@@ -1951,7 +1951,7 @@ sources:
       ref: boost-atomic/1.91.0-a.m+25.12.29.17.20
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+25.12.23.11.49
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.02.13.40
@@ -1960,7 +1960,7 @@ sources:
       ref: boost-date_time/1.91.0-a.m+22.10.31.09.22
     - header: false
       public: true
-      ref: boost-exception/1.91.0-a.m+25.03.02.03.25
+      ref: boost-exception/1.91.0-a.m+25.05.03.03.11
     - header: false
       public: true
       ref: boost-filesystem/1.91.0-a.m+25.12.30.16.14

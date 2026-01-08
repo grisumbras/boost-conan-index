@@ -1,4 +1,4 @@
-#include <boost/static_assert.hpp>
+#include <None>
 
 int main()
 {

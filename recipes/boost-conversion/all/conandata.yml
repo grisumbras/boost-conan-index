@@ -222,7 +222,7 @@ sources:
       ref: boost-assert/1.91.0-a.m+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+25.12.23.11.49
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
       ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53

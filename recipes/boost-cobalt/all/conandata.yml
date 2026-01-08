@@ -829,7 +829,7 @@ sources:
       ref: boost-circular_buffer/1.91.0-a.m+22.09.12.08.08
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+25.12.23.11.49
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: false
       public: true
       ref: boost-container/1.91.0-a.m+26.01.05.02.17
