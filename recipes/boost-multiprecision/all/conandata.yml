@@ -348,7 +348,7 @@ sources:
       ref: boost-lexical_cast/1.91.0-a.d+26.01.04.11.10
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+25.12.19.07.32
+      ref: boost-math/1.91.0-a.d+26.01.09.12.55
     - header: true
       public: true
       ref: boost-predef/1.91.0-a.d+25.02.03.08.30
