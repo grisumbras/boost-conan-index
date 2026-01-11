@@ -633,6 +633,69 @@ sources:
       kind: library
       name: boost_process
     url: https://github.com/boostorg/process.git
+  1.91.0-a.d+26.01.11.07.32:
+    commit: 1dcf21fbde4675213c87d9054cd21b5ab336ef0e
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.91.0-a.d+25.08.25.08.42
+    - header: true
+      public: true
+      ref: boost-asio/1.91.0-a.d+25.12.04.00.07
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+    - header: false
+      public: true
+      ref: boost-filesystem/1.91.0-a.d+25.12.30.16.14
+    - header: true
+      public: true
+      ref: boost-fusion/1.91.0-a.d+24.08.21.20.51
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-a.d+25.06.26.11.42
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.d+25.12.31.21.02
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.d+24.12.08.17.21
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+25.12.18.19.30
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-tokenizer/1.91.0-a.d+25.07.02.17.31
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.d+26.01.04.22.00
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_process
+    url: https://github.com/boostorg/process.git
   1.91.0-a.m+25.10.06.13.31:
     commit: 2a41d0a0dcef77ff362c1e3a7cc88b47191ff9d2
     cxxstd: '11'
