@@ -1584,7 +1584,7 @@ sources:
       ref: boost-serialization/1.91.0-a.m+23.11.12.21.05
     - header: true
       public: true
-      ref: boost-type_index/1.91.0-a.m+25.10.18.15.18
+      ref: boost-type_index/1.91.0-a.m+26.01.04.22.00
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38

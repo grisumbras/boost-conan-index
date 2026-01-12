@@ -228,7 +228,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
     - header: true
       public: true
-      ref: boost-type_index/1.91.0-a.m+25.10.18.15.18
+      ref: boost-type_index/1.91.0-a.m+26.01.04.22.00
     targets:
     - dependencies: []
       kind: header-library
