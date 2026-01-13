@@ -1839,7 +1839,7 @@ sources:
       ref: boost-date_time/1.91.0-a.d+25.07.07.06.39
     - header: false
       public: true
-      ref: boost-exception/1.91.0-a.d+25.05.03.03.11
+      ref: boost-exception/1.91.0-a.d+26.01.12.15.31
     - header: false
       public: true
       ref: boost-filesystem/1.91.0-a.d+25.12.30.16.14
