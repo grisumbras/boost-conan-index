@@ -453,7 +453,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
     - header: true
       public: true
-      ref: boost-variant/1.91.0-a.m+25.12.29.12.31
+      ref: boost-variant/1.91.0-a.m+26.01.04.11.27
     targets:
     - dependencies: []
       kind: header-library

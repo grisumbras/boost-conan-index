@@ -648,7 +648,7 @@ sources:
       ref: boost-utility/1.91.0-a.d+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-uuid/1.91.0-a.d+26.01.14.21.01
+      ref: boost-uuid/1.91.0-a.d+26.01.15.17.45
     targets:
     - dependencies: []
       kind: header-library
@@ -696,7 +696,7 @@ sources:
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+25.12.26.22.05
+      ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
@@ -741,7 +741,7 @@ sources:
       ref: boost-utility/1.91.0-a.m+25.12.13.20.46
     - header: true
       public: true
-      ref: boost-uuid/1.91.0-a.m+26.01.07.20.49
+      ref: boost-uuid/1.91.0-a.m+26.01.15.17.45
     targets:
     - dependencies: []
       kind: header-library

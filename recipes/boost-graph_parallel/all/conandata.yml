@@ -552,7 +552,7 @@ sources:
       ref: boost-detail/1.91.0-a.d+25.12.13.20.38
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.91.0-a.d+25.12.20.20.50
+      ref: boost-dynamic_bitset/1.91.0-a.d+26.01.15.11.58
     - header: false
       public: true
       ref: boost-filesystem/1.91.0-a.d+25.12.30.16.14
@@ -657,7 +657,7 @@ sources:
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+25.12.26.22.05
+      ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10
     - header: false
       public: true
       ref: boost-mpi/1.91.0-a.m+25.04.17.17.55
@@ -693,7 +693,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
     - header: true
       public: true
-      ref: boost-variant/1.91.0-a.m+25.12.29.12.31
+      ref: boost-variant/1.91.0-a.m+26.01.04.11.27
     targets:
     - dependencies: []
       kind: library

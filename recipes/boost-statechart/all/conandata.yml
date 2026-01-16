@@ -333,7 +333,7 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-conversion/1.91.0-a.m+25.12.26.22.04
+      ref: boost-conversion/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.02.13.40

@@ -930,7 +930,7 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-conversion/1.91.0-a.m+25.12.26.22.04
+      ref: boost-conversion/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.02.13.40
@@ -948,7 +948,7 @@ sources:
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+25.12.26.22.05
+      ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.m+25.10.23.11.37

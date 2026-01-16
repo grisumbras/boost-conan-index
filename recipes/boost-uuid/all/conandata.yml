@@ -423,6 +423,27 @@ sources:
       kind: header-library
       name: boost_uuid
     url: https://github.com/boostorg/uuid.git
+  1.91.0-a.d+26.01.15.17.45:
+    commit: 85bc141e439eaf1d5a30ef05ad28aca682fb21c7
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_uuid
+    url: https://github.com/boostorg/uuid.git
   1.91.0-a.m+25.10.14.14.26:
     commit: d79210b0d8da733c75caa3cf31f8f7d11cfecb92
     cxxstd: '11'
@@ -488,6 +509,27 @@ sources:
     url: https://github.com/boostorg/uuid.git
   1.91.0-a.m+26.01.07.20.49:
     commit: c9f5a8f028b69a12276c8ae5b73bf4eb1836e3bc
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_uuid
+    url: https://github.com/boostorg/uuid.git
+  1.91.0-a.m+26.01.15.17.45:
+    commit: 85bc141e439eaf1d5a30ef05ad28aca682fb21c7
     cxxstd: '11'
     dependencies:
     - header: true

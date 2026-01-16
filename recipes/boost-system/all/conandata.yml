@@ -426,7 +426,7 @@ sources:
       ref: boost-assert/1.91.0-a.d+25.10.19.13.59
     - header: true
       public: true
-      ref: boost-compat/1.91.0-a.d+25.11.18.11.26
+      ref: boost-compat/1.91.0-a.d+26.01.16.02.16
     - header: true
       public: true
       ref: boost-config/1.91.0-a.d+26.01.04.15.57

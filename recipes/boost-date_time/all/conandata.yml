@@ -402,7 +402,7 @@ sources:
       ref: boost-io/1.91.0-a.m+23.10.03.00.15
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+25.12.26.22.05
+      ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10
     - header: true
       public: true
       ref: boost-numeric_conversion/1.91.0-a.m+25.06.26.07.40

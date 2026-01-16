@@ -255,3 +255,24 @@ sources:
       kind: header-library
       name: boost_any
     url: https://github.com/boostorg/any.git
+  1.91.0-a.m+26.01.12.20.29:
+    commit: 3312581e774129462e06bbdc752b919dca37e85c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.m+26.01.04.22.00
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_any
+    url: https://github.com/boostorg/any.git

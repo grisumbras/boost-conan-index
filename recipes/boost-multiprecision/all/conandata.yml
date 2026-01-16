@@ -381,7 +381,7 @@ sources:
       ref: boost-integer/1.91.0-a.m+25.12.13.20.41
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+25.12.26.22.05
+      ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10
     - header: false
       public: true
       ref: boost-math/1.91.0-a.m+25.12.15.15.13
