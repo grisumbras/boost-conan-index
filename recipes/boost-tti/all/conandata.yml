@@ -156,7 +156,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-function_types/1.91.0-a.d+24.09.18.18.18
+      ref: boost-function_types/1.91.0-a.d+26.01.16.19.40
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
@@ -180,7 +180,7 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-function_types/1.91.0-a.m+24.09.18.18.18
+      ref: boost-function_types/1.91.0-a.m+26.01.16.19.40
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
