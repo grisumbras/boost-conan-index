@@ -288,7 +288,7 @@ sources:
       ref: boost-core/1.91.0-a.d+26.01.02.13.40
     - header: true
       public: true
-      ref: boost-function_types/1.91.0-a.d+26.01.19.12.18
+      ref: boost-function_types/1.91.0-a.d+26.01.19.12.23
     - header: true
       public: true
       ref: boost-functional/1.91.0-a.d+25.06.26.09.00
@@ -333,7 +333,7 @@ sources:
       ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
-      ref: boost-function_types/1.91.0-a.m+26.01.16.19.40
+      ref: boost-function_types/1.91.0-a.m+26.01.19.12.23
     - header: true
       public: true
       ref: boost-functional/1.91.0-a.m+23.04.17.06.59
