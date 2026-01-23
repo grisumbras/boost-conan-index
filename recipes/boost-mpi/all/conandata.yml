@@ -478,25 +478,25 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
       ref: boost-foreach/1.91.0-a.d+25.05.02.19.11
     - header: true
       public: true
-      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+      ref: boost-function/1.91.0-a.d+26.01.23.05.06
     - header: false
       public: true
       ref: boost-graph/1.91.0-a.d+25.12.01.07.18
     - header: true
       public: true
-      ref: boost-integer/1.91.0-a.d+25.12.13.20.41
+      ref: boost-integer/1.91.0-a.d+26.01.22.15.37
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
@@ -514,7 +514,7 @@ sources:
       ref: boost-serialization/1.91.0-a.d+24.08.18.11.53
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
@@ -529,7 +529,7 @@ sources:
       ref: boost-lexical_cast/1.91.0-a.d+26.01.04.11.10
     - header: true
       public: false
-      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
     targets:
     - dependencies: []
       kind: library
@@ -545,7 +545,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
@@ -557,7 +557,7 @@ sources:
       ref: boost-foreach/1.91.0-a.m+25.01.26.17.47
     - header: true
       public: true
-      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+      ref: boost-function/1.91.0-a.m+26.01.23.05.06
     - header: false
       public: true
       ref: boost-graph/1.91.0-a.m+25.02.15.20.07
@@ -581,7 +581,7 @@ sources:
       ref: boost-serialization/1.91.0-a.m+23.11.12.21.05
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03

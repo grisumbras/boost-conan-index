@@ -316,10 +316,10 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-array/1.91.0-a.d+25.04.03.14.10
+      ref: boost-array/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-circular_buffer/1.91.0-a.d+25.05.02.19.05
@@ -328,7 +328,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
@@ -340,7 +340,7 @@ sources:
       ref: boost-range/1.91.0-a.d+25.05.02.19.18
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
@@ -352,7 +352,7 @@ sources:
       ref: boost-unordered/1.91.0-a.d+26.01.08.13.17
     - header: true
       public: true
-      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
     targets:
     - dependencies: []
       kind: header-library
@@ -364,10 +364,10 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-array/1.91.0-a.m+25.04.03.14.10
+      ref: boost-array/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-circular_buffer/1.91.0-a.m+22.09.12.08.08
@@ -388,7 +388,7 @@ sources:
       ref: boost-range/1.91.0-a.m+25.02.08.16.31
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03

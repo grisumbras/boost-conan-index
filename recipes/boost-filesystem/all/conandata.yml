@@ -774,7 +774,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
@@ -783,19 +783,19 @@ sources:
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-detail/1.91.0-a.d+25.12.13.20.38
+      ref: boost-detail/1.91.0-a.d+26.01.22.15.23
     - header: true
       public: true
-      ref: boost-io/1.91.0-a.d+25.06.26.11.42
+      ref: boost-io/1.91.0-a.d+26.01.22.22.15
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.d+25.12.18.19.30
+      ref: boost-system/1.91.0-a.d+26.01.23.02.29
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
@@ -804,7 +804,7 @@ sources:
       ref: boost-atomic/1.91.0-a.d+25.12.29.17.20
     - header: true
       public: false
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: false
       ref: boost-predef/1.91.0-a.d+25.02.03.08.30
@@ -876,7 +876,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
@@ -894,7 +894,7 @@ sources:
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
       ref: boost-system/1.91.0-a.m+25.12.18.19.30

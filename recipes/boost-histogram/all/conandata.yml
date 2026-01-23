@@ -252,13 +252,13 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: false
       public: true
       ref: boost-math/1.91.0-a.d+26.01.09.12.55
     - header: true
       public: true
-      ref: boost-mp11/1.91.0-a.d+25.12.15.15.52
+      ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
     - header: false
       public: true
       ref: boost-serialization/1.91.0-a.d+24.08.18.11.53

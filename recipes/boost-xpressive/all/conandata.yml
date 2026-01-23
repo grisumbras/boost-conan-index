@@ -459,7 +459,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
@@ -468,16 +468,16 @@ sources:
       ref: boost-conversion/1.91.0-a.d+26.01.02.13.40
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: false
       public: true
       ref: boost-exception/1.91.0-a.d+26.01.21.22.56
     - header: true
       public: true
-      ref: boost-fusion/1.91.0-a.d+24.08.21.20.51
+      ref: boost-fusion/1.91.0-a.d+26.01.23.01.34
     - header: true
       public: true
-      ref: boost-integer/1.91.0-a.d+25.12.13.20.41
+      ref: boost-integer/1.91.0-a.d+26.01.22.15.37
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
@@ -504,10 +504,10 @@ sources:
       ref: boost-range/1.91.0-a.d+25.05.02.19.18
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-spirit/1.91.0-a.d+26.01.16.09.17
+      ref: boost-spirit/1.91.0-a.d+26.01.23.06.34
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
@@ -522,7 +522,7 @@ sources:
       ref: boost-typeof/1.91.0-a.d+25.06.09.02.44
     - header: true
       public: true
-      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
     targets:
     - dependencies: []
       kind: header-library
@@ -534,7 +534,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
@@ -579,7 +579,7 @@ sources:
       ref: boost-range/1.91.0-a.m+25.02.08.16.31
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
       ref: boost-spirit/1.91.0-a.m+25.09.17.08.31

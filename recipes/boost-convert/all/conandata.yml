@@ -264,7 +264,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
       ref: boost-function_types/1.91.0-a.d+26.01.19.12.23
@@ -288,7 +288,7 @@ sources:
       ref: boost-range/1.91.0-a.d+25.05.02.19.18
     - header: true
       public: true
-      ref: boost-spirit/1.91.0-a.d+26.01.16.09.17
+      ref: boost-spirit/1.91.0-a.d+26.01.23.06.34
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19

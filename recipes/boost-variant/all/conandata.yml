@@ -393,7 +393,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
@@ -402,13 +402,13 @@ sources:
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-detail/1.91.0-a.d+25.12.13.20.38
+      ref: boost-detail/1.91.0-a.d+26.01.22.15.23
     - header: true
       public: true
-      ref: boost-integer/1.91.0-a.d+25.12.13.20.41
+      ref: boost-integer/1.91.0-a.d+26.01.22.15.37
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
@@ -429,7 +429,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
     targets:
     - dependencies: []
       kind: header-library
@@ -537,7 +537,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+26.01.04.15.57

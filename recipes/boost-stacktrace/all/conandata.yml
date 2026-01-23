@@ -655,7 +655,7 @@ sources:
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
       ref: boost-predef/1.91.0-a.d+25.02.03.08.30
@@ -664,7 +664,7 @@ sources:
       ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
     - header: true
       public: false
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     targets:
     - dependencies: []
       kind: header-library
@@ -884,7 +884,7 @@ sources:
       ref: boost-winapi/1.91.0-a.m+25.08.25.19.08
     - header: true
       public: false
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     targets:
     - dependencies: []
       kind: header-library

@@ -387,6 +387,54 @@ sources:
       kind: library
       name: boost_program_options
     url: https://github.com/boostorg/program_options.git
+  1.91.0-a.d+26.01.22.21.14:
+    commit: 486e3418ff92f49522e813e48b18d73e85290f45
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.91.0-a.d+26.01.12.20.29
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.d+26.01.22.15.23
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.d+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.91.0-a.d+26.01.04.11.10
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: false
+      ref: boost-bind/1.91.0-a.d+26.01.03.18.00
+    - header: true
+      public: false
+      ref: boost-tokenizer/1.91.0-a.d+25.07.02.17.31
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_program_options
+    url: https://github.com/boostorg/program_options.git
   1.91.0-a.m+25.09.13.10.38:
     commit: 902aaedaaa157a92e649c3b1324c92f5a264a805
     cxxstd: '11'
@@ -405,7 +453,7 @@ sources:
       ref: boost-detail/1.91.0-a.m+25.12.13.20.38
     - header: true
       public: true
-      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+      ref: boost-function/1.91.0-a.m+26.01.23.05.06
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
@@ -414,7 +462,7 @@ sources:
       ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03

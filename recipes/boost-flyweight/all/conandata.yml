@@ -366,7 +366,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
@@ -375,10 +375,10 @@ sources:
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-detail/1.91.0-a.d+25.12.13.20.38
+      ref: boost-detail/1.91.0-a.d+26.01.22.15.23
     - header: true
       public: true
       ref: boost-interprocess/1.91.0-a.d+26.01.20.10.18
@@ -387,7 +387,7 @@ sources:
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-multi_index/1.91.0-a.d+25.11.07.18.37
+      ref: boost-multi_index/1.91.0-a.d+26.01.23.11.43
     - header: true
       public: true
       ref: boost-parameter/1.91.0-a.d+25.12.13.20.44
@@ -396,7 +396,7 @@ sources:
       ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
@@ -417,7 +417,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
@@ -447,7 +447,7 @@ sources:
       ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13

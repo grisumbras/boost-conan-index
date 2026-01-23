@@ -259,10 +259,10 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-align/1.91.0-a.d+25.06.26.11.43
+      ref: boost-align/1.91.0-a.d+26.01.22.22.16
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: false
       public: true
       ref: boost-atomic/1.91.0-a.d+25.12.29.17.20
@@ -271,7 +271,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
       ref: boost-parameter/1.91.0-a.d+25.12.13.20.44
@@ -301,7 +301,7 @@ sources:
       ref: boost-align/1.91.0-a.m+22.11.11.18.29
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: false
       public: true
       ref: boost-atomic/1.91.0-a.m+25.12.29.17.20

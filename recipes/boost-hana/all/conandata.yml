@@ -156,16 +156,16 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-fusion/1.91.0-a.d+24.08.21.20.51
+      ref: boost-fusion/1.91.0-a.d+26.01.23.01.34
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-tuple/1.91.0-a.d+25.06.09.02.57
+      ref: boost-tuple/1.91.0-a.d+26.01.23.06.32
     targets:
     - dependencies: []
       kind: header-library

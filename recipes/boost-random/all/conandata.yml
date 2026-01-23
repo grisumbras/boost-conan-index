@@ -591,13 +591,55 @@ sources:
       kind: library
       name: boost_random
     url: https://github.com/boostorg/random.git
+  1.91.0-a.d+26.01.22.14.34:
+    commit: 5b191b0f49c1e45c8414897b96734042b0bfe3d0
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.91.0-a.d+26.01.15.11.58
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-a.d+26.01.22.15.37
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-a.d+26.01.22.22.15
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+26.01.23.02.29
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_random
+    url: https://github.com/boostorg/random.git
   1.91.0-a.m+25.11.14.15.33:
     commit: 90224ffbd0e8419fa5298c3669288d1d084d344a
     cxxstd: '11'
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+26.01.04.15.57

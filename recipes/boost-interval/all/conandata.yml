@@ -120,7 +120,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-detail/1.91.0-a.d+25.12.13.20.38
+      ref: boost-detail/1.91.0-a.d+26.01.22.15.23
     - header: true
       public: true
       ref: boost-logic/1.91.0-a.d+25.07.02.08.14

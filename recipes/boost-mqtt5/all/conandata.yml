@@ -711,31 +711,31 @@ sources:
       ref: boost-asio/1.91.0-a.d+25.12.04.00.07
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-beast/1.91.0-a.d+25.11.13.19.36
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.01.22.00.09
+      ref: boost-container/1.91.0-a.d+26.01.23.00.37
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-endian/1.91.0-a.d+24.12.14.03.43
+      ref: boost-endian/1.91.0-a.d+26.01.23.05.36
     - header: false
       public: true
-      ref: boost-random/1.91.0-a.d+25.12.02.14.54
+      ref: boost-random/1.91.0-a.d+26.01.22.14.34
     - header: true
       public: true
       ref: boost-range/1.91.0-a.d+25.05.02.19.18
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.d+25.12.18.19.30
+      ref: boost-system/1.91.0-a.d+26.01.23.02.29
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
@@ -795,7 +795,7 @@ sources:
       ref: boost-asio/1.91.0-a.m+25.12.04.00.07
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-beast/1.91.0-a.m+25.11.13.19.36
@@ -807,7 +807,7 @@ sources:
       ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
-      ref: boost-endian/1.91.0-a.m+24.12.14.03.43
+      ref: boost-endian/1.91.0-a.m+26.01.23.05.36
     - header: false
       public: true
       ref: boost-random/1.91.0-a.m+25.11.14.15.33
@@ -816,7 +816,7 @@ sources:
       ref: boost-range/1.91.0-a.m+25.02.08.16.31
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
       ref: boost-system/1.91.0-a.m+25.12.18.19.30

@@ -345,7 +345,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
@@ -354,7 +354,7 @@ sources:
       ref: boost-exception/1.91.0-a.d+26.01.21.22.56
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.d+25.12.18.19.30
+      ref: boost-system/1.91.0-a.d+26.01.23.02.29
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
@@ -417,7 +417,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+26.01.04.15.57

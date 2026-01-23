@@ -318,6 +318,51 @@ sources:
       kind: header-library
       name: boost_fusion
     url: https://github.com/boostorg/fusion.git
+  1.91.0-a.d+26.01.23.01.34:
+    commit: ca626da5573faa4723940743707bd2d3b6f65bc5
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-function_types/1.91.0-a.d+26.01.19.12.23
+    - header: true
+      public: true
+      ref: boost-functional/1.91.0-a.d+25.06.26.09.00
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-tuple/1.91.0-a.d+26.01.23.06.32
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0-a.d+25.06.09.02.44
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_fusion
+    url: https://github.com/boostorg/fusion.git
   1.91.0-a.m+24.05.15.10.13:
     commit: 53da4e0b2c8cd4969b09fa646d314ac0c414c1ff
     cxxstd: '03'

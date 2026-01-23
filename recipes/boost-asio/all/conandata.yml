@@ -459,10 +459,10 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-align/1.91.0-a.d+25.06.26.11.43
+      ref: boost-align/1.91.0-a.d+26.01.22.22.16
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
@@ -474,7 +474,7 @@ sources:
       ref: boost-date_time/1.91.0-a.d+25.07.07.06.39
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.d+25.12.18.19.30
+      ref: boost-system/1.91.0-a.d+26.01.23.02.29
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
@@ -492,7 +492,7 @@ sources:
       ref: boost-align/1.91.0-a.m+22.11.11.18.29
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+26.01.04.15.57

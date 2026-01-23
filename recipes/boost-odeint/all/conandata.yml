@@ -576,7 +576,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-compute/1.91.0-a.d+25.05.02.19.06
@@ -585,10 +585,10 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-fusion/1.91.0-a.d+24.08.21.20.51
+      ref: boost-fusion/1.91.0-a.d+26.01.23.01.34
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
@@ -627,7 +627,7 @@ sources:
       ref: boost-units/1.91.0-a.d+25.05.02.11.24
     - header: true
       public: true
-      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
     targets:
     - dependencies: []
       kind: header-library
@@ -639,7 +639,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-compute/1.91.0-a.m+24.08.22.10.16

@@ -324,16 +324,16 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+      ref: boost-function/1.91.0-a.d+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-fusion/1.91.0-a.d+24.08.21.20.51
+      ref: boost-fusion/1.91.0-a.d+26.01.23.01.34
     - header: true
       public: true
-      ref: boost-mp11/1.91.0-a.d+25.12.15.15.52
+      ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
@@ -348,7 +348,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
     targets:
     - dependencies: []
       kind: header-library
@@ -366,7 +366,7 @@ sources:
       ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
-      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+      ref: boost-function/1.91.0-a.m+26.01.23.05.06
     - header: true
       public: true
       ref: boost-fusion/1.91.0-a.m+24.05.15.10.13

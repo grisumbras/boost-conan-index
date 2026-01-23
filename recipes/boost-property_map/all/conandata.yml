@@ -336,7 +336,7 @@ sources:
       ref: boost-any/1.91.0-a.d+26.01.12.20.29
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-concept_check/1.91.0-a.d+25.07.02.07.32
@@ -345,10 +345,10 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+      ref: boost-function/1.91.0-a.d+26.01.23.05.06
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
@@ -360,7 +360,7 @@ sources:
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
@@ -375,7 +375,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
     - header: true
       public: true
-      ref: boost-utility/1.91.0-a.d+25.12.13.20.46
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
     targets:
     - dependencies: []
       kind: header-library
@@ -390,7 +390,7 @@ sources:
       ref: boost-any/1.91.0-a.m+26.01.12.20.29
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-concept_check/1.91.0-a.m+24.12.28.18.10
@@ -402,7 +402,7 @@ sources:
       ref: boost-core/1.91.0-a.m+26.01.02.13.40
     - header: true
       public: true
-      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+      ref: boost-function/1.91.0-a.m+26.01.23.05.06
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
@@ -414,7 +414,7 @@ sources:
       ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03

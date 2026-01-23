@@ -534,7 +534,7 @@ sources:
       ref: boost-algorithm/1.91.0-a.d+25.08.25.08.42
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.d+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
       ref: boost-concept_check/1.91.0-a.d+25.07.02.07.32
@@ -546,10 +546,10 @@ sources:
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.d+26.01.02.13.40
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-detail/1.91.0-a.d+25.12.13.20.38
+      ref: boost-detail/1.91.0-a.d+26.01.22.15.23
     - header: true
       public: true
       ref: boost-dynamic_bitset/1.91.0-a.d+26.01.15.11.58
@@ -561,7 +561,7 @@ sources:
       ref: boost-foreach/1.91.0-a.d+25.05.02.19.11
     - header: true
       public: true
-      ref: boost-function/1.91.0-a.d+24.12.14.04.39
+      ref: boost-function/1.91.0-a.d+26.01.23.05.06
     - header: false
       public: true
       ref: boost-graph/1.91.0-a.d+25.12.01.07.18
@@ -585,22 +585,22 @@ sources:
       ref: boost-property_map/1.91.0-a.d+25.07.02.16.58
     - header: true
       public: true
-      ref: boost-property_map_parallel/1.91.0-a.d+25.05.02.19.16
+      ref: boost-property_map_parallel/1.91.0-a.d+26.01.22.19.30
     - header: false
       public: true
-      ref: boost-random/1.91.0-a.d+25.12.02.14.54
+      ref: boost-random/1.91.0-a.d+26.01.22.14.34
     - header: false
       public: true
       ref: boost-serialization/1.91.0-a.d+24.08.18.11.53
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.d+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
     - header: true
       public: true
-      ref: boost-tuple/1.91.0-a.d+25.06.09.02.57
+      ref: boost-tuple/1.91.0-a.d+26.01.23.06.32
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
@@ -621,7 +621,7 @@ sources:
       ref: boost-algorithm/1.91.0-a.m+23.08.02.20.42
     - header: true
       public: true
-      ref: boost-assert/1.91.0-a.m+25.10.19.13.59
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
       ref: boost-concept_check/1.91.0-a.m+24.12.28.18.10
@@ -648,7 +648,7 @@ sources:
       ref: boost-foreach/1.91.0-a.m+25.01.26.17.47
     - header: true
       public: true
-      ref: boost-function/1.91.0-a.m+24.12.14.04.39
+      ref: boost-function/1.91.0-a.m+26.01.23.05.06
     - header: false
       public: true
       ref: boost-graph/1.91.0-a.m+25.02.15.20.07
@@ -672,7 +672,7 @@ sources:
       ref: boost-property_map/1.91.0-a.m+24.12.28.21.57
     - header: true
       public: true
-      ref: boost-property_map_parallel/1.91.0-a.m+22.01.29.06.34
+      ref: boost-property_map_parallel/1.91.0-a.m+26.01.22.19.30
     - header: false
       public: true
       ref: boost-random/1.91.0-a.m+25.11.14.15.33
@@ -681,7 +681,7 @@ sources:
       ref: boost-serialization/1.91.0-a.m+23.11.12.21.05
     - header: true
       public: true
-      ref: boost-smart_ptr/1.91.0-a.m+25.11.18.10.53
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
