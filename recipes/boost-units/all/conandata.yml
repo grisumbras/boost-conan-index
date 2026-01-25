@@ -297,7 +297,7 @@ sources:
       ref: boost-lambda/1.91.0-a.d+25.05.03.03.20
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.01.09.12.55
+      ref: boost-math/1.91.0-a.d+26.01.24.22.34
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
@@ -309,7 +309,7 @@ sources:
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
     - header: true
       public: true
-      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
     - header: true
       public: true
       ref: boost-typeof/1.91.0-a.d+25.06.09.02.44
@@ -330,10 +330,10 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-integer/1.91.0-a.m+25.12.13.20.41
+      ref: boost-integer/1.91.0-a.m+26.01.22.15.37
     - header: true
       public: true
       ref: boost-io/1.91.0-a.m+23.10.03.00.15
@@ -354,7 +354,7 @@ sources:
       ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
     - header: true
       public: true
-      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
     - header: true
       public: true
       ref: boost-typeof/1.91.0-a.m+25.06.09.02.44

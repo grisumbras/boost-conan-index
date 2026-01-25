@@ -138,7 +138,7 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-detail/1.91.0-a.m+25.12.13.20.38
+      ref: boost-detail/1.91.0-a.m+26.01.22.15.23
     - header: true
       public: true
       ref: boost-logic/1.91.0-a.m+25.01.01.20.44

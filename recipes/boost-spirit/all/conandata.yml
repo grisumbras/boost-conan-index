@@ -1134,16 +1134,16 @@ sources:
       ref: boost-thread/1.91.0-a.d+25.05.02.19.21
     - header: true
       public: true
-      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
     - header: true
       public: true
       ref: boost-typeof/1.91.0-a.d+25.06.09.02.44
     - header: true
       public: true
-      ref: boost-unordered/1.91.0-a.d+26.01.08.13.17
+      ref: boost-unordered/1.91.0-a.d+26.01.23.17.12
     - header: true
       public: true
       ref: boost-utility/1.91.0-a.d+26.01.22.15.40
@@ -1170,7 +1170,7 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: true
       public: true
       ref: boost-endian/1.91.0-a.m+26.01.23.05.36
@@ -1185,7 +1185,7 @@ sources:
       ref: boost-fusion/1.91.0-a.m+24.05.15.10.13
     - header: true
       public: true
-      ref: boost-integer/1.91.0-a.m+25.12.13.20.41
+      ref: boost-integer/1.91.0-a.m+26.01.22.15.37
     - header: true
       public: true
       ref: boost-io/1.91.0-a.m+23.10.03.00.15
@@ -1233,7 +1233,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
     - header: true
       public: true
-      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
     - header: true
       public: true
       ref: boost-typeof/1.91.0-a.m+25.06.09.02.44
@@ -1242,7 +1242,7 @@ sources:
       ref: boost-unordered/1.91.0-a.m+25.10.21.20.47
     - header: true
       public: true
-      ref: boost-utility/1.91.0-a.m+25.12.13.20.46
+      ref: boost-utility/1.91.0-a.m+26.01.22.15.40
     - header: true
       public: true
       ref: boost-variant/1.91.0-a.m+26.01.04.11.27

@@ -291,7 +291,7 @@ sources:
       ref: boost-algorithm/1.91.0-a.d+25.08.25.08.42
     - header: false
       public: false
-      ref: boost-filesystem/1.91.0-a.d+25.12.30.16.14
+      ref: boost-filesystem/1.91.0-a.d+26.01.24.21.18
     - header: true
       public: false
       ref: boost-format/1.91.0-a.d+25.06.26.19.58
@@ -319,7 +319,7 @@ sources:
       ref: boost-context/1.91.0-a.m+25.10.29.21.21
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: true
       public: true
       ref: boost-intrusive/1.91.0-a.m+25.12.31.21.02

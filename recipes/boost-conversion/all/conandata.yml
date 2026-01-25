@@ -186,7 +186,7 @@ sources:
       ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
     targets:
     - dependencies: []
       kind: header-library

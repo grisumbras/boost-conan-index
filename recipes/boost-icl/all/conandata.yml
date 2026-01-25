@@ -396,7 +396,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.01.23.00.37
+      ref: boost-container/1.91.0-a.d+26.01.24.23.29
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -426,7 +426,7 @@ sources:
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
     - header: true
       public: true
-      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
     - header: true
       public: true
       ref: boost-utility/1.91.0-a.d+26.01.22.15.40
@@ -453,13 +453,13 @@ sources:
       ref: boost-container/1.91.0-a.m+26.01.05.02.17
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: false
       public: true
       ref: boost-date_time/1.91.0-a.m+22.10.31.09.22
     - header: true
       public: true
-      ref: boost-detail/1.91.0-a.m+25.12.13.20.38
+      ref: boost-detail/1.91.0-a.m+26.01.22.15.23
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
@@ -480,10 +480,10 @@ sources:
       ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
     - header: true
       public: true
-      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-utility/1.91.0-a.m+25.12.13.20.46
+      ref: boost-utility/1.91.0-a.m+26.01.22.15.40
     targets:
     - dependencies: []
       kind: header-library

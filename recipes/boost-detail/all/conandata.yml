@@ -237,7 +237,7 @@ sources:
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
     - header: true
       public: true
-      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
     targets:
     - dependencies: []
       kind: header-library
@@ -262,6 +262,30 @@ sources:
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_detail
+    url: https://github.com/boostorg/detail.git
+  1.91.0-a.m+26.01.22.15.23:
+    commit: 965826dc374165d71530d9814ecd5f4628365522
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
     targets:
     - dependencies: []
       kind: header-library

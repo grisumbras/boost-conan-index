@@ -555,7 +555,7 @@ sources:
       ref: boost-dynamic_bitset/1.91.0-a.d+26.01.15.11.58
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.d+25.12.30.16.14
+      ref: boost-filesystem/1.91.0-a.d+26.01.24.21.18
     - header: true
       public: true
       ref: boost-foreach/1.91.0-a.d+25.05.02.19.11
@@ -603,7 +603,7 @@ sources:
       ref: boost-tuple/1.91.0-a.d+26.01.23.06.32
     - header: true
       public: true
-      ref: boost-type_traits/1.91.0-a.d+25.04.21.15.19
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
     - header: true
       public: true
       ref: boost-variant/1.91.0-a.d+26.01.04.11.27
@@ -633,10 +633,10 @@ sources:
       ref: boost-container_hash/1.91.0-a.m+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-detail/1.91.0-a.m+25.12.13.20.38
+      ref: boost-detail/1.91.0-a.m+26.01.22.15.23
     - header: true
       public: true
       ref: boost-dynamic_bitset/1.91.0-a.m+25.12.20.20.50
@@ -690,7 +690,7 @@ sources:
       ref: boost-tuple/1.91.0-a.m+25.06.09.02.57
     - header: true
       public: true
-      ref: boost-type_traits/1.91.0-a.m+25.07.04.20.38
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
     - header: true
       public: true
       ref: boost-variant/1.91.0-a.m+26.01.04.11.27

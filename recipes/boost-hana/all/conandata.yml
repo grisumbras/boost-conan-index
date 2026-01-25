@@ -180,7 +180,7 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: true
       public: true
       ref: boost-fusion/1.91.0-a.m+24.05.15.10.13

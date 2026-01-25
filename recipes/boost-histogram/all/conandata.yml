@@ -255,7 +255,7 @@ sources:
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.01.09.12.55
+      ref: boost-math/1.91.0-a.d+26.01.24.22.34
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
@@ -264,7 +264,7 @@ sources:
       ref: boost-serialization/1.91.0-a.d+24.08.18.11.53
     - header: true
       public: true
-      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
     - header: true
       public: true
       ref: boost-variant2/1.91.0-a.d+26.01.22.02.39
@@ -282,13 +282,13 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: false
       public: true
       ref: boost-math/1.91.0-a.m+25.12.15.15.13
     - header: true
       public: true
-      ref: boost-mp11/1.91.0-a.m+25.12.15.15.52
+      ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
     - header: false
       public: true
       ref: boost-serialization/1.91.0-a.m+23.11.12.21.05

@@ -238,13 +238,13 @@ sources:
       ref: boost-config/1.91.0-a.d+26.01.04.15.57
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.01.23.00.37
+      ref: boost-container/1.91.0-a.d+26.01.24.23.29
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
     targets:
     - dependencies: []
       kind: header-library
@@ -325,7 +325,7 @@ sources:
       ref: boost-container/1.91.0-a.m+26.01.05.02.17
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13

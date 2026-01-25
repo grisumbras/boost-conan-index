@@ -348,7 +348,7 @@ sources:
       ref: boost-lexical_cast/1.91.0-a.d+26.01.04.11.10
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.01.09.12.55
+      ref: boost-math/1.91.0-a.d+26.01.24.22.34
     - header: true
       public: true
       ref: boost-predef/1.91.0-a.d+25.02.03.08.30
@@ -357,7 +357,7 @@ sources:
       ref: boost-random/1.91.0-a.d+26.01.22.14.34
     - header: true
       public: true
-      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
     targets:
     - dependencies: []
       kind: header-library
@@ -375,10 +375,10 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-integer/1.91.0-a.m+25.12.13.20.41
+      ref: boost-integer/1.91.0-a.m+26.01.22.15.37
     - header: true
       public: true
       ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10

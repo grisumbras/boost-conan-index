@@ -859,7 +859,7 @@ sources:
       ref: boost-system/1.91.0-a.d+26.01.23.02.29
     - header: true
       public: true
-      ref: boost-throw_exception/1.91.0-a.d+25.11.15.22.13
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
     - header: false
       public: true
       ref: openssl/[*]
@@ -884,13 +884,13 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-mp11/1.91.0-a.m+25.12.15.15.52
+      ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.m+25.12.18.19.30
+      ref: boost-system/1.91.0-a.m+26.01.23.02.29
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13

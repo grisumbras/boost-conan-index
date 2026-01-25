@@ -204,16 +204,16 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-core/1.91.0-a.m+26.01.02.13.40
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-integer/1.91.0-a.m+25.12.13.20.41
+      ref: boost-integer/1.91.0-a.m+26.01.22.15.37
     - header: true
       public: true
       ref: boost-logic/1.91.0-a.m+25.01.01.20.44
     - header: true
       public: true
-      ref: boost-mp11/1.91.0-a.m+25.12.15.15.52
+      ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
     targets:
     - dependencies: []
       kind: header-library
