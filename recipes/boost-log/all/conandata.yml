@@ -2081,7 +2081,7 @@ sources:
       ref: boost-date_time/1.91.0-a.m+22.10.31.09.22
     - header: false
       public: true
-      ref: boost-exception/1.91.0-a.m+25.05.03.03.11
+      ref: boost-exception/1.91.0-a.m+26.01.24.21.39
     - header: false
       public: true
       ref: boost-filesystem/1.91.0-a.m+25.12.30.16.14
@@ -2141,7 +2141,7 @@ sources:
       ref: boost-thread/1.91.0-a.m+25.05.02.19.21
     - header: true
       public: true
-      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
     - header: true
       public: true
       ref: boost-type_index/1.91.0-a.m+26.01.04.22.00

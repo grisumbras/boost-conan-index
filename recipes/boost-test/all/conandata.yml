@@ -873,7 +873,7 @@ sources:
       ref: boost-detail/1.91.0-a.m+26.01.22.15.23
     - header: false
       public: true
-      ref: boost-exception/1.91.0-a.m+25.05.03.03.11
+      ref: boost-exception/1.91.0-a.m+26.01.24.21.39
     - header: true
       public: true
       ref: boost-function/1.91.0-a.m+26.01.23.05.06

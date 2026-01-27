@@ -363,3 +363,33 @@ sources:
       kind: library
       name: boost_exception
     url: https://github.com/boostorg/exception.git
+  1.91.0-a.m+26.01.24.21.39:
+    commit: 4c3e9427bf7f231ffdf56f77b2c04914c3d5db08
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tuple/1.91.0-a.m+25.06.09.02.57
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_exception
+    url: https://github.com/boostorg/exception.git

@@ -529,7 +529,7 @@ sources:
       ref: boost-optional/1.91.0-a.d+24.12.08.17.21
     - header: true
       public: true
-      ref: boost-pfr/1.91.0-a.d+26.01.04.11.26
+      ref: boost-pfr/1.91.0-a.d+26.01.26.20.38
     - header: true
       public: true
       ref: boost-system/1.91.0-a.d+26.01.23.02.29
@@ -596,7 +596,7 @@ sources:
       ref: boost-system/1.91.0-a.m+26.01.23.02.29
     - header: true
       public: true
-      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
     - header: true
       public: true
       ref: boost-variant2/1.91.0-a.m+26.01.02.12.29

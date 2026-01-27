@@ -393,7 +393,7 @@ sources:
       ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-throw_exception/1.91.0-a.m+25.11.15.22.13
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
