@@ -333,3 +333,33 @@ sources:
       kind: library
       name: boost_context
     url: https://github.com/boostorg/context.git
+  1.91.0-a.m+25.12.27.17.25:
+    commit: 639fa73056578dbffc82537854109430950ed3ef
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
+    - header: true
+      public: true
+      ref: boost-pool/1.91.0-a.m+25.02.25.18.47
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_context
+    url: https://github.com/boostorg/context.git
