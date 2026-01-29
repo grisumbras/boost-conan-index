@@ -429,7 +429,7 @@ sources:
       ref: boost-config/1.91.0-a.m+26.01.04.15.57
     - header: true
       public: true
-      ref: boost-move/1.91.0-a.m+25.12.31.21.02
+      ref: boost-move/1.91.0-a.m+26.01.22.18.08
     targets:
     - dependencies: []
       kind: header-library
