@@ -1,0 +1,19 @@
+sources:
+  1.91.0-a.d+26.01.29.16.54:
+    commit: be078b6a2b5ee10d4791ab400031e827077c0f2b
+    cxxstd: '14'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_decimal
+    url: https://github.com/boostorg/decimal.git
+  1.91.0-a.m+26.01.27.14.56:
+    commit: 82397112a6c7d107471e5dc02a866b6036f5317f
+    cxxstd: '14'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_decimal
+    url: https://github.com/boostorg/decimal.git

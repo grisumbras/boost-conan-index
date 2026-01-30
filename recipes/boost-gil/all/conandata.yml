@@ -654,7 +654,7 @@ sources:
       ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.m+26.01.24.21.18
+      ref: boost-filesystem/1.91.0-a.m+26.01.29.11.41
     - header: true
       public: true
       ref: boost-integer/1.91.0-a.m+26.01.22.15.37
@@ -672,7 +672,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.m+26.01.02.12.29
+      ref: boost-variant2/1.91.0-a.m+26.01.22.02.39
     targets:
     - dependencies: []
       kind: header-library

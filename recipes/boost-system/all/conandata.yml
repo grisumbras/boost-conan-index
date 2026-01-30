@@ -597,7 +597,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.m+26.01.02.12.29
+      ref: boost-variant2/1.91.0-a.m+26.01.22.02.39
     - header: true
       public: true
       ref: boost-winapi/1.91.0-a.m+25.08.25.19.08
