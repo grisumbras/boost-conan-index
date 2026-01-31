@@ -590,7 +590,7 @@ sources:
       ref: boost-optional/1.91.0-a.m+24.12.04.00.23
     - header: true
       public: true
-      ref: boost-pfr/1.91.0-a.m+26.01.04.11.26
+      ref: boost-pfr/1.91.0-a.m+26.01.26.20.38
     - header: true
       public: true
       ref: boost-system/1.91.0-a.m+26.01.27.19.51
