@@ -1050,7 +1050,7 @@ sources:
       ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.m+24.12.04.00.23
+      ref: boost-optional/1.91.0-a.m+26.01.31.22.49
     - header: true
       public: true
       ref: boost-system/1.91.0-a.m+26.01.27.19.51

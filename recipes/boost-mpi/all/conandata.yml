@@ -572,7 +572,7 @@ sources:
       ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.m+24.12.04.00.23
+      ref: boost-optional/1.91.0-a.m+26.01.31.22.49
     - header: false
       public: true
       ref: boost-python/1.91.0-a.m+25.06.06.11.27

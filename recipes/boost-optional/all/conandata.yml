@@ -195,3 +195,27 @@ sources:
       kind: header-library
       name: boost_optional
     url: https://github.com/boostorg/optional.git
+  1.91.0-a.m+26.01.31.22.49:
+    commit: 881bf8da26fedad0401d9b30556a2a67631896fc
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.01.04.15.57
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_optional
+    url: https://github.com/boostorg/optional.git
