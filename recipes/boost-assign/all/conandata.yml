@@ -297,6 +297,48 @@ sources:
       kind: header-library
       name: boost_assign
     url: https://github.com/boostorg/assign.git
+  1.91.0-a.d+26.02.03.04.41:
+    commit: ed938773ebdaf8cec5aba034be3d22ab20f6f2d3
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.d+26.01.22.18.08
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-ptr_container/1.91.0-a.d+26.01.22.20.04
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-a.d+25.05.02.19.18
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tuple/1.91.0-a.d+26.01.23.06.32
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_assign
+    url: https://github.com/boostorg/assign.git
   1.91.0-a.m+24.12.28.17.19:
     commit: b452220f5de0f6205433c08cee63742102a424d2
     cxxstd: '11'

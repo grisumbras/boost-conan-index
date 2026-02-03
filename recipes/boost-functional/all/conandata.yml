@@ -225,7 +225,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -237,7 +237,7 @@ sources:
       ref: boost-function_types/1.91.0-a.d+26.01.19.12.23
     - header: true
       public: true
-      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+      ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
     - header: true
       public: true
       ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
@@ -246,7 +246,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-typeof/1.91.0-a.d+25.06.09.02.44
+      ref: boost-typeof/1.91.0-a.d+26.02.03.04.18
     - header: true
       public: true
       ref: boost-utility/1.91.0-a.d+26.01.22.15.40

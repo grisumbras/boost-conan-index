@@ -851,7 +851,7 @@ sources:
       ref: boost-bind/1.91.0-a.d+26.01.03.18.00
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: true
       public: true
       ref: boost-conversion/1.91.0-a.d+26.01.02.13.40
@@ -875,7 +875,7 @@ sources:
       ref: boost-lexical_cast/1.91.0-a.d+26.01.26.17.58
     - header: true
       public: true
-      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+      ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
     - header: true
       public: true
       ref: boost-numeric_conversion/1.91.0-a.d+25.06.26.07.40
@@ -905,7 +905,7 @@ sources:
       ref: boost-integer/1.91.0-a.d+26.01.22.15.37
     - header: true
       public: false
-      ref: boost-property_map/1.91.0-a.d+25.07.02.16.58
+      ref: boost-property_map/1.91.0-a.d+26.01.22.20.55
     targets:
     - dependencies: []
       kind: library

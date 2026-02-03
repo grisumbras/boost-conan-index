@@ -318,6 +318,51 @@ sources:
       kind: header-library
       name: boost_statechart
     url: https://github.com/boostorg/statechart.git
+  1.91.0-a.d+26.01.22.19.19:
+    commit: 7e9693d9196f6b92d9cfd8b44da28b9f29d25f96
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-bind/1.91.0-a.d+26.01.03.18.00
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-conversion/1.91.0-a.d+26.01.02.13.40
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.d+26.01.22.15.23
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.d+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
+    - header: false
+      public: true
+      ref: boost-thread/1.91.0-a.d+25.05.02.19.21
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_statechart
+    url: https://github.com/boostorg/statechart.git
   1.91.0-a.m+24.09.28.11.17:
     commit: ae93e58e44f722626fe462a854b92d9b4f11449a
     cxxstd: '03'

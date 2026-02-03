@@ -234,6 +234,39 @@ sources:
       kind: header-library
       name: boost_circular_buffer
     url: https://github.com/boostorg/circular_buffer.git
+  1.91.0-a.d+26.02.03.02.13:
+    commit: 737acf58a28a3e5567c6680a58d99a22fe0a0f20
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.d+26.01.22.18.08
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_circular_buffer
+    url: https://github.com/boostorg/circular_buffer.git
   1.91.0-a.m+22.09.12.08.08:
     commit: a08a5b55ee82e0c2487523471379ac53a23935dc
     cxxstd: '03'

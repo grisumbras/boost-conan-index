@@ -276,6 +276,45 @@ sources:
       kind: header-library
       name: boost_proto
     url: https://github.com/boostorg/proto.git
+  1.91.0-a.d+26.02.03.02.14:
+    commit: 10a9e1d8dcab902456dfeec831c18e47c7f1c313
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-fusion/1.91.0-a.d+26.01.23.01.34
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-a.d+25.05.02.19.18
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0-a.d+26.02.03.04.18
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_proto
+    url: https://github.com/boostorg/proto.git
   1.91.0-a.m+21.03.18.17.30:
     commit: 7f924934689b940f3a72212ab0f714ec6fd6e34b
     cxxstd: null

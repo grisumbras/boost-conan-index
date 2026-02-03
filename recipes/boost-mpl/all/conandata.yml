@@ -303,6 +303,36 @@ sources:
       kind: header-library
       name: boost_mpl
     url: https://github.com/boostorg/mpl.git
+  1.91.0-a.d+26.01.22.22.48:
+    commit: d3e7539631145591e656b3d4579a6feee7418d5b
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_mpl
+    url: https://github.com/boostorg/mpl.git
   1.91.0-a.m+25.10.23.11.37:
     commit: 2358570f2d801dfd5a1b06701696f42b0d2e390a
     cxxstd: '03'

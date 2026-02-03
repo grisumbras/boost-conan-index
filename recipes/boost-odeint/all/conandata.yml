@@ -645,7 +645,7 @@ sources:
       ref: boost-compute/1.91.0-a.d+25.05.02.19.06
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+26.01.04.15.57
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -657,13 +657,13 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.01.29.10.02
+      ref: boost-math/1.91.0-a.d+26.02.02.09.37
     - header: false
       public: true
       ref: boost-mpi/1.91.0-a.d+25.12.02.14.52
     - header: true
       public: true
-      ref: boost-mpl/1.91.0-a.d+25.10.23.11.37
+      ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
     - header: true
       public: true
       ref: boost-multi_array/1.91.0-a.d+25.06.25.18.51
