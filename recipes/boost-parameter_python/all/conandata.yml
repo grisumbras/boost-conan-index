@@ -156,7 +156,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
+      ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
     - header: true
       public: true
       ref: boost-parameter/1.91.0-a.m+25.12.13.20.44

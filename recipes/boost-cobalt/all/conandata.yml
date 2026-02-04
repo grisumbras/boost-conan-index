@@ -895,13 +895,13 @@ sources:
       ref: boost-callable_traits/1.91.0-a.d+25.06.25.18.43
     - header: true
       public: true
-      ref: boost-circular_buffer/1.91.0-a.d+26.02.03.02.13
+      ref: boost-circular_buffer/1.91.0-a.d+26.02.03.14.37
     - header: true
       public: true
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.02.03.02.09
+      ref: boost-container/1.91.0-a.d+26.02.04.00.27
     - header: false
       public: true
       ref: boost-context/1.91.0-a.d+25.12.27.17.25
@@ -964,10 +964,10 @@ sources:
       ref: boost-callable_traits/1.91.0-a.m+21.09.14.23.10
     - header: true
       public: true
-      ref: boost-circular_buffer/1.91.0-a.m+22.09.12.08.08
+      ref: boost-circular_buffer/1.91.0-a.m+26.02.03.14.37
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+26.01.04.15.57
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
     - header: false
       public: true
       ref: boost-container/1.91.0-a.m+26.01.24.23.29

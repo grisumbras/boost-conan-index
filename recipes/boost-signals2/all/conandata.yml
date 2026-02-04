@@ -471,7 +471,7 @@ sources:
       ref: boost-bind/1.91.0-a.m+26.01.03.18.00
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+26.01.04.15.57
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.22.15.21
@@ -486,7 +486,7 @@ sources:
       ref: boost-move/1.91.0-a.m+26.01.22.18.08
     - header: true
       public: true
-      ref: boost-mpl/1.91.0-a.m+25.10.23.11.37
+      ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
     - header: true
       public: true
       ref: boost-optional/1.91.0-a.m+26.01.31.22.49

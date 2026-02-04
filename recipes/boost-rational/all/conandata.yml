@@ -300,3 +300,36 @@ sources:
       kind: header-library
       name: boost_rational
     url: https://github.com/boostorg/rational.git
+  1.91.0-a.m+26.01.22.21.05:
+    commit: 421b19c3eaa3fc8019b435faeb02666ad929493b
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-a.m+26.01.22.15.37
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.m+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_rational
+    url: https://github.com/boostorg/rational.git
