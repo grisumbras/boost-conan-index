@@ -381,6 +381,60 @@ sources:
       kind: library
       name: boost_date_time
     url: https://github.com/boostorg/date_time.git
+  1.91.0-a.d+26.02.06.04.26:
+    commit: 6b387c4969ffa4cf72d34786402762c94de06c54
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.91.0-a.d+26.02.05.17.25
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-a.d+26.01.22.22.15
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.91.0-a.d+26.01.26.17.58
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.91.0-a.d+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-a.d+25.05.02.19.18
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tokenizer/1.91.0-a.d+25.07.02.17.31
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_date_time
+    url: https://github.com/boostorg/date_time.git
   1.91.0-a.m+22.10.31.09.22:
     commit: 85e637cb325208c2af9af791c3a1948b4888c6cd
     cxxstd: '03'

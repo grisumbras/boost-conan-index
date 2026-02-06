@@ -1083,7 +1083,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-algorithm/1.91.0-a.d+25.08.25.08.42
+      ref: boost-algorithm/1.91.0-a.d+26.02.05.17.25
     - header: true
       public: true
       ref: boost-any/1.91.0-a.d+26.01.12.20.29
@@ -1143,7 +1143,7 @@ sources:
       ref: boost-multi_index/1.91.0-a.d+26.01.23.22.08
     - header: true
       public: true
-      ref: boost-multiprecision/1.91.0-a.d+25.12.29.18.05
+      ref: boost-multiprecision/1.91.0-a.d+26.02.06.12.14
     - header: true
       public: true
       ref: boost-numeric_conversion/1.91.0-a.d+25.06.26.07.40
@@ -1161,7 +1161,7 @@ sources:
       ref: boost-property_map/1.91.0-a.d+26.01.22.20.55
     - header: true
       public: true
-      ref: boost-property_tree/1.91.0-a.d+25.06.30.13.56
+      ref: boost-property_tree/1.91.0-a.d+26.02.06.13.52
     - header: false
       public: true
       ref: boost-random/1.91.0-a.d+26.01.22.14.34
@@ -1203,7 +1203,7 @@ sources:
       ref: boost-utility/1.91.0-a.d+26.01.22.15.40
     - header: true
       public: true
-      ref: boost-xpressive/1.91.0-a.d+25.05.02.19.26
+      ref: boost-xpressive/1.91.0-a.d+26.02.06.01.55
     - header: false
       public: false
       ref: boost-regex/1.91.0-a.d+25.07.04.20.20
@@ -1296,7 +1296,7 @@ sources:
       ref: boost-property_map/1.91.0-a.m+26.01.22.20.55
     - header: true
       public: true
-      ref: boost-property_tree/1.91.0-a.m+25.06.30.13.56
+      ref: boost-property_tree/1.91.0-a.m+26.02.06.13.52
     - header: false
       public: true
       ref: boost-random/1.91.0-a.m+25.11.14.15.33

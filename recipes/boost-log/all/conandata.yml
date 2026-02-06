@@ -1836,7 +1836,7 @@ sources:
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-date_time/1.91.0-a.d+25.07.07.06.39
+      ref: boost-date_time/1.91.0-a.d+26.02.06.04.26
     - header: false
       public: true
       ref: boost-exception/1.91.0-a.d+26.02.01.13.57
@@ -1845,7 +1845,7 @@ sources:
       ref: boost-filesystem/1.91.0-a.d+26.01.29.11.41
     - header: true
       public: true
-      ref: boost-function_types/1.91.0-a.d+26.01.19.12.23
+      ref: boost-function_types/1.91.0-a.d+26.02.05.17.38
     - header: true
       public: true
       ref: boost-fusion/1.91.0-a.d+26.01.23.01.34
@@ -1875,7 +1875,7 @@ sources:
       ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-property_tree/1.91.0-a.d+25.06.30.13.56
+      ref: boost-property_tree/1.91.0-a.d+26.02.06.13.52
     - header: true
       public: true
       ref: boost-proto/1.91.0-a.d+26.02.03.16.55
@@ -1896,7 +1896,7 @@ sources:
       ref: boost-system/1.91.0-a.d+26.01.27.19.51
     - header: false
       public: true
-      ref: boost-thread/1.91.0-a.d+25.05.02.19.21
+      ref: boost-thread/1.91.0-a.d+26.02.06.14.05
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
@@ -1914,7 +1914,7 @@ sources:
       ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
     - header: true
       public: true
-      ref: boost-xpressive/1.91.0-a.d+25.05.02.19.26
+      ref: boost-xpressive/1.91.0-a.d+26.02.06.01.55
     - header: true
       public: false
       ref: boost-align/1.91.0-a.d+26.01.22.22.16
@@ -2117,7 +2117,7 @@ sources:
       ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-property_tree/1.91.0-a.m+25.06.30.13.56
+      ref: boost-property_tree/1.91.0-a.m+26.02.06.13.52
     - header: true
       public: true
       ref: boost-proto/1.91.0-a.m+26.02.03.16.55

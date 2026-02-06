@@ -1155,7 +1155,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-algorithm/1.91.0-a.d+25.08.25.08.42
+      ref: boost-algorithm/1.91.0-a.d+26.02.05.17.25
     - header: true
       public: true
       ref: boost-any/1.91.0-a.d+26.01.12.20.29
@@ -1173,7 +1173,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.02.05.00.29
+      ref: boost-container/1.91.0-a.d+26.02.06.00.00
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -1182,7 +1182,7 @@ sources:
       ref: boost-endian/1.91.0-a.d+26.01.23.05.36
     - header: true
       public: true
-      ref: boost-function_types/1.91.0-a.d+26.01.19.12.23
+      ref: boost-function_types/1.91.0-a.d+26.02.05.17.38
     - header: true
       public: true
       ref: boost-fusion/1.91.0-a.d+26.01.23.01.34
@@ -1206,7 +1206,7 @@ sources:
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-multiprecision/1.91.0-a.d+25.12.29.18.05
+      ref: boost-multiprecision/1.91.0-a.d+26.02.06.12.14
     - header: true
       public: true
       ref: boost-numeric_conversion/1.91.0-a.d+25.06.26.07.40
@@ -1233,7 +1233,7 @@ sources:
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
     - header: false
       public: true
-      ref: boost-thread/1.91.0-a.d+25.05.02.19.21
+      ref: boost-thread/1.91.0-a.d+26.02.06.14.05
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38

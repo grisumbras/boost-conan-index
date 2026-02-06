@@ -417,7 +417,7 @@ sources:
       ref: boost-predef/1.91.0-a.d+25.02.03.08.30
     - header: false
       public: false
-      ref: boost-thread/1.91.0-a.d+25.05.02.19.21
+      ref: boost-thread/1.91.0-a.d+26.02.06.14.05
     targets:
     - dependencies: []
       kind: library

@@ -333,7 +333,7 @@ sources:
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-function_types/1.91.0-a.d+26.01.19.12.23
+      ref: boost-function_types/1.91.0-a.d+26.02.05.17.38
     - header: true
       public: true
       ref: boost-functional/1.91.0-a.d+25.06.26.09.00

@@ -234,7 +234,7 @@ sources:
       ref: boost-function/1.91.0-a.d+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-function_types/1.91.0-a.d+26.01.19.12.23
+      ref: boost-function_types/1.91.0-a.d+26.02.05.17.38
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48

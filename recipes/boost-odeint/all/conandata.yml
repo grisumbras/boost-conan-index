@@ -666,7 +666,7 @@ sources:
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-multi_array/1.91.0-a.d+25.06.25.18.51
+      ref: boost-multi_array/1.91.0-a.d+26.02.06.13.48
     - header: true
       public: true
       ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
@@ -729,7 +729,7 @@ sources:
       ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-multi_array/1.91.0-a.m+21.05.28.00.46
+      ref: boost-multi_array/1.91.0-a.m+26.02.06.13.48
     - header: true
       public: true
       ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
