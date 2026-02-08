@@ -273,19 +273,19 @@ sources:
       ref: boost-lexical_cast/1.91.0-a.d+26.01.26.17.58
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.02.02.09.37
+      ref: boost-math/1.91.0-a.d+26.02.06.09.42
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+24.12.08.17.21
+      ref: boost-optional/1.91.0-a.d+26.02.07.23.05
     - header: true
       public: true
       ref: boost-parameter/1.91.0-a.d+25.12.13.20.44
     - header: true
       public: true
-      ref: boost-range/1.91.0-a.d+25.05.02.19.18
+      ref: boost-range/1.91.0-a.d+26.02.07.14.41
     - header: true
       public: true
       ref: boost-spirit/1.91.0-a.d+26.01.23.06.34
@@ -327,7 +327,7 @@ sources:
       ref: boost-parameter/1.91.0-a.m+25.12.13.20.44
     - header: true
       public: true
-      ref: boost-range/1.91.0-a.m+25.02.08.16.31
+      ref: boost-range/1.91.0-a.m+26.02.07.14.40
     - header: true
       public: true
       ref: boost-spirit/1.91.0-a.m+25.09.17.08.31

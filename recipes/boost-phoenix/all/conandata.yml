@@ -396,7 +396,7 @@ sources:
       ref: boost-proto/1.91.0-a.d+26.02.03.16.55
     - header: true
       public: true
-      ref: boost-range/1.91.0-a.d+25.05.02.19.18
+      ref: boost-range/1.91.0-a.d+26.02.07.14.41
     - header: true
       public: true
       ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
@@ -447,7 +447,7 @@ sources:
       ref: boost-proto/1.91.0-a.m+26.02.03.16.55
     - header: true
       public: true
-      ref: boost-range/1.91.0-a.m+25.02.08.16.31
+      ref: boost-range/1.91.0-a.m+26.02.07.14.40
     - header: true
       public: true
       ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
