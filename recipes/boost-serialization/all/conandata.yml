@@ -514,7 +514,7 @@ sources:
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+26.02.07.23.05
+      ref: boost-optional/1.91.0-a.d+26.02.10.22.02
     - header: true
       public: true
       ref: boost-predef/1.91.0-a.d+25.02.03.08.30

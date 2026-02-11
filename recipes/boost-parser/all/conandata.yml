@@ -285,7 +285,7 @@ sources:
       ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: false
       public: true
-      ref: boost-charconv/1.91.0-a.d+26.01.28.08.03
+      ref: boost-charconv/1.91.0-a.d+26.02.10.12.20
     - header: true
       public: true
       ref: boost-hana/1.91.0-a.d+25.07.03.23.00

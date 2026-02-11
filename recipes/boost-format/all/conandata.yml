@@ -198,7 +198,7 @@ sources:
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+26.02.07.23.05
+      ref: boost-optional/1.91.0-a.d+26.02.10.22.02
     - header: true
       public: true
       ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
