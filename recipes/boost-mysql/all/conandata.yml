@@ -560,7 +560,7 @@ sources:
       ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: false
       public: true
-      ref: boost-charconv/1.91.0-a.m+25.10.29.19.17
+      ref: boost-charconv/1.91.0-a.m+26.02.11.10.51
     - header: true
       public: true
       ref: boost-compat/1.91.0-a.m+26.01.24.12.40

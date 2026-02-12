@@ -441,7 +441,7 @@ sources:
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: false
       public: false
-      ref: boost-charconv/1.91.0-a.m+25.10.29.19.17
+      ref: boost-charconv/1.91.0-a.m+26.02.11.10.51
     - header: true
       public: false
       ref: boost-predef/1.91.0-a.m+25.01.12.12.53
