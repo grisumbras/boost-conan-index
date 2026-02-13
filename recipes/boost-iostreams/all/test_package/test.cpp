@@ -1,4 +1,4 @@
-#include <boost/iostreams/pipeline.hpp>
+#include <boost/iostreams/tee.hpp>
 
 int main()
 {

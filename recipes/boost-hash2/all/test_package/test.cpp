@@ -1,4 +1,4 @@
-#include <boost/hash2/sha2.hpp>
+#include <boost/hash2/is_trivially_equality_comparable.hpp>
 
 int main()
 {

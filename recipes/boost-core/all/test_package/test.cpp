@@ -1,4 +1,4 @@
-#include <boost/get_pointer.hpp>
+#include <boost/iterator.hpp>
 
 int main()
 {

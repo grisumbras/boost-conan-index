@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/opencl.hpp>
+#include <boost/numeric/ublas/symmetric.hpp>
 
 int main()
 {

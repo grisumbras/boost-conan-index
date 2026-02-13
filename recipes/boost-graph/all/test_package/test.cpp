@@ -1,4 +1,4 @@
-#include <boost/graph/compressed_sparse_row_graph.hpp>
+#include <boost/graph/kamada_kawai_spring_layout.hpp>
 
 int main()
 {
