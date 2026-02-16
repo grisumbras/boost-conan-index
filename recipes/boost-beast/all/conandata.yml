@@ -1056,7 +1056,7 @@ sources:
       ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+26.02.10.22.02
+      ref: boost-optional/1.91.0-a.d+26.02.16.01.13
     - header: true
       public: true
       ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
@@ -1065,7 +1065,7 @@ sources:
       ref: boost-static_string/1.91.0-a.d+25.12.19.12.32
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.d+26.01.27.19.51
+      ref: boost-system/1.91.0-a.d+26.02.16.02.28
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
