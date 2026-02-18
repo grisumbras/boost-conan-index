@@ -366,7 +366,7 @@ sources:
       ref: boost-multi_index/1.91.0-a.d+26.01.23.22.08
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+26.02.16.01.13
+      ref: boost-optional/1.91.0-a.d+26.02.17.16.24
     - header: true
       public: true
       ref: boost-property_map/1.91.0-a.d+26.01.22.20.55
@@ -462,7 +462,7 @@ sources:
       ref: boost-multi_index/1.91.0-a.m+26.01.24.09.44
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.m+26.01.31.22.49
+      ref: boost-optional/1.91.0-a.m+26.02.17.16.31
     - header: true
       public: true
       ref: boost-property_map/1.91.0-a.m+26.01.22.20.55

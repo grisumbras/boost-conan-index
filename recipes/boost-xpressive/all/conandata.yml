@@ -567,7 +567,7 @@ sources:
       ref: boost-numeric_conversion/1.91.0-a.d+25.06.26.07.40
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+26.02.16.01.13
+      ref: boost-optional/1.91.0-a.d+26.02.17.16.24
     - header: true
       public: true
       ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
@@ -642,7 +642,7 @@ sources:
       ref: boost-numeric_conversion/1.91.0-a.m+25.06.26.07.40
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.m+26.01.31.22.49
+      ref: boost-optional/1.91.0-a.m+26.02.17.16.31
     - header: true
       public: true
       ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52

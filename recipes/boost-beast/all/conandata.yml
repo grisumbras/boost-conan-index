@@ -1035,7 +1035,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.02.13.17.25
+      ref: boost-container/1.91.0-a.d+26.02.17.22.51
     - header: true
       public: true
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
@@ -1047,7 +1047,7 @@ sources:
       ref: boost-endian/1.91.0-a.d+26.01.23.05.36
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.d+26.02.05.00.00
+      ref: boost-intrusive/1.91.0-a.d+26.02.17.23.20
     - header: true
       public: true
       ref: boost-logic/1.91.0-a.d+25.07.02.08.14
@@ -1056,7 +1056,7 @@ sources:
       ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+26.02.16.01.13
+      ref: boost-optional/1.91.0-a.d+26.02.17.16.24
     - header: true
       public: true
       ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
@@ -1188,7 +1188,7 @@ sources:
       ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.m+26.01.31.22.49
+      ref: boost-optional/1.91.0-a.m+26.02.17.16.31
     - header: true
       public: true
       ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21

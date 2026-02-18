@@ -1098,13 +1098,13 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-move/1.91.0-a.d+26.01.22.18.08
+      ref: boost-move/1.91.0-a.d+26.02.17.23.20
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+26.02.16.01.13
+      ref: boost-optional/1.91.0-a.d+26.02.17.16.24
     - header: true
       public: true
       ref: boost-phoenix/1.91.0-a.d+26.01.23.01.35
@@ -1200,7 +1200,7 @@ sources:
       ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.m+26.01.31.22.49
+      ref: boost-optional/1.91.0-a.m+26.02.17.16.31
     - header: true
       public: true
       ref: boost-phoenix/1.91.0-a.m+23.08.29.14.32
