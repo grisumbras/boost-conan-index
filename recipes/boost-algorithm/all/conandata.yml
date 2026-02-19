@@ -459,7 +459,7 @@ sources:
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-range/1.91.0-a.d+26.02.08.11.36
+      ref: boost-range/1.91.0-a.d+26.02.19.10.17
     - header: false
       public: true
       ref: boost-regex/1.91.0-a.d+25.07.04.20.20
@@ -519,7 +519,7 @@ sources:
       ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-range/1.91.0-a.m+26.02.07.14.40
+      ref: boost-range/1.91.0-a.m+26.02.19.10.17
     - header: false
       public: true
       ref: boost-regex/1.91.0-a.m+25.07.04.17.16
@@ -531,7 +531,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-tuple/1.91.0-a.m+25.06.09.02.57
+      ref: boost-tuple/1.91.0-a.m+26.01.23.06.32
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36

@@ -567,7 +567,7 @@ sources:
       ref: boost-numeric_conversion/1.91.0-a.d+25.06.26.07.40
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+26.02.17.16.24
+      ref: boost-optional/1.91.0-a.d+26.02.18.21.10
     - header: true
       public: true
       ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
@@ -576,7 +576,7 @@ sources:
       ref: boost-proto/1.91.0-a.d+26.02.03.16.55
     - header: true
       public: true
-      ref: boost-range/1.91.0-a.d+26.02.08.11.36
+      ref: boost-range/1.91.0-a.d+26.02.19.10.17
     - header: true
       public: true
       ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
@@ -652,6 +652,81 @@ sources:
     - header: true
       public: true
       ref: boost-range/1.91.0-a.m+26.02.07.14.40
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-spirit/1.91.0-a.m+25.09.17.08.31
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0-a.m+26.02.03.04.18
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.m+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_xpressive
+    url: https://github.com/boostorg/xpressive.git
+  1.91.0-a.m+26.02.06.01.55:
+    commit: 09002924ba85a6f4c82a3260915c4ef535a8f60d
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-conversion/1.91.0-a.m+26.01.02.13.40
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-a.m+26.02.01.13.57
+    - header: true
+      public: true
+      ref: boost-fusion/1.91.0-a.m+24.05.15.10.13
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-a.m+26.01.22.15.37
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.91.0-a.m+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.m+26.02.17.16.31
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-proto/1.91.0-a.m+26.02.03.16.55
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-a.m+26.02.19.10.17
     - header: true
       public: true
       ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21

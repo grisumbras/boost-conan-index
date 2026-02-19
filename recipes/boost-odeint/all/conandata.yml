@@ -657,7 +657,7 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.02.06.09.42
+      ref: boost-math/1.91.0-a.d+26.02.18.16.13
     - header: false
       public: true
       ref: boost-mpi/1.91.0-a.d+25.12.02.14.52
@@ -672,7 +672,7 @@ sources:
       ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-range/1.91.0-a.d+26.02.08.11.36
+      ref: boost-range/1.91.0-a.d+26.02.19.10.17
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
@@ -705,7 +705,7 @@ sources:
       ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-compute/1.91.0-a.m+24.08.22.10.16
+      ref: boost-compute/1.91.0-a.m+26.02.06.19.14
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+26.02.03.02.16
@@ -735,7 +735,7 @@ sources:
       ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-range/1.91.0-a.m+26.02.07.14.40
+      ref: boost-range/1.91.0-a.m+26.02.19.10.17
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
@@ -750,7 +750,7 @@ sources:
       ref: boost-ublas/1.91.0-a.m+24.05.07.22.32
     - header: true
       public: true
-      ref: boost-units/1.91.0-a.m+26.02.07.03.14
+      ref: boost-units/1.91.0-a.m+26.02.07.04.17
     - header: true
       public: true
       ref: boost-utility/1.91.0-a.m+26.01.22.15.40
