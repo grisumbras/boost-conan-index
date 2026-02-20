@@ -1,4 +1,4 @@
-#include <boost/property_tree/ptree_serialization.hpp>
+#include <boost/property_tree/ptree_fwd.hpp>
 
 int main()
 {

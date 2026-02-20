@@ -1,4 +1,4 @@
-#include <boost/property_map/parallel/basic_reduce.hpp>
+#include <boost/property_map/parallel/local_property_map.hpp>
 
 int main()
 {

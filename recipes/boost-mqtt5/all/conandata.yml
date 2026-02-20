@@ -819,7 +819,7 @@ sources:
       ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.m+26.01.27.19.51
+      ref: boost-system/1.91.0-a.m+26.02.16.02.28
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36

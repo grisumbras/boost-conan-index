@@ -504,7 +504,7 @@ sources:
       ref: boost-date_time/1.91.0-a.m+22.10.31.09.22
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.m+26.01.27.19.51
+      ref: boost-system/1.91.0-a.m+26.02.16.02.28
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38

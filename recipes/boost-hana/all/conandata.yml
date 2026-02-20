@@ -165,7 +165,7 @@ sources:
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-tuple/1.91.0-a.d+26.01.23.06.32
+      ref: boost-tuple/1.91.0-a.d+26.02.19.13.44
     targets:
     - dependencies: []
       kind: header-library
@@ -189,7 +189,7 @@ sources:
       ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-tuple/1.91.0-a.m+26.01.23.06.32
+      ref: boost-tuple/1.91.0-a.m+26.02.19.13.44
     targets:
     - dependencies: []
       kind: header-library

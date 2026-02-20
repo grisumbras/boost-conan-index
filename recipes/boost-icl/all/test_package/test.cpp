@@ -1,4 +1,4 @@
-#include <boost/icl/continuous_interval.hpp>
+#include <boost/icl/set.hpp>
 
 int main()
 {
