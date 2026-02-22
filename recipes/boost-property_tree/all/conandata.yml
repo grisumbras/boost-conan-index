@@ -390,7 +390,7 @@ sources:
       ref: boost-multi_index/1.91.0-a.d+26.01.23.22.08
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+26.02.18.21.10
+      ref: boost-optional/1.91.0-a.d+26.02.20.16.14
     - header: true
       public: true
       ref: boost-range/1.91.0-a.d+26.02.19.10.17
@@ -492,7 +492,7 @@ sources:
       ref: boost-multi_index/1.91.0-a.m+26.01.24.09.44
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.m+26.02.17.16.31
+      ref: boost-optional/1.91.0-a.m+26.02.20.16.16
     - header: true
       public: true
       ref: boost-range/1.91.0-a.m+26.02.19.10.17

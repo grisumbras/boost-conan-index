@@ -453,6 +453,36 @@ sources:
       kind: library
       name: boost_locale
     url: https://github.com/boostorg/locale.git
+  1.91.0-a.d+26.02.21.11.20:
+    commit: 64fd982dc4302adef4036b89d64b922227f6ba65
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
+    - header: false
+      public: false
+      ref: boost-charconv/1.91.0-a.d+26.02.10.12.20
+    - header: true
+      public: false
+      ref: boost-predef/1.91.0-a.d+25.02.03.08.30
+    - header: false
+      public: false
+      ref: boost-thread/1.91.0-a.d+26.02.06.15.45
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_locale
+    url: https://github.com/boostorg/locale.git
   1.91.0-a.m+25.11.03.12.30:
     commit: 448d98ec03c10da6b4b8b4a9c4424818fb2dedc2
     cxxstd: '11'
