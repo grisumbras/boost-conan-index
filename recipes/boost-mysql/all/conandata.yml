@@ -520,7 +520,7 @@ sources:
       ref: boost-endian/1.91.0-a.d+26.01.23.05.36
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.d+26.02.17.23.20
+      ref: boost-intrusive/1.91.0-a.d+26.02.23.22.03
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
@@ -532,7 +532,7 @@ sources:
       ref: boost-pfr/1.91.0-a.d+26.02.06.20.58
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.d+26.02.21.12.17
+      ref: boost-system/1.91.0-a.d+26.02.22.18.33
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
@@ -594,6 +594,67 @@ sources:
     - header: true
       public: true
       ref: boost-system/1.91.0-a.m+26.02.20.21.26
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-variant2/1.91.0-a.m+26.01.22.02.39
+    - header: false
+      public: true
+      ref: openssl/[*]
+    targets:
+    - dependencies:
+      - openssl::ssl
+      kind: header-library
+      name: boost_mysql
+    url: https://github.com/boostorg/mysql.git
+  1.91.0-a.m+26.01.23.02.24:
+    commit: 3ccd20da49a697ce4fcf09495bf71588eefc39a2
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.91.0-a.m+25.12.04.00.07
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: false
+      public: true
+      ref: boost-charconv/1.91.0-a.m+26.02.11.10.51
+    - header: true
+      public: true
+      ref: boost-compat/1.91.0-a.m+26.01.24.12.40
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-a.m+26.02.21.22.45
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-describe/1.91.0-a.m+25.12.15.19.39
+    - header: true
+      public: true
+      ref: boost-endian/1.91.0-a.m+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.m+26.02.17.23.20
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.m+26.02.20.16.16
+    - header: true
+      public: true
+      ref: boost-pfr/1.91.0-a.m+26.02.06.20.58
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.m+26.02.22.18.33
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38

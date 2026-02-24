@@ -1113,7 +1113,7 @@ sources:
       ref: boost-endian/1.91.0-a.d+26.01.23.05.36
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.d+26.02.17.23.20
+      ref: boost-intrusive/1.91.0-a.d+26.02.23.22.03
     - header: true
       public: true
       ref: boost-logic/1.91.0-a.d+25.07.02.08.14
@@ -1131,7 +1131,7 @@ sources:
       ref: boost-static_string/1.91.0-a.d+25.12.19.12.32
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.d+26.02.21.12.17
+      ref: boost-system/1.91.0-a.d+26.02.22.18.33
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
@@ -1263,7 +1263,7 @@ sources:
       ref: boost-static_string/1.91.0-a.m+25.11.14.12.03
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.m+26.02.20.21.26
+      ref: boost-system/1.91.0-a.m+26.02.22.18.33
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
