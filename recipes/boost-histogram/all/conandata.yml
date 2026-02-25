@@ -255,7 +255,7 @@ sources:
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.02.19.17.35
+      ref: boost-math/1.91.0-a.d+26.02.24.12.05
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
@@ -267,7 +267,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.d+26.01.22.02.39
+      ref: boost-variant2/1.91.0-a.d+26.02.24.21.01
     targets:
     - dependencies: []
       kind: header-library
@@ -297,7 +297,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.m+26.01.22.02.39
+      ref: boost-variant2/1.91.0-a.m+26.02.24.21.01
     targets:
     - dependencies: []
       kind: header-library

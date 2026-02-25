@@ -544,7 +544,7 @@ sources:
       ref: boost-variant/1.91.0-a.d+26.01.04.11.27
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.d+26.01.22.02.39
+      ref: boost-variant2/1.91.0-a.d+26.02.24.21.01
     - header: true
       public: false
       ref: boost-function/1.91.0-a.d+26.01.23.05.06
@@ -626,7 +626,7 @@ sources:
       ref: boost-variant/1.91.0-a.m+26.01.04.11.27
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.m+26.01.22.02.39
+      ref: boost-variant2/1.91.0-a.m+26.02.24.21.01
     - header: true
       public: false
       ref: boost-function/1.91.0-a.m+26.01.23.05.06

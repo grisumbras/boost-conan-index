@@ -1107,7 +1107,7 @@ sources:
       ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
     - header: true
       public: true
-      ref: boost-conversion/1.91.0-a.d+26.01.02.13.40
+      ref: boost-conversion/1.91.0-a.d+26.02.25.08.39
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -1131,7 +1131,7 @@ sources:
       ref: boost-lexical_cast/1.91.0-a.d+26.01.26.17.58
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.02.19.17.35
+      ref: boost-math/1.91.0-a.d+26.02.24.12.05
     - header: true
       public: true
       ref: boost-move/1.91.0-a.d+26.02.17.23.20

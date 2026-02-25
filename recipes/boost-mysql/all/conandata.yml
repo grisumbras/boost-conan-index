@@ -508,7 +508,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.02.22.23.25
+      ref: boost-container/1.91.0-a.d+26.02.25.00.16
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -538,7 +538,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.d+26.01.22.02.39
+      ref: boost-variant2/1.91.0-a.d+26.02.24.21.01
     - header: false
       public: true
       ref: openssl/[*]
@@ -630,7 +630,7 @@ sources:
       ref: boost-config/1.91.0-a.m+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.m+26.02.21.22.45
+      ref: boost-container/1.91.0-a.m+26.02.25.00.16
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.22.15.21
@@ -642,7 +642,7 @@ sources:
       ref: boost-endian/1.91.0-a.m+26.01.23.05.36
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.m+26.02.17.23.20
+      ref: boost-intrusive/1.91.0-a.m+26.02.23.22.03
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
@@ -660,7 +660,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-variant2/1.91.0-a.m+26.01.22.02.39
+      ref: boost-variant2/1.91.0-a.m+26.02.24.21.01
     - header: false
       public: true
       ref: openssl/[*]

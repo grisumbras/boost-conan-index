@@ -1031,7 +1031,7 @@ sources:
       ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.91.0-a.m+25.12.20.20.50
+      ref: boost-dynamic_bitset/1.91.0-a.m+26.02.18.16.48
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.m+26.01.23.02.29

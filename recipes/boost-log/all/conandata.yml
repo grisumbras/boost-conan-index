@@ -2093,7 +2093,7 @@ sources:
       ref: boost-fusion/1.91.0-a.m+24.05.15.10.13
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.m+26.02.17.23.20
+      ref: boost-intrusive/1.91.0-a.m+26.02.23.22.03
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
