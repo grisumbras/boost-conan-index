@@ -579,6 +579,36 @@ sources:
       kind: header-library
       name: boost_system
     url: https://github.com/boostorg/system.git
+  1.91.0-a.d+26.02.25.20.02:
+    commit: 026862285e4d373692e16a34419f638eb590cf71
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-compat/1.91.0-a.d+26.01.24.12.40
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-variant2/1.91.0-a.d+26.02.24.21.01
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_system
+    url: https://github.com/boostorg/system.git
   1.91.0-a.m+25.12.18.19.28:
     commit: b930bc38acf87e2b4c58f5b3d211f20cc8917612
     cxxstd: '11'
@@ -754,6 +784,36 @@ sources:
     - header: true
       public: true
       ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-variant2/1.91.0-a.m+26.02.24.21.01
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.m+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_system
+    url: https://github.com/boostorg/system.git
+  1.91.0-a.m+26.02.25.20.02:
+    commit: 026862285e4d373692e16a34419f638eb590cf71
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-compat/1.91.0-a.m+26.01.24.12.40
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38

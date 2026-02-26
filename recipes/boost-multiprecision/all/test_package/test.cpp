@@ -1,4 +1,4 @@
-#include <boost/multiprecision/number.hpp>
+#include <boost/multiprecision/gmp.hpp>
 
 int main()
 {

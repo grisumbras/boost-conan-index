@@ -1,4 +1,4 @@
-#include <boost/container/scoped_allocator.hpp>
+#include <boost/container/uses_allocator.hpp>
 
 int main()
 {

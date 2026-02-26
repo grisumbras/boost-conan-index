@@ -1,4 +1,4 @@
-#include <boost/function_output_iterator.hpp>
+#include <boost/next_prior.hpp>
 
 int main()
 {

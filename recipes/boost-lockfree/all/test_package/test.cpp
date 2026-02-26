@@ -1,4 +1,4 @@
-#include <boost/lockfree/stack.hpp>
+#include <boost/lockfree/lockfree_forward.hpp>
 
 int main()
 {

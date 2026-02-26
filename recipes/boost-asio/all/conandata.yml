@@ -474,7 +474,7 @@ sources:
       ref: boost-date_time/1.91.0-a.d+26.02.06.04.26
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.d+26.02.22.18.33
+      ref: boost-system/1.91.0-a.d+26.02.25.20.02
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
@@ -504,7 +504,7 @@ sources:
       ref: boost-date_time/1.91.0-a.m+22.10.31.09.22
     - header: true
       public: true
-      ref: boost-system/1.91.0-a.m+26.02.22.18.33
+      ref: boost-system/1.91.0-a.m+26.02.25.20.02
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38

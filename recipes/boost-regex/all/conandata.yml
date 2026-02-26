@@ -263,6 +263,46 @@ sources:
       kind: library
       name: boost_regex_old
     url: https://github.com/boostorg/regex.git
+  1.91.0-a.d+26.02.25.12.04:
+    commit: 76870bae4301fcc91bb5d74b936e285e08d493ad
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
+    - header: true
+      public: false
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: false
+      ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_regex
+    - dependencies:
+      - boost_regex
+      kind: library
+      name: boost_regex_old
+    url: https://github.com/boostorg/regex.git
   1.91.0-a.m+25.07.04.17.16:
     commit: f439e22ae41fa647bd7de16c2d92deb232593985
     cxxstd: '11'

@@ -1149,7 +1149,7 @@ sources:
       ref: boost-numeric_conversion/1.91.0-a.d+25.06.26.07.40
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.d+26.02.20.16.14
+      ref: boost-optional/1.91.0-a.d+26.02.25.22.49
     - header: true
       public: true
       ref: boost-parameter/1.91.0-a.d+25.12.13.20.44
@@ -1206,7 +1206,7 @@ sources:
       ref: boost-xpressive/1.91.0-a.d+26.02.06.01.55
     - header: false
       public: false
-      ref: boost-regex/1.91.0-a.d+25.07.04.20.20
+      ref: boost-regex/1.91.0-a.d+26.02.25.12.04
     targets:
     - dependencies: []
       kind: library

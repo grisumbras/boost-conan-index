@@ -1,4 +1,4 @@
-#include <boost/functional/hash_fwd.hpp>
+#include <boost/container_hash/hash.hpp>
 
 int main()
 {

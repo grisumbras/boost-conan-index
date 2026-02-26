@@ -1,4 +1,4 @@
-#include <boost/blank.hpp>
+#include <boost/blank_fwd.hpp>
 
 int main()
 {

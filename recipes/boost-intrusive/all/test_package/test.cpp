@@ -1,4 +1,4 @@
-#include <boost/intrusive/avl_set_hook.hpp>
+#include <boost/intrusive/member_value_traits.hpp>
 
 int main()
 {
