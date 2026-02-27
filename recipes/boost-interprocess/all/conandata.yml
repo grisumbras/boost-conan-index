@@ -1126,6 +1126,33 @@ sources:
       kind: header-library
       name: boost_interprocess
     url: https://github.com/boostorg/interprocess.git
+  1.91.0-a.d+26.02.27.01.09:
+    commit: 87d8c1059e513621cd4da71567ec127ff5ea38a0
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-a.d+26.02.25.23.13
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.d+26.02.27.00.16
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.d+26.02.17.23.20
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_interprocess
+    url: https://github.com/boostorg/interprocess.git
   1.91.0-a.m+25.12.16.07.24:
     commit: 32ede303644cbd841426049cdec1993efc5e613d
     cxxstd: '03'
@@ -1250,6 +1277,33 @@ sources:
     - header: true
       public: true
       ref: boost-intrusive/1.91.0-a.m+26.02.23.22.03
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.m+26.02.17.23.20
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.m+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_interprocess
+    url: https://github.com/boostorg/interprocess.git
+  1.91.0-a.m+26.02.27.01.09:
+    commit: 87d8c1059e513621cd4da71567ec127ff5ea38a0
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-a.m+26.02.26.23.35
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.m+26.02.27.00.16
     - header: true
       public: true
       ref: boost-move/1.91.0-a.m+26.02.17.23.20

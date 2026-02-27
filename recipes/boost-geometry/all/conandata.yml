@@ -1491,7 +1491,7 @@ sources:
       ref: boost-config/1.91.0-a.m+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.m+26.02.25.00.16
+      ref: boost-container/1.91.0-a.m+26.02.26.23.35
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.22.15.21
@@ -1515,13 +1515,13 @@ sources:
       ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.m+25.12.15.15.13
+      ref: boost-math/1.91.0-a.m+26.02.26.13.50
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-multiprecision/1.91.0-a.m+25.10.26.12.17
+      ref: boost-multiprecision/1.91.0-a.m+26.02.26.13.49
     - header: true
       public: true
       ref: boost-numeric_conversion/1.91.0-a.m+25.06.26.07.40

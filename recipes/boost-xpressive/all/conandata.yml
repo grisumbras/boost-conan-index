@@ -573,7 +573,7 @@ sources:
       ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-proto/1.91.0-a.d+26.02.03.16.55
+      ref: boost-proto/1.91.0-a.d+26.02.27.06.38
     - header: true
       public: true
       ref: boost-range/1.91.0-a.d+26.02.19.10.17
@@ -723,7 +723,7 @@ sources:
       ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
     - header: true
       public: true
-      ref: boost-proto/1.91.0-a.m+26.02.03.16.55
+      ref: boost-proto/1.91.0-a.m+26.02.27.06.38
     - header: true
       public: true
       ref: boost-range/1.91.0-a.m+26.02.19.10.17

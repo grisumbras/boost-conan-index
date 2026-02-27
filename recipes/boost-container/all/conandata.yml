@@ -1351,7 +1351,7 @@ sources:
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.d+26.02.23.22.03
+      ref: boost-intrusive/1.91.0-a.d+26.02.27.00.16
     - header: true
       public: true
       ref: boost-move/1.91.0-a.d+26.02.17.23.20
@@ -1508,6 +1508,30 @@ sources:
     - header: true
       public: true
       ref: boost-intrusive/1.91.0-a.m+26.02.23.22.03
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.m+26.02.17.23.20
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_container
+    url: https://github.com/boostorg/container.git
+  1.91.0-a.m+26.02.26.23.35:
+    commit: 6807b47c2e4d58cbb1d044c578582fdde37456b8
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.m+26.02.27.00.16
     - header: true
       public: true
       ref: boost-move/1.91.0-a.m+26.02.17.23.20

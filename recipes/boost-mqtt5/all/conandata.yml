@@ -798,7 +798,7 @@ sources:
       ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-beast/1.91.0-a.d+26.02.18.08.48
+      ref: boost-beast/1.91.0-a.d+26.02.27.07.56
     - header: false
       public: true
       ref: boost-container/1.91.0-a.d+26.02.25.23.13
@@ -924,10 +924,10 @@ sources:
       ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-beast/1.91.0-a.m+26.02.13.16.32
+      ref: boost-beast/1.91.0-a.m+26.02.27.07.56
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.m+26.02.25.00.16
+      ref: boost-container/1.91.0-a.m+26.02.26.23.35
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.22.15.21
