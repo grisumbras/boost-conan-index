@@ -537,7 +537,7 @@ sources:
       ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.m+26.02.20.16.16
+      ref: boost-optional/1.91.0-a.m+26.02.27.14.04
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36

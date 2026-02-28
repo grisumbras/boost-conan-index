@@ -462,7 +462,7 @@ sources:
       ref: boost-multi_index/1.91.0-a.m+26.01.24.09.44
     - header: true
       public: true
-      ref: boost-optional/1.91.0-a.m+26.02.20.16.16
+      ref: boost-optional/1.91.0-a.m+26.02.27.14.04
     - header: true
       public: true
       ref: boost-property_map/1.91.0-a.m+26.01.22.20.55
