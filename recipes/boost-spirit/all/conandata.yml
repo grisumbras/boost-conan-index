@@ -1182,7 +1182,7 @@ sources:
       ref: boost-function_types/1.91.0-a.m+26.01.19.12.23
     - header: true
       public: true
-      ref: boost-fusion/1.91.0-a.m+24.05.15.10.13
+      ref: boost-fusion/1.91.0-a.m+26.03.03.10.45
     - header: true
       public: true
       ref: boost-integer/1.91.0-a.m+26.01.22.15.37

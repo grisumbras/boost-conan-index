@@ -331,7 +331,7 @@ sources:
       ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
     - header: true
       public: false
-      ref: boost-algorithm/1.91.0-a.m+23.08.02.20.42
+      ref: boost-algorithm/1.91.0-a.m+26.03.03.10.52
     - header: false
       public: false
       ref: boost-filesystem/1.91.0-a.m+26.02.26.19.13

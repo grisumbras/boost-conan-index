@@ -543,3 +543,63 @@ sources:
       kind: header-library
       name: boost_algorithm
     url: https://github.com/boostorg/algorithm.git
+  1.91.0-a.m+26.03.03.10.52:
+    commit: af3258157d00fa04f72d982ec2f70495c5adf58c
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-bind/1.91.0-a.m+26.01.03.18.00
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0-a.m+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-a.m+26.02.01.13.57
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.m+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-a.m+26.02.19.10.17
+    - header: false
+      public: true
+      ref: boost-regex/1.91.0-a.m+25.07.04.17.16
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tuple/1.91.0-a.m+26.02.19.13.44
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-unordered/1.91.0-a.m+26.02.14.18.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_algorithm
+    url: https://github.com/boostorg/algorithm.git
