@@ -1209,3 +1209,75 @@ sources:
       kind: library
       name: boost_test_exec_monitor
     url: https://github.com/boostorg/test.git
+  1.91.0-a.m+26.03.04.13.17:
+    commit: 380722343f4edbda1bfb00c92836986d48297dd3
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.91.0-a.m+26.03.03.10.52
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-bind/1.91.0-a.m+26.01.03.18.00
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.m+26.01.22.15.23
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-a.m+26.02.01.13.57
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-a.m+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-a.m+23.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-a.m+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.91.0-a.m+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.m+26.02.27.14.04
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.m+26.01.22.15.40
+    - header: true
+      public: false
+      ref: boost-predef/1.91.0-a.m+25.01.12.12.53
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_unit_test_framework
+    - dependencies: []
+      kind: library
+      name: boost_prg_exec_monitor
+    - dependencies: []
+      kind: library
+      name: boost_test_exec_monitor
+    url: https://github.com/boostorg/test.git

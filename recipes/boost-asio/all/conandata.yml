@@ -513,8 +513,68 @@ sources:
       kind: header-library
       name: boost_asio
     url: https://github.com/boostorg/asio.git
+  1.91.0-a.d+26.03.04.21.50:
+    commit: dc5e582d221fb0e66312eb360c08c5029d13b2a2
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.91.0-a.d+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: false
+      public: true
+      ref: boost-context/1.91.0-a.d+26.02.23.08.02
+    - header: false
+      public: true
+      ref: boost-date_time/1.91.0-a.d+26.02.06.04.26
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_asio
+    url: https://github.com/boostorg/asio.git
   1.91.0-a.m+25.12.04.00.07:
     commit: 8b22ca054c15f32b5aea8649c0189f48f8ad874e
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.91.0-a.m+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: false
+      public: true
+      ref: boost-context/1.91.0-a.m+25.12.27.17.25
+    - header: false
+      public: true
+      ref: boost-date_time/1.91.0-a.m+22.10.31.09.22
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.m+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_asio
+    url: https://github.com/boostorg/asio.git
+  1.91.0-a.m+26.03.04.21.58:
+    commit: e443d6f1e973aacd14250c21794404b838c547ee
     cxxstd: '11'
     dependencies:
     - header: true
