@@ -462,7 +462,7 @@ sources:
       ref: boost-range/1.91.0-a.d+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-regex/1.91.0-a.d+26.02.25.12.04
+      ref: boost-regex/1.91.0-a.d+26.03.06.13.40
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-a.d+26.01.06.18.03

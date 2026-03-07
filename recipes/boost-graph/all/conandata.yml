@@ -1206,7 +1206,7 @@ sources:
       ref: boost-xpressive/1.91.0-a.d+26.02.06.01.55
     - header: false
       public: false
-      ref: boost-regex/1.91.0-a.d+26.02.25.12.04
+      ref: boost-regex/1.91.0-a.d+26.03.06.13.40
     targets:
     - dependencies: []
       kind: library
