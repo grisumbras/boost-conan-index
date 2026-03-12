@@ -1131,7 +1131,7 @@ sources:
       ref: boost-lexical_cast/1.91.0-a.d+26.01.26.17.58
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.02.24.12.05
+      ref: boost-math/1.91.0-a.d+26.03.10.11.06
     - header: true
       public: true
       ref: boost-move/1.91.0-a.d+26.02.17.23.20
