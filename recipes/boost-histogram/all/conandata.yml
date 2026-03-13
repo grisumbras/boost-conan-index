@@ -255,7 +255,7 @@ sources:
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.03.10.11.06
+      ref: boost-math/1.91.0-a.d+26.03.12.12.29
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
@@ -285,7 +285,7 @@ sources:
       ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.m+26.02.26.13.50
+      ref: boost-math/1.91.0-a.m+26.03.12.13.43
     - header: true
       public: true
       ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
