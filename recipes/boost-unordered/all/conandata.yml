@@ -654,3 +654,33 @@ sources:
       kind: header-library
       name: boost_unordered
     url: https://github.com/boostorg/unordered.git
+  1.91.0-a.m+26.03.12.10.29:
+    commit: f1e2fa38b0f24a3e39938bc3d829c286c839b724
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-a.m+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_unordered
+    url: https://github.com/boostorg/unordered.git
