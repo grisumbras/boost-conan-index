@@ -213,3 +213,24 @@ sources:
       kind: header-library
       name: boost_array
     url: https://github.com/boostorg/array.git
+  1.91.0-b.1:
+    commit: 3df3aafd1924084d46988590bd94cf4c1b362859
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_array
+    url: https://github.com/boostorg/array.git

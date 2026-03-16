@@ -783,3 +783,63 @@ sources:
       kind: header-library
       name: boost_range
     url: https://github.com/boostorg/range.git
+  1.91.0-b.1:
+    commit: 7481e429b023655a6e77799d5f2cf4788145d494
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-conversion/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-regex/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_range
+    url: https://github.com/boostorg/range.git

@@ -276,3 +276,24 @@ sources:
       kind: header-library
       name: boost_conversion
     url: https://github.com/boostorg/conversion.git
+  1.91.0-b.1:
+    commit: 827dd94c681d9a660c81d8f2716eb7d11fc4d42f
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_conversion
+    url: https://github.com/boostorg/conversion.git

@@ -363,3 +363,33 @@ sources:
       kind: library
       name: boost_atomic
     url: https://github.com/boostorg/atomic.git
+  1.91.0-b.1:
+    commit: 84dccb548a7d8353c8ae4021aa7903bc94f80e0b
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-align/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-preprocessor/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_atomic
+    url: https://github.com/boostorg/atomic.git

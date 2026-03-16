@@ -1227,3 +1227,54 @@ sources:
       kind: library
       name: boost_filesystem
     url: https://github.com/boostorg/filesystem.git
+  1.91.0-b.1:
+    commit: 510de7f7d874af01e4f201f6e2647d1e10b75ed7
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    - header: false
+      public: false
+      ref: boost-atomic/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-predef/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-scope/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-winapi/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_filesystem
+    url: https://github.com/boostorg/filesystem.git

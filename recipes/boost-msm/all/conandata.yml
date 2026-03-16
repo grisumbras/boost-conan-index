@@ -2919,3 +2919,66 @@ sources:
       kind: header-library
       name: boost_msm
     url: https://github.com/boostorg/msm.git
+  1.91.0-b.1:
+    commit: a6c8f42485084c238131eb5c90400c999ba2a45b
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-phoenix/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-proto/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-serialization/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_msm
+    url: https://github.com/boostorg/msm.git

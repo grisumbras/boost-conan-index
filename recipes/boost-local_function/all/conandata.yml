@@ -243,3 +243,33 @@ sources:
       kind: header-library
       name: boost_local_function
     url: https://github.com/boostorg/local_function.git
+  1.91.0-b.1:
+    commit: 258aeaa6c1a9618c02ca4e4af2890e70833035f0
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-scope_exit/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_local_function
+    url: https://github.com/boostorg/local_function.git

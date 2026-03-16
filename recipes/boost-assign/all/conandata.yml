@@ -423,3 +423,45 @@ sources:
       kind: header-library
       name: boost_assign
     url: https://github.com/boostorg/assign.git
+  1.91.0-b.1:
+    commit: ed938773ebdaf8cec5aba034be3d22ab20f6f2d3
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-ptr_container/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_assign
+    url: https://github.com/boostorg/assign.git

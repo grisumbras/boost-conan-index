@@ -363,3 +363,27 @@ sources:
       kind: header-library
       name: boost_sort
     url: https://github.com/boostorg/sort.git
+  1.91.0-b.1:
+    commit: 48c424bee18ee2d886f83571cc592f0319b501e3
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_sort
+    url: https://github.com/boostorg/sort.git

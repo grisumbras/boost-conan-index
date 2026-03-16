@@ -502,3 +502,51 @@ sources:
       kind: header-library
       name: boost_ptr_container
     url: https://github.com/boostorg/ptr_container.git
+  1.91.0-b.1:
+    commit: 43d147a4bd1c05a0e669698e2f6137e94eccfe32
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-circular_buffer/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-unordered/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_ptr_container
+    url: https://github.com/boostorg/ptr_container.git

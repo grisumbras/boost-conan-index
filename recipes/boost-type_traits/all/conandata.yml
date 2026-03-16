@@ -153,3 +153,18 @@ sources:
       kind: header-library
       name: boost_type_traits
     url: https://github.com/boostorg/type_traits.git
+  1.91.0-b.1:
+    commit: e6275ccf01c9cf8775ef0cb6188bd58f3b167a0f
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_type_traits
+    url: https://github.com/boostorg/type_traits.git

@@ -753,3 +753,78 @@ sources:
       kind: header-library
       name: boost_xpressive
     url: https://github.com/boostorg/xpressive.git
+  1.91.0-b.1:
+    commit: 09002924ba85a6f4c82a3260915c4ef535a8f60d
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-conversion/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-proto/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-spirit/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_xpressive
+    url: https://github.com/boostorg/xpressive.git

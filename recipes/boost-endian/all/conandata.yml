@@ -123,3 +123,15 @@ sources:
       kind: header-library
       name: boost_endian
     url: https://github.com/boostorg/endian.git
+  1.91.0-b.1:
+    commit: 4bffdf3defc2836409e72622066a40d8396088ae
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_endian
+    url: https://github.com/boostorg/endian.git

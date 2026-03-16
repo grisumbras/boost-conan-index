@@ -526,3 +526,42 @@ sources:
       kind: header-library
       name: boost_lockfree
     url: https://github.com/boostorg/lockfree.git
+  1.91.0-b.1:
+    commit: 4e320eb0b5f1b7596d67ef0173fcaee2c15a2eec
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-atomic/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lockfree
+    url: https://github.com/boostorg/lockfree.git

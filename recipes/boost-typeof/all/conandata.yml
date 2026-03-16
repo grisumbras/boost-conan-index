@@ -123,3 +123,15 @@ sources:
       kind: header-library
       name: boost_typeof
     url: https://github.com/boostorg/typeof.git
+  1.91.0-b.1:
+    commit: 06748a1d65182a2dacfb9e0aa5dfc6230353b66d
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_typeof
+    url: https://github.com/boostorg/typeof.git

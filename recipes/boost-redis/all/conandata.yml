@@ -1175,3 +1175,37 @@ sources:
       kind: header-library
       name: boost_redis
     url: https://github.com/boostorg/redis.git
+  1.91.0-b.1:
+    commit: e4a37f1cae874296121d9ccf8f3ff107b450a3e3
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-b.1
+    - header: false
+      public: true
+      ref: openssl/[*]
+    targets:
+    - dependencies:
+      - openssl::ssl
+      kind: header-library
+      name: boost_redis
+    url: https://github.com/boostorg/redis.git

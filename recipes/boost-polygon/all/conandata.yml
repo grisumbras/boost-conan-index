@@ -99,3 +99,15 @@ sources:
       kind: header-library
       name: boost_polygon
     url: https://github.com/boostorg/polygon.git
+  1.91.0-b.1:
+    commit: 8ba35b57c1436c4b36f7544aadd78c2b24acc7db
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_polygon
+    url: https://github.com/boostorg/polygon.git

@@ -670,3 +670,64 @@ sources:
       kind: header-library
       name: boost_mysql
     url: https://github.com/boostorg/mysql.git
+  1.91.0-b.1:
+    commit: 3ccd20da49a697ce4fcf09495bf71588eefc39a2
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-charconv/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-compat/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-describe/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-endian/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-pfr/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant2/1.91.0-b.1
+    - header: false
+      public: true
+      ref: openssl/[*]
+    targets:
+    - dependencies:
+      - openssl::ssl
+      kind: header-library
+      name: boost_mysql
+    url: https://github.com/boostorg/mysql.git

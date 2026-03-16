@@ -579,3 +579,21 @@ sources:
       kind: header-library
       name: boost_intrusive
     url: https://github.com/boostorg/intrusive.git
+  1.91.0-b.1:
+    commit: 1b4af0df680654d8abd1d48066f493b06238a36d
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_intrusive
+    url: https://github.com/boostorg/intrusive.git

@@ -213,3 +213,24 @@ sources:
       kind: header-library
       name: boost_scope
     url: https://github.com/boostorg/scope.git
+  1.91.0-b.1:
+    commit: c979d5e11b43cc36d5d5b8883e5b8a243478794f
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope
+    url: https://github.com/boostorg/scope.git

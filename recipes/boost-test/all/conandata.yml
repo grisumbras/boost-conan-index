@@ -1281,3 +1281,75 @@ sources:
       kind: library
       name: boost_test_exec_monitor
     url: https://github.com/boostorg/test.git
+  1.91.0-b.1:
+    commit: 380722343f4edbda1bfb00c92836986d48297dd3
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-predef/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_unit_test_framework
+    - dependencies: []
+      kind: library
+      name: boost_prg_exec_monitor
+    - dependencies: []
+      kind: library
+      name: boost_test_exec_monitor
+    url: https://github.com/boostorg/test.git

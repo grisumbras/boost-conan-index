@@ -816,6 +816,45 @@ sources:
       kind: library
       name: boost_json
     url: https://github.com/boostorg/json.git
+  1.91.0-a.d+26.03.11.10.52:
+    commit: 12f640e27ed69e1dd9c5cd81025728f2a42c11d8
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-a.d+26.03.15.17.20
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-a.d+25.08.21.19.31
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-describe/1.91.0-a.d+25.12.15.19.39
+    - header: true
+      public: true
+      ref: boost-endian/1.91.0-a.d+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_json
+    url: https://github.com/boostorg/json.git
   1.91.0-a.m+25.10.30.21.05:
     commit: 64db9b700d5030f39c4f0cc466c14745c48b990c
     cxxstd: '11'
@@ -928,6 +967,45 @@ sources:
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_json
+    url: https://github.com/boostorg/json.git
+  1.91.0-b.1:
+    commit: 68aea8db0129c436dc26ab77aa4d6331b81d2c08
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-describe/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-endian/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-b.1
     targets:
     - dependencies: []
       kind: library

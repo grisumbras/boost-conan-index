@@ -201,3 +201,12 @@ sources:
       kind: header-library
       name: boost_mp11
     url: https://github.com/boostorg/mp11.git
+  1.91.0-b.1:
+    commit: b94b089d4ec83cd397f20958f34edf25bc3e06f4
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_mp11
+    url: https://github.com/boostorg/mp11.git

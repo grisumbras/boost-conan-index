@@ -2181,3 +2181,124 @@ sources:
       kind: library
       name: boost_log_setup
     url: https://github.com/boostorg/log.git
+  1.91.0-b.1:
+    commit: f0d196ee03609d8cea8448bc4ad5889d52d9e4a0
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-atomic/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-date_time/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-filesystem/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-function_types/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-phoenix/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-property_tree/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-proto/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-regex/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-spirit/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-thread/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-xpressive/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-align/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-asio/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-interprocess/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-io/1.91.0-b.1
+    - header: true
+      public: false
+      ref: boost-predef/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_log
+    - dependencies:
+      - boost_log
+      kind: library
+      name: boost_log_setup
+    url: https://github.com/boostorg/log.git

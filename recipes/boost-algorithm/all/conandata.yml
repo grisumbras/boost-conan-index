@@ -603,3 +603,63 @@ sources:
       kind: header-library
       name: boost_algorithm
     url: https://github.com/boostorg/algorithm.git
+  1.91.0-b.1:
+    commit: af3258157d00fa04f72d982ec2f70495c5adf58c
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-exception/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.91.0-b.1
+    - header: false
+      public: true
+      ref: boost-regex/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-b.1
+    - header: true
+      public: true
+      ref: boost-unordered/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_algorithm
+    url: https://github.com/boostorg/algorithm.git

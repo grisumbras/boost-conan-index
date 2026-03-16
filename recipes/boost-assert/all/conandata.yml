@@ -168,3 +168,15 @@ sources:
       kind: header-library
       name: boost_assert
     url: https://github.com/boostorg/assert.git
+  1.91.0-b.1:
+    commit: af15ced8d04907345a0211dab46557e085960eb7
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_assert
+    url: https://github.com/boostorg/assert.git
