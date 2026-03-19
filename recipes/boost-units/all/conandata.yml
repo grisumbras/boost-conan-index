@@ -342,7 +342,7 @@ sources:
       ref: boost-lambda/1.91.0-a.d+25.05.03.03.20
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.03.17.17.44
+      ref: boost-math/1.91.0-a.d+26.03.18.15.31
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48

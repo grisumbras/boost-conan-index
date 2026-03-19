@@ -1281,7 +1281,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.03.17.23.55
+      ref: boost-container/1.91.0-a.d+26.03.19.01.34
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -1308,7 +1308,7 @@ sources:
       ref: boost-lexical_cast/1.91.0-a.d+26.01.26.17.58
     - header: false
       public: true
-      ref: boost-math/1.91.0-a.d+26.03.17.17.44
+      ref: boost-math/1.91.0-a.d+26.03.18.15.31
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
