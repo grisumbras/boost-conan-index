@@ -899,7 +899,7 @@ sources:
       ref: boost-utility/1.91.0-a.d+26.01.22.15.40
     - header: false
       public: false
-      ref: boost-graph/1.91.0-a.d+26.03.13.16.18
+      ref: boost-graph/1.91.0-a.d+26.03.23.11.44
     - header: true
       public: false
       ref: boost-integer/1.91.0-a.d+26.01.22.15.37

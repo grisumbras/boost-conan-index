@@ -1281,7 +1281,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.03.20.14.03
+      ref: boost-container/1.91.0-a.d+26.03.22.23.39
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -1296,7 +1296,7 @@ sources:
       ref: boost-fusion/1.91.0-a.d+26.01.23.01.34
     - header: false
       public: true
-      ref: boost-graph/1.91.0-a.d+26.03.13.16.18
+      ref: boost-graph/1.91.0-a.d+26.03.23.11.44
     - header: true
       public: true
       ref: boost-integer/1.91.0-a.d+26.01.22.15.37
