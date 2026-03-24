@@ -582,7 +582,7 @@ sources:
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-mp11/1.91.0-a.d+26.01.23.02.29
+      ref: boost-mp11/1.91.0-a.d+25.11.09.01.24
     - header: true
       public: true
       ref: boost-predef/1.91.0-a.d+25.02.03.08.30
