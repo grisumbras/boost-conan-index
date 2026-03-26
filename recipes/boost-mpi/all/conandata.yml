@@ -593,7 +593,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
     - header: true
       public: false
-      ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10
+      ref: boost-lexical_cast/1.91.0-a.m+26.01.26.17.58
     - header: true
       public: false
       ref: boost-utility/1.91.0-a.m+26.01.22.15.40

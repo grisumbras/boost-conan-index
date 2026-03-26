@@ -948,7 +948,7 @@ sources:
       ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.m+26.01.04.11.10
+      ref: boost-lexical_cast/1.91.0-a.m+26.01.26.17.58
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.m+26.01.22.22.48

@@ -1192,7 +1192,7 @@ sources:
       ref: boost-intrusive/1.91.0-a.d+26.02.27.00.16
     - header: true
       public: true
-      ref: boost-mp11/1.91.0-a.d+26.03.24.21.00
+      ref: boost-mp11/1.91.0-a.d+23.06.19.23.07
     - header: true
       public: true
       ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52

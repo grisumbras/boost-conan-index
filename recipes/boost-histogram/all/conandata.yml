@@ -288,7 +288,7 @@ sources:
       ref: boost-math/1.91.0-a.d+26.03.18.15.31
     - header: true
       public: true
-      ref: boost-mp11/1.91.0-a.d+26.03.24.21.00
+      ref: boost-mp11/1.91.0-a.d+23.06.19.23.07
     - header: false
       public: true
       ref: boost-serialization/1.91.0-a.d+24.08.18.11.53
