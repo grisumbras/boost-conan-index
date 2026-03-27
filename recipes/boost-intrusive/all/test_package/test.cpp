@@ -1,4 +1,4 @@
-#include <boost/intrusive/member_value_traits.hpp>
+#include <boost/intrusive/rbtree.hpp>
 
 int main()
 {

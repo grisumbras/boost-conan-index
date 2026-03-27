@@ -1,4 +1,4 @@
-#include <boost/units/absolute.hpp>
+#include <boost/units/derived_dimension.hpp>
 
 int main()
 {

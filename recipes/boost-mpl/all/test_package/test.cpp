@@ -1,4 +1,4 @@
-#include <boost/mpl/or.hpp>
+#include <boost/mpl/arithmetic.hpp>
 
 int main()
 {

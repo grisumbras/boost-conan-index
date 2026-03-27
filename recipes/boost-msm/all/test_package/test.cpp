@@ -1,4 +1,4 @@
-#include <boost/msm/kleene_event.hpp>
+#include <boost/msm/active_state_switching_policies.hpp>
 
 int main()
 {

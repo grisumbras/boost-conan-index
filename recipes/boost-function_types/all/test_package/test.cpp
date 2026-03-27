@@ -1,4 +1,4 @@
-#include <boost/function_types/is_nonmember_callable_builtin.hpp>
+#include <boost/function_types/function_type.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/symmetric.hpp>
+#include <boost/numeric/ublas/vector_proxy.hpp>
 
 int main()
 {

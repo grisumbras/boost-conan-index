@@ -630,7 +630,7 @@ sources:
       ref: boost-integer/1.91.0-a.d+26.01.22.15.37
     - header: true
       public: true
-      ref: boost-mp11/1.91.0-a.d+23.06.19.23.07
+      ref: boost-mp11/1.91.0-a.d+26.03.27.04.25
     - header: true
       public: true
       ref: boost-preprocessor/1.91.0-a.d+25.06.09.02.52

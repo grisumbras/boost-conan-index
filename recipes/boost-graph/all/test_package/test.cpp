@@ -1,4 +1,4 @@
-#include <boost/graph/kamada_kawai_spring_layout.hpp>
+#include <boost/pending/queue.hpp>
 
 int main()
 {

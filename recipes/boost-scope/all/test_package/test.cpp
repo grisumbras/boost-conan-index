@@ -1,4 +1,4 @@
-#include <boost/scope/exception_checker.hpp>
+#include <boost/scope/unique_fd.hpp>
 
 int main()
 {

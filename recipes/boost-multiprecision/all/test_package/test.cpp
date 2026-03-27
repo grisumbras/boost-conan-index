@@ -1,4 +1,4 @@
-#include <boost/multiprecision/gmp.hpp>
+#include <boost/multiprecision/random.hpp>
 
 int main()
 {

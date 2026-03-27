@@ -1,4 +1,4 @@
-#include <boost/compat/bind_front.hpp>
+#include <boost/compat/type_traits.hpp>
 
 int main()
 {

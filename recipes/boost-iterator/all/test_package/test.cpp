@@ -1,4 +1,4 @@
-#include <boost/next_prior.hpp>
+#include <boost/indirect_reference.hpp>
 
 int main()
 {

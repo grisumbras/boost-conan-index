@@ -624,7 +624,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: true
       public: true
-      ref: boost-mp11/1.91.0-a.d+23.06.19.23.07
+      ref: boost-mp11/1.91.0-a.d+26.03.27.04.25
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38

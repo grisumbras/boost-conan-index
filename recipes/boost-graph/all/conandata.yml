@@ -1404,7 +1404,7 @@ sources:
       ref: boost-math/1.91.0-a.d+26.03.18.15.31
     - header: true
       public: true
-      ref: boost-move/1.91.0-a.d+26.02.17.23.20
+      ref: boost-move/1.91.0-a.d+26.03.26.22.47
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
