@@ -548,6 +548,67 @@ sources:
       kind: header-library
       name: boost_mysql
     url: https://github.com/boostorg/mysql.git
+  1.91.0-a.d+26.03.29.13.16:
+    commit: 4558bb4579ddd2a8eef8f2196e33f17b68c19506
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.91.0-a.d+26.03.04.21.50
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: false
+      public: true
+      ref: boost-charconv/1.91.0-a.d+26.03.22.13.23
+    - header: true
+      public: true
+      ref: boost-compat/1.91.0-a.d+26.01.24.12.40
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-a.d+26.03.29.00.28
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-describe/1.91.0-a.d+25.12.15.19.39
+    - header: true
+      public: true
+      ref: boost-endian/1.91.0-a.d+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.d+26.02.27.00.16
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.d+26.03.27.04.25
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.d+26.02.25.22.49
+    - header: true
+      public: true
+      ref: boost-pfr/1.91.0-a.d+26.02.06.20.58
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-variant2/1.91.0-a.d+26.02.24.21.01
+    - header: false
+      public: true
+      ref: openssl/[*]
+    targets:
+    - dependencies:
+      - openssl::ssl
+      kind: header-library
+      name: boost_mysql
+    url: https://github.com/boostorg/mysql.git
   1.91.0-a.m+25.10.07.16.56:
     commit: c242bb0ffdea2675a32e0b3a6baeeb987bb90777
     cxxstd: '11'
@@ -611,6 +672,67 @@ sources:
     url: https://github.com/boostorg/mysql.git
   1.91.0-a.m+26.01.23.02.24:
     commit: 3ccd20da49a697ce4fcf09495bf71588eefc39a2
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.91.0-a.m+26.03.04.21.58
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: false
+      public: true
+      ref: boost-charconv/1.91.0-a.m+26.02.11.10.51
+    - header: true
+      public: true
+      ref: boost-compat/1.91.0-a.m+26.01.24.12.40
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+    - header: false
+      public: true
+      ref: boost-container/1.91.0-a.m+26.02.26.23.35
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-describe/1.91.0-a.m+25.12.15.19.39
+    - header: true
+      public: true
+      ref: boost-endian/1.91.0-a.m+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0-a.m+26.02.27.00.16
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0-a.m+26.01.23.02.29
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.m+26.02.27.14.04
+    - header: true
+      public: true
+      ref: boost-pfr/1.91.0-a.m+26.02.06.20.58
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.m+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-variant2/1.91.0-a.m+26.02.24.21.01
+    - header: false
+      public: true
+      ref: openssl/[*]
+    targets:
+    - dependencies:
+      - openssl::ssl
+      kind: header-library
+      name: boost_mysql
+    url: https://github.com/boostorg/mysql.git
+  1.91.0-a.m+26.03.28.23.26:
+    commit: c20a0410fd6141f1e590828a810de4aae6b07a98
     cxxstd: '11'
     dependencies:
     - header: true
