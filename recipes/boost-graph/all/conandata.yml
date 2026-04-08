@@ -1548,7 +1548,7 @@ sources:
       ref: boost-multi_index/1.91.0-a.d+26.01.23.22.08
     - header: true
       public: true
-      ref: boost-multiprecision/1.91.0-a.d+26.03.15.18.53
+      ref: boost-multiprecision/1.91.0-a.d+26.04.07.14.43
     - header: true
       public: true
       ref: boost-numeric_conversion/1.91.0-a.d+25.06.26.07.40
