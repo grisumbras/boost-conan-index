@@ -1,4 +1,4 @@
-#include <boost/hash2/fnv1a.hpp>
+#include <boost/hash2/has_constant_size.hpp>
 
 int main()
 {

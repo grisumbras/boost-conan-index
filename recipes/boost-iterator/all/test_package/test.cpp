@@ -1,4 +1,4 @@
-#include <boost/indirect_reference.hpp>
+#include <boost/iterator_adaptors.hpp>
 
 int main()
 {

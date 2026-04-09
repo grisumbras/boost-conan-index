@@ -1,4 +1,4 @@
-#include <boost/multiprecision/random.hpp>
+#include <boost/multiprecision/cpp_dec_float.hpp>
 
 int main()
 {

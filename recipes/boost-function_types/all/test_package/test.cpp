@@ -1,4 +1,4 @@
-#include <boost/function_types/function_type.hpp>
+#include <boost/function_types/property_tags.hpp>
 
 int main()
 {

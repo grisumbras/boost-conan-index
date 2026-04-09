@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/vector_proxy.hpp>
+#include <boost/numeric/ublas/opencl.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/pending/queue.hpp>
+#include <boost/pending/indirect_cmp.hpp>
 
 int main()
 {

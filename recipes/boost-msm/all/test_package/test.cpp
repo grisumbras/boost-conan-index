@@ -1,4 +1,4 @@
-#include <boost/msm/active_state_switching_policies.hpp>
+#include <boost/msm/proto_config.hpp>
 
 int main()
 {

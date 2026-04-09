@@ -1,4 +1,4 @@
-#include <boost/iostreams/skip.hpp>
+#include <boost/iostreams/char_traits.hpp>
 
 int main()
 {

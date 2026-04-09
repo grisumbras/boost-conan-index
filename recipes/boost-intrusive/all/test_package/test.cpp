@@ -1,4 +1,4 @@
-#include <boost/intrusive/rbtree.hpp>
+#include <boost/intrusive/circular_slist_algorithms.hpp>
 
 int main()
 {

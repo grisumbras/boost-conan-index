@@ -1,4 +1,4 @@
-#include <boost/heap/skew_heap.hpp>
+#include <boost/heap/heap_merge.hpp>
 
 int main()
 {

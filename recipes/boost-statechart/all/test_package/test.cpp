@@ -1,4 +1,4 @@
-#include <boost/statechart/termination.hpp>
+#include <boost/statechart/event.hpp>
 
 int main()
 {

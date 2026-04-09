@@ -1,4 +1,4 @@
-#include <boost/winapi/mutex.hpp>
+#include <boost/winapi/event.hpp>
 
 int main()
 {
