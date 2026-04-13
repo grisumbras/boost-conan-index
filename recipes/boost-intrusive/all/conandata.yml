@@ -483,7 +483,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: true
       public: true
-      ref: boost-move/1.91.0-a.d+26.03.29.14.59
+      ref: boost-move/1.91.0-a.d+26.04.12.20.28
     targets:
     - dependencies: []
       kind: header-library
