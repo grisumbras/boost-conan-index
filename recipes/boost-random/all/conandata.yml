@@ -648,7 +648,7 @@ sources:
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.91.0-a.d+26.02.18.16.48
+      ref: boost-dynamic_bitset/1.91.0-a.d+26.03.23.19.47
     - header: true
       public: true
       ref: boost-integer/1.91.0-a.d+26.01.22.15.37
