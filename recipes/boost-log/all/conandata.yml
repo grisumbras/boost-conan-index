@@ -1842,7 +1842,7 @@ sources:
       ref: boost-exception/1.91.0-a.d+26.02.01.13.57
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.d+26.02.26.19.13
+      ref: boost-filesystem/1.91.0-a.d+26.04.20.00.13
     - header: true
       public: true
       ref: boost-function_types/1.91.0-a.d+26.02.05.17.38
@@ -1851,13 +1851,13 @@ sources:
       ref: boost-fusion/1.91.0-a.d+26.01.23.01.34
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.d+26.02.27.00.16
+      ref: boost-intrusive/1.91.0-a.d+26.04.20.01.07
     - header: true
       public: true
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-move/1.91.0-a.d+26.04.12.20.28
+      ref: boost-move/1.91.0-a.d+26.04.20.00.48
     - header: true
       public: true
       ref: boost-mpl/1.91.0-a.d+26.01.22.22.48
@@ -1923,7 +1923,7 @@ sources:
       ref: boost-asio/1.91.0-a.d+26.04.15.23.18
     - header: true
       public: false
-      ref: boost-interprocess/1.91.0-a.d+26.02.27.01.09
+      ref: boost-interprocess/1.91.0-a.d+26.04.20.00.56
     - header: true
       public: false
       ref: boost-io/1.91.0-a.d+26.01.22.22.15

@@ -297,7 +297,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.d+26.02.26.19.13
+      ref: boost-filesystem/1.91.0-a.d+26.04.20.00.13
     targets:
     - dependencies: []
       kind: library

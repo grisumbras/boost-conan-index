@@ -699,7 +699,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.04.12.21.10
+      ref: boost-container/1.91.0-a.d+26.04.20.13.30
     - header: true
       public: true
       ref: boost-container_hash/1.91.0-a.d+26.04.01.21.49
@@ -720,7 +720,7 @@ sources:
       ref: boost-io/1.91.0-a.d+26.01.22.22.15
     - header: true
       public: true
-      ref: boost-move/1.91.0-a.d+26.04.12.20.28
+      ref: boost-move/1.91.0-a.d+26.04.20.00.48
     - header: true
       public: true
       ref: boost-optional/1.91.0-a.d+26.02.25.22.49

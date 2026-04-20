@@ -1233,7 +1233,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.04.12.21.10
+      ref: boost-container/1.91.0-a.d+26.04.20.13.30
     - header: true
       public: true
       ref: boost-container_hash/1.91.0-a.d+26.04.01.21.49
@@ -1245,7 +1245,7 @@ sources:
       ref: boost-endian/1.91.0-a.d+26.01.23.05.36
     - header: true
       public: true
-      ref: boost-intrusive/1.91.0-a.d+26.02.27.00.16
+      ref: boost-intrusive/1.91.0-a.d+26.04.20.01.07
     - header: true
       public: true
       ref: boost-logic/1.91.0-a.d+25.07.02.08.14
