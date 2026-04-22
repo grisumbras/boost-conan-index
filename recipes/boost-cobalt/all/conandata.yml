@@ -1177,7 +1177,7 @@ sources:
       ref: boost-config/1.91.0-a.d+26.02.03.02.16
     - header: false
       public: true
-      ref: boost-container/1.91.0-a.d+26.04.20.23.05
+      ref: boost-container/1.91.0-a.d+26.04.22.01.11
     - header: false
       public: true
       ref: boost-context/1.91.0-a.d+26.03.10.06.37
@@ -1201,7 +1201,7 @@ sources:
       ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-static_string/1.91.0-a.d+25.12.19.12.32
+      ref: boost-static_string/1.91.0-a.d+26.04.22.10.06
     - header: true
       public: true
       ref: boost-system/1.91.0-a.d+26.03.03.20.14
