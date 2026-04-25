@@ -93,6 +93,14 @@ class BoostPackage():
                 'asio_core',
                 'asio',
             )
+        elif self.name == 'boost-process':
+            replace_in_file(
+                self,
+                os.path.join(self.source_folder, 'build.jam'),
+                'asio_core',
+                'asio',
+                strict=False,
+            )
         build_jam = os.path.join(self.source_folder, 'build.jam')
         if not os.path.exists(build_jam):
             lib_jam_template = Template(
