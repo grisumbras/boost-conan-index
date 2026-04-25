@@ -129,6 +129,27 @@ sources:
       kind: header-library
       name: boost_concept_check
     url: https://github.com/boostorg/concept_check.git
+  1.91.0:
+    commit: 235e54ebf23be678045e0eeae90f47ca0e2c95ce
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_concept_check
+    url: https://github.com/boostorg/concept_check.git
   1.91.0-a.d+25.07.02.07.32:
     commit: e302e80e85279ff6a51c8d5a0e3a81d909a2f397
     cxxstd: '03'
@@ -229,6 +250,48 @@ sources:
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_concept_check
+    url: https://github.com/boostorg/concept_check.git
+  1.92.0-a.d+26.01.22.22.44:
+    commit: 235e54ebf23be678045e0eeae90f47ca0e2c95ce
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_concept_check
+    url: https://github.com/boostorg/concept_check.git
+  1.92.0-a.m+26.01.22.22.44:
+    commit: 235e54ebf23be678045e0eeae90f47ca0e2c95ce
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     targets:
     - dependencies: []
       kind: header-library

@@ -309,6 +309,57 @@ sources:
       kind: header-library
       name: boost_flyweight
     url: https://github.com/boostorg/flyweight.git
+  1.91.0:
+    commit: fcd6671d978652a7debe9e2530021b047d50ae41
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0
+    - header: true
+      public: true
+      ref: boost-interprocess/1.91.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0
+    - header: true
+      public: true
+      ref: boost-multi_index/1.91.0
+    - header: true
+      public: true
+      ref: boost-parameter/1.91.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    - header: true
+      public: true
+      ref: boost-unordered/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_flyweight
+    url: https://github.com/boostorg/flyweight.git
   1.91.0-a.d+25.09.20.12.39:
     commit: 575a6852b994b1d3f3fac6b613ea7246778f8369
     cxxstd: '03'
@@ -559,6 +610,108 @@ sources:
     - header: true
       public: true
       ref: boost-unordered/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_flyweight
+    url: https://github.com/boostorg/flyweight.git
+  1.92.0-a.d+25.12.21.13.15:
+    commit: fcd6671d978652a7debe9e2530021b047d50ae41
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.04.01.21.49
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.01.22.15.23
+    - header: true
+      public: true
+      ref: boost-interprocess/1.92.0-a.d+26.04.20.00.56
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-multi_index/1.92.0-a.d+26.04.24.11.45
+    - header: true
+      public: true
+      ref: boost-parameter/1.92.0-a.d+25.12.13.20.44
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-unordered/1.92.0-a.d+26.04.08.16.54
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_flyweight
+    url: https://github.com/boostorg/flyweight.git
+  1.92.0-a.m+25.12.21.13.15:
+    commit: fcd6671d978652a7debe9e2530021b047d50ae41
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.04.01.21.49
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.m+26.01.22.15.23
+    - header: true
+      public: true
+      ref: boost-interprocess/1.92.0-a.m+26.02.27.01.09
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-multi_index/1.92.0-a.m+26.01.24.09.44
+    - header: true
+      public: true
+      ref: boost-parameter/1.92.0-a.m+25.12.13.20.44
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-unordered/1.92.0-a.m+26.04.08.16.54
     targets:
     - dependencies: []
       kind: header-library

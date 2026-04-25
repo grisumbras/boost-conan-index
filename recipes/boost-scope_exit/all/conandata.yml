@@ -147,6 +147,30 @@ sources:
       kind: header-library
       name: boost_scope_exit
     url: https://github.com/boostorg/scope_exit.git
+  1.91.0:
+    commit: 60baaae454b2da887a31cf939e22015b6263c9e4
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-function/1.91.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope_exit
+    url: https://github.com/boostorg/scope_exit.git
   1.91.0-a.d+25.05.02.19.19:
     commit: 5450074da7f1d338eb5774b245bd7a255f92680e
     cxxstd: null
@@ -214,6 +238,54 @@ sources:
     - header: true
       public: true
       ref: boost-typeof/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope_exit
+    url: https://github.com/boostorg/scope_exit.git
+  1.92.0-a.d+25.05.02.19.19:
+    commit: 5450074da7f1d338eb5774b245bd7a255f92680e
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.d+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0-a.d+26.02.03.04.18
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope_exit
+    url: https://github.com/boostorg/scope_exit.git
+  1.92.0-a.m+21.05.28.00.21:
+    commit: 60baaae454b2da887a31cf939e22015b6263c9e4
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.m+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0-a.m+26.02.03.04.18
     targets:
     - dependencies: []
       kind: header-library

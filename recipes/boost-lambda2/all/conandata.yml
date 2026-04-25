@@ -75,6 +75,15 @@ sources:
       kind: header-library
       name: boost_lambda2
     url: https://github.com/boostorg/lambda2.git
+  1.91.0:
+    commit: f60f1d7f9f1bba9196844e1cf5ee8c86ee7b541e
+    cxxstd: '14'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lambda2
+    url: https://github.com/boostorg/lambda2.git
   1.91.0-a.d+25.12.15.15.55:
     commit: f60f1d7f9f1bba9196844e1cf5ee8c86ee7b541e
     cxxstd: '14'
@@ -113,6 +122,24 @@ sources:
     url: https://github.com/boostorg/lambda2.git
   1.91.0-b.1:
     commit: f60f1d7f9f1bba9196844e1cf5ee8c86ee7b541e
+    cxxstd: '14'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lambda2
+    url: https://github.com/boostorg/lambda2.git
+  1.92.0-a.d+26.04.24.16.06:
+    commit: dda22ab8ee70bc67d89841ce9365d6913620ceda
+    cxxstd: '14'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lambda2
+    url: https://github.com/boostorg/lambda2.git
+  1.92.0-a.m+26.04.24.16.06:
+    commit: dda22ab8ee70bc67d89841ce9365d6913620ceda
     cxxstd: '14'
     dependencies: []
     targets:

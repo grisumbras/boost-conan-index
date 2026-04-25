@@ -363,6 +363,66 @@ sources:
       kind: header-library
       name: boost_range
     url: https://github.com/boostorg/range.git
+  1.91.0:
+    commit: 7481e429b023655a6e77799d5f2cf4788145d494
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.91.0
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0
+    - header: true
+      public: true
+      ref: boost-conversion/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0
+    - header: false
+      public: true
+      ref: boost-regex/1.91.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-tuple/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_range
+    url: https://github.com/boostorg/range.git
   1.91.0-a.d+25.05.02.19.18:
     commit: cf7d2d2d3bceccdbd0d7af08cdf4042a2a6e9ea8
     cxxstd: '03'
@@ -838,6 +898,126 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_range
+    url: https://github.com/boostorg/range.git
+  1.92.0-a.d+26.02.19.10.17:
+    commit: 7481e429b023655a6e77799d5f2cf4788145d494
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.04.01.21.49
+    - header: true
+      public: true
+      ref: boost-conversion/1.92.0-a.d+26.02.25.08.39
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.01.22.15.23
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.02.25.22.49
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: false
+      public: true
+      ref: boost-regex/1.92.0-a.d+26.03.06.13.40
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-tuple/1.92.0-a.d+26.02.19.13.44
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_range
+    url: https://github.com/boostorg/range.git
+  1.92.0-a.m+26.02.19.10.17:
+    commit: 7481e429b023655a6e77799d5f2cf4788145d494
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.m+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.04.01.21.49
+    - header: true
+      public: true
+      ref: boost-conversion/1.92.0-a.m+26.01.02.13.40
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.m+26.01.22.15.23
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.m+26.02.27.14.04
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    - header: false
+      public: true
+      ref: boost-regex/1.92.0-a.m+25.07.04.17.16
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-tuple/1.92.0-a.m+26.02.19.13.44
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.m+26.01.22.15.40
     targets:
     - dependencies: []
       kind: header-library

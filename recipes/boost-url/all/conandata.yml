@@ -678,6 +678,45 @@ sources:
       kind: library
       name: boost_url
     url: https://github.com/boostorg/url.git
+  1.91.0:
+    commit: 000476c66a10efd723e22138135f9c8d6f713a31
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.91.0
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0
+    - header: true
+      public: true
+      ref: boost-system/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    - header: true
+      public: true
+      ref: boost-variant2/1.91.0
+    - header: true
+      public: false
+      ref: boost-throw_exception/1.91.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_url
+    url: https://github.com/boostorg/url.git
   1.91.0-a.d+25.11.06.22.33:
     commit: 176cea8a29eb0b5d0c3f2b4a7f2d5cc3d351ee0d
     cxxstd: '11'
@@ -1570,6 +1609,84 @@ sources:
     - header: true
       public: false
       ref: boost-throw_exception/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_url
+    url: https://github.com/boostorg/url.git
+  1.92.0-a.d+26.04.23.22.50:
+    commit: 41b467a389a68321608138a432b15024b6c11918
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.92.0-a.d+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.02.25.22.49
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-variant2/1.92.0-a.d+26.02.24.21.01
+    - header: true
+      public: false
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_url
+    url: https://github.com/boostorg/url.git
+  1.92.0-a.m+26.04.03.21.13:
+    commit: 000476c66a10efd723e22138135f9c8d6f713a31
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.92.0-a.m+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.m+26.02.27.14.04
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.m+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-variant2/1.92.0-a.m+26.02.24.21.01
+    - header: true
+      public: false
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
     targets:
     - dependencies: []
       kind: library

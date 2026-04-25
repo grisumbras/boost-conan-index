@@ -453,6 +453,36 @@ sources:
       kind: header-library
       name: boost_asio
     url: https://github.com/boostorg/asio.git
+  1.91.0:
+    commit: 7b56b644c9819be94b7b601823a65087a7c29f2e
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.91.0
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: false
+      public: true
+      ref: boost-context/1.91.0
+    - header: false
+      public: true
+      ref: boost-date_time/1.91.0
+    - header: true
+      public: true
+      ref: boost-system/1.91.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_asio
+    url: https://github.com/boostorg/asio.git
   1.91.0-a.d+25.12.04.00.07:
     commit: 5963b4690919e0a723ed2c0be434d16e8783303e
     cxxstd: '11'
@@ -688,6 +718,66 @@ sources:
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_asio
+    url: https://github.com/boostorg/asio.git
+  1.92.0-a.d+26.04.15.23.18:
+    commit: cba4d9791d77264814eccb53324d5d37669467a3
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.92.0-a.d+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: false
+      public: true
+      ref: boost-context/1.92.0-a.d+26.03.10.06.37
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0-a.d+26.02.06.04.26
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_asio
+    url: https://github.com/boostorg/asio.git
+  1.92.0-a.m+26.04.15.23.19:
+    commit: 7b56b644c9819be94b7b601823a65087a7c29f2e
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.92.0-a.m+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: false
+      public: true
+      ref: boost-context/1.92.0-a.m+26.03.10.06.37
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0-a.m+22.10.31.09.22
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.m+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
     targets:
     - dependencies: []
       kind: header-library

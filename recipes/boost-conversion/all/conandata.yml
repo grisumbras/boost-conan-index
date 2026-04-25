@@ -129,6 +129,27 @@ sources:
       kind: header-library
       name: boost_conversion
     url: https://github.com/boostorg/conversion.git
+  1.91.0:
+    commit: 827dd94c681d9a660c81d8f2716eb7d11fc4d42f
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_conversion
+    url: https://github.com/boostorg/conversion.git
   1.91.0-a.d+25.10.07.20.26:
     commit: 6632ca93098d80d8c42715481e9aa47512e8d32b
     cxxstd: '11'
@@ -292,6 +313,48 @@ sources:
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_conversion
+    url: https://github.com/boostorg/conversion.git
+  1.92.0-a.d+26.02.25.08.39:
+    commit: d324df9a8c36fae63701c2de6944f2b9b74767bc
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_conversion
+    url: https://github.com/boostorg/conversion.git
+  1.92.0-a.m+26.01.02.13.40:
+    commit: 827dd94c681d9a660c81d8f2716eb7d11fc4d42f
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
     targets:
     - dependencies: []
       kind: header-library

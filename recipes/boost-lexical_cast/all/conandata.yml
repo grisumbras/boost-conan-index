@@ -166,6 +166,27 @@ sources:
       kind: header-library
       name: boost_lexical_cast
     url: https://github.com/boostorg/lexical_cast.git
+  1.91.0:
+    commit: 4b0d10a1f3ec33f7aac28dbf03b118c17098c3b0
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: false
+      public: true
+      ref: boost-container/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lexical_cast
+    url: https://github.com/boostorg/lexical_cast.git
   1.91.0-a.d+25.12.11.22.17:
     commit: 1b804c7a3193093ffe07540b08caa3ea29dd0cd6
     cxxstd: '11'
@@ -413,6 +434,48 @@ sources:
     - header: true
       public: true
       ref: boost-throw_exception/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lexical_cast
+    url: https://github.com/boostorg/lexical_cast.git
+  1.92.0-a.d+26.04.24.18.03:
+    commit: 35d8af6ce21fa7a163b68a2fb27437d3fb737232
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: false
+      public: true
+      ref: boost-container/1.92.0-a.d+26.04.24.13.19
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lexical_cast
+    url: https://github.com/boostorg/lexical_cast.git
+  1.92.0-a.m+26.01.26.17.58:
+    commit: 4b0d10a1f3ec33f7aac28dbf03b118c17098c3b0
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: false
+      public: true
+      ref: boost-container/1.92.0-a.m+26.02.26.23.35
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
     targets:
     - dependencies: []
       kind: header-library

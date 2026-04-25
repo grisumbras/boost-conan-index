@@ -129,6 +129,27 @@ sources:
       kind: header-library
       name: boost_tuple
     url: https://github.com/boostorg/tuple.git
+  1.91.0:
+    commit: 704830d883825357a83e49a2aed2a07e734a74bb
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_tuple
+    url: https://github.com/boostorg/tuple.git
   1.91.0-a.d+25.06.09.02.57:
     commit: d04e4a692fda32f939edede89d67e4b2234f0da9
     cxxstd: '03'
@@ -271,6 +292,48 @@ sources:
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_tuple
+    url: https://github.com/boostorg/tuple.git
+  1.92.0-a.d+26.02.19.13.44:
+    commit: 704830d883825357a83e49a2aed2a07e734a74bb
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_tuple
+    url: https://github.com/boostorg/tuple.git
+  1.92.0-a.m+26.02.19.13.44:
+    commit: 704830d883825357a83e49a2aed2a07e734a74bb
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     targets:
     - dependencies: []
       kind: header-library

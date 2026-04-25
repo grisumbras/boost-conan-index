@@ -291,6 +291,54 @@ sources:
       kind: header-library
       name: boost_ublas
     url: https://github.com/boostorg/ublas.git
+  1.91.0:
+    commit: 15d871b410ff92592c6f3e0a53550035e7817046
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-compute/1.91.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-interval/1.91.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0
+    - header: true
+      public: true
+      ref: boost-range/1.91.0
+    - header: false
+      public: true
+      ref: boost-serialization/1.91.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_ublas
+    url: https://github.com/boostorg/ublas.git
   1.91.0-a.d+23.11.22.02.19:
     commit: 8934b49ebe5327964b42faefbb22334ba89f4574
     cxxstd: '11'
@@ -430,6 +478,102 @@ sources:
     - header: true
       public: true
       ref: boost-typeof/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_ublas
+    url: https://github.com/boostorg/ublas.git
+  1.92.0-a.d+23.11.22.02.19:
+    commit: 8934b49ebe5327964b42faefbb22334ba89f4574
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-compute/1.92.0-a.d+26.02.06.19.14
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-interval/1.92.0-a.d+26.01.22.20.33
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.d+26.02.19.10.17
+    - header: false
+      public: true
+      ref: boost-serialization/1.92.0-a.d+24.08.18.11.53
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0-a.d+26.02.03.04.18
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_ublas
+    url: https://github.com/boostorg/ublas.git
+  1.92.0-a.m+24.05.07.22.32:
+    commit: 15d871b410ff92592c6f3e0a53550035e7817046
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-compute/1.92.0-a.m+26.02.06.19.14
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.m+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-interval/1.92.0-a.m+26.01.22.20.33
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.m+26.02.19.10.17
+    - header: false
+      public: true
+      ref: boost-serialization/1.92.0-a.m+23.11.12.21.05
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0-a.m+26.02.03.04.18
     targets:
     - dependencies: []
       kind: header-library

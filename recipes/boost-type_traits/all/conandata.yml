@@ -93,6 +93,21 @@ sources:
       kind: header-library
       name: boost_type_traits
     url: https://github.com/boostorg/type_traits.git
+  1.91.0:
+    commit: e6275ccf01c9cf8775ef0cb6188bd58f3b167a0f
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_type_traits
+    url: https://github.com/boostorg/type_traits.git
   1.91.0-a.d+25.04.21.15.19:
     commit: 085c27f785b647c217db59af7cef8806af578012
     cxxstd: '03'
@@ -163,6 +178,36 @@ sources:
     - header: true
       public: true
       ref: boost-static_assert/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_type_traits
+    url: https://github.com/boostorg/type_traits.git
+  1.92.0-a.d+26.01.23.18.36:
+    commit: e6275ccf01c9cf8775ef0cb6188bd58f3b167a0f
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_type_traits
+    url: https://github.com/boostorg/type_traits.git
+  1.92.0-a.m+26.01.23.18.36:
+    commit: e6275ccf01c9cf8775ef0cb6188bd58f3b167a0f
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
     targets:
     - dependencies: []
       kind: header-library

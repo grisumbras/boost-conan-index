@@ -769,6 +769,30 @@ sources:
       kind: library
       name: boost_container
     url: https://github.com/boostorg/container.git
+  1.91.0:
+    commit: 6807b47c2e4d58cbb1d044c578582fdde37456b8
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-intrusive/1.91.0
+    - header: true
+      public: true
+      ref: boost-move/1.91.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_container
+    url: https://github.com/boostorg/container.git
   1.91.0-a.d+25.12.18.15.56:
     commit: 7a22ae2adefe8d33ebc83b6e03d4a61cec1bcab0
     cxxstd: '03'
@@ -2231,6 +2255,57 @@ sources:
     - header: true
       public: true
       ref: boost-move/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_container
+    url: https://github.com/boostorg/container.git
+  1.92.0-a.d+26.04.24.13.19:
+    commit: f2b048a685310c848ebba57712a3f1b82bb141b5
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-intrusive/1.92.0-a.d+26.04.20.01.07
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.d+26.04.20.00.48
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_container
+    url: https://github.com/boostorg/container.git
+  1.92.0-a.m+26.02.26.23.35:
+    commit: 6807b47c2e4d58cbb1d044c578582fdde37456b8
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-intrusive/1.92.0-a.m+26.02.27.00.16
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.m+26.02.17.23.20
     targets:
     - dependencies: []
       kind: library

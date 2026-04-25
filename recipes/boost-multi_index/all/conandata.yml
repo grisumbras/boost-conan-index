@@ -504,6 +504,57 @@ sources:
       kind: header-library
       name: boost_multi_index
     url: https://github.com/boostorg/multi_index.git
+  1.91.0:
+    commit: 7c69f1af944fc6493d50cd53133d14813d24fc11
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-bind/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.91.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0
+    - header: true
+      public: true
+      ref: boost-tuple/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_multi_index
+    url: https://github.com/boostorg/multi_index.git
   1.91.0-a.d+25.11.07.18.37:
     commit: 179b5def1e9cb2910b8b6b1494803d3bb5495a25
     cxxstd: '11'
@@ -862,6 +913,108 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_multi_index
+    url: https://github.com/boostorg/multi_index.git
+  1.92.0-a.d+26.04.24.11.45:
+    commit: 0d48b7d14b2bc48000f1c01b6f956d4673c618f4
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-bind/1.92.0-a.d+26.01.03.18.00
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.04.01.21.49
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.d+26.01.22.15.37
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tuple/1.92.0-a.d+26.02.19.13.44
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_multi_index
+    url: https://github.com/boostorg/multi_index.git
+  1.92.0-a.m+26.01.24.09.44:
+    commit: 7c69f1af944fc6493d50cd53133d14813d24fc11
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-bind/1.92.0-a.m+26.01.03.18.00
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.04.01.21.49
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.m+26.01.22.15.37
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tuple/1.92.0-a.m+26.02.19.13.44
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.m+26.01.22.15.40
     targets:
     - dependencies: []
       kind: header-library

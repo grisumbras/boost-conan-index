@@ -276,6 +276,27 @@ sources:
       kind: header-library
       name: boost_parser
     url: https://github.com/boostorg/parser.git
+  1.91.0:
+    commit: 202b991f982f0d27e5f0f2a93acabc9dad7c8288
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: false
+      public: true
+      ref: boost-charconv/1.91.0
+    - header: true
+      public: true
+      ref: boost-hana/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_parser
+    url: https://github.com/boostorg/parser.git
   1.91.0-a.d+25.11.16.09.31:
     commit: 41d939b2bce5763cb657e730d49e125c3860fc44
     cxxstd: '17'
@@ -460,6 +481,48 @@ sources:
     - header: true
       public: true
       ref: boost-type_index/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_parser
+    url: https://github.com/boostorg/parser.git
+  1.92.0-a.d+26.02.15.16.03:
+    commit: 293f5e1e3f491f9219e69269f464da6f2ab9ff94
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: false
+      public: true
+      ref: boost-charconv/1.92.0-a.d+26.03.31.13.19
+    - header: true
+      public: true
+      ref: boost-hana/1.92.0-a.d+25.07.03.23.00
+    - header: true
+      public: true
+      ref: boost-type_index/1.92.0-a.d+26.01.04.22.00
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_parser
+    url: https://github.com/boostorg/parser.git
+  1.92.0-a.m+26.02.15.16.03:
+    commit: 202b991f982f0d27e5f0f2a93acabc9dad7c8288
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: false
+      public: true
+      ref: boost-charconv/1.92.0-a.m+26.02.11.10.51
+    - header: true
+      public: true
+      ref: boost-hana/1.92.0-a.m+25.07.03.23.00
+    - header: true
+      public: true
+      ref: boost-type_index/1.92.0-a.m+26.01.04.22.00
     targets:
     - dependencies: []
       kind: header-library

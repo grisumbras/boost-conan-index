@@ -57,6 +57,15 @@ sources:
       kind: header-library
       name: boost_crc
     url: https://github.com/boostorg/crc.git
+  1.91.0:
+    commit: d547322aa734b37901fa79e7b5e71040d698ce69
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_crc
+    url: https://github.com/boostorg/crc.git
   1.91.0-a.d+25.08.22.19.51:
     commit: d547322aa734b37901fa79e7b5e71040d698ce69
     cxxstd: '11'
@@ -76,6 +85,24 @@ sources:
       name: boost_crc
     url: https://github.com/boostorg/crc.git
   1.91.0-b.1:
+    commit: d547322aa734b37901fa79e7b5e71040d698ce69
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_crc
+    url: https://github.com/boostorg/crc.git
+  1.92.0-a.d+25.08.22.19.51:
+    commit: d547322aa734b37901fa79e7b5e71040d698ce69
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_crc
+    url: https://github.com/boostorg/crc.git
+  1.92.0-a.m+25.08.22.19.51:
     commit: d547322aa734b37901fa79e7b5e71040d698ce69
     cxxstd: '11'
     dependencies: []

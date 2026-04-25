@@ -327,6 +327,60 @@ sources:
       kind: header-library
       name: boost_icl
     url: https://github.com/boostorg/icl.git
+  1.91.0:
+    commit: 2741c3a1b7b79f7326360c26c3e1588b385c9e53
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: false
+      public: true
+      ref: boost-container/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: false
+      public: true
+      ref: boost-date_time/1.91.0
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0
+    - header: true
+      public: true
+      ref: boost-move/1.91.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0
+    - header: true
+      public: true
+      ref: boost-range/1.91.0
+    - header: true
+      public: true
+      ref: boost-rational/1.91.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_icl
+    url: https://github.com/boostorg/icl.git
   1.91.0-a.d+25.10.14.14.00:
     commit: b7fc812e75bfdb6b3d32722635bd9a009883a2ae
     cxxstd: '03'
@@ -538,6 +592,114 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_icl
+    url: https://github.com/boostorg/icl.git
+  1.92.0-a.d+25.12.15.18.21:
+    commit: dd96c80ddc2a15604498997dc76e8db47416893f
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: false
+      public: true
+      ref: boost-container/1.92.0-a.d+26.04.24.13.19
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0-a.d+26.02.06.04.26
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.01.22.15.23
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.d+26.04.20.00.48
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.d+26.02.19.10.17
+    - header: true
+      public: true
+      ref: boost-rational/1.92.0-a.d+26.01.22.21.05
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_icl
+    url: https://github.com/boostorg/icl.git
+  1.92.0-a.m+23.09.23.20.05:
+    commit: 2741c3a1b7b79f7326360c26c3e1588b385c9e53
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.m+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: false
+      public: true
+      ref: boost-container/1.92.0-a.m+26.02.26.23.35
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0-a.m+22.10.31.09.22
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.m+26.01.22.15.23
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.m+26.02.17.23.20
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.m+26.02.19.10.17
+    - header: true
+      public: true
+      ref: boost-rational/1.92.0-a.m+26.01.22.21.05
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.m+26.01.22.15.40
     targets:
     - dependencies: []
       kind: header-library

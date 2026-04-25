@@ -255,6 +255,48 @@ sources:
       kind: header-library
       name: boost_convert
     url: https://github.com/boostorg/convert.git
+  1.91.0:
+    commit: 6dd61f248aba9e895346bc1c3bacc2ad007bcc9c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-function_types/1.91.0
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.91.0
+    - header: false
+      public: true
+      ref: boost-math/1.91.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0
+    - header: true
+      public: true
+      ref: boost-parameter/1.91.0
+    - header: true
+      public: true
+      ref: boost-range/1.91.0
+    - header: true
+      public: true
+      ref: boost-spirit/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_convert
+    url: https://github.com/boostorg/convert.git
   1.91.0-a.d+24.08.19.02.48:
     commit: 6e2419c007b998c087d703e41931141ea555a8e1
     cxxstd: '11'
@@ -502,6 +544,90 @@ sources:
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_convert
+    url: https://github.com/boostorg/convert.git
+  1.92.0-a.d+26.02.14.02.50:
+    commit: 6dd61f248aba9e895346bc1c3bacc2ad007bcc9c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-function_types/1.92.0-a.d+26.02.05.17.38
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-a.d+26.04.24.18.03
+    - header: false
+      public: true
+      ref: boost-math/1.92.0-a.d+26.04.23.12.44
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.02.25.22.49
+    - header: true
+      public: true
+      ref: boost-parameter/1.92.0-a.d+25.12.13.20.44
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.d+26.02.19.10.17
+    - header: true
+      public: true
+      ref: boost-spirit/1.92.0-a.d+26.01.23.06.34
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_convert
+    url: https://github.com/boostorg/convert.git
+  1.92.0-a.m+26.02.14.02.50:
+    commit: 6dd61f248aba9e895346bc1c3bacc2ad007bcc9c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-function_types/1.92.0-a.m+26.01.19.12.23
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-a.m+26.01.26.17.58
+    - header: false
+      public: true
+      ref: boost-math/1.92.0-a.m+26.04.23.16.52
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.m+26.02.27.14.04
+    - header: true
+      public: true
+      ref: boost-parameter/1.92.0-a.m+25.12.13.20.44
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.m+26.02.19.10.17
+    - header: true
+      public: true
+      ref: boost-spirit/1.92.0-a.m+25.09.17.08.31
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     targets:
     - dependencies: []
       kind: header-library

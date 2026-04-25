@@ -183,6 +183,36 @@ sources:
       kind: header-library
       name: boost_numeric_conversion
     url: https://github.com/boostorg/numeric_conversion.git
+  1.91.0:
+    commit: d1b479f7a4aa54d8ffb93d8dc4ee0c24670210d8
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-conversion/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.91.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_numeric_conversion
+    url: https://github.com/boostorg/numeric_conversion.git
   1.91.0-a.d+25.06.26.07.40:
     commit: d1b479f7a4aa54d8ffb93d8dc4ee0c24670210d8
     cxxstd: '03'
@@ -268,6 +298,66 @@ sources:
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_numeric_conversion
+    url: https://github.com/boostorg/numeric_conversion.git
+  1.92.0-a.d+25.06.26.07.40:
+    commit: d1b479f7a4aa54d8ffb93d8dc4ee0c24670210d8
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-conversion/1.92.0-a.d+26.02.25.08.39
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_numeric_conversion
+    url: https://github.com/boostorg/numeric_conversion.git
+  1.92.0-a.m+25.06.26.07.40:
+    commit: d1b479f7a4aa54d8ffb93d8dc4ee0c24670210d8
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-conversion/1.92.0-a.m+26.01.02.13.40
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     targets:
     - dependencies: []
       kind: header-library

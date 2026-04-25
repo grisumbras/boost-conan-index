@@ -327,6 +327,60 @@ sources:
       kind: library
       name: boost_chrono
     url: https://github.com/boostorg/chrono.git
+  1.91.0:
+    commit: 1207f5b403459f3fa2900252edcde9051f904d22
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-integer/1.91.0
+    - header: true
+      public: true
+      ref: boost-move/1.91.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.91.0
+    - header: true
+      public: true
+      ref: boost-predef/1.91.0
+    - header: true
+      public: true
+      ref: boost-ratio/1.91.0
+    - header: true
+      public: true
+      ref: boost-static_assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-system/1.91.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.91.0
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_chrono
+    url: https://github.com/boostorg/chrono.git
   1.91.0-a.d+24.12.13.03.33:
     commit: ef510872039483dc66b7b2263c43c273a9aaecd6
     cxxstd: '11'
@@ -592,6 +646,114 @@ sources:
     - header: true
       public: true
       ref: boost-winapi/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_chrono
+    url: https://github.com/boostorg/chrono.git
+  1.92.0-a.d+26.02.05.18.23:
+    commit: 1207f5b403459f3fa2900252edcde9051f904d22
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.d+26.01.22.15.37
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.d+26.04.20.00.48
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.d+25.02.03.08.30
+    - header: true
+      public: true
+      ref: boost-ratio/1.92.0-a.d+24.12.14.05.05
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0-a.d+26.02.03.04.18
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.01.22.15.40
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_chrono
+    url: https://github.com/boostorg/chrono.git
+  1.92.0-a.m+26.02.05.18.23:
+    commit: 1207f5b403459f3fa2900252edcde9051f904d22
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.m+26.01.22.15.37
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.m+26.02.17.23.20
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-ratio/1.92.0-a.m+24.12.14.05.05
+    - header: true
+      public: true
+      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.m+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0-a.m+26.02.03.04.18
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.m+26.01.22.15.40
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0-a.m+25.08.25.19.08
     targets:
     - dependencies: []
       kind: library

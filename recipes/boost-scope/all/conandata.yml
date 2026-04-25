@@ -171,6 +171,27 @@ sources:
       kind: header-library
       name: boost_scope
     url: https://github.com/boostorg/scope.git
+  1.91.0:
+    commit: c979d5e11b43cc36d5d5b8883e5b8a243478794f
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0
+    - header: true
+      public: true
+      ref: boost-config/1.91.0
+    - header: true
+      public: true
+      ref: boost-core/1.91.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope
+    url: https://github.com/boostorg/scope.git
   1.91.0-a.d+25.12.13.20.45:
     commit: c979d5e11b43cc36d5d5b8883e5b8a243478794f
     cxxstd: '11'
@@ -229,6 +250,48 @@ sources:
     - header: true
       public: true
       ref: boost-type_traits/1.91.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope
+    url: https://github.com/boostorg/scope.git
+  1.92.0-a.d+25.12.13.20.45:
+    commit: c979d5e11b43cc36d5d5b8883e5b8a243478794f
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope
+    url: https://github.com/boostorg/scope.git
+  1.92.0-a.m+25.12.13.20.45:
+    commit: c979d5e11b43cc36d5d5b8883e5b8a243478794f
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     targets:
     - dependencies: []
       kind: header-library
