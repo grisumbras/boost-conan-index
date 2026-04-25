@@ -270,7 +270,7 @@ sources:
       ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+      ref: boost-config/1.91.0-a.d+26.04.23.22.18
     - header: false
       public: true
       ref: boost-context/1.91.0-a.d+26.03.10.06.37
@@ -313,7 +313,7 @@ sources:
       ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+      ref: boost-config/1.91.0-a.m+26.04.23.22.18
     - header: false
       public: true
       ref: boost-context/1.91.0-a.m+26.03.10.06.37
@@ -334,7 +334,7 @@ sources:
       ref: boost-algorithm/1.91.0-a.m+26.03.03.10.52
     - header: false
       public: false
-      ref: boost-filesystem/1.91.0-a.m+26.02.26.19.13
+      ref: boost-filesystem/1.91.0-a.m+26.04.20.00.13
     - header: true
       public: false
       ref: boost-format/1.91.0-a.m+25.01.02.11.49

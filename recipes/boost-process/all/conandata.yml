@@ -633,6 +633,69 @@ sources:
       kind: library
       name: boost_process
     url: https://github.com/boostorg/process.git
+  1.91.0-a.d+25.12.24.17.03:
+    commit: e4d0d405a12f13ebe7d894382d3a98830ae1c7bd
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.91.0-a.d+26.02.05.17.25
+    - header: true
+      public: true
+      ref: boost-asio/1.91.0-a.d+26.04.15.23.18
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.91.0-a.d+26.01.22.15.21
+    - header: false
+      public: true
+      ref: boost-filesystem/1.91.0-a.d+26.04.20.00.13
+    - header: true
+      public: true
+      ref: boost-fusion/1.91.0-a.d+26.01.23.01.34
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-a.d+26.01.22.22.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-move/1.91.0-a.d+26.04.20.00.48
+    - header: true
+      public: true
+      ref: boost-optional/1.91.0-a.d+26.02.25.22.49
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.d+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.91.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tokenizer/1.91.0-a.d+26.04.23.15.39
+    - header: true
+      public: true
+      ref: boost-type_index/1.91.0-a.d+26.01.04.22.00
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.91.0-a.d+26.01.22.15.40
+    - header: true
+      public: true
+      ref: boost-winapi/1.91.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_process
+    url: https://github.com/boostorg/process.git
   1.91.0-a.d+26.01.11.07.32:
     commit: 1dcf21fbde4675213c87d9054cd21b5ab336ef0e
     cxxstd: '11'
@@ -963,13 +1026,13 @@ sources:
       ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+      ref: boost-config/1.91.0-a.m+26.04.23.22.18
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-filesystem/1.91.0-a.m+26.02.26.19.13
+      ref: boost-filesystem/1.91.0-a.m+26.04.20.00.13
     - header: true
       public: true
       ref: boost-fusion/1.91.0-a.m+26.03.03.10.45
@@ -993,7 +1056,7 @@ sources:
       ref: boost-throw_exception/1.91.0-a.m+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-tokenizer/1.91.0-a.m+25.01.01.15.10
+      ref: boost-tokenizer/1.91.0-a.m+26.04.23.15.39
     - header: true
       public: true
       ref: boost-type_index/1.91.0-a.m+26.01.04.22.00

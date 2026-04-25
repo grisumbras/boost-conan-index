@@ -981,7 +981,7 @@ sources:
       ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+      ref: boost-config/1.91.0-a.d+26.04.23.22.18
     - header: true
       public: true
       ref: boost-container_hash/1.91.0-a.d+26.04.01.21.49
@@ -1240,6 +1240,57 @@ sources:
     - header: true
       public: true
       ref: boost-container_hash/1.91.0-a.m+26.04.01.21.54
+    - header: true
+      public: true
+      ref: boost-detail/1.91.0-a.m+26.01.22.15.23
+    - header: true
+      public: true
+      ref: boost-io/1.91.0-a.m+23.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.91.0-a.m+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.91.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-system/1.91.0-a.m+26.03.03.20.14
+    - header: true
+      public: true
+      ref: boost-type_traits/1.91.0-a.m+26.01.23.18.36
+    - header: false
+      public: false
+      ref: boost-atomic/1.91.0-a.m+25.12.29.17.20
+    - header: true
+      public: false
+      ref: boost-core/1.91.0-a.m+26.01.22.15.21
+    - header: true
+      public: false
+      ref: boost-predef/1.91.0-a.m+25.01.12.12.53
+    - header: true
+      public: false
+      ref: boost-scope/1.91.0-a.m+25.12.13.20.45
+    - header: true
+      public: false
+      ref: boost-winapi/1.91.0-a.m+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_filesystem
+    url: https://github.com/boostorg/filesystem.git
+  1.91.0-a.m+26.04.20.00.13:
+    commit: 4ea16ad23718c777cb89c11a4d1be79ee1510d82
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.91.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.91.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.91.0-a.m+26.04.01.21.49
     - header: true
       public: true
       ref: boost-detail/1.91.0-a.m+26.01.22.15.23

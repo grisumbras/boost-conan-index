@@ -481,7 +481,7 @@ sources:
       ref: boost-assert/1.91.0-a.d+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+      ref: boost-config/1.91.0-a.d+26.04.23.22.18
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -526,7 +526,7 @@ sources:
       ref: boost-type_traits/1.91.0-a.d+26.01.23.18.36
     - header: true
       public: false
-      ref: boost-lexical_cast/1.91.0-a.d+26.01.26.17.58
+      ref: boost-lexical_cast/1.91.0-a.d+26.04.24.18.03
     - header: true
       public: false
       ref: boost-utility/1.91.0-a.d+26.01.22.15.40
@@ -548,7 +548,7 @@ sources:
       ref: boost-assert/1.91.0-a.m+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+      ref: boost-config/1.91.0-a.m+26.04.23.22.18
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.22.15.21

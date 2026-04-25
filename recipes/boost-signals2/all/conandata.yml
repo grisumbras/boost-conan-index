@@ -528,7 +528,7 @@ sources:
       ref: boost-bind/1.91.0-a.d+26.01.03.18.00
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+      ref: boost-config/1.91.0-a.d+26.04.23.22.18
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -699,7 +699,7 @@ sources:
       ref: boost-bind/1.91.0-a.m+26.01.03.18.00
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+      ref: boost-config/1.91.0-a.m+26.04.23.22.18
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.22.15.21

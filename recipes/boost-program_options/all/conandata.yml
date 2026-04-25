@@ -492,7 +492,7 @@ sources:
       ref: boost-any/1.91.0-a.d+26.01.12.20.29
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.d+26.02.03.02.16
+      ref: boost-config/1.91.0-a.d+26.04.23.22.18
     - header: true
       public: true
       ref: boost-core/1.91.0-a.d+26.01.22.15.21
@@ -507,7 +507,7 @@ sources:
       ref: boost-iterator/1.91.0-a.d+25.12.13.20.42
     - header: true
       public: true
-      ref: boost-lexical_cast/1.91.0-a.d+26.01.26.17.58
+      ref: boost-lexical_cast/1.91.0-a.d+26.04.24.18.03
     - header: true
       public: true
       ref: boost-smart_ptr/1.91.0-a.d+26.01.23.02.21
@@ -525,7 +525,7 @@ sources:
       ref: boost-bind/1.91.0-a.d+26.01.03.18.00
     - header: true
       public: false
-      ref: boost-tokenizer/1.91.0-a.d+25.07.02.17.31
+      ref: boost-tokenizer/1.91.0-a.d+26.04.23.15.39
     targets:
     - dependencies: []
       kind: library
@@ -588,7 +588,7 @@ sources:
       ref: boost-any/1.91.0-a.m+26.01.12.20.29
     - header: true
       public: true
-      ref: boost-config/1.91.0-a.m+26.02.03.02.16
+      ref: boost-config/1.91.0-a.m+26.04.23.22.18
     - header: true
       public: true
       ref: boost-core/1.91.0-a.m+26.01.22.15.21
@@ -621,7 +621,7 @@ sources:
       ref: boost-bind/1.91.0-a.m+26.01.03.18.00
     - header: true
       public: false
-      ref: boost-tokenizer/1.91.0-a.m+25.01.01.15.10
+      ref: boost-tokenizer/1.91.0-a.m+26.04.23.15.39
     targets:
     - dependencies: []
       kind: library
