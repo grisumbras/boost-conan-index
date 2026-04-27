@@ -65,7 +65,8 @@ def main(argv):
     )
 
     with module_registry['boostdep'].materialize(git) as depinst_dir:
-        depinst = Depinst(depinst_dir)
+        with module_registry['old_boostdep'].materialize(git) as old_depinst_dir:
+            depinst = Depinst(depinst_dir, old_depinst_dir)
 
     for module in module_registry.values():
         module.collect_data(git, fs, module_registry, depinst)
@@ -243,16 +244,17 @@ class SuperProject(Project):
                 elif k == 'url':
                     url = v
 
-            if path == 'libs/headers':
-                cls = IgnoredProject
-            elif path.startswith('libs/'):
-                cls = LibraryProject
-            elif path.startswith('tools/'):
-                cls = ToolProject
+            if path.startswith('tools/'):
+                yield ToolProject(name, url, self, self.tool_git_ref)
+                yield ToolProject('old_' + name, url, self, self.git_ref)
             else:
-                cls = IgnoredProject
-
-            yield cls(name, path, url, self, tools, helpers, git)
+                if path == 'libs/headers':
+                    cls = IgnoredProject
+                elif path.startswith('libs/'):
+                    cls = LibraryProject
+                else:
+                    cls = IgnoredProject
+                yield cls(name, path, url, self, tools, helpers, git)
 
     def collect_data(self, git, fs, registry, depinst):
         self.dependencies = [
@@ -504,11 +506,11 @@ class LibraryProject(Project):
 
 
 class ToolProject(Project):
-    def __init__(self, name, path, url, superproject, tools, helpers, git):
+    def __init__(self, name, url, superproject, git_ref):
         super().__init__(name)
         self.superproject = superproject
         self.url = urllib.parse.urljoin(superproject.url, url)
-        self.ref = superproject.tool_git_ref
+        self.git_ref = git_ref
 
     def collect_data(self, *_):
         pass
@@ -518,14 +520,14 @@ class ToolProject(Project):
 
     @contextlib.contextmanager
     def materialize(self, git):
-        with git.clone_ref(self.url, self.ref, target=self.name) as lib:
+        with git.clone_ref(self.url, self.git_ref, target=self.name) as lib:
             try:
                 yield lib
             finally:
                 pass
 
     def __repr__(self):
-        return f'ToolProject("{self.name}")'
+        return f'ToolProject("{self.name}", "{self.git_ref}")'
 
 
 class RecipeToolsProject(Project):
@@ -755,9 +757,12 @@ class FileSystem():
 
 
 class Depinst():
-    def __init__(self, location):
+    def __init__(self, location, old_location):
         mod_name = 'boostdep.depinst'
         depinst_dir = os.path.join(location, 'depinst')
+        old_depinst_dir = os.path.join(
+            old_location, 'depinst', 'exceptions.txt',
+        )
 
         spec = importlib.util.spec_from_file_location(
             mod_name, os.path.join(depinst_dir, 'depinst.py'),
@@ -771,7 +776,7 @@ class Depinst():
         mod.is_module = self._is_module
 
         exceptions = {}
-        with open(os.path.join(depinst_dir, 'exceptions.txt'), 'r') as f:
+        with open(old_depinst_dir, 'r') as f:
             lib = None
             for line in f:
                 line = line.rstrip()
