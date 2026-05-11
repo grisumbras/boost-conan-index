@@ -497,6 +497,9 @@ class LibraryProject(Project):
         self.dependencies.append((registry['external/openssl'], True))
         self.targets[0]['dependencies'].append('openssl::ssl')
 
+    def _regex_exceptions(self, lib_dir, registry):
+        self.targets[0]['kind'] = 'header-library'
+
     def _mysql_exceptions(self, lib_dir, registry):
         self.dependencies.append((registry['external/openssl'], True))
         self.targets[0]['dependencies'].append('openssl::ssl')
