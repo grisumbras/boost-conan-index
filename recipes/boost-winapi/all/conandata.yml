@@ -162,7 +162,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: true
       public: true
-      ref: boost-predef/1.92.0-a.d+25.02.03.08.30
+      ref: boost-predef/1.92.0-a.d+26.05.09.14.25
     targets:
     - dependencies: []
       kind: header-library

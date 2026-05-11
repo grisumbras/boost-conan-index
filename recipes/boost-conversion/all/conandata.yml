@@ -360,3 +360,24 @@ sources:
       kind: header-library
       name: boost_conversion
     url: https://github.com/boostorg/conversion.git
+  1.92.0-a.m+26.02.25.08.39:
+    commit: d324df9a8c36fae63701c2de6944f2b9b74767bc
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_conversion
+    url: https://github.com/boostorg/conversion.git

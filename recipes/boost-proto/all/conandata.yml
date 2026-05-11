@@ -729,9 +729,6 @@ sources:
       ref: boost-range/1.92.0-a.d+26.02.19.10.17
     - header: true
       public: true
-      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
-    - header: true
-      public: true
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
     - header: true
       public: true
@@ -766,9 +763,6 @@ sources:
     - header: true
       public: true
       ref: boost-range/1.92.0-a.m+26.02.19.10.17
-    - header: true
-      public: true
-      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36

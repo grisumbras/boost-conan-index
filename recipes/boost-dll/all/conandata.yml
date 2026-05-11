@@ -642,22 +642,22 @@ sources:
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.d+26.04.20.00.13
+      ref: boost-filesystem/1.92.0-a.d+26.05.05.13.39
     - header: true
       public: true
-      ref: boost-predef/1.92.0-a.d+25.02.03.08.30
+      ref: boost-predef/1.92.0-a.d+26.05.09.14.25
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.d+26.03.03.20.14
+      ref: boost-system/1.92.0-a.d+26.05.01.16.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-type_index/1.92.0-a.d+26.01.04.22.00
+      ref: boost-type_index/1.92.0-a.d+26.05.05.20.32
     - header: true
       public: true
       ref: boost-winapi/1.92.0-a.d+25.08.25.19.08
@@ -690,7 +690,7 @@ sources:
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.m+26.03.03.20.14
+      ref: boost-system/1.92.0-a.m+26.05.01.16.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

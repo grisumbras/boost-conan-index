@@ -738,13 +738,13 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-context/1.92.0-a.d+26.03.10.06.37
+      ref: boost-context/1.92.0-a.d+26.05.08.18.52
     - header: false
       public: true
       ref: boost-date_time/1.92.0-a.d+26.02.06.04.26
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.d+26.03.03.20.14
+      ref: boost-system/1.92.0-a.d+26.05.01.16.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -774,7 +774,7 @@ sources:
       ref: boost-date_time/1.92.0-a.m+22.10.31.09.22
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.m+26.03.03.20.14
+      ref: boost-system/1.92.0-a.m+26.05.01.16.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

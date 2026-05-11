@@ -879,10 +879,10 @@ sources:
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.d+26.04.20.00.13
+      ref: boost-filesystem/1.92.0-a.d+26.05.05.13.39
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.d+26.01.22.15.37
+      ref: boost-integer/1.92.0-a.d+26.05.05.15.54
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
@@ -927,7 +927,7 @@ sources:
       ref: boost-filesystem/1.92.0-a.m+26.04.20.00.13
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.m+26.01.22.15.37
+      ref: boost-integer/1.92.0-a.m+26.05.05.15.54
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.m+25.12.13.20.42

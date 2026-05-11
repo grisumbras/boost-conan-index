@@ -288,7 +288,7 @@ sources:
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.d+26.01.22.15.37
+      ref: boost-integer/1.92.0-a.d+26.05.05.15.54
     - header: true
       public: true
       ref: boost-logic/1.92.0-a.d+25.07.02.08.14
@@ -315,7 +315,7 @@ sources:
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.m+26.01.22.15.37
+      ref: boost-integer/1.92.0-a.m+26.05.05.15.54
     - header: true
       public: true
       ref: boost-logic/1.92.0-a.m+25.01.01.20.44

@@ -876,10 +876,7 @@ sources:
       ref: boost-range/1.92.0-a.d+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+24.08.18.11.53
-    - header: true
-      public: true
-      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
+      ref: boost-serialization/1.92.0-a.d+26.04.25.21.31
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -894,7 +891,7 @@ sources:
       ref: boost-typeof/1.92.0-a.d+26.02.03.04.18
     - header: true
       public: true
-      ref: boost-ublas/1.92.0-a.d+23.11.22.02.19
+      ref: boost-ublas/1.92.0-a.d+26.05.06.01.57
     targets:
     - dependencies: []
       kind: header-library
@@ -948,9 +945,6 @@ sources:
       ref: boost-serialization/1.92.0-a.m+23.11.12.21.05
     - header: true
       public: true
-      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
-    - header: true
-      public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
     - header: true
       public: true
@@ -963,7 +957,7 @@ sources:
       ref: boost-typeof/1.92.0-a.m+26.02.03.04.18
     - header: true
       public: true
-      ref: boost-ublas/1.92.0-a.m+24.05.07.22.32
+      ref: boost-ublas/1.92.0-a.m+26.05.06.01.57
     targets:
     - dependencies: []
       kind: header-library

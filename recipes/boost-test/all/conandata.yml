@@ -1449,7 +1449,7 @@ sources:
       ref: boost-detail/1.92.0-a.d+26.01.22.15.23
     - header: false
       public: true
-      ref: boost-exception/1.92.0-a.d+26.02.01.13.57
+      ref: boost-exception/1.92.0-a.d+26.05.06.23.08
     - header: true
       public: true
       ref: boost-function/1.92.0-a.d+26.01.23.05.06
@@ -1476,16 +1476,13 @@ sources:
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
-    - header: true
-      public: true
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
     - header: true
       public: true
       ref: boost-utility/1.92.0-a.d+26.01.22.15.40
     - header: true
       public: false
-      ref: boost-predef/1.92.0-a.d+25.02.03.08.30
+      ref: boost-predef/1.92.0-a.d+26.05.09.14.25
     targets:
     - dependencies: []
       kind: library
@@ -1546,9 +1543,6 @@ sources:
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
-    - header: true
-      public: true
-      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36

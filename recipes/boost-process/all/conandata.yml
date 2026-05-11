@@ -1221,7 +1221,7 @@ sources:
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.d+26.04.20.00.13
+      ref: boost-filesystem/1.92.0-a.d+26.05.05.13.39
     - header: true
       public: true
       ref: boost-fusion/1.92.0-a.d+26.01.23.01.34
@@ -1239,7 +1239,7 @@ sources:
       ref: boost-optional/1.92.0-a.d+26.02.25.22.49
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.d+26.03.03.20.14
+      ref: boost-system/1.92.0-a.d+26.05.01.16.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -1248,7 +1248,7 @@ sources:
       ref: boost-tokenizer/1.92.0-a.d+26.04.23.15.39
     - header: true
       public: true
-      ref: boost-type_index/1.92.0-a.d+26.01.04.22.00
+      ref: boost-type_index/1.92.0-a.d+26.05.05.20.32
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
@@ -1302,7 +1302,7 @@ sources:
       ref: boost-optional/1.92.0-a.m+26.02.27.14.04
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.m+26.03.03.20.14
+      ref: boost-system/1.92.0-a.m+26.05.01.16.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

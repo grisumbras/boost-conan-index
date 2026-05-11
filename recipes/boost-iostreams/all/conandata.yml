@@ -164,7 +164,7 @@ sources:
     - header: true
       public: true
       ref: boost-range/1.90.0
-    - header: false
+    - header: true
       public: true
       ref: boost-regex/1.90.0
     - header: true
@@ -418,7 +418,7 @@ sources:
     - header: true
       public: true
       ref: boost-range/1.91.0
-    - header: false
+    - header: true
       public: true
       ref: boost-regex/1.91.0
     - header: true
@@ -780,7 +780,7 @@ sources:
       ref: boost-function/1.92.0-a.d+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.d+26.01.22.15.37
+      ref: boost-integer/1.92.0-a.d+26.05.05.15.54
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
@@ -798,13 +798,10 @@ sources:
       ref: boost-range/1.92.0-a.d+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-regex/1.92.0-a.d+26.03.06.13.40
+      ref: boost-regex/1.92.0-a.d+26.05.05.02.13
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
-    - header: true
-      public: true
-      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -843,7 +840,7 @@ sources:
       ref: boost-function/1.92.0-a.m+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.m+26.01.22.15.37
+      ref: boost-integer/1.92.0-a.m+26.05.05.15.54
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.m+25.12.13.20.42
@@ -861,13 +858,10 @@ sources:
       ref: boost-range/1.92.0-a.m+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-regex/1.92.0-a.m+25.07.04.17.16
+      ref: boost-regex/1.92.0-a.m+26.05.05.02.13
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
-    - header: true
-      public: true
-      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

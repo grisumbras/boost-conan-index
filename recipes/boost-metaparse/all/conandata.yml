@@ -354,6 +354,30 @@ sources:
       kind: header-library
       name: boost_metaparse
     url: https://github.com/boostorg/metaparse.git
+  1.92.0-a.d+26.05.09.07.15:
+    commit: f95c333733bd33e6d6338bb7171e6df90035159c
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.d+26.05.09.14.25
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_metaparse
+    url: https://github.com/boostorg/metaparse.git
   1.92.0-a.m+26.01.24.08.39:
     commit: 5a7d50bda78dc7a2ef667a3b10ddef05f26c0256
     cxxstd: '03'
@@ -370,9 +394,6 @@ sources:
     - header: true
       public: true
       ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
-    - header: true
-      public: true
-      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36

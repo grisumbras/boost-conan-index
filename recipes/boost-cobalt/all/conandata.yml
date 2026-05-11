@@ -1582,7 +1582,7 @@ sources:
       ref: boost-asio/1.92.0-a.d+26.04.15.23.18
     - header: true
       public: true
-      ref: boost-callable_traits/1.92.0-a.d+25.06.25.18.43
+      ref: boost-callable_traits/1.92.0-a.d+26.05.07.18.18
     - header: true
       public: true
       ref: boost-circular_buffer/1.92.0-a.d+26.02.03.14.37
@@ -1591,10 +1591,10 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-container/1.92.0-a.d+26.04.24.13.19
+      ref: boost-container/1.92.0-a.d+26.05.10.01.28
     - header: false
       public: true
-      ref: boost-context/1.92.0-a.d+26.03.10.06.37
+      ref: boost-context/1.92.0-a.d+26.05.08.18.52
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -1618,7 +1618,7 @@ sources:
       ref: boost-static_string/1.92.0-a.d+26.04.24.07.02
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.d+26.03.03.20.14
+      ref: boost-system/1.92.0-a.d+26.05.01.16.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -1687,7 +1687,7 @@ sources:
       ref: boost-static_string/1.92.0-a.m+26.04.24.07.02
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.m+26.03.03.20.14
+      ref: boost-system/1.92.0-a.m+26.05.01.16.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

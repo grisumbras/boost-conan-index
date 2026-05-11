@@ -2097,6 +2097,108 @@ sources:
       kind: header-library
       name: boost_geometry
     url: https://github.com/boostorg/geometry.git
+  1.92.0-a.d+26.05.07.17.36:
+    commit: aed7bc3bb55f0fbf13d1762e9e65bee3452adc1b
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.92.0-a.d+26.02.05.17.25
+    - header: true
+      public: true
+      ref: boost-any/1.92.0-a.d+26.01.12.20.29
+    - header: true
+      public: true
+      ref: boost-array/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: false
+      public: true
+      ref: boost-container/1.92.0-a.d+26.05.10.01.28
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-endian/1.92.0-a.d+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-function_types/1.92.0-a.d+26.02.05.17.38
+    - header: true
+      public: true
+      ref: boost-fusion/1.92.0-a.d+26.01.23.01.34
+    - header: false
+      public: true
+      ref: boost-graph/1.92.0-a.d+26.05.06.10.56
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-a.d+26.04.24.18.03
+    - header: false
+      public: true
+      ref: boost-math/1.92.0-a.d+26.05.09.17.06
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+    - header: true
+      public: true
+      ref: boost-multiprecision/1.92.0-a.d+26.05.06.09.40
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.92.0-a.d+25.06.26.07.40
+    - header: true
+      public: true
+      ref: boost-polygon/1.92.0-a.d+25.05.02.19.15
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.d+26.05.09.14.25
+    - header: true
+      public: true
+      ref: boost-qvm/1.92.0-a.d+25.12.24.23.54
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.d+26.02.19.10.17
+    - header: true
+      public: true
+      ref: boost-rational/1.92.0-a.d+26.01.22.21.05
+    - header: false
+      public: true
+      ref: boost-serialization/1.92.0-a.d+26.04.25.21.31
+    - header: false
+      public: true
+      ref: boost-thread/1.92.0-a.d+26.02.06.15.45
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tokenizer/1.92.0-a.d+26.04.23.15.39
+    - header: true
+      public: true
+      ref: boost-tuple/1.92.0-a.d+26.02.19.13.44
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-variant/1.92.0-a.d+26.04.25.20.51
+    - header: true
+      public: true
+      ref: boost-variant2/1.92.0-a.d+26.02.24.21.01
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_geometry
+    url: https://github.com/boostorg/geometry.git
   1.92.0-a.m+26.02.25.11.50:
     commit: 002ae2629cf4dd57b1ee599c22c1fc514004168e
     cxxstd: '14'
@@ -2133,10 +2235,10 @@ sources:
       ref: boost-fusion/1.92.0-a.m+26.03.03.10.45
     - header: false
       public: true
-      ref: boost-graph/1.92.0-a.m+25.02.15.20.07
+      ref: boost-graph/1.92.0-a.m+26.04.28.17.54
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.m+26.01.22.15.37
+      ref: boost-integer/1.92.0-a.m+26.05.05.15.54
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.m+25.12.13.20.42
@@ -2170,9 +2272,6 @@ sources:
     - header: false
       public: true
       ref: boost-serialization/1.92.0-a.m+23.11.12.21.05
-    - header: true
-      public: true
-      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
     - header: false
       public: true
       ref: boost-thread/1.92.0-a.m+26.02.06.15.45
@@ -2190,7 +2289,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-variant/1.92.0-a.m+26.01.04.11.27
+      ref: boost-variant/1.92.0-a.m+26.04.25.20.51
     - header: true
       public: true
       ref: boost-variant2/1.92.0-a.m+26.02.24.21.01

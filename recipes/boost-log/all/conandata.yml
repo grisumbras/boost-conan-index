@@ -307,7 +307,7 @@ sources:
     - header: true
       public: true
       ref: boost-range/1.90.0
-    - header: false
+    - header: true
       public: true
       ref: boost-regex/1.90.0
     - header: true
@@ -1761,7 +1761,7 @@ sources:
     - header: true
       public: true
       ref: boost-range/1.91.0
-    - header: false
+    - header: true
       public: true
       ref: boost-regex/1.91.0
     - header: true
@@ -2444,10 +2444,10 @@ sources:
       ref: boost-date_time/1.92.0-a.d+26.02.06.04.26
     - header: false
       public: true
-      ref: boost-exception/1.92.0-a.d+26.02.01.13.57
+      ref: boost-exception/1.92.0-a.d+26.05.06.23.08
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.d+26.04.20.00.13
+      ref: boost-filesystem/1.92.0-a.d+26.05.05.13.39
     - header: true
       public: true
       ref: boost-function_types/1.92.0-a.d+26.02.05.17.38
@@ -2474,7 +2474,7 @@ sources:
       ref: boost-parameter/1.92.0-a.d+25.12.13.20.44
     - header: true
       public: true
-      ref: boost-phoenix/1.92.0-a.d+26.01.23.01.35
+      ref: boost-phoenix/1.92.0-a.d+26.05.06.02.52
     - header: true
       public: true
       ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
@@ -2489,16 +2489,16 @@ sources:
       ref: boost-range/1.92.0-a.d+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-regex/1.92.0-a.d+26.03.06.13.40
+      ref: boost-regex/1.92.0-a.d+26.05.05.02.13
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-spirit/1.92.0-a.d+26.01.23.06.34
+      ref: boost-spirit/1.92.0-a.d+26.05.06.08.51
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.d+26.03.03.20.14
+      ref: boost-system/1.92.0-a.d+26.05.01.16.42
     - header: false
       public: true
       ref: boost-thread/1.92.0-a.d+26.02.06.15.45
@@ -2507,7 +2507,7 @@ sources:
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-type_index/1.92.0-a.d+26.01.04.22.00
+      ref: boost-type_index/1.92.0-a.d+26.05.05.20.32
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
@@ -2534,7 +2534,7 @@ sources:
       ref: boost-io/1.92.0-a.d+26.01.22.22.15
     - header: true
       public: false
-      ref: boost-predef/1.92.0-a.d+25.02.03.08.30
+      ref: boost-predef/1.92.0-a.d+26.05.09.14.25
     targets:
     - dependencies: []
       kind: library
@@ -2610,16 +2610,16 @@ sources:
       ref: boost-range/1.92.0-a.m+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-regex/1.92.0-a.m+25.07.04.17.16
+      ref: boost-regex/1.92.0-a.m+26.05.05.02.13
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-spirit/1.92.0-a.m+25.09.17.08.31
+      ref: boost-spirit/1.92.0-a.m+26.04.26.06.05
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.m+26.03.03.20.14
+      ref: boost-system/1.92.0-a.m+26.05.01.16.42
     - header: false
       public: true
       ref: boost-thread/1.92.0-a.m+26.02.06.15.45

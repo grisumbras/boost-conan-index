@@ -495,13 +495,13 @@ sources:
       ref: boost-assert/1.92.0-a.d+26.01.23.05.53
     - header: false
       public: true
-      ref: boost-charconv/1.92.0-a.d+26.03.31.13.19
+      ref: boost-charconv/1.92.0-a.d+26.04.27.13.29
     - header: true
       public: true
       ref: boost-hana/1.92.0-a.d+25.07.03.23.00
     - header: true
       public: true
-      ref: boost-type_index/1.92.0-a.d+26.01.04.22.00
+      ref: boost-type_index/1.92.0-a.d+26.05.05.20.32
     targets:
     - dependencies: []
       kind: header-library
@@ -516,7 +516,7 @@ sources:
       ref: boost-assert/1.92.0-a.m+26.01.23.05.53
     - header: false
       public: true
-      ref: boost-charconv/1.92.0-a.m+26.02.11.10.51
+      ref: boost-charconv/1.92.0-a.m+26.04.27.15.30
     - header: true
       public: true
       ref: boost-hana/1.92.0-a.m+25.07.03.23.00

@@ -972,10 +972,10 @@ sources:
       ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.04.23.12.44
+      ref: boost-math/1.92.0-a.d+26.05.09.17.06
     - header: false
       public: true
-      ref: boost-mpi/1.92.0-a.d+25.12.02.14.52
+      ref: boost-mpi/1.92.0-a.d+26.04.25.22.37
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
@@ -990,16 +990,13 @@ sources:
       ref: boost-range/1.92.0-a.d+26.02.19.10.17
     - header: true
       public: true
-      ref: boost-static_assert/1.92.0-a.d+26.01.06.18.03
-    - header: true
-      public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-ublas/1.92.0-a.d+23.11.22.02.19
+      ref: boost-ublas/1.92.0-a.d+26.05.06.01.57
     - header: true
       public: true
       ref: boost-units/1.92.0-a.d+26.02.07.04.17
@@ -1038,7 +1035,7 @@ sources:
       ref: boost-math/1.92.0-a.m+26.04.23.16.52
     - header: false
       public: true
-      ref: boost-mpi/1.92.0-a.m+25.04.17.17.55
+      ref: boost-mpi/1.92.0-a.m+26.01.22.22.50
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
@@ -1053,16 +1050,13 @@ sources:
       ref: boost-range/1.92.0-a.m+26.02.19.10.17
     - header: true
       public: true
-      ref: boost-static_assert/1.92.0-a.m+26.01.06.18.03
-    - header: true
-      public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-ublas/1.92.0-a.m+24.05.07.22.32
+      ref: boost-ublas/1.92.0-a.m+26.05.06.01.57
     - header: true
       public: true
       ref: boost-units/1.92.0-a.m+26.02.07.04.17

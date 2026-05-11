@@ -909,7 +909,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-variant/1.92.0-a.d+26.01.04.11.27
+      ref: boost-variant/1.92.0-a.d+26.04.25.20.51
     targets:
     - dependencies: []
       kind: header-library
@@ -966,7 +966,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-variant/1.92.0-a.m+26.01.04.11.27
+      ref: boost-variant/1.92.0-a.m+26.04.25.20.51
     targets:
     - dependencies: []
       kind: header-library

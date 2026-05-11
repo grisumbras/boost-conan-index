@@ -445,7 +445,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-context/1.92.0-a.d+26.03.10.06.37
+      ref: boost-context/1.92.0-a.d+26.05.08.18.52
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -454,7 +454,7 @@ sources:
       ref: boost-intrusive/1.92.0-a.d+26.04.20.01.07
     - header: true
       public: true
-      ref: boost-predef/1.92.0-a.d+25.02.03.08.30
+      ref: boost-predef/1.92.0-a.d+26.05.09.14.25
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
@@ -463,7 +463,7 @@ sources:
       ref: boost-algorithm/1.92.0-a.d+26.02.05.17.25
     - header: false
       public: false
-      ref: boost-filesystem/1.92.0-a.d+26.04.20.00.13
+      ref: boost-filesystem/1.92.0-a.d+26.05.05.13.39
     - header: true
       public: false
       ref: boost-format/1.92.0-a.d+25.06.26.19.58
