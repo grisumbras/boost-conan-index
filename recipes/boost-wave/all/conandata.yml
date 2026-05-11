@@ -897,7 +897,7 @@ sources:
       ref: boost-multi_index/1.92.0-a.d+26.04.24.11.45
     - header: true
       public: true
-      ref: boost-optional/1.92.0-a.d+26.02.25.22.49
+      ref: boost-optional/1.92.0-a.d+26.04.26.21.57
     - header: true
       public: true
       ref: boost-pool/1.92.0-a.d+26.04.23.15.37

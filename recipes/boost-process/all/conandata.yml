@@ -1236,7 +1236,7 @@ sources:
       ref: boost-move/1.92.0-a.d+26.04.20.00.48
     - header: true
       public: true
-      ref: boost-optional/1.92.0-a.d+26.02.25.22.49
+      ref: boost-optional/1.92.0-a.d+26.04.26.21.57
     - header: true
       public: true
       ref: boost-system/1.92.0-a.d+26.05.01.16.42
