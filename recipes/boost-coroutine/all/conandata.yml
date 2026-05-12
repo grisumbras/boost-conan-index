@@ -414,7 +414,7 @@ sources:
       ref: boost-exception/1.92.0-a.d+26.05.06.23.08
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.d+26.04.20.00.48
+      ref: boost-move/1.92.0-a.d+26.05.11.16.14
     - header: true
       public: true
       ref: boost-system/1.92.0-a.d+26.05.01.16.42
@@ -444,7 +444,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-context/1.92.0-a.m+26.03.10.06.37
+      ref: boost-context/1.92.0-a.m+26.05.08.18.52
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21

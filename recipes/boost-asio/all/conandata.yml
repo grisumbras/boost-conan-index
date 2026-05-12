@@ -768,7 +768,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-context/1.92.0-a.m+26.03.10.06.37
+      ref: boost-context/1.92.0-a.m+26.05.08.18.52
     - header: false
       public: true
       ref: boost-date_time/1.92.0-a.m+22.10.31.09.22

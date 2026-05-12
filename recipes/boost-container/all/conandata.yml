@@ -2305,7 +2305,7 @@ sources:
       ref: boost-intrusive/1.92.0-a.d+26.04.20.01.07
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.d+26.04.20.00.48
+      ref: boost-move/1.92.0-a.d+26.05.11.16.14
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38

@@ -972,7 +972,7 @@ sources:
       ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.05.09.17.06
+      ref: boost-math/1.92.0-a.d+26.05.11.18.28
     - header: false
       public: true
       ref: boost-mpi/1.92.0-a.d+26.04.25.22.37
