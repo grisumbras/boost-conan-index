@@ -3576,7 +3576,7 @@ sources:
       ref: boost-function/1.92.0-a.d+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.d+26.01.23.01.34
+      ref: boost-fusion/1.92.0-a.d+26.03.03.10.45
     - header: false
       public: true
       ref: boost-json/1.92.0-a.d+26.05.10.12.27

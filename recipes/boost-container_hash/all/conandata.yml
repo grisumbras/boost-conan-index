@@ -291,3 +291,21 @@ sources:
       kind: header-library
       name: boost_container_hash
     url: https://github.com/boostorg/container_hash.git
+  1.92.0-a.m+26.05.12.02.42:
+    commit: 2698b43803c012601e6bb1a6116e83767b97986c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-describe/1.92.0-a.m+25.12.15.19.39
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.04.24.21.29
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_container_hash
+    url: https://github.com/boostorg/container_hash.git

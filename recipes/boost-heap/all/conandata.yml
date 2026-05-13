@@ -586,7 +586,7 @@ sources:
       ref: boost-intrusive/1.92.0-a.d+26.04.20.01.07
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
+      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
     - header: true
       public: true
       ref: boost-parameter/1.92.0-a.d+25.12.13.20.44
@@ -622,7 +622,7 @@ sources:
       ref: boost-intrusive/1.92.0-a.m+26.02.27.00.16
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+25.12.13.20.42
+      ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
     - header: true
       public: true
       ref: boost-parameter/1.92.0-a.m+25.12.13.20.44

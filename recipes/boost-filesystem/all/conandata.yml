@@ -1503,7 +1503,7 @@ sources:
       ref: boost-io/1.92.0-a.d+26.01.22.22.15
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
+      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
@@ -1545,7 +1545,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.04.23.22.18
     - header: true
       public: true
-      ref: boost-container_hash/1.92.0-a.m+26.04.01.21.49
+      ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
     - header: true
       public: true
       ref: boost-detail/1.92.0-a.m+26.01.22.15.23
@@ -1554,7 +1554,7 @@ sources:
       ref: boost-io/1.92.0-a.m+23.10.03.00.15
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+25.12.13.20.42
+      ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21

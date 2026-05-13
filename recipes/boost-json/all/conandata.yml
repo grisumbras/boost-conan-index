@@ -1299,7 +1299,7 @@ sources:
       ref: boost-container/1.92.0-a.m+26.02.26.23.35
     - header: true
       public: true
-      ref: boost-container_hash/1.92.0-a.m+26.04.01.21.49
+      ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21

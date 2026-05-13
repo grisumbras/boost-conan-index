@@ -885,7 +885,7 @@ sources:
       ref: boost-format/1.92.0-a.d+25.06.26.19.58
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
+      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
     - header: true
       public: true
       ref: boost-lexical_cast/1.92.0-a.d+26.04.24.18.03
@@ -1014,7 +1014,7 @@ sources:
       ref: boost-format/1.92.0-a.m+25.01.02.11.49
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+25.12.13.20.42
+      ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
     - header: true
       public: true
       ref: boost-lexical_cast/1.92.0-a.m+26.01.26.17.58

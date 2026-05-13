@@ -303,7 +303,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
+      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -327,7 +327,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.04.23.22.18
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+25.12.13.20.42
+      ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

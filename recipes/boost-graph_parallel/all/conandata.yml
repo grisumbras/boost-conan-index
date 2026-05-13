@@ -1089,7 +1089,7 @@ sources:
       ref: boost-graph/1.92.0-a.d+26.05.06.10.56
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+25.12.13.20.42
+      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
     - header: true
       public: true
       ref: boost-lexical_cast/1.92.0-a.d+26.04.24.18.03
@@ -1149,7 +1149,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.04.23.22.18
     - header: true
       public: true
-      ref: boost-container_hash/1.92.0-a.m+26.04.01.21.49
+      ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
@@ -1173,7 +1173,7 @@ sources:
       ref: boost-graph/1.92.0-a.m+26.04.28.17.54
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+25.12.13.20.42
+      ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
     - header: true
       public: true
       ref: boost-lexical_cast/1.92.0-a.m+26.01.26.17.58
