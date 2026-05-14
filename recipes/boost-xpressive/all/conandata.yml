@@ -924,7 +924,7 @@ sources:
       ref: boost-exception/1.92.0-a.d+26.05.06.23.08
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.d+26.03.03.10.45
+      ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: true
       public: true
       ref: boost-integer/1.92.0-a.d+26.05.05.15.54
@@ -996,7 +996,7 @@ sources:
       ref: boost-exception/1.92.0-a.m+26.02.01.13.57
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.m+26.03.03.10.45
+      ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
     - header: true
       public: true
       ref: boost-integer/1.92.0-a.m+26.05.05.15.54

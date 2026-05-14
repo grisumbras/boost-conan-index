@@ -486,7 +486,7 @@ sources:
       ref: boost-function/1.92.0-a.d+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.d+26.03.03.10.45
+      ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
@@ -525,7 +525,7 @@ sources:
       ref: boost-function/1.92.0-a.m+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.m+26.03.03.10.45
+      ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.m+26.04.24.21.29

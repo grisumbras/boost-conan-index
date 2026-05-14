@@ -2121,7 +2121,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-container/1.92.0-a.d+26.05.10.01.28
+      ref: boost-container/1.92.0-a.d+26.05.14.10.11
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -2133,7 +2133,7 @@ sources:
       ref: boost-function_types/1.92.0-a.d+26.02.05.17.38
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.d+26.03.03.10.45
+      ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: false
       public: true
       ref: boost-graph/1.92.0-a.d+26.05.06.10.56
@@ -2232,7 +2232,7 @@ sources:
       ref: boost-function_types/1.92.0-a.m+26.01.19.12.23
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.m+26.03.03.10.45
+      ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
     - header: false
       public: true
       ref: boost-graph/1.92.0-a.m+26.04.28.17.54

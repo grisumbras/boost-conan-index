@@ -1224,7 +1224,7 @@ sources:
       ref: boost-filesystem/1.92.0-a.d+26.05.05.13.39
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.d+26.03.03.10.45
+      ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: true
       public: true
       ref: boost-io/1.92.0-a.d+26.01.22.22.15
@@ -1287,7 +1287,7 @@ sources:
       ref: boost-filesystem/1.92.0-a.m+26.04.20.00.13
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.m+26.03.03.10.45
+      ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
     - header: true
       public: true
       ref: boost-io/1.92.0-a.m+23.10.03.00.15

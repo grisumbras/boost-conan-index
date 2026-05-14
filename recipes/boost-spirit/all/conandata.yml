@@ -1566,7 +1566,7 @@ sources:
       ref: boost-function_types/1.92.0-a.d+26.02.05.17.38
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.d+26.03.03.10.45
+      ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: true
       public: true
       ref: boost-integer/1.92.0-a.d+26.05.05.15.54
@@ -1755,7 +1755,7 @@ sources:
       ref: boost-function_types/1.92.0-a.m+26.01.19.12.23
     - header: true
       public: true
-      ref: boost-fusion/1.92.0-a.m+26.03.03.10.45
+      ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
     - header: true
       public: true
       ref: boost-integer/1.92.0-a.m+26.05.05.15.54
