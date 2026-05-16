@@ -1,4 +1,4 @@
-#include <boost/iostreams/char_traits.hpp>
+#include <boost/iostreams/output_sequence.hpp>
 
 int main()
 {

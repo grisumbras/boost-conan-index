@@ -1,4 +1,4 @@
-#include <boost/hash2/has_constant_size.hpp>
+#include <boost/hash2/flavor.hpp>
 
 int main()
 {

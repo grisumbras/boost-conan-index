@@ -1,4 +1,4 @@
-#include <boost/pending/indirect_cmp.hpp>
+#include <boost/pending/bucket_sorter.hpp>
 
 int main()
 {

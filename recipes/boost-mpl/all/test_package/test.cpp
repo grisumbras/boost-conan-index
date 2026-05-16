@@ -1,4 +1,4 @@
-#include <boost/mpl/integral_c_fwd.hpp>
+#include <boost/mpl/front.hpp>
 
 int main()
 {

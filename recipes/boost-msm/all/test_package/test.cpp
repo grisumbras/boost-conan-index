@@ -1,4 +1,4 @@
-#include <boost/msm/proto_config.hpp>
+#include <boost/msm/row_tags.hpp>
 
 int main()
 {

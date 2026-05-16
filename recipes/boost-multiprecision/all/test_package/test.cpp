@@ -1,4 +1,4 @@
-#include <boost/multiprecision/cpp_dec_float.hpp>
+#include <boost/multiprecision/mpfi.hpp>
 
 int main()
 {

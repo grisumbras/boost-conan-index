@@ -1,4 +1,4 @@
-#include <boost/iterator_adaptors.hpp>
+#include <boost/pointee.hpp>
 
 int main()
 {

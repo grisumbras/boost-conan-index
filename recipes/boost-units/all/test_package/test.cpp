@@ -1,4 +1,4 @@
-#include <boost/units/is_dimensionless_quantity.hpp>
+#include <boost/units/homogeneous_system.hpp>
 
 int main()
 {

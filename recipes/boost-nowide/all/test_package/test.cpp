@@ -1,4 +1,4 @@
-#include <boost/nowide/args.hpp>
+#include <boost/nowide/stackstring.hpp>
 
 int main()
 {

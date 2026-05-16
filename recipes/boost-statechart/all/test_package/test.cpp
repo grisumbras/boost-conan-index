@@ -1,4 +1,4 @@
-#include <boost/statechart/event.hpp>
+#include <boost/statechart/state.hpp>
 
 int main()
 {

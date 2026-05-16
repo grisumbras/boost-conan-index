@@ -1,4 +1,4 @@
-#include <boost/safe_numerics/safe_compare.hpp>
+#include <boost/safe_numerics/range_value.hpp>
 
 int main()
 {

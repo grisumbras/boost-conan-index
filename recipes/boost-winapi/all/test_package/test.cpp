@@ -1,4 +1,4 @@
-#include <boost/winapi/event.hpp>
+#include <boost/winapi/waitable_timer.hpp>
 
 int main()
 {

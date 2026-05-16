@@ -1,4 +1,4 @@
-#include <boost/interprocess/mapped_region.hpp>
+#include <boost/interprocess/interprocess_printers.hpp>
 
 int main()
 {
