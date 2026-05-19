@@ -903,6 +903,51 @@ sources:
       kind: header-library
       name: boost_gil
     url: https://github.com/boostorg/gil.git
+  1.92.0-a.d+26.05.19.11.39:
+    commit: 0f6dab45f5cc6110ba286d8a242f94cc2f065b1b
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.05.12.02.42
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: false
+      public: true
+      ref: boost-filesystem/1.92.0-a.d+26.05.05.13.39
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.d+26.05.05.15.54
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-variant2/1.92.0-a.d+26.02.24.21.01
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_gil
+    url: https://github.com/boostorg/gil.git
   1.92.0-a.m+26.02.10.18.46:
     commit: 8420c6c4e949087df84f2748419cf53fa2f49c9b
     cxxstd: '14'
