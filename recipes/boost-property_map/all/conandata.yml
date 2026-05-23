@@ -729,7 +729,7 @@ sources:
       ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
     - header: true
       public: true
-      ref: boost-lexical_cast/1.92.0-a.m+26.01.26.17.58
+      ref: boost-lexical_cast/1.92.0-a.m+26.04.24.18.03
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
@@ -741,7 +741,7 @@ sources:
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-type_index/1.92.0-a.m+26.01.04.22.00
+      ref: boost-type_index/1.92.0-a.m+26.05.05.20.32
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36

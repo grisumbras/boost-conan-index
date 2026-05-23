@@ -1078,7 +1078,7 @@ sources:
       ref: boost-optional/1.92.0-a.m+26.02.27.14.04
     - header: true
       public: true
-      ref: boost-pfr/1.92.0-a.m+26.02.06.20.58
+      ref: boost-pfr/1.92.0-a.m+26.04.24.18.01
     - header: true
       public: true
       ref: boost-system/1.92.0-a.m+26.05.01.16.42

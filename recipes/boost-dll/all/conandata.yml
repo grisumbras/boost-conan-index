@@ -744,3 +744,42 @@ sources:
       kind: header-library
       name: boost_dll
     url: https://github.com/boostorg/dll.git
+  1.92.0-a.m+26.05.15.21.27:
+    commit: 079d73ef19623620313dc0c239e20ee3b3c322f5
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: false
+      public: true
+      ref: boost-filesystem/1.92.0-a.m+26.04.20.00.13
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.m+26.05.01.16.42
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_index/1.92.0-a.m+26.05.05.20.32
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0-a.m+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_dll
+    url: https://github.com/boostorg/dll.git

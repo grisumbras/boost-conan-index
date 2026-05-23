@@ -669,7 +669,7 @@ sources:
       ref: boost-io/1.92.0-a.m+23.10.03.00.15
     - header: true
       public: true
-      ref: boost-lexical_cast/1.92.0-a.m+26.01.26.17.58
+      ref: boost-lexical_cast/1.92.0-a.m+26.04.24.18.03
     - header: true
       public: true
       ref: boost-numeric_conversion/1.92.0-a.m+25.06.26.07.40

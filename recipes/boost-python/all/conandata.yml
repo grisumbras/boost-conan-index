@@ -1401,7 +1401,7 @@ sources:
       ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
     - header: true
       public: true
-      ref: boost-lexical_cast/1.92.0-a.m+26.01.26.17.58
+      ref: boost-lexical_cast/1.92.0-a.m+26.04.24.18.03
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.01.22.22.48

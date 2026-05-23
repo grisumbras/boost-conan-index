@@ -762,7 +762,7 @@ sources:
       ref: boost-range/1.92.0-a.d+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-regex/1.92.0-a.d+26.05.05.02.13
+      ref: boost-regex/1.92.0-a.d+26.05.22.17.45
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -774,7 +774,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-unordered/1.92.0-a.d+26.04.08.16.54
+      ref: boost-unordered/1.92.0-a.d+26.05.22.20.55
     targets:
     - dependencies: []
       kind: header-library

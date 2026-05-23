@@ -1311,7 +1311,7 @@ sources:
       ref: boost-tokenizer/1.92.0-a.m+26.04.23.15.39
     - header: true
       public: true
-      ref: boost-type_index/1.92.0-a.m+26.01.04.22.00
+      ref: boost-type_index/1.92.0-a.m+26.05.05.20.32
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36

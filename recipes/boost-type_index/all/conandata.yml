@@ -342,3 +342,21 @@ sources:
       kind: header-library
       name: boost_type_index
     url: https://github.com/boostorg/type_index.git
+  1.92.0-a.m+26.05.05.20.32:
+    commit: af648a10037497055d6f0823e22cf7e394e38458
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_type_index
+    url: https://github.com/boostorg/type_index.git

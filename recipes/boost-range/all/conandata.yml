@@ -945,7 +945,7 @@ sources:
       ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
     - header: false
       public: true
-      ref: boost-regex/1.92.0-a.d+26.05.05.02.13
+      ref: boost-regex/1.92.0-a.d+26.05.22.17.45
     - header: true
       public: true
       ref: boost-tuple/1.92.0-a.d+26.02.19.13.44

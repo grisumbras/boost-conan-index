@@ -989,7 +989,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     - header: true
       public: false
-      ref: boost-lexical_cast/1.92.0-a.m+26.01.26.17.58
+      ref: boost-lexical_cast/1.92.0-a.m+26.04.24.18.03
     - header: true
       public: false
       ref: boost-utility/1.92.0-a.m+26.01.22.15.40
