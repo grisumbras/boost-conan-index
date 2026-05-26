@@ -1695,7 +1695,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-container/1.92.0-a.d+26.05.25.02.07
+      ref: boost-container/1.92.0-a.d+26.05.25.22.24
     - header: true
       public: true
       ref: boost-container_hash/1.92.0-a.d+26.05.12.02.42

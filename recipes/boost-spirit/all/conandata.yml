@@ -1620,7 +1620,7 @@ sources:
       ref: boost-typeof/1.92.0-a.d+26.02.03.04.18
     - header: true
       public: true
-      ref: boost-unordered/1.92.0-a.d+26.05.24.23.43
+      ref: boost-unordered/1.92.0-a.d+26.05.26.08.59
     - header: true
       public: true
       ref: boost-utility/1.92.0-a.d+26.01.22.15.40
