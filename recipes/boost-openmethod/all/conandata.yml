@@ -1406,6 +1406,36 @@ sources:
       kind: header-library
       name: boost_openmethod
     url: https://github.com/boostorg/openmethod.git
+  1.92.0-a.d+26.05.26.19.15:
+    commit: de258addd2e5792ba71ddef784818d3041bc824b
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.92.0-a.d+26.04.20.15.38
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_openmethod
+    url: https://github.com/boostorg/openmethod.git
   1.92.0-a.m+26.03.13.20.06:
     commit: 6fb6332ca11417dc1b4a4ded1652759758a08109
     cxxstd: '17'
