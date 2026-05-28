@@ -1,4 +1,4 @@
-#include <boost/type_erasure/check_match.hpp>
+#include <boost/type_erasure/concept_interface.hpp>
 
 int main()
 {

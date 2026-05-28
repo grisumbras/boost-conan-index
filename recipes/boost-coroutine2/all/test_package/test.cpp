@@ -1,4 +1,4 @@
-#include <boost/coroutine2/all.hpp>
+#include <boost/coroutine2/fixedsize_stack.hpp>
 
 int main()
 {

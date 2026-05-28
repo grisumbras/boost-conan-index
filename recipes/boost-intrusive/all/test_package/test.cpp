@@ -1,4 +1,4 @@
-#include <boost/intrusive/rbtree_algorithms.hpp>
+#include <boost/intrusive/splaytree.hpp>
 
 int main()
 {

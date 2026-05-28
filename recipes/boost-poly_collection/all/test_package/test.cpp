@@ -1,4 +1,4 @@
-#include <boost/poly_collection/exception.hpp>
+#include <boost/poly_collection/variant_collection_fwd.hpp>
 
 int main()
 {

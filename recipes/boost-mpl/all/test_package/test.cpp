@@ -1,4 +1,4 @@
-#include <boost/mpl/front.hpp>
+#include <boost/mpl/erase_key.hpp>
 
 int main()
 {

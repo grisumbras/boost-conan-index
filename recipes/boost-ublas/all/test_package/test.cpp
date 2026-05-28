@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/blas.hpp>
+#include <boost/numeric/ublas/vector_of_vector.hpp>
 
 int main()
 {

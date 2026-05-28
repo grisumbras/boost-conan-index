@@ -1,4 +1,4 @@
-#include <boost/iostreams/output_sequence.hpp>
+#include <boost/iostreams/invert.hpp>
 
 int main()
 {

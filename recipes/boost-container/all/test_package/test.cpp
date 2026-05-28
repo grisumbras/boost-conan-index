@@ -1,4 +1,4 @@
-#include <boost/container/uses_allocator_construction.hpp>
+#include <boost/container/node_allocator.hpp>
 
 int main()
 {

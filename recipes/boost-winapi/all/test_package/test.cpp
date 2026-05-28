@@ -1,4 +1,4 @@
-#include <boost/winapi/waitable_timer.hpp>
+#include <boost/winapi/srw_lock.hpp>
 
 int main()
 {

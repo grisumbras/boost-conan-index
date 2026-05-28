@@ -1,4 +1,4 @@
-#include <boost/hash2/flavor.hpp>
+#include <boost/hash2/sha2.hpp>
 
 int main()
 {

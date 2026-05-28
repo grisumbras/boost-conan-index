@@ -1,4 +1,4 @@
-#include <boost/property_map/parallel/distributed_property_map.hpp>
+#include <boost/property_map/parallel/process_group.hpp>
 
 int main()
 {

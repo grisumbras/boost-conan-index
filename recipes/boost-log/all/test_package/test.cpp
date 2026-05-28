@@ -1,4 +1,4 @@
-#include <boost/log/sinks.hpp>
+#include <boost/log/exceptions.hpp>
 
 int main()
 {
