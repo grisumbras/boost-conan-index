@@ -816,6 +816,51 @@ sources:
       kind: library
       name: boost_program_options
     url: https://github.com/boostorg/program_options.git
+  1.92.0-a.d+26.05.28.21.42:
+    commit: e173046605e9ef04282135a4470f1eac38e5631f
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.92.0-a.d+26.01.12.20.29
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.01.22.15.23
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.d+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-a.d+26.04.24.18.03
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: false
+      ref: boost-bind/1.92.0-a.d+26.01.03.18.00
+    - header: true
+      public: false
+      ref: boost-tokenizer/1.92.0-a.d+26.04.23.15.39
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_program_options
+    url: https://github.com/boostorg/program_options.git
   1.92.0-a.m+26.02.24.12.53:
     commit: 59ca47b4ef8f7c9b801081def931e339a97c00ee
     cxxstd: '11'

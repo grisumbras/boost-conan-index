@@ -2346,7 +2346,7 @@ sources:
       ref: boost-lexical_cast/1.92.0-a.d+26.04.24.18.03
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.05.22.19.57
+      ref: boost-math/1.92.0-a.d+26.05.29.09.39
     - header: true
       public: true
       ref: boost-move/1.92.0-a.d+26.05.11.16.14
@@ -2409,7 +2409,7 @@ sources:
       ref: boost-typeof/1.92.0-a.d+26.02.03.04.18
     - header: true
       public: true
-      ref: boost-unordered/1.92.0-a.d+26.05.26.08.59
+      ref: boost-unordered/1.92.0-a.d+26.05.29.08.57
     - header: true
       public: true
       ref: boost-utility/1.92.0-a.d+26.01.22.15.40
