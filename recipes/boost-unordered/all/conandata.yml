@@ -984,8 +984,68 @@ sources:
       kind: header-library
       name: boost_unordered
     url: https://github.com/boostorg/unordered.git
+  1.92.0-a.d+26.05.30.00.46:
+    commit: b785bb55015d4833f8dfc8f66feff395f88e6682
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.05.12.02.42
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.d+26.05.09.14.25
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_unordered
+    url: https://github.com/boostorg/unordered.git
   1.92.0-a.m+26.04.08.16.54:
     commit: 669918498c3ca6eee91bd4ce29153186d300e005
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_unordered
+    url: https://github.com/boostorg/unordered.git
+  1.92.0-a.m+26.05.30.00.46:
+    commit: b785bb55015d4833f8dfc8f66feff395f88e6682
     cxxstd: '11'
     dependencies:
     - header: true

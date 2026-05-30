@@ -828,7 +828,7 @@ sources:
       ref: boost-function/1.92.0-a.d+26.01.23.05.06
     - header: false
       public: true
-      ref: boost-graph/1.92.0-a.d+26.05.06.10.56
+      ref: boost-graph/1.92.0-a.d+26.05.30.14.44
     - header: true
       public: true
       ref: boost-integer/1.92.0-a.d+26.05.05.15.54
