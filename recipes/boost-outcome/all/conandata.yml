@@ -543,7 +543,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-exception/1.92.0-a.d+26.05.06.23.08
+      ref: boost-exception/1.92.0-a.d+26.05.30.15.57
     - header: true
       public: true
       ref: boost-system/1.92.0-a.d+26.05.01.16.42

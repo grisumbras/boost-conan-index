@@ -300,7 +300,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.04.23.22.18
     - header: true
       public: true
-      ref: boost-describe/1.92.0-a.m+25.12.15.19.39
+      ref: boost-describe/1.92.0-a.m+26.04.19.17.40
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.m+26.04.24.21.29

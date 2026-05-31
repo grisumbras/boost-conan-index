@@ -411,7 +411,7 @@ sources:
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-exception/1.92.0-a.d+26.05.06.23.08
+      ref: boost-exception/1.92.0-a.d+26.05.30.15.57
     - header: true
       public: true
       ref: boost-move/1.92.0-a.d+26.05.11.16.14
