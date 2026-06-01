@@ -1716,7 +1716,7 @@ sources:
       ref: boost-optional/1.92.0-a.d+26.04.26.21.57
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.d+26.05.01.16.42
+      ref: boost-system/1.92.0-a.d+26.05.31.15.42
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36

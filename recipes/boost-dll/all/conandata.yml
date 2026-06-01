@@ -759,7 +759,7 @@ sources:
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.d+26.05.05.13.39
+      ref: boost-filesystem/1.92.0-a.d+26.05.31.18.08
     - header: true
       public: true
       ref: boost-predef/1.92.0-a.d+26.05.09.14.25
@@ -768,7 +768,7 @@ sources:
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.d+26.05.01.16.42
+      ref: boost-system/1.92.0-a.d+26.05.31.15.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -837,7 +837,7 @@ sources:
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.m+26.04.20.00.13
+      ref: boost-filesystem/1.92.0-a.m+26.05.31.18.08
     - header: true
       public: true
       ref: boost-predef/1.92.0-a.m+25.01.12.12.53

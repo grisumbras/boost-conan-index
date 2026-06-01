@@ -402,7 +402,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.d+26.05.05.13.39
+      ref: boost-filesystem/1.92.0-a.d+26.05.31.18.08
     targets:
     - dependencies: []
       kind: library
@@ -417,7 +417,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.m+26.04.20.00.13
+      ref: boost-filesystem/1.92.0-a.m+26.05.31.18.08
     targets:
     - dependencies: []
       kind: library

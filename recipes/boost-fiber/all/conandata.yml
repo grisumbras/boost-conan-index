@@ -506,7 +506,7 @@ sources:
       ref: boost-algorithm/1.92.0-a.d+26.02.05.17.25
     - header: false
       public: false
-      ref: boost-filesystem/1.92.0-a.d+26.05.05.13.39
+      ref: boost-filesystem/1.92.0-a.d+26.05.31.18.08
     - header: true
       public: false
       ref: boost-format/1.92.0-a.d+25.06.26.19.58
@@ -592,7 +592,7 @@ sources:
       ref: boost-algorithm/1.92.0-a.m+26.03.03.10.52
     - header: false
       public: false
-      ref: boost-filesystem/1.92.0-a.m+26.04.20.00.13
+      ref: boost-filesystem/1.92.0-a.m+26.05.31.18.08
     - header: true
       public: false
       ref: boost-format/1.92.0-a.m+25.01.02.11.49
