@@ -2619,7 +2619,7 @@ sources:
       ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-multi_index/1.92.0-a.d+26.04.24.11.45
+      ref: boost-multi_index/1.92.0-a.d+26.06.01.19.15
     - header: true
       public: true
       ref: boost-multiprecision/1.92.0-a.d+26.05.06.09.40
@@ -2886,7 +2886,7 @@ sources:
       ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
     - header: true
       public: true
-      ref: boost-multi_index/1.92.0-a.m+26.01.24.09.44
+      ref: boost-multi_index/1.92.0-a.m+26.06.02.08.52
     - header: true
       public: true
       ref: boost-multiprecision/1.92.0-a.m+26.02.26.13.49
