@@ -924,7 +924,7 @@ sources:
       ref: boost-container_hash/1.92.0-a.d+26.05.12.02.42
     - header: true
       public: true
-      ref: boost-conversion/1.92.0-a.d+26.02.25.08.39
+      ref: boost-conversion/1.92.0-a.d+26.06.02.23.11
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -981,7 +981,7 @@ sources:
       ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
     - header: true
       public: true
-      ref: boost-conversion/1.92.0-a.m+26.02.25.08.39
+      ref: boost-conversion/1.92.0-a.m+26.06.02.23.11
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
