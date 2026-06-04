@@ -219,6 +219,15 @@ sources:
       kind: header-library
       name: boost_pfr
     url: https://github.com/boostorg/pfr.git
+  1.92.0-a.d+26.06.04.00.15:
+    commit: 716709f29420a3e3ef5a063792796f03990c5334
+    cxxstd: '14'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_pfr
+    url: https://github.com/boostorg/pfr.git
   1.92.0-a.m+26.02.06.20.58:
     commit: eaa6c064b9051547c6e82d391f4690c43cae95f7
     cxxstd: '14'
