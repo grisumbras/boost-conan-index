@@ -843,7 +843,7 @@ sources:
       ref: boost-optional/1.92.0-a.d+26.04.26.21.57
     - header: false
       public: true
-      ref: boost-python/1.92.0-a.d+26.04.25.23.05
+      ref: boost-python/1.92.0-a.d+26.06.05.18.04
     - header: false
       public: true
       ref: boost-serialization/1.92.0-a.d+26.04.25.21.31
@@ -974,7 +974,7 @@ sources:
       ref: boost-optional/1.92.0-a.m+26.02.27.14.04
     - header: false
       public: true
-      ref: boost-python/1.92.0-a.m+26.04.25.23.05
+      ref: boost-python/1.92.0-a.m+26.06.05.18.04
     - header: false
       public: true
       ref: boost-serialization/1.92.0-a.m+23.11.12.21.05

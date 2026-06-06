@@ -228,7 +228,7 @@ sources:
       ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
     - header: false
       public: true
-      ref: boost-python/1.92.0-a.d+26.04.25.23.05
+      ref: boost-python/1.92.0-a.d+26.06.05.18.04
     targets:
     - dependencies: []
       kind: header-library
@@ -249,7 +249,7 @@ sources:
       ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
     - header: false
       public: true
-      ref: boost-python/1.92.0-a.m+26.04.25.23.05
+      ref: boost-python/1.92.0-a.m+26.06.05.18.04
     targets:
     - dependencies: []
       kind: header-library
