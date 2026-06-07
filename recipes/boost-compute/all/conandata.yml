@@ -1146,7 +1146,7 @@ sources:
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.d+26.05.31.18.08
+      ref: boost-filesystem/1.92.0-a.d+26.06.05.02.57
     - header: true
       public: true
       ref: boost-function/1.92.0-a.d+26.01.23.05.06
