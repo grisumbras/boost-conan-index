@@ -1284,7 +1284,7 @@ sources:
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.m+26.05.31.18.08
+      ref: boost-filesystem/1.92.0-a.m+26.06.05.02.57
     - header: true
       public: true
       ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
@@ -1302,7 +1302,7 @@ sources:
       ref: boost-optional/1.92.0-a.m+26.02.27.14.04
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.m+26.05.01.16.42
+      ref: boost-system/1.92.0-a.m+26.05.31.15.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

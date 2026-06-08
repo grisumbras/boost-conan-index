@@ -2223,7 +2223,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-container/1.92.0-a.d+26.06.07.01.15
+      ref: boost-container/1.92.0-a.d+26.06.08.00.51
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -2238,7 +2238,7 @@ sources:
       ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: false
       public: true
-      ref: boost-graph/1.92.0-a.d+26.06.01.15.48
+      ref: boost-graph/1.92.0-a.d+26.06.08.12.13
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.d+26.05.13.12.16

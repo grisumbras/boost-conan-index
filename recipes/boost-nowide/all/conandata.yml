@@ -417,7 +417,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.m+26.05.31.18.08
+      ref: boost-filesystem/1.92.0-a.m+26.06.05.02.57
     targets:
     - dependencies: []
       kind: library

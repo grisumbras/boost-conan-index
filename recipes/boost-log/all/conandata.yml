@@ -2568,7 +2568,7 @@ sources:
       ref: boost-exception/1.92.0-a.m+26.05.31.13.38
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.m+26.05.31.18.08
+      ref: boost-filesystem/1.92.0-a.m+26.06.05.02.57
     - header: true
       public: true
       ref: boost-function_types/1.92.0-a.m+26.01.19.12.23
@@ -2619,7 +2619,7 @@ sources:
       ref: boost-spirit/1.92.0-a.m+26.04.26.06.05
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.m+26.05.01.16.42
+      ref: boost-system/1.92.0-a.m+26.05.31.15.42
     - header: false
       public: true
       ref: boost-thread/1.92.0-a.m+26.02.06.15.45

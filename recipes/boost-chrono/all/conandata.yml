@@ -732,7 +732,7 @@ sources:
       ref: boost-ratio/1.92.0-a.m+24.12.14.05.05
     - header: true
       public: true
-      ref: boost-system/1.92.0-a.m+26.05.01.16.42
+      ref: boost-system/1.92.0-a.m+26.05.31.15.42
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

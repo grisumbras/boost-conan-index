@@ -411,3 +411,27 @@ sources:
       kind: header-library
       name: boost_hash2
     url: https://github.com/boostorg/hash2.git
+  1.92.0-a.m+26.05.31.02.24:
+    commit: 093527b5f1dfd86262799b0b9a07c99b8b9239aa
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
+    - header: true
+      public: true
+      ref: boost-describe/1.92.0-a.m+26.04.19.17.40
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.04.24.21.29
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_hash2
+    url: https://github.com/boostorg/hash2.git
