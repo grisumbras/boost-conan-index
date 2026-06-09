@@ -2528,7 +2528,7 @@ sources:
       ref: boost-asio/1.92.0-a.d+26.04.15.23.18
     - header: true
       public: false
-      ref: boost-interprocess/1.92.0-a.d+26.04.20.00.56
+      ref: boost-interprocess/1.92.0-a.d+26.06.09.14.36
     - header: true
       public: false
       ref: boost-io/1.92.0-a.d+26.01.22.22.15

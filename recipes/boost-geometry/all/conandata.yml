@@ -2223,7 +2223,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.04.23.22.18
     - header: false
       public: true
-      ref: boost-container/1.92.0-a.d+26.06.08.00.51
+      ref: boost-container/1.92.0-a.d+26.06.09.11.03
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -2247,7 +2247,7 @@ sources:
       ref: boost-lexical_cast/1.92.0-a.d+26.04.24.18.03
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.05.29.09.39
+      ref: boost-math/1.92.0-a.d+26.06.09.13.17
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
