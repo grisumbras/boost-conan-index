@@ -1,4 +1,4 @@
-#include <boost/iostreams/invert.hpp>
+#include <boost/iostreams/close.hpp>
 
 int main()
 {

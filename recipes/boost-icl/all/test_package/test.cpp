@@ -1,4 +1,4 @@
-#include <boost/icl/interval.hpp>
+#include <boost/icl/map.hpp>
 
 int main()
 {

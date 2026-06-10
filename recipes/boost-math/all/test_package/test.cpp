@@ -1,4 +1,4 @@
-#include <boost/cstdfloat.hpp>
+#include <boost/math_fwd.hpp>
 
 int main()
 {
