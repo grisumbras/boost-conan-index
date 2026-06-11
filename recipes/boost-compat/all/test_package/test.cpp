@@ -1,4 +1,4 @@
-#include <boost/compat/invoke.hpp>
+#include <boost/compat/move_only_function.hpp>
 
 int main()
 {

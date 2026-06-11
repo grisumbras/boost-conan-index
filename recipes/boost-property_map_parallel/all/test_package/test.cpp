@@ -1,4 +1,4 @@
-#include <boost/property_map/parallel/global_index_map.hpp>
+#include <boost/property_map/parallel/process_group.hpp>
 
 int main()
 {

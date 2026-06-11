@@ -1,4 +1,4 @@
-#include <boost/fusion/support.hpp>
+#include <boost/fusion/adapted.hpp>
 
 int main()
 {

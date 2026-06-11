@@ -1,4 +1,4 @@
-#include <boost/visit_each.hpp>
+#include <boost/is_placeholder.hpp>
 
 int main()
 {

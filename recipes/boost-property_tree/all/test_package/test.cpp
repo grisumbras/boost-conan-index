@@ -1,4 +1,4 @@
-#include <boost/property_tree/stream_translator.hpp>
+#include <boost/property_tree/exceptions.hpp>
 
 int main()
 {

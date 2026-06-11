@@ -1,4 +1,4 @@
-#include <boost/interprocess/segment_manager.hpp>
+#include <boost/interprocess/exceptions.hpp>
 
 int main()
 {

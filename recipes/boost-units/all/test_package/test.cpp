@@ -1,4 +1,4 @@
-#include <boost/units/base_dimension.hpp>
+#include <boost/units/get_dimension.hpp>
 
 int main()
 {
