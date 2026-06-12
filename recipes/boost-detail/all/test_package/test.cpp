@@ -1,4 +1,4 @@
-#include <boost/cstdlib.hpp>
+#include <boost/blank.hpp>
 
 int main()
 {

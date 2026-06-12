@@ -1,4 +1,4 @@
-#include <boost/msm/event_traits.hpp>
+#include <boost/msm/common.hpp>
 
 int main()
 {

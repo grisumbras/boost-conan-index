@@ -1,4 +1,4 @@
-#include <boost/iterator_adaptors.hpp>
+#include <boost/generator_iterator.hpp>
 
 int main()
 {

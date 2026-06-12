@@ -1,4 +1,4 @@
-#include <boost/graph/push_relabel_max_flow.hpp>
+#include <boost/pending/fenced_priority_queue.hpp>
 
 int main()
 {

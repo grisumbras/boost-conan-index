@@ -1,4 +1,4 @@
-#include <boost/statechart/result.hpp>
+#include <boost/statechart/transition.hpp>
 
 int main()
 {

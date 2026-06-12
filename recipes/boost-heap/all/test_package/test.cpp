@@ -1,4 +1,4 @@
-#include <boost/heap/policies.hpp>
+#include <boost/heap/heap_concepts.hpp>
 
 int main()
 {

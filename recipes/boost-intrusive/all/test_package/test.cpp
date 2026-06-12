@@ -1,4 +1,4 @@
-#include <boost/intrusive/splaytree.hpp>
+#include <boost/intrusive/bs_set_hook.hpp>
 
 int main()
 {

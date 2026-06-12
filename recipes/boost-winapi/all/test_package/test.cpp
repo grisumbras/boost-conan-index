@@ -1,4 +1,4 @@
-#include <boost/winapi/srw_lock.hpp>
+#include <boost/winapi/system.hpp>
 
 int main()
 {

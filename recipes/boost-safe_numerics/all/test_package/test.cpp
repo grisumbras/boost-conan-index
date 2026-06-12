@@ -1,4 +1,4 @@
-#include <boost/safe_numerics/interval.hpp>
+#include <boost/safe_numerics/safe_common.hpp>
 
 int main()
 {
