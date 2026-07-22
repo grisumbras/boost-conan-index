@@ -1,4 +1,4 @@
-#include <boost/statechart/transition.hpp>
+#include <boost/statechart/null_exception_translator.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/container/uses_allocator.hpp>
+#include <boost/container/static_vector.hpp>
 
 int main()
 {

@@ -363,6 +363,30 @@ sources:
       kind: header-library
       name: boost_hash2
     url: https://github.com/boostorg/hash2.git
+  1.92.0-a.d+26.06.28.15.20:
+    commit: 8663d080190ec3128947c1f7e61d15bafcd9c775
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.05.12.02.42
+    - header: true
+      public: true
+      ref: boost-describe/1.92.0-a.d+26.04.19.17.40
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_hash2
+    url: https://github.com/boostorg/hash2.git
   1.92.0-a.m+26.01.22.20.48:
     commit: 41cba39fa9a5c180ef7d8a58adaada59f223ab03
     cxxstd: '11'
@@ -418,6 +442,30 @@ sources:
     - header: true
       public: true
       ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
+    - header: true
+      public: true
+      ref: boost-describe/1.92.0-a.m+26.04.19.17.40
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.04.24.21.29
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_hash2
+    url: https://github.com/boostorg/hash2.git
+  1.92.0-a.m+26.06.28.15.20:
+    commit: 8663d080190ec3128947c1f7e61d15bafcd9c775
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
       ref: boost-config/1.92.0-a.m+26.04.23.22.18

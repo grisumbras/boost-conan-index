@@ -1,4 +1,4 @@
-#include <boost/stl_interfaces/config.hpp>
+#include <boost/stl_interfaces/view_interface.hpp>
 
 int main()
 {

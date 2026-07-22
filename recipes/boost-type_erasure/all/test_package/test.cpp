@@ -1,4 +1,4 @@
-#include <boost/type_erasure/require_match.hpp>
+#include <boost/type_erasure/rebind_any.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/compat/invoke.hpp>
+#include <boost/compat/to_underlying.hpp>
 
 int main()
 {

@@ -840,7 +840,7 @@ sources:
       ref: boost-array/1.92.0-a.d+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
     - header: true
       public: true
       ref: boost-circular_buffer/1.92.0-a.d+26.02.03.14.37
@@ -849,7 +849,7 @@ sources:
       ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -858,10 +858,10 @@ sources:
       ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
+      ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
     - header: true
       public: true
-      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
     - header: true
       public: true
       ref: boost-numeric_conversion/1.92.0-a.d+25.06.26.07.40
@@ -876,7 +876,7 @@ sources:
       ref: boost-range/1.92.0-a.d+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.04.25.21.31
+      ref: boost-serialization/1.92.0-a.d+26.07.22.09.03
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -906,7 +906,7 @@ sources:
       ref: boost-array/1.92.0-a.m+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
       ref: boost-circular_buffer/1.92.0-a.m+26.02.03.14.37
@@ -924,10 +924,10 @@ sources:
       ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
+      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
     - header: true
       public: true
-      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+      ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
     - header: true
       public: true
       ref: boost-numeric_conversion/1.92.0-a.m+25.06.26.07.40
@@ -942,7 +942,7 @@ sources:
       ref: boost-range/1.92.0-a.m+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.m+23.11.12.21.05
+      ref: boost-serialization/1.92.0-a.m+26.06.28.16.16
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

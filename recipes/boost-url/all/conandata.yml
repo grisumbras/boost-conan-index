@@ -1701,10 +1701,10 @@ sources:
       ref: boost-align/1.92.0-a.d+26.02.21.13.50
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -1713,7 +1713,7 @@ sources:
       ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
     - header: true
       public: true
-      ref: boost-optional/1.92.0-a.d+26.04.26.21.57
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
     - header: true
       public: true
       ref: boost-system/1.92.0-a.d+26.05.31.15.42
@@ -1722,7 +1722,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-variant2/1.92.0-a.d+26.02.24.21.01
+      ref: boost-variant2/1.92.0-a.d+26.07.20.22.00
     - header: true
       public: false
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -1753,6 +1753,45 @@ sources:
     - header: true
       public: true
       ref: boost-optional/1.92.0-a.m+26.02.27.14.04
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.m+26.05.31.15.42
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-variant2/1.92.0-a.m+26.02.24.21.01
+    - header: true
+      public: false
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_url
+    url: https://github.com/boostorg/url.git
+  1.92.0-a.m+26.05.13.16.15:
+    commit: a34f3a4a1a0e695f679453af71dfc050a59170e6
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.92.0-a.m+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.m+26.07.16.01.06
     - header: true
       public: true
       ref: boost-system/1.92.0-a.m+26.05.31.15.42

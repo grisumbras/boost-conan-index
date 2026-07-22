@@ -753,6 +753,36 @@ sources:
       kind: header-library
       name: boost_asio
     url: https://github.com/boostorg/asio.git
+  1.92.0-a.d+26.07.09.08.33:
+    commit: a7dc25b4cb6c49a6946d86ea20664f1027203225
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.92.0-a.d+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+    - header: false
+      public: true
+      ref: boost-context/1.92.0-a.d+26.05.08.18.52
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0-a.d+26.06.01.01.52
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.05.31.15.42
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_asio
+    url: https://github.com/boostorg/asio.git
   1.92.0-a.m+26.04.15.23.19:
     commit: 7b56b644c9819be94b7b601823a65087a7c29f2e
     cxxstd: '11'
@@ -763,6 +793,36 @@ sources:
     - header: true
       public: true
       ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: false
+      public: true
+      ref: boost-context/1.92.0-a.m+26.05.08.18.52
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0-a.m+26.06.01.01.52
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.m+26.05.31.15.42
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_asio
+    url: https://github.com/boostorg/asio.git
+  1.92.0-a.m+26.07.09.08.33:
+    commit: 4fa4abee89a62fdeeccac2585caece625f40647e
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.92.0-a.m+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
       ref: boost-config/1.92.0-a.m+26.04.23.22.18

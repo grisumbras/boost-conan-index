@@ -1,4 +1,4 @@
-#include <boost/container_hash/is_contiguous_range.hpp>
+#include <boost/container_hash/hash_fwd.hpp>
 
 int main()
 {

@@ -607,22 +607,22 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
     - header: true
       public: true
       ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-intrusive/1.92.0-a.d+26.04.20.01.07
+      ref: boost-intrusive/1.92.0-a.d+26.07.02.23.51
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
+      ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
     - header: true
       public: true
       ref: boost-parameter/1.92.0-a.d+25.12.13.20.44
@@ -659,6 +659,42 @@ sources:
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
+    - header: true
+      public: true
+      ref: boost-parameter/1.92.0-a.m+25.12.13.20.44
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_heap
+    url: https://github.com/boostorg/heap.git
+  1.92.0-a.m+26.05.27.21.49:
+    commit: a43cc4b7e7dfa51b4f1c163f3bf29cd785047bd1
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.m+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-intrusive/1.92.0-a.m+26.07.02.23.51
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
     - header: true
       public: true
       ref: boost-parameter/1.92.0-a.m+25.12.13.20.44

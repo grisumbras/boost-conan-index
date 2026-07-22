@@ -519,10 +519,10 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -531,13 +531,13 @@ sources:
       ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
+      ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
     - header: true
       public: true
-      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
     - header: true
       public: true
       ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
@@ -558,7 +558,7 @@ sources:
       ref: boost-vmd/1.92.0-a.d+25.05.02.19.25
     - header: false
       public: false
-      ref: boost-thread/1.92.0-a.d+26.02.06.15.45
+      ref: boost-thread/1.92.0-a.d+26.07.03.21.57
     targets:
     - dependencies: []
       kind: library
@@ -570,7 +570,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
       ref: boost-config/1.92.0-a.m+26.04.23.22.18
@@ -582,13 +582,13 @@ sources:
       ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
+      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.m+26.04.24.21.29
     - header: true
       public: true
-      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+      ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
     - header: true
       public: true
       ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
@@ -609,7 +609,7 @@ sources:
       ref: boost-vmd/1.92.0-a.m+21.06.10.00.43
     - header: false
       public: false
-      ref: boost-thread/1.92.0-a.m+26.02.06.15.45
+      ref: boost-thread/1.92.0-a.m+26.07.03.21.57
     targets:
     - dependencies: []
       kind: library

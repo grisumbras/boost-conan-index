@@ -1,4 +1,4 @@
-#include <boost/scope/defer.hpp>
+#include <boost/scope/unique_resource.hpp>
 
 int main()
 {

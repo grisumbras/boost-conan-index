@@ -1436,6 +1436,36 @@ sources:
       kind: header-library
       name: boost_openmethod
     url: https://github.com/boostorg/openmethod.git
+  1.92.0-a.d+26.07.15.19.17:
+    commit: dd2c40d7a6810e5b2540aaf120cb30e7d2e8d874
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.92.0-a.d+26.07.15.12.40
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_openmethod
+    url: https://github.com/boostorg/openmethod.git
   1.92.0-a.m+26.03.13.20.06:
     commit: 6fb6332ca11417dc1b4a4ded1652759758a08109
     cxxstd: '17'
@@ -1443,6 +1473,36 @@ sources:
     - header: true
       public: true
       ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.92.0-a.m+26.04.20.15.38
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_openmethod
+    url: https://github.com/boostorg/openmethod.git
+  1.92.0-a.m+26.06.14.14.02:
+    commit: 79b6f7ff73876267f094aced56e681495fa42e73
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
       ref: boost-config/1.92.0-a.m+26.04.23.22.18

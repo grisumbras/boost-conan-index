@@ -636,6 +636,7 @@ def _toolset(conanfile, consumer_conanfile):
                 '15': '14.1',
                 '16': '14.2',
                 '17': '14.3',
+                '18': '14.5',
             }.get(visual_studio_version) or (visual_studio_version + '.0')
         return toolset + '-' + version
 

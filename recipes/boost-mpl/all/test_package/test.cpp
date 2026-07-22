@@ -1,4 +1,4 @@
-#include <boost/mpl/comparison.hpp>
+#include <boost/mpl/less_equal.hpp>
 
 int main()
 {

@@ -219,7 +219,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
     - header: true
       public: true
       ref: boost-parameter/1.92.0-a.d+25.12.13.20.44
@@ -228,7 +228,7 @@ sources:
       ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
     - header: false
       public: true
-      ref: boost-python/1.92.0-a.d+26.06.05.18.04
+      ref: boost-python/1.92.0-a.d+26.04.05.16.29
     targets:
     - dependencies: []
       kind: header-library
@@ -240,7 +240,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+      ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
     - header: true
       public: true
       ref: boost-parameter/1.92.0-a.m+25.12.13.20.44
@@ -249,7 +249,7 @@ sources:
       ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
     - header: false
       public: true
-      ref: boost-python/1.92.0-a.m+26.06.05.18.04
+      ref: boost-python/1.92.0-a.m+26.04.05.16.29
     targets:
     - dependencies: []
       kind: header-library

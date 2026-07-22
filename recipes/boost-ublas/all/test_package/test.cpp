@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/triangular.hpp>
+#include <boost/numeric/ublas/operation_sparse.hpp>
 
 int main()
 {

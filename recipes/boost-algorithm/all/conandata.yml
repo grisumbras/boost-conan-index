@@ -732,7 +732,7 @@ sources:
       ref: boost-array/1.92.0-a.d+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
     - header: true
       public: true
       ref: boost-bind/1.92.0-a.d+26.01.03.18.00
@@ -741,7 +741,7 @@ sources:
       ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -753,10 +753,10 @@ sources:
       ref: boost-function/1.92.0-a.d+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+26.05.13.12.16
+      ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
     - header: true
       public: true
-      ref: boost-mpl/1.92.0-a.d+26.01.22.22.48
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
     - header: true
       public: true
       ref: boost-range/1.92.0-a.d+26.02.19.10.17
@@ -774,7 +774,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-unordered/1.92.0-a.d+26.05.30.00.46
+      ref: boost-unordered/1.92.0-a.d+26.06.17.17.00
     targets:
     - dependencies: []
       kind: header-library
@@ -789,7 +789,7 @@ sources:
       ref: boost-array/1.92.0-a.m+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
       ref: boost-bind/1.92.0-a.m+26.01.03.18.00
@@ -810,10 +810,10 @@ sources:
       ref: boost-function/1.92.0-a.m+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+26.05.13.12.16
+      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
     - header: true
       public: true
-      ref: boost-mpl/1.92.0-a.m+26.01.22.22.48
+      ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
     - header: true
       public: true
       ref: boost-range/1.92.0-a.m+26.02.19.10.17
@@ -831,7 +831,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-unordered/1.92.0-a.m+26.05.30.00.46
+      ref: boost-unordered/1.92.0-a.m+26.06.17.17.00
     targets:
     - dependencies: []
       kind: header-library

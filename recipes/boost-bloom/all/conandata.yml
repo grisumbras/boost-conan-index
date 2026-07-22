@@ -351,6 +351,33 @@ sources:
       kind: header-library
       name: boost_bloom
     url: https://github.com/boostorg/bloom.git
+  1.92.0-a.d+26.06.19.11.41:
+    commit: 0909b9955e2dc02a0356351a2dfb567d4d5af772
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.05.12.02.42
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_bloom
+    url: https://github.com/boostorg/bloom.git
   1.92.0-a.m+25.10.20.10.01:
     commit: 7eda52eec0f44cb9936393568e58891376cc9ccf
     cxxstd: '11'
@@ -358,6 +385,33 @@ sources:
     - header: true
       public: true
       ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_bloom
+    url: https://github.com/boostorg/bloom.git
+  1.92.0-a.m+26.06.19.11.41:
+    commit: 0909b9955e2dc02a0356351a2dfb567d4d5af772
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
       ref: boost-config/1.92.0-a.m+26.04.23.22.18

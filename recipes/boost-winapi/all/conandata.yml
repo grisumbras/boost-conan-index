@@ -159,7 +159,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
     - header: true
       public: true
       ref: boost-predef/1.92.0-a.d+26.05.09.14.25

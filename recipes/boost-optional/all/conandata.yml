@@ -555,6 +555,30 @@ sources:
       kind: header-library
       name: boost_optional
     url: https://github.com/boostorg/optional.git
+  1.92.0-a.d+26.07.17.00.19:
+    commit: f2212618a5679713fb8770be14d74a915a5170e5
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_optional
+    url: https://github.com/boostorg/optional.git
   1.92.0-a.m+26.02.27.14.04:
     commit: 8bc4a16933e34c0de04869b587bf8032c2b24b77
     cxxstd: '11'
@@ -562,6 +586,30 @@ sources:
     - header: true
       public: true
       ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_optional
+    url: https://github.com/boostorg/optional.git
+  1.92.0-a.m+26.07.16.01.06:
+    commit: c0648f5f2d7b7d8e59c6e2c1d203f34c7aec129e
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
       ref: boost-config/1.92.0-a.m+26.04.23.22.18

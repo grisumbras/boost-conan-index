@@ -492,10 +492,10 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.d+26.01.23.05.53
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
     - header: false
       public: true
-      ref: boost-charconv/1.92.0-a.d+26.04.27.13.29
+      ref: boost-charconv/1.92.0-a.d+26.07.09.11.00
     - header: true
       public: true
       ref: boost-hana/1.92.0-a.d+25.07.03.23.00
@@ -513,10 +513,10 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.01.23.05.53
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: false
       public: true
-      ref: boost-charconv/1.92.0-a.m+26.04.27.15.30
+      ref: boost-charconv/1.92.0-a.m+26.07.06.16.21
     - header: true
       public: true
       ref: boost-hana/1.92.0-a.m+25.07.03.23.00

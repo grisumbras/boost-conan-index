@@ -1,4 +1,4 @@
-#include <boost/coroutine2/segmented_stack.hpp>
+#include <boost/coroutine2/all.hpp>
 
 int main()
 {

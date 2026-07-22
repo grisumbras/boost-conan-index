@@ -516,13 +516,13 @@ sources:
       ref: boost-array/1.92.0-a.d+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.04.23.22.18
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.d+26.05.11.16.14
+      ref: boost-move/1.92.0-a.d+26.07.02.23.51
     - header: true
       public: true
       ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
@@ -561,7 +561,7 @@ sources:
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.m+26.02.17.23.20
+      ref: boost-move/1.92.0-a.m+26.07.02.23.51
     - header: true
       public: true
       ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
