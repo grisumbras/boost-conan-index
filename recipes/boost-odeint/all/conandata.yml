@@ -972,7 +972,7 @@ sources:
       ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.07.21.16.06
+      ref: boost-math/1.92.0-a.d+26.07.22.20.02
     - header: false
       public: true
       ref: boost-mpi/1.92.0-a.d+26.07.21.16.30
@@ -1063,6 +1063,66 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.92.0-a.m+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_odeint
+    url: https://github.com/boostorg/odeint.git
+  1.92.0-b.1:
+    commit: 485a46baa908df8569756ae80d72b0861427788c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-compute/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-b.1
+    - header: false
+      public: true
+      ref: boost-math/1.92.0-b.1
+    - header: false
+      public: true
+      ref: boost-mpi/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-multi_array/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-ublas/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-units/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-b.1
     targets:
     - dependencies: []
       kind: header-library

@@ -432,3 +432,30 @@ sources:
       kind: header-library
       name: boost_bloom
     url: https://github.com/boostorg/bloom.git
+  1.92.0-b.1:
+    commit: 0909b9955e2dc02a0356351a2dfb567d4d5af772
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_bloom
+    url: https://github.com/boostorg/bloom.git

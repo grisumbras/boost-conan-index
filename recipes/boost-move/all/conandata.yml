@@ -485,3 +485,15 @@ sources:
       kind: header-library
       name: boost_move
     url: https://github.com/boostorg/move.git
+  1.92.0-b.1:
+    commit: b1ecb39a75ed2de17c23c46a005ac79f59a528ca
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_move
+    url: https://github.com/boostorg/move.git

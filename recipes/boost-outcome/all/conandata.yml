@@ -651,3 +651,27 @@ sources:
       kind: header-library
       name: boost_outcome
     url: https://github.com/boostorg/outcome.git
+  1.92.0-b.1:
+    commit: 8580f7690fae0f99e408c32faf50a51949a08043
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-b.1
+    - header: false
+      public: true
+      ref: boost-exception/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_outcome
+    url: https://github.com/boostorg/outcome.git

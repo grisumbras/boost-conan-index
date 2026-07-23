@@ -801,3 +801,54 @@ sources:
       kind: header-library
       name: boost_icl
     url: https://github.com/boostorg/icl.git
+  1.92.0-b.1:
+    commit: 7de3f55655984e22f843238f7bd795fea3a5e08d
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-b.1
+    - header: false
+      public: true
+      ref: boost-container/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-b.1
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-rational/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_icl
+    url: https://github.com/boostorg/icl.git

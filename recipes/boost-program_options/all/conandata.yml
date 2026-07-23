@@ -954,3 +954,48 @@ sources:
       kind: library
       name: boost_program_options
     url: https://github.com/boostorg/program_options.git
+  1.92.0-b.1:
+    commit: ae25c112b7032d288df90be95e10876ece30bee3
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-b.1
+    - header: true
+      public: false
+      ref: boost-bind/1.92.0-b.1
+    - header: true
+      public: false
+      ref: boost-tokenizer/1.92.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_program_options
+    url: https://github.com/boostorg/program_options.git

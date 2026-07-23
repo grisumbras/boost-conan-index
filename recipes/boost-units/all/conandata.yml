@@ -612,7 +612,7 @@ sources:
       ref: boost-lambda/1.92.0-a.d+26.05.13.21.03
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.07.21.16.06
+      ref: boost-math/1.92.0-a.d+26.07.22.20.02
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
@@ -667,6 +667,48 @@ sources:
     - header: true
       public: true
       ref: boost-typeof/1.92.0-a.m+26.02.03.04.18
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_units
+    url: https://github.com/boostorg/units.git
+  1.92.0-b.1:
+    commit: f39b667d7803a6428d869c0087d92128b1212685
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-io/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-lambda/1.92.0-b.1
+    - header: false
+      public: true
+      ref: boost-math/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0-b.1
     targets:
     - dependencies: []
       kind: header-library

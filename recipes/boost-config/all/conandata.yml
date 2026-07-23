@@ -228,3 +228,12 @@ sources:
       kind: header-library
       name: boost_config
     url: https://github.com/boostorg/config.git
+  1.92.0-b.1:
+    commit: 115e718e0fd72329e69fc776dac99811385d6f77
+    cxxstd: '03'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_config
+    url: https://github.com/boostorg/config.git

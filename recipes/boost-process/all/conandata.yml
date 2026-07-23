@@ -1263,6 +1263,69 @@ sources:
       kind: library
       name: boost_process
     url: https://github.com/boostorg/process.git
+  1.92.0-a.d+26.07.22.11.09:
+    commit: a3d10907b93c05dc09dc4f17c08cee68502089c4
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.92.0-a.d+26.02.05.17.25
+    - header: true
+      public: true
+      ref: boost-asio/1.92.0-a.d+26.07.09.08.33
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: false
+      public: true
+      ref: boost-filesystem/1.92.0-a.d+26.06.28.19.43
+    - header: true
+      public: true
+      ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
+    - header: true
+      public: true
+      ref: boost-io/1.92.0-a.d+26.01.22.22.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.d+26.07.02.23.51
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.05.31.15.42
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tokenizer/1.92.0-a.d+26.04.23.15.39
+    - header: true
+      public: true
+      ref: boost-type_index/1.92.0-a.d+26.05.05.20.32
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.01.22.15.40
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_process
+    url: https://github.com/boostorg/process.git
   1.92.0-a.m+26.02.11.10.21:
     commit: 696b785c77352491ebe0e7c4a8dc348bbc9d5d53
     cxxstd: '11'
@@ -1321,6 +1384,69 @@ sources:
     - header: true
       public: true
       ref: boost-winapi/1.92.0-a.m+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_process
+    url: https://github.com/boostorg/process.git
+  1.92.0-b.1:
+    commit: 696b785c77352491ebe0e7c4a8dc348bbc9d5d53
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-asio/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-b.1
+    - header: false
+      public: true
+      ref: boost-filesystem/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-fusion/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-io/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-tokenizer/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_index/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0-b.1
     targets:
     - dependencies: []
       kind: library

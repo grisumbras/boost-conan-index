@@ -502,3 +502,24 @@ sources:
       kind: header-library
       name: boost_lexical_cast
     url: https://github.com/boostorg/lexical_cast.git
+  1.92.0-b.1:
+    commit: 35d8af6ce21fa7a163b68a2fb27437d3fb737232
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-b.1
+    - header: false
+      public: true
+      ref: boost-container/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lexical_cast
+    url: https://github.com/boostorg/lexical_cast.git
