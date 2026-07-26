@@ -1029,7 +1029,7 @@ sources:
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
     - header: true
       public: true
-      ref: boost-variant2/1.92.0-a.d+26.07.20.22.00
+      ref: boost-variant2/1.92.0-a.d+26.07.24.20.44
     - header: true
       public: true
       ref: boost-winapi/1.92.0-a.d+25.08.25.19.08

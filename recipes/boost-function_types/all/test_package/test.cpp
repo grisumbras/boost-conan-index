@@ -1,4 +1,4 @@
-#include <boost/function_types/function_arity.hpp>
+#include <boost/function_types/is_member_pointer.hpp>
 
 int main()
 {

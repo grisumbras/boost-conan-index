@@ -1,4 +1,4 @@
-#include <boost/mpl/less_equal.hpp>
+#include <boost/mpl/int_fwd.hpp>
 
 int main()
 {

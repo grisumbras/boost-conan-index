@@ -1,4 +1,4 @@
-#include <boost/scope/unique_resource.hpp>
+#include <boost/scope/unique_fd.hpp>
 
 int main()
 {

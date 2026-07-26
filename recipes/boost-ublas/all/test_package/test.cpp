@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/operation_sparse.hpp>
+#include <boost/numeric/ublas/operation.hpp>
 
 int main()
 {

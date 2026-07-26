@@ -1,4 +1,4 @@
-#include <boost/ref.hpp>
+#include <boost/noncopyable.hpp>
 
 int main()
 {

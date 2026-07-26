@@ -1,4 +1,4 @@
-#include <boost/statechart/null_exception_translator.hpp>
+#include <boost/statechart/event_base.hpp>
 
 int main()
 {

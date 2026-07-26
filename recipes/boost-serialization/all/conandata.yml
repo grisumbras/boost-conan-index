@@ -1097,7 +1097,7 @@ sources:
       ref: boost-variant/1.92.0-a.d+26.04.25.20.51
     - header: true
       public: true
-      ref: boost-variant2/1.92.0-a.d+26.07.20.22.00
+      ref: boost-variant2/1.92.0-a.d+26.07.24.20.44
     - header: true
       public: false
       ref: boost-function/1.92.0-a.d+26.01.23.05.06

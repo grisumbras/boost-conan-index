@@ -1086,7 +1086,7 @@ sources:
       ref: boost-function/1.92.0-a.d+26.01.23.05.06
     - header: false
       public: true
-      ref: boost-graph/1.92.0-a.d+26.07.21.15.58
+      ref: boost-graph/1.92.0-a.d+26.07.25.19.14
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
@@ -1104,7 +1104,7 @@ sources:
       ref: boost-optional/1.92.0-a.d+26.07.17.00.19
     - header: true
       public: true
-      ref: boost-property_map/1.92.0-a.d+26.01.22.20.55
+      ref: boost-property_map/1.92.0-a.d+26.07.24.14.45
     - header: true
       public: true
       ref: boost-property_map_parallel/1.92.0-a.d+26.01.22.19.30

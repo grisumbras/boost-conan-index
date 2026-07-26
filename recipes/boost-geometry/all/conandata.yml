@@ -2421,7 +2421,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.07.13.10.08
     - header: false
       public: true
-      ref: boost-container/1.92.0-a.d+26.07.20.23.49
+      ref: boost-container/1.92.0-a.d+26.07.26.10.28
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -2436,7 +2436,7 @@ sources:
       ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: false
       public: true
-      ref: boost-graph/1.92.0-a.d+26.07.21.15.58
+      ref: boost-graph/1.92.0-a.d+26.07.25.19.14
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
@@ -2490,7 +2490,7 @@ sources:
       ref: boost-variant/1.92.0-a.d+26.04.25.20.51
     - header: true
       public: true
-      ref: boost-variant2/1.92.0-a.d+26.07.20.22.00
+      ref: boost-variant2/1.92.0-a.d+26.07.24.20.44
     targets:
     - dependencies: []
       kind: header-library

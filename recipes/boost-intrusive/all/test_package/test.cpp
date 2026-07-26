@@ -1,4 +1,4 @@
-#include <boost/intrusive/unordered_set_hook.hpp>
+#include <boost/intrusive/pointer_plus_bits.hpp>
 
 int main()
 {

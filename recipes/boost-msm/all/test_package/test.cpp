@@ -1,4 +1,4 @@
-#include <boost/msm/msm_grammar.hpp>
+#include <boost/msm/proto_config.hpp>
 
 int main()
 {

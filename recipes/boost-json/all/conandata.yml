@@ -1284,6 +1284,45 @@ sources:
       kind: library
       name: boost_json
     url: https://github.com/boostorg/json.git
+  1.92.0-a.d+26.07.10.19.01:
+    commit: 6a5777635f5e66bca39f384301d7d9dc014ee2a0
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+    - header: false
+      public: true
+      ref: boost-container/1.92.0-a.d+26.07.26.10.28
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.05.12.02.42
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-describe/1.92.0-a.d+26.04.19.17.40
+    - header: true
+      public: true
+      ref: boost-endian/1.92.0-a.d+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.05.31.15.42
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_json
+    url: https://github.com/boostorg/json.git
   1.92.0-a.d+26.07.15.19.27:
     commit: ea9066875c7f1bac807110e47c64df8e9ba876a7
     cxxstd: '11'
