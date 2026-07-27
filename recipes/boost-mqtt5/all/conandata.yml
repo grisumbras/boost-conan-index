@@ -1137,7 +1137,7 @@ sources:
       ref: boost-beast/1.92.0-a.d+26.07.06.11.31
     - header: false
       public: true
-      ref: boost-container/1.92.0-a.d+26.07.26.10.28
+      ref: boost-container/1.92.0-a.d+26.07.27.00.39
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
