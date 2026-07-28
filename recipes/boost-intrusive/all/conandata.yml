@@ -663,7 +663,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.07.13.10.08
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.d+26.07.02.23.51
+      ref: boost-move/1.92.0-a.d+26.07.28.09.24
     targets:
     - dependencies: []
       kind: header-library
