@@ -1571,7 +1571,7 @@ sources:
       ref: boost-utility/1.92.0-a.m+26.01.22.15.40
     - header: false
       public: false
-      ref: boost-graph/1.92.0-a.m+26.06.25.10.32
+      ref: boost-graph/1.92.0-a.m+26.07.29.12.58
     - header: true
       public: false
       ref: boost-integer/1.92.0-a.m+26.05.05.15.54

@@ -1023,7 +1023,7 @@ sources:
       ref: boost-function/1.92.0-a.m+26.01.23.05.06
     - header: false
       public: true
-      ref: boost-graph/1.92.0-a.m+26.06.25.10.32
+      ref: boost-graph/1.92.0-a.m+26.07.29.12.58
     - header: true
       public: true
       ref: boost-integer/1.92.0-a.m+26.05.05.15.54

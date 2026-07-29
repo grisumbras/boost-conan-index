@@ -669,7 +669,7 @@ sources:
       ref: boost-integer/1.92.0-a.d+26.05.05.15.54
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.d+26.07.28.09.24
+      ref: boost-move/1.92.0-a.d+26.07.28.14.59
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
