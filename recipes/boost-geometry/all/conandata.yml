@@ -2520,7 +2520,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.07.13.10.08
     - header: false
       public: true
-      ref: boost-container/1.92.0-a.d+26.07.30.01.43
+      ref: boost-container/1.92.0-a.d+26.07.31.12.01
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -2571,7 +2571,7 @@ sources:
       ref: boost-rational/1.92.0-a.d+26.01.22.21.05
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.07.29.14.23
+      ref: boost-serialization/1.92.0-a.d+26.07.30.15.58
     - header: false
       public: true
       ref: boost-thread/1.92.0-a.d+26.07.03.21.57

@@ -910,7 +910,7 @@ sources:
       ref: boost-python/1.92.0-a.d+26.04.05.16.29
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.07.29.14.23
+      ref: boost-serialization/1.92.0-a.d+26.07.30.15.58
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
