@@ -2571,7 +2571,7 @@ sources:
       ref: boost-rational/1.92.0-a.d+26.01.22.21.05
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.07.30.15.58
+      ref: boost-serialization/1.92.0-a.d+26.07.31.12.01
     - header: false
       public: true
       ref: boost-thread/1.92.0-a.d+26.07.03.21.57
