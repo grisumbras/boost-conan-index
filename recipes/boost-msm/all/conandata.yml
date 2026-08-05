@@ -4173,7 +4173,7 @@ sources:
       ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: false
       public: true
-      ref: boost-json/1.92.0-a.d+26.07.19.14.01
+      ref: boost-json/1.92.0-a.d+26.07.17.15.40
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
