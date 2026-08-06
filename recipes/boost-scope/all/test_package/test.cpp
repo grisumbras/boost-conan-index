@@ -1,4 +1,4 @@
-#include <boost/scope/unique_fd.hpp>
+#include <boost/scope/defer.hpp>
 
 int main()
 {

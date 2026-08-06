@@ -1,4 +1,4 @@
-#include <boost/heap/d_ary_heap.hpp>
+#include <boost/heap/heap_merge.hpp>
 
 int main()
 {

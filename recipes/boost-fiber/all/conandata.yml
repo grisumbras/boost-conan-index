@@ -718,7 +718,7 @@ sources:
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
     - header: true
       public: false
-      ref: boost-algorithm/1.92.0-a.m+26.03.03.10.52
+      ref: boost-algorithm/1.92.0-a.m+26.08.05.09.34
     - header: false
       public: false
       ref: boost-filesystem/1.92.0-a.m+26.06.28.19.43

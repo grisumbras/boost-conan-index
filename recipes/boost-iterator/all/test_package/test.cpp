@@ -1,4 +1,4 @@
-#include <boost/generator_iterator.hpp>
+#include <boost/pointee.hpp>
 
 int main()
 {

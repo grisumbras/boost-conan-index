@@ -1569,7 +1569,7 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-algorithm/1.92.0-a.m+26.03.03.10.52
+      ref: boost-algorithm/1.92.0-a.m+26.08.05.09.34
     - header: true
       public: true
       ref: boost-assert/1.92.0-a.m+26.06.27.16.04

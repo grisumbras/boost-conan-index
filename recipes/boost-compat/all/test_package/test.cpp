@@ -1,4 +1,4 @@
-#include <boost/compat/function_ref.hpp>
+#include <boost/compat/to_underlying.hpp>
 
 int main()
 {

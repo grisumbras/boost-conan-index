@@ -1,4 +1,4 @@
-#include <boost/statechart/event_base.hpp>
+#include <boost/statechart/shallow_history.hpp>
 
 int main()
 {
