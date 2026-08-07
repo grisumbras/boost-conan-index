@@ -1,4 +1,4 @@
-#include <boost/is_placeholder.hpp>
+#include <boost/noncopyable.hpp>
 
 int main()
 {

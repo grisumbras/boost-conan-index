@@ -876,7 +876,7 @@ sources:
       ref: boost-range/1.92.0-a.d+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.07.31.10.51
+      ref: boost-serialization/1.92.0-a.d+26.08.06.14.51
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38

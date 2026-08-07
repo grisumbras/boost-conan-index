@@ -1,4 +1,4 @@
-#include <boost/iostreams/tee.hpp>
+#include <boost/iostreams/filtering_stream.hpp>
 
 int main()
 {

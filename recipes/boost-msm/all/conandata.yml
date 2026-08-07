@@ -4194,7 +4194,7 @@ sources:
       ref: boost-proto/1.92.0-a.d+26.04.23.22.27
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.07.31.10.51
+      ref: boost-serialization/1.92.0-a.d+26.08.06.14.51
     - header: true
       public: true
       ref: boost-type_index/1.92.0-a.d+26.05.05.20.32

@@ -1,4 +1,4 @@
-#include <boost/poly_collection/function_collection.hpp>
+#include <boost/poly_collection/function_collection_fwd.hpp>
 
 int main()
 {

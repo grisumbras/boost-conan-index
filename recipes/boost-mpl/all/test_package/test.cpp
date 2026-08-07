@@ -1,4 +1,4 @@
-#include <boost/mpl/empty_fwd.hpp>
+#include <boost/mpl/int_fwd.hpp>
 
 int main()
 {

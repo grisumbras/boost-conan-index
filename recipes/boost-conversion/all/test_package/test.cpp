@@ -1,4 +1,4 @@
-#include <boost/implicit_cast.hpp>
+#include <boost/polymorphic_cast.hpp>
 
 int main()
 {

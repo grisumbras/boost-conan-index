@@ -1,4 +1,4 @@
-#include <boost/interprocess/exceptions.hpp>
+#include <boost/interprocess/managed_heap_memory.hpp>
 
 int main()
 {
