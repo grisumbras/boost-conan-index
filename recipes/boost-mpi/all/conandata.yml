@@ -892,7 +892,7 @@ sources:
       ref: boost-function/1.92.0-a.d+26.01.23.05.06
     - header: false
       public: true
-      ref: boost-graph/1.92.0-a.d+26.08.07.12.35
+      ref: boost-graph/1.92.0-a.d+26.08.07.20.37
     - header: true
       public: true
       ref: boost-integer/1.92.0-a.d+26.05.05.15.54
@@ -910,7 +910,7 @@ sources:
       ref: boost-python/1.92.0-a.d+26.04.05.16.29
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.08.06.14.51
+      ref: boost-serialization/1.92.0-a.d+26.08.06.16.47
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
