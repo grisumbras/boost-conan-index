@@ -636,7 +636,7 @@ sources:
       ref: boost-detail/1.92.0-a.d+26.01.22.15.23
     - header: true
       public: true
-      ref: boost-interprocess/1.92.0-a.d+26.08.10.12.29
+      ref: boost-interprocess/1.92.0-a.d+26.08.11.02.11
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
