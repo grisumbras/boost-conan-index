@@ -297,6 +297,24 @@ sources:
       kind: header-library
       name: boost_tuple
     url: https://github.com/boostorg/tuple.git
+  1.92.0:
+    commit: 704830d883825357a83e49a2aed2a07e734a74bb
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: true
+      public: true
+      ref: boost-core/1.92.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_tuple
+    url: https://github.com/boostorg/tuple.git
   1.92.0-a.d+26.02.19.13.44:
     commit: 704830d883825357a83e49a2aed2a07e734a74bb
     cxxstd: '03'

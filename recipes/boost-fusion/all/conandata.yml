@@ -543,6 +543,45 @@ sources:
       kind: header-library
       name: boost_fusion
     url: https://github.com/boostorg/fusion.git
+  1.92.0:
+    commit: 017a8399fd62e81cf11ecea8c4063d055088458e
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0
+    - header: true
+      public: true
+      ref: boost-core/1.92.0
+    - header: true
+      public: true
+      ref: boost-function_types/1.92.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0
+    - header: true
+      public: true
+      ref: boost-tuple/1.92.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_fusion
+    url: https://github.com/boostorg/fusion.git
   1.92.0-a.d+26.01.23.01.34:
     commit: ca626da5573faa4723940743707bd2d3b6f65bc5
     cxxstd: '03'

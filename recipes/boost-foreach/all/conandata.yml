@@ -273,6 +273,33 @@ sources:
       kind: header-library
       name: boost_foreach
     url: https://github.com/boostorg/foreach.git
+  1.92.0:
+    commit: 904451bb8b094b426a69fbf33825c06677f2835f
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: true
+      public: true
+      ref: boost-core/1.92.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0
+    - header: true
+      public: true
+      ref: boost-range/1.92.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_foreach
+    url: https://github.com/boostorg/foreach.git
   1.92.0-a.d+25.05.02.19.11:
     commit: a5ae97ef513548ed44fca6d69f8c69f79e215088
     cxxstd: null

@@ -798,6 +798,54 @@ sources:
       kind: header-library
       name: boost_bimap
     url: https://github.com/boostorg/bimap.git
+  1.92.0:
+    commit: 705a7ca7f49f197a803134ade3a8c64473617a24
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0
+    - header: true
+      public: true
+      ref: boost-core/1.92.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0
+    - header: true
+      public: true
+      ref: boost-lambda/1.92.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0
+    - header: true
+      public: true
+      ref: boost-multi_index/1.92.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_bimap
+    url: https://github.com/boostorg/bimap.git
   1.92.0-a.d+26.03.29.20.57:
     commit: d8f3885857c2836ae4f32f8ddc3508909ad26454
     cxxstd: '03'

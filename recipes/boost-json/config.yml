@@ -57,6 +57,8 @@ versions:
     folder: all
   1.91.0-b.1:
     folder: all
+  1.92.0:
+    folder: all
   1.92.0-a.d+26.04.15.21.35:
     folder: all
   1.92.0-a.d+26.05.10.12.27:

@@ -433,6 +433,49 @@ sources:
       kind: library
       name: boost_fiber_numa
     url: https://github.com/boostorg/fiber.git
+  1.92.0:
+    commit: 159c5c2ee465f1c0fe2eaded6a15881db3ad76d7
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: false
+      public: true
+      ref: boost-context/1.92.0
+    - header: true
+      public: true
+      ref: boost-core/1.92.0
+    - header: true
+      public: true
+      ref: boost-intrusive/1.92.0
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0
+    - header: true
+      public: false
+      ref: boost-algorithm/1.92.0
+    - header: false
+      public: false
+      ref: boost-filesystem/1.92.0
+    - header: true
+      public: false
+      ref: boost-format/1.92.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_fiber
+    - dependencies:
+      - boost_fiber
+      kind: library
+      name: boost_fiber_numa
+    url: https://github.com/boostorg/fiber.git
   1.92.0-a.d+25.02.21.15.28:
     commit: 238487b543e8863c647d31a82ccfc3fa11a960d9
     cxxstd: '11'

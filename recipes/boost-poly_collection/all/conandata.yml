@@ -333,6 +333,39 @@ sources:
       kind: header-library
       name: boost_poly_collection
     url: https://github.com/boostorg/poly_collection.git
+  1.92.0:
+    commit: 8adeacb3f4ad35379391e2f85ea74e2d42d71b8a
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: true
+      public: true
+      ref: boost-core/1.92.0
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0
+    - header: false
+      public: true
+      ref: boost-type_erasure/1.92.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_poly_collection
+    url: https://github.com/boostorg/poly_collection.git
   1.92.0-a.d+25.09.18.21.59:
     commit: 3175ae3c91203556f86561f574830aa38d5bc80c
     cxxstd: '11'

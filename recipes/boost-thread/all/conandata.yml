@@ -1095,6 +1095,87 @@ sources:
       kind: library
       name: boost_thread
     url: https://github.com/boostorg/thread.git
+  1.92.0:
+    commit: 608459ab7c50092f6d91dbbe48caf349ec16ed3b
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0
+    - header: false
+      public: true
+      ref: boost-atomic/1.92.0
+    - header: true
+      public: true
+      ref: boost-bind/1.92.0
+    - header: false
+      public: true
+      ref: boost-chrono/1.92.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: false
+      public: true
+      ref: boost-container/1.92.0
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0
+    - header: true
+      public: true
+      ref: boost-core/1.92.0
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0
+    - header: false
+      public: true
+      ref: boost-exception/1.92.0
+    - header: true
+      public: true
+      ref: boost-function/1.92.0
+    - header: true
+      public: true
+      ref: boost-io/1.92.0
+    - header: true
+      public: true
+      ref: boost-move/1.92.0
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0
+    - header: true
+      public: true
+      ref: boost-system/1.92.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0
+    - header: true
+      public: true
+      ref: boost-tuple/1.92.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_thread
+    url: https://github.com/boostorg/thread.git
   1.92.0-a.d+26.02.06.15.45:
     commit: ac15f907be14ce070a99d0c719aa8bcdb14de6b0
     cxxstd: '11'

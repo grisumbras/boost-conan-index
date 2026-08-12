@@ -597,6 +597,57 @@ sources:
       kind: library
       name: boost_date_time
     url: https://github.com/boostorg/date_time.git
+  1.92.0:
+    commit: 6248d64ed94916e446c83a038e8c8208ebb262ee
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.92.0
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: true
+      public: true
+      ref: boost-core/1.92.0
+    - header: true
+      public: true
+      ref: boost-io/1.92.0
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0
+    - header: true
+      public: true
+      ref: boost-numeric_conversion/1.92.0
+    - header: true
+      public: true
+      ref: boost-range/1.92.0
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0
+    - header: true
+      public: true
+      ref: boost-tokenizer/1.92.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_date_time
+    url: https://github.com/boostorg/date_time.git
   1.92.0-a.d+26.02.06.04.26:
     commit: 6b387c4969ffa4cf72d34786402762c94de06c54
     cxxstd: '11'

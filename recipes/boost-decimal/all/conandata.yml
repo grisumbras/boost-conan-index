@@ -338,6 +338,15 @@ sources:
       kind: header-library
       name: boost_decimal
     url: https://github.com/boostorg/decimal.git
+  1.92.0:
+    commit: 58c7cca6b0a7d80884428315d80de3ac7254d396
+    cxxstd: '14'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_decimal
+    url: https://github.com/boostorg/decimal.git
   1.92.0-a.d+26.04.23.13.31:
     commit: f3c4a5f473e02802de6e8943c76c76d2fb389a6c
     cxxstd: '14'
@@ -445,6 +454,15 @@ sources:
     url: https://github.com/boostorg/decimal.git
   1.92.0-a.d+26.08.10.10.49:
     commit: 52d12eaa341a094d91fcafbc6a4e16206da83939
+    cxxstd: '14'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_decimal
+    url: https://github.com/boostorg/decimal.git
+  1.92.0-a.d+26.08.12.12.01:
+    commit: 257ef47887c69577c9c89a9ac4d9f42a09d0b648
     cxxstd: '14'
     dependencies: []
     targets:

@@ -183,6 +183,24 @@ sources:
       kind: header-library
       name: boost_coroutine2
     url: https://github.com/boostorg/coroutine2.git
+  1.92.0:
+    commit: a19f882791820f30c145663848f8bfd882815ef6
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: false
+      public: true
+      ref: boost-context/1.92.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_coroutine2
+    url: https://github.com/boostorg/coroutine2.git
   1.92.0-a.d+25.09.08.14.56:
     commit: f405b3c5c2434daac6cc90c279f9e50b05c5c11c
     cxxstd: '11'

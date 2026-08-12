@@ -451,6 +451,43 @@ sources:
       kind: library
       name: boost_regex
     url: https://github.com/boostorg/regex.git
+  1.92.0:
+    commit: 7760ef2a61d643c1770026f0392b440bdfb5687d
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0
+    - header: true
+      public: false
+      ref: boost-core/1.92.0
+    - header: true
+      public: false
+      ref: boost-smart_ptr/1.92.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_regex
+    - dependencies:
+      - boost_regex
+      kind: library
+      name: boost_regex_old
+    url: https://github.com/boostorg/regex.git
   1.92.0-a.d+26.03.06.13.40:
     commit: 47d418e3f0a0e742b017199432e3f95eb8722cd8
     cxxstd: '11'

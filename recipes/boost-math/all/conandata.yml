@@ -2444,6 +2444,66 @@ sources:
       kind: library
       name: boost_math_tr1l
     url: https://github.com/boostorg/math.git
+  1.92.0:
+    commit: f12be767c04d9499aaa6f88b22d5f1b464c1c27a
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0
+    - header: true
+      public: true
+      ref: boost-config/1.92.0
+    - header: true
+      public: true
+      ref: boost-core/1.92.0
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0
+    - header: false
+      public: true
+      ref: boost-random/1.92.0
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_math
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_c99
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_c99f
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_c99l
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_tr1
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_tr1f
+    - dependencies:
+      - boost_math
+      kind: library
+      name: boost_math_tr1l
+    url: https://github.com/boostorg/math.git
   1.92.0-a.d+26.04.23.12.44:
     commit: df8bb08b01f212721c05f5ae279a5fd216857f61
     cxxstd: '14'
