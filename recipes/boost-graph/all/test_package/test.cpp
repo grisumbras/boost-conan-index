@@ -1,4 +1,4 @@
-#include <boost/graph/dominator_tree.hpp>
+#include <boost/pending/fibonacci_heap.hpp>
 
 int main()
 {

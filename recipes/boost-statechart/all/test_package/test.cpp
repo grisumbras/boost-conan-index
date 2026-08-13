@@ -1,4 +1,4 @@
-#include <boost/statechart/event_base.hpp>
+#include <boost/statechart/fifo_worker.hpp>
 
 int main()
 {

@@ -4227,7 +4227,7 @@ sources:
       ref: boost-circular_buffer/1.92.0-a.d+26.02.03.14.37
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+      ref: boost-config/1.92.0-a.d+26.08.13.09.06
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -4260,7 +4260,7 @@ sources:
       ref: boost-proto/1.92.0-a.d+26.04.23.22.27
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.08.06.16.47
+      ref: boost-serialization/1.92.0-a.d+26.08.07.15.32
     - header: true
       public: true
       ref: boost-type_index/1.92.0-a.d+26.05.05.20.32
@@ -4356,7 +4356,7 @@ sources:
       ref: boost-circular_buffer/1.92.0-a.m+26.02.03.14.37
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+      ref: boost-config/1.92.0-a.m+26.08.13.09.06
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21

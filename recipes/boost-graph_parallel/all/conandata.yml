@@ -1146,7 +1146,7 @@ sources:
       ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+      ref: boost-config/1.92.0-a.d+26.08.13.09.06
     - header: true
       public: true
       ref: boost-container_hash/1.92.0-a.d+26.05.12.02.42
@@ -1158,7 +1158,7 @@ sources:
       ref: boost-detail/1.92.0-a.d+26.01.22.15.23
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.92.0-a.d+26.07.15.12.40
+      ref: boost-dynamic_bitset/1.92.0-a.d+26.08.13.09.06
     - header: false
       public: true
       ref: boost-filesystem/1.92.0-a.d+26.06.28.19.43
@@ -1179,7 +1179,7 @@ sources:
       ref: boost-lexical_cast/1.92.0-a.d+26.04.24.18.03
     - header: false
       public: true
-      ref: boost-mpi/1.92.0-a.d+26.08.10.21.29
+      ref: boost-mpi/1.92.0-a.d+26.08.13.12.58
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
@@ -1197,7 +1197,7 @@ sources:
       ref: boost-random/1.92.0-a.d+26.03.04.11.58
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.08.06.16.47
+      ref: boost-serialization/1.92.0-a.d+26.08.07.15.32
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
@@ -1230,7 +1230,7 @@ sources:
       ref: boost-concept_check/1.92.0-a.m+26.01.22.22.44
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+      ref: boost-config/1.92.0-a.m+26.08.13.09.06
     - header: true
       public: true
       ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
@@ -1242,7 +1242,7 @@ sources:
       ref: boost-detail/1.92.0-a.m+26.01.22.15.23
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.92.0-a.m+26.04.20.15.38
+      ref: boost-dynamic_bitset/1.92.0-a.m+26.08.13.09.06
     - header: false
       public: true
       ref: boost-filesystem/1.92.0-a.m+26.06.28.19.43
@@ -1263,7 +1263,7 @@ sources:
       ref: boost-lexical_cast/1.92.0-a.m+26.04.24.18.03
     - header: false
       public: true
-      ref: boost-mpi/1.92.0-a.m+26.01.22.22.50
+      ref: boost-mpi/1.92.0-a.m+26.08.13.12.58
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16

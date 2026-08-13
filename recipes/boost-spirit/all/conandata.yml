@@ -1644,7 +1644,7 @@ sources:
       ref: boost-assert/1.92.0-a.d+26.06.27.16.04
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+      ref: boost-config/1.92.0-a.d+26.08.13.09.06
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -1833,7 +1833,7 @@ sources:
       ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+      ref: boost-config/1.92.0-a.m+26.08.13.09.06
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
@@ -1884,7 +1884,7 @@ sources:
       ref: boost-range/1.92.0-a.m+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-regex/1.92.0-a.m+26.05.05.02.13
+      ref: boost-regex/1.92.0-a.m+26.05.22.17.45
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21

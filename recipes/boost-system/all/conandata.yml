@@ -1050,7 +1050,7 @@ sources:
       ref: boost-compat/1.92.0-a.d+26.01.24.12.40
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+      ref: boost-config/1.92.0-a.d+26.08.13.09.06
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.d+26.04.24.21.29
@@ -1140,7 +1140,7 @@ sources:
       ref: boost-compat/1.92.0-a.m+26.01.24.12.40
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+      ref: boost-config/1.92.0-a.m+26.08.13.09.06
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.m+26.04.24.21.29

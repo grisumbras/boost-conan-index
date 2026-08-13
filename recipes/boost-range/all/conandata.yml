@@ -975,7 +975,7 @@ sources:
       ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+      ref: boost-config/1.92.0-a.d+26.08.13.09.06
     - header: true
       public: true
       ref: boost-container_hash/1.92.0-a.d+26.05.12.02.42
@@ -1032,7 +1032,7 @@ sources:
       ref: boost-concept_check/1.92.0-a.m+26.01.22.22.44
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+      ref: boost-config/1.92.0-a.m+26.08.13.09.06
     - header: true
       public: true
       ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
@@ -1059,7 +1059,7 @@ sources:
       ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
     - header: false
       public: true
-      ref: boost-regex/1.92.0-a.m+26.05.05.02.13
+      ref: boost-regex/1.92.0-a.m+26.05.22.17.45
     - header: true
       public: true
       ref: boost-tuple/1.92.0-a.m+26.02.19.13.44

@@ -1,4 +1,4 @@
-#include <boost/msm/proto_config.hpp>
+#include <boost/msm/event_traits.hpp>
 
 int main()
 {

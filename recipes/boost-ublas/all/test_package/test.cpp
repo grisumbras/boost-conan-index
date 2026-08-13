@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/operation.hpp>
+#include <boost/numeric/ublas/traits.hpp>
 
 int main()
 {

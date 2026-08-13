@@ -1,4 +1,4 @@
-#include <boost/scope/unique_fd.hpp>
+#include <boost/scope/fd_resource_traits.hpp>
 
 int main()
 {

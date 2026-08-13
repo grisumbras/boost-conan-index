@@ -1,4 +1,4 @@
-#include <boost/icl/continuous_interval.hpp>
+#include <boost/icl/right_open_interval.hpp>
 
 int main()
 {

@@ -1063,6 +1063,70 @@ sources:
       kind: library
       name: boost_mpi_python
     url: https://github.com/boostorg/mpi.git
+  1.92.0-a.d+26.08.13.12.58:
+    commit: 32074da82b2b9c8075f0b406fd9b19861aa228d9
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.08.13.09.06
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-foreach/1.92.0-a.d+25.05.02.19.11
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.d+26.01.23.05.06
+    - header: false
+      public: true
+      ref: boost-graph/1.92.0-a.d+26.08.12.11.54
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.d+26.05.05.15.54
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
+    - header: false
+      public: true
+      ref: boost-python/1.92.0-a.d+26.04.05.16.29
+    - header: false
+      public: true
+      ref: boost-serialization/1.92.0-a.d+26.08.07.15.32
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: false
+      ref: boost-lexical_cast/1.92.0-a.d+26.04.24.18.03
+    - header: true
+      public: false
+      ref: boost-utility/1.92.0-a.d+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_mpi
+    - dependencies:
+      - boost_mpi
+      kind: library
+      name: boost_mpi_python
+    url: https://github.com/boostorg/mpi.git
   1.92.0-a.m+25.04.17.17.55:
     commit: b5733ba6f93671c696be707e13e8b2662c1e45e2
     cxxstd: '03'
@@ -1140,6 +1204,70 @@ sources:
     - header: true
       public: true
       ref: boost-config/1.92.0-a.m+26.04.23.22.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-foreach/1.92.0-a.m+25.01.26.17.47
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.m+26.01.23.05.06
+    - header: false
+      public: true
+      ref: boost-graph/1.92.0-a.m+26.07.29.12.58
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.m+26.05.05.15.54
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.m+26.07.16.01.06
+    - header: false
+      public: true
+      ref: boost-python/1.92.0-a.m+26.04.05.16.29
+    - header: false
+      public: true
+      ref: boost-serialization/1.92.0-a.m+26.06.28.16.16
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: false
+      ref: boost-lexical_cast/1.92.0-a.m+26.04.24.18.03
+    - header: true
+      public: false
+      ref: boost-utility/1.92.0-a.m+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_mpi
+    - dependencies:
+      - boost_mpi
+      kind: library
+      name: boost_mpi_python
+    url: https://github.com/boostorg/mpi.git
+  1.92.0-a.m+26.08.13.12.58:
+    commit: 32074da82b2b9c8075f0b406fd9b19861aa228d9
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.08.13.09.06
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21

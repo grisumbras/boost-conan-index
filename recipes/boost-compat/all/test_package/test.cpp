@@ -1,4 +1,4 @@
-#include <boost/compat/function_ref.hpp>
+#include <boost/compat/mem_fn.hpp>
 
 int main()
 {

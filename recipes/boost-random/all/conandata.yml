@@ -891,13 +891,13 @@ sources:
       ref: boost-assert/1.92.0-a.d+26.06.27.16.04
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+      ref: boost-config/1.92.0-a.d+26.08.13.09.06
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.92.0-a.d+26.07.15.12.40
+      ref: boost-dynamic_bitset/1.92.0-a.d+26.08.13.09.06
     - header: true
       public: true
       ref: boost-integer/1.92.0-a.d+26.05.05.15.54
@@ -930,13 +930,13 @@ sources:
       ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+      ref: boost-config/1.92.0-a.m+26.08.13.09.06
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.92.0-a.m+26.04.20.15.38
+      ref: boost-dynamic_bitset/1.92.0-a.m+26.08.13.09.06
     - header: true
       public: true
       ref: boost-integer/1.92.0-a.m+26.05.05.15.54

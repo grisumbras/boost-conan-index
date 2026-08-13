@@ -1,4 +1,4 @@
-#include <boost/multiprecision/rational_adaptor.hpp>
+#include <boost/multiprecision/integer.hpp>
 
 int main()
 {

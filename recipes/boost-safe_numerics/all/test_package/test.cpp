@@ -1,4 +1,4 @@
-#include <boost/safe_numerics/checked_result.hpp>
+#include <boost/safe_numerics/checked_integer.hpp>
 
 int main()
 {

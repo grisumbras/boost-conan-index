@@ -324,7 +324,7 @@ sources:
       ref: boost-assert/1.92.0-a.d+26.06.27.16.04
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+      ref: boost-config/1.92.0-a.d+26.08.13.09.06
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
@@ -348,7 +348,7 @@ sources:
       ref: boost-assert/1.92.0-a.m+26.06.27.16.04
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+      ref: boost-config/1.92.0-a.m+26.08.13.09.06
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.m+26.06.21.18.15

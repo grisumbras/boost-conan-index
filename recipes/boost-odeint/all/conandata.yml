@@ -1020,7 +1020,7 @@ sources:
       ref: boost-compute/1.92.0-a.d+26.02.06.19.14
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+      ref: boost-config/1.92.0-a.d+26.08.13.09.06
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.01.22.15.21
@@ -1035,7 +1035,7 @@ sources:
       ref: boost-math/1.92.0-a.d+26.08.05.08.56
     - header: false
       public: true
-      ref: boost-mpi/1.92.0-a.d+26.08.10.21.29
+      ref: boost-mpi/1.92.0-a.d+26.08.13.12.58
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
@@ -1080,7 +1080,7 @@ sources:
       ref: boost-compute/1.92.0-a.m+26.02.06.19.14
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+      ref: boost-config/1.92.0-a.m+26.08.13.09.06
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
@@ -1095,7 +1095,7 @@ sources:
       ref: boost-math/1.92.0-a.m+26.07.01.20.27
     - header: false
       public: true
-      ref: boost-mpi/1.92.0-a.m+26.01.22.22.50
+      ref: boost-mpi/1.92.0-a.m+26.08.13.12.58
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16

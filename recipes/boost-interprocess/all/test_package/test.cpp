@@ -1,4 +1,4 @@
-#include <boost/interprocess/managed_heap_memory.hpp>
+#include <boost/interprocess/permissions.hpp>
 
 int main()
 {

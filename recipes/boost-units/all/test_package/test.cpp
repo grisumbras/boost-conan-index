@@ -1,4 +1,4 @@
-#include <boost/units/dimension.hpp>
+#include <boost/units/static_constant.hpp>
 
 int main()
 {

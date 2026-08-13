@@ -1795,10 +1795,10 @@ sources:
       ref: boost-circular_buffer/1.92.0-a.d+26.02.03.14.37
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.07.13.10.08
+      ref: boost-config/1.92.0-a.d+26.08.13.09.06
     - header: false
       public: true
-      ref: boost-container/1.92.0-a.d+26.08.08.12.54
+      ref: boost-container/1.92.0-a.d+26.08.13.03.04
     - header: false
       public: true
       ref: boost-context/1.92.0-a.d+26.07.23.09.31
@@ -1864,7 +1864,7 @@ sources:
       ref: boost-circular_buffer/1.92.0-a.m+26.02.03.14.37
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.04.23.22.18
+      ref: boost-config/1.92.0-a.m+26.08.13.09.06
     - header: false
       public: true
       ref: boost-container/1.92.0-a.m+26.07.06.01.24
