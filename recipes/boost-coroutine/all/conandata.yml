@@ -453,7 +453,7 @@ sources:
       ref: boost-exception/1.92.0-a.d+26.05.30.15.57
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.d+26.11.12.10.47
+      ref: boost-move/1.92.0-a.d+26.11.12.17.22
     - header: true
       public: true
       ref: boost-system/1.92.0-a.d+26.10.22.16.04
