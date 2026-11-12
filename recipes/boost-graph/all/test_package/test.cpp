@@ -1,4 +1,4 @@
-#include <boost/pending/fibonacci_heap.hpp>
+#include <boost/graph/point_traits.hpp>
 
 int main()
 {

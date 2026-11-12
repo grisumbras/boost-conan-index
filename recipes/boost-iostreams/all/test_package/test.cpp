@@ -1,4 +1,4 @@
-#include <boost/iostreams/traits.hpp>
+#include <boost/iostreams/invert.hpp>
 
 int main()
 {

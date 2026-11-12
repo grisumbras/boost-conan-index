@@ -381,6 +381,27 @@ sources:
       kind: header-library
       name: boost_conversion
     url: https://github.com/boostorg/conversion.git
+  1.92.0-a.d+26.08.31.18.02:
+    commit: 2cbe691097d37907c9cc98bed69a5a4617c991e4
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_conversion
+    url: https://github.com/boostorg/conversion.git
   1.92.0-a.m+26.01.02.13.40:
     commit: 827dd94c681d9a660c81d8f2716eb7d11fc4d42f
     cxxstd: '11'
@@ -433,6 +454,27 @@ sources:
     - header: true
       public: true
       ref: boost-config/1.92.0-a.m+26.08.13.09.06
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_conversion
+    url: https://github.com/boostorg/conversion.git
+  1.92.0-a.m+26.08.31.18.02:
+    commit: 2cbe691097d37907c9cc98bed69a5a4617c991e4
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21

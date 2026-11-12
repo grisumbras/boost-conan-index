@@ -1215,55 +1215,139 @@ sources:
       kind: library
       name: boost_graph_parallel
     url: https://github.com/boostorg/graph_parallel.git
+  1.92.0-a.d+26.10.21.08.27:
+    commit: 9bb39067ee66828e4dce50635a91f6ae55aa6ed9
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-algorithm/1.92.0-a.d+26.11.03.21.59
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.11.11.15.21
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.92.0-a.d+26.10.14.12.40
+    - header: false
+      public: true
+      ref: boost-filesystem/1.92.0-a.d+26.10.20.22.35
+    - header: true
+      public: true
+      ref: boost-foreach/1.92.0-a.d+25.05.02.19.11
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.d+26.01.23.05.06
+    - header: false
+      public: true
+      ref: boost-graph/1.92.0-a.d+26.11.02.14.51
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-a.d+26.09.18.10.30
+    - header: false
+      public: true
+      ref: boost-mpi/1.92.0-a.d+26.08.14.15.46
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
+    - header: true
+      public: true
+      ref: boost-property_map/1.92.0-a.d+26.09.25.09.16
+    - header: true
+      public: true
+      ref: boost-property_map_parallel/1.92.0-a.d+26.01.22.19.30
+    - header: false
+      public: true
+      ref: boost-random/1.92.0-a.d+26.11.09.08.58
+    - header: false
+      public: true
+      ref: boost-serialization/1.92.0-a.d+26.10.27.17.23
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-tuple/1.92.0-a.d+26.02.19.13.44
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-variant/1.92.0-a.d+26.08.31.19.05
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_graph_parallel
+    url: https://github.com/boostorg/graph_parallel.git
   1.92.0-a.m+26.02.06.19.13:
     commit: f91d58beb1b685005ee15899c8bce8b025cb7e85
     cxxstd: '03'
     dependencies:
     - header: true
       public: true
-      ref: boost-algorithm/1.92.0-a.m+26.08.05.09.34
+      ref: boost-algorithm/1.92.0-a.m+26.11.04.17.12
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
     - header: true
       public: true
       ref: boost-concept_check/1.92.0-a.m+26.01.22.22.44
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-container_hash/1.92.0-a.m+26.05.12.02.42
+      ref: boost-container_hash/1.92.0-a.m+26.10.03.19.29
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-detail/1.92.0-a.m+26.01.22.15.23
+      ref: boost-detail/1.92.0-a.m+26.10.03.00.15
     - header: true
       public: true
-      ref: boost-dynamic_bitset/1.92.0-a.m+26.08.13.09.06
+      ref: boost-dynamic_bitset/1.92.0-a.m+26.10.14.12.40
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.m+26.06.28.19.43
+      ref: boost-filesystem/1.92.0-a.m+26.10.20.22.35
     - header: true
       public: true
-      ref: boost-foreach/1.92.0-a.m+25.01.26.17.47
+      ref: boost-foreach/1.92.0-a.m+25.05.02.19.11
     - header: true
       public: true
       ref: boost-function/1.92.0-a.m+26.01.23.05.06
     - header: false
       public: true
-      ref: boost-graph/1.92.0-a.m+26.07.29.12.58
+      ref: boost-graph/1.92.0-a.m+26.11.02.15.27
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
     - header: true
       public: true
-      ref: boost-lexical_cast/1.92.0-a.m+26.04.24.18.03
+      ref: boost-lexical_cast/1.92.0-a.m+26.09.18.10.30
     - header: false
       public: true
-      ref: boost-mpi/1.92.0-a.m+26.08.13.12.58
+      ref: boost-mpi/1.92.0-a.m+26.08.14.15.20
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
@@ -1278,10 +1362,10 @@ sources:
       ref: boost-property_map_parallel/1.92.0-a.m+26.01.22.19.30
     - header: false
       public: true
-      ref: boost-random/1.92.0-a.m+26.03.04.14.13
+      ref: boost-random/1.92.0-a.m+26.10.29.07.55
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.m+26.06.28.16.16
+      ref: boost-serialization/1.92.0-a.m+26.10.27.17.23
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
@@ -1293,7 +1377,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-variant/1.92.0-a.m+26.04.25.20.51
+      ref: boost-variant/1.92.0-a.m+26.08.31.19.05
     targets:
     - dependencies: []
       kind: library

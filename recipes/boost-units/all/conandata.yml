@@ -636,16 +636,16 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.08.13.09.06
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.d+26.05.05.15.54
+      ref: boost-integer/1.92.0-a.d+26.11.06.16.16
     - header: true
       public: true
       ref: boost-io/1.92.0-a.d+26.01.22.22.15
@@ -654,7 +654,7 @@ sources:
       ref: boost-lambda/1.92.0-a.d+26.05.13.21.03
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.08.05.08.56
+      ref: boost-math/1.92.0-a.d+26.11.10.19.42
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
@@ -678,25 +678,25 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.m+26.05.05.15.54
+      ref: boost-integer/1.92.0-a.m+26.10.03.00.16
     - header: true
       public: true
-      ref: boost-io/1.92.0-a.m+23.10.03.00.15
+      ref: boost-io/1.92.0-a.m+26.01.22.22.15
     - header: true
       public: true
       ref: boost-lambda/1.92.0-a.m+26.05.13.21.03
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.m+26.07.01.20.27
+      ref: boost-math/1.92.0-a.m+26.10.20.19.01
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16

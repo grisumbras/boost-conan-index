@@ -1,4 +1,4 @@
-#include <boost/stl_interfaces/fwd.hpp>
+#include <boost/stl_interfaces/sequence_container_interface.hpp>
 
 int main()
 {

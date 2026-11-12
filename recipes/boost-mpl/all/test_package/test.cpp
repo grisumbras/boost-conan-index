@@ -1,4 +1,4 @@
-#include <boost/mpl/erase.hpp>
+#include <boost/mpl/is_placeholder.hpp>
 
 int main()
 {

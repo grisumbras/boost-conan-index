@@ -1635,6 +1635,48 @@ sources:
       kind: library
       name: boost_json
     url: https://github.com/boostorg/json.git
+  1.92.0-a.d+26.11.03.19.51:
+    commit: e93b1060d4bc46b09910b70fcc60594734eed95e
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: false
+      public: true
+      ref: boost-charconv/1.92.0-a.d+26.11.11.07.49
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.d+26.11.11.20.52
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.11.11.15.21
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-describe/1.92.0-a.d+26.10.26.18.26
+    - header: true
+      public: true
+      ref: boost-endian/1.92.0-a.d+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.10.22.16.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_json
+    url: https://github.com/boostorg/json.git
   1.92.0-a.m+26.03.16.17.21:
     commit: 70efd4b032b7f3e718bb4ca4ae144c3171b21568
     cxxstd: '11'
@@ -1744,6 +1786,48 @@ sources:
     - header: true
       public: true
       ref: boost-system/1.92.0-a.m+26.05.31.15.42
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_json
+    url: https://github.com/boostorg/json.git
+  1.92.0-a.m+26.11.03.19.51:
+    commit: e93b1060d4bc46b09910b70fcc60594734eed95e
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: false
+      public: true
+      ref: boost-charconv/1.92.0-a.m+26.10.26.16.35
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.m+26.11.11.20.52
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.10.03.19.29
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-describe/1.92.0-a.m+26.10.26.18.26
+    - header: true
+      public: true
+      ref: boost-endian/1.92.0-a.m+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.m+26.10.22.16.04
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

@@ -1,4 +1,4 @@
-#include <boost/scope/fd_resource_traits.hpp>
+#include <boost/scope/fd_deleter.hpp>
 
 int main()
 {

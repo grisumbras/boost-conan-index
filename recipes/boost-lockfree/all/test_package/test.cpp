@@ -1,4 +1,4 @@
-#include <boost/lockfree/mpsc_weak_queue.hpp>
+#include <boost/lockfree/policies.hpp>
 
 int main()
 {

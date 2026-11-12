@@ -813,6 +813,36 @@ sources:
       kind: header-library
       name: boost_asio
     url: https://github.com/boostorg/asio.git
+  1.92.0-a.d+26.11.05.21.42:
+    commit: e99d9da6d9b76a222e29dcaf3d2df51c788b7527
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.92.0-a.d+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: false
+      public: true
+      ref: boost-context/1.92.0-a.d+26.10.07.19.14
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0-a.d+26.06.01.01.52
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.10.22.16.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_asio
+    url: https://github.com/boostorg/asio.git
   1.92.0-a.m+26.04.15.23.19:
     commit: 7b56b644c9819be94b7b601823a65087a7c29f2e
     cxxstd: '11'
@@ -865,6 +895,36 @@ sources:
     - header: true
       public: true
       ref: boost-system/1.92.0-a.m+26.05.31.15.42
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_asio
+    url: https://github.com/boostorg/asio.git
+  1.92.0-a.m+26.11.05.21.57:
+    commit: 4821df37a8a252c3205201492143fa27cf56233c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-align/1.92.0-a.m+26.02.21.13.50
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: false
+      public: true
+      ref: boost-context/1.92.0-a.m+26.10.07.19.14
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0-a.m+26.06.01.01.52
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.m+26.10.22.16.04
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

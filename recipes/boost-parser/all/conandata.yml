@@ -528,6 +528,27 @@ sources:
       kind: header-library
       name: boost_parser
     url: https://github.com/boostorg/parser.git
+  1.92.0-a.d+26.03.31.11.01:
+    commit: 550f6bee27c13e45815d7ab3ad5233f64b3c7411
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: false
+      public: true
+      ref: boost-charconv/1.92.0-a.d+26.11.11.07.49
+    - header: true
+      public: true
+      ref: boost-hana/1.92.0-a.d+25.07.03.23.00
+    - header: true
+      public: true
+      ref: boost-type_index/1.92.0-a.d+26.11.02.11.18
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_parser
+    url: https://github.com/boostorg/parser.git
   1.92.0-a.m+26.02.15.16.03:
     commit: 202b991f982f0d27e5f0f2a93acabc9dad7c8288
     cxxstd: '17'
@@ -544,6 +565,27 @@ sources:
     - header: true
       public: true
       ref: boost-type_index/1.92.0-a.m+26.05.05.20.32
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_parser
+    url: https://github.com/boostorg/parser.git
+  1.92.0-a.m+26.03.31.11.01:
+    commit: b0d95375ffbc04b16d06988a9677eed8ce2670a2
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: false
+      public: true
+      ref: boost-charconv/1.92.0-a.m+26.10.26.16.35
+    - header: true
+      public: true
+      ref: boost-hana/1.92.0-a.m+25.07.03.23.00
+    - header: true
+      public: true
+      ref: boost-type_index/1.92.0-a.m+26.11.02.11.18
     targets:
     - dependencies: []
       kind: header-library

@@ -669,28 +669,28 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-any/1.92.0-a.d+26.01.12.20.29
+      ref: boost-any/1.92.0-a.d+26.10.15.08.35
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
     - header: true
       public: true
       ref: boost-bind/1.92.0-a.d+26.01.03.18.00
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.08.13.09.06
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
     - header: true
       public: true
-      ref: boost-multi_index/1.92.0-a.d+26.06.27.20.25
+      ref: boost-multi_index/1.92.0-a.d+26.09.17.19.11
     - header: true
       public: true
       ref: boost-optional/1.92.0-a.d+26.07.17.00.19
@@ -699,7 +699,7 @@ sources:
       ref: boost-range/1.92.0-a.d+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.08.07.15.32
+      ref: boost-serialization/1.92.0-a.d+26.10.27.17.23
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -717,28 +717,28 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-any/1.92.0-a.m+26.01.12.20.29
+      ref: boost-any/1.92.0-a.m+26.10.15.08.35
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
     - header: true
       public: true
       ref: boost-bind/1.92.0-a.m+26.01.03.18.00
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
     - header: true
       public: true
-      ref: boost-multi_index/1.92.0-a.m+26.06.27.20.25
+      ref: boost-multi_index/1.92.0-a.m+26.09.17.19.11
     - header: true
       public: true
       ref: boost-optional/1.92.0-a.m+26.07.16.01.06
@@ -747,7 +747,7 @@ sources:
       ref: boost-range/1.92.0-a.m+26.02.19.10.17
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.m+26.06.28.16.16
+      ref: boost-serialization/1.92.0-a.m+26.10.27.17.23
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

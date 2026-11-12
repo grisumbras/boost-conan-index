@@ -33,7 +33,11 @@ versions:
     folder: all
   1.92.0-a.d+26.01.12.20.29:
     folder: all
+  1.92.0-a.d+26.10.15.08.35:
+    folder: all
   1.92.0-a.m+26.01.12.20.29:
+    folder: all
+  1.92.0-a.m+26.10.15.08.35:
     folder: all
   1.92.0-b.1:
     folder: all

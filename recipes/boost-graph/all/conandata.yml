@@ -3840,6 +3840,99 @@ sources:
       kind: library
       name: boost_graph
     url: https://github.com/boostorg/graph.git
+  1.92.0-a.d+26.11.02.14.51:
+    commit: e62d023c0bef25b748f4b3d8a5af0e4769bfa627
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.92.0-a.d+26.10.15.08.35
+    - header: true
+      public: true
+      ref: boost-array/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.11.11.15.21
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-int128/1.92.0-a.d+26.11.05.15.23
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.d+26.11.06.16.16
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-a.d+26.09.18.10.30
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-multi_index/1.92.0-a.d+26.09.17.19.11
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
+    - header: true
+      public: true
+      ref: boost-parameter/1.92.0-a.d+26.10.03.00.20
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-property_map/1.92.0-a.d+26.09.25.09.16
+    - header: false
+      public: true
+      ref: boost-random/1.92.0-a.d+26.11.09.08.58
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.d+26.02.19.10.17
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tuple/1.92.0-a.d+26.02.19.13.44
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-unordered/1.92.0-a.d+26.06.17.17.00
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.10.15.23.22
+    - header: true
+      public: false
+      ref: boost-function/1.92.0-a.d+26.01.23.05.06
+    - header: false
+      public: false
+      ref: boost-regex/1.92.0-a.d+26.05.22.17.45
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_graph
+    url: https://github.com/boostorg/graph.git
   1.92.0-a.m+25.02.15.20.07:
     commit: 54a94911e68dccf5812b32d018566566700499f3
     cxxstd: '14'
@@ -4363,6 +4456,99 @@ sources:
     - header: true
       public: true
       ref: boost-xpressive/1.92.0-a.m+26.02.06.01.55
+    - header: false
+      public: false
+      ref: boost-regex/1.92.0-a.m+26.05.22.17.45
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_graph
+    url: https://github.com/boostorg/graph.git
+  1.92.0-a.m+26.11.02.15.27:
+    commit: fca983ec9ddb07bfc89c8da391757e09ca95bdfd
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.92.0-a.m+26.10.15.08.35
+    - header: true
+      public: true
+      ref: boost-array/1.92.0-a.m+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.m+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.10.03.19.29
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.m+26.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-int128/1.92.0-a.m+26.11.03.09.05
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.m+26.10.03.00.16
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-a.m+26.09.18.10.30
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-multi_index/1.92.0-a.m+26.09.17.19.11
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.m+26.07.16.01.06
+    - header: true
+      public: true
+      ref: boost-parameter/1.92.0-a.m+26.10.03.00.20
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-property_map/1.92.0-a.m+26.01.22.20.55
+    - header: false
+      public: true
+      ref: boost-random/1.92.0-a.m+26.10.29.07.55
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.m+26.02.19.10.17
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-tuple/1.92.0-a.m+26.02.19.13.44
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-unordered/1.92.0-a.m+26.06.17.17.00
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.m+26.10.15.23.22
+    - header: true
+      public: false
+      ref: boost-function/1.92.0-a.m+26.01.23.05.06
     - header: false
       public: false
       ref: boost-regex/1.92.0-a.m+26.05.22.17.45

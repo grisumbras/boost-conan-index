@@ -648,6 +648,49 @@ sources:
       kind: library
       name: boost_fiber_numa
     url: https://github.com/boostorg/fiber.git
+  1.92.0-a.d+26.10.24.11.48:
+    commit: c2cacd85a47bbc0952fedb0936973f800d228ae0
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: false
+      public: true
+      ref: boost-context/1.92.0-a.d+26.10.07.19.14
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-intrusive/1.92.0-a.d+26.11.11.08.13
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.d+26.10.27.08.43
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: false
+      ref: boost-algorithm/1.92.0-a.d+26.11.03.21.59
+    - header: false
+      public: false
+      ref: boost-filesystem/1.92.0-a.d+26.10.20.22.35
+    - header: true
+      public: false
+      ref: boost-format/1.92.0-a.d+25.06.26.19.58
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_fiber
+    - dependencies:
+      - boost_fiber
+      kind: library
+      name: boost_fiber_numa
+    url: https://github.com/boostorg/fiber.git
   1.92.0-a.m+25.02.21.15.28:
     commit: 238487b543e8863c647d31a82ccfc3fa11a960d9
     cxxstd: '11'
@@ -765,6 +808,49 @@ sources:
     - header: false
       public: false
       ref: boost-filesystem/1.92.0-a.m+26.06.28.19.43
+    - header: true
+      public: false
+      ref: boost-format/1.92.0-a.m+25.01.02.11.49
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_fiber
+    - dependencies:
+      - boost_fiber
+      kind: library
+      name: boost_fiber_numa
+    url: https://github.com/boostorg/fiber.git
+  1.92.0-a.m+26.10.21.15.09:
+    commit: c82a59a705602a6330dfa76945f0e480d00d68e3
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: false
+      public: true
+      ref: boost-context/1.92.0-a.m+26.10.07.19.14
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-intrusive/1.92.0-a.m+26.11.11.08.13
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.m+26.10.27.08.43
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: false
+      ref: boost-algorithm/1.92.0-a.m+26.11.04.17.12
+    - header: false
+      public: false
+      ref: boost-filesystem/1.92.0-a.m+26.10.20.22.35
     - header: true
       public: false
       ref: boost-format/1.92.0-a.m+25.01.02.11.49

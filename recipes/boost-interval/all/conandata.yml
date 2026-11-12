@@ -255,6 +255,27 @@ sources:
       kind: header-library
       name: boost_interval
     url: https://github.com/boostorg/interval.git
+  1.92.0-a.d+26.11.05.03.08:
+    commit: f5ca707c5e0d498fd73a038d1404c1c31d6bc014
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-logic/1.92.0-a.d+25.07.02.08.14
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_interval
+    url: https://github.com/boostorg/interval.git
   1.92.0-a.m+26.01.22.20.33:
     commit: 2939307e2797fda9df945ab25ab5d6b258d776d4
     cxxstd: '03'
@@ -268,6 +289,27 @@ sources:
     - header: true
       public: true
       ref: boost-logic/1.92.0-a.m+25.01.01.20.44
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_interval
+    url: https://github.com/boostorg/interval.git
+  1.92.0-a.m+26.11.05.03.08:
+    commit: f5ca707c5e0d498fd73a038d1404c1c31d6bc014
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.m+26.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-logic/1.92.0-a.m+25.01.01.20.44
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     targets:
     - dependencies: []
       kind: header-library

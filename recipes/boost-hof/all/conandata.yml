@@ -111,8 +111,26 @@ sources:
       kind: header-library
       name: boost_hof
     url: https://github.com/boostorg/hof.git
+  1.92.0-a.d+26.08.24.18.03:
+    commit: 462ccc63df6f7e9d82a1d95afa705e2c9bb91f51
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_hof
+    url: https://github.com/boostorg/hof.git
   1.92.0-a.m+23.01.11.18.32:
     commit: 63ac019fca325038bfb4f56db17fbb281d2b5f49
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_hof
+    url: https://github.com/boostorg/hof.git
+  1.92.0-a.m+26.08.24.18.03:
+    commit: 462ccc63df6f7e9d82a1d95afa705e2c9bb91f51
     cxxstd: '11'
     dependencies: []
     targets:

@@ -423,16 +423,31 @@ sources:
       kind: library
       name: boost_nowide
     url: https://github.com/boostorg/nowide.git
+  1.92.0-a.d+26.10.04.10.42:
+    commit: b744e07a65af23eee32b8c810e3132d517d21eab
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: false
+      public: true
+      ref: boost-filesystem/1.92.0-a.d+26.10.20.22.35
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_nowide
+    url: https://github.com/boostorg/nowide.git
   1.92.0-a.m+26.03.13.08.41:
     commit: e45509e57f2c2b2afa08b6df538d6933fac60fcd
     cxxstd: '11'
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: false
       public: true
-      ref: boost-filesystem/1.92.0-a.m+26.06.28.19.43
+      ref: boost-filesystem/1.92.0-a.m+26.10.20.22.35
     targets:
     - dependencies: []
       kind: library

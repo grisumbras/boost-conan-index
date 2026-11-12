@@ -921,25 +921,25 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
     - header: true
       public: true
       ref: boost-bind/1.92.0-a.d+26.01.03.18.00
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.08.13.09.06
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
     - header: true
       public: true
       ref: boost-function/1.92.0-a.d+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.d+26.07.28.14.59
+      ref: boost-move/1.92.0-a.d+26.11.12.10.47
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
@@ -948,7 +948,7 @@ sources:
       ref: boost-optional/1.92.0-a.d+26.07.17.00.19
     - header: true
       public: true
-      ref: boost-parameter/1.92.0-a.d+25.12.13.20.44
+      ref: boost-parameter/1.92.0-a.d+26.10.03.00.20
     - header: true
       public: true
       ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
@@ -966,7 +966,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-variant/1.92.0-a.d+26.04.25.20.51
+      ref: boost-variant/1.92.0-a.d+26.08.31.19.05
     targets:
     - dependencies: []
       kind: header-library
@@ -978,25 +978,25 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
     - header: true
       public: true
       ref: boost-bind/1.92.0-a.m+26.01.03.18.00
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
       ref: boost-function/1.92.0-a.m+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.m+26.07.02.23.51
+      ref: boost-move/1.92.0-a.m+26.11.12.00.16
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
@@ -1005,7 +1005,7 @@ sources:
       ref: boost-optional/1.92.0-a.m+26.07.16.01.06
     - header: true
       public: true
-      ref: boost-parameter/1.92.0-a.m+25.12.13.20.44
+      ref: boost-parameter/1.92.0-a.m+26.10.03.00.20
     - header: true
       public: true
       ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
@@ -1023,7 +1023,7 @@ sources:
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
     - header: true
       public: true
-      ref: boost-variant/1.92.0-a.m+26.04.25.20.51
+      ref: boost-variant/1.92.0-a.m+26.08.31.19.05
     targets:
     - dependencies: []
       kind: header-library

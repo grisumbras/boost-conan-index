@@ -1,4 +1,4 @@
-#include <boost/container/devector.hpp>
+#include <boost/container/uses_allocator.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/type_erasure/deduced.hpp>
+#include <boost/type_erasure/binding_of.hpp>
 
 int main()
 {

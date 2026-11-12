@@ -1,4 +1,4 @@
-#include <boost/msm/event_traits.hpp>
+#include <boost/msm/msm_grammar.hpp>
 
 int main()
 {

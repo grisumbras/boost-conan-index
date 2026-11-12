@@ -1,4 +1,4 @@
-#include <boost/icl/right_open_interval.hpp>
+#include <boost/icl/interval_traits.hpp>
 
 int main()
 {

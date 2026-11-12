@@ -906,6 +906,51 @@ sources:
       kind: library
       name: boost_program_options
     url: https://github.com/boostorg/program_options.git
+  1.92.0-a.d+26.10.29.18.58:
+    commit: 5a0ed89b7748903c12fb8b05d8e4bca540dd5d88
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.92.0-a.d+26.10.15.08.35
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.d+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-a.d+26.09.18.10.30
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: false
+      ref: boost-bind/1.92.0-a.d+26.01.03.18.00
+    - header: true
+      public: false
+      ref: boost-tokenizer/1.92.0-a.d+26.04.23.15.39
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_program_options
+    url: https://github.com/boostorg/program_options.git
   1.92.0-a.m+26.02.24.12.53:
     commit: 59ca47b4ef8f7c9b801081def931e339a97c00ee
     cxxstd: '11'
@@ -960,25 +1005,25 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-any/1.92.0-a.m+26.01.12.20.29
+      ref: boost-any/1.92.0-a.m+26.10.15.08.35
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-detail/1.92.0-a.m+26.01.22.15.23
+      ref: boost-detail/1.92.0-a.m+26.10.03.00.15
     - header: true
       public: true
       ref: boost-function/1.92.0-a.m+26.01.23.05.06
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
     - header: true
       public: true
-      ref: boost-lexical_cast/1.92.0-a.m+26.04.24.18.03
+      ref: boost-lexical_cast/1.92.0-a.m+26.09.18.10.30
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21

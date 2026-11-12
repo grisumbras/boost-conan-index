@@ -207,13 +207,13 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.08.13.09.06
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: false
       ref: boost-io/1.92.0-a.d+26.01.22.22.15
     - header: true
       public: false
-      ref: boost-predef/1.92.0-a.d+26.05.09.14.25
+      ref: boost-predef/1.92.0-a.d+26.10.27.08.43
     targets:
     - dependencies: []
       kind: library
@@ -225,13 +225,13 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: false
-      ref: boost-io/1.92.0-a.m+23.10.03.00.15
+      ref: boost-io/1.92.0-a.m+26.01.22.22.15
     - header: true
       public: false
-      ref: boost-predef/1.92.0-a.m+25.01.12.12.53
+      ref: boost-predef/1.92.0-a.m+26.10.27.08.43
     targets:
     - dependencies: []
       kind: library

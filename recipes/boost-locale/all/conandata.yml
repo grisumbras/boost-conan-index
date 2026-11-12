@@ -753,31 +753,61 @@ sources:
       kind: library
       name: boost_locale
     url: https://github.com/boostorg/locale.git
+  1.92.0-a.d+26.10.31.04.39:
+    commit: e48ac728e5798145b15340863c2e8cd14064471c
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: false
+      public: false
+      ref: boost-charconv/1.92.0-a.d+26.11.11.07.49
+    - header: true
+      public: false
+      ref: boost-predef/1.92.0-a.d+26.10.27.08.43
+    - header: false
+      public: false
+      ref: boost-thread/1.92.0-a.d+26.11.11.10.21
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_locale
+    url: https://github.com/boostorg/locale.git
   1.92.0-a.m+26.03.05.10.21:
     commit: 94f4d99619e54e11dbb3117bad7af0cca76fd51c
     cxxstd: '11'
     dependencies:
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
     - header: false
       public: false
-      ref: boost-charconv/1.92.0-a.m+26.07.06.16.21
+      ref: boost-charconv/1.92.0-a.m+26.10.26.16.35
     - header: true
       public: false
-      ref: boost-predef/1.92.0-a.m+25.01.12.12.53
+      ref: boost-predef/1.92.0-a.m+26.10.27.08.43
     - header: false
       public: false
-      ref: boost-thread/1.92.0-a.m+26.07.03.21.57
+      ref: boost-thread/1.92.0-a.m+26.10.03.10.19
     targets:
     - dependencies: []
       kind: library

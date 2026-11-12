@@ -1,4 +1,4 @@
-#include <boost/intrusive/pointer_rebind.hpp>
+#include <boost/intrusive/member_value_traits.hpp>
 
 int main()
 {

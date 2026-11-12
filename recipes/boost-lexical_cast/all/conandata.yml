@@ -481,6 +481,27 @@ sources:
       kind: header-library
       name: boost_lexical_cast
     url: https://github.com/boostorg/lexical_cast.git
+  1.92.0-a.d+26.09.18.10.30:
+    commit: e4aed0be65036eb7802bdc09d7e04e61b01a43bd
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.d+26.11.11.20.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lexical_cast
+    url: https://github.com/boostorg/lexical_cast.git
   1.92.0-a.m+26.01.26.17.58:
     commit: 4b0d10a1f3ec33f7aac28dbf03b118c17098c3b0
     cxxstd: '11'
@@ -515,6 +536,27 @@ sources:
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lexical_cast
+    url: https://github.com/boostorg/lexical_cast.git
+  1.92.0-a.m+26.09.18.10.30:
+    commit: e4aed0be65036eb7802bdc09d7e04e61b01a43bd
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.m+26.11.11.20.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

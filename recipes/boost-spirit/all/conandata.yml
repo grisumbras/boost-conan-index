@@ -1725,6 +1725,99 @@ sources:
       kind: header-library
       name: boost_spirit
     url: https://github.com/boostorg/spirit.git
+  1.92.0-a.d+26.10.29.11.32:
+    commit: 77fd9e643c8f43ef8278bc0bfa8fb362c653dcfb
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-endian/1.92.0-a.d+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.d+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-function_types/1.92.0-a.d+26.02.05.17.38
+    - header: true
+      public: true
+      ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.d+26.11.06.16.16
+    - header: true
+      public: true
+      ref: boost-io/1.92.0-a.d+26.01.22.22.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.d+26.11.12.10.47
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
+    - header: true
+      public: true
+      ref: boost-phoenix/1.92.0-a.d+26.05.06.02.52
+    - header: true
+      public: true
+      ref: boost-pool/1.92.0-a.d+26.04.23.15.37
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-proto/1.92.0-a.d+26.04.23.22.27
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.d+26.02.19.10.17
+    - header: false
+      public: true
+      ref: boost-regex/1.92.0-a.d+26.05.22.17.45
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: false
+      public: true
+      ref: boost-thread/1.92.0-a.d+26.11.11.10.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0-a.d+26.02.03.04.18
+    - header: true
+      public: true
+      ref: boost-unordered/1.92.0-a.d+26.06.17.17.00
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.10.15.23.22
+    - header: true
+      public: true
+      ref: boost-variant/1.92.0-a.d+26.08.31.19.05
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_spirit
+    url: https://github.com/boostorg/spirit.git
   1.92.0-a.m+25.09.17.08.31:
     commit: 82184fecd6e6979e44a539bb5ff0918724948c40
     cxxstd: '03'
@@ -1830,13 +1923,13 @@ sources:
       ref: boost-array/1.92.0-a.m+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
       ref: boost-endian/1.92.0-a.m+26.01.23.05.36
@@ -1851,16 +1944,16 @@ sources:
       ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.m+26.05.05.15.54
+      ref: boost-integer/1.92.0-a.m+26.10.03.00.16
     - header: true
       public: true
-      ref: boost-io/1.92.0-a.m+23.10.03.00.15
+      ref: boost-io/1.92.0-a.m+26.01.22.22.15
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.m+26.07.02.23.51
+      ref: boost-move/1.92.0-a.m+26.11.12.00.16
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
@@ -1869,7 +1962,7 @@ sources:
       ref: boost-optional/1.92.0-a.m+26.07.16.01.06
     - header: true
       public: true
-      ref: boost-phoenix/1.92.0-a.m+23.08.29.14.32
+      ref: boost-phoenix/1.92.0-a.m+26.05.06.02.52
     - header: true
       public: true
       ref: boost-pool/1.92.0-a.m+25.02.25.18.47
@@ -1890,7 +1983,7 @@ sources:
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
     - header: false
       public: true
-      ref: boost-thread/1.92.0-a.m+26.07.03.21.57
+      ref: boost-thread/1.92.0-a.m+26.10.03.10.19
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
@@ -1905,10 +1998,10 @@ sources:
       ref: boost-unordered/1.92.0-a.m+26.06.17.17.00
     - header: true
       public: true
-      ref: boost-utility/1.92.0-a.m+26.01.22.15.40
+      ref: boost-utility/1.92.0-a.m+26.10.15.23.22
     - header: true
       public: true
-      ref: boost-variant/1.92.0-a.m+26.04.25.20.51
+      ref: boost-variant/1.92.0-a.m+26.08.31.19.05
     targets:
     - dependencies: []
       kind: header-library

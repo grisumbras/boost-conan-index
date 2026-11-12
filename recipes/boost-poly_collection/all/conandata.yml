@@ -432,6 +432,42 @@ sources:
       kind: header-library
       name: boost_poly_collection
     url: https://github.com/boostorg/poly_collection.git
+  1.92.0-a.d+26.09.10.09.16:
+    commit: c8df709f6eb04c27342bc8e4198269a9e55f726f
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.d+26.11.11.20.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: false
+      public: true
+      ref: boost-type_erasure/1.92.0-a.d+25.05.04.19.28
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_poly_collection
+    url: https://github.com/boostorg/poly_collection.git
   1.92.0-a.m+25.09.18.21.59:
     commit: 3175ae3c91203556f86561f574830aa38d5bc80c
     cxxstd: '11'
@@ -484,6 +520,42 @@ sources:
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.m+26.04.24.21.29
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
+    - header: false
+      public: true
+      ref: boost-type_erasure/1.92.0-a.m+25.05.04.19.28
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_poly_collection
+    url: https://github.com/boostorg/poly_collection.git
+  1.92.0-a.m+26.09.10.09.16:
+    commit: c8df709f6eb04c27342bc8e4198269a9e55f726f
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.m+26.11.11.20.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.08.15.00.22
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16

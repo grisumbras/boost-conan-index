@@ -621,6 +621,51 @@ sources:
       kind: header-library
       name: boost_ublas
     url: https://github.com/boostorg/ublas.git
+  1.92.0-a.d+26.09.10.09.55:
+    commit: 12034976d0d66030a0dfc8d61dab82d99a5e7ba0
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-compute/1.92.0-a.d+26.02.06.19.14
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-interval/1.92.0-a.d+26.11.05.03.08
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.d+26.02.19.10.17
+    - header: false
+      public: true
+      ref: boost-serialization/1.92.0-a.d+26.10.27.17.23
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0-a.d+26.02.03.04.18
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_ublas
+    url: https://github.com/boostorg/ublas.git
   1.92.0-a.m+24.05.07.22.32:
     commit: 15d871b410ff92592c6f3e0a53550035e7817046
     cxxstd: null
@@ -700,6 +745,51 @@ sources:
     - header: false
       public: true
       ref: boost-serialization/1.92.0-a.m+26.06.28.16.16
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-typeof/1.92.0-a.m+26.02.03.04.18
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_ublas
+    url: https://github.com/boostorg/ublas.git
+  1.92.0-a.m+26.09.28.11.29:
+    commit: 212d9b43ad02080bb5a5d8729fcbc2e281516708
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-compute/1.92.0-a.m+26.02.06.19.14
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.m+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-interval/1.92.0-a.m+26.11.05.03.08
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.m+26.02.19.10.17
+    - header: false
+      public: true
+      ref: boost-serialization/1.92.0-a.m+26.10.27.17.23
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21

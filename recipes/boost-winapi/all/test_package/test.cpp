@@ -1,4 +1,4 @@
-#include <boost/winapi/environment.hpp>
+#include <boost/winapi/get_proc_address.hpp>
 
 int main()
 {

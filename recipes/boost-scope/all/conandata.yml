@@ -297,6 +297,27 @@ sources:
       kind: header-library
       name: boost_scope
     url: https://github.com/boostorg/scope.git
+  1.92.0-a.d+26.11.05.23.14:
+    commit: 429db43389a333e3ce9f9f92c4bc547a8fb7277a
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope
+    url: https://github.com/boostorg/scope.git
   1.92.0-a.m+25.12.13.20.45:
     commit: c979d5e11b43cc36d5d5b8883e5b8a243478794f
     cxxstd: '11'
@@ -310,6 +331,27 @@ sources:
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.01.22.15.21
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope
+    url: https://github.com/boostorg/scope.git
+  1.92.0-a.m+26.10.03.00.21:
+    commit: 02cf83009bb55304371fc5c434da13d874a5b4d8
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36

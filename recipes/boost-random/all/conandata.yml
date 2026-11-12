@@ -921,6 +921,45 @@ sources:
       kind: library
       name: boost_random
     url: https://github.com/boostorg/random.git
+  1.92.0-a.d+26.11.09.08.58:
+    commit: 9ad4e64f0b9699bf1297385d2b683781a6f3610e
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.92.0-a.d+26.10.14.12.40
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.d+26.11.06.16.16
+    - header: true
+      public: true
+      ref: boost-io/1.92.0-a.d+26.01.22.22.15
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.10.22.16.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.10.15.23.22
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_random
+    url: https://github.com/boostorg/random.git
   1.92.0-a.m+26.03.04.14.13:
     commit: 08e70454559a1a58beed788dafa1631cdf9473ba
     cxxstd: '11'
@@ -955,6 +994,45 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.92.0-a.m+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_random
+    url: https://github.com/boostorg/random.git
+  1.92.0-a.m+26.10.29.07.55:
+    commit: edf1d832230b608ab633d9e0756469a309430b68
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.92.0-a.m+26.10.14.12.40
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.m+26.10.03.00.16
+    - header: true
+      public: true
+      ref: boost-io/1.92.0-a.m+26.01.22.22.15
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.m+26.10.22.16.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.m+26.10.15.23.22
     targets:
     - dependencies: []
       kind: library

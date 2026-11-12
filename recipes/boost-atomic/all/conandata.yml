@@ -483,6 +483,36 @@ sources:
       kind: library
       name: boost_atomic
     url: https://github.com/boostorg/atomic.git
+  1.92.0-a.d+26.10.03.00.12:
+    commit: 8903e3ab03ab2f08c287608f204770f70cd1d6e9
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.d+26.10.27.08.43
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0-a.d+25.08.25.19.08
+    - header: true
+      public: false
+      ref: boost-align/1.92.0-a.d+26.02.21.13.50
+    - header: true
+      public: false
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_atomic
+    url: https://github.com/boostorg/atomic.git
   1.92.0-a.m+25.12.29.17.20:
     commit: 84dccb548a7d8353c8ae4021aa7903bc94f80e0b
     cxxstd: '11'
@@ -496,6 +526,36 @@ sources:
     - header: true
       public: true
       ref: boost-predef/1.92.0-a.m+25.01.12.12.53
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0-a.m+25.08.25.19.08
+    - header: true
+      public: false
+      ref: boost-align/1.92.0-a.m+26.02.21.13.50
+    - header: true
+      public: false
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_atomic
+    url: https://github.com/boostorg/atomic.git
+  1.92.0-a.m+26.10.03.00.12:
+    commit: 8903e3ab03ab2f08c287608f204770f70cd1d6e9
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.m+26.10.27.08.43
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36

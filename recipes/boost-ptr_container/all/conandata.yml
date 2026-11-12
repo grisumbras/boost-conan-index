@@ -652,19 +652,19 @@ sources:
       ref: boost-array/1.92.0-a.d+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.d+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
     - header: true
       public: true
       ref: boost-circular_buffer/1.92.0-a.d+26.02.03.14.37
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.08.13.09.06
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.d+26.06.21.18.15
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
@@ -682,7 +682,7 @@ sources:
       ref: boost-unordered/1.92.0-a.d+26.06.17.17.00
     - header: true
       public: true
-      ref: boost-utility/1.92.0-a.d+26.01.22.15.40
+      ref: boost-utility/1.92.0-a.d+26.10.15.23.22
     targets:
     - dependencies: []
       kind: header-library
@@ -697,19 +697,19 @@ sources:
       ref: boost-array/1.92.0-a.m+26.01.23.05.53
     - header: true
       public: true
-      ref: boost-assert/1.92.0-a.m+26.06.27.16.04
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
     - header: true
       public: true
       ref: boost-circular_buffer/1.92.0-a.m+26.02.03.14.37
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-iterator/1.92.0-a.m+26.06.21.18.15
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
@@ -727,7 +727,7 @@ sources:
       ref: boost-unordered/1.92.0-a.m+26.06.17.17.00
     - header: true
       public: true
-      ref: boost-utility/1.92.0-a.m+26.01.22.15.40
+      ref: boost-utility/1.92.0-a.m+26.10.15.23.22
     targets:
     - dependencies: []
       kind: header-library

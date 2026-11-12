@@ -2007,6 +2007,72 @@ sources:
       kind: header-library
       name: boost_beast
     url: https://github.com/boostorg/beast.git
+  1.92.0-a.d+26.11.04.20.03:
+    commit: 77f5a663968e8db95481d97c0828eddf50a4ded5
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.92.0-a.d+26.11.05.21.42
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-bind/1.92.0-a.d+26.01.03.18.00
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.d+26.11.11.20.52
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.d+26.11.11.15.21
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-endian/1.92.0-a.d+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-intrusive/1.92.0-a.d+26.11.11.08.13
+    - header: true
+      public: true
+      ref: boost-logic/1.92.0-a.d+25.07.02.08.14
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-static_string/1.92.0-a.d+26.04.24.07.02
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.10.22.16.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_index/1.92.0-a.d+26.11.02.11.18
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_beast
+    url: https://github.com/boostorg/beast.git
   1.92.0-a.m+26.04.13.19.51:
     commit: 077efe520d00839def8b997200adfcd4dd8519ea
     cxxstd: '11'
@@ -2128,6 +2194,72 @@ sources:
     - header: true
       public: true
       ref: boost-type_index/1.92.0-a.m+26.05.05.20.32
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0-a.m+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_beast
+    url: https://github.com/boostorg/beast.git
+  1.92.0-a.m+26.11.04.20.03:
+    commit: 77f5a663968e8db95481d97c0828eddf50a4ded5
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.92.0-a.m+26.11.05.21.57
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-bind/1.92.0-a.m+26.01.03.18.00
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.m+26.11.11.20.52
+    - header: true
+      public: true
+      ref: boost-container_hash/1.92.0-a.m+26.10.03.19.29
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-endian/1.92.0-a.m+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-intrusive/1.92.0-a.m+26.11.11.08.13
+    - header: true
+      public: true
+      ref: boost-logic/1.92.0-a.m+25.01.01.20.44
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.m+26.07.16.01.06
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-static_string/1.92.0-a.m+26.04.24.07.02
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.m+26.10.22.16.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_index/1.92.0-a.m+26.11.02.11.18
     - header: true
       public: true
       ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36

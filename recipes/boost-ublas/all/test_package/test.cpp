@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/traits.hpp>
+#include <boost/numeric/ublas/hermitian.hpp>
 
 int main()
 {

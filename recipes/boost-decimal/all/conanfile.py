@@ -8,7 +8,7 @@ class BoostDecimalRecipe(ConanFile):
     description = '''An implementation of IEEE754 Decimal Floating Point Numbers.'''
     author = 'Matt Borland, Christopher Kormanyos'
     url = 'https://github.com/boostorg/decimal.git'
-    topics = ['Math and numerics']
+    topics = ['Math']
 
     settings = 'os', 'compiler', 'build_type', 'arch'
     options = {'shared': [True, False], 'disabled_libraries': ['ANY']}

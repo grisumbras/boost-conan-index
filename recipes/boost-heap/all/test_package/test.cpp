@@ -1,4 +1,4 @@
-#include <boost/heap/fibonacci_heap.hpp>
+#include <boost/heap/policies.hpp>
 
 int main()
 {

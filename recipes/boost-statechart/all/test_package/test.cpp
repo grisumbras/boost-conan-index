@@ -1,4 +1,4 @@
-#include <boost/statechart/fifo_worker.hpp>
+#include <boost/statechart/processor_container.hpp>
 
 int main()
 {

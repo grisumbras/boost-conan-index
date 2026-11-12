@@ -468,13 +468,13 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.d+26.08.13.09.06
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.d+26.01.22.15.21
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-detail/1.92.0-a.d+26.01.22.15.23
+      ref: boost-detail/1.92.0-a.d+26.10.03.00.15
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
@@ -495,13 +495,13 @@ sources:
     dependencies:
     - header: true
       public: true
-      ref: boost-config/1.92.0-a.m+26.08.13.09.06
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.01.22.15.21
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-detail/1.92.0-a.m+26.01.22.15.23
+      ref: boost-detail/1.92.0-a.m+26.10.03.00.15
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16

@@ -1050,6 +1050,69 @@ sources:
       kind: library
       name: boost_wave
     url: https://github.com/boostorg/wave.git
+  1.92.0-a.d+26.10.26.17.39:
+    commit: 38465b8c966b582af128404c4c5e0b798d43c64e
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: false
+      public: true
+      ref: boost-filesystem/1.92.0-a.d+26.10.20.22.35
+    - header: true
+      public: true
+      ref: boost-format/1.92.0-a.d+25.06.26.19.58
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-a.d+26.09.18.10.30
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-multi_index/1.92.0-a.d+26.09.17.19.11
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
+    - header: true
+      public: true
+      ref: boost-pool/1.92.0-a.d+26.04.23.15.37
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: false
+      public: true
+      ref: boost-serialization/1.92.0-a.d+26.10.27.17.23
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-spirit/1.92.0-a.d+26.10.29.11.32
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_wave
+    url: https://github.com/boostorg/wave.git
   1.92.0-a.m+25.04.28.13.47:
     commit: d7aa5a369d8f2faf48c8ea16ba041dfabbf91363
     cxxstd: '11'
@@ -1225,6 +1288,69 @@ sources:
     - header: false
       public: true
       ref: boost-serialization/1.92.0-a.m+26.06.28.16.16
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-spirit/1.92.0-a.m+26.04.26.06.05
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_wave
+    url: https://github.com/boostorg/wave.git
+  1.92.0-a.m+26.10.26.17.39:
+    commit: f3806efb2262e5722e59adc46d8ac05527dba205
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.m+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.m+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
+    - header: false
+      public: true
+      ref: boost-filesystem/1.92.0-a.m+26.10.20.22.35
+    - header: true
+      public: true
+      ref: boost-format/1.92.0-a.m+25.01.02.11.49
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.92.0-a.m+26.09.18.10.30
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-multi_index/1.92.0-a.m+26.09.17.19.11
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.m+26.07.16.01.06
+    - header: true
+      public: true
+      ref: boost-pool/1.92.0-a.m+25.02.25.18.47
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    - header: false
+      public: true
+      ref: boost-serialization/1.92.0-a.m+26.10.27.17.23
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21

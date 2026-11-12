@@ -549,6 +549,45 @@ sources:
       kind: header-library
       name: boost_parameter
     url: https://github.com/boostorg/parameter.git
+  1.92.0-a.d+26.10.03.00.20:
+    commit: cf1b5e2391d639d2b5660628ac993cf9e469677f
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.d+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.10.15.23.22
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_parameter
+    url: https://github.com/boostorg/parameter.git
   1.92.0-a.m+25.12.13.20.44:
     commit: 9984eff746f0ceb7b553ff89699d0405a3bfa896
     cxxstd: '03'
@@ -583,6 +622,45 @@ sources:
     - header: true
       public: true
       ref: boost-utility/1.92.0-a.m+26.01.22.15.40
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_parameter
+    url: https://github.com/boostorg/parameter.git
+  1.92.0-a.m+26.10.03.00.20:
+    commit: cf1b5e2391d639d2b5660628ac993cf9e469677f
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.m+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.m+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.m+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.m+26.07.16.01.06
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.m+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.m+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.m+26.10.15.23.22
     targets:
     - dependencies: []
       kind: header-library
