@@ -4689,3 +4689,96 @@ sources:
       kind: library
       name: boost_graph
     url: https://github.com/boostorg/graph.git
+  1.93.0-b.1:
+    commit: fca983ec9ddb07bfc89c8da391757e09ca95bdfd
+    cxxstd: '14'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-array/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-concept_check/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-int128/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-lexical_cast/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-multi_index/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-parameter/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-property_map/1.93.0-b.1
+    - header: false
+      public: true
+      ref: boost-random/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-range/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-unordered/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.93.0-b.1
+    - header: true
+      public: false
+      ref: boost-function/1.93.0-b.1
+    - header: false
+      public: false
+      ref: boost-regex/1.93.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_graph
+    url: https://github.com/boostorg/graph.git

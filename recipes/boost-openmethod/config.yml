@@ -109,6 +109,8 @@ versions:
     folder: all
   1.92.0-a.d+26.11.09.17.15:
     folder: all
+  1.92.0-a.d+26.11.12.08.44:
+    folder: all
   1.92.0-a.m+26.03.13.20.06:
     folder: all
   1.92.0-a.m+26.06.14.14.02:
@@ -116,4 +118,6 @@ versions:
   1.92.0-a.m+26.11.03.11.49:
     folder: all
   1.92.0-b.1:
+    folder: all
+  1.93.0-b.1:
     folder: all

@@ -1562,6 +1562,42 @@ sources:
       kind: header-library
       name: boost_openmethod
     url: https://github.com/boostorg/openmethod.git
+  1.92.0-a.d+26.11.12.08.44:
+    commit: 536f92b4186cc062836e5665ee536be7b93ba05e
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.92.0-a.d+26.10.15.08.35
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.92.0-a.d+26.10.14.12.40
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: false
+      public: true
+      ref: boost-type_erasure/1.92.0-a.d+25.05.04.19.28
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_openmethod
+    url: https://github.com/boostorg/openmethod.git
   1.92.0-a.m+26.03.13.20.06:
     commit: 6fb6332ca11417dc1b4a4ded1652759758a08109
     cxxstd: '17'
@@ -1683,6 +1719,42 @@ sources:
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_openmethod
+    url: https://github.com/boostorg/openmethod.git
+  1.93.0-b.1:
+    commit: 456d95cb7592df7fe6ae8a1ba6142f029c222fc3
+    cxxstd: '17'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-any/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-dynamic_bitset/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.93.0-b.1
+    - header: false
+      public: true
+      ref: boost-type_erasure/1.93.0-b.1
     targets:
     - dependencies: []
       kind: header-library

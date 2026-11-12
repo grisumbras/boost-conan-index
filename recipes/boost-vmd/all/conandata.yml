@@ -183,3 +183,15 @@ sources:
       kind: header-library
       name: boost_vmd
     url: https://github.com/boostorg/vmd.git
+  1.93.0-b.1:
+    commit: 26b39eb95fa8582cd0f47d79a4a87b048d5db5ce
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.93.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_vmd
+    url: https://github.com/boostorg/vmd.git

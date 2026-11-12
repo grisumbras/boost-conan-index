@@ -147,3 +147,12 @@ sources:
       kind: header-library
       name: boost_hof
     url: https://github.com/boostorg/hof.git
+  1.93.0-b.1:
+    commit: 462ccc63df6f7e9d82a1d95afa705e2c9bb91f51
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_hof
+    url: https://github.com/boostorg/hof.git

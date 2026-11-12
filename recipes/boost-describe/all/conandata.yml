@@ -315,3 +315,15 @@ sources:
       kind: header-library
       name: boost_describe
     url: https://github.com/boostorg/describe.git
+  1.93.0-b.1:
+    commit: 9093a9fbce978c00f332a0c7cbd5a7e3410e5b5e
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-mp11/1.93.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_describe
+    url: https://github.com/boostorg/describe.git

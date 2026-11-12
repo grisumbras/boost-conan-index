@@ -1446,3 +1446,51 @@ sources:
       kind: header-library
       name: boost_multi_index
     url: https://github.com/boostorg/multi_index.git
+  1.93.0-b.1:
+    commit: ba30d1e16e3623c4f17c6b4f089cadb68901fa35
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-bind/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-tuple/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.93.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_multi_index
+    url: https://github.com/boostorg/multi_index.git

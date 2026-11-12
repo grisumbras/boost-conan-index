@@ -363,3 +363,27 @@ sources:
       kind: header-library
       name: boost_scope_exit
     url: https://github.com/boostorg/scope_exit.git
+  1.93.0-b.1:
+    commit: 5450074da7f1d338eb5774b245bd7a255f92680e
+    cxxstd: null
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-function/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-typeof/1.93.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_scope_exit
+    url: https://github.com/boostorg/scope_exit.git

@@ -2127,3 +2127,79 @@ sources:
       kind: library
       name: boost_wserialization
     url: https://github.com/boostorg/serialization.git
+  1.93.0-b.1:
+    commit: 209882507875af5373a0df5ec719c6b8c4f9bffb
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-assert/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-detail/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-integer/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-io/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-iterator/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-move/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-mpl/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-optional/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-spirit/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-type_traits/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-utility/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-variant2/1.93.0-b.1
+    - header: true
+      public: false
+      ref: boost-function/1.93.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_serialization
+    - dependencies:
+      - boost_serialization
+      kind: library
+      name: boost_wserialization
+    url: https://github.com/boostorg/serialization.git

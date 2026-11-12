@@ -813,3 +813,33 @@ sources:
       kind: library
       name: boost_context
     url: https://github.com/boostorg/context.git
+  1.93.0-b.1:
+    commit: fe7194267df7d8a18d6669200cff110e99a80d74
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-config/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-core/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-mp11/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-pool/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-predef/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.93.0-b.1
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_context
+    url: https://github.com/boostorg/context.git

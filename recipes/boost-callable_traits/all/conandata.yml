@@ -147,3 +147,12 @@ sources:
       kind: header-library
       name: boost_callable_traits
     url: https://github.com/boostorg/callable_traits.git
+  1.93.0-b.1:
+    commit: f8fd302daddab05feee00241e8799f060daaac91
+    cxxstd: '11'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_callable_traits
+    url: https://github.com/boostorg/callable_traits.git

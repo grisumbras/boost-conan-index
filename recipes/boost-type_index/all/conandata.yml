@@ -432,3 +432,21 @@ sources:
       kind: header-library
       name: boost_type_index
     url: https://github.com/boostorg/type_index.git
+  1.93.0-b.1:
+    commit: b55331c649c0262d129325d7e00404ee75f6e937
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-container_hash/1.93.0-b.1
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.93.0-b.1
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_type_index
+    url: https://github.com/boostorg/type_index.git

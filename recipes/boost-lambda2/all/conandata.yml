@@ -183,3 +183,12 @@ sources:
       kind: header-library
       name: boost_lambda2
     url: https://github.com/boostorg/lambda2.git
+  1.93.0-b.1:
+    commit: 6ee4ccbdff13edabc8f567a108eb6ecf6f36cdec
+    cxxstd: '14'
+    dependencies: []
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_lambda2
+    url: https://github.com/boostorg/lambda2.git
