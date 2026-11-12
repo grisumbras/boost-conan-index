@@ -507,6 +507,10 @@ class LibraryProject(Project):
     def _system_exceptions(self, lib_dir, registry):
         self.targets[0]['kind'] = 'header-library'
 
+    def _container_exceptions(self, lib_dir, registry):
+        if self.conan_version >= '1.92.0-a.d+26.08.26.08.59':
+            self.targets[0]['kind'] = 'header-library'
+
 
 class ToolProject(Project):
     def __init__(self, name, url, superproject, git_ref):
