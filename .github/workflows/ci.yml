@@ -68,9 +68,9 @@ jobs:
           name: index-${{ matrix.boost-ref }}
           path: index
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v7
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
       - name: Setup Conan
         run: |
@@ -120,9 +120,9 @@ jobs:
           name: index-${{ matrix.boost-ref }}
           path: index
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v7
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
       - name: Setup Conan
         run: |
@@ -173,9 +173,9 @@ jobs:
           name: index-${{ matrix.boost-ref }}
           path: index
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v7
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
       - name: Setup Conan
         run: |

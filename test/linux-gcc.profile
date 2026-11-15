@@ -4,7 +4,7 @@ build_type=Release
 compiler=gcc
 compiler.cppstd=20
 compiler.libcxx=libstdc++11
-compiler.version=13
+compiler.version=15
 os=Linux
 
 [options]

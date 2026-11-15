@@ -4,11 +4,11 @@ build_type=Release
 compiler=clang
 compiler.cppstd=20
 compiler.libcxx=libstdc++11
-compiler.version=18
+compiler.version=20
 os=Linux
 
 [options]
 boost-*:disabled_libraries=boost_numpy,boost_mpi,boost_mpi_python,boost_graph_parallel,boost_stacktrace_backtrace,boost_stacktrace_windbg,boost_stacktrace_windbg_cached,boost_fiber_numa
 
 [conf]
-tools.build:compiler_executables={"cpp": "clang++-18", "c": "clang-18"}
+tools.build:compiler_executables={"cpp": "clang++-20", "c": "clang-20"}
