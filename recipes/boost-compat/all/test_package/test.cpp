@@ -1,4 +1,4 @@
-#include <boost/compat/bind_front.hpp>
+#include <boost/compat/shared_lock.hpp>
 
 int main()
 {

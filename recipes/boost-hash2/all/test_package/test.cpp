@@ -1,4 +1,4 @@
-#include <boost/hash2/fnv1a.hpp>
+#include <boost/hash2/sha3.hpp>
 
 int main()
 {

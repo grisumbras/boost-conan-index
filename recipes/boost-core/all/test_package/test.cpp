@@ -1,4 +1,4 @@
-#include <boost/iterator.hpp>
+#include <boost/type.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/property_map/parallel/unsafe_serialize.hpp>
+#include <boost/property_map/parallel/process_group.hpp>
 
 int main()
 {

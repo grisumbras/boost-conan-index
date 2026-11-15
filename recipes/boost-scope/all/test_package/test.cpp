@@ -1,4 +1,4 @@
-#include <boost/scope/scope_exit.hpp>
+#include <boost/scope/fd_deleter.hpp>
 
 int main()
 {

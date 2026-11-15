@@ -1,4 +1,4 @@
-#include <boost/mpl/pop_back_fwd.hpp>
+#include <boost/mpl/front_inserter.hpp>
 
 int main()
 {

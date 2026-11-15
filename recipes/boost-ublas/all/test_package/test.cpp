@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/expression_types.hpp>
+#include <boost/numeric/ublas/operation_blocked.hpp>
 
 int main()
 {

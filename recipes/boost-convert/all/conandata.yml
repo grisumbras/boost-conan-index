@@ -609,7 +609,7 @@ sources:
       ref: boost-lexical_cast/1.92.0-a.d+26.09.18.10.30
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.11.14.19.43
+      ref: boost-math/1.92.0-a.d+26.11.15.07.55
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
