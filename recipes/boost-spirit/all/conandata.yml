@@ -1764,7 +1764,7 @@ sources:
       ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.d+26.11.12.17.22
+      ref: boost-move/1.92.0-a.d+26.11.13.14.55
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
@@ -1794,7 +1794,7 @@ sources:
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
     - header: false
       public: true
-      ref: boost-thread/1.92.0-a.d+26.11.11.10.21
+      ref: boost-thread/1.92.0-a.d+26.11.14.05.21
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
@@ -1944,7 +1944,7 @@ sources:
       ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.m+26.10.03.00.16
+      ref: boost-integer/1.92.0-a.m+26.11.06.16.16
     - header: true
       public: true
       ref: boost-io/1.92.0-a.m+26.01.22.22.15
@@ -1953,7 +1953,7 @@ sources:
       ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.m+26.11.12.00.16
+      ref: boost-move/1.92.0-a.m+26.11.13.00.20
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16
@@ -1983,7 +1983,7 @@ sources:
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
     - header: false
       public: true
-      ref: boost-thread/1.92.0-a.m+26.10.03.10.19
+      ref: boost-thread/1.92.0-a.m+26.11.14.05.21
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.m+26.01.24.21.38

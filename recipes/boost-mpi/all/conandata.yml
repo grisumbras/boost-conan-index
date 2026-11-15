@@ -1410,7 +1410,7 @@ sources:
       ref: boost-graph/1.92.0-a.m+26.11.02.15.27
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.m+26.10.03.00.16
+      ref: boost-integer/1.92.0-a.m+26.11.06.16.16
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.m+26.10.03.00.17

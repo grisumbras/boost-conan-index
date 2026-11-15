@@ -1,4 +1,4 @@
-#include <boost/graph/point_traits.hpp>
+#include <boost/pending/fenced_priority_queue.hpp>
 
 int main()
 {

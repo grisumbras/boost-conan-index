@@ -1071,7 +1071,7 @@ sources:
       ref: boost-fusion/1.92.0-a.m+26.05.14.03.47
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.m+26.10.03.00.16
+      ref: boost-integer/1.92.0-a.m+26.11.06.16.16
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.m+26.10.03.00.17

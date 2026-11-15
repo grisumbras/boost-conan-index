@@ -1,4 +1,4 @@
-#include <boost/winapi/get_proc_address.hpp>
+#include <boost/winapi/synchronization.hpp>
 
 int main()
 {

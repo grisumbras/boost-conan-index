@@ -1,4 +1,4 @@
-#include <boost/intrusive/member_value_traits.hpp>
+#include <boost/intrusive/pointer_plus_bits.hpp>
 
 int main()
 {

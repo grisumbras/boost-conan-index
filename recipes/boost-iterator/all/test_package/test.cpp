@@ -1,4 +1,4 @@
-#include <boost/function_output_iterator.hpp>
+#include <boost/pointee.hpp>
 
 int main()
 {

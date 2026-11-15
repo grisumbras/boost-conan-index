@@ -639,7 +639,7 @@ sources:
       ref: boost-core/1.92.0-a.d+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-interval/1.92.0-a.d+26.11.05.03.08
+      ref: boost-interval/1.92.0-a.d+26.11.14.10.11
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
@@ -777,7 +777,7 @@ sources:
       ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-interval/1.92.0-a.m+26.11.05.03.08
+      ref: boost-interval/1.92.0-a.m+26.11.14.10.11
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.m+26.10.03.00.17

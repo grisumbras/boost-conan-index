@@ -1,4 +1,4 @@
-#include <boost/icl/interval_traits.hpp>
+#include <boost/icl/ptime.hpp>
 
 int main()
 {

@@ -609,7 +609,7 @@ sources:
       ref: boost-vmd/1.92.0-a.d+25.05.02.19.25
     - header: false
       public: false
-      ref: boost-thread/1.92.0-a.d+26.11.11.10.21
+      ref: boost-thread/1.92.0-a.d+26.11.14.05.21
     targets:
     - dependencies: []
       kind: library
@@ -660,7 +660,7 @@ sources:
       ref: boost-vmd/1.92.0-a.m+25.05.02.19.25
     - header: false
       public: false
-      ref: boost-thread/1.92.0-a.m+26.10.03.10.19
+      ref: boost-thread/1.92.0-a.m+26.11.14.05.21
     targets:
     - dependencies: []
       kind: library

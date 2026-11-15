@@ -654,7 +654,7 @@ sources:
       ref: boost-lambda/1.92.0-a.d+26.05.13.21.03
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.11.10.19.42
+      ref: boost-math/1.92.0-a.d+26.11.14.19.43
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
@@ -687,7 +687,7 @@ sources:
       ref: boost-core/1.92.0-a.m+26.11.04.14.50
     - header: true
       public: true
-      ref: boost-integer/1.92.0-a.m+26.10.03.00.16
+      ref: boost-integer/1.92.0-a.m+26.11.06.16.16
     - header: true
       public: true
       ref: boost-io/1.92.0-a.m+26.01.22.22.15
@@ -696,7 +696,7 @@ sources:
       ref: boost-lambda/1.92.0-a.m+26.05.13.21.03
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.m+26.10.20.19.01
+      ref: boost-math/1.92.0-a.m+26.11.12.14.55
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16

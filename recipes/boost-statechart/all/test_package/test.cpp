@@ -1,4 +1,4 @@
-#include <boost/statechart/processor_container.hpp>
+#include <boost/statechart/event_processor.hpp>
 
 int main()
 {

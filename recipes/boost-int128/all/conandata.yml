@@ -14,6 +14,21 @@ sources:
       kind: header-library
       name: boost_int128
     url: https://github.com/boostorg/int128.git
+  1.92.0-a.d+26.11.14.16.17:
+    commit: 051e7e3f99522ffb0819015eb65031cde2609360
+    cxxstd: '14'
+    dependencies:
+    - header: false
+      public: true
+      ref: boost-charconv/1.92.0-a.d+26.11.14.16.18
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_int128
+    url: https://github.com/boostorg/int128.git
   1.92.0-a.m+26.11.03.09.05:
     commit: 9f685a03f9113848a19194e0ddc9847db001a942
     cxxstd: '14'

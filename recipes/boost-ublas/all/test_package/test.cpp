@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/hermitian.hpp>
+#include <boost/numeric/ublas/expression_types.hpp>
 
 int main()
 {

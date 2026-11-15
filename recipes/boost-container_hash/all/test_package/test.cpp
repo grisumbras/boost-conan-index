@@ -1,4 +1,4 @@
-#include <boost/container_hash/is_tuple_like.hpp>
+#include <boost/functional/hash_fwd.hpp>
 
 int main()
 {
