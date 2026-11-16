@@ -1,4 +1,4 @@
-#include <boost/interprocess/managed_xsi_shared_memory.hpp>
+#include <boost/interprocess/xsi_key.hpp>
 
 int main()
 {

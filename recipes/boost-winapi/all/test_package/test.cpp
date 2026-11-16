@@ -1,4 +1,4 @@
-#include <boost/winapi/shell.hpp>
+#include <boost/winapi/synchronization.hpp>
 
 int main()
 {

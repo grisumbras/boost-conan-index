@@ -1,4 +1,4 @@
-#include <boost/iostreams/char_traits.hpp>
+#include <boost/iostreams/pipeline.hpp>
 
 int main()
 {

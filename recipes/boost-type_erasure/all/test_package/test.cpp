@@ -1,4 +1,4 @@
-#include <boost/type_erasure/typeid_of.hpp>
+#include <boost/type_erasure/iterator.hpp>
 
 int main()
 {

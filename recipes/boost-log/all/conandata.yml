@@ -2819,7 +2819,7 @@ sources:
       ref: boost-fusion/1.92.0-a.d+26.05.14.03.47
     - header: true
       public: true
-      ref: boost-intrusive/1.92.0-a.d+26.11.13.14.49
+      ref: boost-intrusive/1.92.0-a.d+26.11.16.15.05
     - header: true
       public: true
       ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
@@ -2891,7 +2891,7 @@ sources:
       ref: boost-asio/1.92.0-a.d+26.11.05.21.42
     - header: true
       public: false
-      ref: boost-interprocess/1.92.0-a.d+26.11.14.00.46
+      ref: boost-interprocess/1.92.0-a.d+26.11.16.01.47
     - header: true
       public: false
       ref: boost-io/1.92.0-a.d+26.01.22.22.15

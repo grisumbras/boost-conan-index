@@ -1,4 +1,4 @@
-#include <boost/graph/leda_graph.hpp>
+#include <boost/pending/fenced_priority_queue.hpp>
 
 int main()
 {
