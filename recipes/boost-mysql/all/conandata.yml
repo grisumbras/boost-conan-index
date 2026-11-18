@@ -1463,6 +1463,67 @@ sources:
       kind: header-library
       name: boost_mysql
     url: https://github.com/boostorg/mysql.git
+  1.92.0-a.d+26.11.17.03.48:
+    commit: fdbf04699a364b5c1bb84a084706ff7b4da9399b
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-asio/1.92.0-a.d+26.11.05.21.42
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: false
+      public: true
+      ref: boost-charconv/1.92.0-a.d+26.11.14.16.18
+    - header: true
+      public: true
+      ref: boost-compat/1.92.0-a.d+26.01.24.12.40
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.d+26.11.17.19.56
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-describe/1.92.0-a.d+26.10.26.18.26
+    - header: true
+      public: true
+      ref: boost-endian/1.92.0-a.d+26.01.23.05.36
+    - header: true
+      public: true
+      ref: boost-intrusive/1.92.0-a.d+26.11.17.20.14
+    - header: true
+      public: true
+      ref: boost-mp11/1.92.0-a.d+26.08.15.00.22
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
+    - header: true
+      public: true
+      ref: boost-pfr/1.92.0-a.d+26.11.01.08.01
+    - header: true
+      public: true
+      ref: boost-system/1.92.0-a.d+26.10.22.16.04
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-variant2/1.92.0-a.d+26.07.24.20.44
+    - header: false
+      public: true
+      ref: openssl/[*]
+    targets:
+    - dependencies:
+      - openssl::ssl
+      kind: header-library
+      name: boost_mysql
+    url: https://github.com/boostorg/mysql.git
   1.92.0-a.m+26.03.28.23.26:
     commit: c20a0410fd6141f1e590828a810de4aae6b07a98
     cxxstd: '11'

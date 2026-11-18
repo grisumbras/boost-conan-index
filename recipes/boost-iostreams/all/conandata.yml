@@ -939,6 +939,66 @@ sources:
       kind: library
       name: boost_iostreams
     url: https://github.com/boostorg/iostreams.git
+  1.92.0-a.d+26.11.13.12.15:
+    commit: 1abc3f64f54be7478ab0609ff465993ca9d95889
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-function/1.92.0-a.d+26.01.23.05.06
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.d+26.11.06.16.16
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: false
+      public: true
+      ref: boost-random/1.92.0-a.d+26.11.09.08.58
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.d+26.02.19.10.17
+    - header: false
+      public: true
+      ref: boost-regex/1.92.0-a.d+26.05.22.17.45
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.10.15.23.22
+    - header: true
+      public: false
+      ref: boost-numeric_conversion/1.92.0-a.d+25.06.26.07.40
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_iostreams
+    url: https://github.com/boostorg/iostreams.git
   1.92.0-a.d+26.11.13.12.16:
     commit: 8250dbc020ed563727b4dad6d48f70147e339d9c
     cxxstd: '11'
