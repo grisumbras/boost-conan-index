@@ -3870,7 +3870,7 @@ sources:
       ref: boost-detail/1.92.0-a.d+26.10.03.00.15
     - header: true
       public: true
-      ref: boost-int128/1.92.0-a.d+26.11.14.16.17
+      ref: boost-int128/1.92.0-a.d+26.11.18.13.22
     - header: true
       public: true
       ref: boost-integer/1.92.0-a.d+26.11.06.16.16

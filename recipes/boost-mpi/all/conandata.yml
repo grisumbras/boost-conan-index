@@ -1166,7 +1166,7 @@ sources:
       ref: boost-python/1.92.0-a.d+26.10.03.12.01
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.10.27.17.23
+      ref: boost-serialization/1.92.0-a.d+26.11.19.09.38
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21

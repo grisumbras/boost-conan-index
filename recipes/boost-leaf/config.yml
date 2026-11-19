@@ -85,11 +85,15 @@ versions:
     folder: all
   1.92.0-a.d+26.11.16.17.58:
     folder: all
+  1.92.0-a.d+26.11.18.00.19:
+    folder: all
   1.92.0-a.m+26.02.18.15.25:
     folder: all
   1.92.0-a.m+26.11.14.17.49:
     folder: all
   1.92.0-a.m+26.11.16.13.56:
+    folder: all
+  1.92.0-a.m+26.11.18.00.19:
     folder: all
   1.92.0-b.1:
     folder: all
