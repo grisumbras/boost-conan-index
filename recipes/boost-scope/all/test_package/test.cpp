@@ -1,4 +1,4 @@
-#include <boost/scope/scope_exit.hpp>
+#include <boost/scope/unique_resource.hpp>
 
 int main()
 {

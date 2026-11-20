@@ -1443,7 +1443,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-container/1.92.0-a.d+26.11.18.15.59
+      ref: boost-container/1.92.0-a.d+26.11.20.00.03
     - header: true
       public: true
       ref: boost-container_hash/1.92.0-a.d+26.11.14.19.13
@@ -1464,7 +1464,7 @@ sources:
       ref: boost-io/1.92.0-a.d+26.01.22.22.15
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.d+26.11.13.14.55
+      ref: boost-move/1.92.0-a.d+26.11.20.00.55
     - header: true
       public: true
       ref: boost-optional/1.92.0-a.d+26.07.17.00.19
@@ -1788,7 +1788,7 @@ sources:
       ref: boost-io/1.92.0-a.m+26.01.22.22.15
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.m+26.11.13.00.20
+      ref: boost-move/1.92.0-a.m+26.11.19.23.16
     - header: true
       public: true
       ref: boost-optional/1.92.0-a.m+26.07.16.01.06

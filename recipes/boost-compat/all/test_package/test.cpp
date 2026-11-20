@@ -1,4 +1,4 @@
-#include <boost/compat/bind_front.hpp>
+#include <boost/compat/mem_fn.hpp>
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include <boost/iterator.hpp>
+#include <boost/checked_delete.hpp>
 
 int main()
 {

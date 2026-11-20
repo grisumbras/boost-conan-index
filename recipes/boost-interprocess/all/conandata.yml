@@ -1693,6 +1693,33 @@ sources:
       kind: header-library
       name: boost_interprocess
     url: https://github.com/boostorg/interprocess.git
+  1.92.0-a.d+26.11.20.01.48:
+    commit: 53959e720880b2b766580debbe81ef512df510de
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.d+26.11.20.00.03
+    - header: true
+      public: true
+      ref: boost-intrusive/1.92.0-a.d+26.11.20.12.03
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.d+26.11.20.00.55
+    - header: true
+      public: true
+      ref: boost-winapi/1.92.0-a.d+25.08.25.19.08
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_interprocess
+    url: https://github.com/boostorg/interprocess.git
   1.92.0-a.m+26.02.27.01.09:
     commit: 87d8c1059e513621cd4da71567ec127ff5ea38a0
     cxxstd: '03'
@@ -1765,7 +1792,7 @@ sources:
       ref: boost-intrusive/1.92.0-a.m+26.11.11.08.13
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.m+26.11.13.00.20
+      ref: boost-move/1.92.0-a.m+26.11.19.23.16
     - header: true
       public: true
       ref: boost-winapi/1.92.0-a.m+25.08.25.19.08

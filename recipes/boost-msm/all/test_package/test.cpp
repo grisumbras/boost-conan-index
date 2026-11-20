@@ -1,4 +1,4 @@
-#include <boost/msm/active_state_switching_policies.hpp>
+#include <boost/msm/row_tags.hpp>
 
 int main()
 {

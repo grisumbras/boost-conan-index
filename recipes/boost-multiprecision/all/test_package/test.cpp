@@ -1,4 +1,4 @@
-#include <boost/multiprecision/cpp_bin_float.hpp>
+#include <boost/multiprecision/integer.hpp>
 
 int main()
 {

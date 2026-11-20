@@ -720,7 +720,7 @@ sources:
       ref: boost-integer/1.92.0-a.d+26.11.06.16.16
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.d+26.11.13.14.55
+      ref: boost-move/1.92.0-a.d+26.11.20.00.55
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
@@ -771,7 +771,7 @@ sources:
       ref: boost-integer/1.92.0-a.m+26.11.06.16.16
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.m+26.11.13.00.20
+      ref: boost-move/1.92.0-a.m+26.11.19.23.16
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16

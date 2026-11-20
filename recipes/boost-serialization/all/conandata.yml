@@ -1818,6 +1818,82 @@ sources:
       kind: library
       name: boost_wserialization
     url: https://github.com/boostorg/serialization.git
+  1.92.0-a.d+26.11.18.17.56:
+    commit: 4d32e9116adbaf521ecadbf6dcd0d59edb7f0a81
+    cxxstd: '11'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-array/1.92.0-a.d+26.01.23.05.53
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-integer/1.92.0-a.d+26.11.06.16.16
+    - header: true
+      public: true
+      ref: boost-io/1.92.0-a.d+26.01.22.22.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.d+26.11.20.00.55
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-optional/1.92.0-a.d+26.07.17.00.19
+    - header: true
+      public: true
+      ref: boost-predef/1.92.0-a.d+26.10.27.08.43
+    - header: true
+      public: true
+      ref: boost-preprocessor/1.92.0-a.d+25.06.09.02.52
+    - header: true
+      public: true
+      ref: boost-smart_ptr/1.92.0-a.d+26.01.23.02.21
+    - header: true
+      public: true
+      ref: boost-spirit/1.92.0-a.d+26.10.29.11.32
+    - header: true
+      public: true
+      ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.10.15.23.22
+    - header: true
+      public: true
+      ref: boost-variant/1.92.0-a.d+26.08.31.19.05
+    - header: true
+      public: true
+      ref: boost-variant2/1.92.0-a.d+26.07.24.20.44
+    - header: true
+      public: false
+      ref: boost-function/1.92.0-a.d+26.01.23.05.06
+    targets:
+    - dependencies: []
+      kind: library
+      name: boost_serialization
+    - dependencies:
+      - boost_serialization
+      kind: library
+      name: boost_wserialization
+    url: https://github.com/boostorg/serialization.git
   1.92.0-a.d+26.11.19.09.38:
     commit: 21f514db46ad513911714c47c38646ef40f52e52
     cxxstd: '11'
@@ -2078,7 +2154,7 @@ sources:
       ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
     - header: true
       public: true
-      ref: boost-move/1.92.0-a.m+26.11.13.00.20
+      ref: boost-move/1.92.0-a.m+26.11.19.23.16
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16

@@ -1,4 +1,4 @@
-#include <boost/property_map/parallel/unsafe_serialize.hpp>
+#include <boost/property_map/parallel/vector_property_map.hpp>
 
 int main()
 {

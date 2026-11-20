@@ -533,6 +533,18 @@ sources:
       kind: header-library
       name: boost_move
     url: https://github.com/boostorg/move.git
+  1.92.0-a.d+26.11.20.00.55:
+    commit: 77fcb31014c7cb89b87cc9bc76e237d881046071
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_move
+    url: https://github.com/boostorg/move.git
   1.92.0-a.m+26.02.17.23.20:
     commit: ae8cf4075f6f6c8ca590d8743d9cf1a5f6cc83c2
     cxxstd: '03'
@@ -571,6 +583,18 @@ sources:
     url: https://github.com/boostorg/move.git
   1.92.0-a.m+26.11.13.00.20:
     commit: 2492488430f55523c1df6899e74c52052a713d1b
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.m+26.10.25.13.52
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_move
+    url: https://github.com/boostorg/move.git
+  1.92.0-a.m+26.11.19.23.16:
+    commit: ff733378ac4a9ab8a2e1b96d3e7962d0fb366944
     cxxstd: '03'
     dependencies:
     - header: true

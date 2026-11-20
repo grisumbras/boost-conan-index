@@ -1,4 +1,4 @@
-#include <boost/pending/fenced_priority_queue.hpp>
+#include <boost/graph/topology.hpp>
 
 int main()
 {
