@@ -1,4 +1,4 @@
-#include <boost/logic/tribool_io.hpp>
+#include <boost/logic/tribool.hpp>
 
 int main()
 {

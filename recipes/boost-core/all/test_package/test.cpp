@@ -1,4 +1,4 @@
-#include <boost/checked_delete.hpp>
+#include <boost/type.hpp>
 
 int main()
 {

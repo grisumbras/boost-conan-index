@@ -3115,7 +3115,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-intrusive/1.92.0-a.d+26.11.20.12.03
+      ref: boost-intrusive/1.92.0-a.d+26.11.20.21.04
     - header: true
       public: true
       ref: boost-move/1.92.0-a.d+26.11.20.00.55

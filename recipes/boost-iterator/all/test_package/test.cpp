@@ -1,4 +1,4 @@
-#include <boost/pointee.hpp>
+#include <boost/indirect_reference.hpp>
 
 int main()
 {

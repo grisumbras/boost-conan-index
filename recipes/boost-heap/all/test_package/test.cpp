@@ -1,4 +1,4 @@
-#include <boost/heap/heap_merge.hpp>
+#include <boost/heap/policies.hpp>
 
 int main()
 {
