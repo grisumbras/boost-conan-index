@@ -1,4 +1,4 @@
-#include <boost/msm/msm_grammar.hpp>
+#include <boost/msm/row_tags.hpp>
 
 int main()
 {

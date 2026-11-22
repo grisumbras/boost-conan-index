@@ -1,4 +1,4 @@
-#include <boost/numeric/ublas/operation_blocked.hpp>
+#include <boost/numeric/ublas/matrix_vector.hpp>
 
 int main()
 {

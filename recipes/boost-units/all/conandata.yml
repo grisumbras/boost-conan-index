@@ -696,7 +696,7 @@ sources:
       ref: boost-lambda/1.92.0-a.m+26.05.13.21.03
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.m+26.11.18.08.26
+      ref: boost-math/1.92.0-a.m+26.11.22.14.58
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.m+26.06.29.19.16

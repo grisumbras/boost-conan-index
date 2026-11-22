@@ -1092,7 +1092,7 @@ sources:
       ref: boost-iterator/1.92.0-a.m+26.10.03.00.17
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.m+26.11.18.08.26
+      ref: boost-math/1.92.0-a.m+26.11.22.14.58
     - header: false
       public: true
       ref: boost-mpi/1.92.0-a.m+26.08.14.15.20

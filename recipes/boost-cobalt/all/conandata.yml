@@ -1867,7 +1867,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-container/1.92.0-a.d+26.11.20.00.03
+      ref: boost-container/1.92.0-a.d+26.11.22.11.29
     - header: false
       public: true
       ref: boost-context/1.92.0-a.d+26.10.07.19.14
@@ -1879,7 +1879,7 @@ sources:
       ref: boost-endian/1.92.0-a.d+26.01.23.05.36
     - header: true
       public: true
-      ref: boost-intrusive/1.92.0-a.d+26.11.20.21.04
+      ref: boost-intrusive/1.92.0-a.d+26.11.22.11.29
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.d+26.08.15.00.22
@@ -2074,7 +2074,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-container/1.92.0-a.m+26.11.12.20.41
+      ref: boost-container/1.92.0-a.m+26.11.21.19.21
     - header: false
       public: true
       ref: boost-context/1.92.0-a.m+26.10.07.19.14
