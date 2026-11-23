@@ -558,7 +558,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.d+26.11.04.14.50
+      ref: boost-core/1.92.0-a.d+26.11.23.17.13
     - header: true
       public: true
       ref: boost-move/1.92.0-a.d+26.11.22.02.19
@@ -597,7 +597,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.11.04.14.50
+      ref: boost-core/1.92.0-a.m+26.11.23.17.13
     - header: true
       public: true
       ref: boost-move/1.92.0-a.m+26.11.19.23.16
