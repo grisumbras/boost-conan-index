@@ -615,13 +615,13 @@ sources:
       ref: boost-core/1.92.0-a.d+26.11.23.17.13
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.11.20.23.28
+      ref: boost-math/1.92.0-a.d+26.11.24.16.16
     - header: true
       public: true
       ref: boost-mp11/1.92.0-a.d+26.08.15.00.22
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.d+26.11.18.17.56
+      ref: boost-serialization/1.92.0-a.d+26.11.23.12.12
     - header: true
       public: true
       ref: boost-throw_exception/1.92.0-a.d+26.01.24.21.38

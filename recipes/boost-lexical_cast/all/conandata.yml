@@ -490,7 +490,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: true
       public: true
-      ref: boost-container/1.92.0-a.d+26.11.22.23.12
+      ref: boost-container/1.92.0-a.d+26.11.24.00.23
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.11.23.17.13

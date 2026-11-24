@@ -654,7 +654,7 @@ sources:
       ref: boost-lambda/1.92.0-a.d+26.05.13.21.03
     - header: false
       public: true
-      ref: boost-math/1.92.0-a.d+26.11.20.23.28
+      ref: boost-math/1.92.0-a.d+26.11.24.16.16
     - header: true
       public: true
       ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
