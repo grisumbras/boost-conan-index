@@ -1,4 +1,4 @@
-#include <boost/graph/accounting.hpp>
+#include <boost/graph/use_mpi.hpp>
 
 int main()
 {

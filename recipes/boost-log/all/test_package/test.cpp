@@ -1,4 +1,4 @@
-#include <boost/log/attributes.hpp>
+#include <boost/log/exceptions.hpp>
 
 int main()
 {

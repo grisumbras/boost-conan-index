@@ -1,4 +1,4 @@
-#include <boost/graph/topology.hpp>
+#include <boost/graph/leda_graph.hpp>
 
 int main()
 {

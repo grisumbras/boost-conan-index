@@ -1,4 +1,4 @@
-#include <boost/scope/unique_resource.hpp>
+#include <boost/scope/fd_deleter.hpp>
 
 int main()
 {

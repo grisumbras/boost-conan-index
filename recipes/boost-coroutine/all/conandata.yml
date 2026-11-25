@@ -447,7 +447,7 @@ sources:
       ref: boost-context/1.92.0-a.d+26.10.07.19.14
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.d+26.11.23.17.13
+      ref: boost-core/1.92.0-a.d+26.11.25.02.15
     - header: false
       public: true
       ref: boost-exception/1.92.0-a.d+26.05.30.15.57
@@ -486,7 +486,7 @@ sources:
       ref: boost-context/1.92.0-a.m+26.10.07.19.14
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.11.23.17.13
+      ref: boost-core/1.92.0-a.m+26.11.25.02.15
     - header: false
       public: true
       ref: boost-exception/1.92.0-a.m+26.05.31.13.38

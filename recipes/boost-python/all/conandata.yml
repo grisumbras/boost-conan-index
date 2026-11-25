@@ -1529,7 +1529,7 @@ sources:
       ref: boost-conversion/1.92.0-a.d+26.08.31.18.02
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.d+26.11.23.17.13
+      ref: boost-core/1.92.0-a.d+26.11.25.02.15
     - header: true
       public: true
       ref: boost-detail/1.92.0-a.d+26.10.03.00.15
@@ -1678,7 +1678,7 @@ sources:
       ref: boost-conversion/1.92.0-a.m+26.08.31.18.02
     - header: true
       public: true
-      ref: boost-core/1.92.0-a.m+26.11.23.17.13
+      ref: boost-core/1.92.0-a.m+26.11.25.02.15
     - header: true
       public: true
       ref: boost-detail/1.92.0-a.m+26.10.03.00.15
