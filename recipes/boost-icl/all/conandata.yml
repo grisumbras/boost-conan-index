@@ -801,6 +801,57 @@ sources:
       kind: header-library
       name: boost_icl
     url: https://github.com/boostorg/icl.git
+  1.92.0-a.d+26.11.26.14.55:
+    commit: 82812b9493759bdf97759f98c5bed01267196a11
+    cxxstd: '03'
+    dependencies:
+    - header: true
+      public: true
+      ref: boost-assert/1.92.0-a.d+26.11.01.12.36
+    - header: true
+      public: true
+      ref: boost-concept_check/1.92.0-a.d+26.01.22.22.44
+    - header: true
+      public: true
+      ref: boost-config/1.92.0-a.d+26.10.25.13.52
+    - header: true
+      public: true
+      ref: boost-container/1.92.0-a.d+26.11.25.01.35
+    - header: true
+      public: true
+      ref: boost-core/1.92.0-a.d+26.11.25.02.15
+    - header: false
+      public: true
+      ref: boost-date_time/1.92.0-a.d+26.06.01.01.52
+    - header: true
+      public: true
+      ref: boost-detail/1.92.0-a.d+26.10.03.00.15
+    - header: true
+      public: true
+      ref: boost-iterator/1.92.0-a.d+26.10.03.00.17
+    - header: true
+      public: true
+      ref: boost-move/1.92.0-a.d+26.11.24.15.52
+    - header: true
+      public: true
+      ref: boost-mpl/1.92.0-a.d+26.06.29.19.16
+    - header: true
+      public: true
+      ref: boost-range/1.92.0-a.d+26.02.19.10.17
+    - header: true
+      public: true
+      ref: boost-rational/1.92.0-a.d+26.01.22.21.05
+    - header: true
+      public: true
+      ref: boost-type_traits/1.92.0-a.d+26.01.23.18.36
+    - header: true
+      public: true
+      ref: boost-utility/1.92.0-a.d+26.10.15.23.22
+    targets:
+    - dependencies: []
+      kind: header-library
+      name: boost_icl
+    url: https://github.com/boostorg/icl.git
   1.92.0-a.m+23.09.23.20.05:
     commit: 2741c3a1b7b79f7326360c26c3e1588b385c9e53
     cxxstd: '03'

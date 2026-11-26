@@ -1,4 +1,4 @@
-#include <boost/statechart/custom_reaction.hpp>
+#include <boost/statechart/in_state_reaction.hpp>
 
 int main()
 {

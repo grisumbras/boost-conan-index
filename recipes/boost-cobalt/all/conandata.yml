@@ -1870,7 +1870,7 @@ sources:
       ref: boost-container/1.92.0-a.d+26.11.25.01.35
     - header: false
       public: true
-      ref: boost-context/1.92.0-a.d+26.10.07.19.14
+      ref: boost-context/1.92.0-a.d+26.11.26.17.19
     - header: true
       public: true
       ref: boost-core/1.92.0-a.d+26.11.25.02.15
@@ -2077,7 +2077,7 @@ sources:
       ref: boost-container/1.92.0-a.m+26.11.21.19.21
     - header: false
       public: true
-      ref: boost-context/1.92.0-a.m+26.10.07.19.14
+      ref: boost-context/1.92.0-a.m+26.11.26.17.19
     - header: true
       public: true
       ref: boost-core/1.92.0-a.m+26.11.25.02.15

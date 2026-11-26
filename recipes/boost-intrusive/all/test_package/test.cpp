@@ -1,4 +1,4 @@
-#include <boost/intrusive/bstree.hpp>
+#include <boost/intrusive/intrusive_fwd.hpp>
 
 int main()
 {

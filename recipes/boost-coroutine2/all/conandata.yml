@@ -231,7 +231,7 @@ sources:
       ref: boost-config/1.92.0-a.d+26.10.25.13.52
     - header: false
       public: true
-      ref: boost-context/1.92.0-a.d+26.10.07.19.14
+      ref: boost-context/1.92.0-a.d+26.11.26.17.19
     targets:
     - dependencies: []
       kind: header-library
@@ -267,7 +267,7 @@ sources:
       ref: boost-config/1.92.0-a.m+26.10.25.13.52
     - header: false
       public: true
-      ref: boost-context/1.92.0-a.m+26.10.07.19.14
+      ref: boost-context/1.92.0-a.m+26.11.26.17.19
     targets:
     - dependencies: []
       kind: header-library

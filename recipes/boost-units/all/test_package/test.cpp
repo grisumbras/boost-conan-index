@@ -1,4 +1,4 @@
-#include <boost/units/reduce_unit.hpp>
+#include <boost/units/dimensionless_quantity.hpp>
 
 int main()
 {
