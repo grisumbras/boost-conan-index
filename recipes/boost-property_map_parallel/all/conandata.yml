@@ -702,7 +702,7 @@ sources:
       ref: boost-property_map/1.92.0-a.m+26.01.22.20.55
     - header: false
       public: true
-      ref: boost-serialization/1.92.0-a.m+26.10.27.17.23
+      ref: boost-serialization/1.92.0-a.m+26.11.24.17.10
     - header: true
       public: true
       ref: boost-smart_ptr/1.92.0-a.m+26.01.23.02.21
